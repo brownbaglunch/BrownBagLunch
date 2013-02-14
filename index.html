@@ -4,22 +4,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-38399904-1']);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
     <title>Brown Bag Lunch in Paris</title>
 
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" rel="stylesheet"
-          media="screen">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
 </head>
 
 <body>
@@ -273,7 +260,7 @@
                     <ul>
                         <li>
                             <strong>Tout ce que vous devez savoir sur Node.js</strong>
-                            Découvrirez les bases de Node.js, son écosystème, ses atouts, ses faiblesses et tout ce que
+                            Découvrez les bases de Node.js, son écosystème, ses atouts, ses faiblesses et tout ce que
                             vous devez savoir du démarrage votre premier projet jusqu'à sa mise en ligne !
                         </li>
                         <li>
@@ -308,7 +295,18 @@
 </div>
 
 <!-- Included JS Files -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38399904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 </body>
 </html>
