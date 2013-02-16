@@ -6,10 +6,256 @@
 
     <title>Brown Bag Lunch in Paris</title>
 
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>	
+
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
 </head>
 
 <body>
+
+	<script type="text/javascript">
+		var data={
+			baggers:[
+				{
+					pseudo: "fsa",
+					name: "François Sarradin",
+					bio: "Consultant Java et &#955; développeur",
+					picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+					websites: [
+						{title: "Blog personnel", href: "http://kerflyn.wordpress.com/"},
+						{title: "Blog Xebia", href: "http://blog.xebia.fr/author/fsarradin"}
+					],
+					twitter: "fsarradin",
+					contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
+					location: "La Défense et alentours uniquement",
+					sessions: [
+						{
+							title: "Réaliser en Scala en moins d'une heure un framework Web qui poutre",
+							summary: "Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible."
+						},
+						{
+							title: "Fabriquez vous même votre type Option",
+							summary: "Tests unitaires et refactoring pour comprendre la monade Option en Java 8"
+						}
+					],
+					paire: false
+				},
+				{
+					pseudo: "nri",
+					name: "Nathaniel Richand",
+					bio: "Coach agile",
+					picture: "img/photo_nathaniel.jpg",
+					websites: [
+						{title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"}
+					],
+					twitter: "nrichand",
+					contact: "nrichand@brownbaglunch.fr",
+					location: "La Défense et alentours uniquement",
+					sessions: [
+						{
+							title: "Plus de fun et de diversité dans vos rétrospectives",
+							summary: "Discussion sur comment bien animer une rétrospective et présentation de nombreux formats."
+						},
+						{
+							title: "Introduction au Lean Startup",
+							summary: "Présentation des concepts et de quelques outils phares du Lean Startup."
+						}
+					],
+					paire: true
+				},
+				{
+					pseudo: "mle",
+					name: "Mathilde Lemée",
+					bio: "Ingénieur R&amp;D - Terracotta",
+					picture: "img/photo_mathilde.jpeg",
+					websites: [
+						{title: "Blog personnel", href: "http://www.java-freelance.fr/"}
+					],
+					twitter: "mathildelemeee",
+					contact: "prenom.nom@yahoo.fr",
+					location: "Paris, La Défense, Banlieue",
+					sessions: [
+						{
+							title: "Cache &amp; BigData",
+							summary: "Différents sujets : Terracotta, ehcache, clustering, scalabilité, concepts avancés sur le cache ..."
+						},
+						{
+							title: "Les tests",
+							summary: "Différents sujets : Selenium, FluentLenium, Mise en place de Selenium, Byteman ..."
+						},
+						{
+							title: "Le mobile",
+							summary: "Premier pas avec Corona SDK, REX sur 6 mois de dev et de marketing d'applis mobile (http://www.aetys.fr)"
+						}
+					],
+					paire: false
+				},
+				{
+					pseudo: "dga",
+					name: "David Gageot",
+					bio: "Professional Geek - Freelance",
+					picture: "http://gravatar.com/avatar/f0887bf6175ba40dca795eb37883a8cf?s=256",
+					websites: [
+						{title: "Blog personnel", href: "http://blog.javabien.net/"}
+					],
+					twitter: "dgageot",
+					contact: "david@gageot.net",
+					location: "Paris, La Défense, (France/Etranger selon mes déplacements)",
+					sessions: [
+						{
+							title: "Du Legacy au Cloud en moins d’une heure",
+							summary: "Live coding sur les techniques de refactoring par les tests et démontrant comment déployer rapidement sur le Cloud."
+						},
+						{
+							title: "Kitten FaceMash – Marre des frameworks, oui aux bons outils",
+							summary: "Live coding sur le développement d'un site web en TDD, sans framework mais une combinaison de bonnes librairies."
+						},
+						{
+							title: "Mockito – Ecrire des tests simples et peu sensibles au refactoring",
+							summary: "Slides démontrant l’utilisation de la librairie Mockito. L’accent est mis sur la forte tolérance au refactoring par rapport aux mocks codés à la main."
+						},
+						{
+							title: "Introduction à Git",
+							summary: "Slides présentant les avantages de Git. En particulier la grande liberté laissée aux équipes, la tolérance au refactoring, l’utilisation dans l'analyse de régressions."
+						},
+						{
+							title: "Let’s make these tests run faster",
+							summary: "Slides présentant des techniques pour accélérer les tests unitaires/fonctionnels. Le but étant de passer tout un build en quelques minutes afin d’avoir le feedback le plus court possible."
+						},
+						{
+							title: "Outils de test avancés",
+							summary: "Slides présentant des outils pour écrire des tests plus simples, plus clairs, plus rapides. (JUnit4 Rules, Infinitest, FestAssert...)"
+						}
+					],
+					paire: true
+				},
+				{
+					pseudo: "rma",
+					name: "Romain Maton",
+					bio: "Consultant Java/Web/Agile - Freelance",
+					picture: "https://lh4.googleusercontent.com/-VcEH4WuA6XE/ThmqIx4nf_I/AAAAAAAAAso/Az2a4TtTgmA/s800/avatar_rmat0n.jpg",
+					websites: [
+						{title: "Blog personnel", href: "http://www.web-tambouille.fr/"}
+					],
+					twitter: "rmat0n",
+					contact: "prenom.nom@gmail.com ou prenom@tamlab.fr",
+					location: "La Défense et alentours uniquement",
+					sessions: [
+						{
+							title: "Tout ce que vous devez savoir sur Node.js",
+							summary: "Découvrez les bases de Node.js, son écosystème, ses atouts, ses faiblesses et tout ce que vous devez savoir du démarrage votre premier projet jusqu'à sa mise en ligne !"
+						},
+						{
+							title: "Optimiser votre site Web sur mobile",
+							summary: "Nous regarderons l'évolution de ce marché mobile, les normes existantes, les bonnes pratiques de développement mobile ainsi que les outils et frameworks qui vous permettront de sublimer votre site web pour smartphone."
+						},
+						{
+							title: "24 plugins chrono",
+							summary: "Pas de Jack Bauer dans cette session mais un développeur qui passe en revue 24 plugins pour <span style=\"text-decoration: line-through;\">sauver le monde</span> booster votre IDE !"
+						}
+					],
+					paire: false
+				},
+				{
+					pseudo: "fbi",
+					name: "Florent Biville",
+					bio: "Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts",
+					picture: "http://m.c.lnkd.licdn.com/media/p/3/000/0be/019/0a2b80a.jpg",
+					websites: [
+						{title: "Blog personnel", href: "http://florent.biville.net/"},
+						{title: "Lateral Thoughts", href: "http://www.lateral-thoughts.com"}
+					],
+					twitter: "fbiville",
+					contact: "f POINT biville AT lateral TIRET thoughts POINT com",
+					location: "Paris",
+					sessions: [
+						{
+							title: "Découvrons Neo4J",
+							summary: "Découvrons ensemble la toute-puissance de LA base de données graphe <strong>Neo4J</strong>, ses cas d'utilisation, ses différentes APIs Java, son langage de requêtage Cypher."
+						},
+						{
+							title: "+ de productivité avec SpringData",
+							summary: "Introduction à SpringData : ses motivations, son socle commun et son interfaçage avec différents stores NoSQL et relationnels (MongoDB, Neo4J, JPA...)."
+						},
+						{
+							title: "Liquibase : gestionnaire de versions pour RDBMS",
+							summary: "Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ? Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments  portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring)."
+						}
+					],
+					paire: true
+				},
+				{
+					pseudo: "ben",
+					name: "Bernard Notarianni",
+					bio: "Créateur de logiciels et coach agile",
+					picture: "img/photo_bernard.jpg",
+					websites: [
+						{title: "LinkedIn", href: "http://fr.linkedin.com/in/notarianni/"}
+					],
+					twitter: "notarianni",
+					contact: "prenom.nom@gmail.com",
+					location: "Paris, banlieue nord (St Denis..) ou ouest (La Défense...)",
+					sessions: [
+						{
+							title: "Agile...",
+							summary: "Comment passer à l'agile. Comment convaincre ses managers et/ou ses collègues. Créer un backlog, devenir product manager. Améliorer son projet agile existant. Créer une communauté de praticiens dans sa boite. Etc."
+						},
+						{
+							title: "Startup...",
+							summary: "Retour d'expérience en tant que jeune co-créateur de startup qui s'est lancé depuis début 2012. Lean Startup, l'agile et le reste in real life."
+						},
+						{
+							title: "Erlang...",
+							summary: "C'est quoi Erlang? Ca marche comment? Pourquoi je dois faire de l'Erlang?" 
+						},
+						{
+							title: "Ember JS...",
+							summary: "Retour d'expérience, live coding, dojo..." 
+						}
+					],
+					paire: false
+				},
+				{
+					pseudo: "rli",
+					name: "Romain Linsolas",
+					bio: "Développeur Java & architecte technique",
+					picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1ce/3fe/25d1ddc.jpg",
+					websites: [
+						{title: "Blog personnel", href: "http://linsolas.github.com/"}
+					],
+					twitter: "romaintaz",
+					contact: "linsolas [at] gmail.com",
+					location: "La Défense et alentours",
+					sessions: [
+						{
+							title: "Industrialiser ses tests JavaScripts pour un développeur Java",
+							summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
+						}
+					],
+					paire: true
+				},
+				{
+					pseudo: "dpi",
+					name: "David Pilato",
+					bio: "Technical Advocate",
+					picture: "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
+					websites: [
+						{title: "Blog personnel", href: "http://dev.david.pilato.fr/"}
+					],
+					twitter: "dadoonet",
+					contact: "david [at] pilato.fr",
+					location: "Régions francophones",
+					sessions: [
+						{
+							title: "Elasticsearch",
+							summary: "Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche 'à la google' sur les données de votre SI ?<br/><br/>Ne cherchez plus ! Cette conférence est faite pour vous.<br/><br/>David présentera au cours de du BBL pourquoi et comment il est passé de la recherche SQL à Elasticsearch en détaillant les apports de ce moteur par rapport à une solution pure Lucene :<ul><li>Pourquoi Elasticsearch ?</li><li>L'indexation</li><li>La recherche</li><li>La collecte de données (rivers)</li><li>Les facettes et le principe de navigation par facettes</li><li>La scalabilité horizontale</li><li>L'analyse et le mapping</li><li>La percolation</li><li>La communauté</li></ul>"
+						}
+					],
+					paire: false
+				}
+			]
+		};
+	</script>
 
 	<nav class="top-bar" style="">
 		<ul>
@@ -24,16 +270,10 @@
 				<li class="divider"></li>
 				<li class="has-dropdown">
 				  <a href="#">Baggers</a>
-				  <ul class="dropdown">
-					<li><a href="#fsa">François Sarradin</a></li>
-					<li><a href="#nri">Nathaniel Richand</a></li>
-					<li><a href="#mle">Mathilde Lemée</a></li>
-					<li><a href="#dga">David Gageot</a></li>
-					<li><a href="#rma">Romain Maton</a></li>
-					<li><a href="#fbi">Florent Biville</a></li>
-					<li><a href="#ben">Bernard Notarianni</a></li>
-					<li><a href="#rli">Romain Linsolas</a></li>
-					<li><a href="#dpi">David Pilato</a></li>
+				  <ul class="dropdown" id="baggersNavigationBar">
+				  	{{#baggers}}
+				 		<li><a href="#{{pseudo}}">{{name}}</a></li>
+				 	{{/baggers}}
 				  </ul>
 				</li>
 			</ul>
@@ -48,471 +288,56 @@
 		</div>
 	</div>
 	
-	<!-- François Sarradin -->
-	<div id="fsa" class="row">
-		<div class="four columns">
-			<img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/">
-		</div>
-		<div class="eight columns">
-			<div class="panel radius">
-				<h4>François Sarradin</h4>
-
-				<div class="row">
-
-					<div class="six columns">
-						<p>Consultant Java et &#955; développeur</p>
-
-						<p><a href="http://kerflyn.wordpress.com/">Blog personnel</a></p>
-
-						<p><a href="http://blog.xebia.fr/author/fsarradin">Blog Xebia</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/fsarradin">@fsarradin</a></p>
-
-						<p>Infos et contact : <a href="http://kerflyn.wordpress.com/2013/02/06/bbl/">Brown Bag Lunch
-							(BBL)</a></p>
+	<!-- BAGGERS! -->
+	<div id="baggersDetails">
+		{{#baggers}}
+			<div id="{{pseudo}}" class="row">
+				{{^paire}}
+					<div class="four columns">
+						<img src="{{picture}}">
 					</div>
+				{{/paire}}
+				<div class="eight columns">
+					<div class="panel {{#paire}}callout{{/paire}} radius">
+						<h4>{{name}}</h4>
 
-					<div class="six columns">
-						<span class="round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Réaliser en Scala en moins d'une heure un framework Web qui poutre</strong><br/>
-								Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible.
-							</li>
-							<li>
-								<strong>Fabriquez vous même votre type Option</strong><br/>
-								Tests unitaires et refactoring pour comprendre la monade Option en Java 8
-							</li>
-						</ul>
-						<span class="round label">Lieux :</span>
+						<div class="row">
 
-						<p>La Défense et alentours uniquement</p>
-					</div>
-				</div>
+							<div class="six columns">
+								<p>{{{bio}}}</p>
 
-			</div>
-		</div>
-	</div>
+								{{#websites}}
+									<p><a href="{{href}}">{{title}}</a></p>
+								{{/websites}}	
 
+								<p>Twitter : <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+								<p>Infos et contact : {{{contact}}}</p>
+							</div>
 
-	<!-- Nathaniel Richand -->
-
-	<div id="nri" class="row">
-		<div class="eight columns">
-
-			<div class="panel callout radius">
-				<h4>Nathaniel Richand</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Coach agile</p>
-
-						<p><a href="http://blog.xebia.fr/author/nrichand">Blog Xebia</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/nrichand">@nrichand</a></p>
-
-						<p>Infos et contact : nrichand@brownbaglunch.fr</p>
-					</div>
-					<div class="six columns">
-						<span class="secondary round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Plus de fun et de diversité dans vos rétrospectives</strong><br/>
-								Discussion sur comment bien animer une rétrospective et présentation de nombreux formats.
-							</li>
-							<li>
-								<strong>Introduction au Lean Startup</strong><br/>
-								Présentation des concepts et de quelques outils phares du Lean Startup.
-							</li>
-						</ul>
-						<span class="secondary round label">Lieux :</span>
-
-						<p>La Défense et alentours uniquement</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<div class="four columns">
-			<img src="img/photo_nathaniel.jpg">
-		</div>
-	</div>
-
-	<!-- Mathilde Lemée -->
-	<div id="mle" class="row">
-		<div class="four columns">
-			<img src="img/photo_mathilde.jpeg">
-		</div>
-		<div class="eight columns">
-			<div class="panel radius">
-				<h4>Mathilde Lemée</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Ingénieur R&amp;D - Terracotta</p>
-
-						<p><a href="http://www.java-freelance.fr/">Blog personnel</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/mathildelemeee">@MathildeLemee</a></p>
-
-						<p>Infos et contact : prenom.nom@yahoo.fr</p>
-					</div>
-					<div class="six columns">
-						<span class="round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Cache &amp; BigData</strong> Différents sujets : Terracotta, ehcache, clustering,
-								scalabilité, concepts avancés sur le cache ...
-							</li>
-							<li>
-								<strong>Les tests</strong><br/>
-								Différents sujets : Selenium, FluentLenium, Mise en place de Selenium, Byteman ...
-							</li>
-							<li>
-								<strong>Le mobile</strong><br/>
-								Premier pas avec Corona SDK, REX sur 6 mois de dev et de marketing d'applis mobile
-								(http://www.aetys.fr)
-							</li>
-						</ul>
-						<span class="round label">Lieux :</span>
-
-						<p>Paris, La Défense, Banlieue</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- David Gageot -->
-	<div id="dga" class="row">
-		<div class="eight columns">
-
-			<div class="panel callout radius">
-				<h4>David Gageot</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Professional Geek - Freelance</p>
-
-						<p><a href="http://blog.javabien.net/">Blog personnel</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/dgageot">@dgageot</a></p>
-
-						<p>Infos et contact : david@gageot.net</p>
-					</div>
-					<div class="six columns">
-						<span class="secondary round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Du Legacy au Cloud en moins d’une heure</strong><br/>
-								Live coding sur les techniques de refactoring
-								par les tests et démontrant comment déployer
-								rapidement sur le Cloud.
-							</li>
-
-							<li>
-								<strong>Kitten FaceMash – Marre des frameworks, oui aux bons outils</strong><br/>
-								Live coding sur le développement d'un site web
-								en TDD, sans framework mais une combinaison de
-								bonnes librairies.
-							</li>
-
-							<li>
-								<strong>Mockito – Ecrire des tests simples et peu sensibles au refactoring</strong><br/>
-								Slides démontrant l’utilisation de la librairie
-								Mockito. L’accent est mis sur la forte tolérance
-								au refactoring par rapport aux mocks codés à la main.
-							</li>
-
-							<li>
-								<strong>Introduction à Git</strong><br/>
-								Slides présentant les avantages de Git. En
-								particulier la grande liberté laissée aux équipes,
-								la tolérance au refactoring, l’utilisation
-								dans l'analyse de régressions.
-							</li>
-
-							<li>
-								<strong>Let’s make these tests run faster</strong><br/>
-								Slides présentant des techniques pour accélérer
-								les tests unitaires/fonctionnels. Le but étant de
-								passer tout un build en quelques minutes afin d’avoir
-								le feedback le plus court possible.
-							</li>
-
-							<li>
-								<strong>Outils de test avancés</strong><br/>
-								Slides présentant des outils pour écrire
-								des tests plus simples, plus clairs, plus rapides.
-								(JUnit4 Rules, Infinitest, FestAssert...)
-							</li>
-						</ul>
-						<span class="secondary round label">Lieux :</span>
-
-						<p>Paris, La Défense, (France/Etranger selon mes déplacements)</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<div class="four columns">
-			<img src="http://gravatar.com/avatar/f0887bf6175ba40dca795eb37883a8cf?s=256">
-		</div>
-	</div>
-
-	<!-- Romain Maton -->
-	<div id="rma" class="row">
-		<div class="four columns">
-			<img src="https://lh4.googleusercontent.com/-VcEH4WuA6XE/ThmqIx4nf_I/AAAAAAAAAso/Az2a4TtTgmA/s800/avatar_rmat0n.jpg">
-		</div>
-		<div class="eight columns">
-			<div class="panel radius">
-				<h4>Romain Maton</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Consultant Java/Web/Agile - Freelance</p>
-
-						<p><a href="http://www.web-tambouille.fr/">Blog personnel</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/rmat0n">@rmat0n</a></p>
-
-						<p>Infos et contact : prenom.nom@gmail.com ou prenom@tamlab.fr
-					</div>
-					<div class="six columns">
-						<span class="round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Tout ce que vous devez savoir sur Node.js</strong>
-								Découvrez les bases de Node.js, son écosystème, ses atouts, ses faiblesses et tout ce que
-								vous devez savoir du démarrage votre premier projet jusqu'à sa mise en ligne !
-							</li>
-							<li>
-								<strong>Optimiser votre site Web sur mobile</strong><br/>
-								Nous regarderons l'évolution de ce marché mobile, les normes existantes, les bonnes pratiques
-								de développement mobile ainsi que les outils et frameworks qui vous permettront de sublimer
-								votre site web pour smartphone.
-							</li>
-							<li>
-								<strong>24 plugins chrono</strong><br/>
-								Pas de Jack Bauer dans cette session mais un développeur qui passe en revue 24 plugins pour
-								<span style="text-decoration: line-through;">sauver le monde</span> booster votre IDE !
-							</li>
-						</ul>
-						<span class="round label">Lieux :</span>
-						<p>La Défense et alentours uniquement</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Florent Biville -->
-	<div id="fbi" class="row">
-		<div class="eight columns">
-
-			<div class="panel callout radius">
-				<h4>Florent Biville</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts</p>
-
-						<p><a href="http://florent.biville.net/">Blog personnel</a></p>
-
-						<p><a href="http://www.lateral-thoughts.com">Lateral Thoughts</a></p>
-
-						<p>Twitter : <a href="https://twitter.com/fbiville">@fbiville</a></p>
-
-						<p>Infos et contact : f POINT biville AT lateral TIRET thoughts POINT com</p>
-					</div>
-
-					<div class="six columns">
-						<span class="secondary round label">Propose :</span>
-						<ul>
-							<li>
-								<strong>Découvrons Neo4J</strong><br />
-								Découvrons ensemble la toute-puissance de LA base de données graphe <strong>Neo4J</strong>, ses cas d'utilisation, 
-								ses différentes APIs Java, son langage de requêtage Cypher.
-							</li>
-							<li>
-								<strong>+ de productivité avec SpringData</strong><br />
-								Introduction à SpringData : ses motivations, son socle commun et son interfaçage avec différents stores NoSQL et relationnels
-								(MongoDB, Neo4J, JPA...).
-							</li>
-							<li>
-								<strong>Liquibase : gestionnaire de versions pour RDBMS</strong><br />
-								Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant
-								de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ?
-								Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments 
-								portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring).
-							</li>
-							
-						</ul>
-						<span class="secondary round label">Lieux :</span>
-						<p>Paris</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<div class="four columns">
-			<img src="http://m.c.lnkd.licdn.com/media/p/3/000/0be/019/0a2b80a.jpg">
-		</div>
-	</div>
-
-	<!-- Bernard Notarianni -->
-	<div id="ben" class="row">
-		<div class="four columns">
-			<img src="img/photo_bernard.jpg"/>
-		</div>
-	
-		<div class="eight columns">
-
-			<div class="panel radius">
-				<h4>Bernard Notarianni</h4>
-
-				<div class="row">
-					<div class="six columns">
-						<p>Créateur de logiciels et coach agile</p>
-
-						<p>Twitter : <a href="https://twitter.com/notarianni">@notarianni</a></p>
-
-						<p>LinkedIn : <a href="http://fr.linkedin.com/in/notarianni/">Bernard Notarianni</a></p>
-
-						<p>Infos et contact : prenom.nom@gmail.com</p>
-					</div>
-					<div class="six columns">
-						<span class="round label">Propose :</span>
-						<ul>
-
-							<li>
-								<strong>Agile...</strong><br/>
-								Comment passer à l'agile.
-								Comment convaincre ses managers et/ou ses collègues.
-								Créer un backlog, devenir product manager.
-								Améliorer son projet agile existant.
-								Créer une communauté de praticiens dans sa boite.
-								Etc.
-							</li>
-
-							<li>
-								<strong>Startup...</strong><br/>
-								Retour d'expérience en tant que jeune co-créateur de startup
-								qui s'est lancé depuis début 2012.
-								Lean Startup, l'agile et le reste in real life.
-							</li>
-
-							<li>
-								<strong>Erlang...</strong><br/>
-								C'est quoi Erlang? Ca marche comment?
-								Pourquoi je dois faire de l'Erlang?
-							</li>
-
-							<li>
-								<strong>Ember JS...</strong><br/>
-								Retour d'expérience, live coding, dojo...
-							</li>
-						</ul>
-						<span class="round label">Lieux :</span>
-						<p>Paris, banlieue nord (St Denis..) ou ouest (La Défense...)</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>	
-	
-    <!-- Romain Linsolas -->
-    <div id="rli" class="row">
-        <div class="eight columns">
-            <div class="panel callout radius">
-                <h4>Romain Linsolas</h4>
-
-                <div class="row">
-                    <div class="six columns">
-                        <p>Développeur Java & architecte technique</p>
-                        <p><a href="http://linsolas.github.com/">Blog personnel</a></p>
-                        <p>Twitter : <a href="https://twitter.com/romaintaz">@romaintaz</a></p>
-                        <p>Infos et contact : linsolas [at] gmail.com</p>
-                    </div>
-
-                    <div class="six columns">
-                        <span class="secondary round label">Propose :</span>
-                        <ul>
-                            <li>
-                                <strong>Industrialiser ses tests JavaScripts pour un développeur Java</strong><br/><br/>
-                                Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi
-                                aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins,
-                                utilisation de Sonar pour l'analyse de la qualité.
-                            </li>
-                        </ul>
-                        <span class="secondary round label">Lieux :</span>
-                        <p>La Défense et alentours</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-		
-		<div class="four columns">
-            <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1ce/3fe/25d1ddc.jpg">
-        </div>
-    </div>
-
-    <!-- David Pilato -->
-    <div id="dpi" class="row">
-    	<div class="four columns">
-            <img src="http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png">
-        </div>
-    
-        <div class="eight columns">
-            <div class="panel radius">
-                <h4>David Pilato</h4>
-
-                <div class="row">
-                    <div class="six columns">
-                        <p>Technical Advocate</p>
-                        <p><a href="http://dev.david.pilato.fr/">Blog personnel</a></p>
-                        <p>Twitter : <a href="https://twitter.com/dadoonet">@dadoonet</a></p>
-                        <p>Infos et contact : david [at] pilato.fr</p>
-                    </div>
-
-                    <div class="six columns">
-                        <span class="round label">Propose :</span>
-                        <ul>
-                            <li>
-                        		<strong>Elasticsearch</strong><br/><br/>
-								Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche "à la google" sur les données de votre SI ?
-								<br/>
-								<br/>
-								Ne cherchez plus ! Cette conférence est faite pour vous.
-								<br/>
-								<br/>
-								David présentera au cours de du BBL pourquoi et comment il est passé de la recherche SQL à Elasticsearch en détaillant les apports de ce moteur par rapport à une solution pure Lucene :
+							<div class="six columns">
+								<span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
 								<ul>
-									<li>Pourquoi Elasticsearch ?</li>
-									<li>L'indexation</li>
-									<li>La recherche</li>
-									<li>La collecte de données (rivers)</li>
-									<li>Les facettes et le principe de navigation par facettes</li>
-									<li>La scalabilité horizontale</li>
-									<li>L'analyse et le mapping</li>
-									<li>La percolation</li>
-									<li>La communauté</li>
+									{{#sessions}}
+										<li>
+											<strong>{{title}}</strong><br/>
+											{{{summary}}}
+										</li>
+									{{/sessions}}
 								</ul>
-
-							</li>
-						</ul>	
-						<span class="round label">Lieux :</span>
-                        <p>Régions francophones</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
+								<span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+								<p>{{location}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{#paire}}
+					<div class="four columns">
+						<img src="{{picture}}">
+					</div>
+				{{/paire}}
+			</div>
+		{{/baggers}}
+	</div>
 
 	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
 		<div class="row">
@@ -525,6 +350,21 @@
 
 	<!-- Included JS Files -->
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+	
+	<script type="text/javascript">
+		//get the templates
+		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
+		var templateBaggers=document.getElementById('baggersDetails').innerHTML;
+
+		//render the template with given data
+		var htmlHeader=Mustache.to_html(templateHeader,data);
+		var htmlDetails=Mustache.to_html(templateBaggers,data);
+
+		//put the render result on the screen
+		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
+		document.getElementById('baggersDetails').innerHTML=htmlDetails;
+	</script>
+	
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-38399904-1']);
