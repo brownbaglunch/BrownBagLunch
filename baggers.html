@@ -6,7 +6,7 @@
 
     <title>Brown Bag Lunch in Paris</title>
 
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>	
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
 </head>
@@ -206,11 +206,11 @@
 						},
 						{
 							title: "Erlang...",
-							summary: "C'est quoi Erlang? Ca marche comment? Pourquoi je dois faire de l'Erlang?" 
+							summary: "C'est quoi Erlang? Ca marche comment? Pourquoi je dois faire de l'Erlang?"
 						},
 						{
 							title: "Ember JS...",
-							summary: "Retour d'expérience, live coding, dojo..." 
+							summary: "Retour d'expérience, live coding, dojo..."
 						}
 					],
 					paire: false
@@ -276,6 +276,30 @@
 						}
 					],
 					paire: true
+				},
+				{
+					pseudo: "fme",
+					name: "Frédéric Menou",
+					bio: "Développeur chez CapitaineTrain",
+					picture: "https://secure.gravatar.com/avatar/252ef00042fda3ab4cf67a36b956fa33?s=210",
+					websites: [
+						{ title: "Capitaine Train", href: "http://www.capitainetrain.com/" },
+						{ title: "about.me", href: "http://about.me/ptitfred" }
+					],
+					twitter: "ptit_fred",
+					contact: "frederic.menou@gmail.com",
+					location: "Paris, proche banlieue et La Défense",
+					sessions: [
+						{
+							title: "Code review avec Git",
+							summary: "Vous utilisez Github et les PullRequests vous donnent envie ? Mais ça peut devenir compliqué quand il s'agit d'appliquer les commentaires dans le code.<br/> Je vous propose d'exploiter git à ce sujet. L'agilité ça passe aussi par la maîtrise de ses outils."
+						},
+						{
+							title: "Be a git Jedi Master",
+							summary: "Vous connaissez add -p et rebase -i ? Pas mal, mais il y a plus fort encore !<br/> Je vous propose de plonger dans les arcanes de git, les options cachées dans les manpages et tout ce que vous pourriez en faire au quotidien. Pas de magie noire, mais attention, vous ne serez plus tout à fait le même développeur !"
+						}
+					],
+					paire: false
 				}
 			]
 		};
@@ -288,16 +312,16 @@
 			<li class="divider"></li>
 			<li class="name"><h1><a href="http://www.brownbaglunch.fr"><i>>> Comment ça fonctionne?</i></a></h1></li>
 		</ul>
-		
+
 		<section>
 			<ul class="right">
 				<li class="divider"></li>
 				<li class="has-dropdown">
 				  <a href="#">Baggers</a>
 				  <ul class="dropdown" id="baggersNavigationBar">
-				  	{{#baggers}}
-				 		<li><a href="#{{pseudo}}">{{name}}</a></li>
-				 	{{/baggers}}
+					{{#baggers}}
+						<li><a href="#{{pseudo}}">{{name}}</a></li>
+					{{/baggers}}
 				  </ul>
 				</li>
 			</ul>
@@ -311,7 +335,7 @@
 			<hr>
 		</div>
 	</div>
-	
+
 	<!-- BAGGERS! -->
 	<div id="baggersDetails">
 		{{#baggers}}
@@ -332,7 +356,7 @@
 
 								{{#websites}}
 									<p><a href="{{href}}">{{title}}</a></p>
-								{{/websites}}	
+								{{/websites}}
 
 								<p>Twitter : <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
 								<p>Infos et contact : {{{contact}}}</p>
@@ -374,7 +398,7 @@
 
 	<!-- Included JS Files -->
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
-	
+
 	<script type="text/javascript">
 		//get the templates
 		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
@@ -388,7 +412,7 @@
 		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
 		document.getElementById('baggersDetails').innerHTML=htmlDetails;
 	</script>
-	
+
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-38399904-1']);
