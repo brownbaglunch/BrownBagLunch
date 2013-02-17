@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brown Bag Lunch in France</title>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+</head>
+
+<body>
+
+	<script type="text/javascript">
+		var data = {
+			locations:[
+				{
+					pseudo: "sgcib",
+					name: "Société Générale - SGCIB",
+                    address: "Tours SG, La Défense (92)",
+                    website: "http://www.societegenerale.fr",
+                    contact: "Romain Linsolas (linsolas [at] gmail.com)",
+                    picture: "http://www.societegenerale.fr/images/eimm_logo.png",
+                    interests: [
+                            "Java", "Developpement", "Agilité"
+                    ],
+                    audience: {
+                        profiles: "Développeurs, Architectes, Chefs de projets",
+                        number: "Au moins 20 personnes"
+                    },
+					paire: false
+				}
+			]
+		};
+	</script>
+
+	<nav class="top-bar" style="">
+		<ul>
+			<li class="name"><h1><a href="#">Brown Bag Lunch France</a></h1></li>
+			<li class="toggle-topbar"><a href="#"></a></li>
+			<li class="divider"></li>
+			<li class="name"><h1><a href="http://www.brownbaglunch.fr"><i>>> Comment ça fonctionne?</i></a></h1></li>
+		</ul>
+
+		<section>
+			<ul class="right">
+				<li class="divider"></li>
+				<li class="has-dropdown">
+				  <a href="#">BBL Hôtes</a>
+				  <ul class="dropdown" id="bblNavigationBar">
+					{{#locations}}
+						<li><a href="#{{pseudo}}">{{name}}</a></li>
+					{{/locations}}
+				  </ul>
+				</li>
+			</ul>
+		</section>
+	</nav>
+
+	<!-- Image header -->
+	<div class="row">
+		<div class="twelve columns">
+			<img width="910" height="364" src="img/BBL.jpg">
+			<hr>
+		</div>
+	</div>
+
+	<!-- BBL Hotes -->
+	<div id="bblDetails">
+		{{#locations}}
+			<div id="{{pseudo}}" class="row">
+				{{^paire}}
+					<div class="four columns">
+						<img src="{{picture}}">
+					</div>
+				{{/paire}}
+				<div class="eight columns">
+					<div class="panel {{#paire}}callout{{/paire}} radius">
+						<h4>{{name}}</h4>
+
+						<div class="row">
+
+							<div class="six columns">
+								<p>{{{bio}}}</p>
+                                <p><a href="{{website}}">{{website}}</a></p>
+                                <p>Localisation: {{address}}</p>
+								<p>Infos et contact : {{{contact}}}</p>
+							</div>
+
+							<div class="six columns">
+								<span class="{{#paire}}secondary{{/paire}} round label">Centres d'intérêts :</span>
+								<ul>
+									{{#interests}}
+										<li><strong>{{.}}</strong></li>
+									{{/interests}}
+								</ul>
+								<span class="{{#paire}}secondary{{/paire}} round label">Audience :</span>
+                                <ul>
+                                    <li>{{audience.profiles}}</li>
+                                    <li>{{audience.number}}</li>
+                                </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{#paire}}
+					<div class="four columns">
+						<img src="{{picture}}">
+					</div>
+				{{/paire}}
+			</div>
+		{{/locations}}
+	</div>
+
+	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
+		<div class="row">
+			<strong>
+				Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
+				<a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/">page github</a>.
+			</strong>
+		</div>
+	</footer>
+
+	<!-- Included JS Files -->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+
+	<script type="text/javascript">
+		//get the templates
+		var templateHeader=document.getElementById('bblNavigationBar').innerHTML;
+		var templateBaggers=document.getElementById('bblDetails').innerHTML;
+
+		//render the template with given data
+		var htmlHeader=Mustache.to_html(templateHeader,data);
+		var htmlDetails=Mustache.to_html(templateBaggers,data);
+
+		//put the render result on the screen
+		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
+		document.getElementById('baggersDetails').innerHTML=htmlDetails;
+	</script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38399904-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>
