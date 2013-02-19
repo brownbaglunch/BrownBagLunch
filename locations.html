@@ -4,11 +4,12 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Brown Bag Lunch in France</title>
+    <title>Brown Bag Lunch France</title>
 
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -38,10 +39,10 @@
 
     <nav class="top-bar" style="">
         <ul>
-            <li class="name"><h1><a href="#">Brown Bag Lunch France</a></h1></li>
+            <li class="name"><h1><a href="http://www.brownbaglunch.fr">Brown Bag Lunch France</a></h1></li>
             <li class="toggle-topbar"><a href="#"></a></li>
             <li class="divider"></li>
-            <li class="name"><h1><a href="http://www.brownbaglunch.fr"><i>>> Comment ça fonctionne?</i></a></h1></li>
+            <li class="name"><h1><a href="http://www.brownbaglunch.fr"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></h1></li>
         </ul>
 
         <section>
@@ -84,22 +85,22 @@
 
                             <div class="six columns">
                                 <p>{{{bio}}}</p>
-                                <p><a href="{{website}}">{{website}}</a></p>
-                                <p>Localisation: {{address}}</p>
-                                <p>Infos et contact : {{{contact}}}</p>
+                                <p><a href="{{website}}"><i class="icon-external-link"></i> {{website}}</a></p>
+                                <p><i class="icon-globe"></i> Localisation: {{address}}</p>
+                                <p><i class="icon-envelope"></i> Infos et contact : {{{contact}}}</p>
                             </div>
 
                             <div class="six columns">
                                 <span class="{{#paire}}secondary{{/paire}} round label">Centres d'intérêts :</span>
-                                <ul>
+                                <ul class="icons">
                                     {{#interests}}
-                                        <li><strong>{{.}}</strong></li>
+                                        <li><i class="icon-caret-right"></i> <strong>{{.}}</strong></li>
                                     {{/interests}}
                                 </ul>
                                 <span class="{{#paire}}secondary{{/paire}} round label">Audience :</span>
-                                <ul>
-                                    <li>{{audience.profiles}}</li>
-                                    <li>{{audience.number}}</li>
+                                <ul class="icons">
+                                    <li><i class="icon-sitemap"></i> {{audience.profiles}}</li>
+                                    <li><i class="icon-group"></i> {{audience.number}}</li>
                                 </ul>
                             </div>
                         </div>
@@ -115,13 +116,14 @@
     </div>
 
     <footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
-        <div class="row">
-            <strong>
-                Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
-                <a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/">page github</a>.
-            </strong>
-        </div>
-    </footer>
+   		<div class="row">
+   			<strong>
+   				Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
+   				<a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
+                   | <a style="color: yellow;" href="https://twitter.com/bbl_fr"><i class="icon-twitter"></i> @bbl_fr</a>
+   			</strong>
+   		</div>
+   	</footer>
 
     <!-- Included JS Files -->
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
