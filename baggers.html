@@ -30,72 +30,78 @@
 				<li class="has-dropdown">
 				  <a href="#">Baggers</a>
 				  <ul class="dropdown" id="baggersNavigationBar">
-					{{#baggers}}
-						<li><a href="#{{pseudo}}">{{name}}</a></li>
-					{{/baggers}}
+				  	{{#villes}}
+				  		<li><label>{{name}}</label></li>
+						{{#baggers}}
+							<li><a href="#{{pseudo}}">{{name}}</a></li>
+						{{/baggers}}
+					{{/villes}}
 				  </ul>
 				</li>
 			</ul>
 		</section>
 	</nav>
 
-	<!-- Image header -->
-	<div class="row">
-		<div class="twelve columns">
-			<img width="910" height="364" src="img/BBL.jpg">
-			<hr>
-		</div>
-	</div>
-
 	<!-- BAGGERS! -->
 	<div id="baggersDetails">
-		{{#baggers}}
-			<div id="{{pseudo}}" class="row">
-				{{^paire}}
-					<div class="four columns">
-						<img src="{{picture}}">
-					</div>
-				{{/paire}}
-				<div class="eight columns">
-					<div class="panel {{#paire}}callout{{/paire}} radius">
-						<h4>{{name}}</h4>
+		{{#villes}}
+			<div class="row">
+				<div class="twelve columns">
+					<img width="910" height="364" src="{{ville_img}}">
+					<hr>
+					{{message}}
+				</div>
+			</div>
 
-						<div class="row">
+			{{#baggers}}
+				<div id="{{pseudo}}" class="row">
+					{{^paire}}
+						<div class="four columns">
+							<img src="{{picture}}">
+						</div>
+					{{/paire}}
+					<div class="eight columns">
+						<div class="panel {{#paire}}callout{{/paire}} radius">
+							<h4>{{name}}</h4>
 
-							<div class="six columns">
-								<p>{{{bio}}}</p>
+							<div class="row">
 
-								{{#websites}}
-									<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
-								{{/websites}}
+								<div class="six columns">
+									<p>{{{bio}}}</p>
 
-								<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
-								<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
-							</div>
+									{{#websites}}
+										<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
+									{{/websites}}
 
-							<div class="six columns">
-								<span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
-								<ul class="icons">
-									{{#sessions}}
-										<li>
-                                            <i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
-											{{{summary}}}
-										</li>
-									{{/sessions}}
-								</ul>
-								<span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
-								<p><i class="icon-globe"></i> {{location}}</p>
+									<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+									<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
+								</div>
+
+								<div class="six columns">
+									<span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
+									<ul class="icons">
+										{{#sessions}}
+											<li>
+	                                            <i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
+												{{{summary}}}
+											</li>
+										{{/sessions}}
+									</ul>
+									<span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+									<p><i class="icon-globe"></i> {{location}}</p>
+								</div>
 							</div>
 						</div>
 					</div>
+					{{#paire}}
+						<div class="four columns">
+							<img src="{{picture}}">
+						</div>
+					{{/paire}}
 				</div>
-				{{#paire}}
-					<div class="four columns">
-						<img src="{{picture}}">
-					</div>
-				{{/paire}}
-			</div>
-		{{/baggers}}
+			{{/baggers}}
+			<hr>
+		{{/villes}}
 	</div>
 
 	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
