@@ -118,6 +118,16 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
 
 	<script type="text/javascript">
+		// decorate data
+		for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
+			var baggers = data['villes'][villeIndex]['baggers'];
+			if (baggers !== undefined) {
+				for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
+					baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
+				}
+			}
+		}
+
 		//get the templates
 		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
 		var templateBaggers=document.getElementById('baggersDetails').innerHTML;

@@ -307,12 +307,3 @@ var data = {
         }
     ]
 };
-
-for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
-	var baggers = data['villes'][villeIndex]['baggers'];
-	if (baggers !== undefined) {
-		for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-			baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-		}
-	}
-}
