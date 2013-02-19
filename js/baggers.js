@@ -6,7 +6,6 @@ var data = {
 
             baggers: [
                 {
-                    pseudo: "fsa",
                     name: "François Sarradin",
                     bio: "Consultant Java et &#955; développeur",
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
@@ -30,7 +29,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "nri",
                     name: "Nathaniel Richand",
                     bio: "Coach agile",
                     picture: "img/photo_nathaniel.jpg",
@@ -53,7 +51,6 @@ var data = {
                     paire: true
                 },
                 {
-                    pseudo: "mle",
                     name: "Mathilde Lemée",
                     bio: "Ingénieur R&amp;D - Terracotta",
                     picture: "img/photo_mathilde.jpeg",
@@ -80,7 +77,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "dga",
                     name: "David Gageot",
                     bio: "Professional Geek - Freelance",
                     picture: "http://gravatar.com/avatar/f0887bf6175ba40dca795eb37883a8cf?s=256",
@@ -119,7 +115,6 @@ var data = {
                     paire: true
                 },
                 {
-                    pseudo: "rma",
                     name: "Romain Maton",
                     bio: "Consultant Java/Web/Agile - Freelance",
                     picture: "https://lh4.googleusercontent.com/-VcEH4WuA6XE/ThmqIx4nf_I/AAAAAAAAAso/Az2a4TtTgmA/s800/avatar_rmat0n.jpg",
@@ -146,7 +141,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "fbi",
                     name: "Florent Biville",
                     bio: "Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts",
                     picture: "http://m.c.lnkd.licdn.com/media/p/3/000/0be/019/0a2b80a.jpg",
@@ -174,7 +168,6 @@ var data = {
                     paire: true
                 },
                 {
-                    pseudo: "ben",
                     name: "Bernard Notarianni",
                     bio: "Créateur de logiciels et coach agile",
                     picture: "img/photo_bernard.jpg",
@@ -205,7 +198,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "rli",
                     name: "Romain Linsolas",
                     bio: "Développeur Java & architecte technique à SGCIB",
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1ce/3fe/25d1ddc.jpg",
@@ -224,7 +216,6 @@ var data = {
                     paire: true
                 },
                 {
-                    pseudo: "dpi",
                     name: "David Pilato",
                     bio: "Technical Advocate",
                     picture: "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
@@ -243,7 +234,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "jlr",
                     name: "Jean-Louis Rigau",
                     bio: "Développeur Java, Cloud Addict",
                     picture: "http://m.c.lnkd.licdn.com/media/p/4/000/15f/25a/14e30e7.jpg",
@@ -267,7 +257,6 @@ var data = {
                     paire: true
                 },
                 {
-                    pseudo: "fme",
                     name: "Frédéric Menou",
                     bio: "Développeur chez CapitaineTrain",
                     picture: "https://secure.gravatar.com/avatar/252ef00042fda3ab4cf67a36b956fa33?s=210",
@@ -295,7 +284,6 @@ var data = {
                     paire: false
                 },
                 {
-                    pseudo: "ygr",
                     name: "Yannick Grenzinger",
                     bio: "Consultant Java/Web/Agile passionné par l'UX",
                     picture: "https://fr.gravatar.com/userimage/45029487/b60c363784b0fd99398c74086b10d8b7.png?size=200",

@@ -33,7 +33,7 @@
 				  	{{#villes}}
 				  		<li><label>{{name}}</label></li>
 						{{#baggers}}
-							<li><a href="#{{pseudo}}">{{name}}</a></li>
+							<li><a href="#{{twitter}}">{{name}}</a></li>
 						{{/baggers}}
 					{{/villes}}
 				  </ul>
@@ -54,7 +54,7 @@
 			</div>
 
 			{{#baggers}}
-				<div id="{{pseudo}}" class="row">
+				<div id="{{twitter}}" class="row">
 					{{^paire}}
 						<div class="four columns">
 							<img src="{{picture}}">
