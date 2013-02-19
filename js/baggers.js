@@ -25,8 +25,7 @@ var data = {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "Nathaniel Richand",
@@ -47,8 +46,7 @@ var data = {
                             title: "Introduction au Lean Startup",
                             summary: "Présentation des concepts et de quelques outils phares du Lean Startup."
                         }
-                    ],
-                    paire: true
+                    ]
                 },
                 {
                     name: "Mathilde Lemée",
@@ -73,8 +71,7 @@ var data = {
                             title: "Le mobile",
                             summary: "Premier pas avec Corona SDK, REX sur 6 mois de dev et de marketing d'applis mobile (http://www.aetys.fr)"
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "David Gageot",
@@ -111,8 +108,7 @@ var data = {
                             title: "Outils de test avancés",
                             summary: "Slides présentant des outils pour écrire des tests plus simples, plus clairs, plus rapides. (JUnit4 Rules, Infinitest, FestAssert...)"
                         }
-                    ],
-                    paire: true
+                    ]
                 },
                 {
                     name: "Romain Maton",
@@ -137,8 +133,7 @@ var data = {
                             title: "24 plugins chrono",
                             summary: "Pas de Jack Bauer dans cette session mais un développeur qui passe en revue 24 plugins pour <span style=\"text-decoration: line-through;\">sauver le monde</span> booster votre IDE !"
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "Florent Biville",
@@ -164,8 +159,7 @@ var data = {
                             title: "Liquibase : gestionnaire de versions pour RDBMS",
                             summary: "Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ? Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments  portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring)."
                         }
-                    ],
-                    paire: true
+                    ]
                 },
                 {
                     name: "Bernard Notarianni",
@@ -194,8 +188,7 @@ var data = {
                             title: "Ember JS...",
                             summary: "Retour d'expérience, live coding, dojo..."
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "Romain Linsolas",
@@ -212,8 +205,7 @@ var data = {
                             title: "Industrialiser ses tests JavaScripts pour un développeur Java",
                             summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
                         }
-                    ],
-                    paire: true
+                    ]
                 },
                 {
                     name: "David Pilato",
@@ -230,8 +222,7 @@ var data = {
                             title: "Elasticsearch",
                             summary: "Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche 'à la google' sur les données de votre SI ?<br/><br/>Ne cherchez plus ! Cette conférence est faite pour vous.<br/><br/>David présentera au cours de du BBL pourquoi et comment il est passé de la recherche SQL à Elasticsearch en détaillant les apports de ce moteur par rapport à une solution pure Lucene :<ul><li>Pourquoi Elasticsearch ?</li><li>L'indexation</li><li>La recherche</li><li>La collecte de données (rivers)</li><li>Les facettes et le principe de navigation par facettes</li><li>La scalabilité horizontale</li><li>L'analyse et le mapping</li><li>La percolation</li><li>La communauté</li></ul>"
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "Jean-Louis Rigau",
@@ -253,8 +244,7 @@ var data = {
                             title: "Blue/Green Deployment avec AWS Elastic Beanstalk",
                             summary: "Déployer simplement une application sur Amazon à l'aide d'Elastic BeanStalk, et mise en œuvre du principe de Blue-Green Deployment grâce à la fonctionnalité d’URL swapping."
                         }
-                    ],
-                    paire: true
+                    ]
                 },
                 {
                     name: "Frédéric Menou",
@@ -280,8 +270,7 @@ var data = {
                             title: "Livraison Continue chez CapitaineTrain",
                             summary: "Retour d'expérience sur les mises en production chez CapitaineTrain.<br/> On parlera d'intégration continue, de code review, de release management et de mises en production transparentes.<br /> Livrer tous les jours c'est possible et c'est même assez banal !"
                         }
-                    ],
-                    paire: false
+                    ]
                 },
                 {
                     name: "Yannick Grenzinger",
@@ -307,8 +296,7 @@ var data = {
                             title: "Bien développer son produit c'est bien, Développer le bon produit c'est mieux",
                             summary: "On parle de qualité de code, de tests, d'agilité ... mais on se pose rarement la question: est-ce que ce que je développe est utile?<br/> Pour répondre à cette question, je vous parlerais de Lean Startup, de MVP ou encore de Design Thinking pour améliorer la valeur de vos produits."
                         }
-                    ],
-                    paire: true
+                    ]
                 }
             ]
         },
@@ -319,3 +307,12 @@ var data = {
         }
     ]
 };
+
+for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
+	var baggers = data['villes'][villeIndex]['baggers'];
+	if (baggers !== undefined) {
+		for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
+			baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
+		}
+	}
+}
