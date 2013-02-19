@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -76,7 +77,7 @@
 					location: "Paris, La Défense, Banlieue",
 					sessions: [
 						{
-							title: "Cache &amp; BigData",
+							title: "Cache & BigData",
 							summary: "Différents sujets : Terracotta, ehcache, clustering, scalabilité, concepts avancés sur le cache ..."
 						},
 						{
@@ -387,25 +388,25 @@
 								<p>{{{bio}}}</p>
 
 								{{#websites}}
-									<p><a href="{{href}}">{{title}}</a></p>
+									<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
 								{{/websites}}
 
-								<p>Twitter : <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
-								<p>Infos et contact : {{{contact}}}</p>
+								<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+								<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
 							</div>
 
 							<div class="six columns">
 								<span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
-								<ul>
+								<ul class="icons">
 									{{#sessions}}
 										<li>
-											<strong>{{title}}</strong><br/>
+                                            <i class="icon-hand-right"></i> <strong>{{title}}</strong><br/>
 											{{{summary}}}
 										</li>
 									{{/sessions}}
 								</ul>
 								<span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
-								<p>{{location}}</p>
+								<p><i class="icon-globe"></i> {{location}}</p>
 							</div>
 						</div>
 					</div>
