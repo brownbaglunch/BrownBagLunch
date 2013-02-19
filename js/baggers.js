@@ -14,12 +14,12 @@ var data = {
             location: "La Défense et alentours uniquement",
             sessions: [
                 {
-                    title: "Réaliser en Scala en moins d'une heure un framework Web qui poutre",
-                    summary: "Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible."
+                    title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
+                    summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible."
                 },
                 {
-                    title: "Fabriquez vous même votre type Option",
-                    summary: "Tests unitaires et refactoring pour comprendre la monade Option en Java 8"
+                    title: "Kata : un type Option en Java",
+                    summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                 }
             ],
             paire: false
