@@ -55,11 +55,12 @@
 			{{#baggers}}
                 <div id="{{twitter}}" class="row">
                     <div class="row panel radius {{#paire}}callout{{/paire}}">
-                        <div class="four columns">
+                        <div class="three columns">
                             <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
                             <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
-                            <p class="show-bio" style="cursor: pointer;"><i class="icon-user"></i> Qui suis-je ?</p>
-                            <div style="display: none; margin-top: 10px; border-top: dotted 1px {{#paire}}white{{/paire}} {{^paire}}#a9a9a9{{/paire}};">
+                        </div>
+                        <div class="three columns">
+                            <div style="margin-top: 10px;">
                                 <p>{{{bio}}}</p>
                                 <ul class="icons" style="margin-left: 30px;">
                                     {{#websites}}
@@ -70,7 +71,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="eight columns">
+                        <div class="six columns">
                             <div class="row">
                                 <div class="eleven columns pull-right">
                                     <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
@@ -136,10 +137,15 @@
 		document.getElementById('baggersDetails').innerHTML=htmlDetails;
 
         $('span.show-details').click(function() {
-            $(this).find('i').removeClass('icon-caret-right').addClass('icon-caret-down').end().next('blockquote').fadeIn();
-        });
-        $('p.show-bio').click(function() {
-            $(this).hide().next('div').fadeIn();
+            var icon = $(this).find('i');
+            var blockquote = $(this).next('blockquote');
+            if (blockquote.is(':visible')) {
+                icon.removeClass('icon-caret-down').addClass('icon-caret-right');
+                blockquote.fadeOut();
+            } else {
+                icon.removeClass('icon-caret-right').addClass('icon-caret-down');
+                blockquote.fadeIn();
+            }
         });
 	</script>
 
