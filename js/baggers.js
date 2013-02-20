@@ -297,6 +297,36 @@ var data = {
                             summary: "On parle de qualité de code, de tests, d'agilité ... mais on se pose rarement la question: est-ce que ce que je développe est utile?<br/> Pour répondre à cette question, je vous parlerais de Lean Startup, de MVP ou encore de Design Thinking pour améliorer la valeur de vos produits."
                         }
                     ]
+                },
+                {
+                    name: "Mathieu Gandin",
+                    bio: "Développeur passionné, Technical Leader, Coach Agile",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/1a1/3d1/258cb42.jpg",
+                    websites: [
+                        { title: "Playground Change", href: "http://playgroundchange.wordpress.com/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com/author/mga/" },
+                    ],
+                    twitter: "octomga",
+                    contact: "mga@octo.com",
+                    location: "Paris et La Défense",
+                    sessions: [
+                        {
+                            title: "Travailler efficacement sur du code legacy",
+                            summary: "C'est quoi le code legacy ? Comment commencer de le refactorer ? Quelles pratiques d'équipes peut-on mettre en place avec les développeurs pour nettoyer le code legacy ? Je vous propose d'apporter des réponses à ses sujets au cours de cette présentation illustrée avec du live-coding"
+                        },
+                        {
+                            title: "De la User Story aux tests fonctionnels avec Cucumber",
+                            summary: "Vous avez des User Story, je vous propose d'écrire ses tests fonctionnels. Petite présentation et live coding avec Cucumber."
+                        },
+                        {
+                            title: "Le cadrage fonctionnel d'un projet agile",
+                            summary: "Comment cadrer le démarrage d'un projet agile ? Sur quoi se concentrer ? Quels ateliers sont importants à jouer pour un cadrage ? Je vous présenterais mon retour d'expériences sur le sujet et partageons ensuite sur ces pratiques"
+                        },
+                        {
+                            title: "Bonus : Groupe de lecture",
+                            summary: "Si tu veux mettre en place un groupe de lecture pendant un brownbaglunch sur 'Clean Code' de Bob Martin et 'Quality Software Management' de Gerald Weinberg, je peux t'aider ..."
+                        }
+                    ]
                 }
             ]
         },
