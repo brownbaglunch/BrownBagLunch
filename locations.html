@@ -14,28 +14,7 @@
 
 <body>
 
-    <script type="text/javascript">
-        var data = {
-            locations:[
-                {
-                    pseudo: "sgcib",
-                    name: "Société Générale - SGCIB",
-                    address: "Tours SG, La Défense (92)",
-                    website: "http://www.societegenerale.fr",
-                    contact: "Romain Linsolas (linsolas [at] gmail.com)",
-                    picture: "http://www.societegenerale.fr/images/eimm_logo.png",
-                    interests: [
-                            "Java", "Developpement", "Agilité"
-                    ],
-                    audience: {
-                        profiles: "Développeurs, Architectes, Chefs de projets",
-                        number: "Au moins 20 personnes"
-                    },
-                    paire: false
-                }
-            ]
-        };
-    </script>
+    <script type="text/javascript" src="js/bbl-locations.js"></script>
 
     <nav class="top-bar" style="">
         <ul>
@@ -129,13 +108,18 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
 
     <script type="text/javascript">
+        // decorate data
+        for (var locationIndex = 0; locationIndex < bblLocationsData['locations'].length; locationIndex++) {
+            bblLocationsData['locations'][locationIndex]['paire'] = (locationIndex % 2 == 1);
+        }
+
         //get the templates
         var templateHeader=document.getElementById('bblNavigationBar').innerHTML;
         var templateBaggers=document.getElementById('bblDetails').innerHTML;
 
         //render the template with given data
-        var htmlHeader=Mustache.to_html(templateHeader,data);
-        var htmlDetails=Mustache.to_html(templateBaggers,data);
+        var htmlHeader=Mustache.to_html(templateHeader, bblLocationsData);
+        var htmlDetails=Mustache.to_html(templateBaggers, bblLocationsData);
 
         //put the render result on the screen
         document.getElementById('bblNavigationBar').innerHTML=htmlHeader;
