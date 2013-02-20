@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brown Bag Lunch France</title>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+	<script type="text/javascript" src="js/baggers.js"></script>
+
+	<nav class="top-bar">
+		<ul>
+			<li class="name"><h1><a href="http://www.brownbaglunch.fr">Brown Bag Lunch France</a></h1></li>
+			<li class="toggle-topbar"><a href="#"></a></li>
+			<li class="divider"></li>
+			<li class="name"><h1><a href="http://www.brownbaglunch.fr"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></h1></li>
+		</ul>
+
+		<section>
+			<ul class="right">
+				<li class="divider"></li>
+				<li class="has-dropdown">
+				  <a href="#">Baggers</a>
+				  <ul class="dropdown" id="baggersNavigationBar">
+				  	{{#villes}}
+				  		<li><label>{{name}}</label></li>
+						{{#baggers}}
+							<li><a href="#{{twitter}}">{{name}}</a></li>
+						{{/baggers}}
+					{{/villes}}
+				  </ul>
+				</li>
+			</ul>
+		</section>
+	</nav>
+
+	<!-- BAGGERS! -->
+	<div id="baggersDetails">
+		{{#villes}}
+			<div class="row">
+				<div class="twelve columns">
+					<img width="910" height="364" src="{{ville_img}}">
+					<hr>
+					{{message}}
+				</div>
+			</div>
+
+			{{#baggers}}
+                <div id="{{twitter}}" class="row">
+                    <div class="row panel radius {{#paire}}callout{{/paire}}">
+                        <div class="four columns">
+                            <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
+                            <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
+                            <p class="show-bio" style="cursor: pointer;"><i class="icon-user"></i> Qui suis-je ?</p>
+                            <div style="display: none; margin-top: 10px; border-top: dotted 1px {{#paire}}white{{/paire}} {{^paire}}#a9a9a9{{/paire}};">
+                                <p>{{{bio}}}</p>
+                                <ul class="icons" style="margin-left: 30px;">
+                                    {{#websites}}
+                                        <li><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></li>
+                                    {{/websites}}
+                                    <li><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>
+                                    <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="row">
+                                <div class="eleven columns pull-right">
+                                    <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
+                                    <p><i class="icon-globe"></i> {{location}}</p>
+
+                                    <span class="label round {{#paire}}secondary{{/paire}}">Propose :</span>
+                                    <ul class="icons">
+                                        {{#sessions}}
+                                            <li>
+                                                <span class="show-details" style="font-weight: bold; cursor: pointer;"><i class="icon-caret-right"></i> {{title}}</span>
+                                                <!--<i class="icon-plus-sign-alt show-details" style="margin-left: 20px; font-weight: normal; color: green; cursor: pointer;"></i>-->
+                                                <blockquote style="display: none; {{#paire}}color: white;{{/paire}}">
+                                                    {{{summary}}}
+                                                </blockquote>
+                                            </li>
+                                        {{/sessions}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+			{{/baggers}}
+			<hr>
+		{{/villes}}
+	</div>
+
+	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
+		<div class="row">
+			<strong>
+				Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
+				<a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
+                | <a style="color: yellow;" href="https://twitter.com/bbl_fr"><i class="icon-twitter"></i> @bbl_fr</a>
+			</strong>
+		</div>
+	</footer>
+
+	<!-- Included JS Files -->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+
+	<script type="text/javascript">
+		// decorate data
+		for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
+			var baggers = data['villes'][villeIndex]['baggers'];
+			if (baggers !== undefined) {
+				for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
+					baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
+				}
+			}
+		}
+
+		//get the templates
+		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
+		var templateBaggers=document.getElementById('baggersDetails').innerHTML;
+
+		//render the template with given data
+		var htmlHeader=Mustache.to_html(templateHeader,data);
+		var htmlDetails=Mustache.to_html(templateBaggers,data);
+
+		//put the render result on the screen
+		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
+		document.getElementById('baggersDetails').innerHTML=htmlDetails;
+
+        $('span.show-details').click(function() {
+            $(this).find('i').removeClass('icon-caret-right').addClass('icon-caret-down').end().next('blockquote').fadeIn();
+        });
+        $('p.show-bio').click(function() {
+            $(this).hide().next('div').fadeIn();
+        });
+	</script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38399904-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>
