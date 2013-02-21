@@ -358,6 +358,38 @@ var data = {
                             summary: "Organisation d'un coding dojo chez vous en Scala ou Java."
                         }
                     ]
+                },
+                {
+                    name: "Sylvain Wallez",
+                    bio: "Architecte et développeur Java/Web/Scala freelance, startuper invétéré",
+                    picture: "http://bluxte.net/archives/sylvain_wallez.png",
+                    websites: [
+                        {title: "Blog", href: "http://bluxte.net"}
+                    ],
+                    twitter: "bluxte",
+                    contact: "sylvain@bluxte.net",
+                    location: "Toulouse et environs, ailleurs selon les déplacements",
+                    sessions: [
+                        {
+                            title: "War stories",
+                            summary: "Anecdotes vécues sur des systèmes en production, ou \"Heeeelp ! Ca se met à vibrer de partout quand on monte en régime !!!\""
+                        },
+                        {
+                            title: "Hazelcast, le développement distribué facile",
+                            summary: "Coordonner les activités dans un cluster peut sembler complexe. Hazelcast apporte des réponses simples à ces problèmes, pour une scalabilité horizontale sans peine."
+                        },
+                        {
+                            title: "L'open source, la fondation Apache, comment ça marche ?",
+                            summary: "Nous utilisons tous des produits open source. Introduction à la dynamique sociale des organisations open source, et de Apache en particulier dont je suis membre depuis 10 ans."
+                        },
+                        {
+                            title: "Introduction à MongoDB",
+                            summary: "MongoDB est parfois appelé \"le MySQL du noSQL\". Introduction aux principes de base : cas d'application, modélisation des données, capacités de montée en charge."
+                        },
+                            title: "Open Hardware : késako ?",
+                            summary: "Arduino, imprimantes 3D, hacker spaces : le hardware fait sa révolution. Introduction à cette mouvance qui prend de l'ampleur"
+                        }
+                    ]
                 }
             ]
         }
