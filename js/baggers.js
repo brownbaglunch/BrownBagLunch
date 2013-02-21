@@ -333,7 +333,33 @@ var data = {
         {
             name: "Toulouse",
             ville_img: "img/BBL_Toulouse.jpg",
-            message: "Bientôt!"
+            baggers: [
+                {
+                    name: "Nicolas Deverge",
+                    bio: "Facilitateur agile et développeur - ekito",
+                    picture: "https://twimg0-a.akamaihd.net/profile_images/2050038189/picto.jpg",
+                    websites: [
+                        {title: "Blog ekito", href: "http://www.ekito.fr/people?author_name=ndeverge"}
+                    ],
+                    twitter: "ndeverge",
+                    contact: "ndeverge [at] gmail [dot] com",
+                    location: "Toulouse et agglomération",
+                    sessions: [
+                        {
+                            title: "Introduction à l'agilité",
+                            summary: "Le pourquoi et le comment de l'agilité en quelques slides et petits ateliers."
+                        },
+                        {
+                            title: "Introduction au LeanStartup",
+                            summary: "Ou comment éviter de partir dans de gros dev la tête dans le guidon pour réaliser un nouveau produit dont personne n'a besoin."
+                        },
+                        {
+                            title: "Et pourquoi pas un coding dojo ?",
+                            summary: "Organisation d'un coding dojo chez vous en Scala ou Java."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
