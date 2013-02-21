@@ -386,6 +386,7 @@ var data = {
                             title: "Introduction à MongoDB",
                             summary: "MongoDB est parfois appelé \"le MySQL du noSQL\". Introduction aux principes de base : cas d'application, modélisation des données, capacités de montée en charge."
                         },
+                        {
                             title: "Open Hardware : késako ?",
                             summary: "Arduino, imprimantes 3D, hacker spaces : le hardware fait sa révolution. Introduction à cette mouvance qui prend de l'ampleur"
                         }
