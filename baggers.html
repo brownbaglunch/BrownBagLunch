@@ -14,8 +14,6 @@
 
 <body>
 
-	<script type="text/javascript" src="js/baggers.js"></script>
-
 	<nav class="top-bar" style="">
 		<ul>
 			<li class="name"><h1><a href="http://www.brownbaglunch.fr">Brown Bag Lunch France</a></h1></li>
@@ -133,47 +131,9 @@
   	<script type="text/javascript" src="https://raw.github.com/HPNeo/gmaps/master/gmaps.js"></script>
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
-  	<script type="text/javascript">
-	    var map;
-	    $(document).ready(function(){
-	      map = new GMaps({
-	        div: '#map',
-	        lat: 47.081012,
-	        lng: 2.352222,
-	        zoom: 5,
-	        disableDefaultUI: true
-	      });
-
-	      for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
-		      createVilleMarker(data['villes'][villeIndex]);
-		  }
-
-		  function createVilleMarker(ville){
-		  	var action = function(e) {
-			    window.location = window.location + "#" + ville['name'];
-			  };
- 			  map.addMarker({
-				  lat: ville['lat'],
-				  lng: ville['lng'],
-				  title: ville['name'],
-				  click: action
-			  });
-		  } 
-
-	    });
-	</script>
+    <script type="text/javascript" src="js/baggers.js"></script>
 
 	<script type="text/javascript">
-		// decorate data
-		for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
-			var baggers = data['villes'][villeIndex]['baggers'];
-			if (baggers !== undefined) {
-				for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-					baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-				}
-			}
-		}
-
 		//get the templates
 		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
 		var templateBaggers=document.getElementById('baggersDetails').innerHTML;
@@ -185,9 +145,8 @@
 		//put the render result on the screen
 		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
 		document.getElementById('baggersDetails').innerHTML=htmlDetails;
-	</script>
 
-	<script type="text/javascript">
+        // Google Analytics
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-38399904-1']);
 		_gaq.push(['_trackPageview']);
