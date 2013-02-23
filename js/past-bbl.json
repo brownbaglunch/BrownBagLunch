@@ -1,9 +1,9 @@
 {
     "timeline": {
-        "headline": "BBL Paris",
+        "headline": "BBL France",
         "type": "default",
-        "text": "Brown Bag Lunch sur Paris / IdF",
-        "startDate": "2013,1,1",
+        "text": "Tous les Brown Bag Lunch tenus en France",
+        "startDate": "2013,01,01",
         "date": [
             {
                 "startDate": "2013,1,13",
