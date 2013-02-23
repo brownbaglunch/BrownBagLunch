@@ -3,6 +3,8 @@ var data = {
         {
             name: "Paris",
             ville_img: "img/BBL.jpg",
+            lat: 48.856614,
+            lng: 2.352222,
 
             baggers: [
                 {
@@ -333,6 +335,9 @@ var data = {
         {
             name: "Toulouse",
             ville_img: "img/BBL_Toulouse.jpg",
+            lat: 43.604652,
+            lng: 1.444209,
+
             baggers: [
                 {
                     name: "Nicolas Deverge",
