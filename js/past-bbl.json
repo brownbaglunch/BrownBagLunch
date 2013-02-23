@@ -71,172 +71,22 @@
                     "caption": "Romain Maton"
                 }
             },
-            
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            },
-            {
-                "startDate": "2013,1,1",
-                "endDate": "2013,1,1",
-                "headline": "",
-                "text": "<p></p>",
-                "asset": {
-                    "media": "",
-                    "credit": "",
-                    "caption": ""
-                }
-            }
+
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
+            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" }
         ]
     }
 }
