@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brown Bag Lunch France</title>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <script type="text/javascript" src="js/bbl-locations.js"></script>
+
+    <nav class="top-bar" style="">
+        <ul>
+            <li class="name"><h1><a href="http://www.brownbaglunch.fr">Brown Bag Lunch France</a></h1></li>
+            <li class="toggle-topbar"><a href="#"></a></li>
+            <li class="divider"></li>
+            <li class="name"><h1><a href="http://www.brownbaglunch.fr"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></h1></li>
+        </ul>
+    </nav>
+
+    <div id="timeline-embed"></div>
+
+
+
+    <script type="text/javascript">
+        var timeline_config = {
+            width:              '100%',
+            height:             '600',
+            source:             'js/past-bbl.json',
+            embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+            start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
+//            start_at_slide:     '4',                            //OPTIONAL START AT SPECIFIC SLIDE
+            start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+            hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+            font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+            debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
+            lang:               'fr',                           //OPTIONAL LANGUAGE
+            maptype:            'watercolor',                   //OPTIONAL MAP STYLE
+            css:                'css/timeline.css',     //OPTIONAL PATH TO CSS
+            js:                 'js/timeline-min.js'    //OPTIONAL PATH TO JS
+        }
+    </script>
+    <script type="text/javascript" src="js/storyjs-embed.js"></script>
+
+
+    <footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
+   		<div class="row">
+   			<strong>
+   				Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
+   				<a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
+                   | <a style="color: yellow;" href="https://twitter.com/bbl_fr"><i class="icon-twitter"></i> @bbl_fr</a>
+   			</strong>
+   		</div>
+   	</footer>
+
+    <!-- Included JS Files -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38399904-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+{
+    "timeline": {
+        "headline": "BBL Paris",
+        "type": "default",
+        "text": "Brown Bag Lunch sur Paris / IdF",
+        "startDate": "2013,1,1",
+        "date": [
+            {
+                "startDate": "2013,1,13",
+                "endDate": "2013,1,13",
+                "headline": "Elastic Search, par David Pilato",
+                "text": "<p>Présentation d'Elastic Search par David Pilato à la SGCIB</p>",
+                "asset": {
+                    "media": "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
+                    "credit": "",
+                    "caption": "David Pilato"
+                }
+            },
+            {
+                "startDate": "2013,1,18",
+                "endDate": "2013,1,18",
+                "headline": "Du legacy au Cloud en une heure, par David Gageot",
+                "text": "<p>Présentation du Legacy au Cloud en une heure par David Gageot à la SGCIB</p>",
+                "asset": {
+                    "media": "https://secure.gravatar.com/avatar/f0887bf6175ba40dca795eb37883a8cf?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+                    "credit": "",
+                    "caption": "David Gageot"
+                }
+            },
+            {
+                "startDate": "2013,3,1",
+                "endDate": "2013,3,1",
+                "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
+                "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin à la SGCIB</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "credit": "",
+                    "caption": "François Sarradin"
+                }
+            },
+            {
+                "startDate": "2013,3,15",
+                "endDate": "2013,3,15",
+                "headline": "Principes avancés du cache, par Mathilde Lemée",
+                "text": "<p>Présentation des principes avancés du cache par Mathilde Lemée à la SGCIB</p>",
+                "asset": {
+                    "media": "http://www.brownbaglunch.fr/img/photo_mathilde.jpeg",
+                    "credit": "",
+                    "caption": "Mathilde Lemée"
+                }
+            },
+            {
+                "startDate": "2013,3,18",
+                "endDate": "2013,3,18",
+                "headline": "Couchbase par Tugdual Grall",
+                "text": "<p>Présentation de Couchbase par Tugdual Grall à la SGCIB</p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,3,22",
+                "endDate": "2013,3,22",
+                "headline": "Hands on Node, par Romain Maton",
+                "text": "<p>Démonstration de Node.JS par Romain Maton à la SGCIB</p>",
+                "asset": {
+                    "media": "https://lh4.googleusercontent.com/-VcEH4WuA6XE/ThmqIx4nf_I/AAAAAAAAAso/Az2a4TtTgmA/s800/avatar_rmat0n.jpg",
+                    "credit": "",
+                    "caption": "Romain Maton"
+                }
+            },
+            
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,1,1",
+                "endDate": "2013,1,1",
+                "headline": "",
+                "text": "<p></p>",
+                "asset": {
+                    "media": "",
+                    "credit": "",
+                    "caption": ""
+                }
+            }
+        ]
+    }
+}
