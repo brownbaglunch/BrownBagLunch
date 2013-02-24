@@ -329,6 +329,36 @@ var data = {
                             summary: "Si tu veux mettre en place un groupe de lecture pendant un brownbaglunch sur 'Clean Code' de Bob Martin et 'Quality Software Management' de Gerald Weinberg, je peux t'aider ..."
                         }
                     ]
+                },
+                {
+                    name: "Sylvain Abélard",
+                    bio: "Problem Solver chez Faveod",
+                    picture: "https://secure.gravatar.com/avatar/4eb4b55cece0e2f81bb7e506ac484cd0?s=210",
+                    websites: [
+                        { title: "Faveod", href: "http://www.faveod.com" },
+                        { title: "Site perso", href: "http://maitre-du-monde.fr" }
+                    ],
+                    twitter: "abelar_s",
+                    contact: "sylvain.abelard@gmail.com",
+                    location: "Paris + ce qui est accessible en transports",
+                    sessions: [
+                        {
+                            title: "Ruby",
+                            summary: "Présentation de Ruby, de débutant à expert"
+                        },
+                        {
+                            title: "Ruby on Rails",
+                            summary: "Présentation de Rails, de débutant à expert"
+                        },
+                        {
+                            title: "Known Unknowns - ce qui risque de changer dans votre projet",
+                            summary: "Tous les projets changent. De toutes les règles que l'on vous jure gravées dans le marbre, certaines vont changer : tôt ou tard, radicalement ou subtilement, induisant un effort minime ou majeur. Avec la pratique, on peut avoir une intuition pour mieux chiffrer et mieux trouver les points de friction et de changement probable. Parlons de cas concrets, les vôtres ou les miens, pour améliorer cette perception."
+                        },
+                        {
+                            title: "on demand",
+                            summary: "Tout ce qui est relié à mon expertise : web, MVC, architecture logicielle, retours d'expérience..."
+                        }
+                    ]
                 }
             ]
         },
