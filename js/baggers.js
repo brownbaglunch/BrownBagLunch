@@ -306,7 +306,7 @@ var data = {
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/1a1/3d1/258cb42.jpg",
                     websites: [
                         { title: "Playground Change", href: "http://playgroundchange.wordpress.com/" },
-                        { title: "Blog Octo", href: "http://blog.octo.com/author/mga/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com/author/mga/" }
                     ],
                     twitter: "octomga",
                     contact: "mga@octo.com",
