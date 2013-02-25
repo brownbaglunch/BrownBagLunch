@@ -463,6 +463,48 @@ var data = {
                     ]
                 }
             ]
+        },
+        {
+            name: "Lille",
+            ville_img: "img/BBL_Lille.jpg",
+            lat:50.637222,
+            lng: 3.063333,
+            baggers: [
+                {
+                    name: "Julien Jakubowski",
+                    bio: "Développeur passionné, technical leader. Co-animateur du Ch'ti JUG et de l'Agile Tour Lille.",
+                    picture: "http://s3.amazonaws.com/askbob/users/photos/70/preview/carree.jpg",
+                    websites: [
+                        { title: "Ch'ti JUG", href: "http://chtijug.org/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com/" }
+                    ],
+                    twitter: "jak78",
+                    contact: "jja@octo.com",
+                    location: "Métropole lilloise, région parisienne",
+                    sessions: [
+                        {
+                            title: "Du JavaScript propre ? Challenge accepted !",
+                            summary: "Mes recettes pour écrire, sans stress, des applications JavaScript complexes. Présentation ou mise en pratique sous forme de coding dojo."
+                        },
+                        {
+                            title: "Spring Batch : par quel bout le prendre ?",
+                            summary: "En Java, quand je fais du batch : je suis à poil ? Et bien non, il y a Spring Batch. Je vous propose de vous le présenter. Et pourquoi pas coder notre premier batch ensemble."
+                        },
+                        {
+                            title: "Les tests automatisés, ça n'est pas possible chez moi...",
+                            summary: "...vraiment ? Et si on regardait ?"
+                        },
+                        {
+                            title: "Coding dojo sur mesure",
+                            summary: "Organiser un coding dojo chez vous, sur mesure. Langages Java, JavaScript, Ruby. Mise en pratique clean code, TDD, ATDD..."
+                        },
+                        {
+                            title: "Speed consulting sur la productivité des développements",
+                            summary: "Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ? Même le temps d'un déj, on peut trouver quelques pistes."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
