@@ -439,7 +439,7 @@ var data = {
                 {
                     name: "Nicolas De Loof",
                     bio: "Committer Maven et Jenkins, Support Engineer et évangéliste chez CloudBees",
-                    picture: "https://photos-3.dropbox.com/t/0/AABSVFnhuif1ETe0xTqpL7HAqS7zTuL6fMMK2IiVrMlhvg/12/509147/jpeg/1024x768/2/1361797200/0/2/IMG_2614.jpg/5ilg6IkZWeBNaV541YCsMJZqQxauyrEZDQHv7uFLm0Q",
+                    picture: "img/photo_NicolasDeLoof.jpg",
                     websites: [
                         {title: "new Blog(perso);", href: "http://blog.loof.fr"},
                         {title: "CloudBees", href: "http://www.cloudbees.com"}
