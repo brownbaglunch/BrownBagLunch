@@ -137,14 +137,7 @@
 
 	<script type="text/javascript">
 		// decorate data to alternate images
-		for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
-			var baggers = data['villes'][villeIndex]['baggers'];
-			if (baggers !== undefined) {
-				for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-					baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-				}
-			}
-		}
+		addPaireImpaire();
 
 		//get the templates
 		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;

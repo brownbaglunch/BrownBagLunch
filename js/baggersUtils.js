@@ -11,12 +11,6 @@ $(document).ready(function () {
     for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {
         var ville = data['villes'][villeIndex];
         createVilleMarker(ville);
-        var baggers = ville['baggers'];
-        if (baggers !== undefined) {
-            for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-                baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-            }
-        }
     }
 
     function createVilleMarker(ville) {
@@ -29,6 +23,18 @@ $(document).ready(function () {
             title: ville['name'],
             click: action
         });
-    }
-
+    };
 });
+
+
+
+function addPaireImpaire(){
+     for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {        
+        var baggers = data['villes'][villeIndex]['baggers'];
+        if (baggers !== undefined) {
+            for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
+                baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
+            }
+        }
+    }
+};
