@@ -428,6 +428,41 @@ var data = {
                     ]
                 }
             ]
+        },
+        {
+            name: "Rennes (et alentours...)",
+            ville_img: "img/BBL_BZH.png",
+            lat:48.0686257,
+            lng: -1.7253652,
+
+            baggers: [
+                {
+                    name: "Nicolas De Loof",
+                    bio: "Committer Maven et Jenkins, Support Engineer et évangéliste chez CloudBees",
+                    picture: "https://photos-3.dropbox.com/t/0/AABSVFnhuif1ETe0xTqpL7HAqS7zTuL6fMMK2IiVrMlhvg/12/509147/jpeg/1024x768/2/1361797200/0/2/IMG_2614.jpg/5ilg6IkZWeBNaV541YCsMJZqQxauyrEZDQHv7uFLm0Q",
+                    websites: [
+                        {title: "new Blog(perso);", href: "http://blog.loof.fr"},
+                        {title: "CloudBees", href: "http://www.cloudbees.com"}
+                    ],
+                    twitter: "ndeloof",
+                    contact: "nicolas.deloof@gmail.com",
+                    location: "Rennes et alentours, possibilités sur Paris",
+                    sessions: [
+                        {
+                            title: "Cloud Patterns",
+                            summary: "Comprendre les avantages et contraintes du cloud et les patterns d'architecture associés."
+                        },
+                        {
+                            title: "Intégration continue avec Jenkins",
+                            summary: "Présentation du concept d'intégration continue, mise en oeuvre avec Jenkins et utilisations avancées."
+                        },
+                        {
+                            title: "Games of Codes",
+                            summary: "Atelier pratique : développer avec la plateforme CloudBees"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
