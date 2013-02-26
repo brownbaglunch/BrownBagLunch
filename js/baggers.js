@@ -491,6 +491,28 @@ var data = {
                             summary: "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
                         }
                     ]
+                },
+                {
+                    name: "Cécile Especel",
+                    bio: "Développeuse puis chef de projet c'est suite à une conférence à l'Agile Tour Nantes 2010 que je m'intéresse puis me passionne pour l'agilité. ScrumMaster chez A2F j'intervient chez différents clients pour guider des équipes et des responsables métier vers plus d'agilité au quotidien. En dehors de mes activités professionnelles j'intègre en 2011 l'équipe d'Agile Nantes et participe à l'organisation des Agile Tour.",
+                    picture: "http://www.cecile-especel.com/var/users/7831/avatar/8108/avatar_cp.jpg",
+                    websites: [
+                        {title: "A2F", href: "http://www.a2f-services.fr/"},
+                        {title: "Mon CV DoYouBuzz", href: "http://www.cecile-especel.com/"}
+                    ],
+                    twitter: "Cecile_Especel",
+                    contact: "cespecel@gmail.com",
+                    location: "Nantes et environs.",
+                    sessions: [
+                        {
+                            title: "Introduction aux méthodes agiles",
+                            summary: "L'agilité, vous en entendez beaucoup parler, mais concrètement, qu'est ce que c'est ?"
+                        },
+                        {
+                            title: "Jeux Agiles",
+                            summary: "Animation de différents jeux agiles pour s'initier ou approfondir : Lego4Scrum, Marshmallow Challenge, ensemble de jeux courts tels que La Vache et Les Spécifications, Origami Agile etc."
+                        }
+                    ]
                 }
             ]
         },
