@@ -31,7 +31,8 @@
 				  	{{#villes}}
 				  		<li><label>{{name}}</label></li>
 						{{#baggers}}
-							<li><a href="#{{twitter}}">{{name}}</a></li>
+							{{#twitter}}<li><a href="#{{twitter}}">{{name}}</a></li>{{/twitter}}
+							{{^twitter}}{{#id}}<li><a href="#{{id}}">{{name}}</a></li>{{/id}}{{/twitter}}
 						{{/baggers}}
 					{{/villes}}
 				  </ul>
@@ -65,7 +66,8 @@
 			</div>
 
 			{{#baggers}}
-				<div id="{{twitter}}" class="row">
+				{{#twitter}}<div id="{{twitter}}" class="row">{{/twitter}}
+				{{^twitter}}<div {{#id}}id="{{id}}"{{/id}} class="row">{{/twitter}}
 					{{^paire}}
 						<div class="four columns">
 							<img src="{{picture}}">
@@ -84,7 +86,7 @@
 										<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
 									{{/websites}}
 
-									<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+									{{#twitter}}<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>{{/twitter}}
 									<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
 								</div>
 
