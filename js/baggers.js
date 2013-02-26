@@ -462,6 +462,36 @@ var data = {
                         }
                     ]
                 }
+             ]
+        },
+        {
+            name: "Nantes",
+            ville_img: "",
+            lat:46,
+            lng: 2,
+
+            baggers: [
+                {
+                    name: "Cécilia Bossard",
+                    bio: "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
+                    picture: "http://timwi.com/fichiers/cecilia.jpg",
+                    websites: [
+                        {title: "Timwi", href: "http://timwi.com/"}
+                    ],
+                    twitter: "ceciliaBossard",
+                    contact: "cecilia.bossard@gmail.com",
+                    location: "Nantes et environs. Possible à Rennes",
+                    sessions: [
+                        {
+                            title: "Introduction aux méthodes agiles",
+                            summary: "L'agilité, vous en entendez beaucoup parler, mais concrètement, qu'est ce que c'est ?"
+                        },
+                        {
+                            title: "Jouons !",
+                            summary: "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
+                        }
+                    ]
+                }
             ]
         },
         {
