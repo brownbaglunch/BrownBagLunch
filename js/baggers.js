@@ -467,8 +467,8 @@ var data = {
         {
             name: "Nantes",
             ville_img: "",
-            lat:46,
-            lng: 2,
+            lat: 47.219102,
+            lng: -1.551132,
 
             baggers: [
                 {
