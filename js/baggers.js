@@ -462,6 +462,30 @@ var data = {
                         }
                     ]
                 }
+                {
+                    name: "Christophe Bégot",
+                    bio: "Facilitateur Agile",
+                    picture: "http://www.timwi.com/fichiers/cbegot.png",
+                    websites: [
+                        {title: "Timwi", href: "http://timwi.com/"}
+                    ],
+                    contact: "cbegot@gmail.com",
+                    location: "Rennes et alentours, possibilités sur toute la Bretagne",
+                    sessions: [
+                        {
+                            title: "Méthodes et pratiques Agiles",
+                            summary: "Présentations et échanges pour une première approche ou un appronfondissement."
+                        },
+                        {
+                            title: "Rétrospective",
+                            summary: "Dérouler une rétrospective Agile avec votre équipe."
+                        },
+                        {
+                            title: "Coaching individuel",
+                            summary: "Présentation de la démarche et sessions de coaching."
+                        }
+                    ]
+                }
              ]
         },
         {
