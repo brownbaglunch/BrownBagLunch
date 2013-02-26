@@ -33,7 +33,7 @@
                                 <a href="#"><label>{{name}}</label></a>
                                 <ul class="dropdown">
                                     {{#baggers}}
-                                        <li><a href="#{{twitter}}">{{name}}</a></li>
+                                        <li><a href="#{{baggerId}}">{{name}}</a></li>
                                     {{/baggers}}
                                 </ul>
                             </li>
@@ -69,7 +69,7 @@
 			</div>
 
 			{{#baggers}}
-				<div id="{{twitter}}" class="row">
+				<div id="{{baggerId}}" class="row">
 					{{^paire}}
 						<div class="four columns">
 							<img src="{{picture}}">
@@ -88,7 +88,9 @@
 										<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
 									{{/websites}}
 
-									<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                    {{#twitter}}
+									    <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                    {{/twitter}}
 									<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
 								</div>
 

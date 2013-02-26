@@ -32,8 +32,10 @@ function addPaireImpaire(){
      for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {        
         var baggers = data['villes'][villeIndex]['baggers'];
         if (baggers !== undefined) {
-            for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-                baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
+            for (var baggerIndex = 0; baggerIndex < baggers.length; baggerIndex++) {
+                var bagger = baggers[baggerIndex];
+                bagger['paire'] = (baggerIndex % 2 == 1);
+                bagger['baggerId'] = encodeURIComponent(bagger.name);
             }
         }
     }
