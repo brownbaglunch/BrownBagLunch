@@ -490,7 +490,7 @@ var data = {
         },
         {
             name: "Nantes",
-            ville_img: "",
+            ville_img: "img/BBL_Nantes.jpg",
             lat: 47.219102,
             lng: -1.551132,
 
