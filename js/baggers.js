@@ -461,7 +461,7 @@ var data = {
                             summary: "Atelier pratique : développer avec la plateforme CloudBees"
                         }
                     ]
-                }
+                },
                 {
                     name: "Christophe Bégot",
                     bio: "Facilitateur Agile",
