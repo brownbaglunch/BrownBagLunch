@@ -22,22 +22,26 @@
 			<li class="name"><h1><a href="http://www.brownbaglunch.fr"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></h1></li>
 		</ul>
 
-		<section>
-			<ul class="right">
-				<li class="divider"></li>
-				<li class="has-dropdown">
-				  <a href="#">Baggers</a>
-				  <ul class="dropdown" id="baggersNavigationBar">
-				  	{{#villes}}
-				  		<li><label>{{name}}</label></li>
-						{{#baggers}}
-							<li><a href="#{{twitter}}">{{name}}</a></li>
-						{{/baggers}}
-					{{/villes}}
-				  </ul>
-				</li>
-			</ul>
-		</section>
+        <section>
+            <ul class="right">
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                    <a href="#">Baggers</a>
+                    <ul class="dropdown" id="baggersNavigationBar">
+                        {{#villes}}
+                            <li class="has-dropdown">
+                                <a href="#"><label>{{name}}</label></a>
+                                <ul class="dropdown">
+                                    {{#baggers}}
+                                        <li><a href="#{{twitter}}">{{name}}</a></li>
+                                    {{/baggers}}
+                                </ul>
+                            </li>
+                        {{/villes}}
+                    </ul>
+                </li>
+            </ul>
+        </section>
 	</nav>
 
 	<div class="row">
