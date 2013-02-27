@@ -660,7 +660,7 @@ var data = {
                         },
                         {
                             title: "Apache Camel - un framework d'intégration ultralight",
-                            summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs application, découvrez la puissance et la simplicité de Camel."
+                            summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs applications, découvrez la puissance et la simplicité de Camel."
                         }
                     ]
                 }
