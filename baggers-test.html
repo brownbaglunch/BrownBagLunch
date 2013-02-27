@@ -10,8 +10,10 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap-button.js"></script>
 </head>
 
 <body>
@@ -43,71 +45,76 @@
 		</section>
 	</nav>
 
-	<!-- BAGGERS! -->
-	<div id="baggersDetails">
-		{{#villes}}
-			<div class="row">
-				<div class="twelve columns">
-					<img width="910" height="364" src="{{ville_img}}">
-					<hr>
-					{{message}}
-				</div>
-			</div>
+    <div style="border: solid 1px #a9a9a9; margin: 20px; padding: 10px;" id="filter-box">
+        <h3>Filtre</h3>
 
-			{{#baggers}}
-                {{^paire}}
-                    <div class="row">
-                {{/paire}}
-                <div id="{{twitter}}" class="six columns">
-                    <div class="row panel radius {{#paire}}callout{{/paire}}">
-                        <div class="card">
-                            <div class="front">
-                                <div class="twelve columns" style="text-align: center; border-bottom: dotted 1px #a9a9a9;">
-                                    <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
-                                    <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
-                                </div>
-                                <div style="margin-top: 10px;">
-                                    <p>{{{bio}}}</p>
-                                    <ul class="icons" style="margin-left: 30px;">
-                                        {{#websites}}
-                                            <li><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></li>
-                                        {{/websites}}
-                                        <li><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>
-                                        <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="row">
-                                    <div class="eleven columns pull-right">
-                                        <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
-                                        <p><i class="icon-globe"></i> {{location}}</p>
+        {{#villes}}
+            <button type="button" class="btn btn-primary city-filter active" data-toggle="button" data-label="{{name}}">{{name}}</button>
+        {{/villes}}
 
-                                        <span class="label round {{#paire}}secondary{{/paire}}">Propose :</span>
-                                        <ul class="icons">
-                                            {{#sessions}}
-                                                <li>
-                                                    <span class="show-details" style="font-weight: bold; cursor: pointer;"><i class="icon-caret-right"></i> {{title}}</span>
-                                                    <!--<i class="icon-plus-sign-alt show-details" style="margin-left: 20px; font-weight: normal; color: green; cursor: pointer;"></i>-->
-                                                    <blockquote style="display: none; {{#paire}}color: white;{{/paire}}">
-                                                        {{{summary}}}
-                                                    </blockquote>
-                                                </li>
-                                            {{/sessions}}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    </div>
+
+    <!-- BAGGERS! -->
+    <div id="baggersDetails">
+        {{#villes}}
+            <div class="ville-{{name}}">
+                <div class="row">
+                    <div class="twelve columns">
+                        <img width="910" height="364" src="{{ville_img}}">
+                        <hr>
+                        {{message}}
                     </div>
                 </div>
-                {{#paire}}
-                    </div>
-                {{/paire}}
-			{{/baggers}}
-			<hr>
-		{{/villes}}
-	</div>
+
+                {{#baggers}}
+                       <div id="{{twitter}}" class="row">
+                           <div class="row panel radius {{#paire}}callout{{/paire}}">
+                               <div class="three columns">
+                                   <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
+                                   <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
+                               </div>
+                               <div class="three columns">
+                                   <div style="margin-top: 10px;">
+                                       <p>{{{bio}}}</p>
+                                       <ul class="icons" style="margin-left: 30px;">
+                                           {{#websites}}
+                                               <li><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></li>
+                                           {{/websites}}
+                                           <li><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>
+                                           <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                               <div class="six columns">
+                                   <div class="row">
+                                       <div class="eleven columns pull-right">
+                                           <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
+                                           <p><i class="icon-globe"></i> {{location}}</p>
+
+                                           <span class="label round {{#paire}}secondary{{/paire}}">Propose :</span>
+                                           <ul class="icons">
+                                               {{#sessions}}
+                                                   <li>
+                                                       <span class="show-details" style="font-weight: bold; cursor: pointer;"><i class="icon-caret-right"></i> {{title}}</span>
+                                                       <!--<i class="icon-plus-sign-alt show-details" style="margin-left: 20px; font-weight: normal; color: green; cursor: pointer;"></i>-->
+                                                       <blockquote style="display: none; {{#paire}}color: white;{{/paire}}">
+                                                           {{{summary}}}
+                                                       </blockquote>
+                                                   </li>
+                                               {{/sessions}}
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <br/>
+                {{/baggers}}
+                <hr>
+            </div>
+        {{/villes}}
+    </div>
+
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -138,7 +145,7 @@
 	</footer>
 
 	<!-- Included JS Files -->
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>
+	<!--<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/javascripts/foundation.min.js"></script>-->
 
 	<script type="text/javascript">
 		// decorate data
@@ -151,17 +158,13 @@
 			}
 		}
 
-		//get the templates
-		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
-		var templateBaggers=document.getElementById('baggersDetails').innerHTML;
+        var template = $('#baggersNavigationBar');
+        template.html(Mustache.render(template.html(), data));
+        template = $('#baggersDetails');
+        template.html(Mustache.render(template.html(), data));
+        template = $('#filter-box');
+        template.html(Mustache.render(template.html(), data));
 
-		//render the template with given data
-		var htmlHeader=Mustache.to_html(templateHeader,data);
-		var htmlDetails=Mustache.to_html(templateBaggers,data);
-
-		//put the render result on the screen
-		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
-		document.getElementById('baggersDetails').innerHTML=htmlDetails;
 
         $('span.show-details').click(function() {
             var icon = $(this).find('i');
@@ -172,6 +175,16 @@
             } else {
                 icon.removeClass('icon-caret-right').addClass('icon-caret-down');
                 blockquote.fadeIn();
+            }
+        });
+
+        $('.city-filter').click(function() {
+            var $btn = $(this);
+            console.log('Click ' + $btn.attr('data-label') + ' - ' + $btn.hasClass('active'));
+            if ($btn.hasClass('active')) {
+                $('div.ville-' + $btn.attr('data-label')).fadeOut();
+            } else {
+                $('div.ville-' + $btn.attr('data-label')).fadeIn();
             }
         });
 	</script>

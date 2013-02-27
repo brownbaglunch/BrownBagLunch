@@ -430,7 +430,7 @@ var data = {
             ]
         },
         {
-            name: "Rennes (et alentours...)",
+            name: "Rennes",
             ville_img: "img/BBL_BZH.png",
             lat:48.0686257,
             lng: -1.7253652,
