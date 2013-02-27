@@ -306,7 +306,7 @@ var data = {
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/1a1/3d1/258cb42.jpg",
                     websites: [
                         { title: "Playground Change", href: "http://playgroundchange.wordpress.com/" },
-                        { title: "Blog Octo", href: "http://blog.octo.com/author/mga/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com/author/mga/" }
                     ],
                     twitter: "octomga",
                     contact: "mga@octo.com",
@@ -327,6 +327,36 @@ var data = {
                         {
                             title: "Bonus : Groupe de lecture",
                             summary: "Si tu veux mettre en place un groupe de lecture pendant un brownbaglunch sur 'Clean Code' de Bob Martin et 'Quality Software Management' de Gerald Weinberg, je peux t'aider ..."
+                        }
+                    ]
+                },
+                {
+                    name: "Sylvain Abélard",
+                    bio: "Problem Solver chez Faveod",
+                    picture: "https://secure.gravatar.com/avatar/4eb4b55cece0e2f81bb7e506ac484cd0?s=210",
+                    websites: [
+                        { title: "Faveod", href: "http://www.faveod.com" },
+                        { title: "Site perso", href: "http://maitre-du-monde.fr" }
+                    ],
+                    twitter: "abelar_s",
+                    contact: "sylvain.abelard@gmail.com",
+                    location: "Paris + ce qui est accessible en transports",
+                    sessions: [
+                        {
+                            title: "Ruby",
+                            summary: "Présentation de Ruby, de débutant à expert"
+                        },
+                        {
+                            title: "Ruby on Rails",
+                            summary: "Présentation de Rails, de débutant à expert"
+                        },
+                        {
+                            title: "Known Unknowns - ce qui risque de changer dans votre projet",
+                            summary: "Tous les projets changent. De toutes les règles que l'on vous jure gravées dans le marbre, certaines vont changer : tôt ou tard, radicalement ou subtilement, induisant un effort minime ou majeur. Avec la pratique, on peut avoir une intuition pour mieux chiffrer et mieux trouver les points de friction et de changement probable. Parlons de cas concrets, les vôtres ou les miens, pour améliorer cette perception."
+                        },
+                        {
+                            title: "on demand",
+                            summary: "Tout ce qui est relié à mon expertise : web, MVC, architecture logicielle, retours d'expérience..."
                         }
                     ]
                 }
@@ -398,41 +428,243 @@ var data = {
                     ]
                 }
             ]
+        },
+        {
+            name: "Rennes (et alentours...)",
+            ville_img: "img/BBL_BZH.png",
+            lat:48.0686257,
+            lng: -1.7253652,
+
+            baggers: [
+                {
+                    name: "Nicolas De Loof",
+                    bio: "Committer Maven et Jenkins, Support Engineer et évangéliste chez CloudBees",
+                    picture: "img/photo_NicolasDeLoof.jpg",
+                    websites: [
+                        {title: "new Blog(perso);", href: "http://blog.loof.fr"},
+                        {title: "CloudBees", href: "http://www.cloudbees.com"}
+                    ],
+                    twitter: "ndeloof",
+                    contact: "nicolas.deloof@gmail.com",
+                    location: "Rennes et alentours, possibilités sur Paris",
+                    sessions: [
+                        {
+                            title: "Cloud Patterns",
+                            summary: "Comprendre les avantages et contraintes du cloud et les patterns d'architecture associés."
+                        },
+                        {
+                            title: "Intégration continue avec Jenkins",
+                            summary: "Présentation du concept d'intégration continue, mise en oeuvre avec Jenkins et utilisations avancées."
+                        },
+                        {
+                            title: "Games of Codes",
+                            summary: "Atelier pratique : développer avec la plateforme CloudBees"
+                        }
+                    ]
+                },
+                {
+                    name: "Christophe Bégot",
+                    bio: "Facilitateur Agile",
+                    picture: "http://www.timwi.com/fichiers/cbegot.png",
+                    websites: [
+                        {title: "Timwi", href: "http://timwi.com/"}
+                    ],
+                    contact: "cbegot@gmail.com",
+                    location: "Rennes et alentours, possibilités sur toute la Bretagne",
+                    sessions: [
+                        {
+                            title: "Méthodes et pratiques Agiles",
+                            summary: "Présentations et échanges pour une première approche ou un appronfondissement."
+                        },
+                        {
+                            title: "Rétrospective",
+                            summary: "Dérouler une rétrospective Agile avec votre équipe."
+                        },
+                        {
+                            title: "Coaching individuel",
+                            summary: "Présentation de la démarche et sessions de coaching."
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            name: "Nantes",
+            ville_img: "img/BBL_Nantes.jpg",
+            lat: 47.219102,
+            lng: -1.551132,
+
+            baggers: [
+                {
+                    name: "Cécilia Bossard",
+                    bio: "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
+                    picture: "http://timwi.com/fichiers/cecilia.jpg",
+                    websites: [
+                        {title: "Timwi", href: "http://timwi.com/"}
+                    ],
+                    twitter: "ceciliaBossard",
+                    contact: "cecilia.bossard@gmail.com",
+                    location: "Nantes et environs. Possible à Rennes",
+                    sessions: [
+                        {
+                            title: "Introduction aux méthodes agiles",
+                            summary: "L'agilité, vous en entendez beaucoup parler, mais concrètement, qu'est ce que c'est ?"
+                        },
+                        {
+                            title: "Jouons !",
+                            summary: "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
+                        }
+                    ]
+                },
+                {
+                    name: "Cécile Especel",
+                    bio: "Développeuse puis chef de projet c'est suite à une conférence à l'Agile Tour Nantes 2010 que je m'intéresse puis me passionne pour l'agilité. ScrumMaster chez A2F j'intervient chez différents clients pour guider des équipes et des responsables métier vers plus d'agilité au quotidien. En dehors de mes activités professionnelles j'intègre en 2011 l'équipe d'Agile Nantes et participe à l'organisation des Agile Tour.",
+                    picture: "http://www.cecile-especel.com/var/users/7831/avatar/8108/avatar_cp.jpg",
+                    websites: [
+                        {title: "A2F", href: "http://www.a2f-services.fr/"},
+                        {title: "Mon CV DoYouBuzz", href: "http://www.cecile-especel.com/"}
+                    ],
+                    twitter: "Cecile_Especel",
+                    contact: "cespecel@gmail.com",
+                    location: "Nantes et environs.",
+                    sessions: [
+                        {
+                            title: "Introduction aux méthodes agiles",
+                            summary: "L'agilité, vous en entendez beaucoup parler, mais concrètement, qu'est ce que c'est ?"
+                        },
+                        {
+                            title: "Jeux Agiles",
+                            summary: "Animation de différents jeux agiles pour s'initier ou approfondir : Lego4Scrum, Marshmallow Challenge, ensemble de jeux courts tels que La Vache et Les Spécifications, Origami Agile etc."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Lille",
+            ville_img: "img/BBL_Lille.jpg",
+            lat:50.637222,
+            lng: 3.063333,
+            baggers: [
+                {
+                    name: "Julien Jakubowski",
+                    bio: "Développeur passionné, technical leader. Co-animateur du Ch'ti JUG et de l'Agile Tour Lille.",
+                    picture: "http://s3.amazonaws.com/askbob/users/photos/70/preview/carree.jpg",
+                    websites: [
+                        { title: "Ch'ti JUG", href: "http://chtijug.org/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com/" }
+                    ],
+                    twitter: "jak78",
+                    contact: "jja@octo.com",
+                    location: "Métropole lilloise, région parisienne",
+                    sessions: [
+                        {
+                            title: "Du JavaScript propre ? Challenge accepted !",
+                            summary: "Mes recettes pour écrire, sans stress, des applications JavaScript complexes. Présentation ou mise en pratique sous forme de coding dojo."
+                        },
+                        {
+                            title: "Spring Batch : par quel bout le prendre ?",
+                            summary: "En Java, quand je fais du batch : je suis à poil ? Et bien non, il y a Spring Batch. Je vous propose de vous le présenter. Et pourquoi pas coder notre premier batch ensemble."
+                        },
+                        {
+                            title: "Les tests automatisés, ça n'est pas possible chez moi...",
+                            summary: "...vraiment ? Et si on regardait ?"
+                        },
+                        {
+                            title: "Coding dojo sur mesure",
+                            summary: "Organiser un coding dojo chez vous, sur mesure. Langages Java, JavaScript, Ruby. Mise en pratique clean code, TDD, ATDD..."
+                        },
+                        {
+                            title: "Speed consulting sur la productivité des développements",
+                            summary: "Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ? Même le temps d'un déj, on peut trouver quelques pistes."
+                        }
+                    ]
+                }
+            ]
+        },
+    	{
+            name: "Lyon",
+            ville_img: "img/BBL_Lyon.jpg",
+            lat:45.764043,
+            lng: 4.835659,
+            baggers: [
+                {
+                    name: "Hugo Lassiège",
+                    bio: "Geek et entrepreneur. Un bon cocktail pour parler technologie et production de valeur.",
+                    picture: "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/go08sv2fmb7zxdotfqyq.png",
+                    websites: [
+                        { title: "Blog perso", href: "http://hakanai.free.fr/" },
+                        { title: "Localizeyourapps (fondateur)", href: "http://www.localizeyourapps.com/" },
+						{ title: "Hopwork (co-fondateur)", href: "http://www.hopwork.com/" },
+						{ title: "Lateral-Thoughts (co-fondateur)", href: "http://www.lateral-thoughts.com/" },
+						{ title: "Blog sur developpez.com", href: "http://hugo.developpez.com" }
+                    ],
+                    twitter: "hugolassiege",
+                    contact: "hlassiege+bbl@gmail.com",
+                    location: "Lyon",
+                    sessions: [
+                        {
+                            title: "Le web en Java, c'est possible ?",
+                            summary: "Java commence à trainer derrière lui quelques casserolles et une réputation mérité d'écosystème complexe. Pourtant sa force c'est bien le web mais avec plus de 100 frameworks web comment choisir ? Ce sera l'occasion de faire un tour d'horizon des frameworks, des approches et de comprendre pragmatiquement ce qui vous convient le mieux."
+                        },
+                        {
+                            title: "Développer à l'âge adulte.",
+                            summary: "On aborde les années 2010 et il reste encore beaucoup à faire pour que les pratiques de développement arrivent à maturité dans les entreprises. Etes-vous adulte ? Et si non quelles sont les étapes à franchir ? Quels sont les anniversaires à célébrer ? Ce sera l'occasion d'aborder non seulement les pratiques de test mais aussi la qualimétrie, le déploiement, les frontières entre développeurs et opérationnels, tout cet écosystème qui permet de délivrer de la valeur."
+                        },
+                        {
+                            title: "Big Data, pourquoi, comment ?",
+                            summary: "Au delà des buzz word, qu'entends-on par Nosql, bigdata, cloud, machine learning etc... ? Vous vous sentez dépassés ou curieux ? Vous n'êtes pas sûr d'en avoir besoin mais vous avez un doute ? Faisons déjà le point sur la réalité que recouvre ces technologies, essayons de comprendre sur vos données si vous avez de la richesse non exploitée qui pourrait en profiter."
+                        },
+                        {
+                            title: "Organisez vos documents avec Mongo",
+                            summary: "Derrière le terme Nosql se cache une multitude de base de données avec des objectifs bien distincts. Mongodb est l'une d'entre elles. Orienté document, cette base propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées (recherche full text, géocalisation, mapreduce). Mongo peut-il répondre à vos cas d'usage ? Pouvez-vous vivre sans transactions et sans contraintes relationnelles. Comment conçoit-on un schéma de données orienté document ? Comment manipule-t'on ces données ? Comment tirer parti de ces spécificités ?"
+                        },
+                        {
+                            title: "Elastic Search, parce qu'on a toujours besoin de rechercher quelque chose",
+                            summary: "Rechercher des données est sans doute ce qui se fait le plus couramment dans toutes les applications. Mais le faites-vous bien ? Etes vous capable de guider votre utilisateur pour qu'il trouve ses résultats ? Lui suggérez-vous d'autres pistes ? Ou tout simplement, pensez-vous que WHERE mon champ like '%s%' commence à être vraiment trop limité pour vos besoins ?"
+                        },
+                        {
+                            title: "Architecture distribuées",
+                            summary: "Le temps des applications monolithiques multi fonctions s'éloigne. Désormais on recherche à composer par services, on recherche la haute disponibilité, la résistance aux erreurs, le déploiement ciblé. Comment peut-on y arriver sans construire un monstre inmaintenable ? Comment faire simple tout en répondant à des problématiques complexes ? On pourra discuter d'architecture orientée message, de bonnes pratiques de déploiement, de monitoring, d'interropérabilité. Il faudra choisir car le sujet est vaste ;)"
+                        }
+                    ]
+                },
+                {
+                    name: "Cédric Exbrayat",
+                    bio: "Développe des trucs cools en Java et Javascript par passion et pour vivre. Leader du Lyon Java User Group, de la conférence Mix-it, et co-fondateur de la société Ninja Squad.",
+                    picture: "http://www.gravatar.com/avatar/0f0edb7904c4eea5f1b60fba0bf88537?s=250",
+                    websites: [
+                        { title: "Blog", href: "http://hypedrivendev.wordpress.com/" },
+                        { title: "Ninja Squad (co-fondateur)", href: "http://ninja-squad.fr/" },
+                        { title: "Mix-it", href: "http://mix-it.fr" }
+                    ],
+                    twitter: "cedric_exbrayat",
+                    contact: "contact+bbl@ninja-squad.com",
+                    location: "Lyon",
+                    sessions: [
+                        {
+                            title: "Java 8 - découvrir les lambdas",
+                            summary: "Si vous voulez comprendre la prochaine révolution Java!"
+                        },
+                        {
+                          title: "AngularJS - le framework javascript de demain",
+                            summary: "Une plongée en douceur dans ce framework développé par Google et qui pourrait devenir le standard de demain."  
+                        },
+                        {
+                            title: "Git - l'incontournable",
+                            summary: "Introduction à Git et comment en tirer partie dans votre entreprise."
+                        },
+                        {
+                            title: "Play! Framework - fast web development",
+                            summary: "Play! Framework fait aujourd’hui figure d’incontournable, utilisé aussi bien par des startups, des grands groupes et des géants du Web. Venez découvrir les concepts et la philosophie derrière ce fantastique outil, depuis les bases de la 1.2 jusqu’aux révolutions de la 2.1!"
+                        },
+                        {
+                            title: "Apache Camel - un framework d'intégration ultralight",
+                            summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs applications, découvrez la puissance et la simplicité de Camel."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
-
-var map;
-$(document).ready(function () {
-    map = new GMaps({
-        div: '#map',
-        lat: 47.081012,
-        lng: 2.352222,
-        zoom: 5,
-        disableDefaultUI: true
-    });
-
-    for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {
-        var ville = data['villes'][villeIndex];
-        createVilleMarker(ville);
-        var baggers = ville['baggers'];
-        if (baggers !== undefined) {
-            for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-                baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-            }
-        }
-    }
-
-    function createVilleMarker(ville) {
-        var action = function (e) {
-            window.location = window.location + "#" + ville['name'];
-        };
-        map.addMarker({
-            lat: ville['lat'],
-            lng: ville['lng'],
-            title: ville['name'],
-            click: action
-        });
-    }
-
-});

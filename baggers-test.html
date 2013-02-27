@@ -8,8 +8,10 @@
 
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
 
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/3.2.2/stylesheets/foundation.min.css" media="screen">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -53,52 +55,77 @@
 			</div>
 
 			{{#baggers}}
-                <div id="{{twitter}}" class="row">
+                {{^paire}}
+                    <div class="row">
+                {{/paire}}
+                <div id="{{twitter}}" class="six columns">
                     <div class="row panel radius {{#paire}}callout{{/paire}}">
-                        <div class="three columns">
-                            <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
-                            <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
-                        </div>
-                        <div class="three columns">
-                            <div style="margin-top: 10px;">
-                                <p>{{{bio}}}</p>
-                                <ul class="icons" style="margin-left: 30px;">
-                                    {{#websites}}
-                                        <li><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></li>
-                                    {{/websites}}
-                                    <li><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>
-                                    <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="row">
-                                <div class="eleven columns pull-right">
-                                    <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
-                                    <p><i class="icon-globe"></i> {{location}}</p>
-
-                                    <span class="label round {{#paire}}secondary{{/paire}}">Propose :</span>
-                                    <ul class="icons">
-                                        {{#sessions}}
-                                            <li>
-                                                <span class="show-details" style="font-weight: bold; cursor: pointer;"><i class="icon-caret-right"></i> {{title}}</span>
-                                                <!--<i class="icon-plus-sign-alt show-details" style="margin-left: 20px; font-weight: normal; color: green; cursor: pointer;"></i>-->
-                                                <blockquote style="display: none; {{#paire}}color: white;{{/paire}}">
-                                                    {{{summary}}}
-                                                </blockquote>
-                                            </li>
-                                        {{/sessions}}
+                        <div class="card">
+                            <div class="front">
+                                <div class="twelve columns" style="text-align: center; border-bottom: dotted 1px #a9a9a9;">
+                                    <h4 style="{{#paire}}color: white;{{/paire}}">{{name}}</h4>
+                                    <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <p>{{{bio}}}</p>
+                                    <ul class="icons" style="margin-left: 30px;">
+                                        {{#websites}}
+                                            <li><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></li>
+                                        {{/websites}}
+                                        <li><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>
+                                        <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
                                     </ul>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="row">
+                                    <div class="eleven columns pull-right">
+                                        <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
+                                        <p><i class="icon-globe"></i> {{location}}</p>
+
+                                        <span class="label round {{#paire}}secondary{{/paire}}">Propose :</span>
+                                        <ul class="icons">
+                                            {{#sessions}}
+                                                <li>
+                                                    <span class="show-details" style="font-weight: bold; cursor: pointer;"><i class="icon-caret-right"></i> {{title}}</span>
+                                                    <!--<i class="icon-plus-sign-alt show-details" style="margin-left: 20px; font-weight: normal; color: green; cursor: pointer;"></i>-->
+                                                    <blockquote style="display: none; {{#paire}}color: white;{{/paire}}">
+                                                        {{{summary}}}
+                                                    </blockquote>
+                                                </li>
+                                            {{/sessions}}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <br/>
+                {{#paire}}
+                    </div>
+                {{/paire}}
 			{{/baggers}}
 			<hr>
 		{{/villes}}
 	</div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.card').click(function(e) {
+                if ($(e.target).is('span.show-details')) {
+                    e.preventDefault();
+                } else if (e.target.tagName != 'A') {
+                    var $card = $(this);
+                    console.log('Click to flip');
+                    if ($card.hasClass('flip')) {
+                        $card.removeClass('flip');
+                    } else {
+                        $card.addClass('flip');
+                    }
+                }
+            });
+        });
+    </script>
 
 	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
 		<div class="row">

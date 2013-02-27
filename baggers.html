@@ -22,22 +22,26 @@
 			<li class="name"><h1><a href="http://www.brownbaglunch.fr"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></h1></li>
 		</ul>
 
-		<section>
-			<ul class="right">
-				<li class="divider"></li>
-				<li class="has-dropdown">
-				  <a href="#">Baggers</a>
-				  <ul class="dropdown" id="baggersNavigationBar">
-				  	{{#villes}}
-				  		<li><label>{{name}}</label></li>
-						{{#baggers}}
-							<li><a href="#{{twitter}}">{{name}}</a></li>
-						{{/baggers}}
-					{{/villes}}
-				  </ul>
-				</li>
-			</ul>
-		</section>
+        <section>
+            <ul class="right">
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                    <a href="#">Baggers</a>
+                    <ul class="dropdown" id="baggersNavigationBar">
+                        {{#villes}}
+                            <li class="has-dropdown">
+                                <a href="#"><label>{{name}}</label></a>
+                                <ul class="dropdown">
+                                    {{#baggers}}
+                                        <li><a href="#{{baggerId}}">{{name}}</a></li>
+                                    {{/baggers}}
+                                </ul>
+                            </li>
+                        {{/villes}}
+                    </ul>
+                </li>
+            </ul>
+        </section>
 	</nav>
 
 	<div class="row">
@@ -65,7 +69,7 @@
 			</div>
 
 			{{#baggers}}
-				<div id="{{twitter}}" class="row">
+				<div id="{{baggerId}}" class="row">
 					{{^paire}}
 						<div class="four columns">
 							<img src="{{picture}}">
@@ -84,7 +88,9 @@
 										<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
 									{{/websites}}
 
-									<p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                    {{#twitter}}
+									    <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                    {{/twitter}}
 									<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
 								</div>
 
@@ -132,17 +138,12 @@
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
     <script type="text/javascript" src="js/baggers.js"></script>
+    <script type="text/javascript" src="js/baggersUtils.js"></script>
+
 
 	<script type="text/javascript">
 		// decorate data to alternate images
-		for (villeIndex=0; villeIndex < data['villes'].length; villeIndex++) {
-			var baggers = data['villes'][villeIndex]['baggers'];
-			if (baggers !== undefined) {
-				for (baggerIndex=0; baggerIndex < baggers.length; baggerIndex++) {
-					baggers[baggerIndex]['paire'] = (baggerIndex % 2 == 1);
-				}
-			}
-		}
+		addPaireImpaire();
 
 		//get the templates
 		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
