@@ -628,6 +628,37 @@ var data = {
                             summary: "Le temps des applications monolithiques multi fonctions s'éloigne. Désormais on recherche à composer par services, on recherche la haute disponibilité, la résistance aux erreurs, le déploiement ciblé. Comment peut-on y arriver sans construire un monstre inmaintenable ? Comment faire simple tout en répondant à des problématiques complexes ? On pourra discuter d'architecture orientée message, de bonnes pratiques de déploiement, de monitoring, d'interropérabilité. Il faudra choisir car le sujet est vaste ;)"
                         }
                     ]
+                },
+                {
+                    name: "Cédric Exbrayat",
+                    bio: "Développe des trucs cools en Java et Javascript par passion et pour vivre. Leader du Lyon Java User Group, de la conférence Mix-it, et co-fondateur de la société Ninja Squad.",
+                    picture: "http://www.gravatar.com/avatar/0f0edb7904c4eea5f1b60fba0bf88537?s=250",
+                    websites: [
+                        { title: "Blog", href: "http://hypedrivendev.wordpress.com/" },
+                        { title: "Ninja Squad (co-fondateur)", href: "http://ninja-squad.fr/" },
+                        { title: "Mix-it", href: "http://mix-it.fr" }
+                    ],
+                    twitter: "cedric_exbrayat",
+                    contact: "contact+bbl@ninja-squad.com",
+                    location: "Lyon",
+                    sessions: [
+                        {
+                            title: "Java 8 - découvrir les lambdas",
+                            summary: "Si vous voulez comprendre la prochaine révolution Java!"
+                        },
+                        {
+                            title: "Play! Framework - fast web development",
+                            summary: "Play! Framework fait aujourd’hui figure d’incontournable, utilisé aussi bien par des startups, des grands groupes et des géants du Web. Venez découvrir les concepts et la philosophie derrière ce fantastique outil, depuis les bases de la 1.2 jusqu’aux révolutions de la 2.1!"
+                        },
+                        {
+                            title: "Git - l'incontournable",
+                            summary: "Introduction à Git et comment en tirer partie dans votre entreprise."
+                        },
+                        {
+                            title: "Apache Camel - un framework d'intégration ultralight",
+                            summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs application, découvrez la puissance et la simplicité de Camel."
+                        }
+                    ]
                 }
             ]
         }
