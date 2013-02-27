@@ -333,7 +333,7 @@ var data = {
                 {
                     name: "Sylvain Abélard",
                     bio: "Problem Solver chez Faveod",
-                    picture: "https://secure.gravatar.com/avatar/4eb4b55cece0e2f81bb7e506ac484cd0?s=210",
+                    picture: "img/photo_sylvain.png",
                     websites: [
                         { title: "Faveod", href: "http://www.faveod.com" },
                         { title: "Site perso", href: "http://maitre-du-monde.fr" }
