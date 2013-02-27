@@ -647,12 +647,16 @@ var data = {
                             summary: "Si vous voulez comprendre la prochaine révolution Java!"
                         },
                         {
-                            title: "Play! Framework - fast web development",
-                            summary: "Play! Framework fait aujourd’hui figure d’incontournable, utilisé aussi bien par des startups, des grands groupes et des géants du Web. Venez découvrir les concepts et la philosophie derrière ce fantastique outil, depuis les bases de la 1.2 jusqu’aux révolutions de la 2.1!"
+                          title: "AngularJS - le framework javascript de demain",
+                            summary: "Une plongée en douceur dans ce framework développé par Google et qui pourrait devenir le standard de demain."  
                         },
                         {
                             title: "Git - l'incontournable",
                             summary: "Introduction à Git et comment en tirer partie dans votre entreprise."
+                        },
+                        {
+                            title: "Play! Framework - fast web development",
+                            summary: "Play! Framework fait aujourd’hui figure d’incontournable, utilisé aussi bien par des startups, des grands groupes et des géants du Web. Venez découvrir les concepts et la philosophie derrière ce fantastique outil, depuis les bases de la 1.2 jusqu’aux révolutions de la 2.1!"
                         },
                         {
                             title: "Apache Camel - un framework d'intégration ultralight",
