@@ -685,7 +685,7 @@ var data = {
                             summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs applications, découvrez la puissance et la simplicité de Camel."
                         }
                     ],
-                    tags: ["java", "lambda", "angularjs", "javascript", "play framework"]
+                    tags: ["java", "lambda", "angularjs", "javascript", "play framework", "git"]
                 }
             ]
         }
