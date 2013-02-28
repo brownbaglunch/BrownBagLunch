@@ -47,22 +47,23 @@
         </div>
     </div>
 
-    <div  id="filter-box" class="panel radius" style="margin: 50px 10px 10px 10px;">
-        <div class="row container">
+    <div  id="filter-box" class="panel radius" style="margin: 50px 10px 10px 10px; padding: 5px 10px;">
+        <p class="lead" style="margin: 0 0 0 10px;"> <i class="icon-caret-down show-filter" style="cursor: pointer;"></i>&nbsp; Filtres - <span id="available-baggers" class="label"></span></p>
+        <div class="container row" style="width: 100%;" id="filter-subbox">
             <div class="span3">
                 <h4><i class="icon-globe"></i> Villes</h4>
                 {{#villes}}
-                    <button type="button" class="btn btn-success btn-city-filter active btn-small" data-toggle="button" data-label="ville-{{name}}">{{name}}</button>
+                    <button type="button" class="btn btn-success btn-city-filter active btn-small" style="margin-bottom: 10px;" data-toggle="button" data-label="ville-{{name}}">{{name}}</button>
                 {{/villes}}
             </div>
-            <div class="span8">
+            <div class="span10">
                 <h4><i class="icon-heart"></i> Intérêts</h4>
                 <div id="tags-filter">
                 </div>
                 <button type="button" class="btn btn-inverse btn-small" id="clear-tag-filter">Aucun</button>
             </div>
         </div>
-        <span id="available-baggers" class="label"></span>
+
     </div>
 
     <!-- BAGGERS! -->
@@ -79,16 +80,16 @@
 
                 {{#baggers}}
                     <div id="{{baggerId}}" class="bagger">
-                        <div class="row panel radius {{#paire}}callout{{/paire}}">
-                            <div class="span3">
+                        <div class="row panel radius container {{#paire}}callout{{/paire}}">
+                            <div class="span3" style="text-align: center; margin: 0 20px 0 0;">
                                 <h3 style="{{#paire}}color: white;{{/paire}}">{{name}}</h3>
-                                <img src="{{picture}}" alt="{{name}}" style="height: 200px;">
-                                <hr/>
+                                <img src="{{picture}}" alt="{{name}}" style="height: 256px;">
+                                <br/><br/>
                                 {{#tags}}
                                     <span class="label label-success {{^paire}}label-info{{/paire}}   ">{{.}}</span>
                                 {{/tags}}
                             </div>
-                            <div class="span3">
+                            <div class="span8" style="margin: 0;">
                                 <div style="margin-top: 10px;">
                                     <p>{{{bio}}}</p>
                                     <ul class="icons" style="margin-left: 30px;">
@@ -99,8 +100,7 @@
                                         <li><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="span5">
+                                <hr/>
                                 <span class="label round {{#paire}}secondary{{/paire}}">Lieu: </span>
                                 <p><i class="icon-globe"></i> {{location}}</p>
 
@@ -179,14 +179,25 @@
 
         // Manage (un)folding for presentation details
         $('span.show-details').click(function() {
-            var icon = $(this).find('i');
-            var blockquote = $(this).next('blockquote');
-            if (blockquote.is(':visible')) {
-                icon.removeClass('icon-caret-down').addClass('icon-caret-right');
-                blockquote.fadeOut();
+            var $icon = $(this).find('i');
+            var $blockquote = $(this).next('blockquote');
+            if ($blockquote.is(':visible')) {
+                $icon.removeClass('icon-caret-down').addClass('icon-caret-right');
+                $blockquote.fadeOut();
             } else {
-                icon.removeClass('icon-caret-right').addClass('icon-caret-down');
-                blockquote.fadeIn();
+                $icon.removeClass('icon-caret-right').addClass('icon-caret-down');
+                $blockquote.fadeIn();
+            }
+        });
+
+        $('i.show-filter').click(function() {
+            var $div = $('div#filter-subbox');
+            if ($div.is(':visible')) {
+                $(this).removeClass('icon-caret-down').addClass('icon-caret-right');
+                $div.fadeOut();
+            } else {
+                $(this).removeClass('icon-caret-right').addClass('icon-caret-down');
+                $div.fadeIn();
             }
         });
 
@@ -212,7 +223,7 @@
             tags.sort();
             // Create one button per tag in the filter part
             for (var i = 0; i < tags.length; i++) {
-                $div.append('<button type="button" class="btn btn-success btn-tag-filter active btn-small" data-toggle="button" data-label="tag-' +
+                $div.append('<button type="button" class="btn btn-success btn-tag-filter active btn-small" style="margin-bottom: 10px;" data-toggle="button" data-label="tag-' +
                         tags[i].replace(/ /g, '_') + '">' + tags[i] + '</button> ');
             }
 
