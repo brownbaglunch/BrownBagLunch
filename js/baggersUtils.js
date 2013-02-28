@@ -35,7 +35,8 @@ function addPaireImpaire(){
             for (var baggerIndex = 0; baggerIndex < baggers.length; baggerIndex++) {
                 var bagger = baggers[baggerIndex];
                 bagger['paire'] = (baggerIndex % 2 == 1);
-                bagger['baggerId'] = encodeURIComponent(bagger.name);
+                // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
+                bagger['baggerId'] = bagger.name.replace(/ /g, '_');
             }
         }
     }
