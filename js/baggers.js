@@ -27,7 +27,8 @@ var data = {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                         }
-                    ]
+                    ],
+                    tags: ["java", "scala"]
                 },
                 {
                     name: "Nathaniel Richand",
@@ -48,7 +49,8 @@ var data = {
                             title: "Introduction au Lean Startup",
                             summary: "Présentation des concepts et de quelques outils phares du Lean Startup."
                         }
-                    ]
+                    ],
+                    tags: ["agile"]
                 },
                 {
                     name: "Mathilde Lemée",
@@ -73,7 +75,8 @@ var data = {
                             title: "Le mobile",
                             summary: "Premier pas avec Corona SDK, REX sur 6 mois de dev et de marketing d'applis mobile (http://www.aetys.fr)"
                         }
-                    ]
+                    ],
+                    tags: ["cache", "big data", "tests", "mobile", "java"]
                 },
                 {
                     name: "David Gageot",
@@ -110,7 +113,8 @@ var data = {
                             title: "Outils de test avancés",
                             summary: "Slides présentant des outils pour écrire des tests plus simples, plus clairs, plus rapides. (JUnit4 Rules, Infinitest, FestAssert...)"
                         }
-                    ]
+                    ],
+                    tags: ["code", "tests", "git", "outils", "refactoring"]
                 },
                 {
                     name: "Romain Maton",
@@ -135,7 +139,8 @@ var data = {
                             title: "24 plugins chrono",
                             summary: "Pas de Jack Bauer dans cette session mais un développeur qui passe en revue 24 plugins pour <span style=\"text-decoration: line-through;\">sauver le monde</span> booster votre IDE !"
                         }
-                    ]
+                    ],
+                    tags: ["javascript", "nodejs", "outils"]
                 },
                 {
                     name: "Florent Biville",
@@ -161,7 +166,8 @@ var data = {
                             title: "Liquibase : gestionnaire de versions pour RDBMS",
                             summary: "Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ? Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments  portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring)."
                         }
-                    ]
+                    ],
+                    tags: ["nosql", "spring", "database"]
                 },
                 {
                     name: "Bernard Notarianni",
@@ -190,7 +196,8 @@ var data = {
                             title: "Ember JS...",
                             summary: "Retour d'expérience, live coding, dojo..."
                         }
-                    ]
+                    ],
+                    tags: ["agile", "startup", "erlang", "javascript"]
                 },
                 {
                     name: "Romain Linsolas",
@@ -207,7 +214,8 @@ var data = {
                             title: "Industrialiser ses tests JavaScripts pour un développeur Java",
                             summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
                         }
-                    ]
+                    ],
+                    tags: ["javascript", "usine logicielle"]
                 },
                 {
                     name: "David Pilato",
@@ -224,7 +232,8 @@ var data = {
                             title: "Elasticsearch",
                             summary: "Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche 'à la google' sur les données de votre SI ?<br/><br/>Ne cherchez plus ! Cette conférence est faite pour vous.<br/><br/>David présentera au cours de du BBL pourquoi et comment il est passé de la recherche SQL à Elasticsearch en détaillant les apports de ce moteur par rapport à une solution pure Lucene :<ul><li>Pourquoi Elasticsearch ?</li><li>L'indexation</li><li>La recherche</li><li>La collecte de données (rivers)</li><li>Les facettes et le principe de navigation par facettes</li><li>La scalabilité horizontale</li><li>L'analyse et le mapping</li><li>La percolation</li><li>La communauté</li></ul>"
                         }
-                    ]
+                    ],
+                    tags: ["elasticsearch"]
                 },
                 {
                     name: "Jean-Louis Rigau",
@@ -246,7 +255,8 @@ var data = {
                             title: "Blue/Green Deployment avec AWS Elastic Beanstalk",
                             summary: "Déployer simplement une application sur Amazon à l'aide d'Elastic BeanStalk, et mise en œuvre du principe de Blue-Green Deployment grâce à la fonctionnalité d’URL swapping."
                         }
-                    ]
+                    ],
+                    tags: ["cloud", "usine logicielle"]
                 },
                 {
                     name: "Frédéric Menou",
@@ -272,7 +282,8 @@ var data = {
                             title: "Livraison Continue chez CapitaineTrain",
                             summary: "Retour d'expérience sur les mises en production chez CapitaineTrain.<br/> On parlera d'intégration continue, de code review, de release management et de mises en production transparentes.<br /> Livrer tous les jours c'est possible et c'est même assez banal !"
                         }
-                    ]
+                    ],
+                    tags: ["git", "usine logicielle"]
                 },
                 {
                     name: "Yannick Grenzinger",
@@ -298,7 +309,8 @@ var data = {
                             title: "Bien développer son produit c'est bien, Développer le bon produit c'est mieux",
                             summary: "On parle de qualité de code, de tests, d'agilité ... mais on se pose rarement la question: est-ce que ce que je développe est utile?<br/> Pour répondre à cette question, je vous parlerais de Lean Startup, de MVP ou encore de Design Thinking pour améliorer la valeur de vos produits."
                         }
-                    ]
+                    ],
+                    tags: ["user experience", "ergonomie"]
                 },
                 {
                     name: "Mathieu Gandin",
@@ -328,7 +340,8 @@ var data = {
                             title: "Bonus : Groupe de lecture",
                             summary: "Si tu veux mettre en place un groupe de lecture pendant un brownbaglunch sur 'Clean Code' de Bob Martin et 'Quality Software Management' de Gerald Weinberg, je peux t'aider ..."
                         }
-                    ]
+                    ],
+                    tags: ["code", "refactoring", "bdd"]
                 },
                 {
                     name: "Sylvain Abélard",
@@ -358,7 +371,8 @@ var data = {
                             title: "on demand",
                             summary: "Tout ce qui est relié à mon expertise : web, MVC, architecture logicielle, retours d'expérience..."
                         }
-                    ]
+                    ],
+                    tags: ["ruby", "ruby on rails"]
                 }
             ]
         },
@@ -392,7 +406,8 @@ var data = {
                             title: "Et pourquoi pas un coding dojo ?",
                             summary: "Organisation d'un coding dojo chez vous en Scala ou Java."
                         }
-                    ]
+                    ],
+                    tags: ["agile", "code", "dojo"]
                 },
                 {
                     name: "Sylvain Wallez",
@@ -425,7 +440,8 @@ var data = {
                             title: "Open Hardware : késako ?",
                             summary: "Arduino, imprimantes 3D, hacker spaces : le hardware fait sa révolution. Introduction à cette mouvance qui prend de l'ampleur"
                         }
-                    ]
+                    ],
+                    tags: ["nosql", "mongodb", "hardware"]
                 }
             ]
         },
@@ -460,7 +476,8 @@ var data = {
                             title: "Games of Codes",
                             summary: "Atelier pratique : développer avec la plateforme CloudBees"
                         }
-                    ]
+                    ],
+                    tags: ["cloud", "usine logicielle"]
                 },
                 {
                     name: "Christophe Bégot",
@@ -484,7 +501,8 @@ var data = {
                             title: "Coaching individuel",
                             summary: "Présentation de la démarche et sessions de coaching."
                         }
-                    ]
+                    ],
+                    tags: ["agile", "coaching"]
                 }
              ]
         },
@@ -514,7 +532,8 @@ var data = {
                             title: "Jouons !",
                             summary: "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
                         }
-                    ]
+                    ],
+                    tags: ["agile", "serious game"]
                 },
                 {
                     name: "Cécile Especel",
@@ -536,7 +555,8 @@ var data = {
                             title: "Jeux Agiles",
                             summary: "Animation de différents jeux agiles pour s'initier ou approfondir : Lego4Scrum, Marshmallow Challenge, ensemble de jeux courts tels que La Vache et Les Spécifications, Origami Agile etc."
                         }
-                    ]
+                    ],
+                    tags: ["agile", "serious game"]
                 }
             ]
         },
@@ -578,7 +598,8 @@ var data = {
                             title: "Speed consulting sur la productivité des développements",
                             summary: "Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ? Même le temps d'un déj, on peut trouver quelques pistes."
                         }
-                    ]
+                    ],
+                    tags: ["javascript", "spring", "tests", "dojo"]
                 }
             ]
         },
@@ -627,7 +648,8 @@ var data = {
                             title: "Architecture distribuées",
                             summary: "Le temps des applications monolithiques multi fonctions s'éloigne. Désormais on recherche à composer par services, on recherche la haute disponibilité, la résistance aux erreurs, le déploiement ciblé. Comment peut-on y arriver sans construire un monstre inmaintenable ? Comment faire simple tout en répondant à des problématiques complexes ? On pourra discuter d'architecture orientée message, de bonnes pratiques de déploiement, de monitoring, d'interropérabilité. Il faudra choisir car le sujet est vaste ;)"
                         }
-                    ]
+                    ],
+                    tags: ["web", "java", "big data", "mongodb", "elasticsearch"]
                 },
                 {
                     name: "Cédric Exbrayat",
@@ -662,7 +684,8 @@ var data = {
                             title: "Apache Camel - un framework d'intégration ultralight",
                             summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs applications, découvrez la puissance et la simplicité de Camel."
                         }
-                    ]
+                    ],
+                    tags: ["java", "lambda", "angularjs", "javascript", "play framework"]
                 }
             ]
         }
