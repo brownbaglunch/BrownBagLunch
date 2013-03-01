@@ -561,6 +561,34 @@ var data = {
                         }
                     ],
                     tags: ["agile", "serious game"]
+                },
+                {
+                    name: "Clément Delafargue",
+                    bio: "Consultant, développeur, entrepreneur, λ geek",
+                    picture: "http://clement.delafargue.name/profile_square.jpg",
+                    websites: [
+                        {title: "Clément Delafargue", href: "http://clement.delafargue.name"},
+                        {title: "Tech blog", href: "http://blog.clement.delafargue.name"},
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/cdelafargue"}
+                    ],
+                    twitter: "clementd",
+                    contact: "clement+bbl@delafargue.name",
+                    location: "Nantes et environs.",
+                    sessions: [
+                        {
+                            title: "FP Jedi tricks",
+                            summary: "Apprentissage de la programmation fonctionnelle. Live coding autour de notions fonctionnelles."
+                        },
+                        {
+                            title: "Ma première REST API",
+                            summary: "Live coding d'une petite API REST en scala"
+                        },
+                        {
+                            title: "How I learned to stop worrying and love static typing",
+                            summary: "Pourquoi et comment un bon système de type est votre meilleur ami pour écrire du code sans vous prendre la tête."
+                        }
+                    ],
+                    tags: ["scala", "haskell", "functional programming"]
                 }
             ]
         },
