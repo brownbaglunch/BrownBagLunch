@@ -698,7 +698,7 @@ var data = {
                     sessions: [
                         {
                             title: "Java 8 - découvrir les lambdas",
-                            summary: "Si vous voulez comprendre la prochaine révolution Java!"
+                            summary: "Les lambdas sont la fonctionnalité majeure de Java 8! Si vous voulez découvrir la programmation fonctionnelle, les nouvelles fonctions utilisables sur les collections et l'impact sur votre code de demain, ce talk est fait pour vous!"
                         },
                         {
                           title: "AngularJS - le framework javascript de demain",
