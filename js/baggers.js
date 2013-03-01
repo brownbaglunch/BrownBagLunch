@@ -26,9 +26,13 @@ var data = {
                         {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
+                        },
+                        {
+                        	title: "De Java à Java 8 en passant par Guava",
+                        	summary: "(à venir) Introduction à la programmation fonctionnelle. Pourquoi et comment l'appliquer au quotidien ?"
                         }
                     ],
-                    tags: ["java", "scala"]
+                    tags: ["java", "scala", "programmation fonctionnelle"]
                 },
                 {
                     name: "Nathaniel Richand",
