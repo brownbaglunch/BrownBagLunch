@@ -589,6 +589,38 @@ var data = {
                         }
                     ],
                     tags: ["scala", "haskell", "functional programming"]
+                },
+                {
+                    name: "Geoffroy Couprie",
+                    bio: "Consultant freelance en développement web et sécurité, développeur mobile, hacker",
+                    picture: "http://1.gravatar.com/avatar/ed9901b9b80743c05aedf58b4f4926dd?s=256",
+                    websites: [
+                        {title: "Geoffroy Couprie", href: "http://geoffroycouprie.com"},
+                        {title: "Unhandled Expression", href: "http://unhandledexpression.com/"},
+                        {title: "Pilot SSH", href: "http://pilotssh.com/"}
+                    ],
+                    twitter: "gcouprie",
+                    contact: "contact@geoffroycouprie.com",
+                    location: "Nantes et environs.",
+                    sessions: [
+                        {
+                            title: "Le stockage des mots de passe",
+                            summary: "Comment stocker des mots de passe de manière sécurisée? Quel impact sur l'application et les utilisateurs?"
+                        },
+                        {
+                            title: "Introduction à la cryptographie",
+                            summary: "La cryptographie n'est pas qu'une science mathématique. C'est un outil pratique pour des problèmes de confiance, de confidentialité, etc.<br />Je vous présenterai les idées menant à la conception d'un protocole sécurisé, et comment je choisis un algorithme pour y répondre."
+                        },
+                        {
+                            title: "Optimisation SSL",
+                            summary: "SSL est probablement déployé sur vos serveurs, mais avez-vous pensé à renforcer sa configuration? A l'accélérer?<br />Je vous fournirai une série d'astuces et d'outils pour mieux sécuriser un serveur TLS et en obtenir une performance intéressante."
+                        },
+                        {
+                            title: "Quick tips of Web Security",
+                            summary: "Les navigateurs récents ont intégré des fonctionnalités utiles pour la sécurité des applications web, qui sont souvent faciles à mettre en place.<br />Présentation de quelques failles classiques, et comment les corriger facilement."
+                        }
+                    ],
+                    tags: ["sécurité", "cryptographie", "SSL", "performance"]
                 }
             ]
         },
