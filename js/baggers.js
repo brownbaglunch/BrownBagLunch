@@ -377,6 +377,37 @@ var data = {
                         }
                     ],
                     tags: ["ruby", "ruby on rails"]
+                },
+                {
+                    name: "Vincent Heuschling",
+                    bio: "Fondateur d'Affini-Tech et expert BigData, NOSQL & Analytics",
+                    picture: "img/photo_vhe.jpg",
+                    websites: [
+                        { title: "Affini-Tech", href: "http://www.affini-tech.com" },
+                        { title: "Site perso", href: "http://www.vhe74.com" }
+                    ],
+                    twitter: "vhe74",
+                    contact: "vhe@affini-tech.com",
+                    location: "Paris + Banlieue ouest",
+                    sessions: [
+                      {
+                        title: "Hadoop et son écosystème",
+                        summary: "Comprendre le fonctionnement d'Hadoop et de son écosystème, exemple simple de job Map/Reduce à l'appui"
+                      },
+                      {
+                        title: "Hadoop Pig",
+                        summary: "Utiliser Pig pour construire des traitements sur Hadoop. Une alternative à Map/Reduce Java beaucoup plus simple et productive."
+                      },
+                      {
+                        title: "Développement Hadoop avec Scalding",
+                        summary: "Utiliser la librairie Cascading avec Scala pour construire des jobs Map/Reduce avec toutes les capacités propres à Scala."
+                      },
+                      {
+                        title: "Bases de données NOSQL",
+                        summary: "Comprendre les différences entre Redis, Cassandra, HBase et MongoDB. Quelle base pour quel usage ?"
+                      }
+                    ],
+                    tags: ["hadoop", "nosql"]
                 }
             ]
         },
