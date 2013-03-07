@@ -71,8 +71,18 @@
                     "caption": "Romain Maton"
                 }
             },
+            {
+                "startDate": "2013,3,25",
+                "endDate": "2013,3,25",
+                "headline": "Du JavaScript propre ? Challenge Accepted!, par Julien Jakubowski et Romain Linsolas",
+                "text": "<p>Comment coder proprement en JavaScript, à la SGCIB</p>",
+                "asset": {
+                    "media": "http://s3.amazonaws.com/askbob/users/photos/70/preview/carree.jpg",
+                    "credit": "",
+                    "caption": "Julien Jakubowski"
+                }
+            },
 
-            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
