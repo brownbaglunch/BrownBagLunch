@@ -408,6 +408,37 @@ var data = {
                       }
                     ],
                     tags: ["hadoop", "nosql"]
+                },
+                 {
+                    name: "Katia Aresti",
+                    bio: "Développeuse - Freelance",
+                    picture: "http://www.gravatar.com/avatar/04e3a46efd2e243319b1bf9f7ef316f7.png",
+                    websites: [
+                        {title: "Duchess France", href: "http://www.duchess-france.org/"}
+                    ],
+                    twitter: "karesti",
+                    contact: "katia.aresti@gmail.com",
+                    location: "Paris, La Défense",
+                    sessions: [
+                        {
+                            title: "MongoDB from scratch",
+                            summary: "Live coding MongoDB (avec Java). Création d'une application from scratch"
+                        },
+                        {
+                            title: "From SQL to MongoDB",
+                            summary: "Présentation formelle sur MongoDB pour les développeurs. Présentation de la base de données, cas d'utilisation réelles, et une ensemble de bonnes pratiques"
+                        },
+                        {
+                            title: "Gym TDD",
+                            summary: "Kata TDD pour aprendre la technique de base."
+                        },
+                        {
+                            title: "J'irai coder chez vous",
+                            summary: "(Experimental) Je viens coder chez vous pendant une matinée sur une story lambda, en TDD !!"
+                        }
+                        
+                    ],
+                    tags: ["mongodb", "refactoring", "code", "tests", ""]
                 }
             ]
         },
