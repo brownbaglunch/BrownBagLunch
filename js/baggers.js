@@ -426,7 +426,7 @@ var data = {
                         },
                         {
                             title: "From SQL to MongoDB",
-                            summary: "Présentation formelle sur MongoDB pour les développeurs. Présentation de la base de données, cas d'utilisation réelles, et une ensemble de bonnes pratiques"
+                            summary: "Présentation formelle de MongoDB pour les développeurs. Présentation de la base de données, cas d'utilisation réels, et ensemble de bonnes pratiques"
                         },
                         {
                             title: "Gym TDD",
