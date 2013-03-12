@@ -16,6 +16,22 @@ var bblLocationsData = {
                 number: "Au moins 20 personnes"
             }
         },
+        {
+            pseudo: "xebia",
+            name: "Xebia IT Architects",
+            address: "156 boulevard Haussmann, 75009 Paris",
+            gps: "48.875329,2.311335",
+            website: "http://www.xebia.fr/",
+            contact: "Audrey Pedro (apedro [at] xebia.fr)",
+            picture: "img/xebia.png",
+            interests: [
+                    "Java", "Web", "Mobile", "Agile", "Big Data", "DevOps", "Cloud"
+            ],
+            audience: {
+                profiles: "Consultants",
+                number: "Au moins 5 personnes"
+            }
+        },
         {   // Données de test
             pseudo: "toulouse",
             name: "TBA",
