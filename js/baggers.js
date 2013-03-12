@@ -17,7 +17,7 @@ var data = {
                     ],
                     twitter: "fsarradin",
                     contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
-                    location: "La Défense et alentours uniquement",
+                    location: "La Défense et alentours",
                     sessions: [
                         {
                             title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
