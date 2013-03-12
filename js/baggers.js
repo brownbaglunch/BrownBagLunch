@@ -303,18 +303,22 @@ var data = {
                     sessions: [
                         {
                             title: "Qu'est que l'expérience utilisateur ?",
-                            summary: "Bien qu'étant vous même un utilisateur régulier, vous vous ne savez pas comment créer une bonne expérience utilisateur. <br/>Je vous présenterais rapidement le domaine puis comment l'intégrer à moindre coût dans votre projet avec une méthode centrée sur l'utilisateur."
+                            summary: "L'objectif est de vous présenter rapidement ce qu'est l'UX et comment la prendre en compte à moindre coût dans votre projet avec une méthode centrée sur l'utilisateur."
                         },
                         {
-                            title: "Découvrez les principes d'ergonomie",
-                            summary: "Les principes d'ergonomie issues des sciences cognitives vous permettrons d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code.<br/>Bonus: vous ne verrez plus les portes de la même façon ;)."
+                            title: "Faire du code centré sur l'humain",
+                            summary: "Les principes d'ergonomie issues des sciences cognitives vous permettrons d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code."
                         },
                         {
                             title: "Bien développer son produit c'est bien, Développer le bon produit c'est mieux",
                             summary: "On parle de qualité de code, de tests, d'agilité ... mais on se pose rarement la question: est-ce que ce que je développe est utile?<br/> Pour répondre à cette question, je vous parlerais de Lean Startup, de MVP ou encore de Design Thinking pour améliorer la valeur de vos produits."
+                        },
+                        {
+                            title: "Angular, le spectacular framework web moderne",
+                            summary: "Retour d'expérience sur le framework Angular avec Testacular ainsi qu'une pointe de Yeoman et de Foundation."
                         }
                     ],
-                    tags: ["user experience", "ergonomie"]
+                    tags: ["user experience", "ergonomie", "lean startup", "angularjs", "javascript"]
                 },
                 {
                     name: "Mathieu Gandin",
