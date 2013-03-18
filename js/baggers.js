@@ -442,7 +442,7 @@ var data = {
                         }
                         
                     ],
-                    tags: ["mongodb", "refactoring", "code", "tests", ""]
+                    tags: ["mongodb", "refactoring", "code", "tests"]
                 }
             ]
         },
