@@ -22,14 +22,18 @@ var data = {
                         {
                             title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
                             summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible."
-                        },
-                        {
+                        }
+                        , { 
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
-                        },
-                        {
+                        }
+                        , {
                         	title: "De Java à Java 8 en passant par Guava",
                         	summary: "(à venir) Introduction à la programmation fonctionnelle. Pourquoi et comment l'appliquer au quotidien ?"
+                        }
+                        , {
+                        	title: "Une alternative à AOP ?",
+                        	summary: "(live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
                         }
                     ],
                     tags: ["java", "scala", "programmation fonctionnelle"]
