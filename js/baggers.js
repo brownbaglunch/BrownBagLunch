@@ -443,6 +443,24 @@ var data = {
                         
                     ],
                     tags: ["mongodb", "refactoring", "code", "tests"]
+                },
+                 {
+                    name: "Eric Lefevre-Ardant",
+                    bio: "Consultant Java - Freelance",
+                    picture: "img/photo_eric.jpg",
+                    websites: [
+                        {title: "Blog personnel", href: "http://ericlefevre.net/"}
+                    ],
+                    twitter: "elefevre",
+                    contact: "contact@ericlefevre.net",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Boucles Etranges : Etranges Boucles",
+                            summary: "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
+                        }
+                    ],
+                    tags: ["java", "code"]
                 }
             ]
         },
