@@ -27,18 +27,7 @@
                 <li class="divider"></li>
                 <li class="has-dropdown">
                     <a href="#">Baggers</a>
-                    <ul class="dropdown" id="baggersNavigationBar">
-                        {{#villes}}
-                            <li class="has-dropdown">
-                                <a href="#"><label>{{name}}</label></a>
-                                <ul class="dropdown">
-                                    {{#baggers}}
-                                        <li><a href="#{{baggerId}}">{{name}}</a></li>
-                                    {{/baggers}}
-                                </ul>
-                            </li>
-                        {{/villes}}
-                    </ul>
+                    <ul class="dropdown" id="bagger-menuitem"></ul>
                 </li>
             </ul>
         </section>
@@ -58,68 +47,7 @@
 	<hr>
 
 	<!-- BAGGERS! -->
-	<div id="baggersDetails" style="margin-top: 25px;">
-		{{#villes}}
-			<div class="row" id="{{name}}">
-				<div class="twelve columns">
-					<img width="700" height="280" src="{{ville_img}}">
-					<hr>
-					{{message}}
-				</div>
-			</div>
-
-			{{#baggers}}
-				<div id="{{baggerId}}" class="row">
-					{{^paire}}
-						<div class="four columns">
-							<img src="{{picture}}">
-						</div>
-					{{/paire}}
-					<div class="eight columns">
-						<div class="panel {{#paire}}callout{{/paire}} radius">
-							<h4>{{name}}</h4>
-
-							<div class="row">
-
-								<div class="six columns">
-									<p>{{{bio}}}</p>
-
-									{{#websites}}
-										<p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
-									{{/websites}}
-
-                                    {{#twitter}}
-									    <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
-                                    {{/twitter}}
-									<p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
-								</div>
-
-								<div class="six columns">
-									<span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
-									<ul class="icons">
-										{{#sessions}}
-											<li>
-	                                            <i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
-												{{{summary}}}
-											</li>
-										{{/sessions}}
-									</ul>
-									<span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
-									<p><i class="icon-globe"></i> {{location}}</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					{{#paire}}
-						<div class="four columns">
-							<img src="{{picture}}">
-						</div>
-					{{/paire}}
-				</div>
-			{{/baggers}}
-			<hr>
-		{{/villes}}
-	</div>
+	<div id="bagger-details" style="margin-top: 25px;"></div>
 
 	<footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
 		<div class="row">
@@ -140,22 +68,14 @@
     <script type="text/javascript" src="js/baggers.js"></script>
     <script type="text/javascript" src="js/baggersUtils.js"></script>
 
-
 	<script type="text/javascript">
+    $(function() {
 		// decorate data to alternate images
 		addPaireImpaire();
 
-		//get the templates
-		var templateHeader=document.getElementById('baggersNavigationBar').innerHTML;
-		var templateBaggers=document.getElementById('baggersDetails').innerHTML;
-
-		//render the template with given data
-		var htmlHeader=Mustache.to_html(templateHeader,data);
-		var htmlDetails=Mustache.to_html(templateBaggers,data);
-
 		//put the render result on the screen
-		document.getElementById('baggersNavigationBar').innerHTML=htmlHeader;
-		document.getElementById('baggersDetails').innerHTML=htmlDetails;
+		$('#bagger-menuitem').html(Mustache.to_html($('#template-bagger-menuitem').html(), data));
+		$('#bagger-details').html(Mustache.to_html($('#template-bagger-details').html(), data));
 
         // Google Analytics
 		var _gaq = _gaq || [];
@@ -167,7 +87,84 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
+    });
 	</script>
+
+<script id="template-bagger-menuitem" type="text/template">
+    {{#villes}}
+        <li class="has-dropdown">
+            <a href="#"><label>{{name}}</label></a>
+            <ul class="dropdown">
+                {{#baggers}}
+                    <li><a href="#{{baggerId}}">{{name}}</a></li>
+                {{/baggers}}
+            </ul>
+        </li>
+    {{/villes}}
+</script>
+
+<script id="template-bagger-details" type="text/template">
+    {{#villes}}
+        <div class="row" id="{{name}}">
+            <div class="twelve columns">
+                <img width="700" height="280" src="{{ville_img}}">
+                <hr>
+                {{message}}
+            </div>
+        </div>
+
+        {{#baggers}}
+            <div id="{{baggerId}}" class="row">
+                {{^paire}}
+                    <div class="four columns">
+                        <img src="{{picture}}">
+                    </div>
+                {{/paire}}
+                <div class="eight columns">
+                    <div class="panel {{#paire}}callout{{/paire}} radius">
+                        <h4>{{name}}</h4>
+
+                        <div class="row">
+
+                            <div class="six columns">
+                                <p>{{{bio}}}</p>
+
+                                {{#websites}}
+                                    <p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
+                                {{/websites}}
+
+                                {{#twitter}}
+                                    <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                {{/twitter}}
+                                <p><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
+                            </div>
+
+                            <div class="six columns">
+                                <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
+                                <ul class="icons">
+                                    {{#sessions}}
+                                        <li>
+                                            <i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
+                                            {{{summary}}}
+                                        </li>
+                                    {{/sessions}}
+                                </ul>
+                                <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+                                <p><i class="icon-globe"></i> {{location}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{#paire}}
+                    <div class="four columns">
+                        <img src="{{picture}}">
+                    </div>
+                {{/paire}}
+            </div>
+        {{/baggers}}
+        <hr>
+    {{/villes}}
+</script>
 
 </body>
 </html>
