@@ -226,6 +226,38 @@ var data = {
                     tags: ["javascript", "usine logicielle"]
                 },
                 {
+                    name: "Henri Tremblay",
+                    bio: "Amateur d'algorithmie et de performance. Souvent en Java",
+                    picture: "http://gravatar.com/avatar/02b547234fa2cf147e85aa1b460f2f03?s=256",
+                    websites: [
+                        { title: "EasyMock", href: "http://easymock.org/" },
+                        { title: "Objenesis", href: "http://objenesis.org/" },
+                        { title: "Blog Octo", href: "http://blog.octo.com" }
+                    ],
+                    twitter: "henri_tremblay",
+                    contact: "htremblay [at] octo.com",
+                    location: "Paris et alentours",
+                    sessions: [
+                        {
+                            title: "Vivre en parallèle",
+                            summary: "Un petit état des lieux des utilisations possibles de la parallélisation et des technologies disponibles pour se faire."
+                        },
+                        {
+                            title: "Lambda et génériques: Le cocktail explosif",
+                            summary: "Tout ce qu'il faut savoir pour bien comprendre les génériques et surtout, comment s'en sortir avec les lambdas. Parce que les lambdas, c'est plein de génériques"
+                        },
+                        {
+                            title: "Performance perpétuelle",
+                            summary: "Mise en place de tests de performance automatisés. Pourquoi et comment"
+                        },
+                        {
+                            title: "Discussion informelle",
+                            summary: "Sur l'optimisation, EasyMock, les tests en général, les méandres de Java, le déploiement continu ou tout autre sujet qui vous passe par la tête"
+                        }
+                    ],
+                    tags: ["java", "performance", "calcul parallèle", "optimisation", "test"]
+                },				
+                {
                     name: "David Pilato",
                     bio: "Technical Advocate",
                     picture: "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
