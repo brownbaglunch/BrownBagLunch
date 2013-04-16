@@ -153,7 +153,7 @@ var data = {
                 {
                     name: "Florent Biville",
                     bio: "Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts",
-                    picture: "http://m.c.lnkd.licdn.com/media/p/3/000/0be/019/0a2b80a.jpg",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
                     websites: [
                         {title: "Blog personnel", href: "http://florent.biville.net/"},
                         {title: "Lateral Thoughts", href: "http://www.lateral-thoughts.com"}
