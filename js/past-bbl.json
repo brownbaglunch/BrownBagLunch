@@ -82,10 +82,40 @@
                     "caption": "Julien Jakubowski"
                 }
             },
+            {
+                "startDate": "2013,4,16",
+                "endDate": "2013,4,16",
+                "headline": "Présentation de Cucumber.js, par Julien Biezemans",
+                "text": "<p>Comment faire du BDD en JavaScript avec Cucumber.js, à la SGCIB</p>",
+                "asset": {
+                    "media": "https://secure.gravatar.com/avatar/cbc1acceddbfaceee4cf3cae24d7c912?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+                    "credit": "",
+                    "caption": "Julien Biezemans"
+                }
+            },
+            {
+                "startDate": "2013,4,24",
+                "endDate": "2013,4,24",
+                "headline": "Boucles étranges, par Eric Lefevre-Ardant et Guillaume Tardif",
+                "text": "<p>Balade dans du <a href='http://www.devoxx.com/display/FR13/Boucles+etranges+++etranges+boucles+%28puzzlers+et+curiosites%29'>code étrange</a>, à la SGCIB</p>",
+                "asset": {
+                    "media": "http://www.devoxx.com/download/attachments/6817032/thumbnail.gif?version=1&modificationDate=1361019326000",
+                    "credit": "",
+                    "caption": "Eric Lefevre-Ardant"
+                }
+            },
+            {
+                "startDate": "2013,5,17",
+                "endDate": "2013,5,17",
+                "headline": "Neo4J et Liquibase, par Florent Biville",
+                "text": "<p>Présentation de la base de données Neo4J et du gestionnaire Liquibase, à la SGCIB</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
+                    "credit": "",
+                    "caption": "Florent Biville"
+                }
+            },
 
-            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
-            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
-            { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
