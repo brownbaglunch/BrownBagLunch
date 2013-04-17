@@ -39,6 +39,17 @@
                 }
             },
             {
+                "startDate": "2013,3,7",
+                "endDate": "2013,3,7",
+                "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
+                "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Xebia</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "credit": "",
+                    "caption": "François Sarradin"
+                }
+            },
+            {
                 "startDate": "2013,3,15",
                 "endDate": "2013,3,15",
                 "headline": "Principes avancés du cache, par Mathilde Lemée",
@@ -58,6 +69,17 @@
                     "media": "",
                     "credit": "",
                     "caption": ""
+                }
+            },
+            {
+                "startDate": "2013,3,22",
+                "endDate": "2013,3,22",
+                "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
+                "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez BNP</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "credit": "",
+                    "caption": "François Sarradin"
                 }
             },
             {
@@ -83,6 +105,17 @@
                 }
             },
             {
+                "startDate": "2013,4,12",
+                "endDate": "2013,4,12",
+                "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
+                "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Vidal</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "credit": "",
+                    "caption": "François Sarradin"
+                }
+            },
+            {
                 "startDate": "2013,4,16",
                 "endDate": "2013,4,16",
                 "headline": "Présentation de Cucumber.js, par Julien Biezemans",
@@ -102,6 +135,17 @@
                     "media": "http://www.devoxx.com/download/attachments/6817032/thumbnail.gif?version=1&modificationDate=1361019326000",
                     "credit": "",
                     "caption": "Eric Lefevre-Ardant"
+                }
+            },
+            {
+                "startDate": "2013,4,24",
+                "endDate": "2013,4,24",
+                "headline": "Neo4J et Liquibase, par Florent Biville",
+                "text": "<p>Présentation de la base de données Neo4J et du gestionnaire Liquibase, chez Kyriba</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
+                    "credit": "",
+                    "caption": "Florent Biville"
                 }
             },
             {
