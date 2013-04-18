@@ -32,6 +32,22 @@ var bblLocationsData = {
                 number: "Au moins 5 personnes"
             }
         },
+        {
+            pseudo: "kyriba",
+            name: "Kyriba",
+            address: "Bureaux de la Colline - Ascenseur F2, 3e étage - 1, rue Royale, 92210 St Cloud",
+            gps: "48.841805,2.220778",
+            website: "http://www.kyriba.com/",
+            contact: "François Sarradin (fsarradin [at] kyriba.fr)",
+            picture: "img/kyriba.jpg",
+            interests: [
+                    "Java", "Web", "Mobile", "Agile", "Big Data", "DevOps", "Cloud"
+            ],
+            audience: {
+                profiles: "Développeur, Agiliste, DevOps",
+                number: "Environ 5 personnes"
+            }
+        },
         {   // Données de test
             pseudo: "toulouse",
             name: "TBA",
