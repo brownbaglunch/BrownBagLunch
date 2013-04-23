@@ -10,7 +10,7 @@ var data = {
                 {
                     name: "François Sarradin",
                     bio: "Consultant Java et &#955; développeur",
-                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
                     websites: [
                         {title: "Blog personnel", href: "http://kerflyn.wordpress.com/"},
                         {title: "Blog Xebia", href: "http://blog.xebia.fr/author/fsarradin"}
