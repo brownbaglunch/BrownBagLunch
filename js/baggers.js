@@ -221,6 +221,10 @@ var data = {
                         {
                             title: "Industrialiser ses tests JavaScripts pour un développeur Java",
                             summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
+                        },
+                        {
+		                	title: "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
+                			summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
                         }
                     ],
                     tags: ["javascript", "usine logicielle"]
