@@ -149,6 +149,17 @@
                 }
             },
             {
+                "startDate": "2013,4,25",
+                "endDate": "2013,4,25",
+                "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
+                "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Orsyp</p>",
+                "asset": {
+                    "media": "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
+                    "credit": "",
+                    "caption": "François Sarradin"
+                }
+            },
+            {
                 "startDate": "2013,5,17",
                 "endDate": "2013,5,17",
                 "headline": "Neo4J et Liquibase, par Florent Biville",
