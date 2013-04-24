@@ -48,6 +48,22 @@ var bblLocationsData = {
                 number: "Environ 5 personnes"
             }
         },
+        {
+            pseudo: "vidal",
+            name: "VIDAL",
+            address: "21 Rue Camille Desmoulins, Issy-les-Moulineaux",
+            gps: "48.830176,2.265197",
+            website: "http://vidal.fr",
+            contact: "Tony Sokhon (tony.sokhon [at] vidal.fr)",
+            picture: "img/vidal.jpg",
+            interests: [
+                    "Java", "Scala", "Javascript", "Web", "Big Data", "DevOps", "Cloud"
+            ],
+            audience: {
+                profiles: "Développeur, DevOps",
+                number: "Environ 10 personnes"
+            }
+        },
         {   // Données de test
             pseudo: "toulouse",
             name: "TBA",
