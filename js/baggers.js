@@ -874,6 +874,48 @@ var data = {
                         }
                     ],
                     tags: ["java", "lambda", "angularjs", "javascript", "play framework", "git"]
+                },
+                {
+                    name: "Alfred Almendra",
+                    bio: "Facilitateur et accompagnateur agile et lean",
+                    picture: "https://fr.gravatar.com/userimage/31482138/9a46acc84c01ac2a04e72849850fb7d3.jpg?size=250",
+                    websites: [
+                        { title: "Blog perso", href: "http://atelierlogiciel.wordpress.com" }
+                    ],
+                    twitter: "AlfredAlmendra",
+                    contact: "alfred.almendra@gmail.com",
+                    location: "Lyon",
+                    sessions: [
+                        {
+                            title: "Découvrir l'agilité",
+                            summary: "Les jeux de sensibilisation permettent de se familiariser avec les valeurs et les principes agiles."
+                        },
+                        {
+                            title: "Créer de la valeur et innover",
+                            summary: "Les ateliers UX et autres jeux sérieux sont un moyen efficace de créer de la valeur et d'innover. Ils permettent notamment d'obtenir un feedback rapide avant même de coder."
+                        },
+                        {
+                            title: "Techniques de programmation",
+                            summary: "Coder proprement c'est tester d'abord et remanier souvent. Il s'agit d'une introduction aux pratiques techniques de test, de programmation, de refactoring, et de conception émergente. Format : coding dojo en Java."
+                        },
+                        {
+                            title: "Gestion de projet en mode agile",
+                            summary: "Etre agile c'est avant tout un état d'esprit. Mais pour pratiquer concrètement l'agilité, il est intéressant de mettre en place quelques rituels, et de faire appel aux \"jeux qui font le travail\"."
+                        },
+                        {
+                            title: "Management, leadership : bienvenue au 21è siècle !",
+                            summary: "Les individus ne sont pas des ressources ! Une nouvelle posture et de nouvelles pratiques permettent de soutenir la créativité et l'efficacité des équipes et des organisations agiles."
+                        },
+                        {
+                            title: "SLA : viser l'engagement de service",
+                            summary: "L'industrialisation passe par l'automatisation, mais cela ne suffit pas. Quelques pratiques simples pour challenger votre organisation."
+                        },
+                        {
+                            title: "Entreprendre en mode agile",
+                            summary: "Présentation des techniques popularisées par le Lean Startup pour construire un modèle économique de façon empirique."
+                        }
+                    ],
+                    tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
                 }
             ]
         }
