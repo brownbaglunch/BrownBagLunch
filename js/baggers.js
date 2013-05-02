@@ -501,6 +501,24 @@ var data = {
                         }
                     ],
                     tags: ["java", "code"]
+                }, 
+  		{
+                    name: "Guillaume Tardif",
+                    bio: "Consultant Java",
+                    picture: "img/photo_guillaume.jpg",
+                    websites: [
+                        {title: "Site", href: "http://melodiousthunkcode.fr/"}
+                    ],
+                    twitter: "gtardif",
+                    contact: "guillaume.tardif@gmail.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Boucles Etranges : Etranges Boucles",
+                            summary: "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
+                        }
+                    ],
+                    tags: ["mongo", "search", "big data", "java", "code"]
                 }
             ]
         },
