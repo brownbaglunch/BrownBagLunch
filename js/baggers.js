@@ -173,9 +173,13 @@ var data = {
                         {
                             title: "Liquibase : gestionnaire de versions pour RDBMS",
                             summary: "Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ? Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments  portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring)."
+                        },
+                        {
+                            title: "AngularJS démystifié",
+                            summary: "Cette session vous permettra de bien comprendre les partis pris d'Angular, son approche originale de MVC, le scaffolding avec Yeoman, sa testabilité avec Karma et également son intégration dans un environnement AMD (RequireJS). Hé oui, AngularJS a beau être full-stack, nous verrons au travers de ce talk comment le configurer dans des environnements existants."
                         }
                     ],
-                    tags: ["nosql", "spring", "database"]
+                    tags: ["nosql", "spring", "database", "angularjs", "javascript"]
                 },
                 {
                     name: "Bernard Notarianni",
