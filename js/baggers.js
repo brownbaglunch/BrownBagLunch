@@ -457,7 +457,7 @@ var data = {
                     ],
                     tags: ["hadoop", "nosql"]
                 },
-                 {
+                {
                     name: "Katia Aresti",
                     bio: "Développeuse - Freelance",
                     picture: "http://www.gravatar.com/avatar/04e3a46efd2e243319b1bf9f7ef316f7.png",
@@ -488,7 +488,7 @@ var data = {
                     ],
                     tags: ["mongodb", "refactoring", "code", "tests"]
                 },
-                 {
+                {
                     name: "Eric Lefevre-Ardant",
                     bio: "Consultant Java - Freelance",
                     picture: "img/photo_eric.jpg",
@@ -506,7 +506,7 @@ var data = {
                     ],
                     tags: ["java", "code"]
                 }, 
-  		{
+  		        {
                     name: "Guillaume Tardif",
                     bio: "Consultant Java",
                     picture: "img/photo_guillaume.jpg",
