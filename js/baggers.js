@@ -523,6 +523,37 @@ var data = {
                         }
                     ],
                     tags: ["mongo", "search", "big data", "java", "code"]
+                },
+                {
+                    name: "Cyrille Martraire",
+                    bio: "Développeur avec passion depuis 1999, Paris. Fondateur de la communauté Software Craftsmanship Paris, et Directeur Technique de la société Arolla",
+                    picture: "http://gravatar.com/avatar/51dec3feb906404b8564a3c31d1050f3.png",
+                    websites: [
+                        { title: "Arolla", href: "http://www.arolla.fr" },
+                        { title: "Blog perso", href: "http://cyrille.martraire.com"}
+                    ],
+                    twitter: "cyriux",
+                    contact: "cyrillemartraire [at] gmail.com",
+                    location: "Paris, La Défense et à proximité",
+                    sessions: [
+                        {
+                           title: "DDD Games",
+                           summary: "Découvrez quelques points essentiels de Domain-Driven Design par la pratique sous forme de petits jeux sur papier."
+                        },
+                        {
+                           title: "Legacy Code : faire évoluer ou ré-écrire ?",
+                           summary: "Comment livrer des fonctionnalités ambitieuses malgré le code existant sans aucun test ? Visite guidée au travers de retours d'expérience."
+                        },
+                        {
+			   title: "Domain-Driven Design dans un contexte legacy",
+                	   summary: "Un tour d'horizon d'aspects importants de DDD sous la forme d'un retour d'expérience dans le domaine de la finance"
+                        },
+                        {
+                           title: "Votre sujet sur-mesure",
+                           summary: "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
+                        },
+                    ],
+                    tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code"]
                 }
             ]
         },
