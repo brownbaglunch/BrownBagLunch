@@ -149,9 +149,7 @@ var data = {
                     sessions: [
                         {
                             title: "Introduction au NoSQL avec Couchbase",
-                            summary: "Après une introduction rapide sur le NoSQL, et l'explication de problèmes résolus par ces bases de données, je me ferais un plaisir de vous presenter la solution Couchbase 2.0. Couchbase Server 2.0. Couchbase est une base de données NoSQL orientée Document développée en Open Source.
-
-Cette présentation s'appuie principalement sur des démonstration, live coding et se fait dans un mode questions/réponses"
+                            summary: "Après une introduction rapide sur le NoSQL, et l'explication de problèmes résolus par ces bases de données, je me ferais un plaisir de vous presenter la solution Couchbase 2.0. Couchbase Server 2.0. Couchbase est une base de données NoSQL orientée Document développée en Open Source. Cette présentation s'appuie principalement sur des démonstrations, du live coding et se fait dans un mode questions/réponses"
                         },
                         {
                             title: "BigData, NoSQL... ou Hadoop et Couchbase",
