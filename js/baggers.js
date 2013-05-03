@@ -137,6 +137,30 @@ var data = {
                     tags: ["code", "tests", "git", "outils", "refactoring"]
                 },
                 {
+                    name: "Tugdual Grall",
+                    bio: "Technical Evangelist at Couchbase",
+                    picture: "https://secure.gravatar.com/avatar/aab9ac774f61c5d9bf143b5a1bfe901b.png",
+                    websites: [
+                        {title: "Blog personnel", href: "http://tugdualgrall.blogspot.com"}
+                    ],
+                    twitter: "tgrall",
+                    contact: "tugdual@gmail.com",
+                    location: "Nantes, Paris, Rennes et toute l'Europe",
+                    sessions: [
+                        {
+                            title: "Introduction au NoSQL avec Couchbase",
+                            summary: "Après une introduction rapide sur le NoSQL, et l'explication de problèmes résolus par ces bases de données, je me ferais un plaisir de vous presenter la solution Couchbase 2.0. Couchbase Server 2.0. Couchbase est une base de données NoSQL orientée Document développée en Open Source.
+
+Cette présentation s'appuie principalement sur des démonstration, live coding et se fait dans un mode questions/réponses"
+                        },
+                        {
+                            title: "BigData, NoSQL... ou Hadoop et Couchbase",
+                            summary: "Pourquoi et comment faut-il integrer votre (future?) infrastructure BigData basée sur Hadoop avec une base NoSQL de type Couchbase?"
+                        }
+                    ],
+                    tags: ["nosql","couchbase","mapreduce", "java", "javascript", "node"]
+                },
+                {
                     name: "Romain Maton",
                     bio: "Consultant Java/Web/Agile - Freelance",
                     picture: "https://lh4.googleusercontent.com/-VcEH4WuA6XE/ThmqIx4nf_I/AAAAAAAAAso/Az2a4TtTgmA/s800/avatar_rmat0n.jpg",
