@@ -40,7 +40,7 @@ var data = {
                 },
                 {
                     name: "Nathaniel Richand",
-                    bio: "Coach agile",
+                    bio: "Coach agile - Xebia",
                     picture: "img/photo_nathaniel.jpg",
                     websites: [
                         {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"}
@@ -49,6 +49,18 @@ var data = {
                     contact: "nrichand@brownbaglunch.fr",
                     location: "La Défense et alentours uniquement",
                     sessions: [
+						{
+                            title: "Parlons d'agilité",
+                            summary: "Vous êtes en train de vous intéresser à l'agilité et vous souhaitez échanger sur le sujet? Je vous propose un mix de retour d'expérience et de discussion pour que vous puissiez bien comprendre les enjeux, l'intérêt mais également les prérequis."
+                        },
+						{
+                            title: "Agilité, un pas plus loin",
+                            summary: "Vous avez mis en place Scrum ou Kanban (ou un mix maison) sur votre projet et vous commencer à stagner. Discutons ensemble des opportunités pour aller plus loin et franchir un nouveau cap pour sortir des produits d'exception!"
+                        },
+						{
+                            title: "Dojo tests unitaires et TDD",
+                            summary: "Je vous propose un Dojo pour mettre en pratique des tests unitaires en Java. Je compte sur vous pour m'aider à rajouter des tests sur une application existante et qui en a bien besoin! Buzzword à découvrir : test unitaire, fest assert, mockito, TDD, pair programming, pair hero, clean test, ..."
+                        },
                         {
                             title: "Plus de fun et de diversité dans vos rétrospectives",
                             summary: "Discussion sur comment bien animer une rétrospective et présentation de nombreux formats."
