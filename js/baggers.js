@@ -1005,6 +1005,52 @@ var data = {
                     tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
                 }
             ]
+        },
+    	{
+            name: "Grenoble",
+            ville_img: "img/BBL_Grenoble.jpg",
+            lat:45.183,
+            lng:5.717,
+            baggers: [
+                {
+                    name: "Xavier NOPRE",
+                    bio: "Développeur et agiliste - Indépendant",
+                    picture: "img/photo_xavier.jpg",
+                    websites: [
+                        { title: "Blog", href: "http://xnopre.blogspot.fr/" },
+                    ],
+                    twitter: "xnopre",
+                    contact: "xnopre [at] gmail.com",
+                    location: "Grenoble, Hautes-Alpes, Aix, Marseille",
+                    sessions: [
+                        {
+                            title: "Agilité & Scrum :",
+                            summary: "Introduction aux valeurs et principes de base de l'agilité, et aux fondamentaux de Scrum.<br/>- Présentation ou discussions.<br/>- Découverte ou approfondissements"
+                        },
+                        {
+                            title: "Ingénierie agile :",
+                            summary: "Outils et méthodes pour les équipes de développement qui veulent réussir dans l'agilité<br/>- Présentation & discussions"
+                        },
+                        {
+                            title: "Tests unitaires et TDD : la théorie :",
+                            summary: "Pourquoi ? Comment ? Par où commencer ? Les pièges ? Les astuces ? etc ...<br/>- Présentation & démo"
+                        },
+                        {
+                            title: "Tests unitaires et TDD : la pratique :",
+                            summary: "Animation d'un coding-dojo 'randori' pour mettre en pratique les rudiments du TDD sur des défis simples<br/>- Atelier"
+                        },
+                        {
+                            title: "Play Framework :",
+                            summary: "Développer une application WEB en Java&nbsp;: simplicité, efficacité, et productivité&nbsp;: c'est possible ? Oui avec Play Framework&nbsp;!<br/>- Présentation et démo"
+                        },
+                        {
+                            title: "Divers agilité ou développement Java-WEB",
+                            summary: "Tous autres sujets tournant autour de l'agilité, ou du développement WEB en Java : contactez-moi et nous verrons sur quoi nous pourrons échanger !"
+                        }
+                    ],
+                    tags: ["java", "web", "javascript", "Play", "agilité", "Scum", "ingénierie agile", "tests", "tests unitaires", "TDD", "usine logicielle", "industrialisation" ]
+                }
+            ]
         }
     ]
 };
