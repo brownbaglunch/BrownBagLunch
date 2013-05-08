@@ -557,11 +557,12 @@ var data = {
                 },
                 {
                     name: "Dimitri BAELI",
-                    bio: "Chien de berger agile, développeur de plus de 30 ans, joyeux testeur et sérieusement ops chez LesFurets.com. Organisateur AgileTour Rouen, Lean Kanban France",
+                    bio: "Chien de berger agile, développeur de plus de 30 ans, joyeux testeur et sérieusement ops chez LesFurets.com. Organisateur AgileTour/CodeursEnSeine à Rouen, Lean Kanban France à Paris",
                     picture: "http://gravatar.com/avatar/7f73df517fdea1028d28f39980edf441.png",
                     websites: [
                         { title: "LesFurets.com", href: "http://www.lesfurets.com" },
-                        { title: "Lean Kanban France", href: "http://www.leankanban.fr"}
+                        { title: "Lean Kanban France", href: "http://www.leankanban.fr"},
+                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"},
                     ],
                     twitter: "dbaeli",
                     contact: "dbaeli [at] gmail.com",
