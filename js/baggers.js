@@ -554,6 +554,33 @@ var data = {
                         },
                     ],
                     tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code"]
+                },
+                {
+                    name: "Dimitri BAELI",
+                    bio: "Chien de berger agile, développeur de plus de 30 ans, joyeux testeur et sérieusement ops chez LesFurets.com. Organisateur AgileTour Rouen, Lean Kanban France",
+                    picture: "http://gravatar.com/avatar/7f73df517fdea1028d28f39980edf441.png",
+                    websites: [
+                        { title: "LesFurets.com", href: "http://www.lesfurets.com" },
+                        { title: "Lean Kanban France", href: "http://www.leankanban.fr"}
+                    ],
+                    twitter: "dbaeli",
+                    contact: "dbaeli [at] gmail.com",
+                    location: "Paris, Défense, (Rouen)",
+                    sessions: [
+                        {
+                           title: "Kanban pour les nuls",
+                           summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
+                        },
+                        {
+                           title: "Miss i18n, Mr APT loves you !",
+                           summary: "Découvrez le processing d'annotation et une façon moderne de localiser une application java via @Message"
+                        },
+                        {
+                           title: "Mercenaire Devops replay !",
+                           summary: "Un condensé de la présentation Devops Mercenaries faite à Devoxx, déploiement continu avec tests gatling, thucydides, ... work in progress"
+                        },
+                    ],
+                    tags: ["Kanban", "Agile", "Java", "Devops"]
                 }
             ]
         },
