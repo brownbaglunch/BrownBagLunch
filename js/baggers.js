@@ -73,6 +73,32 @@ var data = {
                     tags: ["agile"]
                 },
                 {
+                    name: "Benjamin Moitié",
+                    bio: "Coach Agile et Kanban chez Xebia",
+                    picture: "https://en.gravatar.com/userimage/49452226/05626824309fa84863021ac5224a86b3.jpg",
+                    websites: [
+                        {title: "Blog Xebia", href: "http://blog.xebia.fr/author/bmoitie"}
+                    ],
+                    twitter: "benjaminmoitie",
+                    contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
+                    location: "La Défense et alentours",
+                    sessions: [
+                        {
+                            title: "Agile, qu'est ce que c'est?",
+                            summary: "Présentation de l'agilité pour répondre à toutes vos interrogations"
+                        }
+                        , { 
+                            title: "Kanban et le management visuel",
+                            summary: "Comment mettre en place du management visuel et Pourquoi? Une présentation des règles de base et des principes avec beaucoup d’images"
+                        }
+                        , {
+                        	title: "Penser un produit en mode Agile",
+                        	summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
+                        }
+                    ],
+                    tags: ["Agile", "Lean Start Up", "Kanban"]
+                },
+                {
                     name: "Mathilde Lemée",
                     bio: "Ingénieur R&amp;D - Terracotta",
                     picture: "img/photo_mathilde.jpeg",
