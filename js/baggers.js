@@ -916,6 +916,26 @@ var data = {
                         }
                     ],
                     tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
+                },
+                {
+                    name: "Sébastien Cogneau",
+                    bio: "Développeur",
+                    picture: "https://secure.gravatar.com/avatar/a36365a1874360981942f089d839d473?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+                    twitter: "SCogneau",
+                    contact: "sebastien.cogneau@gmail.com",
+                    location: "Lyon",
+                    sessions: [
+                        {
+                            title: "Boite à outil du développeur agile",
+                            summary: "L'agilité prône un certain nombre de pratiques comme le pair programming, la revue de code et l'intégration continue. Je vous propose un tour d'horizon d'outils permettant de faciliter ces pratiques."
+                        },
+			{
+                            title: "Introduction à Gradle",
+                            summary: "Maven a amené énormément de bonnes idées pour créer son build, Gradle capitalise sur ces pratiques pour offrir une alternative à Maven. Dans cette session pas de Maven Bashing mais une introduction à l'utilisation de Gradle au quotidien."
+                        }
+
+                    ],
+                    tags: ["Jenkins","Sonar","Gerrit","Git","Bash","RPM","Gradle"]
                 }
             ]
         }
