@@ -80,8 +80,8 @@ var data = {
                         {title: "Blog Xebia", href: "http://blog.xebia.fr/author/bmoitie"}
                     ],
                     twitter: "benjaminmoitie",
-                    contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
-                    location: "La Défense et alentours",
+                    contact: "benjamin.motie@gmail.com</a>",
+                    location: "Paris",
                     sessions: [
                         {
                             title: "Agile, qu'est ce que c'est?",
