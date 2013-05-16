@@ -27,10 +27,6 @@ var data = {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                         }
-//                        , {
-//                        	title: "De Java à Java 8 en passant par Guava",
-//                        	summary: "(à venir) Introduction à la programmation fonctionnelle. Pourquoi et comment l'appliquer au quotidien ?"
-//                        }
                         , {
                         	title: "Une alternative à AOP ?",
                         	summary: "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
@@ -80,7 +76,7 @@ var data = {
                         {title: "Blog Xebia", href: "http://blog.xebia.fr/author/bmoitie"}
                     ],
                     twitter: "benjaminmoitie",
-                    contact: "benjamin.motie@gmail.com</a>",
+                    contact: "benjamin.moitie@gmail.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -1070,7 +1066,7 @@ var data = {
                             title: "Boite à outil du développeur agile",
                             summary: "L'agilité prône un certain nombre de pratiques comme le pair programming, la revue de code et l'intégration continue. Je vous propose un tour d'horizon d'outils permettant de faciliter ces pratiques."
                         },
-			{
+			            {
                             title: "Introduction à Gradle",
                             summary: "Maven a amené énormément de bonnes idées pour créer son build, Gradle capitalise sur ces pratiques pour offrir une alternative à Maven. Dans cette session pas de Maven Bashing mais une introduction à l'utilisation de Gradle au quotidien."
                         }
