@@ -170,6 +170,39 @@
                     "caption": "Florent Biville"
                 }
             },
+            {
+                "startDate": "2013,5,22",
+                "endDate": "2013,5,22",
+                "headline": "Domain-Driven Design dans un contexte legacy",
+                "text": "<p>Domain-Driven Design dans un contexte legacy, par Cyrille Martraire, chez Kyriba</p>",
+                "asset": {
+                    "media": "http://gravatar.com/avatar/51dec3feb906404b8564a3c31d1050f3.png",
+                    "credit": "",
+                    "caption": "Cyrille Martraire"
+                }
+            },
+            {
+                "startDate": "2013,5,29",
+                "endDate": "2013,5,29",
+                "headline": "BigData",
+                "text": "<p>BigData, par Jonathan Winandy, chez Kyriba</p>",
+                "asset": {
+                    "media": "https://si0.twimg.com/profile_images/3273938242/f9b54b216590014d84e35d927cdcbb20.jpeg",
+                    "credit": "",
+                    "caption": "Jonathan Winandy"
+                }
+            },
+            {
+                "startDate": "2013,6,3",
+                "endDate": "2013,6,3",
+                "headline": "Test d'UI",
+                "text": "<p>Test d'UI, par Mathilde Lemée, chez Kyriba</p>",
+                "asset": {
+                    "media": "img/photo_mathilde.jpeg",
+                    "credit": "",
+                    "caption": "Mathilde Lemée"
+                }
+            },
 
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
