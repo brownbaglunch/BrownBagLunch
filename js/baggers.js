@@ -1055,6 +1055,7 @@ var data = {
                     tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
                 },
                 {
+<<<<<<< HEAD
                     name: "Sébastien Cogneau",
                     bio: "Développeur",
                     picture: "https://secure.gravatar.com/avatar/a36365a1874360981942f089d839d473?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
@@ -1075,6 +1076,8 @@ var data = {
                     tags: ["Jenkins","Sonar","Gerrit","Git","Bash","RPM","Gradle"]
                 },
                 {
+=======
+>>>>>>> 70097ce67aace7a2cc5b9f9b67029d1a522eaba9
                     name: "Emilien Pecoul",
                     bio: "Développeur indépendant, évangéliste agile, développement Microsoft",
                     picture: "http://www.gravatar.com/avatar/bc755dea1b42a84ba7b3d833097e4439.png?size=250",
