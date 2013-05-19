@@ -1031,6 +1031,41 @@ var data = {
                         }
                     ],
                     tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
+                },
+                {
+                    name: "Emilien Pecoul",
+                    bio: "Développeur indépendant, évangéliste agile, développement Microsoft",
+                    picture: "http://www.gravatar.com/avatar/bc755dea1b42a84ba7b3d833097e4439.png?size=250",
+                    websites: [
+                      { title: "Blog perso", href: "http://ouarzy.blog4ever.com/" }
+                    ],
+                    twitter: "Ouarzy",
+                    contact: "ouarzy@free.fr",
+                    location: "Lyon",
+                    sessions:
+                    [
+                        {
+                            title: "TDD by example",
+                            summary: "Introduction concrète au Tests Driven Development, selon le livre de Kent Beck, adapté aux technos Microsoft (Méthodes, Utilisation de MSTests ou Nunit)"
+                        },
+                        {
+                            title: "Introduction au BDD",
+                            summary: "Le Behavior Driven Development est le prolongement coté Spécification du TDD. Cette session vous montrera l'intérêt et la mise en oeuvre de cette méthode (Utilisation de SpecFlow)"
+                        },
+                        {
+                            title: "Objectif DDD",
+                            summary: "Si vous avez une méthode de développement robuste et une architecture que vous jugez correct, confrontez vous aux concepts du Domain Driven Design pour allez encore plus loin"
+                        },
+                        {
+                            title: "Professional MVVM Light",
+                            summary: "Comment utiliser au mieux le célèbre Framework .NET de Laurent Bugnion sur un projet concret"
+                        },
+                        {
+                            title: "Clean Code",
+                            summary: "Avez vous déja pris le temps de décortiquer les pratiques du livre de l'Oncle Bob: Clean Code? Le temps d'un repas, regardons comment améliorer la qualité du code produit"
+                        }
+                    ],
+                    tags: ["agile", "agilité", "TDD", "BDD", ".NET", "Microsoft", "Clean Code"]
                 }
             ]
         },
