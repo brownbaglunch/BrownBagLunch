@@ -79,22 +79,6 @@ var bblLocationsData = {
                 profiles: "Développeur, DevOps, Architectes",
                 number: "5 à 10 personnes"
             }
-        },
-        {   // Données de test
-            pseudo: "toulouse",
-            name: "TBA",
-            address: "Toulouse",
-            gps: "43.604482,1.443962",
-            website: "",
-            contact: "",
-            picture: "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Blason_de_Toulouse.png/100px-Blason_de_Toulouse.png",
-            interests: [
-                    "Développement", "Agilité"
-            ],
-            audience: {
-                profiles: "Développeurs, Architectes, Chefs de projets",
-                number: "10 personnes"
-            }
         }
     ]
 };
