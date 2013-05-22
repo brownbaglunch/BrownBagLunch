@@ -64,6 +64,22 @@ var bblLocationsData = {
                 number: "Environ 10 personnes"
             }
         },
+        {
+            pseudo: "mappy",
+            name: "Mappy",
+            address: "9 rue Maurice Mallet, Issy-les-Moulineaux",
+            gps: "48,829703, 2,266330",
+            website: "http://mappy.fr",
+            contact: "Eric Lefevre-Ardant (contact [at] ericlefevre.net)",
+            picture: "img/mappy.png",
+            interests: [
+                    "Java", "JavaScript", "Web", "Big Data", "DevOps", "Cloud", "Mobile", "Agilité"
+            ],
+            audience: {
+                profiles: "Développeur, DevOps, Architectes",
+                number: "5 à 10 personnes"
+            }
+        },
         {   // Données de test
             pseudo: "toulouse",
             name: "TBA",
