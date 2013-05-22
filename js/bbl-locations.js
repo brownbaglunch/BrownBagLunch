@@ -68,7 +68,7 @@ var bblLocationsData = {
             pseudo: "mappy",
             name: "Mappy",
             address: "9 rue Maurice Mallet, Issy-les-Moulineaux",
-            gps: "48,829703, 2,266330",
+            gps: "48.829703, 2.266330",
             website: "http://mappy.fr",
             contact: "Eric Lefevre-Ardant (contact [at] ericlefevre.net)",
             picture: "img/mappy.png",
