@@ -17,7 +17,7 @@ var data = {
                     ],
                     twitter: "fsarradin",
                     contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
-                    location: "La Défense et alentours",
+                    location: "Paris, Ouest parisien (+ Nantes)",
                     sessions: [
                         {
                             title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
@@ -28,8 +28,8 @@ var data = {
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                         }
                         , {
-                        	title: "Une alternative à AOP ?",
-                        	summary: "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
+                            title: "Une alternative à AOP ?",
+                            summary: "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
                         }
                     ],
                     tags: ["java", "scala", "programmation fonctionnelle"]
