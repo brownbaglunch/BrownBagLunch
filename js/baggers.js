@@ -638,6 +638,30 @@ var data = {
                         },
                     ],
                     tags: ["Kanban", "Agile", "Java", "Devops"]
+                },
+                {
+                    name: "Guillaume LOURS",
+                    bio: "Freelance, Tech lead Java & Coaching Agile. Organisateur/Membre de @NormandyAgile, @LeanKanbanFr, @DevoxxFr Track Lead",
+                    picture: "http://www.gravatar.com/avatar/cb17294de56e44d18f1ab0dc966101a7.png",
+                    websites: [
+                        { title: "AgileIT", href: "http://www.agileit.fr" },
+                        { title: "Lean Kanban France", href: "http://www.leankanban.fr"},
+                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"},
+                    ],
+                    twitter: "glours",
+                    contact: "g [dot] lours [at] gmail.com",
+                    location: "Paris, Défense, Rouen",
+                    sessions: [
+                        {
+                           title: "Kanban pour les nuls",
+                           summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
+                        },
+                        {
+                           title: "Personal Kanban, retrouvez votre efficacité",
+                           summary: "Découvrez une technique de gestion de travail personnel basée sur du management visuel et la limite du travail en cours"
+                        }
+                    ],
+                    tags: ["Kanban", "Agile", "Java", "Personal Kanban"]
                 }
             ]
         },
