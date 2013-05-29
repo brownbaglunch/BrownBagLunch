@@ -1135,6 +1135,53 @@ var data = {
                 }
             ]
         },
+        {
+	name: "Vannes",
+	ville_img: "img/BBL_BZH.png",
+	lat: 47.658236,
+	lng: -2.760847,
+
+	baggers: [{
+		name: "Christophe Keromen",
+		bio: "Facilitateur et accompagnateur agile et lean, co-organisateur Agile Tour Vannes",
+		picture: "http://www.gravatar.com/avatar/2898ad2474ba25b87a9326585d3a234e.png",
+		websites: [{
+			title: "Blog",
+			href: "http://ckti.wordpress.com/"
+		},{
+			title: "LinkedIn",
+			href: "http://fr.linkedin.com/in/christophekeromen/"
+		}],
+		twitter: "ckeromen",
+		contact: "ckeromen@ckti.com",
+		location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
+		sessions: [{
+			title: "Agilité à la carte",
+			summary: "Vous vous posez des questions sur un sujet lié à l'agilité ? Contactez-moi, on en parle ensemble pendant 1h"
+		}, {
+			title: "Présentation de l'agilité",
+			summary: "Que représente l'agilité en 2013 ? Quelles tendances ? Quels écueils pour quelles réussites ?."
+		}, {
+			title: "Agilité hors de l'IT",
+			summary: "Présentation de l'agilité pour les non-informaticiens. Pourquoi s'y intéresser ? Quels bénéfices en attendre ? Comment s'y prendre ?"
+		}, {
+			title: "Des jeux pour apprendre, innover et s'améliorer",
+			summary: "Serious Games, Innovation Games, Agile Games. Comment ça se passe ? Ça sert à quoi ? Quand les utiliser ?"
+		}, {
+			title: "Manager agile",
+			summary: "Quelles relations avec l'équipe ? Pourquoi changer ? Quelles pratiques ? Quel positionnement ?"
+		}, {
+			title: "Kanban",
+			summary: "Au-delà de la représentation visuelle. Quels concepts ? Comment le mettre en oeuvre ?Comment le coupler à Scrum?"
+		}, {
+			title: "Product Owner",
+			summary: "Quelles sont les reponsabilités du responsable produit agile ? Comment estimer, planifier ?"
+		}
+
+		],
+		tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum", ""]
+	}]
+},
     	{
             name: "Grenoble",
             ville_img: "img/BBL_Grenoble.jpg",
