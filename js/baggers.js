@@ -662,6 +662,41 @@ var data = {
                         }
                     ],
                     tags: ["Kanban", "Agile", "Java", "Personal Kanban"]
+                },
+                {
+                    name: "Antonio Goncalves",
+                    bio: "Java EE et que Java EE - Freelance - Co-créateur de @ParisJUG @DevoxxFR",
+                    picture: "http://agoncal.files.wordpress.com/2013/05/antonio2013square2562.jpg",
+                    websites: [
+                        {title: "Blog personnel", href: "http://antoniogoncalves.org/"},
+                        {title: "Les bouquins que j'ai écrit", href: "http://antoniogoncalves.org/category/books/"}
+                    ],
+                    twitter: "agoncal",
+                    contact: "prenom.nom@gmail.com",
+                    location: "Paris intramuros... mais je veux bien faire un effort",
+                    sessions: [
+                        {
+                            title: "Nouveautés Java EE",
+                            summary: "Slides, code et discussion autour des nouveautés Java EE 7 et Java EE 6."
+                        }
+                        , { 
+                            title: "Migrer vos vielles applications",
+                            summary: "Vous faites du J2EE 1.4 ou du Spring et vous voulez migrer tout ou partie de vos applications, discutons-en."
+                        }
+                        , {
+                            title: "CDI",
+                            summary: "Découvrez comment faire de l'injection, de l'interception, de la décoration ou de l'évenementiel avec Java EE"
+                        }
+                        , {
+                            title: "Arquillian",
+                            summary: "Vous connaissez les tests unitaires et les Mocks, découvrez Arquillian pour les tests d'intégration in-container."
+                        }
+                        , {
+                            title: "Une application Java EE 6 en moins d’une heure",
+                            summary: "Live coding d'une application web avec JBoss Forge, Aquillian, DeltaSpike et déployée dans JBoss, GlassFish et TomEE."
+                        }
+                    ],
+                    tags: ["JavaEE", "J2EE", "CDI","Arquillian"]
                 }
             ]
         },
