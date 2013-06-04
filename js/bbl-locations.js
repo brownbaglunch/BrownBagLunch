@@ -45,7 +45,7 @@ var bblLocationsData = {
             ],
             audience: {
                 profiles: "Développeur, Agiliste, DevOps",
-                number: "Environ 5 personnes"
+                number: "~10 personnes (ouvert aux externes)"
             }
         },
         {
