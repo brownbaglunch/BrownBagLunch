@@ -1278,6 +1278,32 @@ var data = {
                         }
                     ],
                     tags: ["java", "web", "javascript", "Play", "agilité", "Scum", "ingénierie agile", "tests", "tests unitaires", "TDD", "usine logicielle", "industrialisation" ]
+                },
+				{
+                    name: "Laurent TARDIF",
+                    bio: "CI addict, agiliste - PersistentSAS",
+                    picture: "img/photo_LaurentTardif.jpg",
+                    websites: [
+                        { title: "Blog", href: "http://ouelcum.wordpress.com/" },
+                    ],
+                    twitter: "ouelcum",
+                    contact: "laurent.tardif [at] persistentsas.com",
+                    location: "Grenoble",
+                    sessions: [
+                        {
+                            title: "Agilité, Scrum & Kanban:",
+                            summary: "Introduction aux valeurs et principes de base de l'agilité, et aux fondamentaux de Scrum.<br/>- Présentation ou discussions.<br/>- Découverte ou approfondissements"
+                        },
+                        {
+                            title: "Integration Continue :",
+                            summary: "Outils et méthodes pour les équipes de développement qui veulent réussir dans l'agilité<br/>- Présentation & discussions"
+                        },
+                        {
+                            title: "Tests automatiques et specification executable : la pratique :",
+                            summary: "Quelles strategies de tests sont possibles, et que sont les specifications executables"
+                        }
+                    ],
+                    tags: ["java", "jenkins", "BDD", "agilité", "Scum", "Kanban", "ingénierie agile", "tests", "tests unitaires", "usine logicielle", "industrialisation" ]
                 }
             ]
         }
