@@ -101,7 +101,7 @@ var data = {
                     websites: [
                         {title: "Blog personnel", href: "http://www.java-freelance.fr/"}
                     ],
-                    twitter: "mathildelemeee",
+                    twitter: "mathildelemee",
                     contact: "prenom.nom@yahoo.fr",
                     location: "Paris, La Défense, Banlieue",
                     sessions: [
