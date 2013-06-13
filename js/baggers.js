@@ -1284,7 +1284,7 @@ var data = {
                     bio: "CI addict, agiliste - PersistentSAS",
                     picture: "img/photo_LaurentTardif.jpg",
                     websites: [
-                        { title: "Blog", href: "http://xnopre.blogspot.fr/" },
+                        { title: "Blog", href: "http://ouelcum.wordpress.com/" },
                     ],
                     twitter: "ouelcum",
                     contact: "laurent.tardif [at] persistentsas.com",
