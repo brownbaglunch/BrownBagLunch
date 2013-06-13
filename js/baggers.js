@@ -784,7 +784,37 @@ var data = {
                         }
                     ],
                     tags: ["nosql", "mongodb", "hardware"]
-                }
+                },
+                {
+                    name: "Antoine Vernois",
+                    bio: "Agile Software Craftsman, freelance. Fondateur de la communaute Software Craftsmanship Toulouse.",
+                    picture: "https://blog.crafting-labs.fr/dotclear/images/antoine-vernois.jpg",
+                    websites: [
+                        {title: "Blog", href: "https://blog.crafting-labs.fr"}
+                    ],
+                    twitter: "avernois",
+                    contact: "antoine [at] crafting-labs.fr",
+                    location: "Toulouse et environs",
+                    sessions: [
+                        {
+                            title: "Clean Code",
+                            summary: "À quoi ça sert de faire du code propre ? Et puis c'est quoi d'abord ? Comment je m'y mets ? Live code inside."
+                        },
+                        {
+                            title: "Test unitaire, Test After, Test First et TDD",
+                            summary: "Une courte introduction aux tests unitaires et aux stratégies pour les écrire. Live code inside."
+                        },
+                        {
+                            title: "Refactoring legacy code",
+                            summary: "Quelques techniques pour refactorer du code legacy avec du couplage et des dépendances fortes. Session basée sur le kata TripService. Live code inside."
+                        },
+                        {
+                            title: "Coding Dojo",
+                            summary: "Une session où c'est vous qui pratiquez. Moi, je ne fais que poser des questions :). Comme c'est vous qui allez bosser, c'est vous qui choisissez le langage :) (max 10 personnes)."
+                        }
+                    ],
+                    tags: ["agile", "code", "legacy", "tdd", "clean code", "craftsmanship"]
+                },
             ]
         },
         {
