@@ -101,7 +101,7 @@ var data = {
                     websites: [
                         {title: "Blog personnel", href: "http://www.java-freelance.fr/"}
                     ],
-                    twitter: "mathildelemeee",
+                    twitter: "mathildelemee",
                     contact: "prenom.nom@yahoo.fr",
                     location: "Paris, La Défense, Banlieue",
                     sessions: [
@@ -814,6 +814,29 @@ var data = {
                         }
                     ],
                     tags: ["agile", "code", "legacy", "tdd", "clean code", "craftsmanship"]
+                },
+				{
+                    name: "Fabrice Bournisien",
+                    bio: "Responsable qualité web, spécialiste de l'automatisation de tests fonctionnels.",
+                    picture: "https://si0.twimg.com/profile_images/1979322615/avatar.png",
+                    websites: [
+                        {title: "Blog", href: "http://web-quality.over-blog.com/"},
+                        {title: "Mon CV", href: "http://www.fabricebournisien.eu"}
+                    ],
+                    twitter: "fabrice31",
+                    contact: "fabrice.bournisien [at] gmail.com",
+                    location: "Toulouse et environs",
+                    sessions: [
+                        {
+                            title: "Mise en place de tests de non régression",
+                            summary: "Comment mettre en place des tests fonctionnels sur vos sites web ? Du choix des technologies à un exemple concret."
+                        },
+                        {
+                            title: "Agilité et qualité",
+                            summary: "Organisation technique et humaine pour faciliter la qualité en mode agile."
+                        }
+                    ],
+                    tags: ["Test", "Test fonctionnel", "Scrum", "Agile", "Jenkins", "Cucumber", "Watir", "Webdriver", "Web"]
                 },
             ]
         },
