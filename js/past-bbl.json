@@ -203,6 +203,17 @@
                     "caption": "Mathilde Lemée"
                 }
             },
+            {
+                "startDate": "2013,6,19",
+                "endDate": "2013,6,19",
+                "headline": "Une Alternative à AOP",
+                "text": "<p>Une Alternative à AOP, par François Sarradin, chez Mappy</p>",
+                "asset": {
+                    "media": "ttp://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
+                    "credit": "",
+                    "caption": "François Sarradin"
+                }
+            },
 
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
             { "startDate": "2013,12,31", "endDate": "2013,12,31", "headline": "Bientôt... chez vous ?", "text": "<p>Prennez contact avec un bagger, et organisez un BBL dans votre société !</p>" },
