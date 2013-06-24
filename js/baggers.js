@@ -21,7 +21,7 @@ var data = {
                     sessions: [
                         {
                             title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
-                            summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework tout en restant lisible."
+                            summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework testé, le tout en restant lisible."
                         }
                         , { 
                             title: "Kata : un type Option en Java",
