@@ -1364,13 +1364,7 @@ var data = {
             name: "Montpellier",
             ville_img: "img/BBL_Montpellier.jpg",
             lat: 43.610769,
-            lng: 3.876716,
-
-            baggers: [
-                {
-
-                }
-            ]
+            lng: 3.876716
         }
     ]
 };
