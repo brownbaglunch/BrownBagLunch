@@ -1359,6 +1359,17 @@ var data = {
                     tags: ["java", "jenkins", "BDD", "agilité", "Scum", "Kanban", "ingénierie agile", "tests", "tests unitaires", "usine logicielle", "industrialisation" ]
                 }
             ]
+        },
+        {
+            name: "Montpellier",
+            ville_img: "img/BBL_Montpellier.jpg",
+            lat: 43.610769,
+            lng: 3.876716,
+
+            baggers: [
+                {
+
+                }
         }
     ]
 };
