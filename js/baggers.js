@@ -1364,7 +1364,41 @@ var data = {
             name: "Montpellier",
             ville_img: "img/BBL_Montpellier.jpg",
             lat: 43.610769,
-            lng: 3.876716
+            lng: 3.876716,
+            baggers: [
+                {
+                    name: "Camille Roux",
+                    bio: "Co-fondateur de Human Coders. Passionné par Ruby, Ruby on Rails, l'entrepreneuriat, le lean startup...",
+                    picture: "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
+                    websites: [
+                        {title: "Blog", href: "http://www.camilleroux.com"},
+                        {title: "Human Coders", href: "http://humancoders.com"},
+                        {title: "Human Coders Formations", href: "http://formation.humancoders.com"}
+                    ],
+                    twitter: "CamilleRoux",
+                    contact: "camille@humancoders.com",
+                    location: "Montpellier et environs",
+                    sessions: [
+                        {
+                            title: "Ruby",
+                            summary: "Introduction au langage de programmation Ruby"
+                        },
+                        {
+                            title: "Ruby on Rails",
+                            summary: "Présentation de Ruby on Rails, le framework web le plus connu du monde Ruby"
+                        },
+                        {
+                            title: "Lean Startup",
+                            summary: "Découvrez cette approche pramagtique permettant de lancer des sociétés/produits/services en un temps record"
+                        },
+                        {
+                            title: "Comment recruter un bon développeur ?",
+                            summary: "Comment bien définir son besoin ? Quels moyens pour recruter son prochain développeur ? Comment bien rédiger une offre d'emploi ? Où la publier ? Comment donner envie aux développeurs de travailler dans sa société ? Comment améliorer sa marque employeur ?"
+                        }
+                    ],
+                    tags: ["ruby", "ruby on rails", "entrepreneuriat", "lean startup", "business model canvas", "recrutement", "formation"]
+                },
+            ]
         }
     ]
 };
