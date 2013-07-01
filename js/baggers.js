@@ -838,6 +838,34 @@ var data = {
                     ],
                     tags: ["Test", "Test fonctionnel", "Scrum", "Agile", "Jenkins", "Cucumber", "Watir", "Webdriver", "Web"]
                 },
+                {
+                    name: "Baptiste Mathus",
+                    bio: "Développeur passionné, Committer OSS Mojo@Codehaus, Leader @ToulouseJUG",
+                    picture: "img/bm-cul-de-poule.png",
+                    websites: [
+                        {title: "GitHub", href: "https://github.com/batmat"},
+                        {title: "Blog", href: "http://batmat.net/"},
+                        {title: "CV", href: "http://fr.linkedin.com/in/bmathus"}
+                    ],
+                    twitter: "bmathus",
+                    contact: "bmathus [at] gmail.com",
+                    location: "Toulouse et dans le coin",
+                    sessions: [
+                        {
+                            title: "Maven - comment bien l'utiliser ?",
+                            summary: "Maven est un outil de build puissant qui a révolutionné le monde du build Java. Il pose quelques principes fondateurs volontairement difficiles à contourner. Connaître ces quelques règles et principes permet de mieux l'utiliser sans subir le retour de flamme imminent lorsqu'on l'utilise hors des clous :-)."
+                        },
+                        {
+                            title: "Git, pourquoi c'est cool ?",
+                            summary: "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
+                        },
+                        {
+                            title: "Gerrit : la revue de code pour Git.",
+                            summary: "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
+                        }
+                    ],
+                    tags: ["Jenkins", "Maven", "Gerrit", "Git", "Java"]
+                }
             ]
         },
         {
