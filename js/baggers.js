@@ -95,6 +95,34 @@ var data = {
                     tags: ["Agile", "Lean Start Up", "Kanban"]
                 },
                 {
+                    name: "Matthieu Segret",
+                    bio: "Co-fondateur de Human Coders. Passionné par Ruby, Ruby on Rails, l'entrepreneuriat...",
+                    picture: "http://www.gravatar.com/avatar/1416faf6feeeff88c0d22164d6c9fb5c.jpg?s=250",
+                    websites: [
+                        {title: "Blog", href: "http://matthieusegret.com"},
+                        {title: "Human Coders", href: "http://humancoders.com"},
+                        {title: "Human Coders Formations", href: "http://formation.humancoders.com"}
+                    ],
+                    twitter: "MatthieuSegret",
+                    contact: "matthieu@humancoders.com",
+                    location: "Paris et environs",
+                    sessions: [
+                        {
+                            title: "Ruby",
+                            summary: "Introduction au langage de programmation Ruby"
+                        },
+                        {
+                            title: "Ruby on Rails",
+                            summary: "Présentation de Ruby on Rails, le framework web le plus connu du monde Ruby"
+                        },
+                        {
+                            title: "Comment recruter un bon développeur ?",
+                            summary: "Comment bien définir son besoin ? Quels moyens pour recruter son prochain développeur ? Comment bien rédiger une offre d'emploi ? Où la publier ? Comment donner envie aux développeurs de travailler dans sa société ? Comment améliorer sa marque employeur ?"
+                        }
+                    ],
+                    tags: ["ruby", "ruby on rails", "entrepreneuriat", "recrutement", "formation"]
+                },
+                {
                     name: "Mathilde Lemée",
                     bio: "Ingénieur R&amp;D - Terracotta",
                     picture: "img/photo_mathilde.jpeg",
