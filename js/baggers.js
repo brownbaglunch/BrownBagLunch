@@ -7,6 +7,24 @@ var data = {
             lng: 2.352222,
 
             baggers: [
+            	 {
+                    name: "Serge Stinckwich",
+                    bio: "Enseignant-chercheur, développeur",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/011/381/16fa99c.jpg",
+                    websites: [
+                        {title: "Site web", href: "http://www.doesnotunderstand.org/"}
+                    ],
+                    twitter: "SergeStinckwich",
+                    contact: "Serge.Stinckwich@gmail.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Introduction à Pharo",
+                            summary: "Découverte de Pharo, une implémentation ouverte de Smalltalk, le langage de programmation orienté objet, dynamiquement typé et réflexif. Introduction à la syntaxe et coding dojo en Pharo."
+                        }
+                    ],
+                    tags: ["Smalltalk", "programmation orienté objet", "TDD"]
+                },
                 {
                     name: "François Sarradin",
                     bio: "Consultant Java et &#955; développeur",
