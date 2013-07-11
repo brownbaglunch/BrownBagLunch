@@ -1086,6 +1086,28 @@ var data = {
                         }
                     ],
                     tags: ["sécurité", "cryptographie", "SSL", "performance"]
+                },
+                {
+                    name: "Cédric Champeau",
+                    bio: "Committer sur le langage Groovy, accessoirement geek",
+                    picture: "https://dl.dropboxusercontent.com/u/20288797/minimoi2.jpg",
+                    websites: [
+                        {title: "Blog", href: "http://jroller.com/melix"}
+                    ],
+                    twitter: "CedricChampeau",
+                    contact: "cedric.champeau@gmail.com",
+                    location: "Nantes et environs. Possibilités sur Paris.",
+                    sessions: [
+                        {
+                            title: "Les androïdes rêvent-ils de Gradle ?",
+                            summary: "Gradle est un système de build nouvelle génération pour la JVM combinant les avantages du scripting Ant et des conventions Maven grâce à un DSL (Domain Specific Language) élégant et extensible. Découverte de l'outil."
+                        },
+                        {
+                            title: "Spock, le testing nouvelle génération",
+                            summary: "Spock est un framework de test inspiré du BDD (Behavior Driven Development) pour la JVM. Dôté d'une syntaxe élégante et lisible, il remplace avec brio vos vieillissants JUnit et TestNG..."
+                        }
+                    ],
+                    tags: ["groovy", "gradle","grails","jvm","spock","test"]
                 }
             ]
         },
