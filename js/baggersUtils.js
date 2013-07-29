@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     function createVilleMarker(ville) {
         var action = function (e) {
-            window.location = window.location + "#" + ville['name'];
+            window.location = window.location.toString().split('#')[0] + "#" + ville['name'];
         };
         map.addMarker({
             lat: ville['lat'],
@@ -26,10 +26,8 @@ $(document).ready(function () {
     };
 });
 
-
-
 function addPaireImpaire(){
-     for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {        
+     for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {
         var baggers = data['villes'][villeIndex]['baggers'];
         if (baggers !== undefined) {
             for (var baggerIndex = 0; baggerIndex < baggers.length; baggerIndex++) {
