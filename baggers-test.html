@@ -51,16 +51,23 @@
         <p class="lead" style="margin: 0 0 0 10px;"> <i class="icon-caret-down show-filter" style="cursor: pointer;"></i>&nbsp; Filtres - <span id="available-baggers" class="label"></span></p>
         <div class="container row" style="width: 100%;" id="filter-subbox">
             <div class="span3">
-                <h4><i class="icon-globe"></i> Villes</h4>
+                <h4><i class="icon-globe"></i> Villes
+                  <button type="button" class="btn btn-inverse btn-small all-tag-filter">Toutes</button>
+                  <button type="button" class="btn btn-inverse btn-small none-tag-filter">Aucune</button>
+		</h4>
+                <div id="cities-filter" class="filters">
                 {{#villes}}
                     <button type="button" class="btn btn-success btn-city-filter active btn-small" style="margin-bottom: 10px;" data-toggle="button" data-label="ville-{{name}}">{{name}}</button>
                 {{/villes}}
+		</div>
             </div>
             <div class="span10">
-                <h4><i class="icon-heart"></i> Intérêts</h4>
-                <div id="tags-filter">
+                <h4><i class="icon-heart"></i> Intérêts
+                  <button type="button" class="btn btn-inverse btn-small all-tag-filter">Tous</button>
+                  <button type="button" class="btn btn-inverse btn-small none-tag-filter">Aucun</button>
+		</h4>
+                <div id="tags-filter" class="filters">
                 </div>
-                <button type="button" class="btn btn-inverse btn-small" id="clear-tag-filter">Aucun</button>
             </div>
         </div>
 
@@ -235,7 +242,7 @@
                 } else {
                     $btn.removeClass('btn-default').addClass('btn-success');
                 }
-                $('div.' + $btn.attr('data-label')).fadeToggle('slow', function() { countBaggers(); });
+                $('div.' + $btn.attr('data-label')).fadeToggle('slow', function() { updateBaggers(); });
             });
 
             // Manage click on a TAG filter
@@ -247,28 +254,39 @@
                 } else {
                     $btn.removeClass('btn-default').addClass('btn-success');
                 }
-                // Hide all baggers (it's simplier)
-                $("div.bagger:visible").hide();
-                $('#tags-filter button.btn-success').each(function() {
-                    // For each tag activated, we redisplay the bagger with at least this tag
-                    var tag = $(this).attr('data-label');
-                    $("div.bagger." + tag + ":hidden").show();
-                });
-                countBaggers();
+                updateBaggers();
             });
 
-            // Clear all TAG filters
-            $('#clear-tag-filter').click(function() {
-                $('.btn-tag-filter').removeClass('active btn-success').addClass('btn-default');
-                $("div.bagger:visible").hide();
-                countBaggers();
+            // Add / Clear all TAG filters
+            $('.all-tag-filter').click(function() {
+                $(this).closest('div').find('button').addClass('active btn-success').removeClass('btn-default');
+                updateBaggers();
+            });
+            $('.none-tag-filter').click(function() {
+                $(this).closest('div').find('button').removeClass('active btn-success').addClass('btn-default');
+                updateBaggers();
             });
 
-            countBaggers();
+            updateBaggers();
         });
 
         // Count the number of visible baggers, i.e. the number of baggers that fit the filter criteria.
-        function countBaggers() {
+        function updateBaggers() {
+            // Hide all baggers and cities (it's simpler)
+   	    $("div.bagger:visible").hide();
+   	    $("div[class^=ville]:visible").hide();
+
+   	   $("#cities-filter button.btn-success").each(function(ic, city) {
+	        $("#tags-filter button.btn-success").each(function(it, tag) {
+                  // For each tag activated, we redisplay the bagger with at least this tag
+                  var baggers = $("div.bagger." + $(tag).attr("data-label") + ":hidden");
+                  if (baggers.length > 0) {
+			$("." + $(city).attr("data-label")).show();
+			baggers.show();
+	          };
+                });
+            });
+
             var nb = $('div.bagger:visible').length;
             var suffix = (nb > 1) ? 's' : '';
             $('#available-baggers').html(nb + ' bagger' + suffix + ' disponible' + suffix);
@@ -277,6 +295,7 @@
             } else {
                 $('#available-baggers').removeClass('label-info').addClass('label-important');
             }
+	    return nb;
         }
 	</script>
 

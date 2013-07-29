@@ -23,7 +23,7 @@ var data = {
                             summary: "Découverte de Pharo, une implémentation ouverte de Smalltalk, le langage de programmation orienté objet, dynamiquement typé et réflexif. Introduction à la syntaxe et coding dojo en Pharo."
                         }
                     ],
-                    tags: ["Smalltalk", "programmation orienté objet", "TDD"]
+                    tags: ["Smalltalk", "Programmation orientée objet", "TDD", "Test"]
                 },
                 {
                     name: "François Sarradin",
@@ -41,7 +41,7 @@ var data = {
                             title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
                             summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework testé, le tout en restant lisible."
                         }
-                        , { 
+                        , {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
                         }
@@ -50,7 +50,7 @@ var data = {
                             summary: "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
                         }
                     ],
-                    tags: ["java", "scala", "programmation fonctionnelle"]
+                    tags: ["Java", "Scala", "Programmation fonctionnelle"]
                 },
                 {
                     name: "Nathaniel Richand",
@@ -84,7 +84,7 @@ var data = {
                             summary: "Présentation des concepts et de quelques outils phares du Lean Startup."
                         }
                     ],
-                    tags: ["agile"]
+                    tags: ["Agile"]
                 },
                 {
                     name: "Benjamin Moitié",
@@ -101,7 +101,7 @@ var data = {
                             title: "Agile, qu'est ce que c'est?",
                             summary: "Présentation de l'agilité pour répondre à toutes vos interrogations"
                         }
-                        , { 
+                        , {
                             title: "Kanban et le management visuel",
                             summary: "Comment mettre en place du management visuel et Pourquoi? Une présentation des règles de base et des principes avec beaucoup d’images"
                         }
@@ -110,7 +110,7 @@ var data = {
                         	summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
                         }
                     ],
-                    tags: ["Agile", "Lean Start Up", "Kanban"]
+                    tags: ["Agile", "Lean Startup", "Kanban"]
                 },
                 {
                     name: "Matthieu Segret",
@@ -138,7 +138,7 @@ var data = {
                             summary: "Comment bien définir son besoin ? Quels moyens pour recruter son prochain développeur ? Comment bien rédiger une offre d'emploi ? Où la publier ? Comment donner envie aux développeurs de travailler dans sa société ? Comment améliorer sa marque employeur ?"
                         }
                     ],
-                    tags: ["ruby", "ruby on rails", "entrepreneuriat", "recrutement", "formation"]
+                    tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Recrutement", "Formation"]
                 },
                 {
                     name: "Mathilde Lemée",
@@ -164,7 +164,7 @@ var data = {
                             summary: "Premier pas avec Corona SDK, REX sur 6 mois de dev et de marketing d'applis mobile (http://www.aetys.fr)"
                         }
                     ],
-                    tags: ["cache", "big data", "tests", "mobile", "java"]
+                    tags: ["Cache", "Big Data", "Test", "Mobile", "Java"]
                 },
                 {
                     name: "David Gageot",
@@ -183,11 +183,11 @@ var data = {
                         },
                         {
                             title: "Kitten FaceMash – Marre des frameworks, oui aux bons outils",
-                            summary: "Live coding sur le développement d'un site web en TDD, sans framework mais une combinaison de bonnes librairies."
+                            summary: "Live coding sur le développement d'un site web en TDD, sans framework mais une combinaison de bonnes bibliothèques."
                         },
                         {
                             title: "Mockito – Ecrire des tests simples et peu sensibles au refactoring",
-                            summary: "Slides démontrant l’utilisation de la librairie Mockito. L’accent est mis sur la forte tolérance au refactoring par rapport aux mocks codés à la main."
+                            summary: "Slides démontrant l’utilisation de la bibliothèque Mockito. L’accent est mis sur la forte tolérance au refactoring par rapport aux mocks codés à la main."
                         },
                         {
                             title: "Introduction à Git",
@@ -202,7 +202,7 @@ var data = {
                             summary: "Slides présentant des outils pour écrire des tests plus simples, plus clairs, plus rapides. (JUnit4 Rules, Infinitest, FestAssert...)"
                         }
                     ],
-                    tags: ["code", "tests", "git", "outils", "refactoring"]
+                    tags: ["Code", "Test", "Git", "Outils", "Refactoring"]
                 },
                 {
                     name: "Tugdual Grall",
@@ -224,7 +224,7 @@ var data = {
                             summary: "Pourquoi et comment faut-il integrer votre (future?) infrastructure BigData basée sur Hadoop avec une base NoSQL de type Couchbase?"
                         }
                     ],
-                    tags: ["nosql","couchbase","mapreduce", "java", "javascript", "node"]
+                    tags: ["NoSQL", "CouchBase", "MapPeduce", "Java", "JavaScript", "NodeJS"]
                 },
                 {
                     name: "Romain Maton",
@@ -250,7 +250,7 @@ var data = {
                             summary: "Pas de Jack Bauer dans cette session mais un développeur qui passe en revue 24 plugins pour <span style=\"text-decoration: line-through;\">sauver le monde</span> booster votre IDE !"
                         }
                     ],
-                    tags: ["javascript", "nodejs", "outils"]
+                    tags: ["JavaScript", "NodeJS", "Outils"]
                 },
                 {
                     name: "Florent Biville",
@@ -281,7 +281,7 @@ var data = {
                             summary: "Cette session vous permettra de bien comprendre les partis pris d'Angular, son approche originale de MVC, le scaffolding avec Yeoman, sa testabilité avec Karma et également son intégration dans un environnement AMD (RequireJS). Hé oui, AngularJS a beau être full-stack, nous verrons au travers de ce talk comment le configurer dans des environnements existants."
                         }
                     ],
-                    tags: ["nosql", "spring", "database", "angularjs", "javascript"]
+                    tags: ["NoSQL", "Spring", "Database", "AngularJS", "JavaScript"]
                 },
                 {
                     name: "Bernard Notarianni",
@@ -311,7 +311,7 @@ var data = {
                             summary: "Retour d'expérience, live coding, dojo..."
                         }
                     ],
-                    tags: ["agile", "startup", "erlang", "javascript"]
+                    tags: ["Agile", "Startup", "Erlang", "JavaScript"]
                 },
                 {
                     name: "Romain Linsolas",
@@ -333,7 +333,7 @@ var data = {
                 			summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
                         }
                     ],
-                    tags: ["javascript", "usine logicielle"]
+                    tags: ["JavaScript", "Usine logicielle"]
                 },
                 {
                     name: "Henri Tremblay",
@@ -365,8 +365,8 @@ var data = {
                             summary: "Sur l'optimisation, EasyMock, les tests en général, les méandres de Java, le déploiement continu ou tout autre sujet qui vous passe par la tête"
                         }
                     ],
-                    tags: ["java", "performance", "calcul parallèle", "optimisation", "test"]
-                },				
+                    tags: ["Java", "Performance", "Calcul parallèle", "Optimisation", "Test"]
+                },
                 {
                     name: "David Pilato",
                     bio: "Technical Advocate",
@@ -383,7 +383,7 @@ var data = {
                             summary: "Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche 'à la google' sur les données de votre SI ?<br/><br/>Ne cherchez plus ! Cette conférence est faite pour vous.<br/><br/>David présentera au cours de du BBL pourquoi et comment il est passé de la recherche SQL à Elasticsearch en détaillant les apports de ce moteur par rapport à une solution pure Lucene :<ul><li>Pourquoi Elasticsearch ?</li><li>L'indexation</li><li>La recherche</li><li>La collecte de données (rivers)</li><li>Les facettes et le principe de navigation par facettes</li><li>La scalabilité horizontale</li><li>L'analyse et le mapping</li><li>La percolation</li><li>La communauté</li></ul>"
                         }
                     ],
-                    tags: ["elasticsearch"]
+                    tags: ["ElasticSearch"]
                 },
                 {
                     name: "Jean-Louis Rigau",
@@ -406,7 +406,7 @@ var data = {
                             summary: "Déployer simplement une application sur Amazon à l'aide d'Elastic BeanStalk, et mise en œuvre du principe de Blue-Green Deployment grâce à la fonctionnalité d’URL swapping."
                         }
                     ],
-                    tags: ["cloud", "usine logicielle"]
+                    tags: ["Cloud", "Usine logicielle"]
                 },
                 {
                     name: "Frédéric Menou",
@@ -433,7 +433,7 @@ var data = {
                             summary: "Retour d'expérience sur les mises en production chez CapitaineTrain.<br/> On parlera d'intégration continue, de code review, de release management et de mises en production transparentes.<br /> Livrer tous les jours c'est possible et c'est même assez banal !"
                         }
                     ],
-                    tags: ["git", "usine logicielle"]
+                    tags: ["Git", "Usine logicielle"]
                 },
                 {
                     name: "Yannick Grenzinger",
@@ -464,7 +464,7 @@ var data = {
                             summary: "Retour d'expérience sur le framework Angular avec Testacular ainsi qu'une pointe de Yeoman et de Foundation."
                         }
                     ],
-                    tags: ["user experience", "ergonomie", "lean startup", "angularjs", "javascript"]
+                    tags: ["User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript"]
                 },
                 {
                     name: "Mathieu Gandin",
@@ -495,7 +495,7 @@ var data = {
                             summary: "Si tu veux mettre en place un groupe de lecture pendant un brownbaglunch sur 'Clean Code' de Bob Martin et 'Quality Software Management' de Gerald Weinberg, je peux t'aider ..."
                         }
                     ],
-                    tags: ["code", "refactoring", "bdd"]
+                    tags: ["Code", "Refactoring", "BDD"]
                 },
                 {
                     name: "Sylvain Abélard",
@@ -526,7 +526,7 @@ var data = {
                             summary: "Tout ce qui est relié à mon expertise : web, MVC, architecture logicielle, retours d'expérience..."
                         }
                     ],
-                    tags: ["ruby", "ruby on rails"]
+                    tags: ["Ruby", "Ruby on Rails", "Architecture Logicielle"]
                 },
                 {
                     name: "Vincent Heuschling",
@@ -550,14 +550,14 @@ var data = {
                       },
                       {
                         title: "Développement Hadoop avec Scalding",
-                        summary: "Utiliser la librairie Cascading avec Scala pour construire des jobs Map/Reduce avec toutes les capacités propres à Scala."
+                        summary: "Utiliser la bibliothèque Cascading avec Scala pour construire des jobs Map/Reduce avec toutes les capacités propres à Scala."
                       },
                       {
                         title: "Bases de données NOSQL",
                         summary: "Comprendre les différences entre Redis, Cassandra, HBase et MongoDB. Quelle base pour quel usage ?"
                       }
                     ],
-                    tags: ["hadoop", "nosql"]
+                    tags: ["Hadoop", "NoSQL"]
                 },
                 {
                     name: "Katia Aresti",
@@ -586,9 +586,9 @@ var data = {
                             title: "J'irai coder chez vous",
                             summary: "(Experimental) Je viens coder chez vous pendant une matinée sur une story lambda, en TDD !!"
                         }
-                        
+
                     ],
-                    tags: ["mongodb", "refactoring", "code", "tests"]
+                    tags: ["MongoDB", "Refactoring", "Code", "Test"]
                 },
                 {
                     name: "Eric Lefevre-Ardant",
@@ -606,8 +606,8 @@ var data = {
                             summary: "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
                         }
                     ],
-                    tags: ["java", "code"]
-                }, 
+                    tags: ["Java", "Code"]
+                },
   		        {
                     name: "Guillaume Tardif",
                     bio: "Consultant Java",
@@ -624,7 +624,7 @@ var data = {
                             summary: "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
                         }
                     ],
-                    tags: ["mongo", "search", "big data", "java", "code"]
+                    tags: ["MongoDB", "Search", "Big Data", "Java", "Code"]
                 },
                 {
                     name: "Cyrille Martraire",
@@ -655,7 +655,7 @@ var data = {
                            summary: "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
                         },
                     ],
-                    tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code"]
+                    tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code", "Test"]
                 },
                 {
                     name: "Dimitri BAELI",
@@ -683,7 +683,7 @@ var data = {
                            summary: "Un condensé de la présentation Devops Mercenaries faite à Devoxx, déploiement continu avec tests gatling, thucydides, ... work in progress"
                         },
                     ],
-                    tags: ["Kanban", "Agile", "Java", "Devops"]
+                    tags: ["Kanban", "Agile", "Java", "DevOps"]
                 },
                 {
                     name: "Guillaume LOURS",
@@ -725,7 +725,7 @@ var data = {
                             title: "Nouveautés Java EE",
                             summary: "Slides, code et discussion autour des nouveautés Java EE 7 et Java EE 6."
                         }
-                        , { 
+                        , {
                             title: "Migrer vos vielles applications",
                             summary: "Vous faites du J2EE 1.4 ou du Spring et vous voulez migrer tout ou partie de vos applications, discutons-en."
                         }
@@ -742,7 +742,7 @@ var data = {
                             summary: "Live coding d'une application web avec JBoss Forge, Aquillian, DeltaSpike et déployée dans JBoss, GlassFish et TomEE."
                         }
                     ],
-                    tags: ["JavaEE", "J2EE", "CDI","Arquillian"]
+                    tags: ["JavaEE", "J2EE", "CDI", "Arquillian"]
                 },
                 {
                     name: "Thierry Leriche-Dessirier",
@@ -757,7 +757,7 @@ var data = {
                     sessions: [
                         {
                             title: "Présentation de Guava et Lombok",
-                            summary: "Guava est une librairie open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs.<br/>De son coté, Lombok est également un projet Open Source. Lombok et Lombok-pg simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets.<br/>Durant cette présentation, après un rapide constat de la verbosité de nos beans, nous feront un tour d'horizon de Lombok et Guava. Nous verrons comment ils nous aident à écrire du code concis et de qualité."
+                            summary: "Guava est une bibliothèque open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs.<br/>De son coté, Lombok est également un projet Open Source. Lombok et Lombok-pg simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets.<br/>Durant cette présentation, après un rapide constat de la verbosité de nos beans, nous feront un tour d'horizon de Lombok et Guava. Nous verrons comment ils nous aident à écrire du code concis et de qualité."
                         }
                     ],
                     tags: ["Java", "Guava", "Lombok"]
@@ -795,7 +795,7 @@ var data = {
                             summary: "Organisation d'un coding dojo chez vous en Scala ou Java."
                         }
                     ],
-                    tags: ["agile", "code", "dojo"]
+                    tags: ["Agile", "Code", "Dojo"]
                 },
                 {
                     name: "Sylvain Wallez",
@@ -829,7 +829,7 @@ var data = {
                             summary: "Arduino, imprimantes 3D, hacker spaces : le hardware fait sa révolution. Introduction à cette mouvance qui prend de l'ampleur"
                         }
                     ],
-                    tags: ["nosql", "mongodb", "hardware"]
+                    tags: ["NoSQL", "MongoDB", "Hardware"]
                 },
                 {
                     name: "Antoine Vernois",
@@ -859,7 +859,7 @@ var data = {
                             summary: "Une session où c'est vous qui pratiquez. Moi, je ne fais que poser des questions :). Comme c'est vous qui allez bosser, c'est vous qui choisissez le langage :) (max 10 personnes)."
                         }
                     ],
-                    tags: ["agile", "code", "legacy", "tdd", "clean code", "craftsmanship"]
+                    tags: ["Agile", "Code", "Legacy", "TDD", "Test", "Clean Code", "Craftsmanship"]
                 },
 				{
                     name: "Fabrice Bournisien",
@@ -946,7 +946,7 @@ var data = {
                             summary: "Atelier pratique : développer avec la plateforme CloudBees"
                         }
                     ],
-                    tags: ["cloud", "usine logicielle"]
+                    tags: ["Cloud", "Usine logicielle"]
                 },
                 {
                     name: "Christophe Bégot",
@@ -971,7 +971,7 @@ var data = {
                             summary: "Présentation de la démarche et sessions de coaching."
                         }
                     ],
-                    tags: ["agile", "coaching"]
+                    tags: ["Agile", "Coaching"]
                 }
              ]
         },
@@ -1002,7 +1002,7 @@ var data = {
                             summary: "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
                         }
                     ],
-                    tags: ["agile", "serious game"]
+                    tags: ["Agile", "Serious Game"]
                 },
                 {
                     name: "Cécile Especel",
@@ -1025,7 +1025,7 @@ var data = {
                             summary: "Animation de différents jeux agiles pour s'initier ou approfondir : Lego4Scrum, Marshmallow Challenge, ensemble de jeux courts tels que La Vache et Les Spécifications, Origami Agile etc."
                         }
                     ],
-                    tags: ["agile", "serious game"]
+                    tags: ["Agile", "Serious Game"]
                 },
                 {
                     name: "Clément Delafargue",
@@ -1053,7 +1053,7 @@ var data = {
                             summary: "Pourquoi et comment un bon système de type est votre meilleur ami pour écrire du code sans vous prendre la tête."
                         }
                     ],
-                    tags: ["scala", "haskell", "functional programming"]
+                    tags: ["Scala", "Haskell", "Functional programming"]
                 },
                 {
                     name: "Geoffroy Couprie",
@@ -1085,7 +1085,7 @@ var data = {
                             summary: "Les navigateurs récents ont intégré des fonctionnalités utiles pour la sécurité des applications web, qui sont souvent faciles à mettre en place.<br />Présentation de quelques failles classiques, et comment les corriger facilement."
                         }
                     ],
-                    tags: ["sécurité", "cryptographie", "SSL", "performance"]
+                    tags: ["Sécurité", "Cryptographie", "SSL", "Performance"]
                 },
                 {
                     name: "Cédric Champeau",
@@ -1107,7 +1107,7 @@ var data = {
                             summary: "Spock est un framework de test inspiré du BDD (Behavior Driven Development) pour la JVM. Dôté d'une syntaxe élégante et lisible, il remplace avec brio vos vieillissants JUnit et TestNG..."
                         }
                     ],
-                    tags: ["groovy", "gradle","grails","jvm","spock","test"]
+                    tags: ["Groovy", "Gradle", "Grails", "JVM", "Spock", "Test"]
                 }
             ]
         },
@@ -1150,7 +1150,7 @@ var data = {
                             summary: "Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ? Même le temps d'un déj, on peut trouver quelques pistes."
                         }
                     ],
-                    tags: ["javascript", "spring", "tests", "dojo"]
+                    tags: ["JavaScript", "Spring", "Test", "Dojo"]
                 }
             ]
         },
@@ -1200,7 +1200,7 @@ var data = {
                             summary: "Le temps des applications monolithiques multi fonctions s'éloigne. Désormais on recherche à composer par services, on recherche la haute disponibilité, la résistance aux erreurs, le déploiement ciblé. Comment peut-on y arriver sans construire un monstre inmaintenable ? Comment faire simple tout en répondant à des problématiques complexes ? On pourra discuter d'architecture orientée message, de bonnes pratiques de déploiement, de monitoring, d'interropérabilité. Il faudra choisir car le sujet est vaste ;)"
                         }
                     ],
-                    tags: ["web", "java", "big data", "mongodb", "elasticsearch"]
+                    tags: ["Web", "Java", "Big Data", "MongoDB", "ElasticSearch"]
                 },
                 {
                     name: "Cédric Exbrayat",
@@ -1221,7 +1221,7 @@ var data = {
                         },
                         {
                           title: "AngularJS - le framework javascript de demain",
-                            summary: "Une plongée en douceur dans ce framework développé par Google et qui pourrait devenir le standard de demain."  
+                            summary: "Une plongée en douceur dans ce framework développé par Google et qui pourrait devenir le standard de demain."
                         },
                         {
                             title: "Git - l'incontournable",
@@ -1236,7 +1236,7 @@ var data = {
                             summary: "Parce que l'on a toujours besoin de communiquer entre plusieurs applications, découvrez la puissance et la simplicité de Camel."
                         }
                     ],
-                    tags: ["java", "lambda", "angularjs", "javascript", "play framework", "git"]
+                    tags: ["Java", "Lambda", "AngularJS", "JavaScript", "Play framework", "Git"]
                 },
                 {
                     name: "Alfred Almendra",
@@ -1278,7 +1278,7 @@ var data = {
                             summary: "Présentation des techniques popularisées par le Lean Startup pour construire un modèle économique de façon empirique."
                         }
                     ],
-                    tags: ["agile", "agilité", "ux", "expérience utilisateur", "lean", "extreme programming", "scrum", "kanban", "jeux sérieux", "jeux agiles", "lean startup", "visual management", "management 3.0"]
+                    tags: ["Agile", "UX", "Expérience Utilisateur", "Extreme Programming", "Scrum", "Kanban", "Serious Games", "Jeux agiles", "Lean Startup", "Visual Management", "Management 3.0"]
                 },
                 {
                     name: "Sébastien Cogneau",
@@ -1314,7 +1314,7 @@ var data = {
                     [
                         {
                             title: "TDD by example",
-                            summary: "Introduction concrète au Tests Driven Development, selon le livre de Kent Beck, adapté aux technos Microsoft (Méthodes, Utilisation de MSTests ou Nunit)"
+                            summary: "Introduction concrète au Test Driven Development, selon le livre de Kent Beck, adapté aux technos Microsoft (Méthodes, Utilisation de MSTests ou Nunit)"
                         },
                         {
                             title: "Introduction au BDD",
@@ -1333,7 +1333,7 @@ var data = {
                             summary: "Avez vous déja pris le temps de décortiquer les pratiques du livre de l'Oncle Bob: Clean Code? Le temps d'un repas, regardons comment améliorer la qualité du code produit"
                         }
                     ],
-                    tags: ["agile", "agilité", "TDD", "BDD", ".NET", "Microsoft", "Clean Code"]
+                    tags: ["Agile", "TDD", "Test", "BDD", ".NET", "Microsoft", "Clean Code"]
                 }
             ]
         },
@@ -1381,7 +1381,7 @@ var data = {
 		}
 
 		],
-		tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum", ""]
+		tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
 	}]
 },
     	{
@@ -1426,7 +1426,7 @@ var data = {
                             summary: "Tous autres sujets tournant autour de l'agilité, ou du développement WEB en Java : contactez-moi et nous verrons sur quoi nous pourrons échanger !"
                         }
                     ],
-                    tags: ["java", "web", "javascript", "Play", "agilité", "Scum", "ingénierie agile", "tests", "tests unitaires", "TDD", "usine logicielle", "industrialisation" ]
+                    tags: ["Java", "Web", "JavaScript", "Play", "Agile", "Scrum", "Ingénierie agile", "Test", "Tests unitaires", "TDD", "Usine logicielle", "Industrialisation" ]
                 },
 				{
                     name: "Laurent TARDIF",
@@ -1452,7 +1452,7 @@ var data = {
                             summary: "Quelles strategies de tests sont possibles, et que sont les specifications executables"
                         }
                     ],
-                    tags: ["java", "jenkins", "BDD", "agilité", "Scum", "Kanban", "ingénierie agile", "tests", "tests unitaires", "usine logicielle", "industrialisation" ]
+                    tags: ["Java", "Jenkins", "BDD", "Agile", "Scrum", "Kanban", "Ingénierie agile", "Test", "Tests unitaires", "Usine logicielle", "Industrialisation" ]
                 }
             ]
         },
@@ -1492,7 +1492,7 @@ var data = {
                             summary: "Comment bien définir son besoin ? Quels moyens pour recruter son prochain développeur ? Comment bien rédiger une offre d'emploi ? Où la publier ? Comment donner envie aux développeurs de travailler dans sa société ? Comment améliorer sa marque employeur ?"
                         }
                     ],
-                    tags: ["ruby", "ruby on rails", "entrepreneuriat", "lean startup", "business model canvas", "recrutement", "formation"]
+                    tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Lean Startup", "Business Model Canvas", "Recrutement", "Formation"]
                 },
             ]
         }

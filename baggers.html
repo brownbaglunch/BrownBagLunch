@@ -37,7 +37,7 @@
 		<h1>Liste des villes et des baggers</h1>
 
 		<div class="two columns"></div>
-		<div class="eight columns">	
+		<div class="eight columns">
 			<div class="panel radius">
 				<div id="map" style="height: 400px"></div>
 			</div>
@@ -65,8 +65,8 @@
   	<script type="text/javascript" src="https://rawgithub.com/HPNeo/gmaps/master/gmaps.js"></script>
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
-    <script type="text/javascript" src="js/baggers.js"></script>
-    <script type="text/javascript" src="js/baggersUtils.js"></script>
+	<script type="text/javascript" src="js/baggers.js"></script>
+	<script type="text/javascript" src="js/baggersUtils.js"></script>
 
 	<script type="text/javascript">
     $(function() {
@@ -108,6 +108,7 @@
         <div class="row" id="{{name}}">
             <div class="twelve columns">
                 <img width="700" height="280" src="{{ville_img}}">
+		<a href="#map"><i class="icon-globe"></i> Revenir à la carte</a>
                 <hr>
                 {{message}}
             </div>
