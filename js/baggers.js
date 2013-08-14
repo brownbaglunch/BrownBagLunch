@@ -35,11 +35,11 @@ var data = {
                     ],
                     twitter: "fsarradin",
                     contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
-                    location: "Paris, Ouest parisien (+ Nantes)",
+                    location: "Paris, Ouest parisien (+ Nantes), remote",
                     sessions: [
                         {
-                            title: "Un framework Web qui poutre en Scala, le tout en moins d'une heure",
-                            summary: "(live coding) Découverte de Scala à travers la réalisation d'un mini framework testé, le tout en restant lisible."
+                            title: "A Web Framework in Scala from Scratch in One Hour",
+                            summary: "(live coding - en/fr) Discover Scala through the development of an efficient small tested Web framework."
                         }
                         , {
                             title: "Kata : un type Option en Java",
