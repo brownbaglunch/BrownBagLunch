@@ -87,7 +87,7 @@ var bblLocationsData = {
             gps: "48.838679,2.236555",
             website: "http://novediagroup.com/",
             contact: "Eric Siber (e.siber [at] novediagroup.com)",
-            picture: "img/novedia.png",
+            picture: "img/novediagroup.png",
             interests: [
                     "Java", "DotNet", "PHP", "JavaScript", "Web", "Mobile", "Front", "NoSQL", "Big Data", "Cloud", "Agilité", "DevOps", "Marketing"
             ],
