@@ -79,6 +79,22 @@ var bblLocationsData = {
                 profiles: "Développeur, DevOps, Architectes",
                 number: "5 à 10 personnes"
             }
+        },
+        {
+            pseudo: "novedia",
+            name: "Novedia Group",
+            address: "94-96 rue de Paris, 92100 Boulogne Billancourt",
+            gps: "48.838679,2.236555",
+            website: "http://novediagroup.com/",
+            contact: "Eric Siber (e.siber [at] novediagroup.com)",
+            picture: "img/novedia.png",
+            interests: [
+                    "Java", "DotNet", "PHP", "JavaScript", "Web", "Mobile", "Front", "NoSQL", "Big Data", "Cloud", "Agilité", "DevOps", "Marketing"
+            ],
+            audience: {
+                profiles: "Développeurs, Architectes, Agilistes, AMOA, Chefs de projets, Consultants",
+                number: "de 5 à 15 personnes (ouvert aux externes)"
+            }
         }
     ]
 };
