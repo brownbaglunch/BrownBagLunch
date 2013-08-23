@@ -500,7 +500,7 @@ var data = {
                 {
                     name: "Sylvain Abélard",
                     bio: "Problem Solver chez Faveod",
-                    picture: "img/baggers/photo_sylvain.png",
+                    picture: "img/baggers/photo_sylvain.jpg",
                     websites: [
                         { title: "Faveod", href: "http://www.faveod.com" },
                         { title: "Site perso", href: "http://maitre-du-monde.fr" }
@@ -887,7 +887,7 @@ var data = {
                 {
                     name: "Baptiste Mathus",
                     bio: "Développeur passionné, Committer OSS Mojo@Codehaus, Leader @ToulouseJUG",
-                    picture: "img/baggers/bm-cul-de-poule.png",
+                    picture: "img/baggers/bm-cul-de-poule.jpg",
                     websites: [
                         {title: "GitHub", href: "https://github.com/batmat"},
                         {title: "Blog", href: "http://batmat.net/"},
