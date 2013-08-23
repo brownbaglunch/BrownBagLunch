@@ -23,7 +23,7 @@ var bblLocationsData = {
             gps: "48.875329,2.311335",
             website: "http://www.xebia.fr/",
             contact: "Audrey Pedro (apedro [at] xebia.fr)",
-            picture: "img/xebia.png",
+            picture: "img/entreprises/xebia.png",
             interests: [
                     "Java", "Web", "Mobile", "Agile", "Big Data", "DevOps", "Cloud"
             ],
@@ -39,7 +39,7 @@ var bblLocationsData = {
             gps: "48.841805,2.220778",
             website: "http://www.kyriba.com/",
             contact: "François Sarradin (fsarradin [at] kyriba.fr)",
-            picture: "img/kyriba.jpg",
+            picture: "img/entreprises/kyriba.jpg",
             interests: [
                     "Java", "Web", "Mobile", "Agile", "Big Data", "DevOps", "Cloud"
             ],
@@ -55,7 +55,7 @@ var bblLocationsData = {
             gps: "48.830176,2.265197",
             website: "http://vidal.fr",
             contact: "Tony Sokhon (tony.sokhon [at] vidal.fr)",
-            picture: "img/vidal.jpg",
+            picture: "img/entreprises/vidal.jpg",
             interests: [
                     "Java", "Scala", "Javascript", "Web", "Big Data", "DevOps", "Cloud"
             ],
@@ -71,7 +71,7 @@ var bblLocationsData = {
             gps: "48.829703,2.266330",
             website: "http://mappy.fr",
             contact: "Eric Lefevre-Ardant (contact [at] ericlefevre.net)",
-            picture: "img/mappy.png",
+            picture: "img/entreprises/mappy.png",
             interests: [
                     "Java", "JavaScript", "Web", "Big Data", "DevOps", "Cloud", "Mobile", "Agilité"
             ],
@@ -87,7 +87,7 @@ var bblLocationsData = {
             gps: "48.838679,2.236555",
             website: "http://novediagroup.com/",
             contact: "Eric Siber (e.siber [at] novediagroup.com)",
-            picture: "img/novediagroup.png",
+            picture: "img/entreprises/novediagroup.png",
             interests: [
                     "Java", "DotNet", "PHP", "JavaScript", "Web", "Mobile", "Front", "NoSQL", "Big Data", "Cloud", "Agilité", "DevOps", "Marketing"
             ],

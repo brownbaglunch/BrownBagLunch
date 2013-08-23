@@ -2,7 +2,7 @@ var data = {
     villes: [
         {
             name: "Paris",
-            ville_img: "img/BBL.jpg",
+            ville_img: "img/villes/BBL.jpg",
             lat: 48.856614,
             lng: 2.352222,
 
@@ -55,7 +55,7 @@ var data = {
                 {
                     name: "Nathaniel Richand",
                     bio: "Coach agile - Xebia",
-                    picture: "img/photo_nathaniel.jpg",
+                    picture: "img/baggers/photo_nathaniel.jpg",
                     websites: [
                         {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"}
                     ],
@@ -143,7 +143,7 @@ var data = {
                 {
                     name: "Mathilde Lemée",
                     bio: "Ingénieur R&amp;D - Terracotta",
-                    picture: "img/photo_mathilde.jpeg",
+                    picture: "img/baggers/photo_mathilde.jpeg",
                     websites: [
                         {title: "Blog personnel", href: "http://www.java-freelance.fr/"}
                     ],
@@ -286,7 +286,7 @@ var data = {
                 {
                     name: "Bernard Notarianni",
                     bio: "Créateur de logiciels et coach agile",
-                    picture: "img/photo_bernard.jpg",
+                    picture: "img/baggers/photo_bernard.jpg",
                     websites: [
                         {title: "LinkedIn", href: "http://fr.linkedin.com/in/notarianni/"}
                     ],
@@ -500,7 +500,7 @@ var data = {
                 {
                     name: "Sylvain Abélard",
                     bio: "Problem Solver chez Faveod",
-                    picture: "img/photo_sylvain.png",
+                    picture: "img/baggers/photo_sylvain.png",
                     websites: [
                         { title: "Faveod", href: "http://www.faveod.com" },
                         { title: "Site perso", href: "http://maitre-du-monde.fr" }
@@ -531,7 +531,7 @@ var data = {
                 {
                     name: "Vincent Heuschling",
                     bio: "Fondateur d'Affini-Tech et expert BigData, NOSQL & Analytics",
-                    picture: "img/photo_vhe.jpg",
+                    picture: "img/baggers/photo_vhe.jpg",
                     websites: [
                         { title: "Affini-Tech", href: "http://www.affini-tech.com" },
                         { title: "Site perso", href: "http://www.vhe74.com" }
@@ -593,7 +593,7 @@ var data = {
                 {
                     name: "Eric Lefevre-Ardant",
                     bio: "Consultant Java - Freelance",
-                    picture: "img/photo_eric.jpg",
+                    picture: "img/baggers/photo_eric.jpg",
                     websites: [
                         {title: "Blog personnel", href: "http://ericlefevre.net/"}
                     ],
@@ -611,7 +611,7 @@ var data = {
   		        {
                     name: "Guillaume Tardif",
                     bio: "Consultant Java",
-                    picture: "img/photo_guillaume.jpg",
+                    picture: "img/baggers/photo_guillaume.jpg",
                     websites: [
                         {title: "Site", href: "http://melodiousthunkcode.fr/"}
                     ],
@@ -766,7 +766,7 @@ var data = {
         },
         {
             name: "Toulouse",
-            ville_img: "img/BBL_Toulouse.jpg",
+            ville_img: "img/villes/BBL_Toulouse.jpg",
             lat: 43.604652,
             lng: 1.444209,
 
@@ -887,7 +887,7 @@ var data = {
                 {
                     name: "Baptiste Mathus",
                     bio: "Développeur passionné, Committer OSS Mojo@Codehaus, Leader @ToulouseJUG",
-                    picture: "img/bm-cul-de-poule.png",
+                    picture: "img/baggers/bm-cul-de-poule.png",
                     websites: [
                         {title: "GitHub", href: "https://github.com/batmat"},
                         {title: "Blog", href: "http://batmat.net/"},
@@ -916,7 +916,7 @@ var data = {
         },
         {
             name: "Rennes",
-            ville_img: "img/BBL_BZH.png",
+            ville_img: "img/villes/BBL_BZH.png",
             lat:48.0686257,
             lng: -1.7253652,
 
@@ -924,7 +924,7 @@ var data = {
                 {
                     name: "Nicolas De Loof",
                     bio: "Committer Maven et Jenkins, Support Engineer et évangéliste chez CloudBees",
-                    picture: "img/photo_NicolasDeLoof.jpg",
+                    picture: "img/baggers/photo_NicolasDeLoof.jpg",
                     websites: [
                         {title: "new Blog(perso);", href: "http://blog.loof.fr"},
                         {title: "CloudBees", href: "http://www.cloudbees.com"}
@@ -977,7 +977,7 @@ var data = {
         },
         {
             name: "Nantes",
-            ville_img: "img/BBL_Nantes.jpg",
+            ville_img: "img/villes/BBL_Nantes.jpg",
             lat: 47.219102,
             lng: -1.551132,
 
@@ -1113,7 +1113,7 @@ var data = {
         },
         {
             name: "Lille",
-            ville_img: "img/BBL_Lille.jpg",
+            ville_img: "img/villes/BBL_Lille.jpg",
             lat:50.637222,
             lng: 3.063333,
             baggers: [
@@ -1156,7 +1156,7 @@ var data = {
         },
     	{
             name: "Lyon",
-            ville_img: "img/BBL_Lyon.jpg",
+            ville_img: "img/villes/BBL_Lyon.jpg",
             lat:45.764043,
             lng: 4.835659,
             baggers: [
@@ -1338,62 +1338,62 @@ var data = {
             ]
         },
         {
-	name: "Vannes",
-	ville_img: "img/BBL_BZH.png",
-	lat: 47.658236,
-	lng: -2.760847,
+            name: "Vannes",
+            ville_img: "img/villes/BBL_BZH.png",
+            lat: 47.658236,
+            lng: -2.760847,
 
-	baggers: [{
-		name: "Christophe Keromen",
-		bio: "Facilitateur et accompagnateur agile et lean, co-organisateur Agile Tour Vannes",
-		picture: "http://www.gravatar.com/avatar/2898ad2474ba25b87a9326585d3a234e.png",
-		websites: [{
-			title: "Blog",
-			href: "http://ckti.wordpress.com/"
-		},{
-			title: "LinkedIn",
-			href: "http://fr.linkedin.com/in/christophekeromen/"
-		}],
-		twitter: "ckeromen",
-		contact: "ckeromen@ckti.com",
-		location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
-		sessions: [{
-			title: "Agilité à la carte",
-			summary: "Vous vous posez des questions sur un sujet lié à l'agilité ? Contactez-moi, on en parle ensemble pendant 1h"
-		}, {
-			title: "Présentation de l'agilité",
-			summary: "Que représente l'agilité en 2013 ? Quelles tendances ? Quels écueils pour quelles réussites ?."
-		}, {
-			title: "Agilité hors de l'IT",
-			summary: "Présentation de l'agilité pour les non-informaticiens. Pourquoi s'y intéresser ? Quels bénéfices en attendre ? Comment s'y prendre ?"
-		}, {
-			title: "Des jeux pour apprendre, innover et s'améliorer",
-			summary: "Serious Games, Innovation Games, Agile Games. Comment ça se passe ? Ça sert à quoi ? Quand les utiliser ?"
-		}, {
-			title: "Manager agile",
-			summary: "Quelles relations avec l'équipe ? Pourquoi changer ? Quelles pratiques ? Quel positionnement ?"
-		}, {
-			title: "Kanban",
-			summary: "Au-delà de la représentation visuelle. Quels concepts ? Comment le mettre en oeuvre ?Comment le coupler à Scrum?"
-		}, {
-			title: "Product Owner",
-			summary: "Quelles sont les reponsabilités du responsable produit agile ? Comment estimer, planifier ?"
-		}
+            baggers: [{
+                name: "Christophe Keromen",
+                bio: "Facilitateur et accompagnateur agile et lean, co-organisateur Agile Tour Vannes",
+                picture: "http://www.gravatar.com/avatar/2898ad2474ba25b87a9326585d3a234e.png",
+                websites: [{
+                    title: "Blog",
+                    href: "http://ckti.wordpress.com/"
+                },{
+                    title: "LinkedIn",
+                    href: "http://fr.linkedin.com/in/christophekeromen/"
+                }],
+                twitter: "ckeromen",
+                contact: "ckeromen@ckti.com",
+                location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
+                sessions: [{
+                    title: "Agilité à la carte",
+                    summary: "Vous vous posez des questions sur un sujet lié à l'agilité ? Contactez-moi, on en parle ensemble pendant 1h"
+                }, {
+                    title: "Présentation de l'agilité",
+                    summary: "Que représente l'agilité en 2013 ? Quelles tendances ? Quels écueils pour quelles réussites ?."
+                }, {
+                    title: "Agilité hors de l'IT",
+                    summary: "Présentation de l'agilité pour les non-informaticiens. Pourquoi s'y intéresser ? Quels bénéfices en attendre ? Comment s'y prendre ?"
+                }, {
+                    title: "Des jeux pour apprendre, innover et s'améliorer",
+                    summary: "Serious Games, Innovation Games, Agile Games. Comment ça se passe ? Ça sert à quoi ? Quand les utiliser ?"
+                }, {
+                    title: "Manager agile",
+                    summary: "Quelles relations avec l'équipe ? Pourquoi changer ? Quelles pratiques ? Quel positionnement ?"
+                }, {
+                    title: "Kanban",
+                    summary: "Au-delà de la représentation visuelle. Quels concepts ? Comment le mettre en oeuvre ?Comment le coupler à Scrum?"
+                }, {
+                    title: "Product Owner",
+                    summary: "Quelles sont les reponsabilités du responsable produit agile ? Comment estimer, planifier ?"
+                }
 
-		],
-		tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
-	}]
-},
+                ],
+                tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
+            }]
+        },
     	{
             name: "Grenoble",
-            ville_img: "img/BBL_Grenoble.jpg",
+            ville_img: "img/villes/BBL_Grenoble.jpg",
             lat:45.183,
             lng:5.717,
             baggers: [
                 {
                     name: "Xavier NOPRE",
                     bio: "Développeur et agiliste - Indépendant",
-                    picture: "img/photo_xavier.jpg",
+                    picture: "img/baggers/photo_xavier.jpg",
                     websites: [
                         { title: "Blog", href: "http://xnopre.blogspot.fr/" },
                     ],
@@ -1431,7 +1431,7 @@ var data = {
 				{
                     name: "Laurent TARDIF",
                     bio: "CI addict, agiliste - PersistentSAS",
-                    picture: "img/photo_LaurentTardif.jpg",
+                    picture: "img/baggers/photo_LaurentTardif.jpg",
                     websites: [
                         { title: "Blog", href: "http://ouelcum.wordpress.com/" },
                     ],
@@ -1458,7 +1458,7 @@ var data = {
         },
         {
             name: "Montpellier",
-            ville_img: "img/BBL_Montpellier.jpg",
+            ville_img: "img/villes/BBL_Montpellier.jpg",
             lat: 43.610769,
             lng: 3.876716,
             baggers: [
