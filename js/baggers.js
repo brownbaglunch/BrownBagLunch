@@ -255,7 +255,7 @@ var data = {
                 {
                     name: "Florent Biville",
                     bio: "Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts",
-                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/6/000/295/159/0d0672b.jpg",
                     websites: [
                         {title: "Blog personnel", href: "http://florent.biville.net/"},
                         {title: "Lateral Thoughts", href: "http://www.lateral-thoughts.com"}
@@ -951,7 +951,7 @@ var data = {
                 {
                     name: "Christophe Bégot",
                     bio: "Facilitateur Agile",
-                    picture: "http://www.timwi.com/fichiers/cbegot.png",
+                    picture: "http://timwi.com/img/team/cbegot.png",
                     websites: [
                         {title: "Timwi", href: "http://timwi.com/"}
                     ],
@@ -985,7 +985,7 @@ var data = {
                 {
                     name: "Cécilia Bossard",
                     bio: "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
-                    picture: "http://timwi.com/fichiers/cecilia.jpg",
+                    picture: "http://timwi.com/img/team/cecilia.jpg",
                     websites: [
                         {title: "Timwi", href: "http://timwi.com/"}
                     ],
