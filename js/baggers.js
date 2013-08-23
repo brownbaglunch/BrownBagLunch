@@ -653,7 +653,7 @@ var data = {
                         {
                            title: "Votre sujet sur-mesure",
                            summary: "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
-                        },
+                        }
                     ],
                     tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code", "Test"]
                 },
@@ -664,7 +664,7 @@ var data = {
                     websites: [
                         { title: "LesFurets.com", href: "http://www.lesfurets.com" },
                         { title: "Lean Kanban France", href: "http://www.leankanban.fr"},
-                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"},
+                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"}
                     ],
                     twitter: "dbaeli",
                     contact: "dbaeli [at] gmail.com",
@@ -681,7 +681,7 @@ var data = {
                         {
                            title: "Mercenaire Devops replay !",
                            summary: "Un condensé de la présentation Devops Mercenaries faite à Devoxx, déploiement continu avec tests gatling, thucydides, ... work in progress"
-                        },
+                        }
                     ],
                     tags: ["Kanban", "Agile", "Java", "DevOps"]
                 },
@@ -692,7 +692,7 @@ var data = {
                     websites: [
                         { title: "AgileIT", href: "http://www.agileit.fr" },
                         { title: "Lean Kanban France", href: "http://www.leankanban.fr"},
-                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"},
+                        { title: "Codeurs En Seine", href: "http://www.codeursenseine.com"}
                     ],
                     twitter: "glours",
                     contact: "g [dot] lours [at] gmail.com",
@@ -1395,7 +1395,7 @@ var data = {
                     bio: "Développeur et agiliste - Indépendant",
                     picture: "img/baggers/photo_xavier.jpg",
                     websites: [
-                        { title: "Blog", href: "http://xnopre.blogspot.fr/" },
+                        { title: "Blog", href: "http://xnopre.blogspot.fr/" }
                     ],
                     twitter: "xnopre",
                     contact: "xnopre [at] gmail.com",
@@ -1433,7 +1433,7 @@ var data = {
                     bio: "CI addict, agiliste - PersistentSAS",
                     picture: "img/baggers/photo_LaurentTardif.jpg",
                     websites: [
-                        { title: "Blog", href: "http://ouelcum.wordpress.com/" },
+                        { title: "Blog", href: "http://ouelcum.wordpress.com/" }
                     ],
                     twitter: "ouelcum",
                     contact: "laurent.tardif [at] persistentsas.com",
@@ -1493,7 +1493,7 @@ var data = {
                         }
                     ],
                     tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Lean Startup", "Business Model Canvas", "Recrutement", "Formation"]
-                },
+                }
             ]
         }
     ]

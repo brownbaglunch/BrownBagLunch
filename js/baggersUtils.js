@@ -23,7 +23,7 @@ $(document).ready(function () {
             title: ville['name'],
             click: action
         });
-    };
+    }
 });
 
 function addPaireImpaire(){
@@ -38,4 +38,4 @@ function addPaireImpaire(){
             }
         }
     }
-};
+}
