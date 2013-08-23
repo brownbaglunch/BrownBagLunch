@@ -22,12 +22,37 @@
             <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
             <link rel="stylesheet" media="screen" href="css/font-awesome.min.css"/>
             <link rel="stylesheet" media="screen" href="css/style.css"/>
-            <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+            <link rel="stylesheet" media="screen" href="css/rslides.css"/>
+
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
             <script src="js/bootstrap-dropdown.js" type="text/javascript"></script>
+
+            <script src="js/responsiveslides.min.js" type="text/javascript"></script>
 			
             <script type="text/javascript">
                 $(document).ready(function() {
                     $('.dropdown-toggle').dropdown();
+
+                    //Launch the carousel :
+                    $(".rslides").responsiveSlides({
+                        auto: true,             // Boolean: Animate automatically, true or false
+                        speed: 500,            // Integer: Speed of the transition, in milliseconds
+                        timeout: 3000,          // Integer: Time between slide transitions, in milliseconds
+                        pager: false,           // Boolean: Show pager, true or false
+                        nav: true,             // Boolean: Show navigation, true or false
+                        random: false,          // Boolean: Randomize the order of the slides, true or false
+                        pause: false,           // Boolean: Pause on hover, true or false
+                        pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                        prevText: "<i class=\"icon-chevron-left\"></i>",   // String: Text for the "previous" button
+                        nextText: "<i class=\"icon-chevron-right\"></i>",       // String: Text for the "next" button
+                        maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                        navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                        manualControls: "",     // Selector: Declare custom pager navigation
+                        namespace: "rslides",   // String: Change the default namespace used
+                        before: function(){},   // Function: Before callback
+                        after: function(){}     // Function: After callback
+                    });
                 });
             </script>
         </head>
@@ -56,8 +81,14 @@
                                 <a href="baggers.html" style="margin-bottom: 20px;" class="btn btn-warning btn-xlarge"><i class="icon-search"></i> Trouver un expert à inviter</a>&nbsp;
                             </div> 		
 
-                            <div class="span5">	
-                                <img src="images/BBL/DavidGageotBBL.jpg" class="screengrab"  height="300px" alt="Screenshot">
+                            <div class="span5">
+                                <ul class="rslides">
+                                    <li><img src="images/past-bbls/2013-03-15%2012.17.58.jpg" alt=""></li>
+                                    <li><img src="images/past-bbls/2013-03-24%2000.14.32.jpg" alt=""></li>
+                                    <li><img src="images/past-bbls/2013-03-24%2000.14.47.jpg" alt=""></li>
+                                </ul>
+
+                                <!-- <img src="images/BBL/DavidGageotBBL.jpg" class="screengrab"  height="300px" alt="Screenshot"> -->
                             </div>
                         </div>
                     </div>
