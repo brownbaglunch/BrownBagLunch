@@ -42,18 +42,14 @@ function startGoogleAnalytics() {
 }
 
 function shuffleAndAlternateBaggers(villesAndBaggers){
-     for (var villeIndex = 0; villeIndex < villesAndBaggers['villes'].length; villeIndex++) {
-        var ville = villesAndBaggers['villes'][villeIndex];
-        var baggers = ville['baggers'];
+     _(villesAndBaggers.villes).map(function(ville){
+         ville.baggers = _.shuffle(ville.baggers);
 
-        var randomizedBaggers = _.shuffle(baggers);
-        ville.baggers = randomizedBaggers;
-
-         for (var baggerIndex = 0; baggerIndex < randomizedBaggers.length; baggerIndex++) {
-            var bagger = randomizedBaggers[baggerIndex];
-            bagger['paire'] = (baggerIndex % 2 == 1);
-            // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
-            bagger['baggerId'] = bagger.name.replace(/ /g, '_');
-        }
-    }
+         for (var baggerIndex = 0; baggerIndex < ville.baggers.length; baggerIndex++) {
+             var bagger = ville.baggers[baggerIndex];
+             bagger['paire'] = (baggerIndex % 2 == 1);
+             // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
+             bagger['baggerId'] = bagger.name.replace(/ /g, '_');
+         }
+     })
 }
