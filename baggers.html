@@ -81,6 +81,7 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.min.js"></script>
 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.reveal.js"></script>
 <!--
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.alerts.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.clearing.js"></script>
@@ -91,7 +92,6 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.magellan.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.orbit.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.placeholder.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.reveal.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.section.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.tooltips.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.topbar.js"></script>
@@ -123,6 +123,10 @@
                 $('.invite-me').click(function(e){
                     e.preventDefault();
                     $(this).parent().find('.contact-me').fadeIn();
+
+                    $('#myModal').foundation('reveal', 'open');
+                    $('#myModal').find('#contact-modal').html($(this).parent().find('.contact-me').html());
+
                     $(this).remove();
                 });
             });
@@ -207,5 +211,11 @@
             {{/villes}}
         </script>
 
+        <div id="myModal" class="reveal-modal">
+            <h2>Contactez moi :</h2>
+            <p class="lead">Vous voulez plus d'information sur une session ou vous voulez que l'on définisse une date?</p>
+            <p id="contact-modal"></p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
     </body>
 </html>
