@@ -41,16 +41,19 @@ function startGoogleAnalytics() {
     })();
 }
 
-function addPaireImpaire(){
-     for (var villeIndex = 0; villeIndex < data['villes'].length; villeIndex++) {
-        var baggers = data['villes'][villeIndex]['baggers'];
-        if (baggers !== undefined) {
-            for (var baggerIndex = 0; baggerIndex < baggers.length; baggerIndex++) {
-                var bagger = baggers[baggerIndex];
-                bagger['paire'] = (baggerIndex % 2 == 1);
-                // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
-                bagger['baggerId'] = bagger.name.replace(/ /g, '_');
-            }
+function shuffleAndAlternateBaggers(villesAndBaggers){
+     for (var villeIndex = 0; villeIndex < villesAndBaggers['villes'].length; villeIndex++) {
+        var ville = villesAndBaggers['villes'][villeIndex];
+        var baggers = ville['baggers'];
+
+        var randomizedBaggers = _.shuffle(baggers);
+        ville.baggers = randomizedBaggers;
+
+         for (var baggerIndex = 0; baggerIndex < randomizedBaggers.length; baggerIndex++) {
+            var bagger = randomizedBaggers[baggerIndex];
+            bagger['paire'] = (baggerIndex % 2 == 1);
+            // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
+            bagger['baggerId'] = bagger.name.replace(/ /g, '_');
         }
     }
 }
