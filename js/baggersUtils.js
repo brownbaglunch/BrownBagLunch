@@ -53,3 +53,22 @@ function shuffleAndAlternateBaggers(villesAndBaggers){
          }
      })
 }
+
+function hideOrDisplayBaggers() {
+    $('.ville-img').click(function (e) {
+        e.preventDefault();
+        $(this).closest('.ville').find('.baggers').fadeToggle();
+    });
+}
+
+function displayContactModalWindow() {
+    $('.invite-me').click(function (e) {
+        e.preventDefault();
+        $(this).parent().find('.contact-me').fadeIn();
+
+        $('#contactModal').foundation('reveal', 'open');
+        $('#contactModal').find('#contact-modal').html($(this).parent().find('.contact-me').html());
+
+        $(this).remove();
+    });
+}

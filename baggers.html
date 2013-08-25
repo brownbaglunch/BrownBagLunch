@@ -120,15 +120,9 @@
 
                 startGoogleAnalytics();
 
-                $('.invite-me').click(function(e){
-                    e.preventDefault();
-                    $(this).parent().find('.contact-me').fadeIn();
+                displayContactModalWindow();
 
-                    $('#myModal').foundation('reveal', 'open');
-                    $('#myModal').find('#contact-modal').html($(this).parent().find('.contact-me').html());
-
-                    $(this).remove();
-                });
+                hideOrDisplayBaggers();
             });
         </script>
 
@@ -147,71 +141,76 @@
 
         <script id="template-bagger-details" type="text/template">
             {{#villes}}
-                <div class="row" id="{{name}}">
-                    <div class="small-12 large-12 columns">
-                        <img width="700" height="280" src="{{ville_img}}">
-                        <a href="#map"><i class="icon-globe"></i> Revenir à la carte</a>
-                        <hr>
-                        {{message}}
+                <div class="ville">
+
+                    <div class="row" id="{{name}}">
+                        <div class="small-12 large-12 columns">
+                            <a href="#" class="ville-img"><img width="700" height="280" src="{{ville_img}}"></a>
+                            <a href="#map"><i class="icon-globe"></i> Revenir à la carte</a>
+                            <hr>
+                            {{message}}
+                        </div>
                     </div>
-                </div>
 
-                {{#baggers}}
-                    <div id="{{baggerId}}" class="row">
-                        {{^paire}}
-                            <div class="small-4 large-4 columns">
-                                <img src="{{picture}}">
-                            </div>
-                        {{/paire}}
-                        <div class="small-8 large-8 columns">
-                            <div class="panel {{#paire}}callout{{/paire}} radius">
-                                <h4>{{name}}</h4>
+                    <div class="baggers">
+                    {{#baggers}}
+                        <div id="{{baggerId}}" class="row">
+                            {{^paire}}
+                                <div class="small-4 large-4 columns">
+                                    <img src="{{picture}}">
+                                </div>
+                            {{/paire}}
+                            <div class="small-8 large-8 columns">
+                                <div class="panel {{#paire}}callout{{/paire}} radius">
+                                    <h4>{{name}}</h4>
 
-                                <div class="row">
+                                    <div class="row">
 
-                                    <div id="bagger-detail" class="small-6 large-6 columns">
-                                        <p>{{{bio}}}</p>
+                                        <div id="bagger-detail" class="small-6 large-6 columns">
+                                            <p>{{{bio}}}</p>
 
-                                        {{#websites}}
-                                            <p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
-                                        {{/websites}}
+                                            {{#websites}}
+                                                <p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
+                                            {{/websites}}
 
-                                        {{#twitter}}
-                                            <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
-                                        {{/twitter}}
+                                            {{#twitter}}
+                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                            {{/twitter}}
 
-                                        <p class="contact-me"><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
-                                        <p class="invite-me"><a href="#" class="button success round"><i class="icon-food"></i> Invitez moi chez vous!</a></p>
-                                    </div>
+                                            <p class="contact-me"><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
+                                            <p class="invite-me"><a href="#" class="button success round"><i class="icon-food"></i> Invitez moi chez vous!</a></p>
+                                        </div>
 
-                                    <div class="small-6 large-6 columns">
-                                        <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
-                                        <ul class="icons">
-                                            {{#sessions}}
-                                                <li>
-                                                    <p><i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
-                                                    {{{summary}}}</p>
-                                                </li>
-                                            {{/sessions}}
-                                        </ul>
-                                        <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
-                                        <p><i class="icon-globe"></i> {{location}}</p>
+                                        <div class="small-6 large-6 columns">
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
+                                            <ul class="icons">
+                                                {{#sessions}}
+                                                    <li>
+                                                        <p><i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
+                                                        {{{summary}}}</p>
+                                                    </li>
+                                                {{/sessions}}
+                                            </ul>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+                                            <p><i class="icon-globe"></i> {{location}}</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {{#paire}}
+                                <div class="small-4 large-4 columns">
+                                    <img src="{{picture}}">
+                                </div>
+                            {{/paire}}
                         </div>
-                        {{#paire}}
-                            <div class="small-4 large-4 columns">
-                                <img src="{{picture}}">
-                            </div>
-                        {{/paire}}
+                    {{/baggers}}
+                    <hr>
                     </div>
-                {{/baggers}}
-                <hr>
+                </div>
             {{/villes}}
         </script>
 
-        <div id="myModal" class="reveal-modal">
+        <div id="contactModal" class="reveal-modal">
             <h2>Contactez moi :</h2>
             <p class="lead">Vous voulez plus d'information sur une session ou vous voulez que l'on définisse une date?</p>
             <p id="contact-modal"></p>
