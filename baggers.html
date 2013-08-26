@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +14,10 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
+		<![endif]-->
+		
         <style type="text/css">
             .contact-me {
                 display: none;
@@ -19,7 +26,7 @@
             /* Seems a bug in foundation 4 : */
             .panel.callout a{
                 color:#fff;
-            }
+            }						
         </style>
 
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
