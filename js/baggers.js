@@ -916,7 +916,7 @@ var data = {
         },
         {
             name: "Rennes",
-            ville_img: "img/villes/BBL_BZH.png",
+            ville_img: "img/villes/BBL_BZH.jpg",
             lat:48.0686257,
             lng: -1.7253652,
 
