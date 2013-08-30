@@ -19,3 +19,8 @@ Liens :
 
 * **Homepage du BrownBagLunch FR** : <http://www.brownbaglunch.fr/>
 * **La liste des baggers** : <http://www.brownbaglunch.fr/baggers>
+
+Projet lié :
+-------------
+
+* BrownBagLunch-backed : <https://github.com/nrichand/BrownBagLunch-backend>
