@@ -7,7 +7,7 @@ var data = {
             lng: 2.352222,
 
             baggers: [
-            	 {
+                {
                     name: "Serge Stinckwich",
                     bio: "Enseignant-chercheur, développeur",
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/011/381/16fa99c.jpg",
@@ -40,12 +40,12 @@ var data = {
                         {
                             title: "A Web Framework in Scala from Scratch in One Hour",
                             summary: "(live coding - en/fr) Discover Scala through the development of an efficient small tested Web framework."
-                        }
-                        , {
+                        },
+                        {
                             title: "Kata : un type Option en Java",
                             summary: "(live coding) Tests unitaires et refactoring pour un type Option en Java"
-                        }
-                        , {
+                        },
+                        {
                             title: "Une alternative à AOP ?",
                             summary: "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
                         }
@@ -63,15 +63,15 @@ var data = {
                     contact: "nrichand@brownbaglunch.fr",
                     location: "La Défense et alentours uniquement",
                     sessions: [
-						{
+                        {
                             title: "Parlons d'agilité",
                             summary: "Vous êtes en train de vous intéresser à l'agilité et vous souhaitez échanger sur le sujet? Je vous propose un mix de retour d'expérience et de discussion pour que vous puissiez bien comprendre les enjeux, l'intérêt mais également les prérequis."
                         },
-						{
+                        {
                             title: "Agilité, un pas plus loin",
                             summary: "Vous avez mis en place Scrum ou Kanban (ou un mix maison) sur votre projet et vous commencer à stagner. Discutons ensemble des opportunités pour aller plus loin et franchir un nouveau cap pour sortir des produits d'exception!"
                         },
-						{
+                        {
                             title: "Dojo tests unitaires et TDD",
                             summary: "Je vous propose un Dojo pour mettre en pratique des tests unitaires en Java. Je compte sur vous pour m'aider à rajouter des tests sur une application existante et qui en a bien besoin! Buzzword à découvrir : test unitaire, fest assert, mockito, TDD, pair programming, pair hero, clean test, ..."
                         },
@@ -100,14 +100,14 @@ var data = {
                         {
                             title: "Agile, qu'est ce que c'est?",
                             summary: "Présentation de l'agilité pour répondre à toutes vos interrogations"
-                        }
-                        , {
+                        },
+                        {
                             title: "Kanban et le management visuel",
                             summary: "Comment mettre en place du management visuel et Pourquoi? Une présentation des règles de base et des principes avec beaucoup d’images"
-                        }
-                        , {
-                        	title: "Penser un produit en mode Agile",
-                        	summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
+                        },
+                        {
+                            title: "Penser un produit en mode Agile",
+                            summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
                         }
                     ],
                     tags: ["Agile", "Lean Startup", "Kanban"]
@@ -329,8 +329,8 @@ var data = {
                             summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
                         },
                         {
-		                	title: "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
-                			summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
+                            title: "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
+                            summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
                         }
                     ],
                     tags: ["JavaScript", "Usine logicielle"]
@@ -540,22 +540,22 @@ var data = {
                     contact: "vhe@affini-tech.com",
                     location: "Paris + Banlieue ouest",
                     sessions: [
-                      {
-                        title: "Hadoop et son écosystème",
-                        summary: "Comprendre le fonctionnement d'Hadoop et de son écosystème, exemple simple de job Map/Reduce à l'appui"
-                      },
-                      {
-                        title: "Hadoop Pig",
-                        summary: "Utiliser Pig pour construire des traitements sur Hadoop. Une alternative à Map/Reduce Java beaucoup plus simple et productive."
-                      },
-                      {
-                        title: "Développement Hadoop avec Scalding",
-                        summary: "Utiliser la bibliothèque Cascading avec Scala pour construire des jobs Map/Reduce avec toutes les capacités propres à Scala."
-                      },
-                      {
-                        title: "Bases de données NOSQL",
-                        summary: "Comprendre les différences entre Redis, Cassandra, HBase et MongoDB. Quelle base pour quel usage ?"
-                      }
+                        {
+                            title: "Hadoop et son écosystème",
+                            summary: "Comprendre le fonctionnement d'Hadoop et de son écosystème, exemple simple de job Map/Reduce à l'appui"
+                        },
+                        {
+                            title: "Hadoop Pig",
+                            summary: "Utiliser Pig pour construire des traitements sur Hadoop. Une alternative à Map/Reduce Java beaucoup plus simple et productive."
+                        },
+                        {
+                            title: "Développement Hadoop avec Scalding",
+                            summary: "Utiliser la bibliothèque Cascading avec Scala pour construire des jobs Map/Reduce avec toutes les capacités propres à Scala."
+                        },
+                        {
+                            title: "Bases de données NOSQL",
+                            summary: "Comprendre les différences entre Redis, Cassandra, HBase et MongoDB. Quelle base pour quel usage ?"
+                        }
                     ],
                     tags: ["Hadoop", "NoSQL"]
                 },
@@ -608,7 +608,7 @@ var data = {
                     ],
                     tags: ["Java", "Code"]
                 },
-  		        {
+                {
                     name: "Guillaume Tardif",
                     bio: "Consultant Java",
                     picture: "img/baggers/photo_guillaume.jpg",
@@ -639,20 +639,20 @@ var data = {
                     location: "Paris, La Défense et à proximité",
                     sessions: [
                         {
-                           title: "DDD Games",
-                           summary: "Découvrez quelques points essentiels de Domain-Driven Design par la pratique sous forme de petits jeux sur papier."
+                            title: "DDD Games",
+                            summary: "Découvrez quelques points essentiels de Domain-Driven Design par la pratique sous forme de petits jeux sur papier."
                         },
                         {
-                           title: "Legacy Code : faire évoluer ou ré-écrire ?",
-                           summary: "Comment livrer des fonctionnalités ambitieuses malgré le code existant sans aucun test ? Visite guidée au travers de retours d'expérience."
+                            title: "Legacy Code : faire évoluer ou ré-écrire ?",
+                            summary: "Comment livrer des fonctionnalités ambitieuses malgré le code existant sans aucun test ? Visite guidée au travers de retours d'expérience."
                         },
                         {
-			   title: "Domain-Driven Design dans un contexte legacy",
-                	   summary: "Un tour d'horizon d'aspects importants de DDD sous la forme d'un retour d'expérience dans le domaine de la finance"
+                            title: "Domain-Driven Design dans un contexte legacy",
+                            summary: "Un tour d'horizon d'aspects importants de DDD sous la forme d'un retour d'expérience dans le domaine de la finance"
                         },
                         {
-                           title: "Votre sujet sur-mesure",
-                           summary: "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
+                            title: "Votre sujet sur-mesure",
+                            summary: "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
                         }
                     ],
                     tags: ["DDD", "BDD", "TDD", "Legacy Code", "FP-Style", "Clean Code", "Test"]
@@ -671,16 +671,16 @@ var data = {
                     location: "Paris, Défense, (Rouen)",
                     sessions: [
                         {
-                           title: "Kanban pour les nuls",
-                           summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
+                            title: "Kanban pour les nuls",
+                            summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
                         },
                         {
-                           title: "Miss i18n, Mr APT loves you !",
-                           summary: "Découvrez le processing d'annotation et une façon moderne de localiser une application java via @Message"
+                            title: "Miss i18n, Mr APT loves you !",
+                            summary: "Découvrez le processing d'annotation et une façon moderne de localiser une application java via @Message"
                         },
                         {
-                           title: "Mercenaire Devops replay !",
-                           summary: "Un condensé de la présentation Devops Mercenaries faite à Devoxx, déploiement continu avec tests gatling, thucydides, ... work in progress"
+                            title: "Mercenaire Devops replay !",
+                            summary: "Un condensé de la présentation Devops Mercenaries faite à Devoxx, déploiement continu avec tests gatling, thucydides, ... work in progress"
                         }
                     ],
                     tags: ["Kanban", "Agile", "Java", "DevOps"]
@@ -699,12 +699,12 @@ var data = {
                     location: "Paris, Défense, Rouen",
                     sessions: [
                         {
-                           title: "Kanban pour les nuls",
-                           summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
+                            title: "Kanban pour les nuls",
+                            summary: "Découvrez Kanban et quelques principes fondamentaux du développement en flux tiré."
                         },
                         {
-                           title: "Personal Kanban, retrouvez votre efficacité",
-                           summary: "Découvrez une technique de gestion de travail personnel basée sur du management visuel et la limite du travail en cours"
+                            title: "Personal Kanban, retrouvez votre efficacité",
+                            summary: "Découvrez une technique de gestion de travail personnel basée sur du management visuel et la limite du travail en cours"
                         }
                     ],
                     tags: ["Kanban", "Agile", "Java", "Personal Kanban"]
@@ -724,20 +724,20 @@ var data = {
                         {
                             title: "Nouveautés Java EE",
                             summary: "Slides, code et discussion autour des nouveautés Java EE 7 et Java EE 6."
-                        }
-                        , {
+                        },
+                        {
                             title: "Migrer vos vielles applications",
                             summary: "Vous faites du J2EE 1.4 ou du Spring et vous voulez migrer tout ou partie de vos applications, discutons-en."
-                        }
-                        , {
+                        },
+                        {
                             title: "CDI",
                             summary: "Découvrez comment faire de l'injection, de l'interception, de la décoration ou de l'évenementiel avec Java EE"
-                        }
-                        , {
+                        },
+                        {
                             title: "Arquillian",
                             summary: "Vous connaissez les tests unitaires et les Mocks, découvrez Arquillian pour les tests d'intégration in-container."
-                        }
-                        , {
+                        },
+                        {
                             title: "Une application Java EE 6 en moins d’une heure",
                             summary: "Live coding d'une application web avec JBoss Forge, Aquillian, DeltaSpike et déployée dans JBoss, GlassFish et TomEE."
                         }
@@ -861,7 +861,7 @@ var data = {
                     ],
                     tags: ["Agile", "Code", "Legacy", "TDD", "Test", "Clean Code", "Craftsmanship"]
                 },
-				{
+                {
                     name: "Fabrice Bournisien",
                     bio: "Responsable qualité web, spécialiste de l'automatisation de tests fonctionnels.",
                     picture: "https://si0.twimg.com/profile_images/1979322615/avatar.png",
@@ -917,7 +917,7 @@ var data = {
         {
             name: "Rennes",
             ville_img: "img/villes/BBL_BZH.jpg",
-            lat:48.0686257,
+            lat: 48.0686257,
             lng: -1.7253652,
 
             baggers: [
@@ -973,7 +973,7 @@ var data = {
                     ],
                     tags: ["Agile", "Coaching"]
                 }
-             ]
+            ]
         },
         {
             name: "Nantes",
@@ -1114,7 +1114,7 @@ var data = {
         {
             name: "Lille",
             ville_img: "img/villes/BBL_Lille.jpg",
-            lat:50.637222,
+            lat: 50.637222,
             lng: 3.063333,
             baggers: [
                 {
@@ -1154,10 +1154,10 @@ var data = {
                 }
             ]
         },
-    	{
+        {
             name: "Lyon",
             ville_img: "img/villes/BBL_Lyon.jpg",
-            lat:45.764043,
+            lat: 45.764043,
             lng: 4.835659,
             baggers: [
                 {
@@ -1167,9 +1167,9 @@ var data = {
                     websites: [
                         { title: "Blog perso", href: "http://hakanai.free.fr/" },
                         { title: "Localizeyourapps (fondateur)", href: "http://www.localizeyourapps.com/" },
-						{ title: "Hopwork (co-fondateur)", href: "http://www.hopwork.com/" },
-						{ title: "Lateral-Thoughts (co-fondateur)", href: "http://www.lateral-thoughts.com/" },
-						{ title: "Blog sur developpez.com", href: "http://hugo.developpez.com" }
+                        { title: "Hopwork (co-fondateur)", href: "http://www.hopwork.com/" },
+                        { title: "Lateral-Thoughts (co-fondateur)", href: "http://www.lateral-thoughts.com/" },
+                        { title: "Blog sur developpez.com", href: "http://hugo.developpez.com" }
                     ],
                     twitter: "hugolassiege",
                     contact: "hlassiege+bbl@gmail.com",
@@ -1220,7 +1220,7 @@ var data = {
                             summary: "Les lambdas sont la fonctionnalité majeure de Java 8! Si vous voulez découvrir la programmation fonctionnelle, les nouvelles fonctions utilisables sur les collections et l'impact sur votre code de demain, ce talk est fait pour vous!"
                         },
                         {
-                          title: "AngularJS - le framework javascript de demain",
+                            title: "AngularJS - le framework javascript de demain",
                             summary: "Une plongée en douceur dans ce framework développé par Google et qui pourrait devenir le standard de demain."
                         },
                         {
@@ -1292,26 +1292,25 @@ var data = {
                             title: "Boite à outil du développeur agile",
                             summary: "L'agilité prône un certain nombre de pratiques comme le pair programming, la revue de code et l'intégration continue. Je vous propose un tour d'horizon d'outils permettant de faciliter ces pratiques."
                         },
-			            {
+                        {
                             title: "Introduction à Gradle",
                             summary: "Maven a amené énormément de bonnes idées pour créer son build, Gradle capitalise sur ces pratiques pour offrir une alternative à Maven. Dans cette session pas de Maven Bashing mais une introduction à l'utilisation de Gradle au quotidien."
                         }
 
                     ],
-                    tags: ["Jenkins","Sonar","Gerrit","Git","Bash","RPM","Gradle"]
+                    tags: ["Jenkins", "Sonar", "Gerrit", "Git", "Bash", "RPM", "Gradle"]
                 },
                 {
                     name: "Emilien Pecoul",
                     bio: "Développeur indépendant, évangéliste agile, développement Microsoft",
                     picture: "http://www.gravatar.com/avatar/bc755dea1b42a84ba7b3d833097e4439.png?size=250",
                     websites: [
-                      { title: "Blog perso", href: "http://ouarzy.blog4ever.com/" }
+                        { title: "Blog perso", href: "http://ouarzy.blog4ever.com/" }
                     ],
                     twitter: "Ouarzy",
                     contact: "ouarzy@free.fr",
                     location: "Lyon",
-                    sessions:
-                    [
+                    sessions: [
                         {
                             title: "TDD by example",
                             summary: "Introduction concrète au Test Driven Development, selon le livre de Kent Beck, adapté aux technos Microsoft (Méthodes, Utilisation de MSTests ou Nunit)"
@@ -1343,52 +1342,64 @@ var data = {
             lat: 47.658236,
             lng: -2.760847,
 
-            baggers: [{
-                name: "Christophe Keromen",
-                bio: "Facilitateur et accompagnateur agile et lean, co-organisateur Agile Tour Vannes",
-                picture: "http://www.gravatar.com/avatar/2898ad2474ba25b87a9326585d3a234e.png",
-                websites: [{
-                    title: "Blog",
-                    href: "http://ckti.wordpress.com/"
-                },{
-                    title: "LinkedIn",
-                    href: "http://fr.linkedin.com/in/christophekeromen/"
-                }],
-                twitter: "ckeromen",
-                contact: "ckeromen@ckti.com",
-                location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
-                sessions: [{
-                    title: "Agilité à la carte",
-                    summary: "Vous vous posez des questions sur un sujet lié à l'agilité ? Contactez-moi, on en parle ensemble pendant 1h"
-                }, {
-                    title: "Présentation de l'agilité",
-                    summary: "Que représente l'agilité en 2013 ? Quelles tendances ? Quels écueils pour quelles réussites ?."
-                }, {
-                    title: "Agilité hors de l'IT",
-                    summary: "Présentation de l'agilité pour les non-informaticiens. Pourquoi s'y intéresser ? Quels bénéfices en attendre ? Comment s'y prendre ?"
-                }, {
-                    title: "Des jeux pour apprendre, innover et s'améliorer",
-                    summary: "Serious Games, Innovation Games, Agile Games. Comment ça se passe ? Ça sert à quoi ? Quand les utiliser ?"
-                }, {
-                    title: "Manager agile",
-                    summary: "Quelles relations avec l'équipe ? Pourquoi changer ? Quelles pratiques ? Quel positionnement ?"
-                }, {
-                    title: "Kanban",
-                    summary: "Au-delà de la représentation visuelle. Quels concepts ? Comment le mettre en oeuvre ?Comment le coupler à Scrum?"
-                }, {
-                    title: "Product Owner",
-                    summary: "Quelles sont les reponsabilités du responsable produit agile ? Comment estimer, planifier ?"
-                }
+            baggers: [
+                {
+                    name: "Christophe Keromen",
+                    bio: "Facilitateur et accompagnateur agile et lean, co-organisateur Agile Tour Vannes",
+                    picture: "http://www.gravatar.com/avatar/2898ad2474ba25b87a9326585d3a234e.png",
+                    websites: [
+                        {
+                            title: "Blog",
+                            href: "http://ckti.wordpress.com/"
+                        },
+                        {
+                            title: "LinkedIn",
+                            href: "http://fr.linkedin.com/in/christophekeromen/"
+                        }
+                    ],
+                    twitter: "ckeromen",
+                    contact: "ckeromen@ckti.com",
+                    location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
+                    sessions: [
+                        {
+                            title: "Agilité à la carte",
+                            summary: "Vous vous posez des questions sur un sujet lié à l'agilité ? Contactez-moi, on en parle ensemble pendant 1h"
+                        },
+                        {
+                            title: "Présentation de l'agilité",
+                            summary: "Que représente l'agilité en 2013 ? Quelles tendances ? Quels écueils pour quelles réussites ?."
+                        },
+                        {
+                            title: "Agilité hors de l'IT",
+                            summary: "Présentation de l'agilité pour les non-informaticiens. Pourquoi s'y intéresser ? Quels bénéfices en attendre ? Comment s'y prendre ?"
+                        },
+                        {
+                            title: "Des jeux pour apprendre, innover et s'améliorer",
+                            summary: "Serious Games, Innovation Games, Agile Games. Comment ça se passe ? Ça sert à quoi ? Quand les utiliser ?"
+                        },
+                        {
+                            title: "Manager agile",
+                            summary: "Quelles relations avec l'équipe ? Pourquoi changer ? Quelles pratiques ? Quel positionnement ?"
+                        },
+                        {
+                            title: "Kanban",
+                            summary: "Au-delà de la représentation visuelle. Quels concepts ? Comment le mettre en oeuvre ?Comment le coupler à Scrum?"
+                        },
+                        {
+                            title: "Product Owner",
+                            summary: "Quelles sont les reponsabilités du responsable produit agile ? Comment estimer, planifier ?"
+                        }
 
-                ],
-                tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
-            }]
+                    ],
+                    tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
+                }
+            ]
         },
-    	{
+        {
             name: "Grenoble",
             ville_img: "img/villes/BBL_Grenoble.jpg",
-            lat:45.183,
-            lng:5.717,
+            lat: 45.183,
+            lng: 5.717,
             baggers: [
                 {
                     name: "Xavier NOPRE",
@@ -1428,7 +1439,7 @@ var data = {
                     ],
                     tags: ["Java", "Web", "JavaScript", "Play", "Agile", "Scrum", "Ingénierie agile", "Test", "Tests unitaires", "TDD", "Usine logicielle", "Industrialisation" ]
                 },
-				{
+                {
                     name: "Laurent TARDIF",
                     bio: "CI addict, agiliste - PersistentSAS",
                     picture: "img/baggers/photo_LaurentTardif.jpg",
