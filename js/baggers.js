@@ -1338,7 +1338,7 @@ var data = {
         },
         {
             name: "Vannes",
-            ville_img: "img/villes/BBL_BZH.png",
+            ville_img: "img/villes/BBL_BZH.jpg",
             lat: 47.658236,
             lng: -2.760847,
 
