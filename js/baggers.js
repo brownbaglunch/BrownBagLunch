@@ -78,7 +78,7 @@ var data = {
                         {
                             title: "Plus de fun et de diversité dans vos rétrospectives",
                             summary: "Discussion sur comment bien animer une rétrospective et présentation de nombreux formats."
-                        },n
+                        },
                         {
                             title: "Introduction au Lean Startup",
                             summary: "Présentation des concepts et de quelques outils phares du Lean Startup."
@@ -1558,7 +1558,7 @@ var data = {
                         },
                     ],
                     tags: ["PHP", "NodeJS", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Qualité", "Méthodes", "Fun"]
-                },
+                }
             ]
         }
     ]
