@@ -1108,6 +1108,60 @@ var data = {
                         }
                     ],
                     tags: ["Groovy", "Gradle", "Grails", "JVM", "Spock", "Test"]
+                },
+                {
+                    name: "Ronan Guilloux",
+                    lat: 47.219102,
+                    lng: -1.551132,
+                    bio: "Développeur, directeur technique en agence web, hacker souriant & enthousiaste",
+                    picture: "http://projects.ez.no/var/plain_site/storage/images/ezmailhide/team/leaders/ronan_guilloux/89962-3-eng-GB/ronan_guilloux_large.jpg",
+                    websites: [
+                        {title: "Linkedin", href: "http://fr.linkedin.com/in/ronanguilloux"},
+                        {title: "Github", href: "https://github.com/ronanguilloux"},
+                        {title: "Blog", href: "http://arnolog.net/"}
+                    ],
+                    twitter: "arno_u_loginlux",
+                    contact: "prenom.nom@gmail.com",
+                    location: "Nantes",
+                    sessions: [
+                        {
+                            title: "Construire un environnement de développement en agence web",
+                            summary: "Présentation de quelques outils éprouvés pour améliorer la production en agence web : LAMP, GIT, Bitbucket, Redmine, vagrant et un peu de vim"
+                        },
+                        {
+                            title: "Dans mon équipe, on est à l'aise avec Gnu/Linux!",
+                            summary: "Découvrir l'environnement Gnu/Linux du point de vue du développeut web : travailler sous Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source"
+                        },
+                        {
+                            title: "Git, notre nouvel outil pour versionner et partager le code",
+                            summary: "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, les concepts principaux et l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
+                        },
+                        {
+                            title: "VIM, mon éditeur de texte, mon couteau suisse, et mon environnement de développement",
+                            summary: "Présentation de VIM, du point de vue du développeur LAMP : Les bases, la configuration simple, les plug-ins les plus utiles, l'interaction avec GIT"
+                        },
+                        {
+                            title: "Quelques bons outils pour la qualité du code PHP",
+                            summary: "phpunit, phploc, phpmd, phpcpd, pdepend, php-cs-fixer. Rendre la qualité factuelle, insérer des tests unitaires et maîtriser la non-régression, améliorer l'état d'un projet, se donner des objectifs et des guides pour progresser, mesurer la qualité du code et la démontrer."
+                        },
+                        {
+                            title: "En équipe, organiser et partager sa veille technologique",
+                            summary: "La veille techno n'est ni une activité passive ni une activité solitaire. Comment inciter une équipe à développer sa veille techno, comment la partager, comment la valoriser dans la communication de l'entreprise. Des méthodes, des outils, et du fun."
+                        },
+                        {
+                            title: "Organiser la production et le travail d'une équipe avec Redmine",
+                            summary: "Installer et configurer Redmine ; gérer les projets, les spécifications, le chiffrage, les demandes de debug et d'évolution, et intégrer le client à l'équipe projet"
+                        },
+                        {
+                            title: "MongoDB pour le web",
+                            summary: "Changer ses habitudes et expérimenter le NOSQL avec MongoDB. Dé-normaliser ses données, importer, exporter, administrer MongoDB. Découvrir les outils en ligne de commande et les interfaces graphiques. Exemples pratiques avec PHP ou NodeJS."
+                        },
+                        {
+                            title: "vos premières aventures avec Raspberry Pi ",
+                            summary: "Un atelier pratique, avec plusieurs démos, pour découvrir de manière ludique le Raspberry Pi."
+                        },
+                    ],
+                    tags: ["PHP", "NodeJS", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Qualité", "Méthodes", "Fun"]
                 }
             ]
         },
@@ -1504,61 +1558,7 @@ var data = {
                         }
                     ],
                     tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Lean Startup", "Business Model Canvas", "Recrutement", "Formation"]
-                },
-                {
-                    name: "Ronan Guilloux",
-                    lat: 47.219102,
-                    lng: -1.551132,
-                    bio: "Développeur, directeur technique en agence web, hacker souriant & enthousiaste",
-                    picture: "http://projects.ez.no/var/plain_site/storage/images/ezmailhide/team/leaders/ronan_guilloux/89962-3-eng-GB/ronan_guilloux_large.jpg",
-                    websites: [
-                        {title: "Linkedin", href: "http://fr.linkedin.com/in/ronanguilloux"},
-                        {title: "Github", href: "https://github.com/ronanguilloux"},
-                        {title: "Blog", href: "http://arnolog.net/"}
-                    ],
-                    twitter: "arno_u_loginlux",
-                    contact: "prenom.nom@gmail.com",
-                    location: "Nantes",
-                    sessions: [
-                        {
-                            title: "Construire un environnement de développement en agence web",
-                            summary: "Présentation de quelques outils éprouvés pour améliorer la production en agence web : LAMP, GIT, Bitbucket, Redmine, vagrant et un peu de vim"
-                        },
-                        {
-                            title: "Dans mon équipe, on est à l'aise avec Gnu/Linux!",
-                            summary: "Découvrir l'environnement Gnu/Linux du point de vue du développeut web : travailler sous Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source"
-                        },
-                        {
-                            title: "Git, notre nouvel outil pour versionner et partager le code",
-                            summary: "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, les concepts principaux et l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
-                        },
-                        {
-                            title: "VIM, mon éditeur de texte, mon couteau suisse, et mon environnement de développement",
-                            summary: "Présentation de VIM, du point de vue du développeur LAMP : Les bases, la configuration simple, les plug-ins les plus utiles, l'interaction avec GIT"
-                        },
-                        {
-                            title: "Quelques bons outils pour la qualité du code PHP",
-                            summary: "phpunit, phploc, phpmd, phpcpd, pdepend, php-cs-fixer. Rendre la qualité factuelle, insérer des tests unitaires et maîtriser la non-régression, améliorer l'état d'un projet, se donner des objectifs et des guides pour progresser, mesurer la qualité du code et la démontrer."
-                        },
-                        {
-                            title: "En équipe, organiser et partager sa veille technologique",
-                            summary: "La veille techno n'est ni une activité passive ni une activité solitaire. Comment inciter une équipe à développer sa veille techno, comment la partager, comment la valoriser dans la communication de l'entreprise. Des méthodes, des outils, et du fun."
-                        },
-                        {
-                            title: "Organiser la production et le travail d'une équipe avec Redmine",
-                            summary: "Installer et configurer Redmine ; gérer les projets, les spécifications, le chiffrage, les demandes de debug et d'évolution, et intégrer le client à l'équipe projet"
-                        },
-                        {
-                            title: "MongoDB pour le web",
-                            summary: "Changer ses habitudes et expérimenter le NOSQL avec MongoDB. Dé-normaliser ses données, importer, exporter, administrer MongoDB. Découvrir les outils en ligne de commande et les interfaces graphiques. Exemples pratiques avec PHP ou NodeJS."
-                        },
-                        {
-                            title: "vos premières aventures avec Raspberry Pi ",
-                            summary: "Un atelier pratique, avec plusieurs démos, pour découvrir de manière ludique le Raspberry Pi."
-                        },
-                    ],
-                    tags: ["PHP", "NodeJS", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Qualité", "Méthodes", "Fun"]
-                }
+                }                
             ]
         }
     ]
