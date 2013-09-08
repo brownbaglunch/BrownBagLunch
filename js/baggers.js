@@ -1560,6 +1560,48 @@ var data = {
                     tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Lean Startup", "Business Model Canvas", "Recrutement", "Formation"]
                 }                
             ]
+        }, {
+            name: "Clermont-Ferrand",
+            lat: 45.78333,
+            lng: 3.08333,
+            baggers: [
+                {
+                    name: "Julien Muetton",
+                    bio: "Developeur web passionné, freelance",
+                    picture: "http://clermontech.org/images/speaker-images/themouette.jpeg",
+                    websites: [
+                        {title: "Github", href: "https://github.com/themouette"},
+                        {title: "Clermont'ech", href: "http://clermontech.org"},
+                        {title: "Site perso", href: "http://muetton.me"}
+                    ],
+                    twitter: "themouette",
+                    contact: "julien@muetton.me",
+                    location: "Clermont Ferrand et environs",
+                    sessions: [
+                        {
+                            title: "GIT",
+                            summary: "Une présentation de l'outil et des concepts associés."
+                        },
+                        {
+                            title: "Javascript 101",
+                            summary: "Introduction rapide au javascript. Tout ce qu'il faut pour démarrer dans les meilleurs conditions."
+                        },
+                        {
+                            title: "HTTP and REST",
+                            summary: "Comment développer des api RESTful."
+                        },
+                        {
+                            title: "PHPUnit.",
+                            summary: "Présentation de PHPUnit, les bonnes pratiques du test unitaire en PHP."
+                        },
+                        {
+                            title: "CasperJS",
+                            summary: "CapserJS, ou comment tester efficacement vos interfaces web."
+                        }
+                    ],
+                    tags: ["Javascript", "PHP", "HTTP", "REST", "tests", "GIT"]
+                }
+            ]
         }
     ]
 };
