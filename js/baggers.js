@@ -1624,6 +1624,38 @@ var data = {
                         }
                     ],
                     tags: ["Javascript", "PHP", "HTTP", "REST", "tests", "GIT"]
+                },
+                {
+                    name: "William Durand",
+                    bio: "Software developer, Open Source evangelist.",
+                    picture: "http://fr.gravatar.com/userimage/8198086/417f6125a7549374926e4935f9272ad6.jpg?size=500",
+                    websites: [
+                        {title: "Blog", href: "http://williamdurand.fr"},
+                        {title: "GitHub", href: "https://github.com/willdurand"},
+                        {title: "Clermont'ech", href: "http://clermontech.org"}
+                    ],
+                    twitter: "couac",
+                    contact: "william.durand1+bbl@gmail.com",
+                    location: "Clermont-Fd Area",
+                    sessions: [
+                        {
+                            title: "REST APIs With Symfony2: The Right Way",
+                            summary: "Comment construire une API REST avec le framework PHP Symfony2."
+                        },
+                        {
+                            title: "Git & GitHub",
+                            summary: "Présentation de Git et GitHub."
+                        },
+                        {
+                            title: "Open Source For Dummies",
+                            summary: "Qu'est-ce que l'Open Source ? Comment fait-on pour y participer ? Mais surtout, pourquoi c'est bien pour votre entreprise ?"
+                        },
+                        {
+                            title: "Oriented Object Programming",
+                            summary: "Présentation de divers concepts de programmation orientée objet permettant d'améliorer son code, avec quelques aspects philosophiques tout de même."
+                        }
+                    ],
+                    tags: [ "PHP", "Symfony2", "HTTP", "REST", "Testing", "Git", "Puppet" ]
                 }
             ]
         }
