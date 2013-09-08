@@ -1110,6 +1110,30 @@ var data = {
                     tags: ["Groovy", "Gradle", "Grails", "JVM", "Spock", "Test"]
                 },
                 {
+                    name: "Xavier Seignard",
+                    bio: "Dev JS front et back, bidouilleur",
+                    picture: "http://drangies.fr/assets/images/me.jpg",
+                    websites: [
+                        {title: "Linkedin", href: "http://www.linkedin.com/in/xavierseignard"},
+                        {title: "Github", href: "https://github.com/xseignard"},
+                        {title: "Website", href: "http://drangies.fr/"}
+                    ],
+                    twitter: "xavier_seignard",
+                    contact: "xavier.seignard@gmail.com",
+                    location: "Nantes",
+                    sessions: [
+                        {
+                            title: "Build, intégration continue et qualité pour le javascript",
+                            summary: "Un tour d'horizon des outils de build pour le javascript et leur mise en place: grunt, bower, istanbul, etc., et même des Makefile!"
+                        },
+                        {
+                            title: "Créer un objet connecté",
+                            summary: "Un feu tricolore qui vous donne un feedback sur votre build? Un objet connecté à l'api twitter? Challenge accepted!"
+                        }
+                    ],
+                    tags: ["NodeJS", "Javascript", "Grunt", "Bower", "Arduino", "Raspberry Pi"]
+                },
+                {
                     name: "Ronan Guilloux",
                     lat: 47.219102,
                     lng: -1.551132,
@@ -1558,7 +1582,7 @@ var data = {
                         }
                     ],
                     tags: ["Ruby", "Ruby on Rails", "Entrepreneuriat", "Lean Startup", "Business Model Canvas", "Recrutement", "Formation"]
-                }                
+                }
             ]
         }
     ]
