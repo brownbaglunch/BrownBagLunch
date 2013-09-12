@@ -16,6 +16,7 @@ var data = {
                     ],
                     twitter: "SergeStinckwich",
                     contact: "Serge.Stinckwich@gmail.com",
+                    mail: "Serge.Stinckwich@gmail.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -35,6 +36,7 @@ var data = {
                     ],
                     twitter: "fsarradin",
                     contact: "<a href='http://kerflyn.wordpress.com/2013/02/06/bbl/'>Brown Bag Lunch (BBL)</a>",
+                    mail: "fsarradin@gmail.com",
                     location: "Paris, Ouest parisien (+ Nantes), remote",
                     sessions: [
                         {
@@ -61,6 +63,7 @@ var data = {
                     ],
                     twitter: "nrichand",
                     contact: "nrichand@brownbaglunch.fr",
+                    mail: "nrichand@brownbaglunch.fr",
                     location: "La Défense et alentours uniquement",
                     sessions: [
                         {
@@ -95,6 +98,7 @@ var data = {
                     ],
                     twitter: "benjaminmoitie",
                     contact: "benjamin.moitie@gmail.com",
+                    mail: "benjamin.moitie@gmail.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -123,6 +127,7 @@ var data = {
                     ],
                     twitter: "MatthieuSegret",
                     contact: "matthieu@humancoders.com",
+                    mail: "matthieu@humancoders.com",
                     location: "Paris et environs",
                     sessions: [
                         {
@@ -149,6 +154,7 @@ var data = {
                     ],
                     twitter: "mathildelemee",
                     contact: "prenom.nom@yahoo.fr",
+                    mail: "mathilde.lemee@yahoo.fr",
                     location: "Paris, La Défense, Banlieue",
                     sessions: [
                         {
@@ -175,6 +181,7 @@ var data = {
                     ],
                     twitter: "dgageot",
                     contact: "david@gageot.net",
+                    mail: "david@gageot.net",
                     location: "Paris, La Défense, (France/Etranger selon mes déplacements)",
                     sessions: [
                         {
@@ -213,6 +220,7 @@ var data = {
                     ],
                     twitter: "tgrall",
                     contact: "tugdual@gmail.com",
+                    mail: "tugdual@gmail.com",
                     location: "Nantes, Paris, Rennes et toute l'Europe",
                     sessions: [
                         {
@@ -235,6 +243,7 @@ var data = {
                     ],
                     twitter: "rmat0n",
                     contact: "prenom.nom@gmail.com ou prenom@tamlab.fr",
+                    mail: "romain.maton@gmail.com",
                     location: "La Défense et alentours uniquement",
                     sessions: [
                         {
@@ -262,6 +271,7 @@ var data = {
                     ],
                     twitter: "fbiville",
                     contact: "f POINT biville AT lateral TIRET thoughts POINT com",
+                    mail: "f.biville@lateral-thoughts.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -292,6 +302,7 @@ var data = {
                     ],
                     twitter: "notarianni",
                     contact: "prenom.nom@gmail.com",
+                    mail: "bernard.notarianni@gmail.com",
                     location: "Paris, banlieue nord (St Denis..) ou ouest (La Défense...)",
                     sessions: [
                         {
@@ -322,6 +333,7 @@ var data = {
                     ],
                     twitter: "romaintaz",
                     contact: "linsolas [at] gmail.com",
+                    mail: "linsolas@gmail.com",
                     location: "La Défense et alentours",
                     sessions: [
                         {
@@ -346,6 +358,7 @@ var data = {
                     ],
                     twitter: "henri_tremblay",
                     contact: "htremblay [at] octo.com",
+                    mail: "htrembay@octo.com",
                     location: "Paris et alentours",
                     sessions: [
                         {
@@ -376,6 +389,7 @@ var data = {
                     ],
                     twitter: "dadoonet",
                     contact: "david [at] pilato.fr",
+                    mail: "david@pilato.fr",
                     location: "Régions francophones",
                     sessions: [
                         {
@@ -395,6 +409,7 @@ var data = {
                     ],
                     twitter: "jlrigau",
                     contact: "jeanlouis.rigau@gmail.com",
+                    mail: "jeanlouis.rigau@gmail.com",
                     location: "La Défense et alentours",
                     sessions: [
                         {
@@ -418,6 +433,7 @@ var data = {
                     ],
                     twitter: "ptit_fred",
                     contact: "frederic.menou@gmail.com",
+                    mail: "frederic.menou@gmail.com",
                     location: "Paris, proche banlieue et La Défense",
                     sessions: [
                         {
@@ -445,6 +461,7 @@ var data = {
                     ],
                     twitter: "ygrenzinger",
                     contact: "yannick.grenzinger@gmail.com",
+                    mail: "yannick.grenzinger@gmail.com",
                     location: "Paris et La Défense",
                     sessions: [
                         {
@@ -476,6 +493,7 @@ var data = {
                     ],
                     twitter: "octomga",
                     contact: "mga@octo.com",
+                    mail: "mga@octo.com",
                     location: "Paris et La Défense",
                     sessions: [
                         {
@@ -507,6 +525,7 @@ var data = {
                     ],
                     twitter: "abelar_s",
                     contact: "sylvain.abelard@gmail.com",
+                    mail: "sylvain.abelard@gmail.com",
                     location: "Paris + ce qui est accessible en transports",
                     sessions: [
                         {
@@ -538,6 +557,7 @@ var data = {
                     ],
                     twitter: "vhe74",
                     contact: "vhe@affini-tech.com",
+                    mail: "vhe@affini-tech.com",
                     location: "Paris + Banlieue ouest",
                     sessions: [
                         {
@@ -568,6 +588,7 @@ var data = {
                     ],
                     twitter: "karesti",
                     contact: "katia.aresti@gmail.com",
+                    mail: "katia.aresti@gmail.com",
                     location: "Paris, La Défense",
                     sessions: [
                         {
@@ -599,6 +620,7 @@ var data = {
                     ],
                     twitter: "elefevre",
                     contact: "contact@ericlefevre.net",
+                    mail: "contact@ericlefevre.net",
                     location: "Paris",
                     sessions: [
                         {
@@ -617,6 +639,7 @@ var data = {
                     ],
                     twitter: "gtardif",
                     contact: "guillaume.tardif@gmail.com",
+                    mail: "guillaume.tardif@gmail.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -636,6 +659,7 @@ var data = {
                     ],
                     twitter: "cyriux",
                     contact: "cyrillemartraire [at] gmail.com",
+                    mail: "cyrillemartraire@gmail.com",
                     location: "Paris, La Défense et à proximité",
                     sessions: [
                         {
@@ -668,6 +692,7 @@ var data = {
                     ],
                     twitter: "dbaeli",
                     contact: "dbaeli [at] gmail.com",
+                    mail: "dbaeli@gmail.com",
                     location: "Paris, Défense, (Rouen)",
                     sessions: [
                         {
@@ -696,6 +721,7 @@ var data = {
                     ],
                     twitter: "glours",
                     contact: "g [dot] lours [at] gmail.com",
+                    mail: "g.lours@gmail.com",
                     location: "Paris, Défense, Rouen",
                     sessions: [
                         {
@@ -719,6 +745,7 @@ var data = {
                     ],
                     twitter: "agoncal",
                     contact: "prenom.nom@gmail.com",
+                    mail: "antonio.goncalves@gmail.com",
                     location: "Paris intramuros... mais je veux bien faire un effort",
                     sessions: [
                         {
@@ -753,6 +780,7 @@ var data = {
                     ],
                     twitter: "thierryleriche",
                     contact: "thierryler@gmail.com",
+                    mail: "thierryler@gmail.com",
                     location: "Paris",
                     sessions: [
                         {
@@ -780,6 +808,7 @@ var data = {
                     ],
                     twitter: "ndeverge",
                     contact: "ndeverge [at] gmail [dot] com",
+                    mail: "ndeverge@gmail.com",
                     location: "Toulouse et agglomération",
                     sessions: [
                         {
@@ -806,6 +835,7 @@ var data = {
                     ],
                     twitter: "bluxte",
                     contact: "sylvain@bluxte.net",
+                    mail: "sylvain@bluxte.net",
                     location: "Toulouse et environs, ailleurs selon les déplacements",
                     sessions: [
                         {
@@ -840,6 +870,7 @@ var data = {
                     ],
                     twitter: "avernois",
                     contact: "antoine [at] crafting-labs.fr",
+                    mail: "antoine@crafting-labs.fr",
                     location: "Toulouse et environs",
                     sessions: [
                         {
@@ -871,6 +902,7 @@ var data = {
                     ],
                     twitter: "fabrice31",
                     contact: "fabrice.bournisien [at] gmail.com",
+                    mail: "fabrice.bournisien@gmail.com",
                     location: "Toulouse et environs",
                     sessions: [
                         {
@@ -895,6 +927,7 @@ var data = {
                     ],
                     twitter: "bmathus",
                     contact: "bmathus [at] gmail.com",
+                    mail: "bmathus@gmail.com",
                     location: "Toulouse et dans le coin",
                     sessions: [
                         {
@@ -931,6 +964,7 @@ var data = {
                     ],
                     twitter: "ndeloof",
                     contact: "nicolas.deloof@gmail.com",
+                    mail: "nicolas.deloof@gmail.com",
                     location: "Rennes et alentours, possibilités sur Paris",
                     sessions: [
                         {
@@ -956,6 +990,7 @@ var data = {
                         {title: "Timwi", href: "http://timwi.com/"}
                     ],
                     contact: "cbegot@gmail.com",
+                    mail: "cbegot@gmail.com",
                     location: "Rennes et alentours, possibilités sur toute la Bretagne",
                     sessions: [
                         {
@@ -991,6 +1026,7 @@ var data = {
                     ],
                     twitter: "ceciliaBossard",
                     contact: "cecilia.bossard@gmail.com",
+                    mail: "cecilia.bossard@gmail.com",
                     location: "Nantes et environs. Possible à Rennes",
                     sessions: [
                         {
@@ -1014,6 +1050,7 @@ var data = {
                     ],
                     twitter: "Cecile_Especel",
                     contact: "cespecel@gmail.com",
+                    mail: "cespecel@gmail.com",
                     location: "Nantes et environs.",
                     sessions: [
                         {
@@ -1038,6 +1075,7 @@ var data = {
                     ],
                     twitter: "clementd",
                     contact: "clement+bbl@delafargue.name",
+                    mail: "clement+bbl@delafargue.name",
                     location: "Nantes et environs.",
                     sessions: [
                         {
@@ -1066,6 +1104,7 @@ var data = {
                     ],
                     twitter: "gcouprie",
                     contact: "contact@geoffroycouprie.com",
+                    mail: "contact@geoffroycouprie.com",
                     location: "Nantes et environs.",
                     sessions: [
                         {
@@ -1096,6 +1135,7 @@ var data = {
                     ],
                     twitter: "CedricChampeau",
                     contact: "cedric.champeau@gmail.com",
+                    mail: "cedric.champeau@gmail.com",
                     location: "Nantes et environs. Possibilités sur Paris.",
                     sessions: [
                         {
@@ -1120,6 +1160,7 @@ var data = {
                     ],
                     twitter: "xavier_seignard",
                     contact: "xavier.seignard@gmail.com",
+                    mail: "xavier.seignard@gmail.com",
                     location: "Nantes",
                     sessions: [
                         {
@@ -1146,6 +1187,7 @@ var data = {
                     ],
                     twitter: "arno_u_loginlux",
                     contact: "prenom.nom@gmail.com",
+                    mail: "ronan.guilloux@gmail.com",
                     location: "Nantes",
                     sessions: [
                         {
@@ -1183,7 +1225,7 @@ var data = {
                         {
                             title: "vos premières aventures avec Raspberry Pi ",
                             summary: "Un atelier pratique, avec plusieurs démos, pour découvrir de manière ludique le Raspberry Pi."
-                        },
+                        }
                     ],
                     tags: ["PHP", "NodeJS", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Qualité", "Méthodes", "Fun"]
                 }
@@ -1205,6 +1247,7 @@ var data = {
                     ],
                     twitter: "jak78",
                     contact: "jja@octo.com",
+                    mail: "jja@octo.com",
                     location: "Métropole lilloise, région parisienne",
                     sessions: [
                         {
@@ -1251,6 +1294,7 @@ var data = {
                     ],
                     twitter: "hugolassiege",
                     contact: "hlassiege+bbl@gmail.com",
+                    mail: "hlassiege+bbl@gmail.com",
                     location: "Lyon",
                     sessions: [
                         {
@@ -1291,6 +1335,7 @@ var data = {
                     ],
                     twitter: "cedric_exbrayat",
                     contact: "contact+bbl@ninja-squad.com",
+                    mail: "contact+bbl@ninja-squad.com",
                     location: "Lyon",
                     sessions: [
                         {
@@ -1325,6 +1370,7 @@ var data = {
                     ],
                     twitter: "AlfredAlmendra",
                     contact: "alfred.almendra@gmail.com",
+                    mail: "alfred.almendra@gmail.com",
                     location: "Lyon",
                     sessions: [
                         {
@@ -1364,6 +1410,7 @@ var data = {
                     picture: "https://secure.gravatar.com/avatar/a36365a1874360981942f089d839d473?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
                     twitter: "SCogneau",
                     contact: "sebastien.cogneau@gmail.com",
+                    mail: "sebastien.cogneau@gmail.com",
                     location: "Lyon",
                     sessions: [
                         {
@@ -1387,6 +1434,7 @@ var data = {
                     ],
                     twitter: "Ouarzy",
                     contact: "ouarzy@free.fr",
+                    mail: "ouarzy@free.fr",
                     location: "Lyon",
                     sessions: [
                         {
@@ -1437,6 +1485,7 @@ var data = {
                     ],
                     twitter: "ckeromen",
                     contact: "ckeromen@ckti.com",
+                    mail: "ckeromen@ckti.com",
                     location: "Vannes et Morbihan, Ouest, Paris et au-delà…",
                     sessions: [
                         {
@@ -1488,6 +1537,7 @@ var data = {
                     ],
                     twitter: "xnopre",
                     contact: "xnopre [at] gmail.com",
+                    mail: "xnopre@gmail.com",
                     location: "Grenoble, Hautes-Alpes, Aix, Marseille",
                     sessions: [
                         {
@@ -1526,6 +1576,7 @@ var data = {
                     ],
                     twitter: "ouelcum",
                     contact: "laurent.tardif [at] persistentsas.com",
+                    mail: "laurent.tardif@persistentsas.com",
                     location: "Grenoble",
                     sessions: [
                         {
@@ -1562,6 +1613,7 @@ var data = {
                     ],
                     twitter: "CamilleRoux",
                     contact: "camille@humancoders.com",
+                    mail: "camille@humancoders.com",
                     location: "Montpellier et environs",
                     sessions: [
                         {
@@ -1600,6 +1652,7 @@ var data = {
                     ],
                     twitter: "themouette",
                     contact: "julien@muetton.me",
+                    mail: "julien@muetton.me",
                     location: "Clermont Ferrand et environs",
                     sessions: [
                         {
@@ -1636,6 +1689,7 @@ var data = {
                     ],
                     twitter: "couac",
                     contact: "william.durand1+bbl@gmail.com",
+                    mail: "william.durand1+bbl@gmail.com",
                     location: "Clermont-Fd Area",
                     sessions: [
                         {

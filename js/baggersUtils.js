@@ -79,7 +79,11 @@ function displayContactModalWindowMail() {
         $('#mail-result').fadeOut();
 
         $('#contactModal').foundation('reveal', 'open');
-        $('#contactModal').find('#contact-to').val($(this).parent().find('.contact-me').text());
+
+        var baggerName = $(this).parent().find('.contact-me').text();
+        var bagger = _.find(_.flatten(data.villes, 'baggers'), {'name': baggerName});
+
+        $('#contactModal').find('#contact-to').val(bagger.mail);
 
         $('#contact-send').click(function(e) {
             e.preventDefault();
