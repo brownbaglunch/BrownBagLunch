@@ -76,23 +76,25 @@ function displayContactModalWindow() {
 function displayContactModalWindowMail() {
     $('.invite-me').click(function (e) {
         e.preventDefault();
-        $(this).parent().find('.contact-me').fadeIn();
 
         $('#contactModal').foundation('reveal', 'open');
         $('#contactModal').find('#contact-to').val($(this).parent().find('.contact-me').text());
 
         $('#contact-send').click(function(e) {
             e.preventDefault();
+            $('#mail-result').fadeOut();
 
             $.ajax({ url: "http://bbl-backend.eu01.aws.af.cm/mail",
                 data:{ from: $('#contact-from').val(), to: $('#contact-to').val(), subject: $('#contact-subject').val(), message: $('#contact-message').val()},
                 type: 'POST',
                 contentType: "application/x-www-form-urlencoded; charset=utf-8",
                 success: function(data) {
-                    alert(data);
+                    $('#mail-result').fadeIn();
+                    $('#mail-status').removeClass("alert").addClass("success").text("Message envoyé ");
                 },
-                error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    alert("Error receive : " + textStatus);
+                error: function(xhr, status, errorThrown) {
+                    $('#mail-result').fadeIn();
+                    $('#mail-status').removeClass("success").addClass("alert").text(xhr.responseText );
                 }
             });
         });
