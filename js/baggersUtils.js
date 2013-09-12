@@ -76,13 +76,13 @@ function displayContactModalWindow() {
 function displayContactModalWindowMail() {
     $('.invite-me').click(function (e) {
         e.preventDefault();
+        $('#mail-result').fadeOut();
 
         $('#contactModal').foundation('reveal', 'open');
         $('#contactModal').find('#contact-to').val($(this).parent().find('.contact-me').text());
 
         $('#contact-send').click(function(e) {
             e.preventDefault();
-            $('#mail-result').fadeOut();
 
             $.ajax({ url: "http://bbl-backend.eu01.aws.af.cm/mail",
                 data:{ from: $('#contact-from').val(), to: $('#contact-to').val(), subject: $('#contact-subject').val(), message: $('#contact-message').val()},
