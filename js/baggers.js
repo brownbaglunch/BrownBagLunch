@@ -1667,6 +1667,7 @@ var data = {
             ]
         }, {
             name: "Clermont-Ferrand",
+            ville_img: "img/villes/BBL_Clermont.jpg",
             lat: 45.78333,
             lng: 3.08333,
             baggers: [
