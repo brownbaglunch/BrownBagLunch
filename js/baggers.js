@@ -43,11 +43,11 @@ var data = {
                         {
                             title: "Rétrospective",
                             summary: "Je vous propose d'animer et faciliter votre rétrospective sur un format d'une heure."
-                        }
+                        },
                         {
                             title: "Serious Games",
                             summary: "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
-                        }
+                        },
                         {
                             title: "Coaching Personnel",
                             summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
