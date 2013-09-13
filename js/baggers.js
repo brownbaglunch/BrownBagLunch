@@ -8,6 +8,35 @@ var data = {
 
             baggers: [
                 {
+                    name: "Ameur Yannick",
+                    bio: "Coach, Formateur Agile, Facilitateur",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1dd/142/214968b.jpg",
+                    websites: [
+                        {title: "Site web", href: "http://www.agilenco.fr/"},
+                        {title: "Blog Agile N Co", href: "http://yannick.ameur.free.fr/"},
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/yannickameur/"}
+                    ],
+                    twitter: "yannickAmeur",
+                    contact: "yannick.ameur@gmail.com",
+                    mail: "yannick.ameur@gmail.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Rétrospective",
+                            summary: "Je vous propose d'animer et faciliter votre rétrospective sur un format d'une heure."
+                        }
+                        {
+                            title: "Serious Games",
+                            summary: "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
+                        }
+                        {
+                            title: "Coaching Personnel",
+                            summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
+                        }
+                    ],
+                    tags: ["Agile", "Scrum", "Scrumban","Coach","formation","formateur","lean","kanban","TDD", "Test"]
+                },
+                {
                     name: "François Sarradin",
                     bio: "Consultant Java et &#955; développeur",
                     picture: "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
