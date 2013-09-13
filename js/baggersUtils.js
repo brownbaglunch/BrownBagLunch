@@ -61,18 +61,6 @@ function hideOrDisplayBaggers() {
     });
 }
 
-function displayContactModalWindow() {
-    $('.invite-me').click(function (e) {
-        e.preventDefault();
-        $(this).parent().find('.contact-me').fadeIn();
-
-        $('#contactModal').foundation('reveal', 'open');
-        $('#contactModal').find('#contact-modal').html($(this).parent().find('.contact-me').html());
-
-        $(this).remove();
-    });
-}
-
 function displayContactModalWindowMail() {
     $('.invite-me').click(function (e) {
         e.preventDefault();

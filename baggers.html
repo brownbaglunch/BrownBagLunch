@@ -14,19 +14,15 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-		<!--[if IE 8]>
-		<link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
-		<![endif]-->
-		
+        <!--[if IE 8]>
+        <link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
+        <![endif]-->
+        
         <style type="text/css">
-            .contact-me {
-                display: none;
-            }
-
             /* Seems a bug in foundation 4 : */
             .panel.callout a{
                 color:#fff;
-            }						
+            }                       
         </style>
 
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -87,23 +83,9 @@
         <!-- Included JS Files -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.compat.min.js"></script>
-
+        
         <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.reveal.js"></script>
-<!--
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.alerts.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.clearing.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.cookie.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.dropdown.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.forms.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.joyride.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.magellan.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.orbit.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.placeholder.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.section.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.tooltips.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.topbar.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/js/foundation/foundation.interchange.js"></script>
--->
+
         <script>
             $(document).foundation();
         </script>
@@ -127,7 +109,7 @@
 
                 startGoogleAnalytics();
 
-                displayContactModalWindow();
+                displayContactModalWindowMail();
 
                 hideOrDisplayBaggers();
             });
@@ -163,11 +145,11 @@
                     {{#baggers}}
                         <div id="{{baggerId}}" class="row">
                             {{^paire}}
-                                <div class="small-4 large-4 columns">
+                                <div class="small-2 large-4 columns">
                                     <img src="{{picture}}">
                                 </div>
                             {{/paire}}
-                            <div class="small-8 large-8 columns">
+                            <div class="small-10 large-8 columns">
                                 <div class="panel {{#paire}}callout{{/paire}} radius">
                                     <h4>{{name}}</h4>
 
@@ -184,7 +166,7 @@
                                                 <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
                                             {{/twitter}}
 
-                                            <p class="contact-me"><i class="icon-envelope-alt"></i> Infos et contact : {{{contact}}}</p>
+                                            <p class="contact-me" style="display: none">{{name}}</p>
                                             <p class="invite-me"><a href="#" class="button success round"><i class="icon-food"></i> Invitez moi chez vous!</a></p>
                                         </div>
 
@@ -205,7 +187,7 @@
                                 </div>
                             </div>
                             {{#paire}}
-                                <div class="small-4 large-4 columns">
+                                <div class="small-2 large-4 columns">
                                     <img src="{{picture}}">
                                 </div>
                             {{/paire}}
@@ -220,7 +202,51 @@
         <div id="contactModal" class="reveal-modal">
             <h2>Contactez moi :</h2>
             <p class="lead">Vous voulez plus d'information sur une session ou vous voulez que l'on définisse une date?</p>
-            <p id="contact-modal"></p>
+
+            <div class="row" id="mail-result" style="display: none">
+                <div data-alert class="alert-box" id="mail-status">
+                </div>
+            </div>
+
+            <form>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <label>Adresse de notre bagger :</label>
+                        <input id="contact-to" type="text" >
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <label>Votre adresse email</label>
+                        <input type="text" id="contact-from" placeholder="une copie du mail vous sera envoyé">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <label>Titre du mail</label>
+                        <input type="text" id="contact-subject" value="Contact pour un BBL">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p>
+                            <label>Message</label>
+                            <textarea id="contact-message"></textarea>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 large-offset-10 columns">
+                        <p><a href="#" id="contact-send" class="button success round"><i class="icon-envelope-alt"></i> Envoyer</a></p>
+                    </div>
+                </div>
+            </form>
+
             <a class="close-reveal-modal">&#215;</a>
         </div>
     </body>
