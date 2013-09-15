@@ -494,23 +494,23 @@ var data = {
                     location: "Paris et La Défense",
                     sessions: [
                         {
-                            title: "Qu'est que l'expérience utilisateur ?",
-                            summary: "L'objectif est de vous présenter rapidement ce qu'est l'UX et comment la prendre en compte à moindre coût dans votre projet avec une méthode centrée sur l'utilisateur."
+                            title: "La psychologie des objets de tous les jours",
+                            summary: "Connaître les principes d'ergonomie issues des sciences cognitives vous permet d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code."
                         },
                         {
-                            title: "Faire du code centré sur l'humain",
-                            summary: "Les principes d'ergonomie issues des sciences cognitives vous permettrons d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code."
-                        },
-                        {
-                            title: "Bien développer son produit c'est bien, Développer le bon produit c'est mieux",
-                            summary: "On parle de qualité de code, de tests, d'agilité ... mais on se pose rarement la question: est-ce que ce que je développe est utile?<br/> Pour répondre à cette question, je vous parlerais de Lean Startup, de MVP ou encore de Design Thinking pour améliorer la valeur de vos produits."
+                            title: "Arrêtons le gâchis, créons des produits ayant une véritable valeur!",
+                            summary: "L'objectif est de présenter quatre principes (Design, Co-création, Mesure, Apprentissage continu) qui favorisent la création de produits ayant une véritable valeur, qui soient utiles et utilisables. Ces principes sont une synthèse percutante de mon expérience personnelle et d'idées venant du DDD, du Design Thinking, de Lean Startup ou encore de l'expérience utilisateur . Nous finirons par avoir un débat ouvert sur ces idées d'amélioration de nos façons de créer du logiciel."
                         },
                         {
                             title: "Angular, le spectacular framework web moderne",
                             summary: "Retour d'expérience sur le framework Angular avec Testacular ainsi qu'une pointe de Yeoman et de Foundation."
+                        },
+                        {
+                            title: "MEAN, la stack ultra-productive",
+                            summary: "MongoDB, NodeJS, Express et Angular sont quatre frameworks connus pour leur efficacité en terme de développement. Or ces quatre frameworks se combinent parfaitement pour créer une stack ultra-productive permettant de valider rapidement votre prototype par exemple dans une approche Lean Startup. Tout ça avec un seul langage Javascript et un seul format de données JSON."
                         }
                     ],
-                    tags: ["User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript"]
+                    tags: ["Design","User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript", "MongoDB", "NodeJS"]
                 },
                 {
                     name: "Mathieu Gandin",
