@@ -2,8 +2,6 @@
 ZBox - Landing Page Bootstrap Template
 Author - hunzaboy
 URL : http://uexel.com
-
-
 */
 h1 {
     font-size: 40px;
@@ -34,32 +32,6 @@ strong {
     padding-right: 10px;
     margin: 0px 10px 15px 0px;
     float: left;
-}
-
-.btn_android {
-    background: url(../images/btn-android.png) no-repeat;
-    width: 178px;
-    height: 65px;
-    margin-top: 20px;
-    float: left;
-    margin-left: 10px;
-}
-
-.btn_appstore {
-    background: url(../images/btn-appstore.png) no-repeat;
-    width: 178px;
-    height: 65px;
-    margin-top: 20px;
-    float: left;
-}
-
-.btn_googleplay {
-    background: url(../images/btn-googleplay.png) no-repeat;
-    width: 178px;
-    height: 65px;
-    margin-top: 20px;
-    float: left;
-    margin-left: 10px;
 }
 
 .button_wrapper {
@@ -473,3 +445,12 @@ UNUSED.btn-the-bizzniss-4.active, UNUSED.btn-the-bizzniss-4:active {
 .footer-links a {
     color: #777;
 }
+
+.brand {
+    opacity: 0.75;
+}
+
+.brand:hover {
+    opacity: 1;
+}
+
