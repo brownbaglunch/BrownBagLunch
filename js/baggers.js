@@ -29,7 +29,7 @@ var data = {
                 {                    
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
-                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1dd/142/214968b.jpg",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
                     websites: [
                         {title: "Site web", href: "http://www.agilenco.fr/"},
                         {title: "Blog Agile N Co", href: "http://yannick.ameur.free.fr/"},
