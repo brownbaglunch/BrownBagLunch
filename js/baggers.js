@@ -26,7 +26,7 @@ var data = {
                     ],
                     tags: ["Smalltalk", "Programmation orientée objet", "TDD", "Test"]
                 },
-                {                    
+                {
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
                     picture: "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
@@ -1215,21 +1215,21 @@ var data = {
                         {title: "Blog", href: "http://arnolog.net/"}
                     ],
                     twitter: "arno_u_loginlux",
-                    contact: "prenom.nom@gmail.com",
+                    contact: "ronan.guilloux@gmail.com",
                     mail: "ronan.guilloux@gmail.com",
                     location: "Nantes",
                     sessions: [
                         {
                             title: "Construire un environnement de développement en agence web",
-                            summary: "Présentation de quelques outils éprouvés pour améliorer la production en agence web : LAMP, GIT, Bitbucket, Redmine, vagrant et un peu de vim"
+                            summary: "Présentation de quelques outils éprouvés pour améliorer l'organisation et la productivité en agence web : LAMP, GIT, Bitbucket, Redmine, Vagrant"
                         },
                         {
-                            title: "Dans mon équipe, on est à l'aise avec Gnu/Linux!",
-                            summary: "Découvrir l'environnement Gnu/Linux du point de vue du développeut web : travailler sous Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source"
+                            title: "Dans mon équipe, on est à l'aise avec GNU/Linux!",
+                            summary: "Découvrir l'environnement GNU/Linux du point de vue du développeur web : travailler sous GNU/Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source. Comment passer à GNU/Linux sans peine quand on travaille avec Windows ou Mac OSX."
                         },
                         {
-                            title: "Git, notre nouvel outil pour versionner et partager le code",
-                            summary: "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, les concepts principaux et l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
+                            title: "Git, notre nouvel outil pour versionner et partager le code (et pas que ça)",
+                            summary: "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
                         },
                         {
                             title: "VIM, mon éditeur de texte, mon couteau suisse, et mon environnement de développement",
@@ -1237,7 +1237,7 @@ var data = {
                         },
                         {
                             title: "Quelques bons outils pour la qualité du code PHP",
-                            summary: "phpunit, phploc, phpmd, phpcpd, pdepend, php-cs-fixer. Rendre la qualité factuelle, insérer des tests unitaires et maîtriser la non-régression, améliorer l'état d'un projet, se donner des objectifs et des guides pour progresser, mesurer la qualité du code et la démontrer."
+                            summary: "phpunit, phploc, phpmd, phpcpd, pdepend, php-cs-fixer. Rendre la qualité factuelle, insérer des tests unitaires et maîtriser la non-régression, estimer et améliorer l'état d'un 'vieux' projet, se donner des objectifs et des guides pour progresser, mesurer la qualité du code et la démontrer (ou pas)."
                         },
                         {
                             title: "En équipe, organiser et partager sa veille technologique",
@@ -1248,15 +1248,23 @@ var data = {
                             summary: "Installer et configurer Redmine ; gérer les projets, les spécifications, le chiffrage, les demandes de debug et d'évolution, et intégrer le client à l'équipe projet"
                         },
                         {
+                            title: "Composer et Packagist",
+                            summary: "Découvrir et utiliser le package management pour PHP : Comment utiliser le versioning et la mise à jour de vos librairies tierces, comment publier vos propres packages."
+                        },
+                        {
                             title: "MongoDB pour le web",
                             summary: "Changer ses habitudes et expérimenter le NOSQL avec MongoDB. Dé-normaliser ses données, importer, exporter, administrer MongoDB. Découvrir les outils en ligne de commande et les interfaces graphiques. Exemples pratiques avec PHP ou NodeJS."
                         },
                         {
-                            title: "vos premières aventures avec Raspberry Pi ",
+                            title: "Silex, micro-framewok PHP",
+                            summary: "Découvrir Silex, un micro-framework utilisant des composants de Symfony2. Idéal pour créer une API ou un petit intranet. De manière optionnelle et modulaire, Silex utilise un moteur de template (Twig) et un ORM (Doctrine2)."
+                        },
+                        {
+                            title: "vos premières aventures avec Raspberry Pi",
                             summary: "Un atelier pratique, avec plusieurs démos, pour découvrir de manière ludique le Raspberry Pi."
                         }
                     ],
-                    tags: ["PHP", "NodeJS", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Qualité", "Méthodes", "Fun"]
+                    tags: ["PHP", "NodeJS", "Silex", "MongoDB", "Raspberry Pi", "Vim", "Gnu/Linux", "Git", "Vagrant", "MongoDB", "Gestion de projet", "Redmine", "Trello", "Qualité", "Méthodes", "Fun"]
                 }
             ]
         },
