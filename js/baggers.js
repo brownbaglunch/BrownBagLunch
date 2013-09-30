@@ -486,7 +486,7 @@ var data = {
                     picture: "https://fr.gravatar.com/userimage/45029487/b60c363784b0fd99398c74086b10d8b7.png?size=200",
                     websites: [
                         { title: "ux-fr", href: "http://ux-fr.com/" },
-                        { title: "About me", href: "http://about.me/ygrenzinger" },
+                        { title: "About me", href: "http://about.me/yannick.grenzinger" },
                         { title: "Blog Xebia", href: "http://blog.xebia.fr/author/ygrenzinger/" },
                         { title: "Blog Objet Direct", href: "http://blog.objetdirect.com/author/ygrenzinger" }
                         
@@ -514,7 +514,7 @@ var data = {
                         },
                         {
                             title: "Valider le problème avant de penser solution, comment faire ?",
-                            summary: "Introduction à Lean Startup afin de sortir de votre immeuble et aller voir vos futur clients / utilisateurs. Je vous présenterais aussi Lean Canvas, outil que j'ai pu testé à de nombreuses fois à des conférences, au Lean Startup Workshop ou sur ma propre startup"
+                            summary: "Introduction à Lean Startup afin de sortir de votre immeuble et aller voir vos futur clients / utilisateurs. Je vous présenterais aussi Lean Canvas, outil que j'ai pu mettre en pratique de nombreuses fois à des conférences, au Lean Startup Workshop ou sur ma propre startup"
                         }
                         
                     ],
