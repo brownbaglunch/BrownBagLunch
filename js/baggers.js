@@ -482,11 +482,14 @@ var data = {
                 },
                 {
                     name: "Yannick Grenzinger",
-                    bio: "Consultant Java/Web/Agile passionné par l'UX",
+                    bio: "Software Craftsman, Design Thinker, Lean Startup Advisor & Continuous Lifelong learner",
                     picture: "https://fr.gravatar.com/userimage/45029487/b60c363784b0fd99398c74086b10d8b7.png?size=200",
                     websites: [
                         { title: "ux-fr", href: "http://ux-fr.com/" },
-                        { title: "about.me", href: "http://about.me/ygrenzinger" }
+                        { title: "About me", href: "http://about.me/ygrenzinger" },
+                        { title: "Blog Xebia", href: "http://blog.xebia.fr/author/ygrenzinger/" },
+                        { title: "Blog Objet Direct", href: "http://blog.objetdirect.com/author/ygrenzinger" }
+                        
                     ],
                     twitter: "ygrenzinger",
                     contact: "yannick.grenzinger@gmail.com",
@@ -498,8 +501,8 @@ var data = {
                             summary: "Connaître les principes d'ergonomie issues des sciences cognitives vous permet d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code."
                         },
                         {
-                            title: "Arrêtons le gâchis, créons des produits ayant une véritable valeur!",
-                            summary: "L'objectif est de présenter quatre principes (Design, Co-création, Mesure, Apprentissage continu) qui favorisent la création de produits ayant une véritable valeur, qui soient utiles et utilisables. Ces principes sont une synthèse percutante de mon expérience personnelle et d'idées venant du DDD, du Design Thinking, de Lean Startup ou encore de l'expérience utilisateur . Nous finirons par avoir un débat ouvert sur ces idées d'amélioration de nos façons de créer du logiciel."
+                            title: "Créons des produits ayant une véritable valeur!",
+                            summary: "L'objectif est de présenter trois principes essentiels à la création de produits exceptionnels: le Design, la Co-création et la Mesure. En suivant ces principes, vous gagnerez une équipe motivée et efficace, un produit rentable pour la société tout en étant utile et agréable pour l'utilisateur. Vous y découvrirez aussi un méta-principe qui est à la source de toute réussite :)"
                         },
                         {
                             title: "Angular, le spectacular framework web moderne",
@@ -508,9 +511,14 @@ var data = {
                         {
                             title: "MEAN, la stack ultra-productive",
                             summary: "MongoDB, NodeJS, Express et Angular sont quatre frameworks connus pour leur efficacité en terme de développement. Or ces quatre frameworks se combinent parfaitement pour créer une stack ultra-productive permettant de valider rapidement votre prototype par exemple dans une approche Lean Startup. Tout ça avec un seul langage Javascript et un seul format de données JSON."
+                        },
+                        {
+                            title: "Valider le problème avant de penser solution, comment faire ?",
+                            summary: "Introduction à Lean Startup afin de sortir de votre immeuble et aller voir vos futur clients / utilisateurs. Je vous présenterais aussi Lean Canvas, outil que j'ai pu testé à de nombreuses fois à des conférences, au Lean Startup Workshop ou sur ma propre startup"
                         }
+                        
                     ],
-                    tags: ["Design","User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript", "MongoDB", "NodeJS"]
+                    tags: ["Design", "User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript", "MongoDB", "NodeJS"]
                 },
                 {
                     name: "Mathieu Gandin",
