@@ -826,6 +826,43 @@ var data = {
                         }
                     ],
                     tags: ["Java", "Guava", "Lombok"]
+                },
+                {
+                    name: "Matthieu Garde",
+                    bio: "Entrepreneur et pratiquant Lean Startup - Fondateur de Lean Startup France",
+                    picture: "https://www.dropbox.com/s/c4mzz8zdssooi0p/Cadr%C3%A9e%20light.jpg",
+                    websites: [
+                        {title: "Blog personnel", href: "http://matthieugarde.com"},
+                        {title: "Lean Startup France", href: "http://leanstartupfrance.com"},
+                        {title: "Lean Startup Workshop", href: "http://leanstartupfrance.com/workshop"}
+                    ],
+                    twitter: "matthieugarde",
+                    contact: "matthieu.garde@gmail.com",
+                    mail: "matthieu.garde@gmail.com",
+                    location: "Paris, Banlieue, Compiègne",
+                    sessions: [
+                        {
+                            title: "Lean Startup pour développeurs",
+                            summary: "Apprenez à sortir vos projets des cartons et à amener des utilisateurs sur votre site web avec un minimum de temps et d'argent"
+                        },
+                        {
+                            title: "Inventer et tester de nouveaux business models",
+                            summary: "Une société innovante se réinvente en permanence en cherchant de nouvelles cibles et en inventant de nouveaux produits. Toutes ces innovations peuvent se tester, rapidement !"
+                        },
+                        {
+                            title: "Comment faire de bonnes interviews clients ?",
+                            summary: "Lorsqu'on construit quelque chose d'innovant, il est important de valider l'existance du problème avant de penser à la solution. Il faut donc aller voir les clients, parler avec eux et poser les bonnes questions. Pas si facile !"
+                        },
+                        {
+                            title: "Atelier Lean Canvas",
+                            summary: "Documentez votre idée, votre business model et vos hypothèses sur une seule page A4"
+                        },
+                        {
+                            title: "Atelier Validation Board",
+                            summary: "Apprenez à utiliser l'outil de référence pour aller interviewer des clients"
+                        }
+                    ],
+                    tags: ["Lean Startup", "Entrepreneur", "Customer Development", "Validation Board", "Lean Canvas", "Running Lean"]
                 }
             ]
         },
