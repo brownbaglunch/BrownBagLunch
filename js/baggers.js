@@ -830,7 +830,7 @@ var data = {
                 {
                     name: "Matthieu Garde",
                     bio: "Entrepreneur et pratiquant Lean Startup - Fondateur de Lean Startup France",
-                    picture: "https://www.dropbox.com/s/c4mzz8zdssooi0p/Cadr%C3%A9e%20light.jpg",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/1/000/2cb/114/006d029.jpg",
                     websites: [
                         {title: "Blog personnel", href: "http://matthieugarde.com"},
                         {title: "Lean Startup France", href: "http://leanstartupfrance.com"},
