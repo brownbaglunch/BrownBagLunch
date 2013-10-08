@@ -8,6 +8,26 @@ var data = {
 
             baggers: [
                 {
+                    name: "Camille Roux",
+                    bio: "Passionné d'entrepreneuriat et de Lean Startup • Coach en Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
+                    picture: "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
+                    websites: [
+                        {title: "Conseil en Business Model", href: "http://www.camilleroux.com/formation-lean-startup-accompagnement-conseil-business/"},
+                        {title: "Human Coders", href: "http://humancoders.com"},
+                    ],
+                    twitter: "CamilleRoux",
+                    contact: "contact@camilleroux.com",
+                    mail: "contact@camilleroux.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Lean Startup",
+                            summary: "Découvrez cette approche pramagtique permettant de lancer des sociétés/produits/services en un temps record"
+                        }
+                    ],
+                    tags: ["Entrepreneuriat", "Lean Startup", "Business Model Canvas"]
+                },
+                {
                     name: "Serge Stinckwich",
                     bio: "Enseignant-chercheur, développeur",
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/011/381/16fa99c.jpg",
