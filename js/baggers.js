@@ -407,7 +407,7 @@ var data = {
                     ],
                     twitter: "henri_tremblay",
                     contact: "htremblay [at] octo.com",
-                    mail: "htrembay@octo.com",
+                    mail: "htremblay@octo.com",
                     location: "Paris et alentours",
                     sessions: [
                         {
