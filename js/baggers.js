@@ -1038,6 +1038,33 @@ var data = {
                         }
                     ],
                     tags: ["Jenkins", "Maven", "Gerrit", "Git", "Java"]
+                },
+                {
+                    name: "Vincent Ferries",
+                    bio: "Développeur Java mais pas que - genigraph",
+                    picture: "https://twimg0-a.akamaihd.net/profile_images/2050038189/picto.jpg",
+                    websites: [
+                        {title: "Blog genigraph", href: "http://blog.genigraph.fr/author/vferries/"}
+                    ],
+                    twitter: "VincentFERRIES",
+                    contact: "vincent.ferries [at] gmail [dot] com",
+                    mail: "vincent.ferries@gmail.com",
+                    location: "Toulouse et agglomération",
+                    sessions: [
+                        {
+                            title: "Introduction au développement Android",
+                            summary: "Les fondamentaux du développement Android, comment ça marche dedans, les grands principes."
+                        },
+                        {
+                            title: "Qu'est-ce qui change dans Java EE 6 et 7",
+                            summary: "Empêtrés dans des applications J2EE Struts depuis des années, redonnez vous espoir avec un live coding qui présente les grands aspects de Java EE 6 et 7 : CDI, REST, les websockets et j'en passe."
+                        },
+                        {
+                            title: "Coding Dojo",
+                            summary: "Coding Dojo pour voir ou revoir le TDD ensemble ou adapté à la découverte d'un langage : Java, python, ruby..."
+                        }
+                    ],
+                    tags: ["Java EE", "Android", "Dojo"]
                 }
             ]
         },
