@@ -1042,7 +1042,7 @@ var data = {
                 {
                     name: "Vincent Ferries",
                     bio: "Développeur Java mais pas que - genigraph",
-                    picture: "https://twimg0-a.akamaihd.net/profile_images/2050038189/picto.jpg",
+                    picture: "img/baggers/photo_VincentFerries.png",
                     websites: [
                         {title: "Blog genigraph", href: "http://blog.genigraph.fr/author/vferries/"}
                     ],
