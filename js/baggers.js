@@ -113,7 +113,7 @@ var data = {
                     twitter: "nrichand",
                     contact: "nrichand@brownbaglunch.fr",
                     mail: "nrichand@brownbaglunch.fr",
-                    location: "La Défense et alentours uniquement",
+                    location: "Paris",
                     sessions: [
                         {
                             title: "Parlons d'agilité",
