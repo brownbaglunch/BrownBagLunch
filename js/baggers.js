@@ -883,6 +883,47 @@ var data = {
                         }
                     ],
                     tags: ["Lean Startup", "Entrepreneur", "Customer Development", "Validation Board", "Lean Canvas", "Running Lean"]
+                },
+                {
+                    name: "Nicolas Martignole",
+                    bio: "Développeur indépendant et passionné. Auteur du Touilleur Express, co-organisateur et fondateur de Devoxx France, fondateur de l'eXpress-Board",
+                    picture: "https://fr.gravatar.com/userimage/4295265/c50510bb451992bde6f3add1a10525dd.jpg?size=256",
+                    websites: [
+                        {title: "Le Touilleur Express", href: "http://www.touilleur-express.fr"},
+                        {title: "eXpress-Board", href: "http://www.express-board.fr"},
+                        {title: "Devoxx France", href: "http://www.devoxx.fr/"}
+                    ],
+                    twitter: "nmartignole",
+                    contact: "nicolas@touilleur-express.fr",
+                    mail: "nicolas@touilleur-express.fr",
+                    location: "Paris intra-muros, Est Parisien et la Défense",
+                    sessions: [
+                        {
+                            title: "Les clefs pour réussir ses présentations techniques",
+                            summary: "Nous sommes tous amenés à effectuer des présentations techniques. Que ce soit lors d'une conférence comme Devoxx France, ou en comité. Apprenez quelques techniques de présentations, comment préparer son sujet pour le CFP, ce qu'il faut faire et les pièges à éviter."
+                        },
+                        {
+                            title: "Redis, une base NoSQL simple et puissante",
+                            summary: "Découvrez Redis, son modèle de programmation, sa simplicité et des cas d'usages, basé sur mon expérience à Zaptravel."
+                        },
+                        {
+                            title: "Scala, ce qu'il faut retenir",
+                            summary: "Découvrez le langage Scala, cousin de Java. Basé sur mon expérience opérationnelle, je vous partagerai mon retour d'expérience. Comment se former, recruter et développer en Scala."
+                        },
+                        {
+                            title: "Play2 et Scala",
+                            summary: "Découverte du framework web Play2, basé sur mon travail chez Zaptravel depuis mai 2012."
+                        },
+                        {
+                            title: "HTTP et architectures orientées Webs",
+                            summary: "HTTP, HATEOAS, REST... (re)découvrez les bases du protocole HTTP et comment en tirer partie dans votre architecture logicielle."
+                        },
+                        {
+                            title: "Zaptravel, une aventure dans le monde des startups",
+                            summary: "Témoignage et retour d'expériences sur mon aventure en tant que responsable technique et développeur chez Zaptravel. Play2, Amazon, Redis, gérer des développeurs, Scala, les galères et les belles histoires d'un gars qui passe par la case Startup"
+                        }
+                    ],
+                    tags: ["Présentation", "Startup", "Web", "Scala", "Programmation fonctionnelle", "Lean Canvas", "Running Lean"]
                 }
             ]
         },
