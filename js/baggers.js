@@ -887,7 +887,7 @@ var data = {
                 {
                     name: "Nicolas Martignole",
                     bio: "Développeur indépendant et passionné. Auteur du Touilleur Express, co-organisateur et fondateur de Devoxx France, fondateur de l'eXpress-Board",
-                    picture: "http://m.c.lnkd.licdn.com/media/p/1/000/2cb/114/006d029.jpg",
+                    picture: "https://fr.gravatar.com/userimage/4295265/c50510bb451992bde6f3add1a10525dd.jpg?size=256",
                     websites: [
                         {title: "Le Touilleur Express", href: "http://www.touilleur-express.fr"},
                         {title: "eXpress-Board", href: "http://www.express-board.fr"},
