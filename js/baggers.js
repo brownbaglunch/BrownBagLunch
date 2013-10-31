@@ -1442,6 +1442,30 @@ var data = {
                         }
                     ],
                     tags: ["JavaScript", "Spring", "Test", "Dojo"]
+                },
+                {
+                    name: "Mathieu Bolla",
+                    bio: "Développeur efficient, passionné surtout par ce qui n'est pas informatique, pour tirer le meilleur parti du monde réel dans notre tout petit monde virtuel. En somme, un électronicien, photographe, forgeron, menuisier, qui fait du Java, parfois. Fondateur de GoAndCloud.it, parce que coder c'est bien, mais c'est mieux quand c'est les autres.",
+                    picture: "https://www.gravatar.com/avatar/4677084da23fd41e2d21561ec111a512?s=256",
+                    websites: [
+                        { title: "GoAndCloud.it", href: "http://www.goandcloud.it"},
+                        { title: "Mon blog (photo)", href: "http://www.mathieu-bolla.com"},
+                        { title: "Le reste (mais que moi)", href: "http://about.me/mathieubolla"}
+                    ],
+                    twitter: "mathieubolla",
+                    contact: "@mathieubolla",
+                    location: "Douai, mais aussi autour de Lille, voir Paris pour les plus sympas",
+                    sessions: [
+                        {
+                            title: "AWS Java SDK: Prise en main",
+                            summary: "Amazon Web Services sonne familier pour vous, mais vous n'y avez jamais mis les pieds? Ou bien la spécification de son modèle de signature vous a donné des boutons à la 10ème tentative? Ou bien encore, vous avez laissé fuiter vos credentials dans les méandres d'EC2 étant jeune? Venez vite découvrir l'AWS Java SDK, ou comment aborder Amazon Web Services sans quitter le confort de son Maven et de son IDE favori, sur un exemple d'application 'Internet scale'"
+                        },
+                        {
+                            title: "Thermoduino, le thermomètre Java FX / Arduino / Raspberry Pi qui ne fait pas le café",
+                            summary: "Vous n'étiez pas aux conférences JavaFX / Raspberry Pi / Domotique de Devoxx France 2012? Moi, si. Petit résumé autour d'un cas pratique: Afficher la température (et la météo, et le reste) avec JavaFX sur un Raspberry Pi, et, tiens, un Arduino aussi, tant qu'on y est..."
+                        }
+                    ],
+                    tags: ["Java", "AWS", "Amazon", "Scalabilité", "Domotique", "Embarqué"]
                 }
             ]
         },
