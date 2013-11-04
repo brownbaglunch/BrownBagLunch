@@ -1910,8 +1910,8 @@ var data = {
         },  {
             name: "Bordeaux",
             ville_img: "img/villes/BBL_Bordeaux.jpg",
-            lat: 27.174527,
-            lng: 78.042153,
+            lat: 44.837789,
+            lng: -0.579180,
             baggers: [
                 {
                     name: "Jean-Pierre Lerbscher",
