@@ -1907,6 +1907,37 @@ var data = {
                     tags: [ "PHP", "Symfony2", "HTTP", "REST", "Testing", "Git", "Puppet" ]
                 }
             ]
+        },  {
+            name: "Bordeaux",
+            ville_img: "img/villes/BBL_Bordeaux.jpg",
+            lat: 27.174527,
+            lng: 78.042153,
+            baggers: [
+                {
+                    name: "Jean-Pierre Lerbscher",
+                    bio: "Foundateur JavaPerf Consulting, expert performance & JEE",
+                    picture: "http://www.jperf.com/images/jpl.jpg",
+                    websites: [
+                        {title: "Blog", href: "https://jperf.wordpress.com"},
+                        {title: "Site", href: "http://www.jperf.com"}
+                    ],
+                    twitter: "jlerbsc",
+                    contact: "jean-pierre.lerbscher@jperf.com",
+                    mail: "jean-pierre.lerbscher@jperf.com",
+                    location: "Bordeaux",
+                    sessions: [
+                        {
+                            title: "Performance",
+                            summary: "Comment auditer la performance d'une application"
+                        },
+                        {
+                            title: "Audit de performance",
+                            summary: "Démarrer un audit de performance (comment s'organiser, quels outils?, quelle méthodologie?)"
+                        }
+                    ],
+                    tags: ["performance", "JEE", "java"]
+                }
+            ]
         }
     ]
 };
