@@ -924,6 +924,29 @@ var data = {
                         }
                     ],
                     tags: ["Présentation", "Startup", "Web", "Scala", "Programmation fonctionnelle", "Lean Canvas", "Running Lean"]
+                },
+                {
+                    name: "Olivier BAZOUD",
+                    bio: "Full-stack web developer, co-auteur de <a href='http://www.manning.com/templier' target='_blank'>'Spring Batch in Action'</a> (Manning)",
+                    picture: "https://fr.gravatar.com/avatar/bc568a17c0916050278cee36c351187c?size=180",
+                    websites: [
+                        {title: "Le blog d'Olivier", href: "http://blog.bazoud.com"}
+                    ],
+                    twitter: "obazoud",
+                    contact: "olivier.bazoud@gmail.com",
+                    mail: "olivier.bazoud@gmail.com",
+                    location: "Paris, Ouest parisien",
+                    sessions: [
+                        {
+                            title: "Spring Batch",
+                            summary: "Découvrez Spring Batch, sa simplicité, les concepts de bases jusqu’aux notions les plus avancées. Tout tout tout, vous saurez tout sur Spring Batch!"
+                        },
+                        {
+                            title: "Monitoring: regarder votre application à la loupe!",
+                            summary: "Regarder fonctionner votre application sous toutes les coutures: faites mieux que vos sysadmins!;)<br />Nous verrons comment alimenter Graphite, un excellent outil de métrologie, dans une architecture java <small>(je peux m'adapter à vote langage)</small>: collectd, jmxtrans, metrics, statsd,.. afin de prendre des mesures au niveau du système, de l'applicatif, des batchs et du métier (KPI). Nous aborderons ensuite la corrélation tous ces métriques de façon très visuelle et comment réveiller vos sysadmins en cas d'urgence ;)"
+                        }
+                    ],
+                    tags: ["Présentation", "Java", "Spring", "Batch", "Integration", "Graphite", "Monitoring", "Métrique", "KPI", "collectd", "jmxtrans", "statsd"]
                 }
             ]
         },
