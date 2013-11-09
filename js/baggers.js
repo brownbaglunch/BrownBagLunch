@@ -1152,7 +1152,6 @@ var data = {
                     ],
                     tags: ["Java", "Scrum", "XP", "TDD", "Chroot", "Ansible", "IntelliJ"]
                 }
-
             ]
         },
         {
