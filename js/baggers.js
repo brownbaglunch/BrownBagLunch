@@ -1129,6 +1129,28 @@ var data = {
                         }
                     ],
                     tags: ["Java EE", "Android", "Dojo"]
+                },{
+                    name: "Michaël Bitard",
+                    bio: "Agile Developer",
+                    picture: "https://en.gravatar.com/userimage/31032000/ea9b56ad98a9475b4d8e0f107b3dc51e.png?size=200",
+                    websites: [
+                        {title: "Vcard", href: "http://michael.bitard.eu"}
+                    ],
+                    twitter: "BitardMichael",
+                    contact: "bitard.michael [at] gmail [dot] com",
+                    mail: "bitard.michael@gmail.com",
+                    location: "Toulouse et agglomération",
+                    sessions: [
+                        {
+                            title: "Coding Dojo Java",
+                            summary: "Je souhaite que l'on échange sur nos pratiques de développement et de tests lors d'un randori.<br />Nous définirons ensemble l'objectif du coding dojo, en fonction de vos attentes."
+                        },
+                        {
+                            title: "Et si on codait son poste de travail?",
+                            summary: "Vous ne vous êtes jamais dit que vous perdiez du temps à configurer votre poste de travail?<br /> Je peux vous faire découvrir comment automatiser l'installation de vos postes de dev (Linux). Au début du BBL je ferai une présentation des outils existants, par la suite nous essaierons ensemble d'aller aussi loin que possible dans l'automatisation de votre poste."
+                        }
+                    ],
+                    tags: ["Java", "Scrum", "XP", "TDD", "Chroot", "Ansible", "IntelliJ"]
                 }
             ]
         },
