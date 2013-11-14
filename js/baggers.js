@@ -984,6 +984,39 @@ var data = {
                     ],
                     tags: ["Agile", "Code", "Dojo"]
                 },
+                  {
+                    name: "Laurent Meurisse",
+                    bio: "Coach Agile & Dévelopement produit pour l'entreprise & startup",
+                    picture: "https://pbs.twimg.com/profile_images/2776155908/7a1460aa6728eda8e4a2ca56f425ac99.jpeg",
+                    websites: [
+                        {title: "Blog Perso", href: "http://laurentmeurisse.wordpress.com/"},
+                        {title: "Blog ekito", href: "http://www.ekito.fr/people/?lang=fr/"}
+                    ],
+                    twitter: "laurentmeurisse",
+                    contact: "lmeurisse@ekito.fr",
+                    mail: "lmeurisse@ekito.fr",
+                    location: "Toulouse, Paris, Lille",
+                    sessions: [
+                        {
+                            title: "Startup : Lean Canvas de votre idée produit",
+                            summary: "Définir le bon produit avec le Lean Canvas"
+                        },
+                        {
+                            title: "Startup: créer son MVP",
+                            summary: "Créer un premier produit minimal pour mesurer la viabilité du Lean Canvas"
+                        },
+                        {
+                            title: "Entreprise: Vision Produit avec Impact Mapping",
+                            summary: "Au lieu de définir une backlog de fonctionnalités, définissez plutot vos objectifs, et déployez des impacts."
+                        },
+                         {
+                            title: "Entreprise: Spécification par l'exemple",
+                            summary: "Pour mieux travailler collaborativement, en spécifiant et testant les objectifs produits de manière agile"
+                        }
+                      
+                    ],
+                    tags: ["Agile", "Lean Startup", "Impact Mapping"]
+                },
                 {
                     name: "Sylvain Wallez",
                     bio: "Architecte et développeur Java/Web/Scala freelance, startuper invétéré",
