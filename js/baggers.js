@@ -1213,7 +1213,7 @@ var data = {
                         }
                     ],
                     tags: ["JavaFX", "JRebirth", "Usine Logicielle", "Eclipse"]
-                },
+                }
                 
             ]
         },
