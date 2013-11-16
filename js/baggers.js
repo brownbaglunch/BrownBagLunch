@@ -1162,7 +1162,8 @@ var data = {
                         }
                     ],
                     tags: ["Java EE", "Android", "Dojo"]
-                },{
+                },
+                {
                     name: "Michaël Bitard",
                     bio: "Agile Developer",
                     picture: "https://en.gravatar.com/userimage/31032000/ea9b56ad98a9475b4d8e0f107b3dc51e.png?size=200",
@@ -1184,7 +1185,36 @@ var data = {
                         }
                     ],
                     tags: ["Java", "Scrum", "XP", "TDD", "Chroot", "Ansible", "IntelliJ"]
+                },
+                {
+                    name: "Sébastien Bordes",
+                    bio: "Java Developer",
+                    picture: "http://www.gravatar.com/avatar/70fedbe679de9066499f208e35b3bf1f.png?size=200",
+                    websites: [
+                        {title: "Blog", href: "http://blog.jrebirth.org"},
+                        {title: "JRebirth", href: "http://www.jrebirth.org"}
+                    ],
+                    twitter: "s8bordes",
+                    contact: "seb [at] jrebirth [dot] org",
+                    mail: "seb@jrebirth.org",
+                    location: "Toulouse et agglomération",
+                    sessions: [
+                        {
+                            title: "JavaFX en long, en large et en travers",
+                            summary: "Démonstration des fonctionnalités de JavaFX 2.2.40."
+                        },
+                        {
+                            title: "Codons une application JavaFX avec Eclipse",
+                            summary: "Démonstration par l'exemple de l'API de JavaFX."
+                        },
+                        {
+                            title: "JRebirth, pourquoi utiliser un cadriciel applicatif",
+                            summary: "Tous les bienfaits de choisir JRebirth Application Framework pour votre application."
+                        }
+                    ],
+                    tags: ["JavaFX", "JRebirth", "Usine Logicielle", "Eclipse"]
                 }
+                
             ]
         },
         {
