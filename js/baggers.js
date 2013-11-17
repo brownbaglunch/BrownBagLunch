@@ -1752,10 +1752,6 @@ var data = {
                             summary: "Si vous avez une méthode de développement robuste et une architecture que vous jugez correct, confrontez vous aux concepts du Domain Driven Design pour allez encore plus loin"
                         },
                         {
-                            title: "Professional MVVM Light",
-                            summary: "Comment utiliser au mieux le célèbre Framework .NET de Laurent Bugnion sur un projet concret"
-                        },
-                        {
                             title: "Clean Code",
                             summary: "Avez vous déja pris le temps de décortiquer les pratiques du livre de l'Oncle Bob: Clean Code? Le temps d'un repas, regardons comment améliorer la qualité du code produit"
                         }
