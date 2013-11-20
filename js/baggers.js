@@ -947,6 +947,26 @@ var data = {
                         }
                     ],
                     tags: ["Présentation", "Java", "Spring", "Batch", "Integration", "Graphite", "Monitoring", "Métrique", "KPI", "collectd", "jmxtrans", "statsd"]
+                },
+                {
+                    name: "Stéphane LANDELLE",
+                    bio: "Dev Scala/Java, Directeur Technique d'eBiz, lead dev sur Gatling",
+                    picture: "img/baggers/photo_slandelle.jpg",
+                    websites: [
+                        {title: "Gatling", href: "http://gatling-tool.org"},
+                        {title: "eBiz", href: "http://ebusinessinformation.fr"}
+                    ],
+                    twitter: "slandelle",
+                    contact: "slandelle@excilys.com",
+                    mail: "slandelle@excilys.com",
+                    location: "Paris et proche couronne",
+                    sessions: [
+                        {
+                            title: "Gatling",
+                            summary: "Découvrez Gatling, un outil qui vous permettra de monter des tests de charge à la fois performants, clairs et maintenables."
+                        }
+                    ],
+                    tags: ["Présentation", "Gatling", "Test", "Stress", "Load", "Scala"]
                 }
             ]
         },
