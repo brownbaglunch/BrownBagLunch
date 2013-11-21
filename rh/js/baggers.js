@@ -40,11 +40,10 @@ var data = {
                         }
                     ],
                     tags: ["Agile", "Recrutement", "Scrum", "Coach","formation","formateur","équipe","kanban"]
-                },
+                }
                
                     ],
-                    tags: ["Java", "Scala", "Programmation fonctionnelle"]
-                }
+               
             ]
         }
     ]
