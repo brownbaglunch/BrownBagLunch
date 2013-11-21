@@ -28,7 +28,7 @@ var data = {
                         },
                         {
                             title: "Coaching Personnel",
-                            summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
+                            summary: "Envie d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnels, offrez vous une scéance de Coaching - format 45mn."
                         },
                         {
                             title: "Rétrospective",
@@ -36,13 +36,13 @@ var data = {
                         },
                         {
                             title: "Serious Games",
-                            summary: "Discuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animé par l'utilisation d'un sérious Game."
+                            summary: "Discuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animé par l'utilisation d'un serious Game."
                         }
                     ],
-                    tags: ["Agile", "Recrutement", "Scrum", "Coach","formation","formateur","équipe","kanban"]
+                    tags: ["Agile", "Recrutement", "Scrum", "Coach","équipe","kanban"]
                 }
                
-                    ],
+            ]
                
         }
     ]
