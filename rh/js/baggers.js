@@ -36,7 +36,7 @@ var data = {
                         },
                         {
                             title: "Serious Games",
-                            summary: "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
+                            summary: "Discuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animé par l'utilisation d'un sérious Game."
                         }
                     ],
                     tags: ["Agile", "Recrutement", "Scrum", "Coach","formation","formateur","équipe","kanban"]
