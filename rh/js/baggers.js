@@ -42,19 +42,23 @@ var data = {
                     location: "Paris",
                     sessions: [
                         {
+                            title: "Recrutement Agile",
+                            summary: "Je vous propose de vous exercer aux entretiens de recrutement Agile : recruter en groupe, préparer vos entretiens, poser les questions et gérer votre stress. "
+                        },
+                        {
+                            title: "Coaching Personnel",
+                            summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
+                        },
+                        {
                             title: "Rétrospective",
                             summary: "Je vous propose d'animer et faciliter votre rétrospective sur un format d'une heure."
                         },
                         {
                             title: "Serious Games",
                             summary: "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
-                        },
-                        {
-                            title: "Coaching Personnel",
-                            summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
                         }
                     ],
-                    tags: ["Agile", "Scrum", "Scrumban","Coach","formation","formateur","lean","kanban","TDD", "Test"]
+                    tags: ["Agile", "Recrutement", "Scrum", "Coach","formation","formateur","équipe","kanban"]
                 },
                 {
                     name: "François Sarradin",
