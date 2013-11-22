@@ -7,7 +7,35 @@ var data = {
             lng: 2.352222,
 
             baggers: [
-               
+                {
+                    name: "Shirley Almosni",
+                    bio: "Chasseur de tête dans la jungle de l’IT avec ses moutons à 5 pattes, ses pythons, ses perles rares certifiées Ruby, et C++ encore…",
+                    picture: "img/ShirleyAlmosni.jpg",
+                    websites: [
+                        {title: "Google+", href: "https://plus.google.com/115418132874127275128"},
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/pub/shirley-almosni/b/11b/814/"},
+                        {title: "Blog", href: "http://geekunter.unblog.fr/"}
+                    ],
+                    twitter: "shirleyalmosni",
+                    contact: "shirley.almosni@yahoo.fr",
+                    mail: "shirley.almosni@yahoo.fr",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Sourcing candidat",
+                            summary: "Comment utiliser les outils de sourcing classiques et les outils plus originaux pour chercher les potentiels candidats ?"
+                        },
+                        {
+                            title: "Coaching candidat",
+                            summary: "Comment apporter une réelle dimension de conseil auprès des candidats, de l’entretien RH jusqu’au closing? Comment créer un lien de confiance sur le long terme avec les candidats potentiels et placés ?"
+                        },
+                        {
+                            title: "Prospection client",
+                            summary: "Comment se différencier dans l’approche client ? Quels sont les outils pour approcher vos cibles commerciales en éviter les barrages de prospection classiques ?"
+                        }
+                    ],
+                    tags: ["Sourcing", "Coaching", "Prospection"]
+                },
                 {
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
