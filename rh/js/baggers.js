@@ -54,7 +54,7 @@ var data = {
                         }
                     ],
                     tags: ["DRH","PME","TPE","création"]
-                }
+                },
                  {
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
