@@ -37,6 +37,25 @@ var data = {
                     tags: ["Sourcing", "Coaching", "Prospection"]
                 },
                 {
+                    name: "Aude Amarrurtu",
+                    bio: "Dans les Ressources Humaines depuis 8 ans, j'ai mis en place la Direction Ressources Humaines d'Arolla à partir de 2011.",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/2/000/124/0dc/12a063e.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/audeamarrurtu/"}
+                    ],
+                    twitter: "AudeAmarrurtu",
+                    contact: "aude_amarrurtu@hotmail.com",
+                    mail: "aude_amarrurtu@hotmail.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Mettre en place une Direction des Ressources Humaines dans une TPE/PME",
+                            summary: "A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
+                        }
+                    ],
+                    tags: ["DRH","PME","TPE","création"]
+                }
+                 {
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
                     picture: "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
@@ -69,6 +88,7 @@ var data = {
                     ],
                     tags: ["Agile", "Recrutement", "Scrum", "Coach","équipe","kanban"]
                 }
+
                
             ]
                
