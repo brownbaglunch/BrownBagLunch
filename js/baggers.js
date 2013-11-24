@@ -978,6 +978,43 @@ var data = {
 
             baggers: [
                 {
+                    name: "Arnaud Tournier",
+                    bio: "Archi/Dev Full stack, CEO Lte Consulting",
+                    picture: "http://www.gravatar.com/avatar/3d45b77cce96b722c721267b65f2fbb5.png",
+                    websites: [
+                        {title: "LTE Consulting", href: "http://www.lteconsulting.fr"},
+                        {title: "GWT France blog", href: "http://gwt-france.blogspot.fr/"},
+                        {title: "LTE Consulting @ Developpez.com", href: "http://lteconsulting.developpez.com/"}
+                    ],
+                    twitter: "ltearno",
+                    contact: "arnaud.tournier [at] lteconsulting [dot] fr",
+                    mail: "arnaud.tournier@lteconsulting.fr",
+                    location: "Toulouse et agglomération",
+                    sessions: [
+                        {
+                            title: "GWT en général et en particulier",
+                            summary: "Envie d'utiliser cet outil ? Besoin de formation ? Problèmes d'architecture, de performance ?"
+                        },
+                        {
+                            title: "Faciliter le développement d'applications Web Hors-ligne avec GWT",
+                            summary: "APIs HTML5 pour l'offline, et problématiques associées. Le tout avec l'aide de GWT"
+                        },
+                        {
+                            title: "Retour d'expérience avec Google App Engine",
+                            summary: "Envie de profiter de retours d'expérience sur App Engine pour des projets industriels ?"
+                        },
+                        {
+                            title: "Architecture, performance, maintenabilité et satisfaction client",
+                            summary: "Principes généraux sur tous ces points. Au delà du buzz agile, quelle est l'attitude à adopter pour travailler AVEC vos clients au jour le jour tout en conservant une vision à long terme pour le produit développé ?"
+                        },
+                        {
+                            title: "Différences x86 / x64",
+                            summary: "Petit tour des différences, notamment en ce qui concerne les piles d'appel et le mécanismes de gestion des exceptions. Exemple avec une bibliothèque maison de détournement d'appels..."
+                        }
+                    ],
+                    tags: ["GWT", "AppEngine", "Architecture", "Java", "Performances", "Client"]
+                },
+                {
                     name: "Nicolas Deverge",
                     bio: "Facilitateur agile et développeur - ekito",
                     picture: "https://twimg0-a.akamaihd.net/profile_images/2050038189/picto.jpg",
