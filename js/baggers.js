@@ -105,10 +105,11 @@ var data = {
                 },
                 {
                     name: "Nathaniel Richand",
-                    bio: "Coach agile - Xebia",
+                    bio: "Coach agile indépendant - Entrepreneur",
                     picture: "img/baggers/photo_nathaniel.jpg",
                     websites: [
-                        {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"}
+                        {title: "AgileXPerience", href: "http://www.agilexperience.fr"},
+                        {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"},
                     ],
                     twitter: "nrichand",
                     contact: "nrichand@brownbaglunch.fr",
