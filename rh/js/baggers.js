@@ -38,7 +38,7 @@ var data = {
                 },
                 {
                     name: "Bertrand Thibert",
-                    bio: "Consultant en Intelligence des Ressources Humaines. Professeur vacataire CNAM, MBWay, Ecoris, Skema Business School & IAE Lyon 3. « L’arbre du système d’informations cache la forêt de la conduite du changement »",
+                    bio: "Consultant en Intelligence des Ressources Humaines. Professeur vacataire CNAM, MBWay, Ecoris, Skema Business School & IAE Lyon 3. «L’arbre du système d’informations cache la forêt de la conduite du changement»",
                     picture: "http://m.c.lnkd.licdn.com/media/p/7/005/01d/2d8/0e83bff.jpg",
                     websites: [
                         {title: "LinkedIn", href: "http://fr.linkedin.com/in/bertrandthibert"},
