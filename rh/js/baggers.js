@@ -37,6 +37,34 @@ var data = {
                     tags: ["Sourcing", "Coaching", "Prospection"]
                 },
                 {
+                    name: "Betty Moreau",
+                    bio: "Coach, Formatrice depuis 2008",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/1/000/11b/32d/1d1b4fa.jpg",
+                    websites: [
+                        {title: "Site web", href: "www.adretcom.fr"},
+                        {title: "LinkedIn", href: "fr.linkedin.com/pub/betty-moreau/44/761/778"},
+                    ],
+                    twitter: "AdretCom",
+                    contact: "betty.moreau@adretcom.fr",
+                    mail: "betty.moreau@adretcom.fr",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Sensibilisation au coaching individuel",
+                            summary: "Un accompagnement centré sur l’individu en situation professionnelle (Objectifs définis, approfondissement des connaissances, amélioration des performances, évaluation des changements)"
+                        },
+                        {
+                            title: "Préparation aux entretiens d'embauche",
+                            summary: "Conseil en image, prise de parole",
+                        },
+                        {
+                            title: "Sensibilisation à l'analyse comportementale",
+                            summary: "En gestion de conflits, préparation de conférences, en assessment center"
+                        }
+                    ],
+                    tags: ["Coaching", "analyse comportemantale"]
+                },
+                {
                     name: "Aude Amarrurtu",
                     bio: "Dans les Ressources Humaines depuis 8 ans, j'ai mis en place la Direction Ressources Humaines d'Arolla en 2011.",
                     picture: "http://m.c.lnkd.licdn.com/media/p/2/000/124/0dc/12a063e.jpg",
