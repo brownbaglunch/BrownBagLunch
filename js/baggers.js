@@ -312,38 +312,6 @@ var data = {
                     tags: ["JavaScript", "NodeJS", "Outils"]
                 },
                 {
-                    name: "Florent Biville",
-                    bio: "Développeur Java &amp; JS, partenaire Neo4J avec Lateral Thoughts",
-                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/6/000/295/159/0d0672b.jpg",
-                    websites: [
-                        {title: "Blog personnel", href: "http://florent.biville.net/"},
-                        {title: "Lateral Thoughts", href: "http://www.lateral-thoughts.com"}
-                    ],
-                    twitter: "fbiville",
-                    contact: "f POINT biville AT lateral TIRET thoughts POINT com",
-                    mail: "f.biville@lateral-thoughts.com",
-                    location: "Paris",
-                    sessions: [
-                        {
-                            title: "Découvrons Neo4J",
-                            summary: "Découvrons ensemble la toute-puissance de LA base de données graphe <strong>Neo4J</strong>, ses cas d'utilisation, ses différentes APIs Java, son langage de requêtage Cypher."
-                        },
-                        {
-                            title: "+ de productivité avec SpringData",
-                            summary: "Introduction à SpringData : ses motivations, son socle commun et son interfaçage avec différents stores NoSQL et relationnels (MongoDB, Neo4J, JPA...)."
-                        },
-                        {
-                            title: "Liquibase : gestionnaire de versions pour RDBMS",
-                            summary: "Vous suivez des itérations de développement courtes, mais vous devez attendre des semaines avant de pouvoir passer vos changements de schéma ? Au contraire, vous échangez vos changements de base par email ? Le temps est venu de s'industrialiser avec Liquibase. Nous verrons ensemble les notions de changesets, d'incréments  portées par Liquibase et ses différents modes d'intégration (plugin Maven, intégration avec Spring)."
-                        },
-                        {
-                            title: "AngularJS démystifié",
-                            summary: "Cette session vous permettra de bien comprendre les partis pris d'Angular, son approche originale de MVC, le scaffolding avec Yeoman, sa testabilité avec Karma et également son intégration dans un environnement AMD (RequireJS). Hé oui, AngularJS a beau être full-stack, nous verrons au travers de ce talk comment le configurer dans des environnements existants."
-                        }
-                    ],
-                    tags: ["NoSQL", "Spring", "Database", "AngularJS", "JavaScript"]
-                },
-                {
                     name: "Bernard Notarianni",
                     bio: "Créateur de logiciels et coach agile",
                     picture: "img/baggers/photo_bernard.jpg",
