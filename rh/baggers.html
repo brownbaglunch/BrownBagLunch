@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
         <![endif]-->
         
-        <style type="text/css">
+        <style type="text/css"> 
             /* Seems a bug in foundation 4 : */
             .panel.callout a{
                 color:#fff;
@@ -67,7 +67,7 @@
 
         <!-- CARTE GOOGLE MAP -->
 
-<!--        
+        
         <div class="row">
             <h1>Liste des villes et des baggers</h1>
 
@@ -80,7 +80,7 @@
             <div class="small-2 large-2 columns"></div>
         </div>
         <hr>
--->
+
         <!-- BAGGERS! -->
         <div id="bagger-details" style="margin-top: 25px;"></div>
 
@@ -111,7 +111,7 @@
 
         <script type="text/javascript">
             $(function() {
-                //createMapWithVilles(data);
+                createMapWithVilles(data);
 
                 // decorate data to alternate images
                 shuffleAndAlternateBaggers(data);
@@ -142,7 +142,7 @@
         <script id="template-bagger-details" type="text/template">
             {{#villes}}
                 <div class="ville">
-<!--
+
                     <div class="row" id="{{name}}">
                         <div class="small-12 large-12 columns">
                             <a href="#" class="ville-img"><img width="700" height="280" src="{{ville_img}}"></a>
@@ -151,7 +151,7 @@
                             {{message}}
                         </div>
                     </div>
--->
+
                     <div class="baggers">
                     {{#baggers}}
                         <div id="{{baggerId}}" class="row">
