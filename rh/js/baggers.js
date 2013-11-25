@@ -37,11 +37,38 @@ var data = {
                     tags: ["Sourcing", "Coaching", "Prospection"]
                 },
                 {
+                    name: "Bertrand Thibert",
+                    bio: "Consultant en Intelligence des Ressources Humaines. Professeur vacataire CNAM, MBWay, Ecoris, Skema Business School & IAE Lyon 3. « L’arbre du système d’informations cache la forêt de la conduite du changement »",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/7/005/01d/2d8/0e83bff.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/bertrandthibert"},
+                    ],
+                    twitter: "BertrandThibert",
+                    contact: "bertrand.thibert@lorenzandhamilton.com",
+                    mail: "bertrand.thibert@lorenzandhamilton.com",
+                    location: "Grand Lyon",
+                    sessions: [
+                        {
+                            title: "SIRH",
+                            summary: "Comment intégrer un progiciel RH dans mon entreprise ? Comment engager et mener mon projet ? Comment rédiger mon cahier des charges ? Monter mon appel d’offres ?"
+                        },
+                        {
+                            title: "Progiciels RH",
+                            summary: "Quel est l’état de l’art ? Quelles sont les nouvelles tendances en informatisation des RH (GPEC, formation, réseaux sociaux d’entreprise, e-Learning, etc.) ?"
+                        },
+                        {
+                            title: "e-Recrutement",
+                            summary: "quelles sont les bonnes pratiques (des candidats et des recruteurs) ? Comment recruter sur les réseaux sociaux ?"
+                        }
+                    ],
+                    tags: ["SIRH", "progiciels", "e-Recrutement"]
+                },
+                {
                     name: "Aude Amarrurtu",
-                    bio: "Dans les Ressources Humaines depuis 8 ans, j'ai mis en place la Direction Ressources Humaines d'Arolla à partir de 2011.",
+                    bio: "Dans les Ressources Humaines depuis 8 ans, j'ai mis en place la Direction Ressources Humaines d'Arolla en 2011.",
                     picture: "http://m.c.lnkd.licdn.com/media/p/2/000/124/0dc/12a063e.jpg",
                     websites: [
-                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/audeamarrurtu/"}
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/pub/aude-amarrurtu/11/656/792/"}
                     ],
                     twitter: "AudeAmarrurtu",
                     contact: "aude_amarrurtu@hotmail.com",
@@ -50,7 +77,7 @@ var data = {
                     sessions: [
                         {
                             title: "Mettre en place une Direction des Ressources Humaines dans une TPE/PME",
-                            summary: "A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
+                            summary: "Vous envisagez de mettre en place une direction RH dans votre TPE/PME, ou vos salariés en réclament une à cor et à cris. A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
                         }
                     ],
                     tags: ["DRH","PME","TPE","création"]
