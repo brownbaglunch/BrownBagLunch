@@ -107,8 +107,8 @@ var data = {
                         {title: "LinkedIn", href: "http://fr.linkedin.com/in/bertrandthibert"},
                     ],
                     twitter: "BertrandThibert",
-                    contact: "bertrand.thibert@lorenzandhamilton.com",
-                    mail: "bertrand.thibert@lorenzandhamilton.com",
+                    contact: "bertrand.thibert@gmail.com",
+                    mail: "bertrand.thibert@gmail.com",
                     location: "Grand Lyon",
                     sessions: [
                         {
