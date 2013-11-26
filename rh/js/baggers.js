@@ -77,8 +77,8 @@ var data = {
                     location: "Paris",
                     sessions: [
                         {
-                            title: "Mettre en place une Direction des Ressources Humaines dans une TPE/PME",
-                            summary: "Vous envisagez de mettre en place une direction RH dans votre TPE/PME, ou vos salariés en réclament une à cor et à cris. A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
+                            title: "Mettre en place une Direction des Ressources Humaines dans une TPE/PME/start up",
+                            summary: "Vous envisagez de mettre en place une direction RH dans votre TPE/PME/start up, ou vos salariés en réclament une à cor et à cris. A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
                         }
                     ],
                     tags: ["DRH","PME","TPE","création"]
