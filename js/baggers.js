@@ -911,11 +911,11 @@ var data = {
                             summary: "Découvrez Spring Batch, sa simplicité, les concepts de bases jusqu’aux notions les plus avancées. Tout tout tout, vous saurez tout sur Spring Batch!"
                         },
                         {
-                            title: "Monitoring: regarder votre application à la loupe!",
-                            summary: "Regarder fonctionner votre application sous toutes les coutures: faites mieux que vos sysadmins!;)<br />Nous verrons comment alimenter Graphite, un excellent outil de métrologie, dans une architecture java <small>(je peux m'adapter à vote langage)</small>: collectd, jmxtrans, metrics, statsd,.. afin de prendre des mesures au niveau du système, de l'applicatif, des batchs et du métier (KPI). Nous aborderons ensuite la corrélation tous ces métriques de façon très visuelle et comment réveiller vos sysadmins en cas d'urgence ;)"
+                            title: "Monitoring: regarder votre application à la loupe et sous toutes les coutures!",
+                            summary: "Nous verrons comment alimenter Graphite, un excellent outil de métrologie, dans une architecture java (ou autres): collectd, jmxtrans, metrics, statsd,.. afin de prendre des mesures au niveau du système, de l'applicatif, des batchs et du métier (KPI). Nous aborderons ensuite la corrélation tous ces métriques de façon très visuelle et comment réveiller vos sysadmins en cas d'urgence ;)"
                         }
                     ],
-                    tags: ["Présentation", "Java", "Spring", "Batch", "Integration", "Graphite", "Monitoring", "Métrique", "KPI", "collectd", "jmxtrans", "statsd"]
+                    tags: ["Présentation", "Java", "Spring", "Batch", "Integration", "Graphite", "Monitoring", "Métrique", "KPI", "collectd", "jmxtrans", "statsd", "devops", "ops", "sysadmin"]
                 },
                 {
                     name: "Stéphane LANDELLE",
