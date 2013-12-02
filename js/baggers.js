@@ -936,6 +936,42 @@ var data = {
                         }
                     ],
                     tags: ["Présentation", "Gatling", "Test", "Stress", "Load", "Scala"]
+                },
+                {
+                    name: "Raphaël Luta",
+                    bio: "Consultant technique indépendant, web et (big) data. Performance geek.",
+                    picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/06e/358/0cab12d.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/raphaelluta/"},
+                        {title: "Aptiwan", href: "http://www.aptiwan.com"}
+                    ],
+                    twitter: "raphaelluta",
+                    contact: "raphael.luta [at] aptiwan.com",
+                    mail: "raphael.luta@aptiwan.com",
+                    location: "Paris et proche couronne",
+                    sessions: [
+                        {
+                            title: "Performance applicative: impact du réseau",
+                            summary: "Pour des développeurs ou architectes, introduction au fonctionnement des réseaux et leur impact sur l'architecture et la performance des applications"
+                        },
+                        {
+                            title: "Amélioration des performances d'un site web",
+                            summary: "Présentation des principales contraintes limitant la performance actuelle du web, les outils de mesure et les bonnes pratiques générales à mettre en oeuvre"
+                        },
+                        {
+                            title: "HTTP Next Generation",
+                            summary: "Présentation des nouveaux protocoles du Web: SPDY, HTTP/2.0, SSE... et leurs impacts sur les sites et applications existantes pour utiliser au mieux leurs capacités"
+                        },
+                        {
+                            title: "Mon mobile, le web et moi",
+                            summary: "Les caractéristiques spécifiques du web mobile et des recommandations pour obtenir la meilleure expérience client"
+                        },
+                        {
+                            title: "Discussions informelles",
+                            summary: "Autour des problèmes web: architecture infrastructure et applicative, performance, mesure et analyse des données"
+                        }
+                    ],
+                    tags: ["Web", "Performance", "Tuning", "Apache", "Mobile"]
                 }
             ]
         },
