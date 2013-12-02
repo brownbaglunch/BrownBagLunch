@@ -91,7 +91,7 @@ var data = {
                         },
                         {
                             title: "Préparation aux entretiens d'embauche",
-                            summary: "Conseil en image, prise de parole",
+                            summary: "Conseil en image, prise de parole"
                         },
                         {
                             title: "Sensibilisation à l'analyse comportementale",
