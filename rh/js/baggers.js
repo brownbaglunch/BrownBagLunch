@@ -22,7 +22,7 @@ var data = {
                     sessions: [
                         {
                             title: "Evaluation en recrutement",
-                            summary: "Echanger sur les méthodes : structurer un entretien, créer des mises en situation. "
+                            summary: "Echanger sur les méthodes : structurer un entretien, créer des mises en situation."
                         },
                         {
                             title: "Objectivisation du processus de recrutement",
@@ -30,7 +30,7 @@ var data = {
                         },
                         {
                             title: "L’UX chez le candidat",
-                            summary: "Comment garantir une bonne expérience candidat face à un processus de recrutement ? "
+                            summary: "Comment garantir une bonne expérience candidat face à un processus de recrutement ?"
                         },
                         {
                             title: "Evaluation du potentiel",
@@ -38,7 +38,7 @@ var data = {
                         },
                         {
                             title: "Recrutement international",
-                            summary: "Comment recruter hors des frontières ? "
+                            summary: "Comment recruter hors des frontières ?"
                         }
                     ],
                     tags: ["Recrutement", "Evaluation", "Potentiel"]
