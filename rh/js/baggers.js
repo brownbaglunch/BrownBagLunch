@@ -8,6 +8,42 @@ var data = {
 
             baggers: [
                 {
+                    name: "Jean-Marie Caillaud",
+                    bio: "Psychologue du travail et Consultant en recrutement international",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/2/000/048/365/3b78995.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/jmcaillaud/"},
+                        {title: "Blog", href: "http://recruteur.wordpress.com"}
+                    ],
+                    twitter: "JMCaillaud",
+                    contact: "jmcaillaud@gmail.com",
+                    mail: "jmcaillaud@gmail.com",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Evaluation en recrutement",
+                            summary: "Echanger sur les méthodes : structurer un entretien, créer des mises en situation. "
+                        },
+                        {
+                            title: "Objectivisation du processus de recrutement",
+                            summary: "Comment éviter les biais de recrutement et limiter les doutes ?"
+                        },
+                        {
+                            title: "L’UX chez le candidat",
+                            summary: "Comment garantir une bonne expérience candidat face à un processus de recrutement ? "
+                        }
+                        {
+                            title: "Evaluation du potentiel",
+                            summary: "Comment évaluer quelqu’un sur des compétences qu’il ne possède pas (encore) ?"
+                        },
+                        {
+                            title: "Recrutement international",
+                            summary: "Comment recruter hors des frontières ? "
+                        },
+                    ],
+                    tags: ["Recrutement", "Evaluation", "Potentiel"]
+                },
+                {
                     name: "Shirley Almosni",
                     bio: "Chasseur de tête dans la jungle de l’IT avec ses moutons à 5 pattes, ses pythons, ses perles rares certifiées Ruby, et C++ encore…",
                     picture: "img/ShirleyAlmosni.jpg",
