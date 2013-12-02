@@ -31,7 +31,7 @@ var data = {
                         {
                             title: "L’UX chez le candidat",
                             summary: "Comment garantir une bonne expérience candidat face à un processus de recrutement ? "
-                        }
+                        },
                         {
                             title: "Evaluation du potentiel",
                             summary: "Comment évaluer quelqu’un sur des compétences qu’il ne possède pas (encore) ?"
