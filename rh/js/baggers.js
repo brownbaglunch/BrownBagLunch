@@ -39,7 +39,7 @@ var data = {
                         {
                             title: "Recrutement international",
                             summary: "Comment recruter hors des frontières ? "
-                        },
+                        }
                     ],
                     tags: ["Recrutement", "Evaluation", "Potentiel"]
                 },
