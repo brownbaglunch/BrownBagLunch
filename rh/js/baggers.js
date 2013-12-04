@@ -73,6 +73,26 @@ var data = {
                     tags: ["Recrutement", "Evaluation", "Potentiel"]
                 },
                 {
+                    name: "Anne van der Weide",
+                    bio: "RH en temps partagé et spécialiste des risques psycho-sociaux",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/3/000/0a2/30c/24f4a58.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/in/annevanderweide"},
+                        {title: "Aliaz", href: "http://aliaz.com/anne-vanderweide"},
+                        {title: "Blog", href: "http://annelecrivainrh.wordpress.com/"}
+                    ],
+                    contact: "Vanderweide.anne@neuf.fr",
+                    mail: "Vanderweide.anne@neuf.fr",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Sensibilisation aux risques psycho-sociaux",
+                            summary: "Echange autour des risques psycho-sociaux, comment les aborder et les prendre en compte en entreprise"
+                        },
+                    ],
+                    tags: ["risques psycho-sociaux"]
+                },
+                {
                     name: "Betty Moreau",
                     bio: "Coach, Formatrice depuis 2008",
                     picture: "http://m.c.lnkd.licdn.com/media/p/1/000/11b/32d/1d1b4fa.jpg",
