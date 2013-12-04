@@ -43,28 +43,33 @@
 
     <body>
 
-        <nav class="top-bar">
+        <div class="sticky">
+          <nav class="top-bar" data-topbar>
             <ul class="title-area">
-                <li class="name"><h1><a href="/">Brown Bag Lunch France</a></h1></li>
+              <li class="name">
+                <h1><a href="/">Brown Bag Lunch France</a></h1>
+              </li>
             </ul>
 
             <section class="top-bar-section">
-                <ul class="left">
-                    <li class="divider"></li>
-                    <li class="active"><a href="index.html"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></li>
-                </ul>
+              <!-- Right Nav Section -->
+              <ul class="right">
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                  <a href="#">Baggers</a>
+                  <ul class="dropdown" id="bagger-menuitem"></ul>
+                </li>
+              </ul>
 
-                <ul class="right">
-                    <li class="divider"></li>
-
-                    <li class="has-dropdown not-click">
-                        <a href="#">Baggers</a>
-                        <ul class="dropdown" id="bagger-menuitem"></ul>
-                    </li>
-                </ul>
+              <!-- Left Nav Section -->
+              <ul class="left">
+                <li class="divider"></li>
+                <li><a href="/"><i class="icon-lightbulb"></i> Comment ça fonctionne?</a></li>
+              </ul>
             </section>
-        </nav>
-
+          </nav>
+        </div>
+  
         <!-- CARTE GOOGLE MAP -->
         <div class="row">
             <h1>Liste des villes et des baggers</h1>
