@@ -7,7 +7,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Brown Bag Lunch France</title>
+        <title>Brown Bag Lunch France - Baggers</title>
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/css/foundation.css" media="screen">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.2.3/css/normalize.css" media="screen">
@@ -43,28 +43,34 @@
 
     <body>
 
-        <nav class="top-bar">
+        <div class="sticky">
+          <nav class="top-bar" data-topbar>
             <ul class="title-area">
-                <li class="name"><h1><a href="/">Brown Bag Lunch France</a></h1></li>
+              <li class="name">
+                <h1><a href="index.html">Brown Bag Lunch France</a></h1>
+              </li>
             </ul>
 
             <section class="top-bar-section">
-                <ul class="left">
-                    <li class="divider"></li>
-                    <li class="active"><a href="index.html"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></li>
-                </ul>
+              <!-- Right Nav Section -->
+              <ul class="right">
+                <li><a href="locations.html"><i class="icon-globe"></i> Où proposer un BBL ?</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                  <a href="#">Baggers</a>
+                  <ul class="dropdown" id="bagger-menuitem"></ul>
+                </li>
+              </ul>
 
-                <ul class="right">
-                    <li class="divider"></li>
-
-                    <li class="has-dropdown not-click">
-                        <a href="#">Baggers</a>
-                        <ul class="dropdown" id="bagger-menuitem"></ul>
-                    </li>
-                </ul>
+              <!-- Left Nav Section -->
+              <ul class="left">
+                <li class="divider"></li>
+                <li><a href="index.html"><i class="icon-lightbulb"></i> Comment ça fonctionne?</a></li>
+              </ul>
             </section>
-        </nav>
-
+          </nav>
+        </div>
+  
         <!-- CARTE GOOGLE MAP -->
         <div class="row">
             <h1>Liste des villes et des baggers</h1>
@@ -83,13 +89,13 @@
         <div id="bagger-details" style="margin-top: 25px;"></div>
 
         <footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
-            <div class="row">
-                <strong>
-                    Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
-                    <a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
-                    <a style="color: yellow;" href="https://twitter.com/bbl_fr"> <i class="icon-twitter"></i> @bbl_fr</a>
-                </strong>
-            </div>
+          <div class="row">
+            <strong>
+              Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
+              <a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
+                       | <a style="color: yellow;" href="https://twitter.com/bbl_fr"><i class="icon-twitter"></i> @bbl_fr</a>
+            </strong>
+          </div>
         </footer>
 
         <!-- Included JS Files -->
@@ -181,7 +187,7 @@
                                         </div>
 
                                         <div class="small-6 large-6 columns">
-                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose</span>
                                             <ul class="icons">
                                                 {{#sessions}}
                                                     <li>
@@ -190,7 +196,7 @@
                                                     </li>
                                                 {{/sessions}}
                                             </ul>
-                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux</span>
                                             <p><i class="icon-globe"></i> {{location}}</p>
                                         </div>
                                     </div>
