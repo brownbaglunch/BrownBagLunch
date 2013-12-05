@@ -61,11 +61,7 @@
                 <li class="divider"></li>
                 <li class="has-dropdown">
                   <a href="#">BBL Hôtes</a>
-                  <ul class="dropdown" id="bblNavigationBar">
-                    {{#locations}}
-                        <li><a href="#{{pseudo}}">{{name}}</a></li>
-                    {{/locations}}
-                  </ul>
+                  <ul class="dropdown" id="location-menuitem"></ul>
                 </li>
               </ul>
 
@@ -97,52 +93,7 @@
     </div>
 
     <!-- BBL Hotes -->
-    <div id="bblDetails">
-        {{#locations}}
-            <a id="{{pseudo}}"></a>
-            <div id="{{pseudo}}_box" class="row">
-                {{^paire}}
-                    <div class="small-2 large-4 columns">
-                        <img src="{{picture}}">
-                    </div>
-                {{/paire}}
-                <div class="small-10 large-8 columns">
-                    <div class="panel {{#paire}}callout{{/paire}} radius">
-                        <h4>{{name}}</h4>
-
-                        <div class="row">
-
-                            <div class="small-6 large-6 columns">
-                                <p>{{{bio}}}</p>
-                                <p><a href="{{website}}"><i class="icon-external-link"></i> {{website}}</a></p>
-                                <p><i class="icon-globe"></i> Localisation: {{address}}</p>
-                                <p><i class="icon-envelope"></i> Infos et contact : {{{contact}}}</p>
-                            </div>
-
-                            <div class="small-6 large-6 columns">
-                                <span class="{{#paire}}secondary{{/paire}} round label">Centres d'intérêts</span>
-                                <ul class="icons">
-                                    {{#interests}}
-                                        <li><i class="icon-caret-right"></i> <strong>{{.}}</strong></li>
-                                    {{/interests}}
-                                </ul>
-                                <span class="{{#paire}}secondary{{/paire}} round label">Audience</span>
-                                <ul class="icons">
-                                    <li><i class="icon-sitemap"></i> {{audience.profiles}}</li>
-                                    <li><i class="icon-group"></i> {{audience.number}}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{#paire}}
-                    <div class="small-2 large-4 columns">
-                        <img src="{{picture}}">
-                    </div>
-                {{/paire}}
-            </div>
-        {{/locations}}
-    </div>
+    <div id="location-details"></div>
 
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -151,8 +102,9 @@
     <script type="text/javascript">
         $('#map_canvas').gmap({'callback': function() {
             var self = this; // we can't use "this" inside the click function (that refers to the marker object in this example)
-            for (var index = 0; index < bblLocationsData.locations.length; index++) {
-                var loc = bblLocationsData.locations[index];
+            var data = bblLocationsData;
+            for (var index = 0; index < data.locations.length; index++) {
+                var loc = data.locations[index];
                 self.addMarker({
                     'position': loc.gps,
                     'name': loc.name,
@@ -184,24 +136,68 @@
             $(document).foundation();
         </script>
 
+        <script id="template-location-menuitem" type="text/template">
+            {{#locations}}
+                <li><a href="#{{pseudo}}">{{name}}</a></li>
+            {{/locations}}
+        </script>
+
+        <script id="template-location-details" type="text/template">
+            {{#locations}}
+                <a id="{{pseudo}}"></a>
+                <div id="{{pseudo}}_box" class="row">
+                    {{^paire}}
+                        <div class="small-2 large-4 columns">
+                            <img src="{{picture}}" alt="[photo]">
+                        </div>
+                    {{/paire}}
+                    <div class="small-10 large-8 columns">
+                        <div class="panel {{#paire}}callout{{/paire}} radius">
+                            <h4>{{name}}</h4>
+
+                            <div class="row">
+
+                                <div class="small-6 large-6 columns">
+                                    <p>{{{bio}}}</p>
+                                    <p><a href="{{website}}"><i class="icon-external-link"></i> {{website}}</a></p>
+                                    <p><i class="icon-globe"></i> Localisation: {{address}}</p>
+                                    <p><i class="icon-envelope"></i> Infos et contact : {{{contact}}}</p>
+                                </div>
+
+                                <div class="small-6 large-6 columns">
+                                    <span class="{{#paire}}secondary{{/paire}} round label">Centres d'intérêts</span>
+                                    <ul class="icons">
+                                        {{#interests}}
+                                            <li><i class="icon-caret-right"></i> <strong>{{.}}</strong></li>
+                                        {{/interests}}
+                                    </ul>
+                                    <span class="{{#paire}}secondary{{/paire}} round label">Audience</span>
+                                    <ul class="icons">
+                                        <li><i class="icon-sitemap"></i> {{audience.profiles}}</li>
+                                        <li><i class="icon-group"></i> {{audience.number}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{#paire}}
+                        <div class="small-2 large-4 columns">
+                            <img src="{{picture}}" alt="[photo]">
+                        </div>
+                    {{/paire}}
+                </div>
+            {{/locations}}
+        </script>
+
         <script type="text/javascript">
             // decorate data
-            for (var locationIndex = 0; locationIndex < bblLocationsData['locations'].length; locationIndex++) {
-                bblLocationsData['locations'][locationIndex]['paire'] = (locationIndex % 2 == 1);
+            var data = bblLocationsData;
+            for (var locationIndex = 0; locationIndex < data['locations'].length; locationIndex++) {
+                data['locations'][locationIndex]['paire'] = (locationIndex % 2 == 1);
             }
 
-            //get the templates
-            var templateHeader=document.getElementById('bblNavigationBar').innerHTML;
-            var templateBaggers=document.getElementById('bblDetails').innerHTML;
-
-            //render the template with given data
-            var htmlHeader=Mustache.to_html(templateHeader, bblLocationsData);
-            var htmlDetails=Mustache.to_html(templateBaggers, bblLocationsData);
-
-            //put the render result on the screen
-            document.getElementById('bblNavigationBar').innerHTML=htmlHeader;
-            document.getElementById('bblDetails').innerHTML=htmlDetails;
-
+            $('#location-menuitem').html(Mustache.to_html($('#template-location-menuitem').html(), data));
+            $('#location-details').html(Mustache.to_html($('#template-location-details').html(), data));
         </script>
 
     </body>
