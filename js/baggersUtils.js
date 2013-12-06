@@ -79,7 +79,7 @@ function displayContactModalWindowMail() {
     });
 }
 
-function filter_baggers(fun) {
+function filter_baggers(data, fun) {
   var matches = [];
   var cities = data.villes;
   for (var i in cities) {
@@ -93,7 +93,7 @@ function filter_baggers(fun) {
   return matches;
 }
 
-function walk_baggers_until(fun) {
+function walk_baggers_until(data, fun) {
   var cities = data.villes;
   for (var i in cities) {
     var city = cities[i];
@@ -105,13 +105,13 @@ function walk_baggers_until(fun) {
   }
 }
 
-function get_bagger_by_name(name) {
-  return walk_baggers_until(function(bagger) {
+function get_bagger_by_name(data, name) {
+  return walk_baggers_until(data, function(bagger) {
     return !bagger.ref_ville;
   });
 }
 
-function get_city_by_name(name) {
+function get_city_by_name(data, name) {
   var cities = data.villes;
   for (var i in cities) {
     var city = cities[i];
@@ -119,14 +119,13 @@ function get_city_by_name(name) {
   }
 }
 
-function get_denormalized_data() {
-  walk_baggers_until(function(bagger) {
+function denormalize_data(data) {
+  walk_baggers_until(data, function(bagger) {
     if (bagger.ref_ville) {
-      var ref_bagger = get_bagger_by_name(bagger.name);
+      var ref_bagger = get_bagger_by_name(data, bagger.name);
       for (var k in ref_bagger) {
         bagger[k] = ref_bagger[k];
       }
     }
   });
-  return data;
 }
