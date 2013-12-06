@@ -78,3 +78,33 @@ function displayContactModalWindowMail() {
         });
     });
 }
+
+function walk_baggers_until(fun) {
+  var cities = data.villes;
+  for (var i in cities) {
+    var city = cities[i];
+    var baggers = city.baggers;
+    for (var j in baggers) {
+      var bagger = baggers[j];
+      if (fun(bagger)) return bagger;
+    }
+  }
+}
+
+function get_bagger_by_name(name) {
+  return walk_baggers_until(function(bagger) {
+    return !bagger.ref_ville;
+  });
+}
+
+function get_denormalized_data() {
+  walk_baggers_until(function(bagger) {
+    if (bagger.ref_ville) {
+      var ref_bagger = get_bagger_by_name(bagger.name);
+      for (var k in ref_bagger) {
+        bagger[k] = ref_bagger[k];
+      }
+    }
+  });
+  return data;
+}
