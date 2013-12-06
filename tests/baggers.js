@@ -17,13 +17,8 @@ test('if there is a ref_ville, it is valid', function() {
   if (matches.length) {
     for (var i in matches) {
       var bagger = matches[i];
-      ok(function() {
-        var cities = data.villes;
-        for (var i in cities) {
-          var city = cities[i];
-          if (city.name == bagger.ref_ville) return 1;
-        }
-      }(), 'ref_ville ' + bagger.ref_ville + ' is valid');
+      var name = bagger.ref_ville;
+      ok(get_city_by_name(name), 'ref_ville ' + name + ' is valid');
     }
   } else {
     ok('no baggers with ref_ville');

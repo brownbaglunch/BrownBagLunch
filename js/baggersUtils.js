@@ -111,6 +111,14 @@ function get_bagger_by_name(name) {
   });
 }
 
+function get_city_by_name(name) {
+  var cities = data.villes;
+  for (var i in cities) {
+    var city = cities[i];
+    if (city.name == name) return city;
+  }
+}
+
 function get_denormalized_data() {
   walk_baggers_until(function(bagger) {
     if (bagger.ref_ville) {
