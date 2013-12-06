@@ -972,6 +972,33 @@ var data = {
                         }
                     ],
                     tags: ["Web", "Performance", "Tuning", "Apache", "Mobile"]
+                },
+                {
+                    name: "Loïc Knuchel",
+                    bio: "Développeur freelance passionné et organisateur des @HumanTalksParis. Je m'intéresse à l'accès, la compréhension et l'exploitation des données, au web moderne et à l'expérience utilisateur",
+                    picture: "https://gravatar.com/avatar/f755e6e8914df5cbaa74d30dd7de1ae2.png?size=256",
+                    websites: [
+                        { title: "Blog perso", href: "http://loic.knuchel.org/blog/"}
+                    ],
+                    twitter: "loicknuchel",
+                    contact: "loicknuchel [at] gmail.com",
+                    mail: "loicknuchel@gmail.com",
+                    location: "Paris et à proximité",
+                    sessions: [
+                        {
+                            title: "Des recommandations au service du business",
+                            summary: "Découvrez en quoi les systèmes de recommandations peuvent être utile pour votre business. Dans cette présentation, non technique, je fais un tour rapide de ce que sont les systèmes de recommandations et de ce que l'on peut en attendre."
+                        },
+                        {
+                            title: "Refactoring, de l'impératif au fonctionnel",
+                            summary: "Dans cette présentation je ferai un refactoring de code scala écrit en mode impératif ('Java style') pour le transformer en code fonctionnel. Cela permettra de passer en revue les principales fonctionnalités des langages fonctionnels et de scala en particulier"
+                        },
+                        {
+                            title: "Sujet sur commande",
+                            summary: "Sujets autour de Java, Scala, MongoDB, Neo4j, les applications web, les systèmes de recommandation, le machine learning..."
+                        }
+                    ],
+                    tags: ["Java", "Scala", "Web", "NoSQL", "Recommender systems", "Machine learning"]
                 }
             ]
         },
