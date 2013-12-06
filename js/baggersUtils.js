@@ -79,6 +79,20 @@ function displayContactModalWindowMail() {
     });
 }
 
+function filter_baggers(fun) {
+  var matches = [];
+  var cities = data.villes;
+  for (var i in cities) {
+    var city = cities[i];
+    var baggers = city.baggers;
+    for (var j in baggers) {
+      var bagger = baggers[j];
+      if (fun(bagger)) matches.push(bagger);
+    }
+  }
+  return matches;
+}
+
 function walk_baggers_until(fun) {
   var cities = data.villes;
   for (var i in cities) {

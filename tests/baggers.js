@@ -11,17 +11,20 @@ test('there are baggers in each data.villes.baggers', function() {
 });
 
 test('if there is a ref_ville, it is valid', function() {
-  var bagger = walk_baggers_until(function(bagger) {
+  var matches = filter_baggers(function(bagger) {
     return bagger.ref_ville;
   });
-  if (bagger) {
-    ok(function() {
-      var cities = data.villes;
-      for (var i in cities) {
-        var city = cities[i];
-        if (city.name == bagger.ref_ville) return 1;
-      }
-    }(), 'ref_ville ' + bagger.ref_ville + ' is valid');
+  if (matches.length) {
+    for (var i in matches) {
+      var bagger = matches[i];
+      ok(function() {
+        var cities = data.villes;
+        for (var i in cities) {
+          var city = cities[i];
+          if (city.name == bagger.ref_ville) return 1;
+        }
+      }(), 'ref_ville ' + bagger.ref_ville + ' is valid');
+    }
   } else {
     ok('no baggers with ref_ville');
   }
