@@ -41,3 +41,30 @@ test('attributes correctly copied from ref_ville', function() {
   denormalize_data(data);
   ok(jack_in_tokyo.contact, 'Jack has .contact field in denormalized data');
 });
+
+function get_any_dup(data) {
+  var unique_users = [];
+  return walk_baggers_until(data, function(bagger) {
+    var key = bagger.name + bagger.contact;
+    if (unique_users.indexOf(key) == -1) {
+      unique_users.push(key);
+    } else {
+      return bagger;
+    }
+  });
+}
+
+test('no dups in original data', function() {
+  var bagger = get_any_dup(data);
+  ok(!bagger, 'no dups');
+});
+
+test('dups in denormalized data', function() {
+  var data = { villes: [
+    { name: "Paris", baggers: [ { name: "Jack", contact: "somewhere" } ] },
+    { name: "Tokyo", baggers: [ { name: "Jack", ref_ville: "Paris" } ] }
+  ] };
+  denormalize_data(data);
+  var bagger = get_any_dup(data);
+  ok(bagger, bagger.name + ' has a dup');
+});
