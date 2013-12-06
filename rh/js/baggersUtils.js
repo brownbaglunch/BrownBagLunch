@@ -107,7 +107,7 @@ function walk_baggers_until(data, fun) {
 
 function get_bagger_by_name(data, name) {
   return walk_baggers_until(data, function(bagger) {
-    return !bagger.ref_ville;
+    return bagger.name == name && !bagger.ref_ville;
   });
 }
 
