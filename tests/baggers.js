@@ -10,6 +10,17 @@ test('there are baggers in each data.villes.baggers', function() {
   }
 });
 
+test('get_bagger_by_name', function() {
+  ok(!get_bagger_by_name(data, 'nonexistent'), 'no bagger named "nonexistent"');
+  var dummy = { villes: [
+    { name: "Paris", baggers: [ { name: "Jack", contact: "somewhere" } ] },
+    { name: "Tokyo", baggers: [ { name: "Mike", ref_ville: "Paris" } ] },
+    { name: "Kyoto", baggers: [ { name: "Fred", ref_ville: "Osaka" } ] }
+  ] };
+  ok(!get_bagger_by_name(dummy, 'Mike'), 'bagger with ref_ville is ignored');
+  ok(!get_bagger_by_name(dummy, 'Fred'), 'bagger with ref_ville is ignored');
+});
+
 test('if there is a ref_ville, it is valid', function() {
   var matches = filter_baggers(data, function(bagger) {
     return bagger.ref_ville;
