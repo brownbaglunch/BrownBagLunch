@@ -24,3 +24,7 @@ test('if there is a ref_ville, it is valid', function() {
     ok('no baggers with ref_ville');
   }
 });
+
+test('invalid ref_ville should fail', function() {
+  ok(!get_city_by_name('invalid'), 'no city named "invalid"');
+});
