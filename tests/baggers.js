@@ -28,3 +28,16 @@ test('if there is a ref_ville, it is valid', function() {
 test('invalid ref_ville should fail', function() {
   ok(!get_city_by_name(data, 'invalid'), 'no city named "invalid"');
 });
+
+test('attributes correctly copied from ref_ville', function() {
+  var data = { villes: [
+    { name: "Paris", baggers: [ { name: "Jack", contact: "somewhere" } ] },
+    { name: "Tokyo", baggers: [ { name: "Jack", ref_ville: "Paris" } ] }
+  ] };
+  ok(get_city_by_name(data, "Paris"));
+  ok(get_city_by_name(data, "Tokyo"));
+  var jack_in_tokyo = data.villes[1].baggers[0];
+  ok(!jack_in_tokyo.contact, 'Jack has no .contact field in original data');
+  denormalize_data(data);
+  ok(jack_in_tokyo.contact, 'Jack has .contact field in denormalized data');
+});
