@@ -97,8 +97,8 @@ var data = {
                     bio: "Coach, Formatrice depuis 2008",
                     picture: "http://m.c.lnkd.licdn.com/media/p/1/000/11b/32d/1d1b4fa.jpg",
                     websites: [
-                        {title: "Site web", href: "www.adretcom.fr"},
-                        {title: "LinkedIn", href: "fr.linkedin.com/pub/betty-moreau/44/761/778"},
+                        {title: "Site web", href: "http://www.adretcom.fr"},
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/pub/betty-moreau/44/761/778"},
                     ],
                     twitter: "AdretCom",
                     contact: "betty.moreau@adretcom.fr",
