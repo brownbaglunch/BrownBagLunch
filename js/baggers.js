@@ -1366,6 +1366,33 @@ var data = {
                         }
                     ],
                     tags: ["Agile", "Coaching"]
+                },
+                {
+                    name: "Julien Fallet",
+                    bio: "Agilitateur, éCoLibriste",
+                    picture: "https://fr.gravatar.com/userimage/37627617/5b0c894dfb86cd8c91df840773eed7c3.jpeg",
+                    websites: [
+                        {title: "Rencontres agiles", href: "jfallet.wordpress.com/"},
+                        {title: "Blog Technique SII Ouest", href: "http://blog.sii-ouest.fr/"}
+                    ],
+                    contact: "jfallet.pro@gmail.com",
+                    mail: "jfallet.pro@gmail.com",
+                    location: "Rennes et alentours, possibilités sur la Bretagne",
+                    sessions: [
+                        {
+                            title: "Le développement logiciel avec les méthodes agiles",
+                            summary: "Comprendre ce que les méthodes agiles souhaitent apporter au dévelopement logiciel (Equipe, Produit, Communication)"
+                        },
+                        {
+                            title: "Améliorer vos pratiques grace au kanban",
+                            summary: "Découvrir les principes kanban et comment ils peuvent améliorer vos pratiques actuelles sans rupture forte"
+                        },
+                        {
+                            title: "Vin et kanban",
+                            summary: "Découvrir le Lean et le Kanban a travers le management de ma cave à vin, ou comment améliorer un produit ou un processus."
+                        }
+                    ],
+                    tags: ["Agile", "Scrum", "Kanban", "Produit", "Product Owner"]
                 }
             ]
         },
