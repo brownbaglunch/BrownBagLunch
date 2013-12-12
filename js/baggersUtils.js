@@ -35,7 +35,7 @@ function shuffleAndAlternateBaggers(villesAndBaggers){
              var bagger = ville.baggers[baggerIndex];
              bagger.paire = (baggerIndex % 2 === 1);
              // On n'utilise plus encodeURIComponent, car cela pose un souci avec le dropdown + Mustache (les liens ne marchent plus)
-             bagger.baggerId = bagger.name.replace(/ /g, '_');
+             bagger.baggerId = (bagger.name + ' ' + ville.name).replace(/ /g, '_');
          }
      });
 }
