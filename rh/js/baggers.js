@@ -59,7 +59,7 @@ var data = {
                         {
                             title: "Rester objectif dans son évaluation",
                             summary: "Comment éviter les biais de recrutement et se détacher des filtres culturels et stéréotypes ?"
-                        }
+                        },
                         {
                             title: "Soigner votre image",
                             summary: "Ou l'importance de soigner votre candidat, ambassadeur de votre image sur le marché"
