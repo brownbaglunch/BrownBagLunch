@@ -49,7 +49,7 @@ var data = {
                     location: "Paris",
                     sessions: [
                         {
-                            title: "Construire son entretien ",
+                            title: "Construire son entretien",
                             summary: "Échanger sur les méthodes d'évaluation : comment structurer un entretien"
                         },
                         {
