@@ -8,6 +8,41 @@ var data = {
 
             baggers: [
                 {
+                    name: "Nicolas Robin",
+                    bio: "Consultant en recrutement spécialisé dans les métiers Sales, Marketing et Digital",
+                    picture: "http://m.c.lnkd.licdn.com/media/p/3/000/1f4/247/2b2f6e1.jpg",
+                    websites: [
+                        {title: "LinkedIn", href: "http://fr.linkedin.com/pub/nicolas-robin/17/41a/184"},
+                        {title: "Site web d'entreprise", href: "http://www.morganmckinley.fr/fr/consultant/nicolas-robin"}
+                    ],
+                    contact: "nrobin@morganmckinley.fr",
+                    mail: "nrobin@morganmckinley.fr",
+                    location: "Paris",
+                    sessions: [
+                        {
+                            title: "Construire son entretien",
+                            summary: "Échanger sur les méthodes d'évaluation : comment structurer un entretien"
+                        },
+                        {
+                            title: "Évaluation en recrutement",
+                            summary: "Comment bien définir les compétences à évaluer, et comment les évaluer en entretien"
+                        },
+                        {
+                            title: "Rester objectif dans son évaluation",
+                            summary: "Comment éviter les biais de recrutement et se détacher des filtres culturels et stéréotypes ?"
+                        },
+                        {
+                            title: "Soigner votre image",
+                            summary: "Ou l'importance de soigner votre candidat, ambassadeur de votre image sur le marché"
+                        },
+                        {
+                            title: "Évaluation du potentiel",
+                            summary: "Comment évaluer un candidat sur des compétences qu’il ne possède pas (encore) ?"
+                        }
+                    ],
+                    tags: ["Recrutement", "Entretien", "Evaluation", "Image", "Potentiel"]
+                },
+                {
                     name: "Shirley Almosni",
                     bio: "Chasseur de tête dans la jungle de l’IT avec ses moutons à 5 pattes, ses pythons, ses perles rares certifiées Ruby, et C++ encore…",
                     picture: "img/ShirleyAlmosni.jpg",
@@ -36,7 +71,6 @@ var data = {
                     ],
                     tags: ["Sourcing", "Coaching", "Prospection"]
                 },
-                
                 {
                     name: "Jean-Marie Caillaud",
                     bio: "Psychologue du travail et Consultant en recrutement international",
@@ -140,7 +174,7 @@ var data = {
                     ],
                     tags: ["DRH","PME","TPE","création"]
                 },
-                 {
+                {
                     name: "Ameur Yannick",
                     bio: "Coach, Formateur Agile, Facilitateur",
                     picture: "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
