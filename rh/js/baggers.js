@@ -20,24 +20,28 @@ var data = {
                     location: "Paris",
                     sessions: [
                         {
-                            title: "Construire son entretien",
-                            summary: "Échanger sur les méthodes d'évaluation: comment structurer un entretien"
+                            title: "Construire son entretien quand on est recruteur",
+                            summary: "Optimiser l'heure d'entretien pour récupérer toutes les informations indispensables pour évaluer un candidat et faire un compte rendu précis aux opérationnels"
                         },
                         {
-                            title: "Évaluation en recrutement",
-                            summary: "Comment bien définir les compétences à évaluer, et comment les évaluer en entretien"
+                            title: "Évaluation des compétences",
+                            summary: "Comment construire sa fiche de poste et bien définir les compétences à évaluer"
+                        },
+                        {
+                            title: "Comment évaluer des compétences?",
+                            summary: "Les différentes méthodes d'évaluation des compétences"
+                        },
+                        {
+                            title: "Se retrouver parmi les différents tests de personnalité",
+                            summary: "avec un focus sur le test APP de Thomas International"
                         },
                         {
                             title: "Rester objectif dans son évaluation",
                             summary: "Comment éviter les biais de recrutement et se détacher des filtres culturels et stéréotypes ?"
                         },
                         {
-                            title: "Soigner votre image",
+                            title: "Soigner votre image de recruteur",
                             summary: "Ou l'importance de soigner votre candidat, ambassadeur de votre image sur le marché"
-                        },
-                        {
-                            title: "Évaluation du potentiel",
-                            summary: "Comment évaluer un candidat sur des compétences qu’il ne possède pas (encore) ?"
                         }
                     ],
                     tags: ["Recrutement", "Entretien", "Evaluation", "Image", "Potentiel"]
