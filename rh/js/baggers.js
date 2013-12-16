@@ -54,7 +54,7 @@ var data = {
                         },
                         {
                             title: "Évaluation en recrutement",
-                            summary: "Comment bien définir les compétences à évaluer, et comment les évaluer en entretien."
+                            summary: "Comment bien définir les compétences à évaluer, et comment les évaluer en entretien"
                         },
                         {
                             title: "Rester objectif dans son évaluation",
