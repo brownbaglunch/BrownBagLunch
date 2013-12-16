@@ -67,7 +67,7 @@ var data = {
                         {
                             title: "Évaluation du potentiel",
                             summary: "Comment évaluer un candidat sur des compétences qu’il ne possède pas (encore) ?"
-                        },
+                        }
                     ],
                     tags: ["Recrutement", "Entretien", "Evaluation", "Image", "Potentiel"]
                 },
