@@ -21,7 +21,7 @@ var data = {
                     sessions: [
                         {
                             title: "Construire son entretien",
-                            summary: "Échanger sur les méthodes d'évaluation : comment structurer un entretien"
+                            summary: "Échanger sur les méthodes d'évaluation: comment structurer un entretien"
                         },
                         {
                             title: "Évaluation en recrutement",
