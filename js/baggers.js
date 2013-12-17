@@ -2182,5 +2182,91 @@ var data = {
                 }
             ]
         }
+		,  {
+            name: "Saint Etienne",
+            ville_img: "img/villes/BBL_SaintEtienne.jpg",
+            lat: 45.439695,
+            lng: 4.387178,
+            baggers: [
+                {
+                    name: "Agnès Crepet",
+                    bio: "Java Champion et leader de deux Java User Groups : le Lyon JUG et Duchess France. Elle fait partie de l’équipe fondatrice de la conférence Mix-IT, mixant Java et Agilité! Elle est également co-fondatrice, avec trois autres développeurs passionnés, de la société Ninja Squad. Dans d’autres sphères, elle est présidente de l’association Avataria, organisatrice d’événements culturels et de FabLab !",
+                    picture: "http://www.duchess-france.org/wp-content/uploads/2013/12/Agnes-Crepet-17-199x300.jpg",
+                    websites: [
+                        {title: "Lyon JUG", href: "http://www.lyonjug.org/"},
+                        {title: "Duchess France", href: "http://www.duchess-france.org/"},
+                        {title: "Ninja Squad", href: "http://ninja-squad.fr/"},
+                        {title: "Avataria", href: "http://www.avataria.org/"}
+                    ],
+                    twitter: "agnes_crepet",
+                    contact: "guillaume.ehret.java@gmail.com",
+                    mail: "guillaume.ehret.java@gmail.com",
+                    location: "Saint Etienne, Lyon",
+                    sessions: [
+                        {
+                            title: "Introduction au Behaviour-Driven Development (BDD)",
+                            summary: "L’enjeu de la présentation sera de vous démontrer l’intérêt de l'approche du BDD par la pratique, à travers des exemples d’implémentation avec l’outil open source Cucumber-JVM."
+                        },
+                        {
+                            title: "Testons, Testons, Testons",
+                            summary: "Je vous propose de voir avec vous quelles sont les bonnes pratiques de tests, qu'il s'agisse de tests unitaires ou d'intégration. Nous pouvons voir ensemble plusieurs outils facilitant l'écriture des tests. "
+                        }
+						,
+                        {
+                            title: "L'agilité par la pratique",
+                            summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, avec retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
+                        }
+                        ,
+                        {
+                            title: "Architectures contemporaines des systèmes d'information",
+                            summary: "Une des grandes difficultés qui émerge dans la mise en place et la maintenance d'un système d'information est la communication entre services et applications. Cloisonnement des différents domaines métier, technologies hétérogènes rarement interopérables, redondance des données sont quelques pièges à éviter. L'objectif de la présentation est de voir quelles solutions d'intégration robustes et souples (SOA, ESB, MDM) permettent d'éviter ces écueils pour assurer la pérennité globale du SI."
+                        }
+                        ,
+                        {
+                            title: "Il était une fois… les grands principes du Design !",
+                            summary: "Il est toujours bon de rappeler quels sont les grands principes du Design à connaître aujourd’hui pour développer, notamment en langage objet. Parmi les ingrédients du menu : Open/Close Principle, Liskow Substitution Principle, Inversion de contrôle… Bon appétit !"
+                        }
+                        ,
+                        {
+                            title: "L’apprentissage continue : les MOOC !",
+                            summary: "Pamela Fox a marqué les esprits des participants de la conférence Mix-IT lors de la keynote finale de l'édition 2012. Elle a abordé le thème de l'éducation et des solutions innovantes en ingénierie pédagogique. Elle a notamment fait la promotion des MOOC ou « Massive open online course », puisqu’elle a travaillé chez Coursera et aujourd’hui chez Khan Academy, les plateformes leaders mondiales du domaine… A la découverte de ces nouveaux outils qui mettent à disposition des milliers de cours en ligne en accès libre et gratuit, sur une multitude de sujets…"
+                        }
+                    ],
+                    tags: ["agilite", "java", "test", "architecture", "bdd", "software design"]
+                },
+                {
+                    name: "Guillaume EHRET",
+                    bio: "Développeur et architecte Java/Web, coach agile. Auteur du blog javamind-fr ",
+                    picture: "https://raw.github.com/javamind/partage/master/guillaumeehret.jpg",
+                    websites: [
+                        {title: "Blog", href: "http://javamind-fr.blogspot.fr"}
+                    ],
+                    twitter: "guillaumeehret",
+                    contact: "guillaume.ehret.java@gmail.com",
+                    mail: "guillaume.ehret.java@gmail.com",
+                    location: "Saint Etienne, Lyon",
+                    sessions: [
+                        {
+                            title: "Améliorer la qualité de ses tests unitaires",
+                            summary: "Revue des différentes règles à appliquer pour améliorer la qualité de ses tests unitaires et faire qu'ils soient durables dans le temps."
+                        },
+                        {
+                            title: "Industrialiser la construction de ces projets avec Maven/jenkins",
+                            summary: "Compiler, tester, packager, tester, déployer.... Sous forme de live coding nous pouvons voir comment gérer le cycle de vie de votre application à l'aide de Maven"
+                        }
+                        ,
+                        {
+                            title: "L'agilité par la pratique",
+                            summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, avec retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
+                        },
+                        {
+                            title: "Intégration continue avec Jenkins",
+                            summary: "Qu'est ce que l'intégration continue ? présentation et utilisation de  Jenkins"
+                        }
+                    ],
+                    tags: ["agilite", "android", "java", "test", "maven", "jenkins"]
+                }
+            ]
+        }
     ]
 };
