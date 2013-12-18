@@ -2189,8 +2189,8 @@ var data = {
             lng: 4.387178,
             baggers: [
                 {
-                    name: "Agnès Crepet",
-                    bio: "Java Champion et leader de deux Java User Groups : le Lyon JUG et Duchess France. Elle fait partie de l’équipe fondatrice de la conférence Mix-IT, mixant Java et Agilité! Elle est également co-fondatrice, avec trois autres développeurs passionnés, de la société Ninja Squad. Dans d’autres sphères, elle est présidente de l’association Avataria, organisatrice d’événements culturels et de FabLab !",
+                    name: "Agnès Crépet",
+                    bio: "Java Champion et leader de deux Java User Groups : le Lyon JUG et Duchess France. Elle fait partie de l'équipe fondatrice de la conférence Mix-IT, mixant Java et Agilité! Elle est également co-fondatrice, avec trois autres développeurs passionnés, de la société Ninja Squad. Dans d'autres sphères, elle est présidente de l'association Avataria, organisatrice d'événements culturels et de FabLab !",
                     picture: "http://www.duchess-france.org/wp-content/uploads/2013/12/Agnes-Crepet-17-199x300.jpg",
                     websites: [
                         {title: "Lyon JUG", href: "http://www.lyonjug.org/"},
@@ -2199,22 +2199,22 @@ var data = {
                         {title: "Avataria", href: "http://www.avataria.org/"}
                     ],
                     twitter: "agnes_crepet",
-                    contact: "guillaume.ehret.java@gmail.com",
-                    mail: "guillaume.ehret.java@gmail.com",
+                    contact: "agnes@ninja-squad.com",
+                    mail: "agnes@ninja-squad.com",
                     location: "Saint Etienne, Lyon",
                     sessions: [
                         {
                             title: "Introduction au Behaviour-Driven Development (BDD)",
-                            summary: "L’enjeu de la présentation sera de vous démontrer l’intérêt de l'approche du BDD par la pratique, à travers des exemples d’implémentation avec l’outil open source Cucumber-JVM."
+                            summary: "L'enjeu de la présentation sera de vous démontrer l'intérêt de l'approche du BDD par la pratique, à travers des exemples d'implémentation avec l'outil open source Cucumber-JVM."
                         },
                         {
                             title: "Testons, Testons, Testons",
                             summary: "Je vous propose de voir avec vous quelles sont les bonnes pratiques de tests, qu'il s'agisse de tests unitaires ou d'intégration. Nous pouvons voir ensemble plusieurs outils facilitant l'écriture des tests. "
                         }
-						,
+			,
                         {
                             title: "L'agilité par la pratique",
-                            summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, avec retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
+                            summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
                         }
                         ,
                         {
@@ -2228,8 +2228,8 @@ var data = {
                         }
                         ,
                         {
-                            title: "L’apprentissage continue : les MOOC !",
-                            summary: "Pamela Fox a marqué les esprits des participants de la conférence Mix-IT lors de la keynote finale de l'édition 2012. Elle a abordé le thème de l'éducation et des solutions innovantes en ingénierie pédagogique. Elle a notamment fait la promotion des MOOC ou « Massive open online course », puisqu’elle a travaillé chez Coursera et aujourd’hui chez Khan Academy, les plateformes leaders mondiales du domaine… A la découverte de ces nouveaux outils qui mettent à disposition des milliers de cours en ligne en accès libre et gratuit, sur une multitude de sujets…"
+                            title: "L'apprentissage continue : les MOOC !",
+                            summary: "Pamela Fox a marqué les esprits des participants de la conférence Mix-IT lors de la keynote finale de l'édition 2012. Elle a abordé le thème de l'éducation et des solutions innovantes en ingénierie pédagogique. Elle a notamment fait la promotion des MOOC ou « Massive open online course », puisqu’elle a travaillé chez Coursera et aujourd’hui chez Khan Academy, les plateformes leaders mondiales du domaine. Partons à la découverte de ces nouveaux outils qui mettent à disposition des milliers de cours en ligne en accès libre et gratuit, sur une multitude de sujets."
                         }
                     ],
                     tags: ["agilite", "java", "test", "architecture", "bdd", "software design"]
