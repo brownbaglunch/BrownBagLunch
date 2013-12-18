@@ -79,53 +79,20 @@ function displayContactModalWindowMail() {
     });
 }
 
-function filter_baggers(data, fun) {
-  var matches = [];
-  var cities = data.villes;
-  for (var i in cities) {
-    var city = cities[i];
-    var baggers = city.baggers;
-    for (var j in baggers) {
-      var bagger = baggers[j];
-      if (fun(bagger)) matches.push(bagger);
-    }
-  }
-  return matches;
-}
-
-function walk_baggers_until(data, fun) {
-  var cities = data.villes;
-  for (var i in cities) {
-    var city = cities[i];
-    var baggers = city.baggers;
-    for (var j in baggers) {
-      var bagger = baggers[j];
-      if (fun(bagger)) return bagger;
-    }
-  }
-}
-
-function get_bagger_by_name(data, name) {
-  return walk_baggers_until(data, function(bagger) {
-    return bagger.name == name && !bagger.ref_ville;
-  });
-}
-
-function get_city_by_name(data, name) {
-  var cities = data.villes;
-  for (var i in cities) {
-    var city = cities[i];
-    if (city.name == name) return city;
-  }
-}
-
-function denormalize_data(data) {
-  walk_baggers_until(data, function(bagger) {
-    if (bagger.ref_ville) {
-      var ref_bagger = get_bagger_by_name(data, bagger.name);
-      for (var k in ref_bagger) {
-        bagger[k] = ref_bagger[k];
-      }
-    }
-  });
+// convert data suitable for baggers.html
+function get_baggers_data(data) {
+    var baggers_data = { villes: [] };
+    var cityrefs = {};
+    _.each(data.cities, function(city) {
+        city.baggers = [];
+        baggers_data.villes.push(city);
+        cityrefs[city.name] = city;
+    });
+    _.each(data.baggers, function(bagger) {
+        _.each(bagger.cities, function(cityname) {
+            var city = cityrefs[cityname];
+            city.baggers.push(bagger);
+        });
+    });
+    return baggers_data;
 }
