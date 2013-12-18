@@ -34,14 +34,14 @@ test('baggers have unique names', function() {
 });
 
 test('there are cities in data.villes', function() {
-    var baggers_data = get_baggers_data(data);
-    ok(baggers_data.villes.length);
+    var villesAndBaggers = getVillesAndBaggers(data);
+    ok(villesAndBaggers.villes.length);
 });
 
 test('there are baggers in each data.villes.baggers', function() {
-    var baggers_data = get_baggers_data(data);
-    var cities = baggers_data.villes;
-    _.each(baggers_data.villes, function(city) {
+    var villesAndBaggers = getVillesAndBaggers(data);
+    var cities = villesAndBaggers.villes;
+    _.each(villesAndBaggers.villes, function(city) {
         ok(city.baggers.length, 'there are baggers in ' + city.name);
     });
 });

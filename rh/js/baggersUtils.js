@@ -80,12 +80,12 @@ function displayContactModalWindowMail() {
 }
 
 // convert data suitable for baggers.html
-function get_baggers_data(data) {
-    var baggers_data = { villes: [] };
+function getVillesAndBaggers(data) {
+    var villesAndBaggers = { villes: [] };
     var cityrefs = {};
     _.each(data.cities, function(city) {
         city.baggers = [];
-        baggers_data.villes.push(city);
+        villesAndBaggers.villes.push(city);
         cityrefs[city.name] = city;
     });
     _.each(data.baggers, function(bagger) {
@@ -94,5 +94,5 @@ function get_baggers_data(data) {
             city.baggers.push(_.clone(bagger));
         });
     });
-    return baggers_data;
+    return villesAndBaggers;
 }
