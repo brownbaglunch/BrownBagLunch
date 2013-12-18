@@ -91,7 +91,7 @@ function get_baggers_data(data) {
     _.each(data.baggers, function(bagger) {
         _.each(bagger.cities, function(cityname) {
             var city = cityrefs[cityname];
-            city.baggers.push(bagger);
+            city.baggers.push(_.clone(bagger));
         });
     });
     return baggers_data;
