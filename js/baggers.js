@@ -13,7 +13,7 @@ var data = {
                     picture: "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
                     websites: [
                         {title: "Conseil en Business Model", href: "http://www.camilleroux.com/formation-lean-startup-accompagnement-conseil-business/"},
-                        {title: "Human Coders", href: "http://humancoders.com"},
+                        {title: "Human Coders", href: "http://humancoders.com"}
                     ],
                     twitter: "CamilleRoux",
                     contact: "contact@camilleroux.com",
@@ -73,7 +73,7 @@ var data = {
                             summary: "Envis d'être coaché ? Vous vous posez des questions sur vos projets professionnels et personnel, offrez vous une scéance de Coaching format 45mn."
                         }
                     ],
-                    tags: ["Agile", "Scrum", "Scrumban","Coach","formation","formateur","lean","kanban","TDD", "Test"]
+                    tags: ["Agile", "Scrum", "Scrumban", "Coach", "formation", "formateur", "lean", "kanban", "TDD", "Test"]
                 },
                 {
                     name: "François Sarradin",
@@ -109,7 +109,7 @@ var data = {
                     picture: "img/baggers/photo_nathaniel.jpg",
                     websites: [
                         {title: "AgileXPerience", href: "http://www.agilexperience.fr"},
-                        {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"},
+                        {title: "Blog Xebia", href: "http://blog.xebia.fr/author/nrichand"}
                     ],
                     twitter: "nrichand",
                     contact: "nrichand@brownbaglunch.fr",
@@ -478,7 +478,6 @@ var data = {
                         { title: "About me", href: "http://about.me/yannick.grenzinger" },
                         { title: "Blog Xebia", href: "http://blog.xebia.fr/author/ygrenzinger/" },
                         { title: "Blog Objet Direct", href: "http://blog.objetdirect.com/author/ygrenzinger" }
-                        
                     ],
                     twitter: "ygrenzinger",
                     contact: "yannick.grenzinger@gmail.com",
@@ -505,7 +504,6 @@ var data = {
                             title: "Valider le problème avant de penser solution, comment faire ?",
                             summary: "Introduction à Lean Startup afin de sortir de votre immeuble et aller voir vos futur clients / utilisateurs. Je vous présenterais aussi Lean Canvas, outil que j'ai pu mettre en pratique de nombreuses fois à des conférences, au Lean Startup Workshop ou sur ma propre startup"
                         }
-                        
                     ],
                     tags: ["Design", "User Experience", "Ergonomie", "Lean Startup", "AngularJS", "JavaScript", "MongoDB", "NodeJS"]
                 },
@@ -1073,7 +1071,7 @@ var data = {
                     ],
                     tags: ["Agile", "Code", "Dojo"]
                 },
-                  {
+                {
                     name: "Laurent Meurisse",
                     bio: "Coach Agile & Dévelopement produit pour l'entreprise & startup",
                     picture: "https://pbs.twimg.com/profile_images/2776155908/7a1460aa6728eda8e4a2ca56f425ac99.jpeg",
@@ -1101,8 +1099,7 @@ var data = {
                          {
                             title: "Entreprise: Spécification par l'exemple",
                             summary: "Pour mieux travailler collaborativement, en spécifiant et testant les objectifs produits de manière agile"
-                        }
-                      
+                        }                      
                     ],
                     tags: ["Agile", "Lean Startup", "Impact Mapping"]
                 },
@@ -1303,7 +1300,6 @@ var data = {
                     ],
                     tags: ["JavaFX", "JRebirth", "Usine Logicielle", "Eclipse"]
                 }
-                
             ]
         },
         {
@@ -1981,8 +1977,7 @@ var data = {
                         {
                             title: "Dart, le nouveau langage de Google pour le web",
                             summary: "Dans la dernière Devoxx, Google a annoncé la sortie de la version 1.0 de leur nouveau langage pour le web, Dart. Derrière cette v1 il y a deux ans de développement dans lesquels des développeurs de tout le monde ont pu collaborer pour essayer de créer un langage structuré, facile d'apprentissage pour tout développeur quel que soit son background et surtout adapté au web d'aujourd'hui. Prenant les meilleures idées de Java, JavaScript et C#, Dart se veut ce que JavaScript aurait pu être s'il avait été développé aujourd'hui."
-                        },
-
+                        }
                     ],
                     tags: ["Web", "Java", "Groovy", "JavaScript", "AngularJS", "Dart"]
                 }
@@ -2181,8 +2176,8 @@ var data = {
                     tags: ["performance", "JEE", "java"]
                 }
             ]
-        }
-		,  {
+        },
+        {
             name: "Saint Etienne",
             ville_img: "img/villes/BBL_SaintEtienne.jpg",
             lat: 45.439695,
@@ -2210,23 +2205,19 @@ var data = {
                         {
                             title: "Testons, Testons, Testons",
                             summary: "Je vous propose de voir avec vous quelles sont les bonnes pratiques de tests, qu'il s'agisse de tests unitaires ou d'intégration. Nous pouvons voir ensemble plusieurs outils facilitant l'écriture des tests. "
-                        }
-			,
+                        },
                         {
                             title: "L'agilité par la pratique",
                             summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
-                        }
-                        ,
+                        },
                         {
                             title: "Architectures contemporaines des systèmes d'information",
                             summary: "Une des grandes difficultés qui émerge dans la mise en place et la maintenance d'un système d'information est la communication entre services et applications. Cloisonnement des différents domaines métier, technologies hétérogènes rarement interopérables, redondance des données sont quelques pièges à éviter. L'objectif de la présentation est de voir quelles solutions d'intégration robustes et souples (SOA, ESB, MDM) permettent d'éviter ces écueils pour assurer la pérennité globale du SI."
-                        }
-                        ,
+                        },
                         {
                             title: "Il était une fois… les grands principes du Design !",
                             summary: "Il est toujours bon de rappeler quels sont les grands principes du Design à connaître aujourd’hui pour développer, notamment en langage objet. Parmi les ingrédients du menu : Open/Close Principle, Liskow Substitution Principle, Inversion de contrôle… Bon appétit !"
-                        }
-                        ,
+                        },
                         {
                             title: "L'apprentissage continue : les MOOC !",
                             summary: "Pamela Fox a marqué les esprits des participants de la conférence Mix-IT lors de la keynote finale de l'édition 2012. Elle a abordé le thème de l'éducation et des solutions innovantes en ingénierie pédagogique. Elle a notamment fait la promotion des MOOC ou « Massive open online course », puisqu’elle a travaillé chez Coursera et aujourd’hui chez Khan Academy, les plateformes leaders mondiales du domaine. Partons à la découverte de ces nouveaux outils qui mettent à disposition des milliers de cours en ligne en accès libre et gratuit, sur une multitude de sujets."
@@ -2253,8 +2244,7 @@ var data = {
                         {
                             title: "Industrialiser la construction de ces projets avec Maven/jenkins",
                             summary: "Compiler, tester, packager, tester, déployer.... Sous forme de live coding nous pouvons voir comment gérer le cycle de vie de votre application à l'aide de Maven"
-                        }
-                        ,
+                        },
                         {
                             title: "L'agilité par la pratique",
                             summary: "Vous vous demandez comment démarrer un projet agile? Vous avez déjà pratiqué l'agilité au sein de votre structure mais vous rencontrez quelques problèmes? Je vous propose, avec retours d'expérience à l'appui, d'échanger avec vous sur ces sujets."
