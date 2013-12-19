@@ -116,16 +116,16 @@
 
         <script type="text/javascript">
             $(function() {
-                denormalize_data(data);
+                var villesAndBaggers = getVillesAndBaggers(data);
 
-                createMapWithVilles(data);
+                createMapWithVilles(villesAndBaggers);
 
                 // decorate data to alternate images
-                shuffleAndAlternateBaggers(data);
+                shuffleAndAlternateBaggers(villesAndBaggers);
 
                 //put the render result on the screen
-                $('#bagger-menuitem').html(Mustache.to_html($('#template-bagger-menuitem').html(), data));
-                $('#bagger-details').html(Mustache.to_html($('#template-bagger-details').html(), data));
+                $('#bagger-menuitem').html(Mustache.to_html($('#template-bagger-menuitem').html(), villesAndBaggers));
+                $('#bagger-details').html(Mustache.to_html($('#template-bagger-details').html(), villesAndBaggers));
 
                 displayContactModalWindowMail();
 
