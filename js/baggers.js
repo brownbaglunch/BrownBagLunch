@@ -2255,6 +2255,30 @@ var data = {
                         }
                     ],
                     tags: ["agilite", "android", "java", "test", "maven", "jenkins"]
+                },
+                {
+                    name: "Christophe Grand",
+                    bio: "Clojuriste de la première heure (début 2008) et co-auteur de Clojure Programming (O'Reilly). Passionné par les API REST hypermedia. Dev indépendant et formateur au sein de LambdaNext.",
+                    picture: "http://lambdanext.eu/img/cgrand.png",
+                    websites: [
+                        {title: "Clojure and me", href: "http://clj-me.cgrand.net/"},
+                        {title: "LambdaNext", href: "http://lambdanext.eu/"}
+                    ],
+                    twitter: "cgrand",
+                    contact: "christophe@cgrand.net",
+                    mail: "christophe@cgrand.net",
+                    location: "Saint Etienne, Lyon",
+                    sessions: [
+                        {
+                            title: "Introduction à la programmation orientée données.",
+                            summary: "Le style de programmation proposé par Clojure est orienté données avant d'être fonctionnel, et ça simplifie tout en autorisant des architectures \"low ceremony\". Débarassez-vous de vos idées reçues !"
+                        },
+                        {
+                            title: "REST : l'incompris",
+                            summary: "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
+                        }
+                    ],
+                    tags: ["clojure", "FP-style", "Functional programming", "software design", "hypermedia", "REST", "API"]
                 }
             ]
         }
