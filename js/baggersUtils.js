@@ -80,7 +80,7 @@ function displayContactModalWindowMail() {
 }
 
 function fixDropdown() {
-    var maxheight = $(window).height() - 50;  // hmmm, magic number?
+    var maxheight = $(window).height() - $('nav.top-bar').height();
     var dropdown = $('ul.dropdown ul.dropdown');
     dropdown.css({ 'max-height': maxheight, 'overflow-y': 'auto' });
 }
