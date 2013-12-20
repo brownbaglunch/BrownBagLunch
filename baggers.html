@@ -116,6 +116,9 @@
 
         <script type="text/javascript">
             $(function() {
+                $(window).on('load', fixDropdown);
+                $(window).on('resize', fixDropdown);
+
                 var villesAndBaggers = getVillesAndBaggers(data);
 
                 createMapWithVilles(villesAndBaggers);

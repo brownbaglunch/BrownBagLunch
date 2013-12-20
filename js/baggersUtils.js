@@ -79,6 +79,12 @@ function displayContactModalWindowMail() {
     });
 }
 
+function fixDropdown() {
+    var maxheight = $(window).height() - 50;  // hmmm, magic number?
+    var dropdown = $('ul.dropdown ul.dropdown');
+    dropdown.css({ 'max-height': maxheight, 'overflow-y': 'auto' });
+}
+
 // convert data suitable for baggers.html
 function getVillesAndBaggers(data) {
     var villesAndBaggers = { villes: [] };
