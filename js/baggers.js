@@ -3215,6 +3215,61 @@ var data = {
             "cities": [
                 "Saint Etienne"
             ]
+        },
+        {
+            "name": "Florent PELLET",
+            "bio": "Développeur Freelance. Membre de DevLyon et du MUG Lyon.",
+            "picture": "http://devlyon.fr/img/florent_pellet.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://www.wittycoding.com/"
+                },
+                {
+                    "title": "CV",
+                    "href": "http://www.florentpellet.fr/"
+                }
+            ],
+            "twitter": "florentpellet",
+            "contact": "florent.pellet+bbl@gmail.com",
+            "mail": "florent.pellet+bbl@gmail.com",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Knockout.js, ou la rencontre d'MVVM et du Web",
+                    "summary": "Découverte du Single Page Application avec Knockout.js. C’est l'occasion de découvrir des méthodes pour structurer vos applications Web, et améliorer l'expérience utilisateur de vos internautes, ainsi que la maintenabilité de votre application."
+                },
+                {
+                    "title": "Single Page Application: Enrichissez l'expérience utilisateur",
+                    "summary": "Je vous propose d'abandonner la vision des sites Internets se résumant à une simple succession de pages, au profit d'applications, structurées grâce au pattern MVVM, avec des transitions et une fluidité de navigation."
+                },
+                {
+                    "title": "Real-time web en .NET avec SignalR",
+                    "summary": "Vous trouvez que réaliser une application web temps réel, comme Google Documents ou des jeux en ligne (y compris IE) c’est compliquée ? Alors invitez-moi pour vous faire découvrir cette fabuleuse libraire open source."
+                },
+                {
+                    "title": "WPF et c'est fonction méconnu",
+                    "summary": "Même si WPF ne fait plus à la une, il reste encore la référence pour développer une application Desktop sur Windows. Je vous propose de découvrir les nouveautés et les astuces qui augmenteront votre productivité."
+                },
+                {
+                    "title": "ASP.net MVC et ses outils",
+                    "summary": "Microsoft parle beaucoup de Windows 8, mais ASP.net est également très actif. Il bénéficie du passage en open source du framework et des outils fabuleux comme BrowserLink. Je vous passerais en revu avec des démos les différentes nouveautés."
+                }
+            ],
+            "tags": [
+                "Knockout.js",
+                "MVVM",
+                "SignalR",
+                "Asp.net",
+                ".NET",
+                "Microsoft",
+                "WPF",
+                "SPA",
+                "WEB"
+            ],
+            "cities": [
+                "Lyon"
+            ]
         }
     ],
     "cities": [
