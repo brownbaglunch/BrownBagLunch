@@ -2,7 +2,7 @@ var data = {
     "baggers": [
         {
             "name": "Thomas Pierrain",
-            "bio": "Agile de père en fils depuis 1905... 'Pragmatic architect' travaillant sur des problématiques low latency pour une grosse banque depuis plus de 8 ans maintenant (après 7 années passées à apprendre mon métier les pieds dans le web). Créateur de la librairie open source .NET NFluent, je suis un vrai geek communiquant qui adore coder et partager ma passion au sein de différentes communautés (DDD Paris, Paris Software Craftsmanship & Alt.NET France).",
+            "bio": "Agile de père en fils depuis 1905... 'Pragmatic architect' travaillant sur des problématiques low latency pour une grosse banque depuis plus de 8 ans maintenant (après 7 années passées à apprendre mon métier les pieds dans le web). Créateur de la librairie open source .NET NFluent, je suis un insatiable geek communiquant qui adore coder et partager ma passion au sein de différentes équipes et communautés (ex: DDD Paris, Paris Software Craftsmanship & Alt.NET France).",
             "picture": "https://fr.gravatar.com/userimage/42372930/c633abb2c2155a61e5c62a475185dcf6.png?size=200",
             "websites": [
                 {
