@@ -1,6 +1,41 @@
 var data = {
     "baggers": [
         {
+            "name": "Thomas Pierrain",
+            "bio": "Agile de père en fils depuis 1905... 'Pragmatic architect' travaillant sur des problématiques low latency pour une grosse banque depuis plus de 8 ans maintenant (après 7 années passées à apprendre mon métier les pieds dans le web). Créateur de la librairie open source .NET NFluent, je suis un insatiable geek communiquant qui adore coder et partager ma passion au sein de différentes équipes et communautés (ex: DDD Paris, Paris Software Craftsmanship & Alt.NET France).",
+            "picture": "https://fr.gravatar.com/userimage/42372930/c633abb2c2155a61e5c62a475185dcf6.png?size=200",
+            "websites": [
+                {
+                    "title": "Use case driven",
+                    "href": "http://tpierrain.blogspot.fr/2013/04/the-pragmatic-architect.html"
+                },
+                {
+                    "title": "n-fluent.net",
+                    "href": "http://www.n-fluent.net/"
+                }
+            ],
+            "twitter": "tpierrain",
+            "contact": "thomas [at] pierrain.net",
+            "mail": "thomas@pierrain.net",
+            "location": "Paris, La Défense et à proximité (peut aussi accepter la Tour d'Argent)",
+            "sessions": [
+                {
+                    "title": "As if you meant it",
+                    "summary": "Présentation de NFluent: la composante qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                }
+            ],
+            "tags": [
+                "DDD",
+                "TDD",
+                "Fluent",
+                ".NET",
+                "Test"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Camille Roux",
             "bio": "Passionné d'entrepreneuriat et de Lean Startup • Coach en Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
             "picture": "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
