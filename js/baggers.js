@@ -17,11 +17,11 @@ var data = {
             "twitter": "tpierrain",
             "contact": "thomas [at] pierrain.net",
             "mail": "thomas@pierrain.net",
-            "location": "Paris, La Défense et à proximité (peut aussi accepter la Tour d'Argent)",
+            "location": "Paris, La Défense et à proximité (accepte aussi la Tour d'Argent)",
             "sessions": [
                 {
                     "title": "As if you meant it",
-                    "summary": "Présentation de NFluent: la composante qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                    "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
                 }
             ],
             "tags": [
