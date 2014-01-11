@@ -21,7 +21,7 @@ var data = {
             "sessions": [
                 {
                     "title": "As if you meant it",
-                    "summary": "Présentation de NFluent: l'outil qu'il vous manquait en .NET pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                    "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
                 }
             ],
             "tags": [
