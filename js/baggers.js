@@ -1,6 +1,59 @@
 var data = {
     "baggers": [
         {
+            "name": "Raphaël Yharrassarry",
+            "bio": "Ergonome, UX Designer, Psychologue, en freelance depuis le dernier millénaire",
+            "picture": "img/baggers/photo_ry.jpg",
+            "websites": [
+                {
+                    "title": "iErgo",
+                    "href": "http://www.iergo.fr"
+                },
+                {
+                    "title": "Bloc-notes sur l'expérience utilisateur",
+                    "href": "http://blocnotes.iergo.fr"
+                },
+                {
+                    "title": "Linkedin",
+                    "href": "http://fr.linkedin.com/in/raphaelyharrassarry/"
+                }
+            ],
+            "twitter": "iergo",
+            "contact": "raphael@iergo.fr",
+            "mail": "raphael@iergo.fr",
+            "location": "Paris, Banlieue ouest",
+            "sessions": [
+                {
+                    "title": "Introduction au Persuasive Design",
+                    "summary": "Le Persuasive Design est la façon dont les technologies de communication et le design peuvent influencer les comportements des utilisateurs durablement. Nous présentons les principes de bases et comment les mettre en œuvre dans un projet."
+                },
+                {
+                    "title": "Faire un tri par carte en ligne",
+                    "summary": "Le tri par carte est une méthodologie qui permet de construire la navigation dans un site Web sur la base des représentations mentales des utilisateurs. Je vous propose de découvrir les différentes étapes nécessaires pour réaliser un tri par cartes et en déduire une arborescence."
+                },
+                {
+                    "title": "GameStorming et UX design",
+                    "summary": "Le GameStorming (Jeux d'innovation) permet de réaliser certaines étapes des projets de conceptions d'une manière ludique. Il peut permettre de débloquer certaines situations ou de faire émerger des idées nouvelles. Nous pourrons voir et mettre œuvre quelques jeux, par exemple pour la création d'une page d'accueil ou la refonte d'un service."
+                },
+                {
+                    "title": "Méthodologies de l'UX et autre disgrétions ?",
+                    "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
+                }
+            ],
+            "tags": [
+                "Design",
+                "User Experience",
+                "Ergonomie",
+                "Psychologie",
+                "Persuasive Design",
+                "GameStorming",
+                "Card Sorting"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Thomas Pierrain",
             "bio": "Agile de père en fils depuis 1905... 'Pragmatic architect' travaillant sur des problématiques low latency pour une grosse banque depuis plus de 8 ans maintenant (après 7 années passées à apprendre mon métier les pieds dans le web). Créateur de la librairie open source .NET NFluent, je suis un insatiable geek communiquant qui adore coder et partager ma passion au sein de différentes équipes et communautés (ex: DDD Paris, Paris Software Craftsmanship & Alt.NET France).",
             "picture": "https://fr.gravatar.com/userimage/42372930/c633abb2c2155a61e5c62a475185dcf6.png?size=200",
