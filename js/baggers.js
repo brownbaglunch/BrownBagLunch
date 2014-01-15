@@ -3280,15 +3280,15 @@ var data = {
                 },
                 {
                     "title": "Real-time web en .NET avec SignalR",
-                    "summary": "Vous trouvez que réaliser une application web temps réel, comme Google Documents ou des jeux en ligne (y compris IE) c’est compliquée ? Alors invitez-moi pour vous faire découvrir cette fabuleuse libraire open source."
+                    "summary": "Vous trouvez que réaliser une application web temps réel, comme Google Documents ou des jeux en ligne (y compris IE) c’est compliqué ? Alors invitez-moi pour vous faire découvrir cette fabuleuse library open source."
                 },
                 {
-                    "title": "WPF et c'est fonction méconnu",
+                    "title": "WPF et ses fonctions méconnues",
                     "summary": "Même si WPF ne fait plus à la une, il reste encore la référence pour développer une application Desktop sur Windows. Je vous propose de découvrir les nouveautés et les astuces qui augmenteront votre productivité."
                 },
                 {
                     "title": "ASP.net MVC et ses outils",
-                    "summary": "Microsoft parle beaucoup de Windows 8, mais ASP.net est également très actif. Il bénéficie du passage en open source du framework et des outils fabuleux comme BrowserLink. Je vous passerais en revu avec des démos les différentes nouveautés."
+                    "summary": "Microsoft parle beaucoup de Windows 8, mais ASP.net est également très actif. Il bénéficie du passage en open source du framework et des outils fabuleux comme BrowserLink. Je vous passerais en revu les différentes nouveautés avec des démos."
                 }
             ],
             "tags": [
