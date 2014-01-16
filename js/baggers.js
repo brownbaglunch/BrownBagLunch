@@ -36,7 +36,7 @@ var data = {
                     "summary": "Le GameStorming (Jeux d'innovation) permet de réaliser certaines étapes des projets de conceptions d'une manière ludique. Il peut permettre de débloquer certaines situations ou de faire émerger des idées nouvelles. Nous pourrons voir et mettre œuvre quelques jeux, par exemple pour la création d'une page d'accueil ou la refonte d'un service."
                 },
                 {
-                    "title": "Méthodologies de l'UX et autre disgrétions ?",
+                    "title": "Méthodologies de l'UX et autres digressions ?",
                     "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
                 }
             ],
