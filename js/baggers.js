@@ -1295,7 +1295,7 @@ var data = {
                 },
                 {
                     "title": "Lean Startup Workshop",
-                    "href": "http://leanstartupfrance.com/workshop"
+                    "href": "http://www.meetup.com/Lean-Startup-User-Group/"
                 }
             ],
             "twitter": "matthieugarde",
@@ -1304,24 +1304,24 @@ var data = {
             "location": "Paris, Banlieue, Compiègne",
             "sessions": [
                 {
-                    "title": "Lean Startup pour développeurs",
-                    "summary": "Apprenez à sortir vos projets des cartons et à amener des utilisateurs sur votre site web avec un minimum de temps et d'argent"
+                    "title": "Lean Startup",
+                    "summary": "Apprenez-en plus sur le mouvement poussé par Eric Ries"
                 },
                 {
                     "title": "Inventer et tester de nouveaux business models",
-                    "summary": "Une société innovante se réinvente en permanence en cherchant de nouvelles cibles et en inventant de nouveaux produits. Toutes ces innovations peuvent se tester, rapidement !"
+                    "summary": "Comment identifier ses hypothèses, les prioriser, et les tester rapidement ?"
                 },
                 {
                     "title": "Comment faire de bonnes interviews clients ?",
-                    "summary": "Lorsqu'on construit quelque chose d'innovant, il est important de valider l'existance du problème avant de penser à la solution. Il faut donc aller voir les clients, parler avec eux et poser les bonnes questions. Pas si facile !"
+                    "summary": "Comment identifier ses clients, les observer, les interviewer et poser de bonnes questions ?"
                 },
                 {
-                    "title": "Atelier Lean Canvas",
-                    "summary": "Documentez votre idée, votre business model et vos hypothèses sur une seule page A4"
+                    "title": "Le Lean Canvas",
+                    "summary": "Comment documenter son idée et ses hypothèses sur une seule page A4"
                 },
                 {
-                    "title": "Atelier Validation Board",
-                    "summary": "Apprenez à utiliser l'outil de référence pour aller interviewer des clients"
+                    "title": "Le Lean Startup en entreprise",
+                    "summary": "Vous n'êtes plus une startup, mais le Lean Startup peut tout de même vous servir !"
                 }
             ],
             "tags": [
