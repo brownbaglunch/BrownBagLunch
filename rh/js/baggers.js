@@ -68,7 +68,6 @@ var data = {
                     "href": "http://www.viadeo.com/fr/profile/stanislas.degermay"
                 }
             ],
-            "twitter": "@AssemblyConseil",
             "twitter": "@StandeGermay",
             "contact": "sdegermay@assembly-conseil.com",
             "mail": "sdegermay@assembly-conseil.com)",
