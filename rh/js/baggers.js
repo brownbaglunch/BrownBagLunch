@@ -54,6 +54,52 @@ var data = {
                 "Paris"
             ]
         },
+                {
+            "name": "Stanislas de Germay",
+            "bio": "20 ans d'expérience dans les ressources humaines, la communication et la conduite de projet",
+            "picture": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/4/005/033/05d/3aec98b.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/stanislasdegermay/"
+                },
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/fr/profile/stanislas.degermay"
+                }
+            ],
+            "twitter": "@AssemblyConseil",
+            "twitter": "@StandeGermay",
+            "contact": "sdegermay@assembly-conseil.com",
+            "mail": "sdegermay@assembly-conseil.com)",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Epargne Salariale",
+                    "summary": "Intéressement, PEE : les atouts fiscaux et sociaux de l’épargne salariale pour motiver et fidéliser vos salariés"
+                },
+                {
+                    "title": "Actionnariat salarié",
+                    "summary": "Quel intérêt de mettre en place ce dispositif dans votre entreprise? Quelles difficultés de mise en œuvre ?"
+                },
+                {
+                    "title": "Epargne Retraite",
+                    "summary": "Pourquoi aider ses salariés à se constituer une épargne ? PERCO, Article 83 : quels dispositifs choisir ?"
+                }
+                {
+                    "title": "Assurance Homme/Femme Clé",
+                    "summary": "Comment protéger votre entreprise contre une disparition brutale ? Comment évaluer le préjudice subi ?"
+                }
+            ],
+            "tags": [
+                "Epargne salariale",
+                "Epargne",
+                "Actionnariat"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
         {
             "name": "Shirley Almosni",
             "bio": "Chasseur de tête dans la jungle de l’IT avec ses moutons à 5 pattes, ses pythons, ses perles rares certifiées Ruby, et C++ encore…",
