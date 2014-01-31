@@ -47,7 +47,7 @@ var data = {
                     "title": "Du procédurale au réactif sans douleurs",
                     "summary": "L'approche réactive permet des gains de performances notables. Ce n'est pas pour rien que les langages de développement et les compilateurs évoluent pour intégrer ce modèle. Comment vous permettent-ils de le faire sans douleur ? Quelles sont les techniques mises en place lors de la génération de codes ? Avec quel impact ? Que savoir pour en tirer parti ? Nous allons comparer les approches de différents langages : Java, Net, Javascript, Scala, Python, etc... Entre le code tel que je l'écris et le code que le compilateur produit, il y a un écart à maîtriser."
                 }
-            ]
+            ],
          "tags": [
              "Architecture",
              "Scala",
