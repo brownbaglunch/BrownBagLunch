@@ -1,5 +1,66 @@
 var data = {
     "baggers": [
+                {
+            "name": "Philippe PRADOS",
+            "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
+            "picture": "http://www.prados.fr/_/rsrc/1351608832371/cv/MOI%20300x297.png?height=198&width=200",
+            "websites": [
+                {
+                    "title": "Tous sur Java, C++, la sécurité et la POO",
+                    "href": "http://www.prados.fr"
+                },
+                {
+                    "title":"Google+",
+                    "href":"https://www.google.com/+PhilippePrados"
+                },
+                {
+                    "titile": "Slideshare",
+                    "href": "http://fr.slideshare.net/pprados/presentations"
+                },
+                {
+                    "title": "Linkedin",
+                    "href": "http://www.linkedin.com/in/pprados/fr"
+                }
+            ],
+            "twitter": "pprados",
+            "contact": "brownbaglunch@prados.fr",
+            "mail": "brownbaglunch@prados",
+            "location": "Paris, Banlieue ouest",
+            "sessions": [
+                {
+                    "title": "Architecture Android",
+                    "summary": "Comprendre comment est conçu le système d'exploitation mobile de Google. Qu'elles sont les faiblesses et avantages par rapport aux OS alternatifs. Cette conférence s'adresse à tous."
+                },
+                {
+                    "title": "Montez une forteresse dans Android !",
+                    "summary": "Comment protéger un secret sous Android ? Comment le cacher dans les arcanes non publiques ? Comment distribuer en masse des certificats numériques client pour une authentification forte de votre intranet mobile ? Des réponses concrètes et techniques sur les arcanes de l'OS."
+                },
+                {
+                    "title": "La mort prochaine du GC ?",
+                    "summary": "Des .signaux faibles : Fin de la loi de Moore en 2018. NECESSITE de l’algorithme G1.Ralentissement des programmes en 64 bits par rapport à 32 bits. De nouveaux frameworks pour gérer la mémoire hors heap. Émergence du Big-Data et du Database in Memory. Apple déprécie le GC d’Objective-C. Comment retarder l’échéance ? Les solutions alternatives ? Sélectionnez maintenant les technos de demain."
+                },
+                {
+                    "title": "Le secret de nouvelles architectures: Code Réactif et persistance versionnée.",
+                    "summary": "Comment améliorer les performances de votre SI pour encaisser la multiplication par 10 de vos hits, suite à la publication d'une API pour votre application mobile ? Comment améliorer les modèles actuels d'architecture ? Quels sont les nouveaux patterns de développement ? Pourquoi sont-il maintenant proposé par les langages et frameworks ? Comment les exploiter ? Comment gérer la concurrence, les bases de données avec plus d’efficacité ? Inspirons nous des meilleurs, remettons le développement à l'honneur."
+                },
+                {
+                    "title": "Du procédurale au réactif sans douleurs",
+                    "summary": "L'approche réactive permet des gains de performances notables. Ce n'est pas pour rien que les langages de développement et les compilateurs évoluent pour intégrer ce modèle. Comment vous permettent-ils de le faire sans douleur ? Quelles sont les techniques mises en place lors de la génération de codes ? Avec quel impact ? Que savoir pour en tirer parti ? Nous allons comparer les approches de différents langages : Java, Net, Javascript, Scala, Python, etc... Entre le code tel que je l'écris et le code que le compilateur produit, il y a un écart à maîtriser."
+                }
+            ]
+         "tags": [
+             "Architecture",
+             "Scala",
+             "Java",
+             "Android",
+             "Securité"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+
+        
         {
             "name": "Raphaël Yharrassarry",
             "bio": "Ergonome, UX Designer, Psychologue, en freelance depuis le dernier millénaire",
