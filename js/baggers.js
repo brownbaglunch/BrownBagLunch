@@ -14,7 +14,7 @@ var data = {
                     "href":"https://www.google.com/+PhilippePrados"
                 },
                 {
-                    "titile": "Slideshare",
+                    "title": "Slideshare",
                     "href": "http://fr.slideshare.net/pprados/presentations"
                 },
                 {
