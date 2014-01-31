@@ -1,6 +1,62 @@
 var data = {
     "baggers": [
         {
+            "name": "Guillaume BITAUDEAU",
+            "bio": "Consultant Java / iOs / Cloud",
+            "picture": "img/baggers/photo_gbi.jpg",
+            "websites": [
+                {
+                    "title": "Mes projets",
+                    "href": "http://gbitaudeau.fr"
+                },
+                {
+                    "title": "Linkedin",
+                    "href": "http://fr.linkedin.com/in/gbitaudeau/"
+                },
+                {
+                    "title": "Hopwork",
+                    "href": "http://hopwork.com/profile/52ea1dd64168100d16a15add"
+                }
+            ],
+            "twitter": "gbitaudeau",
+            "contact": "guillaume.bitaudeau [at] gmail.com",
+            "mail": "guillaume.bitaudeau@gmail.com",
+            "location": "Plaisir (78), je me déplace de Paris à Rambouillet",
+            "sessions": [
+                {
+                    "title": "Introduction à iOs",
+                    "summary": "Envie de faire une application iOs, mais vous ne savez pas par quel bout commencer ? Gagnez tout simplement du temps grâce à un repas !"
+                },
+                {
+                    "title": "Faire des transitions entre vues en iOs",
+                    "summary": "Découvrez comment depuis iOs 7.0, on peut faire rapidement de magnifiques transitions personnalisées pour un effet Waouh."
+                },
+                {
+                    "title": "Questions / réponses sur les achats intégrés en iOs",
+                    "summary": "Par exemple : comment partager des achats de type \"consommables\" avec iCloud ?"
+                },
+                {
+                    "title": "Découvrez les mockups",
+                    "summary": "Avec Balsamiq Mockups, on verra comment un dessin remplace avantageusement des pages de spécifications !"
+                },
+                {
+                    "title": "Discussions informelles",
+                    "summary": "Des retours d'expériences, discuter d'architecture, de cloud, de problèmes de performance, de  design, bref je suis ouvert à toute proposition parce que je sais qu'un point de vue extérieur ça fait du bien des fois :o)"
+                }
+            ],
+            "tags": [
+                "Java",
+                "Agile",
+                "iOs",
+                "Spring",
+                "Cloud",
+                "Adobe AIR"
+            ],
+            "cities": [
+                "Versailles"
+            ]
+        },
+        {
             "name": "Raphaël Yharrassarry",
             "bio": "Ergonome, UX Designer, Psychologue, en freelance depuis le dernier millénaire",
             "picture": "img/baggers/photo_ry.jpg",
@@ -3366,6 +3422,12 @@ var data = {
             "ville_img": "img/villes/BBL.jpg",
             "lat": 48.856614,
             "lng": 2.352222
+        },
+        {
+            "name": "Versailles",
+            "ville_img": "img/villes/BBL_Versailles.jpg",
+            "lat": 48.801408,
+            "lng": 2.130122
         },
         {
             "name": "Toulouse",
