@@ -324,7 +324,7 @@ var data = {
         {
             "name": "François Sarradin",
             "bio": "Consultant Java et &#955; développeur",
-            "picture": "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
+            "picture": "https://fr.gravatar.com/userimage/14188452/66f640699084b5d57856723e7e20505c.jpg?size=200",
             "websites": [
                 {
                     "title": "Blog personnel",
