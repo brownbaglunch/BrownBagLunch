@@ -2277,12 +2277,12 @@ var data = {
         },
         {
             "name": "Cécile Especel",
-            "bio": "Développeuse puis chef de projet c'est suite à une conférence à l'Agile Tour Nantes 2010 que je m'intéresse puis me passionne pour l'agilité. ScrumMaster chez A2F j'intervient chez différents clients pour guider des équipes et des responsables métier vers plus d'agilité au quotidien. En dehors de mes activités professionnelles j'intègre en 2011 l'équipe d'Agile Nantes et participe à l'organisation des Agile Tour.",
+            "bio": "Développeuse puis chef de projet c'est suite à une conférence à l'Agile Tour Nantes 2010 que je m'intéresse puis me passionne pour l'agilité. Aujourd'hui chez Alyotech CSI je suis consultante en organisation. En dehors de mes activités professionnelles j'intègre en 2011 l'équipe d'Agile Nantes et participe à l'organisation des Agile Tour.",
             "picture": "http://www.cecile-especel.com/var/users/7831/avatar/8108/avatar_cp.jpg",
             "websites": [
                 {
-                    "title": "A2F",
-                    "href": "http://www.a2f-services.fr/"
+                    "title": "Alyotech",
+                    "href": "http://www.alyotech.fr/"
                 },
                 {
                     "title": "Mon CV DoYouBuzz",
