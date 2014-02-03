@@ -351,12 +351,18 @@ var data = {
                 {
                     "title": "Une alternative à AOP ?",
                     "summary": "(poney / live coding / présentation) Découvrez quelle alternative la programmation fonctionnelle propose face à AOP (session jouée à Devoxx FR 2013 sous le titre \"FlatMap Zat Shit\")"
+                },
+                {
+                    "title": "Scrum Under Pressure",
+                    "summary": "Découvrez Scrum, sa mise en place et les pratiques annexes de l'agilité à travers un véritable retour d'expérience qui ne vous laissera pas indifférent."
                 }
             ],
             "tags": [
                 "Java",
                 "Scala",
-                "Programmation fonctionnelle"
+                "Programmation fonctionnelle",
+                "Scrum",
+                "Agilité"
             ],
             "cities": [
                 "Paris"
