@@ -230,7 +230,7 @@ var data = {
         {
             "name": "Betty Moreau",
             "bio": "Coach, Formatrice depuis 2008",
-            "picture": "http://m.c.lnkd.licdn.com/media/p/1/000/11b/32d/1d1b4fa.jpg",
+            "picture": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/005/03f/305/0bcbf8f.jpg",
             "websites": [
                 {
                     "title": "Site web",
