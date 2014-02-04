@@ -70,7 +70,7 @@ var data = {
             ],
             "twitter": "StandeGermay",
             "contact": "sdegermay@assembly-conseil.com",
-            "mail": "sdegermay@assembly-conseil.com)",
+            "mail": "sdegermay@assembly-conseil.com",
             "location": "Paris",
             "sessions": [
                 {
@@ -278,8 +278,8 @@ var data = {
                 }
             ],
             "twitter": "AudeAmarrurtu",
-            "contact": "aude_amarrurtu@hotmail.com",
-            "mail": "aude_amarrurtu@hotmail.com",
+            "contact": "aude_amarrurtu@hotmail.fr",
+            "mail": "aude_amarrurtu@hotmail.fr",
             "location": "Paris",
             "sessions": [
                 {
