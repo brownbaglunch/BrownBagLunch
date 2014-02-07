@@ -636,7 +636,7 @@ var data = {
                 "NodeJS"
             ],
             "cities": [
-                "Paris"
+                "Paris", "Nantes", "Rennes"
             ]
         },
         {
