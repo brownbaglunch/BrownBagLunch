@@ -3530,7 +3530,7 @@ var data = {
                 {
                     "title": "Introduction a html5",
                     "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
-                }
+                }]
           }
     ],
     "cities": [
