@@ -3495,7 +3495,42 @@ var data = {
             "cities": [
                 "Lyon"
             ]
-        }
+        },
+        {
+            "name": "Mathieu Parisot",
+            "bio": "Développeur Java&Web chez Soat",
+            "picture": "http://www.soat.fr/wp-content/uploads/2013/06/Mathieu-parisot-mini.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://blog.soat.fr/author/mathieu-parisot/"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://www.soat.fr/mathieu-parisot-expert-java-web"
+                }
+            ],
+            "twitter": "matparisot",
+            "contact": "mathieu.parisot+bbl@gmail.com",
+            "mail": "mathieu.parisot+bbl@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "A la découverte du Responsive web design",
+                    "summary": "Faire en sorte que votre s'adapte à tous les périphériques est possible, mais pas forcément trivial. Une présentation théorique de ce qui se cache derrière le RWD."
+                },
+                {
+                    "title": "Du Responsive Web Design à la Responsive Company",
+                    "summary": "En dehors des problèmes techniques inhérents à toute nouvelle technique de développement, le Responsive Web Design remet également en cause de nombreux acquis dans les entreprises que ce soit en phase de conception, de design ou lors des tests."
+                },
+                {
+                    "title": "Faire un site en Responsive Web Design",
+                    "summary": "Un tour d'horizon des techniques nécessaires pour faire un site web responsive."
+                },
+                {
+                    "title": "Introduction a html5",
+                    "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
+                }
     ],
     "cities": [
         {
