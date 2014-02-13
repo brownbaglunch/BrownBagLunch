@@ -1,6 +1,6 @@
 var data = {
     "baggers": [
-                {
+        {
             "name": "Philippe PRADOS",
             "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
             "picture": "http://www.prados.fr/_/rsrc/1351608832371/cv/MOI%20300x297.png?height=198&width=200",
@@ -48,19 +48,19 @@ var data = {
                     "summary": "L'approche réactive permet des gains de performances notables. Ce n'est pas pour rien que les langages de développement et les compilateurs évoluent pour intégrer ce modèle. Comment vous permettent-ils de le faire sans douleur ? Quelles sont les techniques mises en place lors de la génération de codes ? Avec quel impact ? Que savoir pour en tirer parti ? Nous allons comparer les approches de différents langages : Java, Net, Javascript, Scala, Python, etc... Entre le code tel que je l'écris et le code que le compilateur produit, il y a un écart à maîtriser."
                 }
             ],
-         "tags": [
-             "Architecture",
-             "Scala",
-             "Java",
-             "Android",
-             "Securité"
+            "tags": [
+                "Architecture",
+                "Scala",
+                "Java",
+                "Android",
+                "Securité"
             ],
             "cities": [
                 "Paris"
             ]
         },
 
-        
+
         {
             "name": "Guillaume BITAUDEAU",
             "bio": "Consultant Java / iOs / Cloud",
@@ -624,7 +624,7 @@ var data = {
                     "title": "I MEAN it! ",
                     "summary": "MEAN : MongoDB ExpressJS, AngularJS et Node.js : Le developpement rapide d'application, et pour une fois c'est vrai!"
                 }
-				
+
             ],
             "tags": [
                 "NoSQL",
@@ -3436,7 +3436,7 @@ var data = {
                     summary: "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
                 }
             ],
-            tags: ["clojure", "FP-style", "Functional programming", "software design", "hypermedia", "REST", "API"],        
+            tags: ["clojure", "FP-style", "Functional programming", "software design", "hypermedia", "REST", "API"],
             "cities": [
                 "Saint Etienne"
             ]
@@ -3531,9 +3531,47 @@ var data = {
                     "title": "Introduction a html5",
                     "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
                 }],
-              "tags": ["Responsive", "HTML5"],
-              "cities": [ "Paris" ]
-          }
+            "tags": ["Responsive", "HTML5"],
+            "cities": [ "Paris" ]
+        },
+        {
+            "name": "Mathieu Robin",
+            "bio": "Lead Dev JavaScript",
+            "picture": "http://www.mathieurobin.com/wp-content/themes/megaptery/images/mathieu-robin.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://www.mathieurobin.com"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://fr.linkedin.com/in/mathrobin"
+                }
+            ],
+            "twitter": "mathrobin",
+            "contact": "mthrobin@gmail.com",
+            "mail": "mthrobin@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Maitrisez enfin les éléments de base de JavaScript",
+                    "summary": "Souvent mal maîtrisés, les éléments de bases de JavaScript (this, return, exceptions ou même juste le ;) peuvent se retourner comme une arme fatale pour le dev."
+                },
+                {
+                    "title": "Tour complet de la notion d'objets en JavaScript",
+                    "summary": "JavaScript est le langage le plus incompris qui soit. Et si on revenait ensemble sur une de ses bases plus que méconnues, l'approche objet."
+                },
+                {
+                    "title": "Ce-que-vous-voulez jQuery",
+                    "summary": "Fort de plusieurs années de chroniques francophones à propos de jQuery, entres autres expériences jQuery, je vous propose de vous donner un complément d'information, un avis d'expert. En ciblant la session sur vos besoins réels."
+                },
+                {
+                    "title": "Premiers pas avec AngularJS",
+                    "summary": "Vous voulez démarrer avec AngularJS, besoin d'un guide, je peux vous aider. Fini les 'hello world' des tutos, passons à un vrai travail pratique."
+                }],
+            "tags": ["JavaScript", "AngularJS", "jQuery"],
+            "cities": [ "Paris" ]
+        }
     ],
     "cities": [
         {
