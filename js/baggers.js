@@ -3571,6 +3571,61 @@ var data = {
                 }],
             "tags": ["JavaScript", "AngularJS", "jQuery"],
             "cities": [ "Paris" ]
+        },
+        {
+            "name": "Boris Schapira",
+            "bio": "Consultant - Clever Age",
+            "picture": "http://borisschapira.com/avatars/SudWeb12_300.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://borisschapira.com/blog"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/borisschapira/"
+                },
+                {
+                    "title": "Clever Age",
+                    "href": "http://www.clever-age.com"
+                }
+            ],
+            "twitter": "borisschapira",
+            "contact": "borisschapira@gmail.com",
+            "mail": "borisschapira@gmail.com",
+            "location": "Bordeaux",
+            "sessions": [
+                {
+                    "title": "De l'idée au projet",
+                    "summary": "Nous avons tous des idées. Petites, grandes, incongrues, logiques. Comment les capturer, les formaliser, les confronter pour transformer ces idées en projet ? Introduction à Lean Canvas et aux outils du Service Design."
+                },
+                {
+                    "title": "Rappels sur JavaScript",
+                    "summary": "JavaScript est un langage manipulé par de nombreuses professions du Web, sans pour autant toujours en connaitre les secrets. Petit tour d'horizon du langage, des bonnes pratiques, des pièges à éviter et des librairies & frameworks à connaitre."
+                },
+                {
+                    "title": "Ne me GIT pas",
+                    "summary": "... ou plutôt si ! Tour d'horizon de GIT pour ceux qui en ont entendu parler mais qui n'ont pas encore eu le temps d'en saisir les avantages."
+                },
+                {
+                    "title": "Le vocabulaire du Web",
+                    "summary": "Le monde du Web a son propre vocabulaire, parfois très mouvant. Vous êtes perdu entre l'intégration continue, le Responsive Web Design, les Nodes du DOM et autres WCM ? Nous pouvons en parler."
+                },
+                {
+                    "title": "Mise en place d'une stratégie de Performance Web",
+                    "summary": "La performance Web devient un enjeu croissant, mais suivant l’organisation et la culture d'une entreprise, sa mise en place peut être délicate et tenir davantage de la conduite du changement que de l’identification et la résolution d’un problème technique."
+                }
+            ],
+            "tags": [
+                "Gestion de projet",
+                "Service Design",
+                "JavaScript",
+                "E-Commerce",
+                "Performance Web"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
         }
     ],
     "cities": [
