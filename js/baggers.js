@@ -2558,10 +2558,6 @@ var data = {
                     "summary": "Découvrir et utiliser le package management pour PHP : Comment utiliser le versioning et la mise à jour de vos librairies tierces, comment publier vos propres packages."
                 },
                 {
-                    "title": "MongoDB pour le web",
-                    "summary": "Changer ses habitudes et expérimenter le NOSQL avec MongoDB. Dé-normaliser ses données, importer, exporter, administrer MongoDB. Découvrir les outils en ligne de commande et les interfaces graphiques. Exemples pratiques avec PHP ou NodeJS."
-                },
-                {
                     "title": "Silex, micro-framewok PHP",
                     "summary": "Découvrir Silex, un micro-framework utilisant des composants de Symfony2. Idéal pour créer une API ou un petit intranet. De manière optionnelle et modulaire, Silex utilise un moteur de template (Twig) et un ORM (Doctrine2)."
                 },
@@ -2572,9 +2568,7 @@ var data = {
             ],
             "tags": [
                 "PHP",
-                "NodeJS",
                 "Silex",
-                "MongoDB",
                 "Raspberry Pi",
                 "Vim",
                 "GNU/Linux",
@@ -2583,7 +2577,6 @@ var data = {
                 "MongoDB",
                 "Gestion de projet",
                 "Redmine",
-                "Trello",
                 "Qualité",
                 "Méthodes",
                 "Fun"
