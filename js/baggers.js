@@ -3619,6 +3619,50 @@ var data = {
             "cities": [
                 "Bordeaux"
             ]
+        },
+        {
+            "name": "Cyril Gravelier",
+            "bio": "Développeur/Concepteur web et mobile passionné",
+            "picture": "http://www.gravatar.com/avatar/2f9e679e419b245e05e6f7bf6606499a.png",
+            "websites": [
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/magiccyil/"
+                }
+            ],
+            "twitter": "magiccyril",
+            "contact": "cyril@18ruedivona.eu",
+            "mail": "cyril@18ruedivona.eu",
+            "location": "Bordeaux",
+            "sessions": [
+                {
+                    "title": "Introduction à Drupal",
+                    "summary": "Drupal c'est quoi ? Comment faire un site avec ce CMS ? Réalisation d'un site sans une ligne de code, simplement en utilisant le backoffice et des modules communautaires (Views, Webform, Panels, etc.)"
+                },
+                {
+                    "title": "Drupal 8 qu'est ce qui change ?",
+                    "summary": "Quels sont les changements apportés par cette nouvelle version de Drupal, d'un point de vue fonctionnel, mais aussi pour le développement (faut-il connaitre Symfony pour faire du dev D8 ?)"
+                },
+                {
+                    "title": "Mon premier module Drupal",
+                    "summary": "Introduction au développement d'un module Drupal, en utilisant quelques hook."
+                },
+                {
+                    "title": "Création d'un theme Drupal",
+                    "summary": "Peut-on tout intégrer dans Drupal ? Quelles sont les bonnes pratiques pour la réalisation d'un theme Drupal ?"
+                },
+                {
+                    "title": "Drupal",
+                    "summary": "Après avoir rencontré de nombreuses problématiques avec Drupal, je peux aborder une grande variété de sujets autour de Drupal."
+                }
+            ],
+            "tags": [
+                "PHP",
+                "Drupal"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
         }
     ],
     "cities": [
