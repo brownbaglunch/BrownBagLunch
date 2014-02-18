@@ -44,8 +44,8 @@ var data = {
                     "summary": "Comment améliorer les performances de votre SI pour encaisser la multiplication par 10 de vos hits, suite à la publication d'une API pour votre application mobile ? Comment améliorer les modèles actuels d'architecture ? Quels sont les nouveaux patterns de développement ? Pourquoi sont-il maintenant proposé par les langages et frameworks ? Comment les exploiter ? Comment gérer la concurrence, les bases de données avec plus d’efficacité ? Inspirons nous des meilleurs, remettons le développement à l'honneur."
                 },
                 {
-                    "title": "Du procédurale au réactif sans douleurs",
-                    "summary": "L'approche réactive permet des gains de performances notables. Ce n'est pas pour rien que les langages de développement et les compilateurs évoluent pour intégrer ce modèle. Comment vous permettent-ils de le faire sans douleur ? Quelles sont les techniques mises en place lors de la génération de codes ? Avec quel impact ? Que savoir pour en tirer parti ? Nous allons comparer les approches de différents langages : Java, Net, Javascript, Scala, Python, etc... Entre le code tel que je l'écris et le code que le compilateur produit, il y a un écart à maîtriser."
+                    "title": "Multithread sans thread",
+                    "summary": "Comment les langages de développement et les compilateurs évoluent pour intégrer l'approche réactive ? Quelles sont les techniques mises en place lors de la génération de codes ? Avec quel impact ? Que savoir pour en tirer parti ? Nous allons comparer les approches de différents langages : Java, Net, Javascript, Scala, Python, etc... Entre le code tel que je l'écris et le code que le compilateur produit, il y a un écart à maîtriser."
                 }
             ],
             "tags": [
