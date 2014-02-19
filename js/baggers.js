@@ -1404,8 +1404,12 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Présentation de Guava et Lombok",
-                    "summary": "Guava est une bibliothèque open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs.<br/>De son coté, Lombok est également un projet Open Source. Lombok et Lombok-pg simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets.<br/>Durant cette présentation, après un rapide constat de la verbosité de nos beans, nous feront un tour d'horizon de Lombok et Guava. Nous verrons comment ils nous aident à écrire du code concis et de qualité."
+                    "title": "Guava mon ami",
+                    "summary": "Guava est une bibliothèque open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs."
+                },
+                {
+                    "title": "Lombok pour la paix",
+                    "summary": "Lombok et Lombok-pg sont des projets Open Source. Ils simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets. Nous verrons comment ils nous aident à écrire du code concis et de qualité, dans lequel on peut avoir confiance."
                 }
             ],
             "tags": [
