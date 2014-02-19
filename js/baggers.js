@@ -1405,12 +1405,17 @@ var data = {
             "sessions": [
                 {
                     "title": "Guava mon ami",
-                    "summary": "Guava est une bibliothèque open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs."
+                    "summary": "Guava est une bibliothèque open source créée et maintenue par les équipes de Google. Inspirée des outils internes du géant, Guava propose de nombreux mécanismes (programmation fonctionnelle) pour manipuler les collections, créer des caches customisés, faciliter la gestion de la concurrence et les IOs. Durée : 60 min."
                 },
                 {
                     "title": "Lombok pour la paix",
-                    "summary": "Lombok et Lombok-pg sont des projets Open Source. Ils simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets. Nous verrons comment ils nous aident à écrire du code concis et de qualité, dans lequel on peut avoir confiance."
+                    "summary": "Lombok et Lombok-pg sont des projets Open Source. Ils simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets. Nous verrons comment ils nous aident à écrire du code concis et de qualité, dans lequel on peut avoir confiance. Durée : 30 min."
+                },
+				{
+                    "title": "Les Tests en Trois Temps (3T)",
+                    "summary": "Les Test Driven Development (TDD) vous inspirent mais chacune de vos tentatives s'est soldée par un échec, pas tant sur des problématiques techniques que sur des questions d’organisation ? Découvrez les Tests en Trois Temps (3T), une méthodologie inspirée des TDD/BDD qui devrait vous réconcilier avec les tests. Durée : 30 min."
                 }
+				
             ],
             "tags": [
                 "Java",
