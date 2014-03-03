@@ -721,7 +721,7 @@ var data = {
         {
             "name": "Romain Linsolas",
             "bio": "Développeur Java & architecte technique à SGCIB",
-            "picture": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1ce/3fe/25d1ddc.jpg",
+            "picture": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/4/005/046/246/1b274c9.jpg",
             "websites": [
                 {
                     "title": "Blog personnel",
