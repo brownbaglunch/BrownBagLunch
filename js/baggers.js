@@ -3673,7 +3673,7 @@ var data = {
                 "Bordeaux"
             ]
         },
- 	{
+        {
             "name": "DuyHai DOAN",
             "bio": "Développeur Java depuis toujours, je me suis passionné pour le domaine du Big Data et plus particulièrement pour Cassandra depuis plusieurs années. Je fais régulièrement des présentations pour vulgariser l'utilisation de Cassandra au plus grand nombre.La journée, je participe au projet Libon, le Viber/WhatsApp du groupe Orange en utilisant Cassandra comme solution NoSQL.",
             "picture": "http://www.gravatar.com/avatar/ffa96040bb4211cad1c66f385d8cb77b.png",
@@ -3738,7 +3738,7 @@ var data = {
             ],
             "tags": [
                 "Java",
-                "Client riche"
+                "Client riche",
                 "Desktop",
                 "JavaFX",
                 "Reactive Programming",
