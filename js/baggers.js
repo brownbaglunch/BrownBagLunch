@@ -3738,7 +3738,7 @@ var data = {
             ],
             "tags": [
                 "Java",
-                "Client riche"
+                "Client riche",
                 "Desktop",
                 "JavaFX",
                 "Reactive Programming",
