@@ -3707,6 +3707,48 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Simon Baslé",
+            "bio": "Développeur Java curieux, particulièrement enthousiasmé par les aspects conception (OOP, design patterns, architecture logicielle), les clients riches et l'User eXperience, les outils et bonnes pratiques associées, ainsi que la programmation concurrente.",
+            "picture": "http://fr.gravatar.com/userimage/42947809/b10c51afd81006de14a5bffdb25973f2.jpg?size=200",
+            "websites": [
+                {
+                    "title": "InfoQ",
+                    "href": "http://www.infoq.com/fr/author/Simon-Basl%C3%A9"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://www.linkedin.com/in/simonbasle"
+                }
+            ],
+            "twitter": "simonbasle",
+            "contact": "simon.basle@gmail.com",
+            "mail": "simon.basle@gmail.com",
+            "location": "Paris et la Défense",
+            "sessions": [
+                {
+                    "title": "JavaFX 2, un tour d'horizon",
+                    "summary": "Malgré la popularité d'HTML5, le desktop n'est pas tout à fait mort, mais il se fait tremblotant... Heureusement, un effort a été entrepris avec JavaFX pour lui redonner du dynamisme. On peut retrouver du fun à coder un client riche, visuellement moderne et adapté à une application pérenne. Je vous propose donc d'embarquer pour un tour d'horizon de JavaFX pour essayer de vous en convaincre."
+                },
+                {
+                    "title": "RxJava et Java 8 pour sortir de l'enfer des callbacks",
+                    "summary": "Déjà eu à travailler avec des callbacks de callbacks de callbacks de...? Découvrez comment la synergie entre le paradigme de programmation fonctionnelle réactive de RxJava et les lambdas de Java 8 peuvent vous aider à sortir de cet enfer."
+                }
+            ],
+            "tags": [
+                "Java",
+                "Client riche"
+                "Desktop",
+                "JavaFX",
+                "Reactive Programming",
+                "RxJava",
+                "Java 8",
+                "Asynchrone"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
