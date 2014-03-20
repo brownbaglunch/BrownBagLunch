@@ -1,6 +1,50 @@
 var data = {
     "baggers": [
         {
+            "name": "Julien Danjou",
+            "bio": "Free Software Hacker, développeur OpenStack, auteur de The Hacker's Guide to Python. Également développeur Debian, GNU Emacs, Freedesktop et créateur du window manager awesome.",
+            "picture": "img/baggers/photo_jdanjou.jpg",
+            "websites": [
+                {
+                    "title": "Homepage",
+                    "href": "http://julien.danjou.info"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/juliendanjou/"
+                }
+            ],
+            "twitter": "juldanjou",
+            "contact": "julien@danjou.info",
+            "mail": "julien@danjou.info",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Modèle de développement d'OpenStack",
+                    "summary": "Tout ce que vous voulez savoir sur comment est développé OpenStack."
+                },
+                {
+                    "title": "Python à grande échelle",
+                    "summary": "Comment Python est utilisé au sein d'OpenStack, un de plus gros projets
+Python."
+                },
+                {
+                    "title": "Hy, faire du Lisp en Python",
+                    "summary": "Une présentation de Hy, un Lisp implémenté en et intéropérable avec Python."
+                },
+            ],
+            "tags": [
+                "Python",
+                "OpenStack",
+                "Open Source"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+
+
+        {
             "name": "Philippe PRADOS",
             "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
             "picture": "http://www.prados.fr/_/rsrc/1351608832371/cv/MOI%20300x297.png?height=198&width=200",
