@@ -25,8 +25,7 @@ var data = {
                 },
                 {
                     "title": "Python à grande échelle",
-                    "summary": "Comment Python est utilisé au sein d'OpenStack, un de plus gros projets
-Python."
+                    "summary": "Comment Python est utilisé au sein d'OpenStack, un de plus gros projets Python."
                 },
                 {
                     "title": "Hy, faire du Lisp en Python",
