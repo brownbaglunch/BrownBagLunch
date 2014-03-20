@@ -30,7 +30,7 @@ var data = {
                 {
                     "title": "Hy, faire du Lisp en Python",
                     "summary": "Une présentation de Hy, un Lisp implémenté en et intéropérable avec Python."
-                },
+                }
             ],
             "tags": [
                 "Python",
