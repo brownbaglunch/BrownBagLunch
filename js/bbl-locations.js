@@ -103,7 +103,7 @@ var bblLocationsData = {
             gps: "48.8780246,2.3440257",
             website: "http://www.novencia.com/",
             contact: "Marlène Chevreux (marlene.chevreux [at] novencia.com)",
-            picture: "img/entreprises/novencia.png",
+            picture: "img/entreprises/novencia.jpg",
             interests: [
                     "Développement", "Agilité", "BigData", "Cloud", "Web", "Mobile", "Java", "JavaScript", "Scala", "DotNet", "PHP", "NoSQL", "MongoDB"
             ],
