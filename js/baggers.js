@@ -3792,6 +3792,40 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Youri Bonnaffé",
+            "bio": "Développeur passionné, je m’attache particulièrement à être le plus productif possible. L’automatisation à travers les tests, le build, l’intégration continue et les livraisons m’intéresse particulièrement et je serais ravi de partager cette passion à travers des présentations, retours d’expériences et échanges.",
+            "picture": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b.pn?size=200g",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/youribonnaffe"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://fr.linkedin.com/in/youribonnaffe"
+                }
+            ],
+            "twitter": "youribm",
+            "contact": "youribm@gmail.com",
+            "mail": "youribm@gmail.com",
+            "location": "Sophia-Antipolis",
+            "sessions": [
+                {
+                    "title": "Gradle: un outil de build puissant",
+                    "summary": "Introduction à Gradle ou Retour d'expérience d'une migration de Ant vers Gradle (et pourquoi on a mis de côté Maven)."
+                }
+            ],
+            "tags": [
+                "Gradle",
+                "Groovy",
+                "Build",
+                "Automation"
+            ],
+            "cities": [
+                "Sophia-Antipolis"
+            ]
         }
     ],
     "cities": [
@@ -3878,6 +3912,12 @@ var data = {
             "ville_img": "img/villes/BBL_SaintEtienne.jpg",
             "lat": 45.439695,
             "lng": 4.387178
+        },
+        {
+            "name": "Sophia-Antipolis",
+            "ville_img": "",
+            "lat": 43.616354,
+            "lng": 7.055222
         }
     ]
 }
