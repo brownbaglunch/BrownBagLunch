@@ -2310,6 +2310,46 @@ var data = {
             ]
         },
         {
+            "name": "Guillaume Collic",
+            "bio": "Développeur agiliste passionné. Impliqué dans plusieurs initiatives de l'ouest autour du code ou de l'agilité. Indépendant (Sodewiva, Software Development With Values).",
+            "picture": "http://www.gravatar.com/avatar/bb477281f4de9e113b37d74c949d6ee5?s=512",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://guillaumecollic.com/"
+                }
+            ],
+            "twitter": "gcollic",
+            "contact": "gcollic@gmail.com",
+            "mail": "gcollic@gmail.com",
+            "location": "Rennes, Nantes, Saint Malo, Vannes, ...",
+            "sessions": [
+                {
+                    "title": "Intérêt des DVCS en entreprise",
+                    "summary": "On parle de plus en plus des gestionnaires de version « distribués » (DVCS), et de Git en particulier. Pourquoi cet engouement, en quoi sont-ils intéréssants en entreprise ? (session plébiscitée au BreizhCamp, à Agile Tour, et aux TechDays)"
+                },
+                {
+                    "title": "Introduction au TDD par la pratique",
+                    "summary": "Mis en pratique du TDD sur un petit exercise collectif, qui peut être isolé, ou le lancement de Coding Dojo réguliers. "
+                },
+                {
+                    "title": "Tour d'horizon des méthodes agiles",
+                    "summary": "Pourquoi les méthodes agiles ? Que partagent t'elles ? Approfondissement de 3 d'entre elles : Scrum, eXtreme Programming, et Kanban"
+                }
+            ],
+            "tags": [
+                "Agile",
+                "Kanban",
+                "ALM",
+                "Git",
+                "TDD",
+                "Coding Dojo"
+            ],
+            "cities": [
+                "Rennes"
+            ]
+        },
+        {
             "name": "Cécilia Bossard",
             "bio": "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
             "picture": "http://timwi.com/img/team/cecilia.jpg",
