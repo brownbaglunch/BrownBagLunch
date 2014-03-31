@@ -3866,6 +3866,34 @@ var data = {
             "cities": [
                 "Sophia-Antipolis"
             ]
+        },
+        {
+            "name": "Maxime Bonnet",
+            "bio": "Scrum master, formateur certifié Innovation Games, Coach Agile",
+            "twitter": "maximebonnet",
+            "contact": "maxime@bonnet.tel",
+            "mail": "maxime@bonnet.tel",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Jeux sérieux avec Innovation Games",
+                    "summary": "Peut-on jouer en entreprise ? La réponse fût longtemps non, mais de nouveaux outils sont arrivés pour élargir les horizons, augmenter la créativité, permettre d'innover. Les jeux sérieux sont une réponse pertinente à la question puis créer autrement."
+                },
+                {
+                    "title": "Comprendre et Utiliser le MBTI",
+                    "summary": "Le Myers Briggs Type Indicator (MBTI) est un outils dans la palette des coachs, managers ou toutes personnes souhaitant comprendre ses relations aux autres. Simple et facilement utiliseable au quotidien, le MBTI permet de mieux comprendre et dialoguer avec ses interlocuteurs"
+                }
+                
+            ],
+            "tags": [
+                "Agilité",
+                "Jeux sérieux",
+                "Developpement personnel",
+                "coaching",
+            ],
+            "cities": [
+                "Lyon"
+            ]
         }
     ],
     "cities": [
