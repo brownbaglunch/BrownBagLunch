@@ -1817,7 +1817,7 @@ var data = {
         {
             "name": "Nicolas Deverge",
             "bio": "Facilitateur agile et développeur - ekito",
-            "picture": "https://twimg0-a.akamaihd.net/profile_images/2050038189/picto.jpg",
+            "picture": "https://pbs.twimg.com/profile_images/2050038189/picto.jpg",
             "websites": [
                 {
                     "title": "Blog ekito",
@@ -1989,7 +1989,7 @@ var data = {
         {
             "name": "Fabrice Bournisien",
             "bio": "Responsable qualité web, spécialiste de l'automatisation de tests fonctionnels.",
-            "picture": "https://si0.twimg.com/profile_images/1979322615/avatar.png",
+            "picture": "https://pbs.twimg.com/profile_images/1979322615/avatar.png",
             "websites": [
                 {
                     "title": "Blog",
