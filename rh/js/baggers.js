@@ -1,6 +1,50 @@
 var data = {
     "baggers": [
         {
+            "name": "Arlette Gelabert",
+            "bio": "Formatrice à Form’En Scène, je mise sur le capital humain pour optimiser le potentiel professionnel de chacun, parce que l’humain est le premier vecteur de l’image de marque de votre entreprise et le moteur indispensable à son bon fonctionnement. Je fonde ma pédagogie sur 30 ans de pratique théâtrale comme comédienne et animatrice (en compagnies privées et ateliers théâtre) et 20 ans d’expérience en entreprise au sein de services administratifs et commerciaux.",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/030/2ca/04f6953.jpg",
+            "websites": [
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/profile/002207ut2wtx2fn3"
+                },
+                {
+                    "title": "Site web",
+                    "href": "http://www.formenscene.com/"
+                },
+                {
+                    "title": "Site personnel",
+                    "href": "http://arletyna.e-monsite.com/"
+                }
+            ],
+            "contact": "agelabert@formenscène.com",
+            "mail": "agelabert@formenscène.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Une initiation à la prise de parole : l’art de l’Elevator Pitch",
+                    "summary": "Nous avons tous à un moment ou un autre, la nécessité de nous présenter rapidement au cours d’une réunion, en rendez-vous client, lors d’un séminaire…. Quand le temps nous est compté et qu’il faut délivrer un message efficace, il s’agit de faire court, percutant, d’avoir le regard, la voix et la bonne attitude pour accrocher son interlocuteur. Quelques principes et astuces pour bien se présenter !"
+                },
+                {
+                    "title": "Team building : quelques exercices de cohésion d’équipe",
+                    "summary": "Il est parfois nécessaire de remotiver ses équipes, dynamiser un groupe, changer son angle de vue pour découvrir ses collègues ou collaborateurs différemment et entreprendre efficacement et de façon innovante. Le théâtre est un art qui répond parfaitement à ces enjeux où l’implication personnelle passe nécessairement par l’esprit d’équipe. Je vous propose de tester quelques jeux de théâtre pour éprouver une autre façon d’appréhender vos relations professionnelles."
+                },
+                {
+                    "title": "Atelier ou stage de théâtre de loisirs : et si vous testiez votre talent de comédien ?",
+                    "summary": "Parce que le plaisir est l’énergie de notre vitalité, parce que le théâtre se nourrit de l’essence même de la vie, voilà une activité de loisirs à proposer dont les bienfaits rejailliront également au coeur de l’entreprise. Je propose de vous mettre en scène et d’improviser ensemble !"
+                }
+            ],
+            "tags": [
+                "Prise de parole",
+                "Team building",
+                "Théâtre"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Nicolas Robin",
             "bio": "Consultant en recrutement spécialisé dans les métiers Sales, Marketing et Digital",
             "picture": "http://m.c.lnkd.licdn.com/media/p/3/000/1f4/247/2b2f6e1.jpg",
