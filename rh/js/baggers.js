@@ -31,7 +31,7 @@ var data = {
                     "summary": "Il est parfois nécessaire de remotiver ses équipes, dynamiser un groupe, changer son angle de vue pour découvrir ses collègues ou collaborateurs différemment et entreprendre efficacement et de façon innovante. Le théâtre est un art qui répond parfaitement à ces enjeux où l’implication personnelle passe nécessairement par l’esprit d’équipe. Je vous propose de tester quelques jeux de théâtre pour éprouver une autre façon d’appréhender vos relations professionnelles."
                 },
                 {
-                    "title": "Atelier ou stage de théâtre de loisirs : et si vous testiez votre talent de comédien ?",
+                    "title": "Atelier ou stage de théâtre de loisirs: et si vous testiez votre talent de comédien ?",
                     "summary": "Parce que le plaisir est l’énergie de notre vitalité, parce que le théâtre se nourrit de l’essence même de la vie, voilà une activité de loisirs à proposer dont les bienfaits rejailliront également au coeur de l’entreprise. Je propose de vous mettre en scène et d’improviser ensemble !"
                 }
             ],
