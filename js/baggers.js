@@ -3817,6 +3817,42 @@ var data = {
             ]
         },
         {
+            "name": "Dridi Boukelmoune",
+            "bio": "Développeur, formateur, Editor InfoQ FR et contributeur Fedora.",
+            "picture": "http://cdn4.infoq.com/images/team/fr/DridiBoukelmoune.jpg",
+            "websites": [
+                {
+                    "title": "Zenika",
+                    "href": "http://www.zenika.com/experts/Dridi_Boukelmoune.html"
+                },
+                {
+                    "title": "InfoQ",
+                    "href": "http://www.infoq.com/fr/author/Dridi-Boukelmoune"
+                },
+                {
+                    "title": "Fedora",
+                    "href": "https://admin.fedoraproject.org/pkgdb/users/packages/dridi"
+                }
+            ],
+            "twitter": "dboukelmoune",
+            "contact": "dridi.boukelmoune@gmail.com",
+            "mail": "dridi.boukelmoune@gmail.com",
+            "location": "Paris ou proche",
+            "sessions": [
+                {
+                    "title": "Le tour de Varnish en 80 jours",
+                    "summary": "Dans cette présentation, nous allons littéralement faire le tour du monde pour découvrir Varnish. Architecture moderne et réactive, ce cache HTTP offre un DSL élégant pour la politique de cache, et un ensemble d'outils simples pour l'administrer."
+                },
+            ],
+            "tags": [
+                "Varnish",
+                "Cache",
+                "HTTP",
+                "Performance"
+            ],
+            "cities": ["Paris"]
+        },
+        {
             "name": "Youri Bonnaffé",
             "bio": "Développeur passionné, je m’attache particulièrement à être le plus productif possible. L’automatisation à travers les tests, le build, l’intégration continue et les livraisons m’intéresse particulièrement et je serais ravi de partager cette passion à travers des présentations, retours d’expériences et échanges.",
             "picture": "http://www.gravatar.com/avatar/ae929ea94c27f7836e3c1cac2e961b2b.pn?size=200g",
