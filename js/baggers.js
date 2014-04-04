@@ -2101,12 +2101,17 @@ var data = {
                 {
                     "title": "Coding Dojo",
                     "summary": "Coding Dojo pour voir ou revoir le TDD ensemble ou adapté à la découverte d'un langage : Java, python, ruby..."
+                },
+                {
+                    "title": "Dart",
+                    "summary": "Les bases et principes du langage. Des petits exemples en prime !"
                 }
             ],
             "tags": [
                 "Java EE",
                 "Android",
-                "Dojo"
+                "Dojo",
+                "Dart"
             ],
             "cities": [
                 "Toulouse"
