@@ -3739,7 +3739,7 @@ var data = {
                 "Bordeaux"
             ]
         },
- 	{
+        {
             "name": "DuyHai DOAN",
             "bio": "Développeur Java depuis toujours, je me suis passionné pour le domaine du Big Data et plus particulièrement pour Cassandra depuis plusieurs années. Je fais régulièrement des présentations pour vulgariser l'utilisation de Cassandra au plus grand nombre.La journée, je participe au projet Libon, le Viber/WhatsApp du groupe Orange en utilisant Cassandra comme solution NoSQL.",
             "picture": "http://www.gravatar.com/avatar/ffa96040bb4211cad1c66f385d8cb77b.png",
@@ -3758,11 +3758,11 @@ var data = {
                     "title": "Introduction à Cassandra",
                     "summary": "Vous avez entendu parler de <strong>Cassandra</strong>, vous avez toujours voulu vous y mettre sans jamais avoir eu le temps ni su comment démarrer ? Pendant cette session, nous allons découvrir <strong>Cassandra</strong> avec des petits exercices sympas et ludiques pour vous mettre la main à la pâte."
                 },
-		{
+                {
                     "title": "La modélisation facile avec Cassandra",
                     "summary": "L'un des aspects de <strong>Cassandra</strong> qui rebute pas mal de débutants, c'est la modélisation.<br/> Mais depuis l'introduction du language <strong>CQL3</strong>, c'est terminé. Dans cette session nous verrons comment modéliser efficacement vos données et vos tables en <strong>CQL3</strong>, les pièges à éviter, les bonnes pratiques et les astuces pour aller plus loin avec <strong>Cassandra</strong>"
                 },
-		{
+                {
                     "title": "Prototypage rapide en Cassandra avec Achilles",
                     "summary": "Avec l'arrivée du language de requêtage <strong>CQL3</strong>, <strong>Cassandra</strong> a rendu son modèle de développement plus accessible aux développeurs.<br/><strong>Achilles</strong> pousse la logique de productivité plus loin en proposant un object mapper léger par dessus <strong>CQL3</strong> ainsi qu'une multitude d'outils pour rendre la vie du développeur plus simple: data mapping avancé, DSL pour les requêtes, JUnit rule pour démarrer un Cassandra embarqué de test, génération automatique du schéma, tracing des requêtes CQL3 dans les logs...<br/>Venez découvrir <strong>Achilles</strong> en action, nous ferons un petit prototype en full TDD en live avec <strong>Achilles</strong>"
                 }
@@ -3815,6 +3815,42 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Dridi Boukelmoune",
+            "bio": "Développeur, formateur, Editor InfoQ FR et contributeur Fedora.",
+            "picture": "http://cdn4.infoq.com/images/team/fr/DridiBoukelmoune.jpg",
+            "websites": [
+                {
+                    "title": "Zenika",
+                    "href": "http://www.zenika.com/experts/Dridi_Boukelmoune.html"
+                },
+                {
+                    "title": "InfoQ",
+                    "href": "http://www.infoq.com/fr/author/Dridi-Boukelmoune"
+                },
+                {
+                    "title": "Fedora",
+                    "href": "https://admin.fedoraproject.org/pkgdb/users/packages/dridi"
+                }
+            ],
+            "twitter": "dboukelmoune",
+            "contact": "dridi.boukelmoune@gmail.com",
+            "mail": "dridi.boukelmoune@gmail.com",
+            "location": "Paris ou proche",
+            "sessions": [
+                {
+                    "title": "Le tour de Varnish en 80 jours",
+                    "summary": "Dans cette présentation, nous allons littéralement faire le tour du monde pour découvrir Varnish. Architecture moderne et réactive, ce cache HTTP offre un DSL élégant pour la politique de cache, et un ensemble d'outils simples pour l'administrer."
+                },
+            ],
+            "tags": [
+                "Varnish",
+                "Cache",
+                "HTTP",
+                "Performance"
+            ],
+            "cities": ["Paris"]
         },
         {
             "name": "Youri Bonnaffé",
@@ -3971,4 +4007,4 @@ var data = {
             "lng": 7.055222
         }
     ]
-}
+};
