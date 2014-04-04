@@ -53,8 +53,8 @@ var data = {
                     "href": "http://www.prados.fr"
                 },
                 {
-                    "title":"Google+",
-                    "href":"https://www.google.com/+PhilippePrados"
+                    "title": "Google+",
+                    "href": "https://www.google.com/+PhilippePrados"
                 },
                 {
                     "title": "Slideshare",
@@ -1454,11 +1454,10 @@ var data = {
                     "title": "Lombok pour la paix",
                     "summary": "Lombok et Lombok-pg sont des projets Open Source. Ils simplifient sensiblement l'écriture de code classique (builders, delegates, etc.) et des nombreuses méthodes purement techniques et indispensables (getters, setters, hashCode, equals, etc.) qui polluent nos objets. Nous verrons comment ils nous aident à écrire du code concis et de qualité, dans lequel on peut avoir confiance. Durée : 30 min."
                 },
-				{
+                {
                     "title": "Les Tests en Trois Temps (3T)",
                     "summary": "Les Test Driven Development (TDD) vous inspirent mais chacune de vos tentatives s'est soldée par un échec, pas tant sur des problématiques techniques que sur des questions d’organisation ? Découvrez les Tests en Trois Temps (3T), une méthodologie inspirée des TDD/BDD qui devrait vous réconcilier avec les tests. Durée : 30 min."
                 }
-				
             ],
             "tags": [
                 "Java",
@@ -2626,7 +2625,7 @@ var data = {
                     "summary": "Découvrir l'environnement GNU/Linux du point de vue du développeur web : travailler sous GNU/Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source. Comment passer à GNU/Linux sans peine quand on travaille avec Windows ou Mac OSX."
                 },
                 {
-                    "title": "Git, notre nouvel outil pour versionner et partager le code (et pas que ça)",
+                    "title": "Git, pour versionner, partager et/ou déployer simplement le code source de vos applications",
                     "summary": "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
                 },
                 {
@@ -2634,27 +2633,11 @@ var data = {
                     "summary": "Présentation de VIM, du point de vue du développeur LAMP : Les bases, la configuration simple, les plug-ins les plus utiles, l'interaction avec GIT"
                 },
                 {
-                    "title": "Quelques bons outils pour la qualité du code PHP",
-                    "summary": "phpunit, phploc, phpmd, phpcpd, pdepend, php-cs-fixer. Rendre la qualité factuelle, insérer des tests unitaires et maîtriser la non-régression, estimer et améliorer l'état d'un 'vieux' projet, se donner des objectifs et des guides pour progresser, mesurer la qualité du code et la démontrer (ou pas)."
-                },
-                {
-                    "title": "En équipe, organiser et partager sa veille technologique",
-                    "summary": "La veille techno n'est ni une activité passive ni une activité solitaire. Comment inciter une équipe à développer sa veille techno, comment la partager, comment la valoriser dans la communication de l'entreprise. Des méthodes, des outils, et du fun."
-                },
-                {
-                    "title": "Organiser la production et le travail d'une équipe avec Redmine",
-                    "summary": "Installer et configurer Redmine ; gérer les projets, les spécifications, le chiffrage, les demandes de debug et d'évolution, et intégrer le client à l'équipe projet"
-                },
-                {
-                    "title": "Composer et Packagist",
-                    "summary": "Découvrir et utiliser le package management pour PHP : Comment utiliser le versioning et la mise à jour de vos librairies tierces, comment publier vos propres packages."
-                },
-                {
                     "title": "Silex, micro-framewok PHP",
-                    "summary": "Découvrir Silex, un micro-framework utilisant des composants de Symfony2. Idéal pour créer une API ou un petit intranet. De manière optionnelle et modulaire, Silex utilise un moteur de template (Twig) et un ORM (Doctrine2)."
+                    "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept. De manière optionnelle et modulaire, Silex fournit de quoi faire un petit moteur MVC, et permet d'utilise rapidement un moteur de template (Twig) et/ou un ORM (Doctrine2)."
                 },
                 {
-                    "title": "vos premières aventures avec Raspberry Pi",
+                    "title": "Vos premières aventures avec Raspberry Pi",
                     "summary": "Un atelier pratique, avec plusieurs démos, pour découvrir de manière ludique le Raspberry Pi."
                 }
             ],
@@ -3889,7 +3872,7 @@ var data = {
                 "Agilité",
                 "Jeux sérieux",
                 "Developpement personnel",
-                "coaching",
+                "coaching"
             ],
             "cities": [
                 "Lyon"
