@@ -2716,6 +2716,48 @@ var data = {
             ]
         },
         {
+            "name": "Cyril Lakech",
+            "bio": "Développeur, Team Leader. Organisateur du Ch'ti JUG, de Devoxx4Kids Lille, de Devoxx Belgique et de la conquête du monde par les développeurs!",
+            "picture": "https://s.gravatar.com/avatar/21843b4b8796bb4d73cbe48368eb5575?s=256",
+            "websites": [
+                {
+                    "title": "Ch'ti JUG",
+                    "href": "http://chtijug.org/"
+                },
+                {
+                    "title": "Groupe Adeo",
+                    "href": "http://www.groupe-adeo.com/"
+                }
+            ],
+            "twitter": "cyril_lakech",
+            "contact": "@cyril_lakech",
+            "mail": "cyril.lakech@gmail.com",
+            "location": "Lille",
+            "sessions": [
+                {
+                    "title": "AngularJS",
+                    "summary": "Introduction à AngularJS pour comprendre les bases du framework et être capable après la présentation de savoir comment démarrer un projet et créer sa première application."
+                },
+                {
+                    "title": "Git++ : Passez au niveau supérieur de la gestion de version",
+                    "summary": "Vous utilisez tous Git ! Mais nous pensons que vous l’utilisez trop souvent comme un simple SVN! Avec Git rebase et un peu de volonté, vous obtiendrez un historique expressif qui vous aidera au quotidien. Vous pourrez aussi générer un changelog fonctionnel, récupérer des commits d'une branche sur l’autre et bien plus encore! Venez apprendre quelques astuces simples pour améliorer la manière de gérer votre code !"
+                },
+                {
+                    "title": "Le Ch'ti JUG c'est quoi?",
+                    "summary": "Présentation du Ch'ti JUG que j'anime avec une super équipe depuis 5 ans. Historique, objectifs et discussions autours des thèmes aborder pendant les sessions."
+                }
+            ],
+            "tags": [
+                "JavaScript",
+                "Spring",
+                "Test",
+                "Java"
+            ],
+            "cities": [
+                "Lille"
+            ]
+        },
+        {
             "name": "Mathieu Bolla",
             "bio": "Développeur efficient, passionné surtout par ce qui n'est pas informatique, pour tirer le meilleur parti du monde réel dans notre tout petit monde virtuel. En somme, un électronicien, photographe, forgeron, menuisier, qui fait du Java, parfois. Fondateur de GoAndCloud.it, parce que coder c'est bien, mais c'est mieux quand c'est les autres.",
             "picture": "https://www.gravatar.com/avatar/4677084da23fd41e2d21561ec111a512?s=256",
