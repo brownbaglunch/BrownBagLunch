@@ -113,7 +113,7 @@ var bblLocationsData = {
             }
         },
         {
-            pseudo: "adeo",
+            pseudo: "groupeadeo",
             name: "GROUPE ADEO",
             address: "rue Sadi Carnot, Ronchin",
             gps: "50.605324,3.104282",
@@ -121,11 +121,11 @@ var bblLocationsData = {
             contact: "Cyril Lakech (@cyril_lakech)",
             picture: "img/entreprises/adeo.png",
             interests: [
-                    "Nombreux"
+                    "Javascript", "NodeJS", "Git", "Web", "Java", "Mobile", "Cloud", "BigData", "Agilité", "à peu près tout en fait..."
             ],
             audience: {
-                profiles: "Développeurs, Architectes, Agilistes, AMOA, Chefs de projets, Consultants",
-                number: "de 5 à 15 personnes (ouvert aux externes)"
+                profiles: "Développeurs, Architectes, AMOA, Chefs de projets, Managers, Consultants",
+                number: "de 20 à 35 personnes (ouvert aux externes !!!)"
             }
         }
     ]
