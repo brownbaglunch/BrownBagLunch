@@ -403,11 +403,11 @@ var data = {
                     websites: [
                         { title: "EasyMock", href: "http://easymock.org/" },
                         { title: "Objenesis", href: "http://objenesis.org/" },
-                        { title: "Blog Octo", href: "http://blog.octo.com" }
+                        { title: "Blog", href: "http://henritremblay.blogspot.fr/" }
                     ],
                     twitter: "henri_tremblay",
-                    contact: "htremblay [at] octo.com",
-                    mail: "htremblay@octo.com",
+                    contact: "henri [at] tremblay.pro",
+                    mail: "henri@tremblay.pro",
                     location: "Paris et alentours",
                     sessions: [
                         {
