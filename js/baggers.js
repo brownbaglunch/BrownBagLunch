@@ -3515,6 +3515,18 @@ var data = {
                 {
                     "title": "Intégration continue avec Jenkins",
                     "summary": "Qu'est ce que l'intégration continue ? présentation et utilisation de  Jenkins"
+                },
+                {
+                    "title": "Angular JS concepts de base",
+                    "summary": "Voir les concepts de base du framework made in Google et démarer sa première application"
+                },
+                {
+                    "title": "Angular JS level 2",
+                    "summary": "Vous voulez comprendre le fonctionnement du framework et l'utilisation des filters, controllers, directives, services.... ce BBL est pour vous...."
+                },
+                {
+                    "title": "Yeoman ou comment industrialiser le cycle de vie de ses applications JS",
+                    "summary": "Le web d'aujoud'hui se compile, des tests unitaires sont joués, les dépendances sont automatiquement récupérées sur le web... Soit vous le faites manuellement soit vous utilisez un outil comme Yeoman (yo, grunt et bower)"
                 }
             ],
             "tags": [
@@ -3523,10 +3535,10 @@ var data = {
                 "java",
                 "test",
                 "maven",
-                "jenkins"
+                "jenkins","AngularJS","Yeoman"
             ],
             "cities": [
-                "Saint Etienne"
+                "Saint Etienne","Lyon"
             ]
         },
         {
