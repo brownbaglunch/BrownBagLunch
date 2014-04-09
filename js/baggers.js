@@ -1,6 +1,54 @@
 var data = {
     "baggers": [
         {
+            "name": "Grégoire HUBERT",
+            "bio": "Utilisateur de PHP & Postgresql depuis le XXème siècle. Tour à tour consultant, développeur, formateur, auteur de Pomm, il crée PragmaFabrik en 2013 pour proposer son expertise autour de la base de données.",
+            "picture": "http://gravatar.com/avatar/f32f06ab7d033c171c5c0ea1e1c1c00e?s=200",
+            "websites": [
+                {
+                    "title": "PragmaFabrik",
+                    "href": "http://www.pragmafabrik.fr"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/pub/gr%C3%A9goire-hubert/1b/333/32"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/chanmix51"
+                }
+
+            ],
+            "twitter": "chanmix51",
+            "contact": "gregoire.hubert@pragmafabrik.com",
+            "mail": "gregoire.hubert@pragmafabrik.com",
+            "location": "Nantes",
+            "sessions": [
+                {
+                    "title": "Utiliser la puissance de Postgresql dans vos développements PHP",
+                    "summary": "Comment utiliser les types, la messagerie asynchrone, le SQL de Postgres avec Pomm."
+                },
+                {
+                    "title": "Le SQL de Postgres au service de votre métier",
+                    "summary": "Nous verrons ce qu'ont en commun SQL et les langages fonctionnels, pourquoi SQL avec plus de 30 ans d'expérience au service des développeurs est votre meilleur ami."
+                },
+                {
+                    "title": "Silex : le µ-framework à tout faire",
+                    "summary": "Silex, un petit framework monté sur les épaules de Symony 2."
+                }
+            ],
+            "tags": [
+                "php",
+                "postgresql",
+                "silex",
+                "pomm",
+                "sql"
+            ],
+            "cities": [
+                "Paris", "Nantes"
+            ]
+        },
+        {
             "name": "Julien Danjou",
             "bio": "Free Software Hacker, développeur OpenStack, auteur de The Hacker's Guide to Python. Également développeur Debian, GNU Emacs, Freedesktop et créateur du window manager awesome.",
             "picture": "img/baggers/photo_jdanjou.jpg",
