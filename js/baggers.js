@@ -2670,22 +2670,6 @@ var data = {
             "location": "Nantes",
             "sessions": [
                 {
-                    "title": "Construire un environnement de développement en agence web",
-                    "summary": "Présentation de quelques outils éprouvés pour améliorer l'organisation et la productivité en agence web : LAMP, GIT, Bitbucket, Redmine, Vagrant"
-                },
-                {
-                    "title": "Dans mon équipe, on est à l'aise avec GNU/Linux!",
-                    "summary": "Découvrir l'environnement GNU/Linux du point de vue du développeur web : travailler sous GNU/Linux, administrer son serveur web, comprendre les bases de la sécurité d'un serveur web, profiter des outils open source. Comment passer à GNU/Linux sans peine quand on travaille avec Windows ou Mac OSX."
-                },
-                {
-                    "title": "Git, pour versionner, partager et/ou déployer simplement le code source de vos applications",
-                    "summary": "Découvrir GIT pour versionner et partager le code source au sein d'une équipe. Les grands principes de bases, les commandes les plus utiles, l'utilisation au jour le jour. Présentation de quelques plateformes collaboratives : Github, Bitbucket, etc."
-                },
-                {
-                    "title": "VIM, mon éditeur de texte, mon couteau suisse, et mon environnement de développement",
-                    "summary": "Présentation de VIM, du point de vue du développeur LAMP : Les bases, la configuration simple, les plug-ins les plus utiles, l'interaction avec GIT"
-                },
-                {
                     "title": "Silex, micro-framewok PHP",
                     "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept. De manière optionnelle et modulaire, Silex fournit de quoi faire un petit moteur MVC, et permet d'utilise rapidement un moteur de template (Twig) et/ou un ORM (Doctrine2)."
                 },
@@ -2698,13 +2682,6 @@ var data = {
                 "PHP",
                 "Silex",
                 "Raspberry Pi",
-                "Vim",
-                "GNU/Linux",
-                "Git",
-                "Vagrant",
-                "MongoDB",
-                "Gestion de projet",
-                "Redmine",
                 "Qualité",
                 "Méthodes",
                 "Fun"
