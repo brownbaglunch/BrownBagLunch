@@ -90,6 +90,47 @@ var data = {
             ]
         },
 
+        {
+            "name": "Rodolphe Quiédeville",
+            "bio": "Artisan Logiciel Libre, contributeur Tsung, expert en performance des SI(G), contribue également aux données et aux outils OpenStreetMap.",
+            "picture": "http://www.gravatar.com/avatar/95a63eeb28d5e8237cfb8d6c75798ef1.png",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://blog.rodolphe.quiedeville.org"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://rodolphe.quiedeville.org/linkedin"
+                }
+            ],
+            "twitter": "rodoq",
+            "contact": "rodolphe@quiedeville.org",
+            "mail": "rodolphe@quiedeville.org",
+            "location": "Lille",
+            "sessions": [
+                {
+                    "title": "Tsung de 1 à 1 million",
+                    "summary": "Validez vos systèmes d'informations et restez serein face à la montée en charge ou l'effet Slashdot."
+                },
+                {
+                    "title": "Libérez aussi vos données géographiques",
+                    "summary": "OpenStreetMap est devenu aujourd'hui un acteur fiable tant sur la donnée géographique que le routage, découvrez comment l'intégrer facilement dans votre SI."
+                }
+            ],
+            "tags": [
+                "Tsung",
+                "Test",
+                "Performance",
+                "SIG",
+                "OSM"
+            ],
+            "cities": [
+                "Paris,Lille"
+            ]
+        },
+
+
 
         {
             "name": "Philippe PRADOS",
