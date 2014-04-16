@@ -126,7 +126,7 @@ var data = {
                 "OSM"
             ],
             "cities": [
-                "Paris,Lille"
+                "Paris", "Lille"
             ]
         },
 
