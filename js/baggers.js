@@ -1056,6 +1056,10 @@ var data = {
                 {
                     "title": "Blog Objet Direct",
                     "href": "http://blog.objetdirect.com/author/ygrenzinger"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/yannickgrenzinger"
                 }
             ],
             "twitter": "ygrenzinger",
@@ -1064,24 +1068,24 @@ var data = {
             "location": "Paris et La Défense",
             "sessions": [
                 {
-                    "title": "La psychologie des objets de tous les jours",
-                    "summary": "Connaître les principes d'ergonomie issues des sciences cognitives vous permet d'améliorer l'utilisabilité de vos interfaces mais aussi de vos API et de votre code."
+                    "title": "Tester et apprendre rapidement pour avoir le bon produit",
+                    "summary": "Avec les méthodes « Agiles », nous avons appris comment bien faire un produit. Mais à une époque où tout business peut être rapidement concurrencé par une startup, il faut savoir créer le bon produit. C’est la où les principes et les outils de Lean Startup, Design Thinking ou encore Pretotyping viennent nous aider."
                 },
                 {
-                    "title": "Créons des produits ayant une véritable valeur!",
-                    "summary": "L'objectif est de présenter trois principes essentiels à la création de produits exceptionnels: le Design, la Co-création et la Mesure. En suivant ces principes, vous gagnerez une équipe motivée et efficace, un produit rentable pour la société tout en étant utile et agréable pour l'utilisateur. Vous y découvrirez aussi un méta-principe qui est à la source de toute réussite :)"
+                    "title": "Apprendre à apprendre pour survivre au 21ème siècle.",
+                    "summary": "Apprendre est la compétence essentielle à connaître au 21ème siècle. Accro au MOOC et développant un PersonalMBA, je vous propose de découvrir et discuter les moyens d’apprendre rapidement aussi bien au niveau personnel, de votre produit/startup et même de votre organisation."
                 },
                 {
-                    "title": "Angular, le spectacular framework web moderne",
-                    "summary": "Retour d'expérience sur le framework Angular avec Testacular ainsi qu'une pointe de Yeoman et de Foundation."
+                    "title": "Mettez du Design dans vos applications.",
+                    "summary": "Le but est de présenter ce qu’est-ce que le design, quels en sont les grands principes mais aussi des  méthodes pour améliorer l’UX de votre application dés lundi. "
                 },
                 {
-                    "title": "MEAN, la stack ultra-productive",
-                    "summary": "MongoDB, NodeJS, Express et Angular sont quatre frameworks connus pour leur efficacité en terme de développement. Or ces quatre frameworks se combinent parfaitement pour créer une stack ultra-productive permettant de valider rapidement votre prototype par exemple dans une approche Lean Startup. Tout ça avec un seul langage Javascript et un seul format de données JSON."
+                    "title": "Faites (re)vivre vos spécifications.",
+                    "summary": "Vous avez écrit des centaines de pages de spécification mais personne ne les a lu et elles sont déjà désuètes ? La solution se trouve dans la spécification par l'exemple qui permet de mettre en pratique l'ATDD, le BDD et surtout la co-création en créant le dialogue et un langage commun avec le métier."
                 },
                 {
-                    "title": "Valider le problème avant de penser solution, comment faire ?",
-                    "summary": "Introduction à Lean Startup afin de sortir de votre immeuble et aller voir vos futur clients / utilisateurs. Je vous présenterais aussi Lean Canvas, outil que j'ai pu mettre en pratique de nombreuses fois à des conférences, au Lean Startup Workshop ou sur ma propre startup"
+                    "title": "Comment développer rapidement une webapp ?",
+                    "summary": "Dans ce BBL, j’aimerais vous montrer comment MongoDB, NodeJS et AngularJS vous permettent de construire très rapidement une webapp. Idéal pour prototyper et lancer rapidement de nouveaux produits."
                 }
             ],
             "tags": [
