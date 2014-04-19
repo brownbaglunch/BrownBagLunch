@@ -7,18 +7,18 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Brown Bag Lunch France - Baggers</title>
+        <title>Brown Bag Lunch RH France</title>
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/foundation.css" media="screen">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/normalize.css" media="screen">
 
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="http://www.brownbaglunch.fr/css/font-awesome.min.css"/>
 
         <!--[if IE 8]>
         <link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
         <![endif]-->
         
-        <style type="text/css">
+        <style type="text/css"> 
             /* Seems a bug in foundation 4 : */
             .panel.callout a{
                 color:#fff;
@@ -30,7 +30,7 @@
 
         <script type="text/javascript">
             var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-38399904-1']);
+            _gaq.push(['_setAccount', 'UA-46478568-1']);
             _gaq.push(['_trackPageview']);
 
             (function() {
@@ -43,37 +43,33 @@
 
     <body>
 
-        <div class="sticky">
-          <nav class="top-bar" data-topbar>
+        <nav class="top-bar">
             <ul class="title-area">
-              <li class="name">
-                <h1><a href="index.html">Brown Bag Lunch France</a></h1>
-              </li>
+                <li class="name"><h1><a href="http://rh.brownbaglunch.fr/">Brown Bag Lunch RH France</a></h1></li>
             </ul>
 
             <section class="top-bar-section">
-              <!-- Right Nav Section -->
-              <ul class="right">
-                <li><a href="locations.html"><i class="icon-globe"></i> Où proposer un BBL ?</a></li>
-                <li class="divider"></li>
-                <li class="has-dropdown">
-                  <a href="#">Baggers</a>
-                  <ul class="dropdown" id="bagger-menuitem"></ul>
-                </li>
-              </ul>
+                <ul class="left">
+                    <li class="divider"></li>
+                    <li class="active"><a href="index.html"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></li>
+                </ul>
 
-              <!-- Left Nav Section -->
-              <ul class="left">
-                <li class="divider"></li>
-                <li><a href="index.html"><i class="icon-lightbulb"></i> Comment ça fonctionne?</a></li>
-              </ul>
+                <ul class="right">
+                    <li class="divider"></li>
+
+                    <li class="has-dropdown not-click">
+                        <a href="#">Baggers</a>
+                        <ul class="dropdown" id="bagger-menuitem"></ul>
+                    </li>
+                </ul>
             </section>
-          </nav>
-        </div>
-  
+        </nav>
+
         <!-- CARTE GOOGLE MAP -->
+
+        
         <div class="row">
-            <h1>Liste des villes et des baggers</h1>
+            <h1>Liste des villes et des baggers RH</h1>
 
             <div class="small-2 large-2 columns"></div>
             <div class="small-12 large-12 columns">
@@ -84,18 +80,19 @@
             <div class="small-2 large-2 columns"></div>
         </div>
         <hr>
-
+        <blockquote class="middle">
+                 <p><i><center>Le sujet RH qui vous intéresse n'est proposé par aucun bagger? Contactez nous, nous essaierons de vous proposer une solution adaptée: <a href="mailto:rh@brownbaglunch.fr"><i class="icon-envelope"></i> rh@brownbaglunch.fr</a></center></i></p>
+        </blockquote>
         <!-- BAGGERS! -->
         <div id="bagger-details" style="margin-top: 25px;"></div>
 
         <footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
-          <div class="row">
-            <strong>
-              Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers :
-              <a style="color: yellow;" href="https://github.com/nrichand/BrownBagLunch/"><i class="icon-github-alt"></i> page github</a>
-                       | <a style="color: yellow;" href="https://twitter.com/bbl_fr"><i class="icon-twitter"></i> @bbl_fr</a>
-            </strong>
-          </div>
+            <div class="row">
+                <strong>
+                    Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers : <a href="mailto:rh@brownbaglunch.fr"><i class="icon-envelope"></i> rh@brownbaglunch.fr</a>
+                    <a style="color: yellow;"<a href="https://twitter.com/bblRH_fr" target="_blank"> <i class="icon-twitter"></i> @bblRH_fr</a>
+                </strong>
+            </div>
         </footer>
 
         <!-- Included JS Files -->
@@ -180,11 +177,11 @@
                                             <p>{{{bio}}}</p>
 
                                             {{#websites}}
-                                                <p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
+                                                <p><i class="icon-book"></i> <a href="{{href}}" target="_blank">{{title}}</a></p>
                                             {{/websites}}
 
                                             {{#twitter}}
-                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
+                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a></p>
                                             {{/twitter}}
 
                                             <p class="contact-me" style="display: none">{{name}}</p>
@@ -192,7 +189,7 @@
                                         </div>
 
                                         <div class="small-6 large-6 columns">
-                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose</span>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
                                             <ul class="icons">
                                                 {{#sessions}}
                                                     <li>
@@ -201,7 +198,7 @@
                                                     </li>
                                                 {{/sessions}}
                                             </ul>
-                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux</span>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
                                             <p><i class="icon-globe"></i> {{location}}</p>
                                         </div>
                                     </div>
@@ -248,7 +245,7 @@
                 <div class="row">
                     <div class="large-12 columns">
                         <label>Titre du mail</label>
-                        <input type="text" id="contact-subject" value="Contact pour un BBL">
+                        <input type="text" id="contact-subject" value="Contact pour un BBL RH">
                     </div>
                 </div>
 
