@@ -896,14 +896,14 @@ var data = {
                     "href": "http://objenesis.org/"
                 },
                 {
-                    "title": "Blog Octo",
-                    "href": "http://blog.octo.com"
+                    "title": "Blog",
+                    "href": "http://henritremblay.blogspot.fr/"
                 }
             ],
             "twitter": "henri_tremblay",
-            "contact": "htremblay [at] octo.com",
-            "mail": "htremblay@octo.com",
-            "location": "Paris et alentours",
+            "contact": "henri [at] tremblay.pro",
+            "mail": "henri@tremblay.pro",
+            "location": "Montréal et alentours",
             "sessions": [
                 {
                     "title": "Vivre en parallèle",
