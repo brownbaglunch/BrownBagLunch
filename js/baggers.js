@@ -4042,6 +4042,52 @@ var data = {
             "cities": [
                 "Lyon"
             ]
+        },
+        {
+            "name": "Mathieu Hausherr",
+            "bio": "Développeur mobile. Souvent sur iOS et Android.",
+            "picture": "http://www.gravatar.com/avatar/ddc294f25a19a5c979deabbac498e020.png?size=256",
+            "websites": [
+                {
+                    "title": "DoYouBuzz",
+                    "href": "http://www.mathieu-hausherr.com"
+                },
+                {
+                    "title": "Blog Octo",
+                    "href": "http://blog.octo.com/author/mha/"
+                }
+            ],
+            "twitter": "mhausherr",
+            "contact": "mhausherr [at] gmail.com",
+            "mail": "mhausherr@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Industrialisez vos devs mobiles",
+                    "summary": "Intégration continue / déploiement continu, tests unitaires, test d'acceptances, distribution"
+                },
+                {
+                    "title": "Introduction à la mobilité",
+                    "summary": "Histoire du dev mobile depuis 2008, les contraintes du dev mobile, web ou natif: le duel"
+                },
+                {
+                    "title": "Livecode: une app iOS et son Backend en moins d'une heure",
+                    "summary": "Présentation de l'outils parse.com"
+                },
+                {
+                    "title": "Google Glass",
+                    "summary": "Qu'est ce que c'est, comment ça fonctionne, comment développe-t-on des applications"
+                }
+            ],
+            "tags": [
+            	"Mobile",
+                "iOS",
+                "Android",
+                "Google Glass"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
