@@ -362,6 +362,10 @@ var data = {
                 {
                     "title": "As if you meant it",
                     "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                },
+                {
+                    "title": "Haut débit et faible latence",
+                    "summary": "Programmation réactive: cas concret de conception via un système de trading électronique."
                 }
             ],
             "tags": [
@@ -369,7 +373,8 @@ var data = {
                 "TDD",
                 "Fluent",
                 ".NET",
-                "Test"
+                "Test",
+                "Reactive"
             ],
             "cities": [
                 "Paris"
