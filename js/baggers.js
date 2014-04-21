@@ -2,7 +2,7 @@ var data = {
     "baggers": [
         {
             "name": "Cyrille Dupuydauby",
-            "bio": "to do",
+            "bio": "Je vis l'informatique avec passion depuis plus de 30 ans; très expérimenté dans de nombreux domaines, j'ai concentré mes efforts récents sur les enjeux d'architectures parallèles/concurrentes, fort débit, faible latence et haute disponibilité qui jalonnent les SIs de la finance. Agiliste convaincu, la compréhension des enjeux métiers me sont au moins aussi important que la maîtrise technique. J'adore le partage des compétences, et je suis un ardent supporter du 'Pit Of Success'!",
             "websites": [
                 {
                     "title": "Many cores (blog)",
