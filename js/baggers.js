@@ -1,6 +1,44 @@
 var data = {
     "baggers": [
         {
+            "name": "Cyrille Dupuydauby",
+            "bio": "to do",
+            "websites": [
+                {
+                    "title": "Many cores (blog)",
+                    "href": "http://dupdob.wordpress.com/"
+                },
+                {
+                    "title": "n-fluent.net",
+                    "href": "http://www.n-fluent.net/"
+                }
+            ],
+            "twitter": "cyrdup",
+            "contact": "dupdob [at] gmail.com",
+            "mail": "dupdob@gmail.com",
+            "location": "Paris, La Défense et à proximité",
+            "sessions": [
+                {
+                    "title": "As if you meant it",
+                    "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                },
+                {
+                    "title": "Haut débit et faible latence",
+                    "summary": "Programmation réactive: cas concret de conception via un système de trading électronique."
+                }
+            ],
+            "tags": [
+                "DDD",
+                "TDD",
+                "Fluent",
+                ".NET",
+                "Test"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Grégoire HUBERT",
             "bio": "Utilisateur de PHP & Postgresql depuis le XXème siècle. Tour à tour consultant, développeur, formateur, auteur de Pomm, il crée PragmaFabrik en 2013 pour proposer son expertise autour de la base de données.",
             "picture": "http://gravatar.com/avatar/f32f06ab7d033c171c5c0ea1e1c1c00e?s=200",
