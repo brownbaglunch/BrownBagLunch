@@ -1,6 +1,44 @@
 var data = {
     "baggers": [
         {
+            "name": "Cyrille Dupuydauby",
+            "bio": "Je vis l'informatique avec passion depuis plus de 30 ans; très expérimenté dans de nombreux domaines, j'ai concentré mes efforts récents sur les enjeux d'architectures parallèles/concurrentes, fort débit, faible latence et haute disponibilité qui jalonnent les SIs de la finance. Agiliste convaincu, la compréhension des enjeux métiers me sont au moins aussi important que la maîtrise technique. J'adore le partage des compétences, et je suis un ardent supporter du 'Pit Of Success'!",
+            "websites": [
+                {
+                    "title": "Many cores (blog)",
+                    "href": "http://dupdob.wordpress.com/"
+                },
+                {
+                    "title": "n-fluent.net",
+                    "href": "http://www.n-fluent.net/"
+                }
+            ],
+            "twitter": "cyrdup",
+            "contact": "dupdob [at] gmail.com",
+            "mail": "dupdob@gmail.com",
+            "location": "Paris, La Défense et à proximité",
+            "sessions": [
+                {
+                    "title": "As if you meant it",
+                    "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                },
+                {
+                    "title": "Haut débit et faible latence",
+                    "summary": "Programmation réactive: cas concret de conception via un système de trading électronique."
+                }
+            ],
+            "tags": [
+                "DDD",
+                "TDD",
+                "Fluent",
+                ".NET",
+                "Test"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Grégoire HUBERT",
             "bio": "Utilisateur de PHP & Postgresql depuis le XXème siècle. Tour à tour consultant, développeur, formateur, auteur de Pomm, il crée PragmaFabrik en 2013 pour proposer son expertise autour de la base de données.",
             "picture": "http://gravatar.com/avatar/f32f06ab7d033c171c5c0ea1e1c1c00e?s=200",
