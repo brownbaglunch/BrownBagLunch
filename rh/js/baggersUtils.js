@@ -55,7 +55,7 @@ function displayContactModalWindowMail() {
         $('#contactModal').foundation('reveal', 'open');
 
         var baggerName = $(this).parent().find('.contact-me').text();
-        var bagger = _.find(_.flatten(data.villes, 'baggers'), {'name': baggerName});
+        var bagger = _.find(_.flatten(data.cities, 'baggers'), {'name': baggerName});
 
         $('#contactModal').find('#contact-to').val(bagger.mail);
 
