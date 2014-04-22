@@ -4188,7 +4188,57 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Emmanuel Bonnet",
+            "bio": "Consultant Decision Management @Genigraph, Chargé d'enseignement @UPS",
+            "picture": "http://www.gravatar.com/avatar/a89e9302b1b93ce1220079ed86ba0447.png?size=256",
+            "websites": [
+                {
+                    "title": "Linked In",
+                    "href": "https://www.linkedin.com/in/bonnetemmanuel"
+                },
+                {
+                    "title": "Genigraph",
+                    "href": "http://www.genigraph.fr"
+                }
+            ],
+            "twitter": "ebonnet31",
+            "contact": "emmanuel.bonnet [at] gmail.com",
+            "mail": "emmanuel.bonnet@gmail.com",
+            "location": "Toulouse et environs, et Paris occasionnellement",
+            "sessions": [
+                {
+                    "title": "La Gestion de la Décision, les BRMS, moteurs de règles, régles métiers et autres Business Rules, késako ?",
+                    "summary": "L'IA existe-t-elle vraiment ailleurs que dans les films de Spielberg ou Kubrick ? Des utilisateurs finaux qui codent des règles en langage naturel : mytho ou banco ?"
+                },
+                {
+                    "title": "BRMS, Moteurs de règles : entrons dans les détails sordides ...",
+                    "summary": "RETE, Salience, Refraction, pattern matching, les boucles folles, la langage naturel, les IF-THEN et WHAT ELSE ?"
+                },
+                {
+                    "title": "Jouons ensemble avec JBoss Drools (ou un autre, comme IBM ODM par exemple)",
+                    "summary": "Comprendre les principaux composants d'un BRMS : édition, execution, intégration et architecture sur un cas concret (avec du vrai Live coding inside)"
+                }
+            ],
+            "tags": [
+                "Decision Management",
+                "Moteurs de règles",
+                "Business Rules",
+                "Règles Métiers",
+                "BRMS",
+                "ILOG",
+                "DROOLS",
+                "ODM",
+                "JBOSS",
+                "IBM",
+                "JRULES"
+            ],
+            "cities": [
+                "Toulouse", "Paris"
+            ]
         }
+
     ],
     "cities": [
         {
