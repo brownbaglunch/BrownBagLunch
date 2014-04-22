@@ -31,7 +31,7 @@ var data = {
             "tags": [
                 "Reactive",
                 "Finance",
-                "Sequencer"
+                "Sequencer",
                 "DDD",
                 "TDD",
                 "Fluent",
