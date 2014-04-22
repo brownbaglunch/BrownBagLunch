@@ -450,7 +450,7 @@ var data = {
         },
         {
             "name": "Ameur Yannick",
-            "bio": "PRoduct Owner, Facilitateur, Coach, Formateur Agile & Lean Startup ",
+            "bio": "Product Owner, Facilitateur, Coach, Formateur Agile & Lean Startup ",
             "picture": "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
             "websites": [
                 {
