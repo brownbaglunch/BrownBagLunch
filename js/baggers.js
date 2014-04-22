@@ -490,7 +490,7 @@ var data = {
             ],
             "tags": [
                 "Agile",
-                "Product Owwner",
+                "Product Owner",
                 "Scrum",
                 "Coach",
                 "formation",
