@@ -362,6 +362,10 @@ var data = {
                 {
                     "title": "As if you meant it",
                     "summary": "Présentation de NFluent: l'outil .NET qu'il vous manquait pour booster le TDD dans votre équipe. Diapos et live coding inside."
+                },
+                {
+                    "title": "Haut débit et faible latence",
+                    "summary": "Programmation réactive: cas concret de conception via un système de trading électronique."
                 }
             ],
             "tags": [
@@ -369,7 +373,8 @@ var data = {
                 "TDD",
                 "Fluent",
                 ".NET",
-                "Test"
+                "Test",
+                "Reactive"
             ],
             "cities": [
                 "Paris"
@@ -1738,6 +1743,10 @@ var data = {
                 {
                     "title": "Monitoring: regarder votre application à la loupe et sous toutes les coutures!",
                     "summary": "Nous verrons comment alimenter Graphite, un excellent outil de métrologie, dans une architecture java (ou autres): collectd, jmxtrans, metrics, statsd,.. afin de prendre des mesures au niveau du système, de l'applicatif, des batchs et du métier (KPI). Nous aborderons ensuite la corrélation tous ces métriques de façon très visuelle et comment réveiller vos sysadmins en cas d'urgence ;)"
+                },
+                {
+                    "title": "TDD pour les DevOps",
+                    "summary": "Le Test Driven Infrastructure, c'est un peu le TDD pour les projets DevOps. Il va vous permettre de tester votre infrastructure unitairement, de bout en bout et à chaque changement. Je vous montrerais en live coding comment mettre en oeuvre une infrastructure avec Chef (ou Puppet) ainsi que les tests associés (hand's on labs Devoxx 2014 - http://tinyurl.com/tdd4devops)."
                 }
             ],
             "tags": [
@@ -1755,7 +1764,10 @@ var data = {
                 "statsd",
                 "devops",
                 "ops",
-                "sysadmin"
+                "sysadmin",
+                "tdd",
+                "chef",
+                "puppet"
             ],
             "cities": [
                 "Paris"
