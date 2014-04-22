@@ -446,7 +446,7 @@ var data = {
         },
         {
             "name": "Ameur Yannick",
-            "bio": "Coach, Formateur Agile, Facilitateur",
+            "bio": "PRoduct Owner, Facilitateur, Coach, Formateur Agile & Lean Startup ",
             "picture": "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
             "websites": [
                 {
@@ -468,12 +468,16 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
+                    "title": "Lean Startup",
+                    "summary": "Je vous propose d'animer et de faciliter une scéance Lean Canvas pour définir votre propjet."
+                },
+                {
                     "title": "Rétrospective",
                     "summary": "Je vous propose d'animer et faciliter votre rétrospective sur un format d'une heure."
                 },
                 {
                     "title": "Serious Games",
-                    "summary": "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
+                    "summary": "Discuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
                 },
                 {
                     "title": "Coaching Personnel",
