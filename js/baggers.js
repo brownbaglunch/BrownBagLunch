@@ -29,6 +29,9 @@ var data = {
                 }
             ],
             "tags": [
+                "Reactive",
+                "Finance",
+                "Sequencer"
                 "DDD",
                 "TDD",
                 "Fluent",
