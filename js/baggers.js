@@ -473,7 +473,7 @@ var data = {
             "sessions": [
                 {
                     "title": "Lean Startup",
-                    "summary": "Je vous propose d'animer et de faciliter une scéance Lean Canvas pour définir votre propjet."
+                    "summary": "Je vous propose d'animer et de faciliter une séance Lean Business Model Canvas pour définir votre propjet."
                 },
                 {
                     "title": "Rétrospective",
@@ -490,15 +490,13 @@ var data = {
             ],
             "tags": [
                 "Agile",
+                "Product Owwner",
                 "Scrum",
-                "Scrumban",
                 "Coach",
                 "formation",
                 "formateur",
-                "lean",
-                "kanban",
-                "TDD",
-                "Test"
+                "lean Startup",
+                "kanban"
             ],
             "cities": [
                 "Paris"
