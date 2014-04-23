@@ -1,6 +1,40 @@
 var data = {
     "baggers": [
         {
+            "name": "Pierre CHAUSSALET",
+            "bio": "Admin système, développeur (Java, JS, Python, Node, Go...), site reliability engineer...",
+            "picture": "http://www.gravatar.com/avatar/1f2e936f67858671246fd07f4068640e.png?s=200",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://fr.linkedin.com/in/pchaussalet"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/pchaussalet"
+                }
+
+            ],
+            "twitter": "pchaussalet",
+            "contact": "pchaussalet@gmail.com",
+            "mail": "pchaussalet@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Au secours, mon portable part en prod ! (ou presque)",
+                    "summary": "Voyons comment Docker peut être utilisé non seulement sur vos projets de développement pour de l'intégration continue, mais aussi sur votre propre poste de développement pour recréer un environnement identique à la production à tout moment."
+                }
+            ],
+            "tags": [
+                "docker",
+                "fig",
+                "devops"
+            ],
+            "cities": [
+                "Paris"
+            ]
+         },
+         {
             "name": "Grégoire HUBERT",
             "bio": "Utilisateur de PHP & Postgresql depuis le XXème siècle. Tour à tour consultant, développeur, formateur, auteur de Pomm, il crée PragmaFabrik en 2013 pour proposer son expertise autour de la base de données.",
             "picture": "http://gravatar.com/avatar/f32f06ab7d033c171c5c0ea1e1c1c00e?s=200",
