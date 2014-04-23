@@ -1,6 +1,7 @@
 var data = {
     "baggers": [
         {
+<<<<<<< HEAD
             "name": "Cyrille Dupuydauby",
             "bio": "Je vis l'informatique avec passion depuis plus de 30 ans; très expérimenté dans de nombreux domaines, j'ai concentré mes efforts récents sur les enjeux d'architectures parallèles/concurrentes, fort débit, faible latence et haute disponibilité qui jalonnent les SIs de la finance. Agiliste convaincu, la compréhension des enjeux métiers me sont au moins aussi important que la maîtrise technique. J'adore le partage des compétences, et je suis un ardent supporter du 'Pit Of Success'!",
             "picture": "http://gravatar.com/avatar/43022845c143b75a94c7c4b855975ee3&size=200",
@@ -37,12 +38,47 @@ var data = {
                 "Fluent",
                 ".NET",
                 "Test"
+=======
+            "name": "Pierre CHAUSSALET",
+            "bio": "Admin système, développeur (Java, JS, Python, Node, Go...), site reliability engineer...",
+            "picture": "http://www.gravatar.com/avatar/1f2e936f67858671246fd07f4068640e.png?s=200",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://fr.linkedin.com/in/pchaussalet"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/pchaussalet"
+                }
+
+            ],
+            "twitter": "pchaussalet",
+            "contact": "pchaussalet@gmail.com",
+            "mail": "pchaussalet@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Au secours, mon portable part en prod ! (ou presque)",
+                    "summary": "Voyons comment Docker peut être utilisé non seulement sur vos projets de développement pour de l'intégration continue, mais aussi sur votre propre poste de développement pour recréer un environnement identique à la production à tout moment."
+                }
+            ],
+            "tags": [
+                "docker",
+                "fig",
+                "devops"
+>>>>>>> 1734f808011db6eb9ee14ca764d786a040200cf2
             ],
             "cities": [
                 "Paris"
             ]
+<<<<<<< HEAD
         },
         {
+=======
+         },
+         {
+>>>>>>> 1734f808011db6eb9ee14ca764d786a040200cf2
             "name": "Grégoire HUBERT",
             "bio": "Utilisateur de PHP & Postgresql depuis le XXème siècle. Tour à tour consultant, développeur, formateur, auteur de Pomm, il crée PragmaFabrik en 2013 pour proposer son expertise autour de la base de données.",
             "picture": "http://gravatar.com/avatar/f32f06ab7d033c171c5c0ea1e1c1c00e?s=200",
