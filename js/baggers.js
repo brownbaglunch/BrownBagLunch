@@ -4271,6 +4271,66 @@ var data = {
             "cities": [
                 "Toulouse", "Paris"
             ]
+        },,
+        {
+            "name": "Jean-François Garreau",
+            "bio": "Consultant IT chez @SQLI et Leader du @GDGNantes. Je suis développeur depuis maintenant 10 ans. J'ai toujours évolué dans un monde java et j'ai découvert Android en 2009 avec la version 1.1. Depuis, je continue de suivre les évolutions de la plateforme. Depuis maintenant an et demi j'ai commencé à m'interesser plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets.",
+            "picture": "http://www.gravatar.com/avatar/5713f6958d5be53307b0a5ae717ba767.png?size=256",
+            "websites": [
+                {
+                    "title": "Linked In",
+                    "href": "http://lnkd.in/dSN8h9U"
+                },
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/profile/002t8yktfxywhqn/fr/?readOnly=true"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/jefBinomed"
+                },
+                {
+                    "title": "Google+",
+                    "href": "https://www.google.com/+JeanFrancoisGarreau"
+                },
+                {
+                    "title": "Mes présentations",
+                    "href": "http://blog.binomed.fr/binomed_docs"
+                }
+            ],
+            "twitter": "jefBinomed",
+            "contact": "jean.francois.garreau [at] gmail.com",
+            "mail": "jean.francois.garreau@gmail.com",
+            "location": "Nantes et environs",
+            "sessions": [
+                {
+                    "title": "Android pour les débutants",
+                    "summary": "Cette session vise à poser les base du développement sous Android en présentant les concepts liés à ce système."
+                },
+                {
+                    "title": "NFC for Android",
+                    "summary": "Cette session vous permet de comprendre ce qui se cache derrière ces 3 lettres et de savoir comment implémenter du NFC dans vos applications Android."
+                },
+                {
+                    "title": "Les Sensors & le HTML5",
+                    "summary": "Html5 nous donne accès à un certain nombre de capteurs/périphériques qu’auparavant on pouvait seulement utiliser par le biais de plugins. Nous allons jouer avec nos téléphones / nos ordinateurs pour découvrir comment interpréter des éléments tels que l'orientation du téléphone, la captation de la voix, la création de sons, la caméra, ... Cet atelier montrera comment implémenter chacune de ces fonctionnalités. Au programme : giroscope / microphone / usermedia / vibration / ... Smartphone requis"
+                },
+                {
+                    "title": "WebRTC : de la visio dans mon navigateur sans plugin ! ",
+                    "summary": "Avez déjà rêvé de faire une visio avec votre grand mère, elle sur son smartphone et vous installés dans votre canapé avec votre ordinateur portable. Le problème : elle n'a pas Skype, pas de compte Google et elle ne connait pas Facetime ? Et si votre navigateur était la solution  ! Vous pourrez même lui partager les photos de votre petite dernière.<br><br>Vous l'aurez compris, l'objectif de cette session est de présenter ce qu'est le WebRTC et de comprendre ce qui ce cache derrière."
+                }
+            ],
+            "tags": [
+                "Mobile",
+                "Android",
+                "NFC",
+                "HTML5",
+                "WebRTC",
+                "Sensors"
+            ],
+            "cities": [
+                "Nantes"
+            ]
         }
 
     ],
