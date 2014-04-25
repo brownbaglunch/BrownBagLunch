@@ -4317,7 +4317,7 @@ var data = {
                 },
                 {
                     "title": "WebRTC : de la visio dans mon navigateur sans plugin ! ",
-                    "summary": "Avez déjà rêvé de faire une visio avec votre grand mère, elle sur son smartphone et vous installés dans votre canapé avec votre ordinateur portable. Le problème : elle n'a pas Skype, pas de compte Google et elle ne connait pas Facetime ? Et si votre navigateur était la solution  ! Vous pourrez même lui partager les photos de votre petite dernière.<br><br>Vous l'aurez compris, l'objectif de cette session est de présenter ce qu'est le WebRTC et de comprendre ce qui ce cache derrière."
+                    "summary": "Avez déjà rêvé de faire une visio avec votre grand mère, elle sur son smartphone et vous installés dans votre canapé avec votre ordinateur portable. Le problème : elle n'a pas Skype, pas de compte Google et elle ne connait pas Facetime ? Et si votre navigateur était la solution  ! Vous pourrez même lui partager les photos de votre petite dernière.Vous l'aurez compris, l'objectif de cette session est de présenter ce qu'est le WebRTC et de comprendre ce qui ce cache derrière."
                 }
             ],
             "tags": [
