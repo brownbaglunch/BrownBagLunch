@@ -4271,7 +4271,7 @@ var data = {
             "cities": [
                 "Toulouse", "Paris"
             ]
-        },,
+        },
         {
             "name": "Jean-François Garreau",
             "bio": "Consultant IT chez @SQLI et Leader du @GDGNantes. Je suis développeur depuis maintenant 10 ans. J'ai toujours évolué dans un monde java et j'ai découvert Android en 2009 avec la version 1.1. Depuis, je continue de suivre les évolutions de la plateforme. Depuis maintenant an et demi j'ai commencé à m'interesser plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets.",
