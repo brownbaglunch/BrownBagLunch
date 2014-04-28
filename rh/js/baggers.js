@@ -329,6 +329,10 @@ var data = {
                 {
                     "title": "Mettre en place une Direction des Ressources Humaines dans une TPE/PME/start up",
                     "summary": "Vous envisagez de mettre en place une direction RH dans votre TPE/PME/start up, ou vos salariés en réclament une à cor et à cris. A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
+                },
+                {
+                    "title": "Les RH en SSII (ESN): comment sortir du lot?",
+                    "summary": "Comment un service RH peut-il apporter de la valeur à une SSII? Et surtout, comment les RH peuvent-ils accompagner les salariés de ce type de société comme il se doit? Je vous propose de faire le point sur les attentes des salariés, leurs appréhensions et réticences, mais également sur le véritable apport que peut représenter un bon service RH en SSII."
                 }
             ],
             "tags": [
