@@ -291,16 +291,16 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Sensibilisation au coaching individuel",
-                    "summary": "Un accompagnement centré sur l’individu en situation professionnelle (Objectifs définis, approfondissement des connaissances, amélioration des performances, évaluation des changements)"
+                    "title": "Le coaching individuel",
+                    "summary": "A qui s’adresse-t-il ? Comment définir des objectifs de travail avec un coach ? Quels leviers le coaching permet-il d’actionner ? Quelle est sa place dans l’Accompagnement aux Changements ? Quel est l’intérêt du coaching systémique ?"
                 },
                 {
-                    "title": "Préparation aux entretiens d'embauche",
-                    "summary": "Conseil en image, prise de parole"
+                    "title": "L’expression des émotions en entreprises",
+                    "summary": "Ou comment réaliser que « Gérer ses émotions » n’est ni souhaitable, ni faisable"
                 },
                 {
-                    "title": "Sensibilisation à l'analyse comportementale",
-                    "summary": "En gestion de conflits, préparation de conférences, en assessment center"
+                    "title": "Les relations interpersonnelles en ESN (SSII)",
+                    "summary": "Quelles sont-elles ? Quelles sont les attentes ? Vers quoi et comment peuvent-elles évoluer ?"
                 }
             ],
             "tags": [
