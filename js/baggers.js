@@ -4369,8 +4369,39 @@ var data = {
             "cities": [
                 "Nantes"
             ]
+        },
+        {
+            "name": "Paul Chavard",
+            "bio": "Développeur Frontend / API chez CapitaineTrain. Contributeur sur le projet EmberJS",
+            "picture": "https://secure.gravatar.com/avatar/fb11d632ffe3f707da14aea540e4bd4f?s=250",
+            "websites": [
+                {
+                    "title": "Capitaine Train",
+                    "href": "http://www.capitainetrain.com/"
+                },
+                {
+                    "title": "EmberJS",
+                    "href": "http://emberjs.com"
+                }
+            ],
+            "twitter": "tchak13",
+            "contact": "paul@chavard.net",
+            "mail": "paul@chavard.net",
+            "location": "Paris, proche banlieue et La Défense",
+            "sessions": [
+                {
+                    "title": "Introduction à EmberJS",
+                    "summary": "Présentation du framework EmberJS et des enjeux d'une application riche en JavaScript. Nous allons essayer de répondre à des questions courantes : \"J'ai vraiment besoin d'une app ? Un site web ne suffit pas ?\", \"J'ai vraiment besoin d'un framework ?\", \"Comment tester mon app ?\"."
+                }
+            ],
+            "tags": [
+                "EmberJS",
+                "JavaScript"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
-
     ],
     "cities": [
         {
