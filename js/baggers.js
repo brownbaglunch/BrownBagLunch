@@ -4401,6 +4401,52 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+         {
+            "name": "Xavier Mouton-Dubosc",
+            "bio": "Développeur web, tripatouilleur de standards, autodidacte et engagé",
+            "picture": "https://media.licdn.com/media/p/3/005/013/186/05dc795.jpg",
+            "websites": [
+                {
+                    "title": "Site professionnel",
+                    "href": "http://dascritch.com/"
+                },
+                {
+                    "title": "Profil linkedin",
+                    "href": "https://linkedin.com/in/dascritch"
+                },
+            ],
+            "twitter": "dascritch",
+            "contact": "xaviermd@gmail.com",
+            "mail": "xaviermd@gmail.com",
+            "location" : "Toulouse et sa banlieue",
+            "sessions": [
+                {
+                    "title": "Chiffrer ses communications et ses ordinateurs",
+                    "summary": "Quelles sont les missions du chiffrage, et ses utilités quotidiennes. Démonstration avec les e-mails signés et signatures de clés"
+                },
+                {
+                    "title": "Surveillance globale et espionnage économique",
+                    "summary": "Mythes et réalités sur les programmes étatiques de surveillance globale et compétition économique"
+                },
+                {
+                    "title": "L'histoire de la cryptographie",
+                    "summary": "Comment les outils de cryptographie furent forgés et comment sont-ils passés d'un usage militaire à un usage civil."
+                },
+                {
+                    "title": "Politique de sécurité et de respect de vie privée",
+                    "summary": "Comment gérer les données personnelles stockées par votre application et les bonnes pratiques pour éviter les catastrophes techniques et juridiques"
+                },
+            ],
+            "tags": [
+                "Vie privée",
+                "Sécurité",
+                "Chiffrage",
+                "Ethique"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
         }
     ],
     "cities": [
