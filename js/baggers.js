@@ -4447,6 +4447,40 @@ var data = {
             "cities": [
                 "Toulouse"
             ]
+        },
+        {
+            "name": "Franck Debane",
+            "bio": "Consultant CTO et coach lean startup. Intervenant/Formateur sur l'innovation, le lean startup et le marketing digital. Papa x2",
+            "picture": "http://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/02a/0ce/0dac097.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://debane.org/franck"
+                },
+                {
+                    "title": "Netelio",
+                    "href": "http://netelio.com"
+                }
+            ],
+            "twitter": "fdebane",
+            "contact": "fdebane [at] gmail.com",
+            "mail": "fdebane@gmail.com",
+            "location": "Paris et environs",
+            "sessions": [
+                {
+                    "title": "Decouverte du Lean Startup",
+                    "summary": "Comprendre les principes de bases du lean startup et leur importance. Quels sont les implications pour les entreprises déjà établie. Comprendre les étapes pour appliquer le lean startup dans votre entreprise."
+                }
+            ],
+            "tags": [
+                "Lean Startup",
+                "Innovation",
+                "Product Strategy",
+                "Prodcut Management"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
