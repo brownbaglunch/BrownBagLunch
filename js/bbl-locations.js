@@ -127,6 +127,22 @@ var bblLocationsData = {
                 profiles: "Développeurs, Architectes, AMOA, Chefs de projets, Managers, Consultants",
                 number: "de 20 à 35 personnes (ouvert aux externes !!!)"
             }
+        },
+        {
+            pseudo: "cantinetours",
+            name: "La Cantine Numérique Tours",
+            address: "30, rue André Theuriet, 37000 Tours",
+            gps: "47.383442, 0.698555",
+            website: "http://www.paloaltours.org/",
+            contact: "contact [at] paloaltours.org",
+            picture: "",
+            interests: [
+                    "Java", "Scala", "PHP", "MongoDB", "Web", "Mobile", "Cloud", "Agilité", "Design", "ESS", "Arduino", "et d'autres autres choses."
+            ],
+            audience: {
+                profiles: "Développeurs/Ingénieurs, Créatifs/Designers, Startupers/Managers/Consultants",
+                number: "de 5 à 40 personnes (ouvert à tous)"
+            }
         }
     ]
 };
