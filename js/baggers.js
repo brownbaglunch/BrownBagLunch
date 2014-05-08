@@ -4481,6 +4481,60 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+                {
+            "name": "Julien Dargaisse",
+            "bio": "Tech Entrepreneur & UI/UX Designer. A l'initiative de PALO ALTOURS, La Cantine Numérique Tours, Startup Weekend Tours, Apéro Entrepreneurs Tours. #FBSAlumni",
+            "picture": "https://pbs.twimg.com/profile_images/2284064030/r1fue8rqkl904pvija46.jpeg",
+            "websites": [
+                {
+                    "title": "Linedkin",
+                    "href": "https://www.linkedin.com/in/juliendargaisse"
+                },
+                {
+                    "title": "BuzzleMe (fondateur)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (co-fondateur)",
+                    "href": "http://www.nowly.co"
+                }
+                {
+                    "title": "PALO ALTOURS (Startup associative)",
+                    "href": "http://www.paloaltours.org"
+                },
+            ],
+            "twitter": "juliendargaisse",
+            "contact": "julien [at] nowly.co",
+            "mail": "julien@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Gestion de projet innovant",
+                    "summary": "Partage d'expérience: de l'idée à la commercialisation en passant par le financement."
+                },
+                {
+                    "title": "Travailler en mobilité",
+                    "summary": "Les apps/saas pour pouvoir travailler en mobilité."
+                },
+            	{
+                    "title": "Le recrutement 2.0",
+                    "summary": "Les outils et bonnes pratiques pour recruter avec le web."
+                }
+            ],
+            "tags": [
+                "Innovation",
+                "Lean Startup",
+                "UI/UX Design",
+                "Recrutement",
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Mobilité"
+            ],
+            "cities": [
+                "Paris",
+                "Tours"
+            ]
         }
     ],
     "cities": [
@@ -4501,6 +4555,12 @@ var data = {
             "ville_img": "img/villes/BBL_Toulouse.jpg",
             "lat": 43.604652,
             "lng": 1.444209
+        },
+        {
+            "name": "Tours",
+            "ville_img": "",
+            "lat": 47.396651,
+            "lng": 0.694286
         },
         {
             "name": "Rennes",
