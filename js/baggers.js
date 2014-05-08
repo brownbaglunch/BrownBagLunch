@@ -4498,7 +4498,7 @@ var data = {
                 {
                     "title": "Nowly (co-fondateur)",
                     "href": "http://www.nowly.co"
-                }
+                },
                 {
                     "title": "PALO ALTOURS (Startup associative)",
                     "href": "http://www.paloaltours.org"
