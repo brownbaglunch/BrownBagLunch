@@ -4488,7 +4488,7 @@ var data = {
             "picture": "https://pbs.twimg.com/profile_images/2284064030/r1fue8rqkl904pvija46.jpeg",
             "websites": [
                 {
-                    "title": "Linedkin",
+                    "title": "linkedin",
                     "href": "https://www.linkedin.com/in/juliendargaisse"
                 },
                 {
@@ -4542,7 +4542,7 @@ var data = {
             "picture": "https://pbs.twimg.com/profile_images/378800000207562580/068af47146178ce025736989f37fd862.jpeg",
             "websites": [
                 {
-                    "title": "Linedkin",
+                    "title": "linkedin",
                     "href": "https://www.linkedin.com/in/jeromeheissler"
                 },
                 {
@@ -4620,12 +4620,74 @@ var data = {
             "cities": [
                 "Tours"
             ]
+        },
+        {
+            "name": "Manyssin Thin",
+            "bio": "Entrepreneur et jeune papa passionné par le design et le numérique. CEO de www.nowly.co et lui même depuis 1985.",
+            "picture": "https://pbs.twimg.com/profile_images/3538863249/7c6adb61a6b0554c019b2a26711c7afd_400x400.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/pub/manyssin-thin/70/706/62"
+                },
+                {
+                    "title": "Nowly (Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "huvw",
+            "contact": "many [at] nowly.co",
+            "mail": "many@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Storytelling",
+                    "summary": "Raconter votre histoire, un véritable vecteur de communication. Les succès et les difficultés, ce qui fait de vous ce que vous êtes et qui vous permet de creer un véritable lien."
+                }
+            ],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Mathieu Bolard",
+            "bio": "Consultant en solutions mobiles, co-fondateur de Nowly",
+            "picture": "https://pbs.twimg.com/profile_images/1749868293/id-1_small.png",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "http://lnkd.in/dm_XUv4"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "mattlawer",
+            "contact": "mathieu [at] nowly.co",
+            "mail": "mathieu@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "iOS",
+                "Crypto",
+                "Reverse engineering"
+            ],
+            "cities": [
+                "Tours"
+            ]
         }
     ],
     "cities": [
         {
             "name": "Tours",
-            "ville_img": "",
+            "ville_img": "img/villes/BBL_Tours.png",
             "lat": 47.396651,
             "lng": 0.694286
         },
