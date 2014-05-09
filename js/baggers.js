@@ -4482,7 +4482,7 @@ var data = {
                 "Paris"
             ]
         },
-                {
+        {
             "name": "Julien Dargaisse",
             "bio": "Tech Entrepreneur & UI/UX Designer. A l'initiative de PALO ALTOURS, La Cantine Numérique Tours, Startup Weekend Tours, Apéro Entrepreneurs Tours. #FBSAlumni",
             "picture": "https://pbs.twimg.com/profile_images/2284064030/r1fue8rqkl904pvija46.jpeg",
@@ -4532,12 +4532,56 @@ var data = {
                 "Mobilité"
             ],
             "cities": [
-                "Paris",
+                "Tours",
+                "Paris"                
+            ]
+        },
+        {
+            "name": "Jérôme Heissler",
+            "bio": "Startup lovers • Tech Entrepreneur • Architect AWS • Developer Web & Scala/Java • Passionate about Continuous Delivery, Infrastructure Automation, and all things Devops.",
+            "picture": "https://pbs.twimg.com/profile_images/378800000207562580/068af47146178ce025736989f37fd862.jpeg",
+            "websites": [
+                {
+                    "title": "Linedkin",
+                    "href": "https://www.linkedin.com/in/jeromeheissler"
+                },
+                {
+                    "title": "BuzzleMe (Co-Founder)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "jeromeheissler",
+            "contact": "jerome [at] nowly.co",
+            "mail": "jerome@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Architecture",
+                "Scala",
+                "Java",
+                "AWS",
+                "Cloud",
+                "MongoDB",
+                "devops"
+            ],
+            "cities": [
                 "Tours"
             ]
         }
     ],
     "cities": [
+        {
+            "name": "Tours",
+            "ville_img": "",
+            "lat": 47.396651,
+            "lng": 0.694286
+        },
         {
             "name": "Paris",
             "ville_img": "img/villes/BBL.jpg",
@@ -4555,12 +4599,6 @@ var data = {
             "ville_img": "img/villes/BBL_Toulouse.jpg",
             "lat": 43.604652,
             "lng": 1.444209
-        },
-        {
-            "name": "Tours",
-            "ville_img": "",
-            "lat": 47.396651,
-            "lng": 0.694286
         },
         {
             "name": "Rennes",
