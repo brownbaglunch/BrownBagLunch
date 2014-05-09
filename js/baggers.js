@@ -4533,7 +4533,7 @@ var data = {
             ],
             "cities": [
                 "Tours",
-                "Paris"                
+                "Paris"
             ]
         },
         {
@@ -4569,6 +4569,53 @@ var data = {
                 "Cloud",
                 "MongoDB",
                 "devops"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Cedric Gatay",
+            "bio": "Code-Trooper, code quality obsessed. Startup adventurer",
+            "picture": "http://www.gravatar.com/avatar/9600dc1bda25e979e656559914e00021.png?s=240",
+            "websites": [
+                {"title": "Blog", "href": "http://bloggure.info"},
+                {"title": "Code-Troopers", "href":"http://code-troopers.com"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/in/cedricgatay"},
+                {"title": "Github", "href": "https://github.com/CedricGatay"},
+            ],
+            "twitter": "Cedric_Gatay",
+            "contact": "cedric@gatay.fr",
+            "mail": "cedric@gatay.fr",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Astuces d'utilisation de Maven",
+                    "summary": "Apache Maven est un outil omniprésent, apprenez quelques astuces pour vous permettre de moins le détester (voir même l'apprécier)"
+                },
+                {
+                    "title": "Exporter une API depuis un site web",
+                    "summary": "Nous vivons dans le monde des API, malheureusement, tous les sites webs ne l'ont pas compris et n'exposent pas des points d'accès pour permettre aux développeurs de construire des services riches au dessus de leur source de données. Nous verrons comment nous pouvons assez simplement procéder pour extraire une API depuis un site web."
+                },
+                {
+                    "title": "Construction d'un système de statistiques avec MongoDB",
+                    "summary": "Retour d'expérience sur la construction d'un système de restitutions statistiques à l'aide de MongoDB."
+                },
+                {
+                    "title": "Retour d'expérience sur la plateforme de test mise en place pour SRMvision",
+                    "summary": "Pour permettre de tester facilement différentes versions de l'application, SRMvision utilise Vagrant + Puppet pour générer à la volée des machines de test, apprenez comment faire de même..."
+                },
+                {
+                    "title" : "Git, moi aussi !",
+                    "summary": "Présentation sur ce qu'est Git et comment en bénéficier au quotidien sur votre poste de développeur en attendant qu'il soit autorisé par votre hierarchie."
+                }
+            ],
+            "tags": [
+                "integration continue",
+                "maven",
+                "java",
+                "git",
+                "MongoDB"
             ],
             "cities": [
                 "Tours"
