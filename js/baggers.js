@@ -4532,8 +4532,8 @@ var data = {
                 "Mobilité"
             ],
             "cities": [
-                "Paris",
-                "Tours"
+                "Tours",
+                "Paris"                
             ]
         },
         {
@@ -4577,6 +4577,12 @@ var data = {
     ],
     "cities": [
         {
+            "name": "Tours",
+            "ville_img": "",
+            "lat": 47.396651,
+            "lng": 0.694286
+        },
+        {
             "name": "Paris",
             "ville_img": "img/villes/BBL.jpg",
             "lat": 48.856614,
@@ -4593,12 +4599,6 @@ var data = {
             "ville_img": "img/villes/BBL_Toulouse.jpg",
             "lat": 43.604652,
             "lng": 1.444209
-        },
-        {
-            "name": "Tours",
-            "ville_img": "",
-            "lat": 47.396651,
-            "lng": 0.694286
         },
         {
             "name": "Rennes",
