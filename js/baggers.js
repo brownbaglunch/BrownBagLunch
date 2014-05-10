@@ -4143,7 +4143,7 @@ var data = {
                 {
                     "title": "Le tour de Varnish en 80 jours",
                     "summary": "Dans cette présentation, nous allons littéralement faire le tour du monde pour découvrir Varnish. Architecture moderne et réactive, ce cache HTTP offre un DSL élégant pour la politique de cache, et un ensemble d'outils simples pour l'administrer."
-                },
+                }
             ],
             "tags": [
                 "Varnish",
@@ -4414,7 +4414,7 @@ var data = {
                 {
                     "title": "Profil linkedin",
                     "href": "https://linkedin.com/in/dascritch"
-                },
+                }
             ],
             "twitter": "dascritch",
             "contact": "xaviermd@gmail.com",
@@ -4436,13 +4436,47 @@ var data = {
                 {
                     "title": "Politique de sécurité et de respect de vie privée",
                     "summary": "Comment gérer les données personnelles stockées par votre application et les bonnes pratiques pour éviter les catastrophes techniques et juridiques"
-                },
+                }
             ],
             "tags": [
                 "Vie privée",
                 "Sécurité",
                 "Chiffrage",
                 "Ethique"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Frédéric Cabestre",
+            "bio": "Architecte logiciel, peut-être. Développeur, assurément. Inclassable curieux à large spectre, sans aucun doute. Mais surtout passeur qui aime faire partager ses rares «Eurêka !».",
+            "picture": "img/baggers/fcabestre.png",
+            "twitter": "fcabestre",
+            "contact": "frederic.cabestre@free.fr",
+            "mail": "frederic.cabestre@free.fr",
+            "location": "Ô, Toulouse !",
+            "sessions": [
+                {
+                    "title": "SSL du sol au plafond",
+                    "summary": "Pour beaucoup SSL est un petit cadenas dans un navigateur. Que se cache-t-il derrière ? De l'assemblage cryptographique à la gestion des certificats."
+                },
+                {
+                    "title": "Des acteurs en concurrence",
+                    "summary": "Pourquoi un concept vieux de 40 ans refait-il surface aujourd'hui ? Qu'est-ce qui en fait la force ? Où sont ses faiblesses ? Avec de vraies rasades de «Akka» pour accompagner le plat."
+                },
+                {
+                    "title": "Comment la JVM ramasse-t-elle ses miettes ?",
+                    "summary": "La JVM propose à ses invités la récupération automatique de la mémoire. Quelles sont ses stratégies ? Comment les contrôler et les observer en action ?"
+                }
+            ],
+            "tags": [
+                "SSL",
+                "Akka",
+                "Acteurs",
+                "JVM",
+                "Scala",
+                "Java"
             ],
             "cities": [
                 "Toulouse"
