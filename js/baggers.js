@@ -4720,6 +4720,31 @@ var data = {
                 "Toulouse"
             ]
         }
+        {
+            "name": "Jean-Philippe Bempel",
+            "bio": "Architecte performance, Je travaille depuis plus de 5 ans sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
+            "picture": "https://lh5.googleusercontent.com/-LTVFWnsuGlY/ThnyQs5VZjI/AAAAAAAABUY/7gQusBbS-1I/s207-p-no/Fifounet1.JPG",
+            "twitter": "jpbempel",
+            "contact": "jpbempel@ullink.com",
+            "mail": "jpbempel@ullink.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Mesurer directement depuis le CPU: les compteurs de performance",
+                    "summary": "Les CPUs intègrent une unité de mesure de performance (PMU) que l'on peut utiliser pour collecter des données sur l'utilisation des caches (hit/miss) des prédictions de branches, du nombre d'instructions, des cycles, etc. Ces compteurs de performance (HPC) peuvent être accédés en Java grâce à la librairie overseer. Cette présentation montrera comment les mettre en oeuvre avec des exemples de situation où ils sont pertinents pour la compréhension des performances."
+                },
+            ],
+            "tags": [
+                "mechanical sympathy",
+                "CPU",
+                "JIT",
+                "JVM",
+                "low latency"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        }
     ],
     "cities": [
         {
