@@ -4719,7 +4719,7 @@ var data = {
             "cities": [
                 "Toulouse"
             ]
-        }
+        },
         {
             "name": "Jean-Philippe Bempel",
             "bio": "Architecte performance, Je travaille depuis plus de 5 ans sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
