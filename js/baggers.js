@@ -4193,6 +4193,7 @@ var data = {
         {
             "name": "Maxime Bonnet",
             "bio": "Scrum master, formateur certifié Innovation Games, Coach Agile",
+            "picture": "http://www.hellot.eu/photos/maxime.jpg",
             "twitter": "maximebonnet",
             "contact": "maxime@bonnet.tel",
             "mail": "maxime@bonnet.tel",
