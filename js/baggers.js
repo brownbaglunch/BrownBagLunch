@@ -4749,7 +4749,7 @@ var data = {
     "cities": [
         {
             "name": "Tours",
-            "ville_img": "img/villes/BBL_Tours.png",
+            "ville_img": "img/villes/BBL_Tours.jpg",
             "lat": 47.396651,
             "lng": 0.694286
         },
