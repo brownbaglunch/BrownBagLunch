@@ -2458,6 +2458,61 @@ var data = {
             ]
         },
         {
+            "name": "Nicolas Ledez",
+            "bio": "Sysadmin depuis quelques années. Fainéant donc développeur (Ruby, Python, 'bash', etc.). Donc forcement 'DevOps",
+            "picture": "http://www.gravatar.com/avatar/8bd808086fe0e2a647c96a96fd0b995e.png?s=512",
+            "websites": [
+                {
+                    "title": "Mon blog",
+                    "href": "http://blog.ledez.net"
+                }
+            ],
+            "twitter": "nledez",
+            "contact": "brownbaglunch@ledez.net",
+            "mail": "brownbaglunch@ledez.net",
+            "location": "Rennes et alentours",
+            "sessions": [
+                {
+                    "title": "\"Infrastructure as code\" avec Chef"
+                },
+                {
+                    "title": "Dev(\)Ops ? l'after Agile ?"
+                },
+                {
+                    "title": "Y sont pas cher mes tests !"
+                },
+                {
+                    "title": "Introduction à Ruby"
+                },
+                {
+                    "title": "Introduction à Vagrant"
+                },
+                {
+                    "title": "Introduction au Cloud"
+                },
+                {
+                    "title": "Jouez avec des feux tricolores en Ruby"
+                },
+                {
+                    "title": "Tu veux scripter ?"
+                },
+                {
+                    "title": "Git for dumbass + Git trick or treats"
+                }
+            ],
+            "tags": [
+                "Cloud",
+                "DevOps",
+                "Ruby",
+                "Chef",
+                "TDD"
+            ],
+            "cities": [
+                "Rennes",
+                "Ailleurs si tu payes le déplacement :)"
+            ]
+        },
+        {
             "name": "Christophe Bégot",
             "bio": "Facilitateur Agile",
             "picture": "http://timwi.com/img/team/cbegot.png",
