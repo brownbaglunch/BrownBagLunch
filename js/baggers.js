@@ -2470,7 +2470,7 @@ var data = {
             "twitter": "nledez",
             "contact": "brownbaglunch@ledez.net",
             "mail": "brownbaglunch@ledez.net",
-            "location": "Rennes et alentours",
+            "location": "Rennes et alentours. Mais aussi ailleurs si tu payes le déplacement :)",
             "sessions": [
                 {
                     "title": "\"Infrastructure as code\" avec Chef"
