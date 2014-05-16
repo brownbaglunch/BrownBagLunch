@@ -2508,8 +2508,7 @@ var data = {
                 "TDD"
             ],
             "cities": [
-                "Rennes",
-                "Ailleurs si tu payes le déplacement :)"
+                "Rennes"
             ]
         },
         {
