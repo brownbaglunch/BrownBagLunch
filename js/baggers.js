@@ -2353,6 +2353,9 @@ var data = {
             "mail": "bitard.michael@gmail.com",
             "location": "Toulouse et agglomération",
             "sessions": [
+                {   "title": "Docker FTW",
+                    "summary": "Je vous propose de découvrir Docker, cet outil qui peut révolutionner vos mises en production autant que vos développements."
+                },
                 {
                     "title": "Coding Dojo Java",
                     "summary": "Je souhaite que l'on échange sur nos pratiques de développement et de tests lors d'un randori.<br />Nous définirons ensemble l'objectif du coding dojo, en fonction de vos attentes."
