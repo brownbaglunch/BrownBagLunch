@@ -2461,6 +2461,60 @@ var data = {
             ]
         },
         {
+            "name": "Nicolas Ledez",
+            "bio": "Sysadmin depuis quelques années. Fainéant donc développeur (Ruby, Python, 'bash', etc.). Donc forcement 'DevOps",
+            "picture": "http://www.gravatar.com/avatar/8bd808086fe0e2a647c96a96fd0b995e.png?s=512",
+            "websites": [
+                {
+                    "title": "Mon blog",
+                    "href": "http://blog.ledez.net"
+                }
+            ],
+            "twitter": "nledez",
+            "contact": "brownbaglunch@ledez.net",
+            "mail": "brownbaglunch@ledez.net",
+            "location": "Rennes et alentours. Mais aussi ailleurs si tu payes le déplacement :)",
+            "sessions": [
+                {
+                    "title": "\"Infrastructure as code\" avec Chef"
+                },
+                {
+                    "title": "Dev(\)Ops ? l'after Agile ?"
+                },
+                {
+                    "title": "Y sont pas cher mes tests !"
+                },
+                {
+                    "title": "Introduction à Ruby"
+                },
+                {
+                    "title": "Introduction à Vagrant"
+                },
+                {
+                    "title": "Introduction au Cloud"
+                },
+                {
+                    "title": "Jouez avec des feux tricolores en Ruby"
+                },
+                {
+                    "title": "Tu veux scripter ?"
+                },
+                {
+                    "title": "Git for dumbass + Git trick or treats"
+                }
+            ],
+            "tags": [
+                "Cloud",
+                "DevOps",
+                "Ruby",
+                "Chef",
+                "TDD"
+            ],
+            "cities": [
+                "Rennes"
+            ]
+        },
+        {
             "name": "Christophe Bégot",
             "bio": "Facilitateur Agile",
             "picture": "http://timwi.com/img/team/cbegot.png",
@@ -3780,10 +3834,13 @@ var data = {
                 "java",
                 "test",
                 "maven",
-                "jenkins","AngularJS","Yeoman"
+                "jenkins",
+                "AngularJS",
+                "Yeoman"
             ],
             "cities": [
-                "Saint Etienne","Lyon"
+                "Saint Etienne",
+                "Lyon"
             ]
         },
         {
@@ -4146,7 +4203,7 @@ var data = {
                 {
                     "title": "Le tour de Varnish en 80 jours",
                     "summary": "Dans cette présentation, nous allons littéralement faire le tour du monde pour découvrir Varnish. Architecture moderne et réactive, ce cache HTTP offre un DSL élégant pour la politique de cache, et un ensemble d'outils simples pour l'administrer."
-                },
+                }
             ],
             "tags": [
                 "Varnish",
@@ -4193,6 +4250,7 @@ var data = {
         {
             "name": "Maxime Bonnet",
             "bio": "Scrum master, formateur certifié Innovation Games, Coach Agile",
+            "picture": "http://www.hellot.eu/photos/maxime.jpg",
             "twitter": "maximebonnet",
             "contact": "maxime@bonnet.tel",
             "mail": "maxime@bonnet.tel",
@@ -4255,7 +4313,7 @@ var data = {
                 }
             ],
             "tags": [
-            	"Mobile",
+                "Mobile",
                 "iOS",
                 "Android",
                 "Google Glass"
@@ -4372,10 +4430,387 @@ var data = {
             "cities": [
                 "Nantes"
             ]
+        },
+        {
+            "name": "Paul Chavard",
+            "bio": "Développeur Frontend / API chez CapitaineTrain. Contributeur sur le projet EmberJS",
+            "picture": "https://secure.gravatar.com/avatar/fb11d632ffe3f707da14aea540e4bd4f?s=250",
+            "websites": [
+                {
+                    "title": "Capitaine Train",
+                    "href": "http://www.capitainetrain.com/"
+                },
+                {
+                    "title": "EmberJS",
+                    "href": "http://emberjs.com"
+                }
+            ],
+            "twitter": "tchak13",
+            "contact": "paul@chavard.net",
+            "mail": "paul@chavard.net",
+            "location": "Paris, proche banlieue et La Défense",
+            "sessions": [
+                {
+                    "title": "Introduction à EmberJS",
+                    "summary": "Présentation du framework EmberJS et des enjeux d'une application riche en JavaScript. Nous allons essayer de répondre à des questions courantes : \"J'ai vraiment besoin d'une app ? Un site web ne suffit pas ?\", \"J'ai vraiment besoin d'un framework ?\", \"Comment tester mon app ?\"."
+                }
+            ],
+            "tags": [
+                "EmberJS",
+                "JavaScript"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Xavier Mouton-Dubosc",
+            "bio": "Développeur web, tripatouilleur de standards, autodidacte et engagé",
+            "picture": "https://media.licdn.com/media/p/3/005/013/186/05dc795.jpg",
+            "websites": [
+                {
+                    "title": "Site professionnel",
+                    "href": "http://dascritch.com/"
+                },
+                {
+                    "title": "Profil linkedin",
+                    "href": "https://linkedin.com/in/dascritch"
+                }
+            ],
+            "twitter": "dascritch",
+            "contact": "xaviermd@gmail.com",
+            "mail": "xaviermd@gmail.com",
+            "location" : "Toulouse et sa banlieue",
+            "sessions": [
+                {
+                    "title": "Chiffrer ses communications et ses ordinateurs",
+                    "summary": "Quelles sont les missions du chiffrage, et ses utilités quotidiennes. Démonstration avec les e-mails signés et signatures de clés"
+                },
+                {
+                    "title": "Surveillance globale et espionnage économique",
+                    "summary": "Mythes et réalités sur les programmes étatiques de surveillance globale et compétition économique"
+                },
+                {
+                    "title": "L'histoire de la cryptographie",
+                    "summary": "Comment les outils de cryptographie furent forgés et comment sont-ils passés d'un usage militaire à un usage civil."
+                },
+                {
+                    "title": "Politique de sécurité et de respect de vie privée",
+                    "summary": "Comment gérer les données personnelles stockées par votre application et les bonnes pratiques pour éviter les catastrophes techniques et juridiques"
+                }
+            ],
+            "tags": [
+                "Vie privée",
+                "Sécurité",
+                "Chiffrage",
+                "Ethique"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Franck Debane",
+            "bio": "Consultant CTO et coach lean startup. Intervenant/Formateur sur l'innovation, le lean startup et le marketing digital. Papa x2",
+            "picture": "http://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/02a/0ce/0dac097.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://debane.org/franck"
+                },
+                {
+                    "title": "Netelio",
+                    "href": "http://netelio.com"
+                }
+            ],
+            "twitter": "fdebane",
+            "contact": "fdebane [at] gmail.com",
+            "mail": "fdebane@gmail.com",
+            "location": "Paris et environs",
+            "sessions": [
+                {
+                    "title": "Decouverte du Lean Startup",
+                    "summary": "Comprendre les principes de bases du lean startup et leur importance. Quels sont les implications pour les entreprises déjà établie. Comprendre les étapes pour appliquer le lean startup dans votre entreprise."
+                }
+            ],
+            "tags": [
+                "Lean Startup",
+                "Innovation",
+                "Product Strategy",
+                "Prodcut Management"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Julien Dargaisse",
+            "bio": "Tech Entrepreneur & UI/UX Designer. A l'initiative de PALO ALTOURS, La Cantine Numérique Tours, Startup Weekend Tours, Apéro Entrepreneurs Tours. #FBSAlumni",
+            "picture": "https://pbs.twimg.com/profile_images/2284064030/r1fue8rqkl904pvija46.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/in/juliendargaisse"
+                },
+                {
+                    "title": "BuzzleMe (fondateur)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (co-fondateur)",
+                    "href": "http://www.nowly.co"
+                },
+                {
+                    "title": "PALO ALTOURS (Startup associative)",
+                    "href": "http://www.paloaltours.org"
+                }
+            ],
+            "twitter": "juliendargaisse",
+            "contact": "julien [at] nowly.co",
+            "mail": "julien@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Gestion de projet innovant",
+                    "summary": "Partage d'expérience: de l'idée à la commercialisation en passant par le financement."
+                },
+                {
+                    "title": "Travailler en mobilité",
+                    "summary": "Les apps/saas pour pouvoir travailler en mobilité."
+                },
+                {
+                    "title": "Le recrutement 2.0",
+                    "summary": "Les outils et bonnes pratiques pour recruter avec le web."
+                }
+            ],
+            "tags": [
+                "Innovation",
+                "Lean Startup",
+                "UI/UX Design",
+                "Recrutement",
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Mobilité"
+            ],
+            "cities": [
+                "Tours",
+                "Paris"
+            ]
+        },
+        {
+            "name": "Jérôme Heissler",
+            "bio": "Startup lovers • Tech Entrepreneur • Architect AWS • Developer Web & Scala/Java • Passionate about Continuous Delivery, Infrastructure Automation, and all things Devops.",
+            "picture": "https://pbs.twimg.com/profile_images/378800000207562580/068af47146178ce025736989f37fd862.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/in/jeromeheissler"
+                },
+                {
+                    "title": "BuzzleMe (Co-Founder)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "jeromeheissler",
+            "contact": "jerome [at] nowly.co",
+            "mail": "jerome@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Architecture",
+                "Scala",
+                "Java",
+                "AWS",
+                "Cloud",
+                "MongoDB",
+                "devops"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Cedric Gatay",
+            "bio": "Code-Trooper, code quality obsessed. Startup adventurer",
+            "picture": "http://www.gravatar.com/avatar/9600dc1bda25e979e656559914e00021.png?s=240",
+            "websites": [
+                {"title": "Blog", "href": "http://bloggure.info"},
+                {"title": "Code-Troopers", "href": "http://code-troopers.com"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/in/cedricgatay"},
+                {"title": "Github", "href": "https://github.com/CedricGatay"}
+            ],
+            "twitter": "Cedric_Gatay",
+            "contact": "cedric@gatay.fr",
+            "mail": "cedric@gatay.fr",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Astuces d'utilisation de Maven",
+                    "summary": "Apache Maven est un outil omniprésent, apprenez quelques astuces pour vous permettre de moins le détester (voir même l'apprécier)"
+                },
+                {
+                    "title": "Exporter une API depuis un site web",
+                    "summary": "Nous vivons dans le monde des API, malheureusement, tous les sites webs ne l'ont pas compris et n'exposent pas des points d'accès pour permettre aux développeurs de construire des services riches au dessus de leur source de données. Nous verrons comment nous pouvons assez simplement procéder pour extraire une API depuis un site web."
+                },
+                {
+                    "title": "Construction d'un système de statistiques avec MongoDB",
+                    "summary": "Retour d'expérience sur la construction d'un système de restitutions statistiques à l'aide de MongoDB."
+                },
+                {
+                    "title": "Retour d'expérience sur la plateforme de test mise en place pour SRMvision",
+                    "summary": "Pour permettre de tester facilement différentes versions de l'application, SRMvision utilise Vagrant + Puppet pour générer à la volée des machines de test, apprenez comment faire de même..."
+                },
+                {
+                    "title" : "Git, moi aussi !",
+                    "summary": "Présentation sur ce qu'est Git et comment en bénéficier au quotidien sur votre poste de développeur en attendant qu'il soit autorisé par votre hierarchie."
+                }
+            ],
+            "tags": [
+                "integration continue",
+                "maven",
+                "java",
+                "git",
+                "MongoDB"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Manyssin Thin",
+            "bio": "Entrepreneur et jeune papa passionné par le design et le numérique. CEO de www.nowly.co et lui même depuis 1985.",
+            "picture": "https://pbs.twimg.com/profile_images/3538863249/7c6adb61a6b0554c019b2a26711c7afd_400x400.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/pub/manyssin-thin/70/706/62"
+                },
+                {
+                    "title": "Nowly (Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "huvw",
+            "contact": "many [at] nowly.co",
+            "mail": "many@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Storytelling",
+                    "summary": "Raconter votre histoire, un véritable vecteur de communication. Les succès et les difficultés, ce qui fait de vous ce que vous êtes et qui vous permet de creer un véritable lien."
+                }
+            ],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Mathieu Bolard",
+            "bio": "Consultant en solutions mobiles, co-fondateur de Nowly",
+            "picture": "https://pbs.twimg.com/profile_images/1749868293/id-1_small.png",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "http://lnkd.in/dm_XUv4"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "mattlawer",
+            "contact": "mathieu [at] nowly.co",
+            "mail": "mathieu@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "iOS",
+                "Crypto",
+                "Reverse engineering"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Frédéric Cabestre",
+            "bio": "Architecte logiciel, peut-être. Développeur, assurément. Inclassable curieux à large spectre, sans aucun doute. Mais surtout passeur qui aime faire partager ses rares «Eurêka !».",
+            "picture": "img/baggers/fcabestre.png",
+            "twitter": "fcabestre",
+            "contact": "frederic.cabestre@free.fr",
+            "mail": "frederic.cabestre@free.fr",
+            "location": "Ô, Toulouse !",
+            "sessions": [
+                {
+                    "title": "SSL du sol au plafond",
+                    "summary": "Pour beaucoup SSL est un petit cadenas dans un navigateur. Que se cache-t-il derrière ? De l'assemblage cryptographique à la gestion des certificats."
+                },
+                {
+                    "title": "Des acteurs en concurrence",
+                    "summary": "Pourquoi un concept vieux de 40 ans refait-il surface aujourd'hui ? Qu'est-ce qui en fait la force ? Où sont ses faiblesses ? Avec de vraies rasades de «Akka» pour accompagner le plat."
+                },
+                {
+                    "title": "Comment la JVM ramasse-t-elle ses miettes ?",
+                    "summary": "La JVM propose à ses invités la récupération automatique de la mémoire. Quelles sont ses stratégies ? Comment les contrôler et les observer en action ?"
+                }
+            ],
+            "tags": [
+                "SSL",
+                "Akka",
+                "Acteurs",
+                "JVM",
+                "Scala",
+                "Java"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Jean-Philippe Bempel",
+            "bio": "Architecte performance, Je travaille depuis plus de 5 ans sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
+            "picture": "https://lh5.googleusercontent.com/-LTVFWnsuGlY/ThnyQs5VZjI/AAAAAAAABUY/7gQusBbS-1I/s207-p-no/Fifounet1.JPG",
+            "twitter": "jpbempel",
+            "contact": "jpbempel@ullink.com",
+            "mail": "jpbempel@ullink.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Mesurer directement depuis le CPU: les compteurs de performance",
+                    "summary": "Les CPUs intègrent une unité de mesure de performance (PMU) que l'on peut utiliser pour collecter des données sur l'utilisation des caches (hit/miss) des prédictions de branches, du nombre d'instructions, des cycles, etc. Ces compteurs de performance (HPC) peuvent être accédés en Java grâce à la librairie overseer. Cette présentation montrera comment les mettre en oeuvre avec des exemples de situation où ils sont pertinents pour la compréhension des performances."
+                },
+            ],
+            "tags": [
+                "mechanical sympathy",
+                "CPU",
+                "JIT",
+                "JVM",
+                "low latency"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
-
     ],
     "cities": [
+        {
+            "name": "Tours",
+            "ville_img": "img/villes/BBL_Tours.jpg",
+            "lat": 47.396651,
+            "lng": 0.694286
+        },
         {
             "name": "Paris",
             "ville_img": "img/villes/BBL.jpg",
