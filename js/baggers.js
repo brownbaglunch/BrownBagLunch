@@ -363,6 +363,38 @@ var data = {
                 "Versailles"
             ]
         },
+
+        {
+            "name": "Loic Dachary",
+            "bio": "Artisan Logiciel Libre, contributeur Ceph",
+            "picture": "http://www.gravatar.com/avatar/131beae824c4866ed6ae995c7fc9bd58.png",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://dachary.org"
+                }
+            ],
+            "contact": "loic@dachary.org",
+            "mail": "loic@dachary.org",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Ceph : le futur du stockage est libre",
+                    "summary": "Ceph est une plateforme libre de stockage distribué. Les objectifs principaux de Ceph sont d'être complètement distribué sans point unique de défaillance, extensible jusqu'à l'exabyte et librement disponible. Les données sont répliquées permettant au système d'être tolérant aux pannes."
+                }
+            ],
+            "tags": [
+                "Ceph",
+                "Stockage",
+                "Cloud",
+                "OpenStack"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+
+
         {
             "name": "Raphaël Yharrassarry",
             "bio": "Ergonome, UX Designer, Psychologue, en freelance depuis le dernier millénaire",
