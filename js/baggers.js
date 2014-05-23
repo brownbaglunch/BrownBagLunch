@@ -4036,7 +4036,7 @@ var data = {
         {
             "name": "Boris Schapira",
             "bio": "Consultant - Clever Age",
-            "picture": "http://borisschapira.com/avatars/SudWeb12_300.jpg",
+            "picture": "http://avatars.borisschapira.com/SudWeb12_300.jpg",
             "websites": [
                 {
                     "title": "Blog",
