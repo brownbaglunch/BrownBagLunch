@@ -1,6 +1,33 @@
 var data = {
     "baggers": [
         {
+            "name": "Clément Cunin",
+            "bio": "Développeur Java depuis 10 ans, passionné depuis toujours.",
+            "picture": "https://fr.gravatar.com/userimage/60625857/3853617c858dd6d6650209b6675648f1.jpg?size=200",
+            "websites": [
+                {
+                    "title": "D2SI",
+                    "href": "http://www.d2-si.fr/"
+                }
+            ],
+            "twitter": "clcunin",
+            "contact": "clement.cunin [at] d2-si.eu",
+            "mail": "clement.cunin@d2-si.eu",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Comprendre la révolution Docker",
+                    "summary": "Qu'est-ce que Docker et pourquoi tout le monde en parle ? Est-ce si révolutionnaire que çà ? Qu'est-ce que cela peut apporter à mon projet/mon entreprise ?"
+                }
+            ],
+            "tags": [
+                "docker",
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Grégory Paul",
             "bio": "Développeur (JS, Node, Java, ...) passionné par les technos web, l’OpenSource et la sécurité informatique",
             "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/011/1d9/1ec0ed4.jpg",
