@@ -203,6 +203,65 @@ var data = {
                 "Paris"
             ]
         },
+        {
+            "name": "Dimitri Fontaine",
+            "bio": "Free Software Hacker, PostgreSQL Major Contributor, auteur de El-Get (Emacs) et pgloader.",
+            "picture": "img/baggers/photo_dim.jpg",
+            "websites": [
+                {
+                    "title": "Homepage",
+                    "href": "http://tapoueh.org"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/dimitri"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/dimitrifontaine"
+                }
+            ],
+            "twitter": "tapoueh",
+            "contact": "dim@tapoueh.org",
+            "mail": "dim@tapoueh.org",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "SQL avancé avec PostgreSQL",
+                    "summary": "Changer de point de vue sur le SQL quand on est développeur."
+                },
+                {
+                    "title": "Architectures PostgreSQL",
+                    "summary": "Quelles sont les solutions classiques en terme de déploiement PostgreSQL à hautes disponibilité."
+                },
+                {
+                    "title": "Quelques extensions PostgreSQL",
+                    "summary": "Présentation détaillée de cas d'usages avancés resolus avec des extensions PostgreSQL."
+                },
+                {
+                    "title": "Le chargement de données avec PostgreSQL et pgloader",
+                    "summary": "Une présentation détaillée des capacités de l'outil pgloader en terme de chargement de données."
+                },
+                {
+                    "title": "Emacs",
+                    "summary": "Découvrir et appronfindir un environnement de travail complet, y compris la programmation Emacs Lisp."
+                },
+                {
+                    "title": "Common Lisp",
+                    "summary": "Présentation d'un language de programmation résolument moderne, impératif, objet et fonctionnel."
+                }
+            ],
+            "tags": [
+                "PostgreSQL",
+                "pgloader",
+                "Emacs",
+                "Emacs Lisp",
+                "Common Lisp"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
 
         {
             "name": "Rodolphe Quiédeville",
