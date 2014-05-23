@@ -2511,7 +2511,7 @@ var data = {
                     "title": "\"Infrastructure as code\" avec Chef"
                 },
                 {
-                    "title": "Dev(\)Ops ? l'after Agile ?"
+                    "title": "Dev(\\)Ops ? l'after Agile ?"
                 },
                 {
                     "title": "Y sont pas cher mes tests !"
