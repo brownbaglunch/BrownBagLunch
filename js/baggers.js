@@ -2538,7 +2538,7 @@ var data = {
                     "title": "\"Infrastructure as code\" avec Chef"
                 },
                 {
-                    "title": "Dev(\)Ops ? l'after Agile ?"
+                    "title": "Dev(\\)Ops ? l'after Agile ?"
                 },
                 {
                     "title": "Y sont pas cher mes tests !"
@@ -4063,7 +4063,7 @@ var data = {
         {
             "name": "Boris Schapira",
             "bio": "Consultant - Clever Age",
-            "picture": "http://borisschapira.com/avatars/SudWeb12_300.jpg",
+            "picture": "http://avatars.borisschapira.com/SudWeb12_300.jpg",
             "websites": [
                 {
                     "title": "Blog",
