@@ -518,7 +518,7 @@ var data = {
                 },
                 {
                     "title": "Méthodologies de l'UX et autres digressions ?",
-                    "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
+                    "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
                 }
             ],
             "tags": [
@@ -2395,12 +2395,12 @@ var data = {
                     "summary": "Maven est un outil de build puissant qui a révolutionné le monde du build Java. Il pose quelques principes fondateurs volontairement difficiles à contourner. Connaître ces quelques règles et principes permet de mieux l'utiliser sans subir le retour de flamme imminent lorsqu'on l'utilise hors des clous :-)."
                 },
                 {
-                    "title": "Git, pourquoi c'est cool ?",
-                    "summary": "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
+                    "title": "Git, pourquoi c'est cool ?",
+                    "summary": "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
                 },
                 {
                     "title": "Gerrit : la revue de code pour Git.",
-                    "summary": "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
+                    "summary": "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
                 }
             ],
             "tags": [
@@ -4602,7 +4602,7 @@ var data = {
             "sessions": [
                 {
                     "title": "Chiffrer ses communications et ses ordinateurs",
-                    "summary": "Quelles sont les missions du chiffrage, et ses utilités quotidiennes. Démonstration avec les e-mails signés et signatures de clés"
+                    "summary": "Quelles sont les missions du chiffrement, et ses utilités quotidiennes. Démonstration avec les e-mails signés et signatures de clés"
                 },
                 {
                     "title": "Surveillance globale et espionnage économique",
@@ -4620,7 +4620,7 @@ var data = {
             "tags": [
                 "Vie privée",
                 "Sécurité",
-                "Chiffrage",
+                "Chiffrement",
                 "Ethique"
             ],
             "cities": [
