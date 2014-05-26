@@ -4924,6 +4924,32 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Alexis Seigneurin",
+            "bio": "Developer & Tech manager at Ippon Technologies",
+            "picture": "https://pbs.twimg.com/profile_images/3666338425/cade89a11a849fb81641a12152c52110_400x400.jpeg",
+            "websites": [
+                {"title": "Blog", "href": "http://aseigneurin.github.io"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/pub/alexis-seigneurin/11/8b4/18a"},
+                {"title": "Github", "href": "https://github.com/aseigneurin"}
+            ],
+            "twitter": "aseigneurin",
+            "contact": "alexis [at] seigneurin.com",
+            "mail": "alexis@seigneurin.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Vagrant pour les développeurs",
+                    "summary": "En tant que développeurs, nous travaillons souvent sur des environnements de développement dont les caractéristiques diffèrent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.<br/>Nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de développement. Nous étudierons tous les mécanismes de base de l'outil : le provisioning, le mode multi-machines, la configuration réseau, les répertoires partagés. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !"
+                },
+            ],
+            "tags": [
+                "Vagrant"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
