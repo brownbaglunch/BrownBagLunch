@@ -4950,6 +4950,52 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Manuel Raynaud",
+            "bio": "@theliaecommerce developer and PHP addict",
+            "picture": "http://www.manuel-raynaud.com/wp-content/uploads/2013/12/manuel.jpg",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/lunika"
+                },
+                {
+                    "title": "Clermont'ech",
+                    "href": "http://clermontech.org"
+                },
+                {
+                    "title": "Site perso",
+                    "href": "http://www.manuel-raynaud.com"
+                }
+            ],
+            "twitter": "manuraynaud",
+            "contact": "raynaud.manu@gmail.com",
+            "mail": "raynaud.manu@gmail.com",
+            "location": "Clermont Ferrand et environs",
+            "sessions": [
+                {
+                    "title": "Thelia, la solution ecommerce libre",
+                    "summary": "Présentation de la solution ecommerce Thelia"
+                },
+                {
+                    "title": "Composants symfony",
+                    "summary": "introduction aux composants HttpKernel, HttpFoundation ou encore EventDispatcher et DependencyInjection"
+                },
+                {
+                    "title": "industrialisation de php",
+                    "summary": "Abandonnez le PHP à papa et modernisez vos méthodes de travail autour de php"
+                }
+            ],
+            "tags": [
+                "PHP",
+                "symfony2",
+                "ecommerce",
+                "GIT"
+            ],
+            "cities": [
+                "Clermont-Ferrand"
+            ]
         }
     ],
     "cities": [
