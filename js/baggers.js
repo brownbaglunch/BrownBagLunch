@@ -4996,8 +4996,67 @@ var data = {
             "cities": [
                 "Clermont-Ferrand"
             ]
+        },
+        {
+            "name": "Damien Thouvenin",
+            "bio": "Vieux développeur passé du coté entrepreneur de la force, j'ai créé ma boite en 2004, interviens comme coach agile et continue de coder le week-end tout en explorant les formes alternatives au management hiérarchique",
+            "picture": "https://pbs.twimg.com/profile_images/378800000400466333/f815139c75e19c3d0737b3d922756160_400x400.jpeg",
+            "websites": [
+                {"title": "Mon blog", "href": "http://www.blogdepatron.fr"},
+                { "title": "Ma boite", "href": "http://www.clt-services.com" },
+                { "title": "Agile France (orga)", "href": "http://www.conference-agile.fr" },
+                { "title": "LinkedIn", "href": "http://fr.linkedin.com/in/dthouvenin/fr" },
+                {"title": "Github", "href": "https://github.com/dthouvenin"}
+            ],
+            "twitter": "cltservices",
+            "contact": "d [point] thouvenin [at] clt-services.com ou 06-71-96-27-quatorze",
+            "mail": "d.thouvenin@clt-services.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Il est frais, il est beau mon backlog",
+                    "summary": "Présentation des idées, concepts, outils et pratiques que je trouve les plus utiles pour construire et rafiner son backlog."
+                },
+                {
+                    "title": "Entre le marteau et l'enclume de l'agilité, le manager",
+                    "summary": "L'équipe agile ne vit pas sur une île déserte et celui (celle) qui subit les plus fortes contraintes c'est le manager, à la frontière avec le reste de l'organisation. Discussion autour du rôle et des outils du manager d'équipes agiles."
+                },
+                {
+                    "title": "Jamais en retard, jamais stressé : gérer son temps efficacement",
+                    "summary": "Une bonne gestion du temps c'est 2 jours de formation et deux ans d'exercices mais en 1 heure on peut déjà faire un tour rapide de 10 astuces pour ne plus subir son emploi du temps et regagner en qualité de vie."
+                },
+                {
+                    "title": "Le lean-startup, un modèle pour réduire les risques des projets entrepreneuriaux",
+                    "summary": "L'entrepreneur c'est celui qui croit assez fort à son projet pour se lancer contre les pronostics et les opinions courantes. Cette présentation du Lean Startup s'adresse d'abord aux dirigeants, aux financiers, aux managers... à tous ceux qui lancent, financent, sponsorisent, décident de nouveaux projets."
+                },
+                {
+                    "title": "Faire monter le niveau",
+                    "summary": "*Raising the bar* c'est l'ambition du mouvement 'Software Craftsmanship'. Dans la pratique, comment faire ? Si je suis manager ou Team leader, comment faire monter le niveau technique de mon équipe, comment enclencher une dynamique d'apprentissage, que mettre en place pour faciliter l'amélioration ?"
+                },
+                {
+                    "title": "Découvir la sociocratie",
+                    "summary": "La sociocratie est un mode de distribution du pouvoir dans les organisations humaines qui vise à empêcher que le pouvoir ne devienne une force d'oppression. En une heure on voit ce qu'est la sociocratie et on l'expérimente à petite échelle en prenant une décision sociocratiquement."
+                },
+                {
+                    "title": "Pourquoi la hiérarchie est en échec et quelles sont les alternatives",
+                    "summary": "De plus en plus d'entreprises mettent en doute l'efficacité du management hiérarchique traditionnel (la pyramide). Je vous propose d'explorer pourquoi ça coince et quelles sont les autres options."
+                }
+            ],
+            "tags": [
+                "Agilité",
+                "Management",
+                "Leadership",
+                "RH",
+                "Product Ownership",
+                "Craftsmanship",
+                "Entreprise agile",
+                "Sociocratie"
+             ],
+            "cities": [
+                "Paris"
+            ]
         }
-    ],
+    ],    
     "cities": [
         {
             "name": "Tours",
