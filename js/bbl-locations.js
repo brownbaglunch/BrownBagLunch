@@ -143,6 +143,22 @@ var bblLocationsData = {
                 profiles: "Développeurs, Architectes, AMOA, Chefs de projets, Managers, Consultants",
                 number: "de 20 à 35 personnes (ouvert aux externes !!!)"
             }
+        },
+        {
+            pseudo: "cefim",
+            name: "CEFIM",
+            address: "32 avenue Marcel Dassault - 37200 Tours",
+            gps: "47.363285, 0.681463",
+            website: "http://www.cefim.eu",
+            contact: "info[at]cefim.eu",
+            picture: "img/entreprises/cefim.png",
+            interests: [
+                    "Webdesign", "Ios-Android", "Opendata", "Nosql", "Community management", "Ipv6", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Hacking", "Mooc"
+            ],
+            audience: {
+                profiles: "Développeur(euse), Chef de projet, Webdesigner, Ergonome, Ingénieur, Start-uper, Recruteur, Freelance, Formateur",
+                number: "de 10 à 25 personnes (ouvert à tous)"
+            }
         }
     ]
 };
