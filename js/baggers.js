@@ -5055,6 +5055,59 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Thomas Arnaud",
+            "bio": "Développeur Java, expert performance applicative.",
+            "picture": "http://www.gravatar.com/avatar/36656f02d742ed98c85c8c80a83fbb41.png?s=200",
+            "websites": [
+                {
+                    "title": "Level5",
+                    "href": "http://www.level5.fr/"
+                },
+                {
+                    "title": "Nudge APM",
+                    "href": "https://www.nudge-apm.com/"
+                }
+            ],
+            "twitter": "level5_c",
+            "contact": "thomas.arnaud@level5.fr",
+            "mail": "thomas.arnaud@level5.fr",
+            "location": "Clermont Ferrand et environs",
+            "sessions": [
+                {
+                    "title": "Cassandra",
+                    "summary": "Découvrez l'une des principales bases NoSQL du marché. Nous évoquerons les spécificités, le fonctionnement et le requêtage avec CQL3."
+                },
+                {
+                    "title": "Storm",
+                    "summary": "Faire du calcul distribué de manière robuste, scalable et tout ça en temps réel c'est maintenant possible. Architecture, design de topologies, implémentation ... découvrez Storm."
+                },
+                {
+                    "title": "Hadoop : Introduction",
+                    "summary": "Hadoop permet de travailler sur des petaoctets de données en des temps records grâce à son architecture distribuée. Découvrez comment cela fonctionne. Au programme : Architecture, HDFS, Map/Reduce ..."
+                },
+                {
+                    "title": "Hadoop: Programmation de jobs",
+                    "summary": "Un aperçu des principales techniques de programmation de jobs Hadoop : Java Map/Reduce, Hive, Pig."
+                },
+                {
+                    "title": "Tests de charge",
+                    "summary": "Métrologie, scénarisation, plan de charge, nous aborderons tous les aspects de l'élaboration d'un test de charge à l'aide de Jmeter."
+                }
+            ],
+            "tags": [
+                "Java",
+                "Performance",
+                "Calcul distrubué",
+                "Hadoop",
+                "Storm",
+                "Cassandra",
+                "NoSQL"
+            ],
+            "cities": [
+                "Clermont-Ferrand"
+            ]
         }
     ],    
     "cities": [
