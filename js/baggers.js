@@ -331,7 +331,6 @@ var data = {
         },
 
 
-
         {
             "name": "Philippe PRADOS",
             "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
@@ -4081,7 +4080,8 @@ var data = {
                 {
                     "title": "Introduction a html5",
                     "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
-                }],
+                }
+            ],
             "tags": ["Responsive", "HTML5"],
             "cities": [ "Paris" ]
         },
@@ -4119,7 +4119,8 @@ var data = {
                 {
                     "title": "Premiers pas avec AngularJS",
                     "summary": "Vous voulez démarrer avec AngularJS, besoin d'un guide, je peux vous aider. Fini les 'hello world' des tutos, passons à un vrai travail pratique."
-                }],
+                }
+            ],
             "tags": ["JavaScript", "AngularJS", "jQuery"],
             "cities": [ "Paris" ]
         },
@@ -4602,7 +4603,7 @@ var data = {
             "twitter": "dascritch",
             "contact": "xaviermd@gmail.com",
             "mail": "xaviermd@gmail.com",
-            "location" : "Toulouse et sa banlieue",
+            "location": "Toulouse et sa banlieue",
             "sessions": [
                 {
                     "title": "Chiffrer ses communications et ses ordinateurs",
@@ -4789,7 +4790,7 @@ var data = {
                     "summary": "Pour permettre de tester facilement différentes versions de l'application, SRMvision utilise Vagrant + Puppet pour générer à la volée des machines de test, apprenez comment faire de même..."
                 },
                 {
-                    "title" : "Git, moi aussi !",
+                    "title": "Git, moi aussi !",
                     "summary": "Présentation sur ce qu'est Git et comment en bénéficier au quotidien sur votre poste de développeur en attendant qu'il soit autorisé par votre hierarchie."
                 }
             ],
@@ -5051,7 +5052,7 @@ var data = {
                 "Craftsmanship",
                 "Entreprise agile",
                 "Sociocratie"
-             ],
+            ],
             "cities": [
                 "Paris"
             ]
@@ -5108,8 +5109,54 @@ var data = {
             "cities": [
                 "Clermont-Ferrand"
             ]
+        } ,
+        {
+            "name": "Laurent Paoletti",
+            "bio": "Développeur indépendant Python/Django, artisan du web depuis maintenant quelques années. Comme tout passioné, j'aime apprendre, discuter de mon métier et partager mon expérience, en organisant ou en participant à différents évènements.",
+            "picture": "img/baggers/laurent_paoletti.jpg",
+            "websites": [
+                {
+                    "title": "Providenz",
+                    "href": "http://www.providenz.fr/"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://fr.linkedin.com/in/laurentpaoletti"
+                }
+            ],
+            "twitter": "providenz",
+            "contact": "lp at providenz.fr",
+            "mail": "lp@providenz.fr",
+            "location": "Toulon et environs",
+            "sessions": [
+                {
+                    "title": "Performance web",
+                    "summary": "Améliorer les performances de vos applicatifs web en front et backend. Outils d'évaluation et de tests de montée en charge"
+                },
+                {
+                    "title": "Et si votre prochain développement était plus propre et robuste ? Une introduction à Django",
+                    "summary": "Marre des développements lourds, du code spaghetti et inmaintenable ? Laissez-moi vous parler de Django, le framework web utilisé par Instagram, Pinterest, Libération, Autolib, Mozilla et bien d'autres."
+                },
+                {
+                    "title": "Pourquoi passent-ils à python ?",
+                    "summary": "Web, informatique scientifique, traitement de données, administration de serveur, l'adoption de python s'est considérablement accélérée dans de nombreux secteurs, des startups aux banques d'affaires en passant par les centres de recherche scientifique. Une visite rapide de l'écosystème python pour évaluer son intérêt et ses défauts."
+                },
+                {
+                    "title": "La trousse à outil du développement web moderne",
+                    "summary": "En 10 ans le paysage du développement web a été complètement chamboulé. Arrivée du mobile, adoption massive de git, recours aux méthodes agiles, essor de javascript, intégration continue, cloud... On fait le point, un buzzword à la fois, et on cause bonnes pratiques. "
+                }
+
+            ],
+            "tags": [
+                "Python",
+                "Performance",
+                "web"
+            ],
+            "cities": [
+                "Toulon"
+            ]
         }
-    ],    
+    ],
     "cities": [
         {
             "name": "Tours",
@@ -5212,6 +5259,12 @@ var data = {
             "ville_img": "",
             "lat": 48.692054,
             "lng": 6.184417
+        },
+        {
+            "name": "Toulon",
+            "ville_img": "img/villes/BBL_Toulon.jpg",
+            "lat": 43.117,
+            "lng": 5.9333
         }
     ]
 };
