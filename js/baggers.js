@@ -5155,7 +5155,39 @@ var data = {
             "cities": [
                 "Toulon"
             ]
-        }
+        },
+        
+        
+        
+        {
+            "name": "Olivier ETIENNE",
+            "bio": "Architecte logiciel, mais Développeur avant tout ;). Javaiste de coeur mais ouvert à tout ou presque",
+            "picture": "img/baggers/oetienne.png",
+            "twitter": "olivier_etienne",
+            "contact": "olivier.etienne@gmail.com",
+            "mail": "olivier.etienne@gmail.com",
+            "location": "Toulouse",
+            "sessions": [
+                {
+                    "title": "Des framboises et des tests",
+                    "summary": "Comment utiliser un raspberry pi pour faire des tests automatiques sur la TV d'un grand opérateur téléphonique. Ou comment utiliser un raspberry pi pour faire un bridge IP-InfraRouge et ainsi passer d'une télécommande à Selenium."
+                }
+            ],
+            "tags": [
+                "HTTP",
+                "Java",
+                "Orange",
+                "Raspberry",
+                "Java",
+                "PHP",
+                "Test",
+                "Automatisation"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        
     ],
     "cities": [
         {
