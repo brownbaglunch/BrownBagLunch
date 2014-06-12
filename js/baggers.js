@@ -5234,7 +5234,7 @@ var data = {
                 "Scrum",
                 "Chef",
                 "Apple",
-                "Debian"
+                "Debian",
                 "Proxmox"
             ],
             "cities": [
