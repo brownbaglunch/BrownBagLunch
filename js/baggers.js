@@ -5297,6 +5297,12 @@ var data = {
             "ville_img": "img/villes/BBL_Toulon.jpg",
             "lat": 43.117,
             "lng": 5.9333
+        },
+        {
+            "name": "le Mans",
+            "ville_img": "img/villes/BBL_leMans.jpg",
+            "lat": 47.995084,
+            "lng": 0.188359
         }
     ]
 };
