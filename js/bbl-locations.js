@@ -151,7 +151,7 @@ var bblLocationsData = {
             gps: "47.363285, 0.681463",
             website: "http://www.cefim.eu",
             contact: "info[at]cefim.eu",
-            picture: "img/entreprises/cefim.png",
+            picture: "http://www.cefim.eu/assets/logoCouleur.png",
             interests: [
                     "Webdesign", "Ios-Android", "Opendata", "Nosql", "Community management", "Ipv6", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Hacking", "Mooc"
             ],
