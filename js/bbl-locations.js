@@ -159,6 +159,22 @@ var bblLocationsData = {
                 profiles: "Développeur(euse), Chef de projet, Webdesigner, Ergonome, Ingénieur, Start-uper, Recruteur, Freelance, Formateur",
                 number: "de 10 à 25 personnes (ouvert à tous)"
             }
+        },
+        {
+            pseudo: "RucheNumerique",
+            name: "Ruche Numérique",
+            address: "19 boulevard Marie et Alexandre Oyon - 72000 Le Mans",
+            gps: "47.995084, 0.188359",
+            website: "http://www.laruchenumerique.com",
+            contact: "contact@laruchenumerique.fr",
+            picture: "http://laruchenumerique.olm.fr/wp-content/uploads/2013/11/logoruche.png",
+            interests: [
+                    "Webdesign", "Mobile", "Opendata", "Hacking", "Community management", "Java", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Symfony2", "Mooc", "Arduino", "et tout ce qui touche au numérique."
+            ],
+            audience: {
+                profiles: "Développeur(euse), Chef de projet, Webdesigner, Ergonome, Ingénieur, Start-uper, Recruteur, Freelance, Formateur, consultant, étudiants",
+                number: "de 1 à 50 personnes (ouvert à tous)"
+            }
         }
     ]
 };
