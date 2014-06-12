@@ -5156,9 +5156,6 @@ var data = {
                 "Toulon"
             ]
         },
-        
-        
-        
         {
             "name": "Olivier ETIENNE",
             "bio": "Architecte logiciel, mais Développeur avant tout ;). Javaiste de coeur mais ouvert à tout ou presque",
@@ -5187,7 +5184,60 @@ var data = {
                 "Toulouse"
             ]
         },
-        
+        {
+            "name": "Augustin de LAVEAUCOUPET",
+            "bio": "Lead Développeur Symfony2, Statupeur et amateur de Raspberry.",
+            "picture": "http://www.gravatar.com/avatar/1374695123503482a838cf9fc9701b21.png?s=200",
+            "websites": [
+                {
+                    "title": "ATC IT",
+                    "href": "http://www.atc.agency/"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/augustinmerle"
+                }
+            ],
+            "twitter": "augustinmerle",
+            "contact": "augustin@atc-it.fr",
+            "mail": "augustin@laveaucoupet.fr",
+            "location": "Le Mans / Paris",
+            "sessions": [
+                {
+                    "title": "Vagrant sur votre poste de dev comme en Prod",
+                    "summary": "Decouverte de Vagrant et l'utilité d'avoir la meme archi entre  les devs et la prod."
+                },
+                {
+                    "title": "Behat",
+                    "summary": "Devenez un testeur Behat et coller au plus près des specs de votre clients. Simple mais powerfull."
+                },
+                {
+                    "title": "Outils et methodo pour des mises en prod sans sueur",
+                    "summary": "Si vous faite moins de une MEP par semaine, ou que elle prend plus de deux heures alors vous risquer d'aprendre des choses... "
+                },
+                {
+                    "title": "Discussions libre sur la qualité Logiciel",
+                    "summary": "Un truc qui me passionne en se moment on parlera Jenkins, insight et autres."
+                }
+            ],
+            "tags": [
+                "Symfony2",
+                "Performance",
+                "Devops",
+                "Behat",
+                "Vagrant",
+                "Scrum",
+                "Chef",
+                "Apple",
+                "Debian"
+                "Proxmox"
+            ],
+            "cities": [
+                "le Mans",
+                "Paris"
+            ]
+        }
+
     ],
     "cities": [
         {
