@@ -5237,8 +5237,32 @@ var data = {
                 "le Mans",
                 "Paris"
             ]
+        },
+        {
+            "name": "Xavier Carpentier",
+            "bio": "Full stack web & mobile apps developer. Xavier est développeur depuis 7 ans et il est maintenant indépendant dans les domaines du web et du mobile. C’est un adepte des frameworks conventionnés (Play Scala et Ruby On Rails) ainsi que des innovations côté client comme les nouveaux frameworks MVC JavaScript du type AngularJS. Bref, il se passionne pour tout ce qui gravite autour du vaste monde de la toile et par conséquent pour le style d’architecture Rest.",
+            "picture": "https://fr.gravatar.com/userimage/14646520/4f4940b2bdbc85918a045429e92fc118.jpg?size=250",
+            "websites": [
+                {
+                    "title": "Blog personnel",
+                    "href": "http://blog.xavier-carpentier.com/"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/xcarpentier"
+                }
+            ],
+            "twitter": "xcapetir",
+            "contact": "contact [at] xavier-carpentier.com",
+            "mail": "contact@xavier-carpentier.com",
+            "location": "Strasbourg",
+            "sessions": [{
+                "title": "#ReSTFul, really ?",
+                "summary": "Tout le monde dit faire ou vouloir faire une architecture de type Rest, mais que cela implique-t-il vraiment ? Où vous situez-vous sur le “Richardson Maturity Model” ? Votre API est à la fois Hypermedia et JSON, really ? Si ce sont des questions qui vous taraudent l’esprit et même vous empêchent de dormir, alors venez écouter ce talk pour avoir des pistes de réflexions, des échanges et peut-être des réponses, qui sait ?"
+            }],
+            "tags": ["ReSTFul", "API", "HTTP"],
+            "cities": ["Strasbourg", "Paris"]
         }
-
     ],
     "cities": [
         {
@@ -5354,6 +5378,12 @@ var data = {
             "ville_img": "img/villes/BBL_leMans.jpg",
             "lat": 47.995084,
             "lng": 0.188359
+        },
+        {
+            "name": "Strasbourg",
+            "ville_img": "",
+            "lat": 48.583148,
+            "lng": 7.747882
         }
     ]
 };
