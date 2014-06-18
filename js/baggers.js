@@ -2394,18 +2394,22 @@ var data = {
             "location": "Toulouse et dans le coin",
             "sessions": [
                 {
+                    "anchor":"git-basics",
                     "title": "Git, pourquoi c'est cool ?",
                     "summary": "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
                 },
                 {
+                    "anchor":"git-advanced",
                     "title": "Git avancé",
                     "summary": "Vous utilisez déjà Git, mais les commandes git rebase -i, git bisect ou ce qu'est un cherry-pick, ou triturer l'historique de vos commits vous inquiètent encore ? Vous aimeriez maîtriser bien plus que commit et push et arrêter le svn-like ? Cette session est pour vous. "
                 },
                 {
+                    "anchor":"gerrit",
                     "title": "Gerrit : la revue de code pour Git.",
                     "summary": "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
                 },
                 {
+                    "anchor":"maven-bien-utiliser",
                     "title": "Maven - comment bien l'utiliser ?",
                     "summary": "Maven est un outil de build puissant qui a révolutionné le monde du build Java. Il pose quelques principes fondateurs volontairement difficiles à contourner. Connaître ces quelques règles et principes permet de mieux l'utiliser sans subir le retour de flamme imminent lorsqu'on l'utilise hors des clous :-)."
                 }
