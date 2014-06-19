@@ -2570,16 +2570,16 @@ var data = {
             "location": "Rennes et alentours, possibilités sur Paris",
             "sessions": [
                 {
+                    "title": "Docker Revolution",
+                    "summary": "Comprendre Docker, ce que c'est, ses impacts sur les outils, usages Dev/Ops et patterns d'architecture."
+                },
+                {
                     "title": "Cloud Patterns",
                     "summary": "Comprendre les avantages et contraintes du cloud et les patterns d'architecture associés."
                 },
                 {
                     "title": "Intégration continue avec Jenkins",
                     "summary": "Présentation du concept d'intégration continue, mise en oeuvre avec Jenkins et utilisations avancées."
-                },
-                {
-                    "title": "Games of Codes",
-                    "summary": "Atelier pratique : développer avec la plateforme CloudBees"
                 }
             ],
             "tags": [
