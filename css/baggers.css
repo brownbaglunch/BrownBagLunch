@@ -1,4 +1,5 @@
-.bagger {
+.bagger,
+.session {
 	/*
 	Workaround for the navbar hiding the titles when navigating to an anchor.
 	Cf. https://github.com/twbs/bootstrap/issues/1768
