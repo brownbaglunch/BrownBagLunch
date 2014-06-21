@@ -418,10 +418,10 @@ var data = {
             "lng": 6.142296
         },
         {
-            "name": "Noyon",
-            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Noyon.jpg",
-            "lat": 49.580166,
-            "lng": 3.000723
+            "name": "Nyon",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Nyon.jpg",
+            "lat": 46.383192,
+            "lng": 6.234856
         },
         {
             "name": "Lausanne",
