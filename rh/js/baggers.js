@@ -410,6 +410,24 @@ var data = {
             "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lyon.jpg",
             "lat": 45.764043,
             "lng": 4.835659
+        },
+        {
+            "name": "Genève",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Geneve.jpg",
+            "lat": 46.198392,
+            "lng": 6.142296
+        },
+        {
+            "name": "Noyon",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Noyon.jpg",
+            "lat": 49.580166,
+            "lng": 3.000723
+        },
+        {
+            "name": "Lausanne",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lausanne.jpg",
+            "lat": 46.519962,
+            "lng": 6.633597
         }
     ]
 }
