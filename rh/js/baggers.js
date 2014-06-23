@@ -21,7 +21,7 @@ var data = {
             "twitter": "PMEemploi",
             "contact": "tabet@ptc-rh.ch",
             "mail": "tabet@ptc-rh.ch",
-            "location": "Genève""Nyon""Lausanne",
+            "location": "Genève","Nyon","Lausanne",
             "sessions": [
                 {
                     "title": "Préparer et conduire un entretien de recrutement",
@@ -46,7 +46,7 @@ var data = {
                 "Sourcing"
             ],
             "cities": [
-                "Genève""Nyon""Lausanne"
+                "Genève","Nyon","Lausanne"
             ]
         },
         {
