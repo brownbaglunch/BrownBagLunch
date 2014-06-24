@@ -1,6 +1,55 @@
 var data = {
     "baggers": [
         {
+            "name": "Pauline Tabet-Canova",
+            "bio": "Consultante en recrutement, plus de 16 ans d’expériences en Suisse romande",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1dc/180/0a71186.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/pub/pauline-tabet-canova/7/169/5a9"
+                },
+                {
+                    "title": "Site web",
+                    "href": "www.pme-emploi.ch"
+                },
+                {
+                    "title": "Blog",
+                    "href": "http://www.pme-emploi.ch/fr/blog.php"
+                }
+            ],
+            "twitter": "PMEemploi",
+            "contact": "tabet@ptc-rh.ch",
+            "mail": "tabet@ptc-rh.ch",
+            "location": "Genève, Nyon, Lausanne",
+            "sessions": [
+                {
+                    "title": "Préparer et conduire un entretien de recrutement",
+                    "summary": "Conduire un entretien de recrutement ne s’improvise pas ! Il doit être préparé et structuré pour laisser place à l’écoute et à l’échange."
+                },
+                {
+                    "title": "Optimiser son processus de recrutement",
+                    "summary": "Survol des outils, solutions, techniques et coûts pour un recrutement professionnel et efficace"
+                },
+                {
+                    "title": "Rédiger une offre d’emploi efficace",
+                    "summary": "Rédaction et diffusion d’une offre d’emploi"
+                },
+                {
+                    "title": "La recherche de candidats",
+                    "summary": "Survol des techniques et outils"
+                }
+            ],
+            "tags": [
+                "Recrutement",
+                "Entretiens",
+                "Sourcing"
+            ],
+            "cities": [
+                "Genève","Nyon","Lausanne"
+            ]
+        },
+        {
             "name": "Arlette Gelabert",
             "bio": "Formatrice à Form’En Scène, je mise sur le capital humain pour optimiser le potentiel professionnel de chacun, parce que l’humain est le premier vecteur de l’image de marque de votre entreprise et le moteur indispensable à son bon fonctionnement. Je fonde ma pédagogie sur 30 ans de pratique théâtrale comme comédienne et animatrice (en compagnies privées et ateliers théâtre) et 20 ans d’expérience en entreprise au sein de services administratifs et commerciaux.",
             "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/030/2ca/04f6953.jpg",
