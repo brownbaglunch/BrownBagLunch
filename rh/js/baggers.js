@@ -455,12 +455,6 @@ var data = {
             "lng": 2.352222
         },
         {
-            "name": "Lyon",
-            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lyon.jpg",
-            "lat": 45.764043,
-            "lng": 4.835659
-        },
-        {
             "name": "Genève",
             "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Geneve.jpg",
             "lat": 46.198392,
