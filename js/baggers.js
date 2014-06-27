@@ -29,7 +29,7 @@ var data = {
         },
         {
             "name": "Grégory Paul",
-            "bio": "Développeur (JS, Node, Java, ...) passionné par les technos web, l’OpenSource et la sécurité informatique",
+            "bio": "Développeur (JS, Node, Java, ...) passionné par les technos web, l’Open Source et la sécurité informatique",
             "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/011/1d9/1ec0ed4.jpg",
             "websites": [
                 {
@@ -49,6 +49,10 @@ var data = {
                 {
                     "title": "Bitcoin et monnaie cryptographique",
                     "summary": "Session présentant les principes techniques derrière Bitcoin et les autres monnaies cryptographiques."
+                },
+                {
+                    "title": "Web Components",
+                    "summary": "Les Web Components permettent de définir vos propres balises HTML. Cette présentation illustre les principes sous-jacents (custom elements, templates, HTML imports, shadow DOM), les librairies (polymer, X-Tags, Bosonic) et la façon d’en construire."
                 },
                 {
                     "title": "HTTP",
