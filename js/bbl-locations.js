@@ -89,11 +89,11 @@ var bblLocationsData = {
             contact: "Eric Lefevre-Ardant (contact [at] ericlefevre.net)",
             picture: "img/entreprises/mappy.png",
             interests: [
-                    "Java", "JavaScript", "Web", "Big Data", "DevOps", "Cloud", "Mobile", "Agilité"
+                    "Java", "JavaScript", "Web", "Big Data", "DevOps", "Cloud", "Mobile", "Agilité", "Livraison Continue"
             ],
             audience: {
                 profiles: "Développeur, DevOps, Architectes",
-                number: "5 à 10 personnes"
+                number: "10 à 20 personnes"
             }
         },
         {
