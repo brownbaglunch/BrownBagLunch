@@ -21,7 +21,7 @@ var data = {
                 }
             ],
             "tags": [
-                "docker",
+                "docker"
             ],
             "cities": [
                 "Paris"
