@@ -4936,7 +4936,7 @@ var data = {
                 {
                     "title": "Mesurer directement depuis le CPU: les compteurs de performance",
                     "summary": "Les CPUs intègrent une unité de mesure de performance (PMU) que l'on peut utiliser pour collecter des données sur l'utilisation des caches (hit/miss) des prédictions de branches, du nombre d'instructions, des cycles, etc. Ces compteurs de performance (HPC) peuvent être accédés en Java grâce à la librairie overseer. Cette présentation montrera comment les mettre en oeuvre avec des exemples de situation où ils sont pertinents pour la compréhension des performances."
-                },
+                }
             ],
             "tags": [
                 "mechanical sympathy",
@@ -4966,7 +4966,7 @@ var data = {
                 {
                     "title": "Vagrant pour les développeurs",
                     "summary": "En tant que développeurs, nous travaillons souvent sur des environnements de développement dont les caractéristiques diffèrent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.<br/>Nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de développement. Nous étudierons tous les mécanismes de base de l'outil : le provisioning, le mode multi-machines, la configuration réseau, les répertoires partagés. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !"
-                },
+                }
             ],
             "tags": [
                 "Vagrant"
