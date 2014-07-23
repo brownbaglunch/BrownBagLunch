@@ -4974,6 +4974,42 @@ var data = {
             ]
         },
         {
+            "name": "Pierre Baillet",
+            "bio": "Devops & Full stack developer at Fotopedia • Mauvais plaisantin mais bon vivant • ",
+            "picture": "https://www.gravatar.com/userimage/7364231/abcb8f5931db676141afd368fb844cc2.jpg?size=250",
+            "websites": [
+                {"title": "Blog", "href": "http://oct.zoy.org"},
+                {"title": "LinkedIn", "href": "https://fr.linkedin.com/in/octplane/"},
+                {"title": "Github", "href": "https://github.com/octplane"}
+            ],
+            "twitter": "octplane",
+            "contact": "pierre [at] baillet.name",
+            "mail": "pierre@baillet.name",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Git pour les nuls",
+                    "summary": "Débutant en SCM ou vétérans de SVN, le contrôle de source est quelque chose qui est cher à votre coeur. Passez à la vitesse supérieure avec Git, le système de contrôle de source décentralisé très déroutant au premier abord. Initiez-vous avec moi, en jouant avec git, son workflow et ses autres joyeusetés. Ne perdez plus de source, jamais !"
+                },
+                {   "title" : "Déploiement rapide, tips and tricks",
+                    "summary" : "Passer sa durée de déploiement de plus de 10 minutes à moins de 80 secondes en rusant. Discutons déploiement ensemble !"
+                },
+                {   "title" : "Des fossés et des trolls",
+                    "summary" "What is ze devops ? Concept nébuleux ou révolution industrielle ? Comment combler le fossé entre les développeurs et les opérationnels (avec autre choses que des trolls)."
+                }
+            ],
+            "tags": [
+                "Git",
+                "Deployment",
+                "Devops",
+                "Fabric",
+                "CI"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Manuel Raynaud",
             "bio": "@theliaecommerce developer and PHP addict",
             "picture": "http://www.manuel-raynaud.com/wp-content/uploads/2013/12/manuel.jpg",
