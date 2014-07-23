@@ -4995,7 +4995,7 @@ var data = {
                     "summary" : "Passer sa durée de déploiement de plus de 10 minutes à moins de 80 secondes en rusant. Discutons déploiement ensemble !"
                 },
                 {   "title" : "Des fossés et des trolls",
-                    "summary" "What is ze devops ? Concept nébuleux ou révolution industrielle ? Comment combler le fossé entre les développeurs et les opérationnels (avec autre choses que des trolls)."
+                    "summary" : "What is ze devops ? Concept nébuleux ou révolution industrielle ? Comment combler le fossé entre les développeurs et les opérationnels (avec autre choses que des trolls)."
                 }
             ],
             "tags": [
