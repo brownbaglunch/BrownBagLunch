@@ -5335,6 +5335,10 @@ var data = {
             "picture": "https://fr.gravatar.com/userimage/14646520/4f4940b2bdbc85918a045429e92fc118.jpg?size=250",
             "websites": [
                 {
+                    "title": "Site",
+                    "href": "http://xaviercarpentier.com/"
+                },
+                {
                     "title": "Blog personnel",
                     "href": "http://blog.xavier-carpentier.com/"
                 },
