@@ -614,12 +614,16 @@ var data = {
         },
         {
             "name": "Camille Roux",
-            "bio": "Passionné d'entrepreneuriat et de Lean Startup • Coach en Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
+            "bio": "Coach en Lean Startup et Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
             "picture": "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
             "websites": [
                 {
                     "title": "Conseil en Business Model",
-                    "href": "http://www.camilleroux.com/formation-lean-startup-accompagnement-conseil-business/"
+                    "href": "http://conseil.camilleroux.com/"
+                },
+                {
+                    "title": "Pragmatic Entrepreneurs",
+                    "href": "https://forum.pragmaticentrepreneurs.com/"
                 },
                 {
                     "title": "Human Coders",
@@ -629,7 +633,7 @@ var data = {
             "twitter": "CamilleRoux",
             "contact": "contact@camilleroux.com",
             "mail": "contact@camilleroux.com",
-            "location": "Paris",
+            "location": "Montpellier",
             "sessions": [
                 {
                     "title": "Lean Startup",
@@ -639,11 +643,12 @@ var data = {
             "tags": [
                 "Entrepreneuriat",
                 "Lean Startup",
-                "Business Model Canvas"
+                "Business Model"
             ],
             "cities": [
-                "Paris",
-                "Montpellier"
+                "Montpellier",
+                "Paris"
+                
             ]
         },
         {
