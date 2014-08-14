@@ -1848,6 +1848,10 @@ var data = {
                 {
                     "title": "Les Tests en Trois Temps (3T)",
                     "summary": "Les Test Driven Development (TDD) vous inspirent mais chacune de vos tentatives s'est soldée par un échec, pas tant sur des problématiques techniques que sur des questions d’organisation ? Découvrez les Tests en Trois Temps (3T), une méthodologie inspirée des TDD/BDD qui devrait vous réconcilier avec les tests. Durée : 30 min."
+                },
+				{
+                    "title": "Découvrez les profils DISC",
+                    "summary": "Il est parfois difficile de discuter avec ses collègues. On parle le même langage mais on a l’impression de ne pas se comprendre. C’est normal car on ne fonctionne pas tous pareil. Le DISC (Dominant, Influent, Stable et Consciencieux) est un outil de management qui permet d’établir le profil de ses interlocuteurs pour travailler et communiquer avec eux de manière plus efficace. Durée : 45 min."
                 }
             ],
             "tags": [
