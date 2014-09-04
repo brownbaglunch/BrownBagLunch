@@ -4438,7 +4438,7 @@ var data = {
         {
             "name": "Maxime Bonnet",
             "bio": "Scrum master, formateur certifié Innovation Games, Coach Agile",
-            "picture": "http://www.hellot.eu/photos/maxime.jpg",
+            "picture": "http://www.gravatar.com/avatar/03314fcc147b87324941c0c6329d444b.png",
             "twitter": "maximebonnet",
             "contact": "maxime@bonnet.tel",
             "mail": "maxime@bonnet.tel",
@@ -4455,8 +4455,11 @@ var data = {
                 {
 		    "title": "Utiliser Lego Serious Play pour animer votre Brainstorming",
 		    "summary": "Quand l'un des plus grands fabriquants de jouets décide d'utiliser sa production pour faciliter ses réunions, cela donne Lego Serious Play (http://www.seriousplay.com). Le jeu pour stimuler la créativité, ce n'est pas une idée nouvelle, mais LSP propose une dynamique très particulière basé sur le toucher et la manipulation. Les résultats sont étonnant et l'outil très puissant. Pour cette session je vous propose une mise en pratique rapide d'un atelier type de Lego Serious Play. (cette session est limité à 6 personnes)"
+		},
+		{
+			"title": "J'upgrade mon style de management",
+			"summary": "Au sein de nos organisations, la conception traditionnelle du management a montré ses limites. L'agilité pousse les managers vers de nouvelles fonctions de support plus que des fonctions de directions. De la délégation, aux remerciements, de l'organisation du travail au feedback, tour d'horizon de ces nouvelles pratiques."
 		}
-
             ],
             "tags": [
                 "Agilité",
