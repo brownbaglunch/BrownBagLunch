@@ -455,7 +455,7 @@ var data = {
         
         {
             "name": "Pierre Marquis",
-            "bio": "Scrum master, développeur C++",
+            "bio": "Scrum Master chez Mappy, Développeur C+",
             "picture": "https://media.licdn.com/media/p/8/000/1e1/205/29f40de.jpg",
             "websites": [
                 {
@@ -469,7 +469,7 @@ var data = {
             "location": "Paris, Banlieue",
             "sessions": [
                 {
-                    "title": "Retour d'expérience Agile",
+                    "title": "Retour d'expérience Agile chez Mappy",
                     "summary": "L'histoire d'une équipe serveur (back), pluritechno et hétérogène: le passage à la méthode agile (scrum), amener l'agile dans son équipe ou plus globalement dans son entreprise, avantages de l'agile dans une équipe back, contraintes de l'agile et problèmes rencontrés."
                 },
                 {
