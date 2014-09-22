@@ -2612,7 +2612,7 @@ var data = {
         },
         {
             "name": "Hadrien Collongues",
-            "bio": "Développer, option web",
+            "bio": "Développeur, option web",
             "picture": "https://en.gravatar.com/userimage/15042699/8ff3f5d999096f04a7e7352ce4a8b930.jpeg?size=200",
             "twitter": "chadrien",
             "contact": "chadrien [at] chadrien [dot] fr",
