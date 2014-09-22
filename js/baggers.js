@@ -2611,6 +2611,27 @@ var data = {
             ]
         },
         {
+            "name": "Hadrien Collongues",
+            "bio": "Développer, option web",
+            "picture": "https://en.gravatar.com/userimage/15042699/8ff3f5d999096f04a7e7352ce4a8b930.jpeg?size=200",
+            "twitter": "chadrien",
+            "contact": "chadrien [at] chadrien [dot] fr",
+            "mail": "chadrien@chadrien.fr",
+            "location": "Toulouse et agglomération",
+            "sessions": [
+                {
+                    "title": "Docker par l'exemple",
+                    "summary": "Dans la théorie, Docker c'est vachement bien. Dans la pratique aussi ! Je vais donc vous montrer de A à Z comment mettre en place une architecture Docker simple, composée de 2 conteneurs communiquant entre eux pour faire un \"Hello World\". Effet Popopo©® garanti."
+                }
+            ],
+            "tags": [
+                "Docker"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
             "name": "Nicolas De Loof",
             "bio": "Committer Maven et Jenkins, Support Engineer et évangéliste chez CloudBees",
             "picture": "img/baggers/photo_NicolasDeLoof.jpg",
