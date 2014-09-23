@@ -4311,7 +4311,7 @@ var data = {
         },
         {
             "name": "DuyHai DOAN",
-            "bio": "Développeur Java depuis toujours, je me suis passionné pour le domaine du Big Data et plus particulièrement pour Cassandra depuis plusieurs années. Je fais régulièrement des présentations pour vulgariser l'utilisation de Cassandra au plus grand nombre.La journée, je participe au projet Libon, le Viber/WhatsApp du groupe Orange en utilisant Cassandra comme solution NoSQL.",
+            "bio": "Duy Hai est évangéliste technique pour Datastax, l’entreprise commerciale derrière Apache Cassandra. Il partage son temps entre donner des présentations/meetups/talks sur Cassandra, développer sur des projets open-source pour la communauté et aider les projets utilisant Cassandra. Avant Datastax, Duy Hai a été développeur freelance Java/Cassandra",
             "picture": "http://www.gravatar.com/avatar/ffa96040bb4211cad1c66f385d8cb77b.png",
             "websites": [
                 {
