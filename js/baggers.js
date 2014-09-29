@@ -455,7 +455,7 @@ var data = {
         
         {
             "name": "Pierre Marquis",
-            "bio": "Scrum Master chez Mappy, Développeur C+",
+            "bio": "Scrum Master chez Mappy, Développeur C++, Python",
             "picture": "https://media.licdn.com/media/p/8/000/1e1/205/29f40de.jpg",
             "websites": [
                 {
@@ -475,6 +475,10 @@ var data = {
                 {
                     "title": "Optimisation de code (C++ ou autre)",
                     "summary": "Quelle démarche? Quels leviers? Ce qui s'optimise vs ce qui ne s'optimise pas. Une boîte à outil de l'optmisation de code."
+                },
+                {
+                    "title": "Couplage C++/Python",
+                    "summary": "Retour d'expérience Mappy, sur un excellent couplage. Quel intérêt? Comment fait-on? Quelles sont les limites?"
                 }
             ],
             "tags": [
