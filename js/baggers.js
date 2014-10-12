@@ -650,7 +650,7 @@ var data = {
                 {
                     "title": "Votre code ne doit pas être SOLID mais souple",
                     "summary": "Et oui, une présentation et du code qui va vous donner un autre regard sur ces principes."
-                }
+                },
                 {
                     "title": "Sujet DDD sur mesure",
                     "summary": "Demandez moi ce que vous voulez à ce sujet."
