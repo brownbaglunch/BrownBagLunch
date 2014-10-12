@@ -613,6 +613,70 @@ var data = {
             ]
         },
         {
+            "name": "Tomasz Jaskula",
+            "bio": "L'artisan du beau code, fondateur et organisateur de DDD Paris et F# Paris, je m'intéresse à la mise en place des solutions qui permettent de donner un avantage compétitif à l'entreprise. Cela passe par Domain Driven Design, la programmation fonctionnelle avec F#, CQRS et Event Sourcing...J'aime surtout partager mon expérience de 15 ans avec les teams d'entreprise qui veulent progresser et avec divers communautés de développement.",
+            "picture": "http://1.gravatar.com/userimage/12224826/df20a86f93b56052b5a8cfb469ada07b?size=333",
+            "websites": [
+                {
+                    "title": "Code distillers",
+                    "href": "http://www.codedistillers.com/tja/"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/pub/thomas-jaskula/3/282/16b"
+                }
+            ],
+            "twitter": "tjaskula",
+            "contact": "tjaskula [at] composeitsoft.com",
+            "mail": "tjaskula@composeitsoft.com",
+            "location": "Paris, La Défense et à proximité",
+            "sessions": [
+                {
+                    "title": "Renforcez votre code métier en adaptant F#",
+                    "summary": "Live coding F# d'un cas métier simple qui est destiné aux développeurs débutants en programmation fonctionnelle et F#. Le but est de montrer une approche de développement incrémentale et de donner les bases de la syntaxe et du paradigme fonctionnel. Il s'agit de démontrer que F# est un language adapté au développement de tout type d'applications et le fait d'adopter le paradigme fonctionnel fait que le code est plus lisible, moins apte aux bugs et surtout plus robuste."
+                },
+                {
+                    "title": "Démystifier l'intégration des Bounded Contexts",
+                    "summary": "Il s'agit de démonter quelles sont les possibilités d'intégration de différents Bounded Contexts en DDD. In-Process aggrégates ou Out-Process, les techniques ne sont pas les mêmes. Transactions, Event et Command bus, comment les intégrer. Domain Event Publisher ou pas, comment le faire correctement. Je vais vous donner toutes les solutions aux problématiques auxquelles j'ai été confronté et je vous dirai comment les résoudre correctement."
+                },
+                {
+                    "title": "CQRS et Event Sourcing, ce qu'il faut savoir pour bien commencer",
+                    "summary": "Vous avez certainement entendu parler de CQRS, le nouveau pattern d'architecture à la mode. Vous ne savez pas si vous pouvez l'appliquer dans votre domaine ou tout simplement vous ne savait pas par quel bout commencer. Je vais vous donner des indices qui vous permettront de voir ce que le pattern peut vous apporter et comment l'appliquer. Avec Event Sourcing ou sans."
+                },
+                {
+                    "title": "Event Storming pour modéliser votre domaine métier",
+                    "summary": "Vous ne savez pas comment modéliser votre domaine, il vous manque du temps ? Laissez-moi vous présenter une technique qui va révolutionner votre manière de modéliser."
+                },
+                {
+                    "title": "Votre code ne doit pas être SOLID mais souple",
+                    "summary": "Et oui, une présentation et du code qui va vous donner un autre regard sur ces principes."
+                }
+                {
+                    "title": "Sujet DDD sur mesure",
+                    "summary": "Demandez moi ce que vous voulez à ce sujet."
+                },
+                {
+                    "title": "Sujet F# sur mesure",
+                    "summary": "Demandez moi ce que vous voulez à ce sujet."
+                }
+            ],
+            "tags": [
+                "F#",
+                "DDD",
+                "Programmation fonctionnelle",
+                "CQRS",
+                "Event Sourcing",
+                "ES",
+                "Architectures",
+                ".NET",
+                "TDD",
+                "Principes SOLID"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Camille Roux",
             "bio": "Coach en Lean Startup et Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
             "picture": "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
@@ -5581,3 +5645,4 @@ var data = {
         }
     ]
 };
+
