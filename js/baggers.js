@@ -633,11 +633,11 @@ var data = {
             "sessions": [
                 {
                     "title": "Renforcez votre code métier en adaptant F#",
-                    "summary": "Live coding F# d'un cas métier simple qui est destiné aux développeurs débutants en programmation fonctionnelle et F#. Le but est de montrer une approche de développement incrémentale et de donner les bases de la syntaxe et du paradigme fonctionnel. Il s'agit de démontrer que F# est un language adapté au développement de tout type d'applications et le fait d'adopter le paradigme fonctionnel fait que le code est plus lisible, moins apte aux bugs et surtout plus robuste."
+                    "summary": "Live coding F# d'un cas métier simple qui est destiné aux développeurs débutants en programmation fonctionnelle et F#. Le but est de montrer une approche de développement incrémentale et de donner les bases de la syntaxe et du paradigme fonctionnel. Il s'agit de démontrer que F# est un langage adapté au développement de tout type d'applications et le fait d'adopter le paradigme fonctionnel fait que le code est plus lisible, moins apte aux bugs et surtout plus robuste."
                 },
                 {
                     "title": "Démystifier l'intégration des Bounded Contexts",
-                    "summary": "Il s'agit de démonter quelles sont les possibilités d'intégration de différents Bounded Contexts en DDD. In-Process aggrégates ou Out-Process, les techniques ne sont pas les mêmes. Transactions, Event et Command bus, comment les intégrer. Domain Event Publisher ou pas, comment le faire correctement. Je vais vous donner toutes les solutions aux problématiques auxquelles j'ai été confronté et je vous dirai comment les résoudre correctement."
+                    "summary": "Il s'agit de démontrer quelles sont les possibilités d'intégration de différents Bounded Contexts en DDD. In-Process aggregates ou Out-Process, les techniques ne sont pas les mêmes. Transactions, Event et Command bus, comment les intégrer. Domain Event Publisher ou pas, comment le faire correctement. Je vais vous donner toutes les solutions aux problématiques auxquelles j'ai été confronté et je vous dirai comment les résoudre correctement."
                 },
                 {
                     "title": "CQRS et Event Sourcing, ce qu'il faut savoir pour bien commencer",
@@ -653,11 +653,11 @@ var data = {
                 },
                 {
                     "title": "Sujet DDD sur mesure",
-                    "summary": "Demandez moi ce que vous voulez à ce sujet."
+                    "summary": "Demandez-moi ce que vous voulez à ce sujet."
                 },
                 {
                     "title": "Sujet F# sur mesure",
-                    "summary": "Demandez moi ce que vous voulez à ce sujet."
+                    "summary": "Demandez-moi ce que vous voulez à ce sujet."
                 }
             ],
             "tags": [
