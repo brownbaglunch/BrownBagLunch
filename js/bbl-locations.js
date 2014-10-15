@@ -87,7 +87,7 @@ var bblLocationsData = {
             gps: "48.838679,2.236555",
             website: "http://www.viseo-bt.com/",
             contact: "Eric Siber (e.siber [at] novediagroup.com)",
-            picture: "img/entreprises/viseo.png",
+            picture: "img/viseo.png",
             interests: [
                     "Java", "DotNet", "PHP", "JavaScript", "Web", "Mobile", "Front", "NoSQL", "Big Data", "Cloud", "Agilité", "DevOps", "E-commerce"
             ],
