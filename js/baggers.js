@@ -4746,7 +4746,7 @@ var data = {
         {
             "name": "Xavier Mouton-Dubosc",
             "bio": "Développeur web, tripatouilleur de standards, autodidacte et engagé",
-            "picture": "https://media.licdn.com/media/p/3/005/013/186/05dc795.jpg",
+            "picture": "http://dascritch.com/images/NightShot.jpg",
             "websites": [
                 {
                     "title": "Site professionnel",
