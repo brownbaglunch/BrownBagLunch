@@ -3331,6 +3331,49 @@ var data = {
             ]
         },
         {
+            "name": "Damien Cavaillès",
+            "bio": "Développeur Mobile, passionné par les nouveaux usages de la mobilité et des objets connectés ainsi que par la créativité des Makers. J'organise le Startup Weekend Lille Maker Edition. Je suis également Facilitateur de Startup Weekend !",
+            "picture": "https://pbs.twimg.com/profile_images/1520756694/263927_2114421789970_1528442537_3828466_2806724_n__1_.jpg",
+            "websites": [
+                {
+                    "title": "Mes articles sur Medium",
+                    "href": "https://medium.com/@thedamfr"
+                },
+                {
+                    "title": "Le site Up de la communauté Lilloise",
+                    "href": "http://lille.up.co"
+                }
+            ],
+            "twitter": "thedamfr",
+            "contact": "@thedamfr",
+            "location": "Lille, Paris",
+            "sessions": [
+                {
+                    "title": "BLE : De la mobilité aux objets connectés",
+                    "summary": "Le Bluetooth Low Energy est le protocole qui relie le mobile et les objets connectés. Basé sur le Bluetooth, il est supporté par la majorité des mobiles récents (même le 4S !), c'est l'interface favorite des objets connectés. iBeacon et Android Wear sont deux exemples de solutions basées sur le BLE. Une sessions courte pour bien cerner comment fonctionne le BLE, comment le prendre en main (parce que c'est facile), et en comprendre les enjeux"
+                },
+                {
+                    "title": "Android Wear : Ceci n'est pas une montre !",
+                    "summary": "Android Wear, c'est l'extension d'Android qui va changer notre style de vie. Un retour d'experience et un petit tour des bonnes pratiques en terme d'UX pour bien cerner le produit. Les concepts généraux de l'API et une mise en pratique simple en utilisant Teleport. Petite démo à la clef !"
+                },
+                {
+                    "title": "Dev to Maker",
+                    "summary": "\"Si tu as déjà scotché un stylo cassé pour continuer à écrire, tu es un Maker !\". Présentation du courant des makers et de l'open-source hardware. Petite démo Arduino, parce que c'est vraiment tout simple à faire marcher ! Les Devs sont tous des makers, à vous de vous lancer !"
+                }
+            ],
+            "tags": [
+                "Android",
+                "iOS",
+                "iot",
+                "Maker",
+                "Embarqué"
+            ],
+            "cities": [
+                "Lille",
+                "Paris"
+            ]
+        },
+        {
             "name": "Hugo Lassiège",
             "bio": "Geek et entrepreneur. Un bon cocktail pour parler technologie et production de valeur.",
             "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/go08sv2fmb7zxdotfqyq.png",
