@@ -640,8 +640,8 @@ var data = {
                     "summary": "Il s'agit de démontrer quelles sont les possibilités d'intégration de différents Bounded Contexts en DDD. In-Process aggregates ou Out-Process, les techniques ne sont pas les mêmes. Transactions, Event et Command bus, comment les intégrer. Domain Event Publisher ou pas, comment le faire correctement. Je vais vous donner toutes les solutions aux problématiques auxquelles j'ai été confronté et je vous dirai comment les résoudre correctement."
                 },
                 {
-                    "title": "CQRS et Event Sourcing, ce qu'il faut savoir pour bien commencer",
-                    "summary": "Vous avez certainement entendu parler de CQRS, le nouveau pattern d'architecture à la mode. Vous ne savez pas si vous pouvez l'appliquer dans votre domaine ou tout simplement vous ne savait pas par quel bout commencer. Je vais vous donner des indices qui vous permettront de voir ce que le pattern peut vous apporter et comment l'appliquer. Avec Event Sourcing ou sans."
+                    "title": "Recettes CQRS, pour bien cuisiner son architecture",
+                    "summary": "Le pattern architectural CQRS est très simple à comprendre mais peut devenir très vite compliqué à mettre en œuvre. Si on y ajoute un zeste de Domain Driven Design, une pincée d’Event Sourcing et qu’on agrémente le tout avec différents bus de messaging, des queues et de l’infrastructure, notre plat gastronomique peut vite devenir une bouillie indigeste. Comme bien souvent, tout est question de mesure et de bonnes proportions (définies en fonction de vos contraintes fonctionnelles et techniques). Si vous ne savez pas si CQRS est fait pour votre besoin, ou tout simplement si vous ne savez pas par où commencer, je vous propose de découvrir quelques recettes de grand-mère tels que:  ingrédients d’un bon domaine CQRS, Domain Driven Design or not, concurrency, event sourcing, read models, master-details views, task based UIs, event sourcing, integration, event versionning."
                 },
                 {
                     "title": "Event Storming pour modéliser votre domaine métier",
