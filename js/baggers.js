@@ -5128,7 +5128,7 @@ var data = {
         },
         {
             "name": "Alexis Seigneurin",
-            "bio": "Developer & Tech manager at Ippon Technologies",
+            "bio": "Developer & Tech manager chez Ippon Technologies",
             "picture": "https://pbs.twimg.com/profile_images/3666338425/cade89a11a849fb81641a12152c52110_400x400.jpeg",
             "websites": [
                 {"title": "Blog", "href": "http://aseigneurin.github.io"},
@@ -5141,12 +5141,15 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
+                    "title": "Spark, où comment traiter des données à la vitesse de l’éclair",
+                    "summary": "Spark fait partie de la nouvelle génération de frameworks de manipulation de données basés sur Hadoop. L’outil utilise agressivement la mémoire pour offrir des temps de traitement jusqu’à 100 fois plus rapides. Dans cette session, nous découvrirons les principes de traitement de données (notamment MapReduce) et nous analyserons les options mises à disposition pour monter un cluster (HDFS, Tachyon, Yarn…). Une démonstration sera faite pour mettre en évidence les capacités du framework. Enfin, un point sera fait sur les autres outils de l'écosystème, et notamment Spark Streaming pour le traitement de données en flux continu."
+                }, {
                     "title": "Vagrant pour les développeurs",
                     "summary": "En tant que développeurs, nous travaillons souvent sur des environnements de développement dont les caractéristiques diffèrent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.<br/>Nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de développement. Nous étudierons tous les mécanismes de base de l'outil : le provisioning, le mode multi-machines, la configuration réseau, les répertoires partagés. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !"
                 }
             ],
             "tags": [
-                "Vagrant"
+                "Spark", "Vagrant"
             ],
             "cities": [
                 "Paris"
