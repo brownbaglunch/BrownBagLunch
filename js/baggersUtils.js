@@ -101,7 +101,7 @@ function getVillesAndBaggers(data) {
         });
         _.each(bagger.sessions, function(session) {
             if( !session.hasOwnProperty('anchor') ) {
-                session['anchor'] = transformTitleToPermalink(session.title);
+                session.anchor = transformTitleToPermalink(session.title);
             }
         });
     });
