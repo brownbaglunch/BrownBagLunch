@@ -3995,6 +3995,41 @@ var data = {
             ]
         },
         {
+            "name": "Jean-Baptiste Dusseaut",
+            "bio": "eXtreme Programmer, co-fondateur d'Arpinum",
+            "picture": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c0.0.320.320/p320x320/10614305_10152626338152508_5099752402465620281_n.jpg?oh=b9cfd579186930d98fec6ad42dfa9348&oe=54E99E54&__gda__=1425364962_ff9796691bbf73f194716cf5924b2d57",
+            "websites": [
+                {
+                    "title": "Arpinum.fr",
+                    "href": "http://arpinum.fr"
+                }
+            ],
+            "twitter": "bodysplash",
+            "contact": "contact@arpinum.fr",
+            "mail": "jbdusseaut@arpinum.fr",
+            "location": "Bordeaux, centre ville ou proximité Tramway",
+            "sessions": [
+                {
+                    "title": "Coding Dojo",
+                    "summary": "Comment apprendre à devenir de meilleurs développeurs ou développeuses si nous ne prenons jamais le temps d'apprendre ? Le but d'un coding dojo est de créer en environnement d'apprentissage ou nous pouvons sans vergogne nous entrainer au TDD et autres pratiques cabalistiques sans peur de l'échec."
+                },
+                {
+                    "title": "Introduction au Test Driven Development",
+                    "summary": "Vous avez peut être entendu dire que le TDD est une pratique magique qui va résoudre tous vos problèmes. Oui mais en attentant, le concept vous parrez un peu fumeux et vous ne voyez pas très bien comment ça marche. Le but ici est de faire une session de live coding démontrant le béaba de l'approche."
+                }
+            ],
+            "tags": [
+                "TDD",
+                "eXtreme Programming",
+                "Agilité",
+                "Agile",
+                "Code"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
+        },
+        {
             "name": "Agnès Crépet",
             "bio": "Java Champion et leader de deux Java User Groups : le Lyon JUG et Duchess France. Elle fait partie de l'équipe fondatrice de la conférence Mix-IT, mixant Java et Agilité! Elle est également co-fondatrice, avec trois autres développeurs passionnés, de la société Ninja Squad. Dans d'autres sphères, elle est présidente de l'association Avataria, organisatrice d'événements culturels et de FabLab !",
             "picture": "http://www.duchess-france.org/wp-content/uploads/2013/12/Agnes-Crepet-17-199x300.jpg",
@@ -4541,9 +4576,9 @@ var data = {
                     "summary": "Le Myers Briggs Type Indicator (MBTI) est un outils dans la palette des coachs, managers ou toutes personnes souhaitant comprendre ses relations aux autres. Simple et facilement utiliseable au quotidien, le MBTI permet de mieux comprendre et dialoguer avec ses interlocuteurs"
                 },
                 {
-		    "title": "Utiliser Lego Serious Play pour animer votre Brainstorming",
-		    "summary": "Quand l'un des plus grands fabriquants de jouets décide d'utiliser sa production pour faciliter ses réunions, cela donne Lego Serious Play (http://www.seriousplay.com). Le jeu pour stimuler la créativité, ce n'est pas une idée nouvelle, mais LSP propose une dynamique très particulière basé sur le toucher et la manipulation. Les résultats sont étonnant et l'outil très puissant. Pour cette session je vous propose une mise en pratique rapide d'un atelier type de Lego Serious Play. (cette session est limité à 6 personnes)"
-		},
+					"title": "Utiliser Lego Serious Play pour animer votre Brainstorming",
+					"summary": "Quand l'un des plus grands fabriquants de jouets décide d'utiliser sa production pour faciliter ses réunions, cela donne Lego Serious Play (http://www.seriousplay.com). Le jeu pour stimuler la créativité, ce n'est pas une idée nouvelle, mais LSP propose une dynamique très particulière basé sur le toucher et la manipulation. Les résultats sont étonnant et l'outil très puissant. Pour cette session je vous propose une mise en pratique rapide d'un atelier type de Lego Serious Play. (cette session est limité à 6 personnes)"
+				},
 		{
 			"title": "J'upgrade mon style de management",
 			"summary": "Au sein de nos organisations, la conception traditionnelle du management a montré ses limites. L'agilité pousse les managers vers de nouvelles fonctions de support plus que des fonctions de directions. De la délégation, aux remerciements, de l'organisation du travail au feedback, tour d'horizon de ces nouvelles pratiques."
