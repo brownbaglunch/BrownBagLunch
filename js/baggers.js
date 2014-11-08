@@ -2242,7 +2242,7 @@ var data = {
         {
             "name": "Nicolas Deverge",
             "bio": "Facilitateur agile et développeur - ekito",
-            "picture": "https://pbs.twimg.com/profile_images/2050038189/picto.jpg",
+            "picture": "https://pbs.twimg.com/profile_images/480325709483634688/V_x_kwbK.png",
             "websites": [
                 {
                     "title": "Blog ekito",
@@ -2259,8 +2259,8 @@ var data = {
                     "summary": "Le pourquoi et le comment de l'agilité en quelques slides et petits ateliers."
                 },
                 {
-                    "title": "Introduction au LeanStartup",
-                    "summary": "Ou comment éviter de partir dans de gros dev la tête dans le guidon pour réaliser un nouveau produit dont personne n'a besoin."
+                    "title": "Retour d'expérience et introduction au LeanStartup",
+                    "summary": "Retour d'expérience sur un projet personnel avec mise en oeuvre de l'approche LeanStartup."
                 },
                 {
                     "title": "Et pourquoi pas un coding dojo ?",
