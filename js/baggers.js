@@ -452,7 +452,7 @@ var data = {
                 "Versailles"
             ]
         },
-        
+
         {
             "name": "Pierre Marquis",
             "bio": "Scrum Master chez Mappy, Développeur C++, Python",
@@ -716,7 +716,7 @@ var data = {
             "cities": [
                 "Montpellier",
                 "Paris"
-                
+
             ]
         },
         {
@@ -5538,7 +5538,7 @@ var data = {
                     "title": "Développeurs anonymes",
                     "summary": "Démo de refactoring. Introduire de l'objet efficacement dans un legacy infame."
                 },
-                
+
                 {
                     "title": "La pyramide des tests - d'oú sort il?",
                     "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
@@ -5583,6 +5583,42 @@ var data = {
             ],
             "tags": ["Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
             "cities": ["Toulouse"]
+        },
+        {
+            "name": "Julien Dubois",
+            "bio": "Directeur de l'innovation chez Ippon Technologies, expert Spring et Java",
+            "picture": "http://gravatar.com/avatar/e7689b738601c9b2f1d66cd2622f517e?s=256",
+            "websites": [
+                {
+                    "title": "Site personnel",
+                    "href": "http://www.julien-dubois.com/"
+                },
+                {
+                    "title": "JHipster",
+                    "href": "http://jhipster.github.io/"
+                }
+            ],
+            "twitter": "juliendubois",
+            "contact": "julien.dubois@gmail.com",
+            "mail": "julien.dubois@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "JHipster, comment générer rapidement une application Web moderne avec Spring Boot + AngularJS",
+                    "summary": "JHipster est un générateur d'applications Spring Boot + AngularJS très populaire. Cette session consiste en une présentation rapide de l'outil, puis en un live coding d'environ 45 minutes permettant de voir la génération d'une application, sa modification, l'utilisation de l'outillage fourni, les bonnes pratiques proposées, pour terminer par un déployement dans le cloud."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Java",
+                "JavaScript",
+                "Spring",
+                "AngularJS",
+                "Yeoman"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
@@ -5708,4 +5744,3 @@ var data = {
         }
     ]
 };
-
