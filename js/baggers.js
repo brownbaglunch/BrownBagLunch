@@ -3339,16 +3339,12 @@ var data = {
         },
         {
             "name": "Hugo Lassiège",
-            "bio": "Geek et entrepreneur. Un bon cocktail pour parler technologie et production de valeur.",
-            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/go08sv2fmb7zxdotfqyq.png",
+            "bio": "Geek et entrepreneur. Un bon cocktail pour un BBL.",
+            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/rjgllgjiskn01r8b2pbc.jpg",
             "websites": [
                 {
                     "title": "Blog perso",
-                    "href": "http://hakanai.free.fr/"
-                },
-                {
-                    "title": "Localizeyourapps (fondateur)",
-                    "href": "http://www.localizeyourapps.com/"
+                    "href": "http://www.eventuallycoding.com/"
                 },
                 {
                     "title": "Hopwork (co-fondateur)",
@@ -3357,10 +3353,6 @@ var data = {
                 {
                     "title": "Lateral-Thoughts (co-fondateur)",
                     "href": "http://www.lateral-thoughts.com/"
-                },
-                {
-                    "title": "Blog sur developpez.com",
-                    "href": "http://hugo.developpez.com"
                 }
             ],
             "twitter": "hugolassiege",
@@ -3369,24 +3361,20 @@ var data = {
             "location": "Lyon",
             "sessions": [
                 {
-                    "title": "Développer à l'âge adulte.",
-                    "summary": "On aborde les années 2010 et il reste encore beaucoup à faire pour que les pratiques de développement arrivent à maturité dans les entreprises. Etes-vous adulte ? Et si non quelles sont les étapes à franchir ? Quels sont les anniversaires à célébrer ? Ce sera l'occasion d'aborder non seulement les pratiques de test mais aussi la qualimétrie, le déploiement, les frontières entre développeurs et opérationnels, tout cet écosystème qui permet de délivrer de la valeur."
-                },
-                {
-                    "title": "Big Data, pourquoi, comment ?",
-                    "summary": "Au delà des buzz word, qu'entends-on par Nosql, bigdata, cloud, machine learning etc... ? Vous vous sentez dépassés ou curieux ? Vous n'êtes pas sûr d'en avoir besoin mais vous avez un doute ? Faisons déjà le point sur la réalité que recouvre ces technologies, essayons de comprendre sur vos données si vous avez de la richesse non exploitée qui pourrait en profiter."
-                },
-                {
                     "title": "Organisez vos documents avec Mongo",
-                    "summary": "Derrière le terme Nosql se cache une multitude de base de données avec des objectifs bien distincts. Mongodb est l'une d'entre elles. Cette base propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées. Mongo peut-il répondre à vos cas d'usage ? "
+                    "summary": "Mongodb est une base de données nosql orientée document. Elle propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées. Mongo peut-il répondre à vos cas d'usage ? "
                 },
                 {
                     "title": "Elastic Search, parce qu'on a toujours besoin de rechercher quelque chose",
                     "summary": "Rechercher des données est sans doute ce qui se fait le plus couramment dans toutes les applications. Mais le faites-vous bien ? Je vous propose un petit tour d'horizon d'un moteur dédié à la recherche et qui le fait bien."
                 },
                 {
-                    "title": "Architecture distribuées",
-                    "summary": "Le temps des applications monolithiques s'éloigne. Désormais on recherche à composer par micro services. Quels sont les avantages et inconvénients en terme de dev, de déploiement, de monitoring etc... ?"
+                    "title": "Spring Boot et RabbitMq",
+                    "summary": "Je vous propose de voir comment nous utilisons Spring boot et RabbitMq chez Hopwork pour  découper nos services en petites applications "
+                },
+                {
+                    "title": "Ansible",
+                    "summary": "Je vous propose de voir comment nous utilisons Ansible chez Hopwork pour le déploiement de notre infrastructure mais aussi du code applicatif"
                 }
             ],
             "tags": [
