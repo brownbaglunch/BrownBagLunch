@@ -5620,12 +5620,8 @@ var data = {
         {
 			    "name": "Timothée Chevrier",
 			    "bio": "Agiliste passionné avant tout. Scrum master, chef de projet, un peu développeur... Je suis un optimiste passioné par l'apprentissage collectif. Je m'intéresse aux sujets tournant autour de l'agilité bien sûr mais plus largement des mouvements proches : l'entreprise libérée, le leadership, le coaching, l'intelligence collective, le bien être au travail, le management 3.0, etc... ",
-			    "picture": "https://pbs.twimg.com/profile_images/451252430164877312/zt1z-6vR_400x400.jpeg",
+			    "picture": "https://fr.gravatar.com/userimage/41876697/9b8e38d7e6ae9ff3bdce48c510ad822c.jpg?size=200",
 			    "websites": [
-			        {
-			            "title": "Blog",
-			            "href": "http://guillaumecollic.com/"
-			        }
 			    ],
 			    "twitter": "msieur_tim",
 			    "contact": "tchevrier@gmail.com",
@@ -5634,7 +5630,7 @@ var data = {
 			    "sessions": [
 			        {
 			            "title": "Après les user stories, les team stories",
-			            "summary": "On parle de plus en plus des gestionnaires de version « distribués » (DVCS), et de Git en particulier. Pourquoi cet engouement, en quoi sont-ils intéréssants en entreprise ? (session plébiscitée au BreizhCamp, à Agile Tour, et aux TechDays)"
+			            "summary": "Session d'1H réalisée à l'agile tour Brest. Il s'agit d'un retour d'expérience sur un passage de 3 ans en tant que Scrum master dans une équipe. J'y parle estimations, rétrospectives, management visuel, auto organisation. Et j'ai quelques bonus en tête (spécifications par les tests d'acceptances, etc...)"
 			        },
 			        {
 			            "title": "Animation d'ateliers et/ou de jeux",
