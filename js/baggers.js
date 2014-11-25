@@ -2872,12 +2872,16 @@ var data = {
         },
         {
             "name": "Cécilia Bossard",
-            "bio": "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
-            "picture": "http://timwi.com/img/team/cecilia.jpg",
+            "bio": "Développeuse, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais. Membre fondatrice des Women In Technology et organisatrice des coding goûters sur Nantes",
+            "picture": "https://www.dropbox.com/sc/49fry4gnzw21hbd/AADvAfjSQC85XcjToo2tbumKa",
             "websites": [
                 {
                     "title": "Timwi",
                     "href": "http://timwi.com/"
+                },
+                {
+	        	"title": "Blog",
+	        	"href" : "http://javagile.wordpress.com/"
                 }
             ],
             "twitter": "ceciliaBossard",
@@ -2892,11 +2896,16 @@ var data = {
                 {
                     "title": "Jouons !",
                     "summary": "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
+                },
+                {
+                    "title": "Et la diversité dans tout ça ?",
+                    "summary": "On entend beaucoup parler en ce moment du besoin d’avoir plus de femmes dans les métiers du numérique. Mais la diversité ne s’arrête pas là. Qu'est ce qu’on entend par diversité ? Qu'est ce que ça peut apporter à mon équipe ? Quelles sont les bonnes pratiques ? Nous tenterons de répondre à ces questions lors de cette présentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de réflexions sur ce débat."
                 }
             ],
             "tags": [
                 "Agile",
-                "Serious Game"
+                "Serious Game",
+                "Diversité"
             ],
             "cities": [
                 "Nantes"
