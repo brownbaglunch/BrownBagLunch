@@ -5616,7 +5616,47 @@ var data = {
             "cities": [
                 "Paris"
             ]
-        }
+        },
+        {
+			    "name": "Timothée Chevrier",
+			    "bio": "Agiliste passionné avant tout. Scrum master, chef de projet, un peu développeur... Je suis un optimiste passioné par l'apprentissage collectif. Je m'intéresse aux sujets tournant autour de l'agilité bien sûr mais plus largement des mouvements proches : l'entreprise libérée, le leadership, le coaching, l'intelligence collective, le bien être au travail, le management 3.0, etc... ",
+			    "picture": "https://pbs.twimg.com/profile_images/451252430164877312/zt1z-6vR_400x400.jpeg",
+			    "websites": [
+			        {
+			            "title": "Blog",
+			            "href": "http://guillaumecollic.com/"
+			        }
+			    ],
+			    "twitter": "msieur_tim",
+			    "contact": "tchevrier@gmail.com",
+			    "mail": "tchevrier@gmail.com",
+			    "location": "Rennes et grand ouest pourquoi pas",
+			    "sessions": [
+			        {
+			            "title": "Après les user stories, les team stories",
+			            "summary": "On parle de plus en plus des gestionnaires de version « distribués » (DVCS), et de Git en particulier. Pourquoi cet engouement, en quoi sont-ils intéréssants en entreprise ? (session plébiscitée au BreizhCamp, à Agile Tour, et aux TechDays)"
+			        },
+			        {
+			            "title": "Animation d'ateliers et/ou de jeux",
+			            "summary": "A travers l'exercice de rétrospective proposer par la méthode Scrum, j'ai eu l'occasion d'animer un grand nombre d'ateliers dans des buts variés. Je me propose donc comme facilitateur de vos ateliers pour découvrir comment se réunir différement."
+			        },
+			        {
+			            "title": "L'agilité c'est quoi ?",
+			            "summary": "Vous avez entendu parlé d'agilité et le sujet vous intéresse. Je vous propose de partager ma vision de ce qu'elle est, et de construire ensemble ce qu'elle pourrait être pour vous."
+			        }
+			    ],
+			    "tags": [
+			        "Agile",
+			        "Scrum",
+			        "Auto-organisation",
+			        "Serious games",
+			        "Rétrospectives",
+			        "Echanges"
+			    ],
+			    "cities": [
+			        "Rennes"
+			    ]
+			}
     ],
     "cities": [
         {
