@@ -5583,6 +5583,49 @@ var data = {
             ],
             "tags": ["Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
             "cities": ["Toulouse"]
+        },
+        {
+            "name": "Christophe Labouisse",
+            "bio": "Développeur Java Freelance qui aime mettre les mains dans le moteur. ",
+            "picture": "http://www.gravatar.com/avatar/5a9a33e6c0397ed112a7c955728f3a1f.png?s=240",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://www.labouisse.com"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/clabouisse/"
+                },
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/profile/00224q6ti6d57zay/"
+                },
+                {
+                    "title": "Hopwork",
+                    "href": "https://www.hopwork.com/profile/51d057032a07e9483ddedfc7"
+                }
+            ],
+            "twitter": "XtlCnslt",
+            "mail": "consulting@labouisse.com",
+            "location": "Bordeaux",
+            "sessions": [
+                {
+                    "title": "Introduction à Docker",
+                    "summary": "Qu'est-ce que Docker ? Qu'est-ce que l'utilisation de Docker peut m'apporter concrètement ? Pour répondre à ces questions et à d'autres, une présentation de Docker avec des morceaux de livecoding dedans."
+                },
+                {
+                    "title": "Git pour les nuls et les autres",
+                    "summary": "Présentation de Git, des différences par rapport à d'autres systèmes tels que Subversion, de son écosystème."
+                }
+            ],
+            "tags": [
+                "Git",
+                "Docker"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
         }
     ],
     "cities": [
