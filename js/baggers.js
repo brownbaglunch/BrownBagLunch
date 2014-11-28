@@ -452,7 +452,7 @@ var data = {
                 "Versailles"
             ]
         },
-        
+
         {
             "name": "Pierre Marquis",
             "bio": "Scrum Master chez Mappy, Développeur C++, Python",
@@ -716,7 +716,7 @@ var data = {
             "cities": [
                 "Montpellier",
                 "Paris"
-                
+
             ]
         },
         {
@@ -2872,12 +2872,16 @@ var data = {
         },
         {
             "name": "Cécilia Bossard",
-            "bio": "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
-            "picture": "http://timwi.com/img/team/cecilia.jpg",
+            "bio": "Développeuse, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais. Membre fondatrice des Women In Technology et organisatrice des coding goûters sur Nantes",
+            "picture": "https://www.dropbox.com/sc/49fry4gnzw21hbd/AADvAfjSQC85XcjToo2tbumKa",
             "websites": [
                 {
                     "title": "Timwi",
                     "href": "http://timwi.com/"
+                },
+                {
+	        	"title": "Blog",
+	        	"href" : "http://javagile.wordpress.com/"
                 }
             ],
             "twitter": "ceciliaBossard",
@@ -2892,11 +2896,16 @@ var data = {
                 {
                     "title": "Jouons !",
                     "summary": "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
+                },
+                {
+                    "title": "Et la diversité dans tout ça ?",
+                    "summary": "On entend beaucoup parler en ce moment du besoin d’avoir plus de femmes dans les métiers du numérique. Mais la diversité ne s’arrête pas là. Qu'est ce qu’on entend par diversité ? Qu'est ce que ça peut apporter à mon équipe ? Quelles sont les bonnes pratiques ? Nous tenterons de répondre à ces questions lors de cette présentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de réflexions sur ce débat."
                 }
             ],
             "tags": [
                 "Agile",
-                "Serious Game"
+                "Serious Game",
+                "Diversité"
             ],
             "cities": [
                 "Nantes"
@@ -3339,16 +3348,12 @@ var data = {
         },
         {
             "name": "Hugo Lassiège",
-            "bio": "Geek et entrepreneur. Un bon cocktail pour parler technologie et production de valeur.",
-            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/go08sv2fmb7zxdotfqyq.png",
+            "bio": "Geek et entrepreneur. Un bon cocktail pour un BBL.",
+            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/rjgllgjiskn01r8b2pbc.jpg",
             "websites": [
                 {
                     "title": "Blog perso",
-                    "href": "http://hakanai.free.fr/"
-                },
-                {
-                    "title": "Localizeyourapps (fondateur)",
-                    "href": "http://www.localizeyourapps.com/"
+                    "href": "http://www.eventuallycoding.com/"
                 },
                 {
                     "title": "Hopwork (co-fondateur)",
@@ -3357,10 +3362,6 @@ var data = {
                 {
                     "title": "Lateral-Thoughts (co-fondateur)",
                     "href": "http://www.lateral-thoughts.com/"
-                },
-                {
-                    "title": "Blog sur developpez.com",
-                    "href": "http://hugo.developpez.com"
                 }
             ],
             "twitter": "hugolassiege",
@@ -3369,24 +3370,20 @@ var data = {
             "location": "Lyon",
             "sessions": [
                 {
-                    "title": "Développer à l'âge adulte.",
-                    "summary": "On aborde les années 2010 et il reste encore beaucoup à faire pour que les pratiques de développement arrivent à maturité dans les entreprises. Etes-vous adulte ? Et si non quelles sont les étapes à franchir ? Quels sont les anniversaires à célébrer ? Ce sera l'occasion d'aborder non seulement les pratiques de test mais aussi la qualimétrie, le déploiement, les frontières entre développeurs et opérationnels, tout cet écosystème qui permet de délivrer de la valeur."
-                },
-                {
-                    "title": "Big Data, pourquoi, comment ?",
-                    "summary": "Au delà des buzz word, qu'entends-on par Nosql, bigdata, cloud, machine learning etc... ? Vous vous sentez dépassés ou curieux ? Vous n'êtes pas sûr d'en avoir besoin mais vous avez un doute ? Faisons déjà le point sur la réalité que recouvre ces technologies, essayons de comprendre sur vos données si vous avez de la richesse non exploitée qui pourrait en profiter."
-                },
-                {
                     "title": "Organisez vos documents avec Mongo",
-                    "summary": "Derrière le terme Nosql se cache une multitude de base de données avec des objectifs bien distincts. Mongodb est l'une d'entre elles. Cette base propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées. Mongo peut-il répondre à vos cas d'usage ? "
+                    "summary": "Mongodb est une base de données nosql orientée document. Elle propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées. Mongo peut-il répondre à vos cas d'usage ? "
                 },
                 {
                     "title": "Elastic Search, parce qu'on a toujours besoin de rechercher quelque chose",
                     "summary": "Rechercher des données est sans doute ce qui se fait le plus couramment dans toutes les applications. Mais le faites-vous bien ? Je vous propose un petit tour d'horizon d'un moteur dédié à la recherche et qui le fait bien."
                 },
                 {
-                    "title": "Architecture distribuées",
-                    "summary": "Le temps des applications monolithiques s'éloigne. Désormais on recherche à composer par micro services. Quels sont les avantages et inconvénients en terme de dev, de déploiement, de monitoring etc... ?"
+                    "title": "Spring Boot et RabbitMq",
+                    "summary": "Je vous propose de voir comment nous utilisons Spring boot et RabbitMq chez Hopwork pour  découper nos services en petites applications "
+                },
+                {
+                    "title": "Ansible",
+                    "summary": "Je vous propose de voir comment nous utilisons Ansible chez Hopwork pour le déploiement de notre infrastructure mais aussi du code applicatif"
                 }
             ],
             "tags": [
@@ -5538,7 +5535,7 @@ var data = {
                     "title": "Développeurs anonymes",
                     "summary": "Démo de refactoring. Introduire de l'objet efficacement dans un legacy infame."
                 },
-                
+
                 {
                     "title": "La pyramide des tests - d'oú sort il?",
                     "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
@@ -5583,6 +5580,79 @@ var data = {
             ],
             "tags": ["Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
             "cities": ["Toulouse"]
+        },
+        {
+            "name": "Julien Dubois",
+            "bio": "Directeur de l'innovation chez Ippon Technologies, expert Spring et Java",
+            "picture": "http://gravatar.com/avatar/e7689b738601c9b2f1d66cd2622f517e?s=256",
+            "websites": [
+                {
+                    "title": "Site personnel",
+                    "href": "http://www.julien-dubois.com/"
+                },
+                {
+                    "title": "JHipster",
+                    "href": "http://jhipster.github.io/"
+                }
+            ],
+            "twitter": "juliendubois",
+            "contact": "julien.dubois@gmail.com",
+            "mail": "julien.dubois@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "JHipster, comment générer rapidement une application Web moderne avec Spring Boot + AngularJS",
+                    "summary": "JHipster est un générateur d'applications Spring Boot + AngularJS très populaire. Cette session consiste en une présentation rapide de l'outil, puis en un live coding d'environ 45 minutes permettant de voir la génération d'une application, sa modification, l'utilisation de l'outillage fourni, les bonnes pratiques proposées, pour terminer par un déployement dans le cloud."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Java",
+                "JavaScript",
+                "Spring",
+                "AngularJS",
+                "Yeoman"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+			    "name": "Timothée Chevrier",
+			    "bio": "Agiliste passionné avant tout. Scrum master, chef de projet, un peu développeur... Je suis un optimiste passioné par l'apprentissage collectif. Je m'intéresse aux sujets tournant autour de l'agilité bien sûr mais plus largement des mouvements proches : l'entreprise libérée, le leadership, le coaching, l'intelligence collective, le bien être au travail, le management 3.0, etc... ",
+			    "picture": "https://fr.gravatar.com/userimage/41876697/9b8e38d7e6ae9ff3bdce48c510ad822c.jpg?size=200",
+			    "websites": [
+			    ],
+			    "twitter": "msieur_tim",
+			    "contact": "tchevrier@gmail.com",
+			    "mail": "tchevrier@gmail.com",
+			    "location": "Rennes et grand ouest pourquoi pas",
+			    "sessions": [
+			        {
+			            "title": "Après les user stories, les team stories",
+			            "summary": "Session d'1H réalisée à l'agile tour Brest. Il s'agit d'un retour d'expérience sur un passage de 3 ans en tant que Scrum master dans une équipe. J'y parle estimations, rétrospectives, management visuel, auto organisation. Et j'ai quelques bonus en tête (spécifications par les tests d'acceptances, etc...)"
+			        },
+			        {
+			            "title": "Animation d'ateliers et/ou de jeux",
+			            "summary": "A travers l'exercice de rétrospective proposer par la méthode Scrum, j'ai eu l'occasion d'animer un grand nombre d'ateliers dans des buts variés. Je me propose donc comme facilitateur de vos ateliers pour découvrir comment se réunir différement."
+			        },
+			        {
+			            "title": "L'agilité c'est quoi ?",
+			            "summary": "Vous avez entendu parlé d'agilité et le sujet vous intéresse. Je vous propose de partager ma vision de ce qu'elle est, et de construire ensemble ce qu'elle pourrait être pour vous."
+			        }
+			    ],
+			    "tags": [
+			        "Agile",
+			        "Scrum",
+			        "Auto-organisation",
+			        "Serious games",
+			        "Rétrospectives",
+			        "Echanges"
+			    ],
+			    "cities": [
+			        "Rennes"
+			    ]
+			}
         },
         {
             "name": "Christophe Labouisse",
@@ -5751,4 +5821,3 @@ var data = {
         }
     ]
 };
-
