@@ -5652,7 +5652,6 @@ var data = {
 			    "cities": [
 			        "Rennes"
 			    ]
-			}
         },
         {
             "name": "Christophe Labouisse",
