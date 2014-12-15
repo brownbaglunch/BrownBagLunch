@@ -4299,6 +4299,10 @@ var data = {
             "mail": "borisschapira@gmail.com",
             "location": "Bordeaux",
             "sessions": [
+            	{
+                    "title": "Sensibilisation au dangers et opportunités d'Internet (au sens large)",
+                    "summary": "Le Web a pris en quelques années une importance capitale dans nos vies. Mais les jeunes (et les moins jeunes) ne sont pas toujours au courant des problématiques que cela soulève et des changements de société qu'il nous faut comprendre. Au travers d'une quinzaine de problématiques dans lesquelles piocher, je vous propose de monter des ateliers d'échanges et d'information pour mieux sensibiliser aux usages d'Internet. Cible : 14 ans et +"
+                },
                 {
                     "title": "De l'idée au projet",
                     "summary": "Nous avons tous des idées. Petites, grandes, incongrues, logiques. Comment les capturer, les formaliser, les confronter pour transformer ces idées en projet ? Introduction à Lean Canvas et aux outils du Service Design."
