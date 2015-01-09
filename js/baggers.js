@@ -3826,11 +3826,11 @@ var data = {
         },
         {
             "name": "William Durand",
-            "bio": "Software developer, Open Source evangelist.",
+            "bio": "Lifelong learner. Open Source evangelist. Traveler. Triathlete.",
             "picture": "http://fr.gravatar.com/userimage/8198086/417f6125a7549374926e4935f9272ad6.jpg?size=500",
             "websites": [
                 {
-                    "title": "Blog",
+                    "title": "Websbite",
                     "href": "http://williamdurand.fr"
                 },
                 {
@@ -3843,21 +3843,25 @@ var data = {
                 }
             ],
             "twitter": "couac",
-            "contact": "william.durand1+bbl@gmail.com",
-            "mail": "william.durand1+bbl@gmail.com",
+            "contact": "will+bbl@drnd.me",
+            "mail": "will+bbl@drnd.me",
             "location": "Clermont-Fd Area",
             "sessions": [
+            	{
+            	    "title": "Introduction à Docker",
+            	    "summary": "Docker, qu'est-ce que c'est ? Pourquoi est-ce utile et terriblement intéressant ?"
+            	},
                 {
-                    "title": "REST APIs With Symfony2: The Right Way",
-                    "summary": "Comment construire une API REST avec le framework PHP Symfony2."
+                    "title": "REST APIs With Symfony: The Right Way",
+                    "summary": "Comment construire une API REST avec le framework PHP Symfony ?"
                 },
                 {
-                    "title": "Git & GitHub",
-                    "summary": "Présentation de Git et GitHub."
+                    "title": "Git & GitHub & Open Source",
+                    "summary": "Présentation de Git et GitHub, plus une ouverture sur le monde Open Source."
                 },
                 {
                     "title": "Open Source For Dummies",
-                    "summary": "Qu'est-ce que l'Open Source ? Comment fait-on pour y participer ? Mais surtout, pourquoi c'est bien pour votre entreprise ?"
+                    "summary": "Qu'est-ce que l'Open Source ? Comment fait-on pour y participer ? Mais surtout, pourquoi c'est bien pour votre entreprise."
                 },
                 {
                     "title": "Oriented Object Programming",
@@ -3866,12 +3870,14 @@ var data = {
             ],
             "tags": [
                 "PHP",
-                "Symfony2",
+                "Symfony",
                 "HTTP",
                 "REST",
                 "Testing",
                 "Git",
-                "Puppet"
+                "Puppet",
+                "Docker",
+                "Open Source"
             ],
             "cities": [
                 "Clermont-Ferrand"
