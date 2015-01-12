@@ -4211,11 +4211,11 @@ var data = {
             "websites": [
                 {
                     "title": "Blog",
-                    "href": "http://blog.soat.fr/author/mathieu-parisot/"
+                    "href": "http://matparisot.fr/author/mathieu/"
                 },
                 {
                     "title": "Profil",
-                    "href": "http://www.soat.fr/mathieu-parisot-expert-java-web"
+                    "href": "http://matparisot.fr"
                 }
             ],
             "twitter": "matparisot",
@@ -4224,23 +4224,27 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "A la découverte du Responsive web design",
-                    "summary": "Faire en sorte que votre s'adapte à tous les périphériques est possible, mais pas forcément trivial. Une présentation théorique de ce qui se cache derrière le RWD."
+                    "title": "Responsive Web Design",
+                    "summary": "3 présentations possibles : introduction au RWD, l'impact du RWD sur vos équipes projet et un tour d'horizon des techniques nécessaires à la réalisation d'un site."
                 },
                 {
-                    "title": "Du Responsive Web Design à la Responsive Company",
-                    "summary": "En dehors des problèmes techniques inhérents à toute nouvelle technique de développement, le Responsive Web Design remet également en cause de nombreux acquis dans les entreprises que ce soit en phase de conception, de design ou lors des tests."
+                    "title": "Quoi de neuf dans le web ?",
+                    "summary": "Un tour d'horizon de toutes les nouveautés HTML5 et CSS3 pour découvrir des normes souvent méconnues (flexbox, webrtc, web components, css shapes, etc.)"
                 },
                 {
-                    "title": "Faire un site en Responsive Web Design",
-                    "summary": "Un tour d'horizon des techniques nécessaires pour faire un site web responsive."
+                    "title": "Révolutionnez vos Layout avec CSS3",
+                    "summary": "Un focus sur les normes CSS3 permettant de faire des mises en page avancées : FlexBoxx, CSSGrid, CSSShape, CSS regions, columns, etc."
                 },
                 {
-                    "title": "Introduction a html5",
-                    "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
+                    "title": "Démystifions la magie du CSS",
+                    "summary": "Le CSS parrait souvent simple mais magique pour les développeurs. Dans cette présentation je présente et explique différents concepts qui sont souvent mal compris : spécificité, types de display, positionnement, etc."
+                },
+                {
+                    "title": "Crash course Javascript pour les développeurs",
+                    "summary": "Un condensé de particularités souvent méconnues et dangereuses du langage javascript : hoisting, scoping des variables, utilisation de this, égalité magique, etc."
                 }
             ],
-            "tags": ["Responsive", "HTML5"],
+            "tags": ["Responsive", "HTML5","CSS3","Javascript"],
             "cities": [ "Paris" ]
         },
         {
