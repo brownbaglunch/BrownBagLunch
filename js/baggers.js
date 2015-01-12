@@ -5772,12 +5772,6 @@ var data = {
             "lng": 7.055222
         },
         {
-            "name": "Nancy",
-            "ville_img": "",
-            "lat": 48.692054,
-            "lng": 6.184417
-        },
-        {
             "name": "Toulon",
             "ville_img": "img/villes/BBL_Toulon.jpg",
             "lat": 43.117,
