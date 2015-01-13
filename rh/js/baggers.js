@@ -471,6 +471,30 @@ var data = {
             "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lausanne.jpg",
             "lat": 46.519962,
             "lng": 6.633597
+        },
+        {
+            "name": "Nantes",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Nantes.jpg",
+            "lat": 47.219102,
+            "lng": -1.551132
+        },
+        {
+            "name": "Montpellier",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Montpellier.jpg",
+            "lat": 43.610769,
+            "lng": 3.876716
+        },
+        {
+            "name": "Bordeaux",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Bordeaux.jpg",
+            "lat": 44.837789,
+            "lng": -0.57918
+        },
+        {
+            "name": "Toulouse",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Toulouse.jpg",
+            "lat": 43.604652,
+            "lng": 1.444209
         }
     ]
 }
