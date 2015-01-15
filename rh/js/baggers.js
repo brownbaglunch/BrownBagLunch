@@ -59,7 +59,7 @@ var data = {
                     "href": "http://javagile.wordpress.com"
                 }
             ],
-            "twitter": "@ceciliaBossard",
+            "twitter": "ceciliaBossard",
             "contact": "cecilia.bossard@gmail.com",
             "mail": "cecilia.bossard@gmail.com",
             "location": "Nantes",
