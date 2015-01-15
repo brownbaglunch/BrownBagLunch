@@ -50,6 +50,41 @@ var data = {
             ]
         },
         {
+            "name": "Cécilia Bossard",
+            "bio": "Développeuse, Scrum Master, Coach et formatrice agile. Membre de l'association Agile Nantes et du groupe Women In Technology sur Nantes",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/091/25a/1329194.jpg",
+            "websites": [
+                {
+                    "title": "Site web",
+                    "href": "http://javagile.wordpress.com"
+                }
+            ],
+            "twitter": "@ceciliaBossard",
+            "contact": "cecilia.bossard@gmail.com",
+            "mail": "cecilia.bossard@gmail.com",
+            "location": "Nantes",
+            "sessions": [
+                {
+                    "title": "Et la diversité dans tout ça ?",
+                    "summary": "On entend beaucoup parler en ce moment du besoin d’avoir plus de femmes dans les métiers du numérique. Mais la diversité ne s’arrête pas là. Qu'est ce qu’on entend par diversité ? Qu'est ce que ça peut apporter à mon équipe, mon entreprise ? Quelles sont les bonnes pratiques ? Je tenterai de répondre à ces questions lors de cette présentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de réflexions sur ce débat."
+                },
+                {
+                    "title": "Introduction à l'agilité",
+                    "summary": "L'agilité est un mot très à la mode en ce moment. Mais qu'est ce qu'on entend exactement par là ?"
+                },
+                {
+                    "title": "Serious game agile",
+                    "summary": "De petits ateliers de "team-building" ou de différents concepts agiles. "
+                }
+            ],
+            "tags": [
+                "Agilité",
+                "Diversité",
+                "Serious game"
+            ],
+            "cities": ["Nantes"]
+        },
+        {
             "name": "Eric Olivier Castro",
             "bio": "Consultant au sein d’un cabinet de courtage d’Assurances spécialisé dans l’Entreprise, je mise sur une approche constructive des risques et menaces qui existent pour assurer le capital humain.",
             "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/092/3c0/38a469f.jpg",
