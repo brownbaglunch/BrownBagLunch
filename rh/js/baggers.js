@@ -74,7 +74,7 @@ var data = {
                 },
                 {
                     "title": "Serious game agile",
-                    "summary": "De petits ateliers de "team-building" ou de différents concepts agiles. "
+                    "summary": "De petits ateliers de 'team-building' ou de différents concepts agiles. "
                 }
             ],
             "tags": [
