@@ -417,7 +417,6 @@ var data = {
                 {
                     "title": "L’expression des émotions en entreprises",
                     "summary": "'Gérer ses émotions' revient-il à les laisser se vivre ? Et de quelle manière ?"
-"
                 },
                 {
                     "title": "Les relations interpersonnelles en ESN (SSII)",
