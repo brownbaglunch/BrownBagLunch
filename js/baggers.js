@@ -17,22 +17,22 @@ var data = {
             "twitter": "cedricbodin",
             "contact": "contact@cedricbodin.net",
             "mail": "contact@cedricbodin.net",
-            "location": "Nantes et <i>à distance</i>",
+            "location": "Nantes (et à distance)",
             "sessions": [
                 {
-                    "title": "<a href='https://prezi.com/41eol2a8bops/le-pourquoi-du-pourquoi-de-lagilite/' target='_blank'>Le pourquoi du pourquoi de l'agilité</a>",
-                    "summary": "POURQUOI se lancer dans l'agilité?<br/>Réponse-type: des projets qui échouent, des individus désengagés, des organisations dysfonctionnelles, etc.<br/>Mais alors POURQUOI ces symptômes émergent-ils? (d'où ce titre: “Le POURQUOI du POURQUOI de l'agilité”)<br/>Et bien, à travers plusieurs grilles de lecture (historique, culturelle, anthropologique, psychologique...) nous irons à la racine pour voir en quoi l'agilité avait/a/aura du sens."
+                    "title": "Le pourquoi du pourquoi de l'agilité",
+                    "summary": "POURQUOI se lancer dans l'agilité?<br/>Réponse-type: des projets qui échouent, des individus désengagés, des organisations dysfonctionnelles, etc.<br/>Mais alors POURQUOI ces symptômes émergent-ils? (d'où ce titre: “Le POURQUOI du POURQUOI de l'agilité”)<br/>Et bien, à travers plusieurs grilles de lecture (historique, culturelle, anthropologique, psychologique...) <a href='https://prezi.com/41eol2a8bops/le-pourquoi-du-pourquoi-de-lagilite/' target='_blank'>nous irons à la racine</a> pour voir en quoi l'agilité avait/a/aura du sens."
                 },
                 {
-                    "title": "<a href='http://cedricbodin.net/tag/melomanagiliste/' target='_blank'>Au secours, ma bibliothèque iTu*** me parle d’agilité</a>",
-                    "summary": "Je souffre depuis peu d’un étrange syndrome: celui du “mélomanagiliste”.<br/>Est-ce grave docteur? Non, ça signifie juste qu’en réécoutant la musique de ma bibliothèque iTu*** je découvre que c’est dingue: Daft Punk, Stupeflip, The Strokes, John Williams, etc. Ils parlent tous d’agilité!<br/>Alors pour vous prouver que mon esprit n’est pas si malade, toutes les minutes nous écouterons un extrait d’un artiste différent, puis je vous montrerai en quoi il parle manifestement d’agilité.<br/>Et si par malheur vous n’appreniez rien, vous aurez au moins passé un moment “Simple & Funky” comme l’agilité :)"
+                    "title": "Au secours, ma bibliothèque iTu*** me parle d’agilité",
+                    "summary": "Je souffre depuis peu d’un étrange syndrome: celui du “mélomanagiliste”.<br/>Est-ce grave docteur? Non, ça signifie juste qu’en réécoutant la musique de ma bibliothèque iTu*** je découvre que c’est dingue: Daft Punk, Stupeflip, The Strokes, John Williams, etc. <a href='http://cedricbodin.net/tag/melomanagiliste/' target='_blank'>Ils parlent tous d’agilité!</a><br/>Alors pour vous prouver que mon esprit n’est pas si malade, toutes les minutes nous écouterons un extrait d’un artiste différent, puis je vous montrerai en quoi il parle manifestement d’agilité.<br/>Et si par malheur vous n’appreniez rien, vous aurez au moins passé un moment “Simple & Funky” comme l’agilité :)"
                 },
                 {
                     "title": "Petits Pecha Kucha entre amis",
                     "summary": "L'idée est simple : vous me préparez plusieurs <a href='http://fr.wikipedia.org/wiki/Pecha_Kucha' target='_blank'>Pecha Kuchas</a> autour de l'agilité, que je ne découvrirai que le jour J. Et après chaque Pecha Kucha, nous échangerons ensemble sur ce qui viendra d'être présenté. De grands moments d'improvisation en perspective !"
                 },{
                     "title": "Bref, je suis coach agile :)",
-                    "summary": "N'hésitez pas à me contacter pour que nous discutions ensemble de tout sujet autour de l'agilité (la faciliation des temps collectifs, le coaching d'équipe, les transformations d'organisation, Scrum, Kanban, Lean Startup, Serious Games, la musique, les marathons, etc.)"
+                    "summary": "N'hésitez pas à me contacter pour que nous discutions ensemble de tout sujet autour de l'agilité (la facilitation des temps collectifs, le coaching d'équipe, les transformations d'organisation, Scrum, Kanban, Lean Startup, Serious Games, la musique, les marathons, etc.)"
                 }
             ],
             "tags": [
