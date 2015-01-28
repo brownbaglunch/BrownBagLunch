@@ -3578,7 +3578,7 @@ var data = {
                     "summary": "Tour d'horizon des mythes et légendes communément admis autour de la méthode Scrum et qui peuvent mettre à mal votre Agilité."
                 },
                                 {
-                    "title": "Transition agile et accompagnement au changment",
+                    "title": "Transition agile et accompagnement au changement",
                     "summary": "Je vous propose un premier cadre de réflexion sur la transition organisationnelle nécessaire au déploiement de l'agilité."
                 }
 
