@@ -3527,6 +3527,77 @@ var data = {
             ]
         },
         {
+            "name": "Romain Couturier",
+            "bio": "Coach agile et facilitateur graphique",
+            "picture": "http://www.gravatar.com/avatar/918e67363e4361447d7a01c11da8a767.png",
+            "websites": [
+                {
+                    "title": "Site professionnel",
+                    "href": "http://www.terredagile.com"
+                },
+                {
+                    "title": "Blog perso",
+                    "href": "http://talondagile.fr"
+                }
+            ],
+            "twitter": "romaincouturier",
+            "contact": "romain.couturier@terredagile.com",
+            "mail": "romain.couturier@terredagile.com",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Libérez vos idées et partez à la découverte de la facilitation graphique",
+                    "summary": "S'initier aux techniques de base de la facilitation graphique des interactions de groupe et découvrir comment la pensée visuelle une dynamique interactive et innovante dans les réunions."
+                },
+                {
+                    "title": "Kanban pour tous",
+                    "summary": "Pour toutes celles et ceux qui entendent parler de Kanban ou qui découvrent, je vous propose une compilation de retours d’expériences de mise en place de Kanban dans plusieurs environnements dont certains n’ont rien à voir avec l’agilité."
+                },
+                {
+                    "title": "Introduction à l'Agilité",
+                    "summary": "Découverte de l'Agilité à travers le Manifeste Agile et les principales méthodes Agiles existantes pour faire le bon choix pour son équipe"
+                },
+                {
+                    "title": "Créer  le bon produit avec le lean Caneva",
+                    "summary": "Pour ceux qui ne veulent plus faire à l'instinct le tri dans les idées pour leur produit, cette conférence vous présente le Lean Canvas et la démarche pour construire le bon produit, quel que soit votre domaine d'activité.."
+                },
+                {
+                    "title": "Enseignement et Agilité",
+                    "summary": "Retour d'expériences sur l'enseignement de l'Agilité dans les universités ... en mode Agile bien sûr."
+                },
+                {
+                    "title": "Valeur ajoutée, c'est quoi au fait ?",
+                    "summary": "Cette session vous propose simplement d’explorer ce concept de valeur, les techniques possibles pour vous aider à valoriser vos exigences métier dans un contexte agile ... ou non ?"
+                },
+                {
+                    "title": "Il était une fois la vie d'un Product Owner",
+                    "summary": "C'est l'histoire d'un Product Owner qui découvre et apprend son rôle dans une startup pendant 9 mois. Entre joies et peines, les surprises seront nombreuses sur le chemin de la gestion de produit."
+                },
+                {
+                    "title": "Scrum, comment tomber dans le panneau",
+                    "summary": "Tour d'horizon des mythes et légendes communément admis autour de la méthode Scrum et qui peuvent mettre à mal votre Agilité."
+                },
+                                {
+                    "title": "Transition agile et accompagnement au changment",
+                    "summary": "Je vous propose un premier cadre de réflexion sur la transition organisationnelle nécessaire au déploiement de l'agilité."
+                }
+
+            ],
+            "tags": [
+                "coaching",
+                "agile",
+                "facilitation graphique",
+                "Scrum",
+                "Kanban",
+                "facilitation",
+                "Jeux agiles",
+                "Lean Startup",
+            ],
+            "cities": [
+                "Lyon"
+            ]
+        },
+        {
             "name": "Sébastien Cogneau",
             "bio": "Développeur",
             "picture": "https://secure.gravatar.com/avatar/a36365a1874360981942f089d839d473?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
