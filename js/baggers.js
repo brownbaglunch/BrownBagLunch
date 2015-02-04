@@ -654,7 +654,7 @@ var data = {
                 {
                     "title": "Architecture: C4 Model",
                     "summary": "Un atelier de sketching de vos systèmes d'après le modèle C4 de Simon Brown. En mode collaboratif, avec un max d'efficacité, venez vous réapproprier votre architecture et découvrir comment partager une même vision au sein de son équipe de développement."
-                },
+                }
         "tags": [
         		"EventStorming",
         		"Ubiquitous Language",
