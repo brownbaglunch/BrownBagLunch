@@ -625,6 +625,49 @@ var data = {
             ]
         },
         {
+            "name": "Maxime Sanglan",
+            "bio": "Plus de 15 ans dans l'informatique et pas une ride (ou presque). Curieux de nature, je suis toujours à la recherche de tout ce qui peut nous rendre plus efficients en tant qu'individu, en équipe ou au sein d'une organisation.",
+            "picture": "img/baggers/photo-maxime_s.jpg",
+            "websites": [
+                {
+                    "title": "one.hundred.acorns",
+                    "href": "https://onehundredacorns.wordpress.com/"
+                },
+                {
+                    "title": "Betclic Blog",
+                    "href": "https://techblog.betclicgroup.com/author/m-sanglan/"
+                }
+            ],
+            "twitter": "__MaxS__",
+            "contact": "maxime.sanglan [at] gmail.com",
+            "mail": "maxime.sanglan@gmail.com",
+            "location": "Paris et la Défense",
+            "sessions": [
+                {
+                    "title": "Does your code speak business?",
+                    "summary": "Dans cette présentation, j'entreprends de définir de manière concrète ce qu'est la valeur. Je livre une technique simple et efficace à mettre en place ainsi que celles à éviter, afin de se focaliser sur l'essentiel et d'apporter un maximum de valeur au sein du code et même de vos tests."
+                },
+                {
+                    "title": "Event Storming Workshop",
+                    "summary": "Un atelier pour découvrir cette technique collaborative qui vise à modéliser votre métier tout en réunissant ceux qui savent ce qu'il faut réaliser et ceux qui savent comment le faire. Mise en application en live sur votre propre métier."
+                },
+                {
+                    "title": "Architecture: C4 Model",
+                    "summary": "Un atelier de sketching de vos systèmes d'après le modèle C4 de Simon Brown. En mode collaboratif, avec un max d'efficacité, venez vous réapproprier votre architecture et découvrir comment partager une même vision au sein de son équipe de développement."
+                },
+        "tags": [
+        		"EventStorming",
+        		"Ubiquitous Language",
+                "Workshop",
+                "Architecture",
+                "C4",
+                "DDD"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Tomasz Jaskula",
             "bio": "L'artisan du beau code, fondateur et organisateur de DDD Paris et F# Paris, je m'intéresse à la mise en place des solutions qui permettent de donner un avantage compétitif à l'entreprise. Cela passe par Domain Driven Design, la programmation fonctionnelle avec F#, CQRS et Event Sourcing...J'aime surtout partager mon expérience de 15 ans avec les teams d'entreprise qui veulent progresser et avec divers communautés de développement.",
             "picture": "http://1.gravatar.com/userimage/12224826/df20a86f93b56052b5a8cfb469ada07b?size=333",
