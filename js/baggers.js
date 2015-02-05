@@ -627,7 +627,7 @@ var data = {
         {
             "name": "Maxime Sanglan",
             "bio": "Plus de 15 ans dans l'informatique et pas une ride (ou presque). Curieux de nature, je suis toujours à la recherche de tout ce qui peut nous rendre plus efficients en tant qu'individu, en équipe ou au sein d'une organisation.",
-            "picture": "img/baggers/photo-maxime_s.jpg",
+            "picture": "img/baggers/photo_maxime_s.jpg",
             "websites": [
                 {
                     "title": "one.hundred.acorns",
@@ -654,7 +654,8 @@ var data = {
                 {
                     "title": "Architecture: C4 Model",
                     "summary": "Un atelier de sketching de vos systèmes d'après le modèle C4 de Simon Brown. En mode collaboratif, avec un max d'efficacité, venez vous réapproprier votre architecture et découvrir comment partager une même vision au sein de son équipe de développement."
-                },
+                }
+                ],
         "tags": [
         		"EventStorming",
         		"Ubiquitous Language",
