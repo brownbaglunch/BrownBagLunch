@@ -38,7 +38,7 @@ var bblLocationsData = {
             "address": "156 boulevard Haussmann, 75009 Paris",
             "gps": "48.875329,2.311335",
             "website": "http://www.xebia.fr/",
-            "contact": "Audrey Pedro (apedro [at] xebia.fr)",
+            "contact": "Anne Beauchart (abeauchart [at] xebia.fr)",
             "picture": "img/entreprises/xebia.png",
             "interests": [
                     "Java", "Web", "Mobile", "Agile", "Big Data", "DevOps", "Cloud"
