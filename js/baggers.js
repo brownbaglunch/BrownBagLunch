@@ -5836,6 +5836,41 @@ var data = {
             "cities": [
                 "Bordeaux"
             ]
+        },
+        {
+            "name": "Julien Roy",
+            "bio": "Architecte Java chez Ekino",
+            "picture": "http://www.gravatar.com/avatar/858275282cf240a0dd280a13fbd0f942?s=256",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/vanroy?tab=repositories"
+                },
+                {
+                    "title": "Ekino",
+                    "href": "http://www.ekino.com/"
+                }
+            ],
+            "twitter": "vanr0y",
+            "contact": "roy@ekino.com",
+            "mail": "roy@ekino.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Spring Boot, améliorer votre productivité en 1 heure",
+                    "summary": "Découvrez les arcanes interne de Spring Boot et comment utiliser le framework pour augmenter votre productivité. Cette session débutera par 15 minutes de présentation suivi de 45 minutes de live coding. Je développerai une application Web constituée d'une WebService, d'une UI, d'un stockage MongoDB et d'outillages de production. Je terminerai par le déploiement de l'application dans le cloud."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Java",
+                "Spring",
+                "Spring Boot",
+                "Productivité"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
