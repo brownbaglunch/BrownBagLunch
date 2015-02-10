@@ -5908,7 +5908,7 @@ var data = {
                 "Python",
                 "ZeroMQ",
                 "NoSQL",
-                "elasticsearch"
+                "ElasticSearch",
                 "MongoDB",
                 "Micro-Services",
                 "Tests"
