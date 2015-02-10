@@ -5871,6 +5871,51 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Boris Feld",
+            "bio": "Développeur backend (Python, ZeroMQ, MongoDB) passionné par les architectures web, la culture DevOps et la qualité",
+            "picture": "http://www.gravatar.com/avatar/410e3353165c33043ab69be7fc366428.jpg?s=256",
+            "websites": [
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/lothiraldan/"
+                }
+            ],
+            "twitter": "lothiraldan",
+            "contact": "lothiraldan [at] gmail.com",
+            "mail": "lothiraldan@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Architecture micro-services",
+                    "summary": "Qu'est-ce qu'une architecture micro-service, ses avantages, ses inconvénients, comment la mettre en place."
+                },
+                {
+                    "title": "Modèle de donnée NoSQL",
+                    "summary": "Quand le modèle relationnel ne suffit plus, le NoSQL peut vous aider. Exemples de modélisations avec MongoDB."
+                },
+                {
+                    "title": "Elastic Search côté admin",
+                    "summary": "ElasticSearch est presque magique mais il est utile de savoir comment ça marche, comment ça scale, que faut-il surveiller?"
+                },
+                {
+                    "title": "Ils sont beaux mes tests",
+                    "summary": "Faire des tests c'est bien, faire de bons/beaux tests automatisés c'est mieux, des conseils tout droit venus des tranchées"
+                }
+            ],
+            "tags": [
+                "Python",
+                "ZeroMQ",
+                "NoSQL",
+                "elasticsearch"
+                "MongoDB",
+                "Micro-Services",
+                "Tests"
+            ],
+            "cities": [
+                "Paris"
+            ]
         }
     ],
     "cities": [
