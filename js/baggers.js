@@ -3205,7 +3205,11 @@ var data = {
             "sessions": [
                 {
                     "title": "Silex, micro-framewok PHP",
-                    "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept. De manière optionnelle et modulaire, Silex fournit de quoi faire un petit moteur MVC, et permet d'utilise rapidement un moteur de template (Twig) et/ou un ORM (Doctrine2)."
+                    "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept en MVC"
+                },
+                {
+                    "title": "The fine art of deploying web apps online",
+                    "summary": "Dire adieu au FTP et automatiser simplement le déploiement, cela n'est pas réservée à de grosses entreprises : nous l'appliquerons ici à des projets web à petits budgets et courts délais, typiques d'une agence web. Nos objectifs : Mettre en prod' beaucoup plus souvent, rattraper rapidement une mise en ligne qui a planté, et mieux partager les connaissances et les responsabilités entre collègues."
                 },
                 {
                     "title": "Vos premières aventures avec Raspberry Pi",
