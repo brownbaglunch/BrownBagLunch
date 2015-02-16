@@ -5717,7 +5717,7 @@ var data = {
             ],
             "twitter": "leonardo_noleto",
             "mail": "noleto.leonardo [at] gmail [dot] com",
-            "location": "Toulouse",
+            "location": "Toulouse et Agglomération. Ailleurs selon déplacements",
             "sessions": [{
                     "title": "Transfomez vos logs en insights avec ELK",
                     "summary": "Les logs sont une mine d’informations. Cependant, les transformer en métriques faciles à comprendre peut s'avérer une tâche ardue : chaque application a une structure de log différente, elles sont souvent décentralisées, les formats de timestamp sont divers et variés et les analyser nécessite souvent une expertise technique.  Avec la stack ELK -  ElasticSearch, Logstash et Kibana,  je vous montrerai que faire parler vos logs n'est plus qu'un jeu d'enfant !"
@@ -5728,7 +5728,7 @@ var data = {
                 }
             ],
             "tags": ["Machine learning", "Data Mining", "Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
-            "cities": ["Toulouse", "Agglomération Toulouse", "Ailleurs selon déplacements"]
+            "cities": ["Toulouse"]
         },
         {
             "name": "Julien Dubois",
