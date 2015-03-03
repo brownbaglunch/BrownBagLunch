@@ -3,7 +3,7 @@ var data = {
         {
             "name": "Pauline Tabet-Canova",
             "bio": "Consultante en recrutement, plus de 16 ans d’expériences en Suisse romande",
-            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1dc/180/0a71186.jpg",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/005/091/3ae/1b2a077.jpg",
             "websites": [
                 {
                     "title": "LinkedIn",
@@ -123,7 +123,7 @@ var data = {
         {
             "name": "Arlette Gelabert",
             "bio": "Formatrice à Form’En Scène, je mise sur le capital humain pour optimiser le potentiel professionnel de chacun, parce que l’humain est le premier vecteur de l’image de marque de votre entreprise et le moteur indispensable à son bon fonctionnement. Je fonde ma pédagogie sur 30 ans de pratique théâtrale comme comédienne et animatrice (en compagnies privées et ateliers théâtre) et 20 ans d’expérience en entreprise au sein de services administratifs et commerciaux.",
-            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/030/2ca/04f6953.jpg",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/005/06f/03c/2b94d4f.jpg",
             "websites": [
                 {
                     "title": "Viadeo",
