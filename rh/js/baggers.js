@@ -310,8 +310,8 @@ var data = {
         },
         {
             "name": "Jean-Marie Caillaud",
-            "bio": "Psychologue du travail et Consultant en recrutement international",
-            "picture": "http://m.c.lnkd.licdn.com/media/p/2/000/048/365/3b78995.jpg",
+            "bio": "Psychologue du travail et Responsable Recrutement international",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_400_400/p/3/005/085/295/0faace6.jpg",
             "websites": [
                 {
                     "title": "LinkedIn",
