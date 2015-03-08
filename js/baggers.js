@@ -5933,7 +5933,7 @@ var data = {
                 {
                     "title": "Blog",
                     "href": "http://tzi.fr"
-                }
+                },
                 {
                     "title": "GitHub",
                     "href": "https://github.com/tzi/"
