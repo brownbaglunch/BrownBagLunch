@@ -5920,6 +5920,54 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+        {
+            "name": "Thomas Zilliox",
+            "bio": "Développeur web indépendant, spécialisé dans la mise en place de bonnes pratiques CSS & JavaScript.",
+            "picture": "http://www.gravatar.com/avatar/ce82bc828376d978362c1e905b8ea32c?s=256",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "fr.linkedin.com/in/thomaszilliox/"
+		},
+                {
+                    "title": "Blog",
+                    "href": "http://tzi.fr"
+                }
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/tzi/"
+                }
+            ],
+            "twitter": "iamtzi",
+            "contact": "hello [at] tzi.fr",
+            "mail": "hello@tzi.fr",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Organiser son code JavaScript",
+                    "summary": "Des modèles clé-en-main pour écrire du JavaScript modulaire, avec et sans jQuery."
+                },
+                {
+                    "title": "Des CSS explicites grâce à BEM",
+                    "summary": "Des astuces pour mettre en place BEM et profiter de tous ses avantages."
+                },
+                {
+                    "title": "Combien vous coûte vraiment le support IE7",
+                    "summary": "Une méthode pour évaluer le coût de support d'un ancien navigateur, et partager cette vision avec un décideur non-technique."
+                }
+            ],
+            "tags": [
+                "CSS",
+                "BEM",
+                "Sass",
+                "Less",
+                "JavaScript",
+                "PHP"
+            ],
+            "cities": [
+                "Lyon"
+            ]
         }
     ],
     "cities": [
