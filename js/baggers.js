@@ -5968,7 +5968,49 @@ var data = {
             "cities": [
                 "Lyon"
             ]
-        }
+        },
+        {
+		"name": "Sébastien Brochet",
+		"bio": "Mi-Dev, mi-Ops, Consulting CTO & Founder @ Cloudenza, j'aide les entreprises à améliorer leurs processus",
+		"picture": "https://s.gravatar.com/avatar/9080bb346b547fd66c136e4f11d9cfaf?s=200",
+		"websites": [
+			{
+				"title": "Cloudenza",
+				"href": "http://cloudenza.com/"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/sebbrochet/"
+			},
+			{
+				 "title": "BLOG",
+				 "href": "http://blog.sebbrochet.com"
+			},
+			{
+		             "title": "LinkedIn",
+		             "href": "https://www.linkedin.com/in/sebastienbrochet"
+		        }
+		],
+		"twitter": "sebbrochet",
+		"contact": "sebastien [at] cloudenza.com",
+		"mail": "sebastien@cloudenza.com",
+		"location": "Paris et RP",
+		"sessions": [
+			{
+				"title": "Introduction aux pratiques DevOps",
+				"summary": "Ou comment mieux aligner les Dev et les Ops pour répondre aux besoins Métiers. Le DevOps, c'est le prolongement de l'Agilité aux Ops, je vous propose un panorama des pratiques pour y arriver dans de bonne conditions !"
+			}
+		],
+		"tags": [
+			"devops",
+			"CTO",
+			"Python",
+			"Django"
+		],
+		"cities": [
+			"Paris"
+		]
+      }
     ],
     "cities": [
         {
