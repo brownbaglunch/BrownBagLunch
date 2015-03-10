@@ -5998,7 +5998,7 @@ var data = {
 		"sessions": [
 			{
 				"title": "Introduction aux pratiques DevOps",
-				"summary": "Ou comment mieux aligner les Dev et les Ops pour répondre aux besoins Métiers. Le DevOps, c'est le prolongement de l'Agilité aux Ops, je vous propose un panorama des pratiques pour y arriver dans de bonne conditions !"
+				"summary": "Ou comment mieux aligner les Dev et les Ops pour répondre aux besoins Métiers. Le DevOps, c'est le prolongement de l'Agilité aux Ops, je vous propose un panorama des pratiques pour y arriver dans de bonnes conditions !"
 			}
 		],
 		"tags": [
