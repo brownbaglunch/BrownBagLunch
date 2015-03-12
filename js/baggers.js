@@ -636,24 +636,8 @@ var data = {
                     "summary": "Live coding F# d'un cas métier simple qui est destiné aux développeurs débutants en programmation fonctionnelle et F#. Le but est de montrer une approche de développement incrémentale et de donner les bases de la syntaxe et du paradigme fonctionnel. Il s'agit de démontrer que F# est un langage adapté au développement de tout type d'applications et le fait d'adopter le paradigme fonctionnel fait que le code est plus lisible, moins apte aux bugs et surtout plus robuste."
                 },
                 {
-                    "title": "Démystifier l'intégration des Bounded Contexts",
-                    "summary": "Il s'agit de démontrer quelles sont les possibilités d'intégration de différents Bounded Contexts en DDD. In-Process aggregates ou Out-Process, les techniques ne sont pas les mêmes. Transactions, Event et Command bus, comment les intégrer. Domain Event Publisher ou pas, comment le faire correctement. Je vais vous donner toutes les solutions aux problématiques auxquelles j'ai été confronté et je vous dirai comment les résoudre correctement."
-                },
-                {
                     "title": "Recettes CQRS, pour bien cuisiner son architecture",
                     "summary": "Le pattern architectural CQRS est très simple à comprendre mais peut devenir très vite compliqué à mettre en œuvre. Si on y ajoute un zeste de Domain Driven Design, une pincée d’Event Sourcing et qu’on agrémente le tout avec différents bus de messaging, des queues et de l’infrastructure, notre plat gastronomique peut vite devenir une bouillie indigeste. Comme bien souvent, tout est question de mesure et de bonnes proportions (définies en fonction de vos contraintes fonctionnelles et techniques). Si vous ne savez pas si CQRS est fait pour votre besoin, ou tout simplement si vous ne savez pas par où commencer, je vous propose de découvrir quelques recettes de grand-mère tels que:  ingrédients d’un bon domaine CQRS, Domain Driven Design or not, concurrency, event sourcing, read models, master-details views, task based UIs, event sourcing, integration, event versionning."
-                },
-                {
-                    "title": "Event Storming pour modéliser votre domaine métier",
-                    "summary": "Vous ne savez pas comment modéliser votre domaine, il vous manque du temps ? Laissez-moi vous présenter une technique qui va révolutionner votre manière de modéliser."
-                },
-                {
-                    "title": "Votre code ne doit pas être SOLID mais souple",
-                    "summary": "Et oui, une présentation et du code qui va vous donner un autre regard sur ces principes."
-                },
-                {
-                    "title": "Sujet DDD sur mesure",
-                    "summary": "Demandez-moi ce que vous voulez à ce sujet."
                 },
                 {
                     "title": "Sujet F# sur mesure",
@@ -668,9 +652,7 @@ var data = {
                 "Event Sourcing",
                 "ES",
                 "Architectures",
-                ".NET",
-                "TDD",
-                "Principes SOLID"
+                ".NET"
             ],
             "cities": [
                 "Paris"
