@@ -5252,7 +5252,7 @@ var data = {
                     "summary": "A Ullink, nos Heaps sont habituellement plutôt large (jusqu'à 32 Go) et nous gérons un large volume de données. Mais nous avons observé que la majorité de l'espace occupé dans la Heap ne l'est pas par les données business mais par les structures ! Dans cette présentation il sera montré quel est le coût des objets, quels sont les suspects idéals dans nos structures de données habituelles (Lists, Maps, Strings) et ce que nous pouvons faire pour réduire l'empreinte mémoire."
                 },
                 {
-                    "title": "Programmation Lock-Free : les techniques des pros"
+                    "title": "Programmation Lock-Free : les techniques des pros",
                     "summary": "La scalabilité des applications est une préoccupation importante. Beaucoup de pertes en scalabilité proviennent de code contenant des locks qui produisent une importante contention en cas de forte charge. Dans cette présentation nous allons aborder différentes techniques (striping, copy-on-write, ring buffer, spinning, ...) qui vont nous permettre de réduire cette contention ou d'obtenir un code sans lock. Nous expliquerons aussi les concepts de Compare-And-Swap et de barrières mémoires."
                 }
             ],
