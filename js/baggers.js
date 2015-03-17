@@ -5224,6 +5224,16 @@ var data = {
             "name": "Jean-Philippe Bempel",
             "bio": "Architecte performance, Je travaille depuis plus de 5 ans sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
             "picture": "https://lh5.googleusercontent.com/-LTVFWnsuGlY/ThnyQs5VZjI/AAAAAAAABUY/7gQusBbS-1I/s207-p-no/Fifounet1.JPG",
+            "websites": [
+                {
+                    "title": "blog",
+                    "href": "http://jpbempel.blogspot.com"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/jeanphilippebempel"
+                }
+            ],
             "twitter": "jpbempel",
             "contact": "jpbempel@ullink.com",
             "mail": "jpbempel@ullink.com",
@@ -5232,6 +5242,18 @@ var data = {
                 {
                     "title": "Mesurer directement depuis le CPU: les compteurs de performance",
                     "summary": "Les CPUs intègrent une unité de mesure de performance (PMU) que l'on peut utiliser pour collecter des données sur l'utilisation des caches (hit/miss) des prédictions de branches, du nombre d'instructions, des cycles, etc. Ces compteurs de performance (HPC) peuvent être accédés en Java grâce à la librairie overseer. Cette présentation montrera comment les mettre en oeuvre avec des exemples de situation où ils sont pertinents pour la compréhension des performances."
+                },
+                {
+                    "title": "Low Latency & Mechanical Sympathy : écueils et solutions",
+                    "summary": "Une application de connexion aux marchés financiers requiert une performance accrue. Le traitement des ordres se mesure en centaines de microsecondes, parfois moins. A partir du moment où l'on descend sous la barre de la milliseconde, on entre dans un domaine où la connaissance du matériel (CPU) et des sous-systèmes mémoire devient prépondérante : Il est nécessaire d'être en harmonie avec le matériel (Mechanical Sympathy). Quels sont les plus gros problèmes pour optimiser un traitement inférieur à la milliseconde ? Cette présentation donnera les clés pour répondre à cette question et un retour d'expérience sur l'application de ces optimisations."
+                },
+                {
+                    "title": "OutOfMemoryException : Quel est le coût des objets en Java",
+                    "summary": "A Ullink, nos Heaps sont habituellement plutôt large (jusqu'à 32 Go) et nous gérons un large volume de données. Mais nous avons observé que la majorité de l'espace occupé dans la Heap ne l'est pas par les données business mais par les structures ! Dans cette présentation il sera montré quel est le coût des objets, quels sont les suspects idéals dans nos structures de données habituelles (Lists, Maps, Strings) et ce que nous pouvons faire pour réduire l'empreinte mémoire."
+                },
+                {
+                    "title": "Programmation Lock-Free : les techniques des pros"
+                    "summary": "La scalabilité des applications est une préoccupation importante. Beaucoup de pertes en scalabilité proviennent de code contenant des locks qui produisent une importante contention en cas de forte charge. Dans cette présentation nous allons aborder différentes techniques (striping, copy-on-write, ring buffer, spinning, ...) qui vont nous permettre de réduire cette contention ou d'obtenir un code sans lock. Nous expliquerons aussi les concepts de Compare-And-Swap et de barrières mémoires."
                 }
             ],
             "tags": [
@@ -5239,7 +5261,9 @@ var data = {
                 "CPU",
                 "JIT",
                 "JVM",
-                "low latency"
+                "low latency",
+                "lock-free",
+                "performance"
             ],
             "cities": [
                 "Paris"
