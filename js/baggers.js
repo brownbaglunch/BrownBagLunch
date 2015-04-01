@@ -5976,6 +5976,62 @@ var data = {
             ]
         },
         {
+            "name": "Thomas Gratier",
+            "bio": "Passionné de cartographie, d'OpenData et de Web. Consultant SIG/cartographie/géomatique indépendant spécialisé dans les outils OpenSource géospatiaux.",
+            "picture": "http://webgeodatavore.net/theme/images/logos/logo_webgeodatavore.png",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "http://fr.linkedin.com/in/thomasgratier/"
+        },
+                {
+                    "title": "Blog",
+                    "href": "http://webgeodatavore.net/articles.html"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/thomasg77/"
+                }
+            ],
+            "twitter": "thomasg77",
+            "contact": "contact [at] webgeodatavore.com",
+            "mail": "contact@webgeodatavore.com",
+            "location": "Nantes et alentours",
+            "sessions": [
+                {
+                    "title": "Faire des cartes en ligne: quelles solutions pour quel(s) besoin(s)?",
+                    "summary": "Une revue d'une infrastructure classqieu pour créer des cartes en ligne puis un aperçu des outils clients et serveurs pour ce besoin."
+                },
+                {
+                    "title": "OpenData et OpenStreetMap: comment les exploiter, comment contribuer?",
+                    "summary": "Historique de l'OpenData, revue des opportunités et limites du phénomène, usages potentiels."
+                },
+                {
+                    "title": "Utiliser l'écosystème Github",
+                    "summary": "Github, c'est une infrastructure basée sur Git facilitant la collaboration par le code mais quels sont les autres usages possible? Une petite revue des usages potentiels."
+                },
+                {
+                    "title": "Les outils pour créer de la documentation utilisateur",
+                    "summary": "Il existe de nombreux outils pour documenter du code mais par où commencer pour produire sa documentation? Nous nous proposons de vous donner quelques pistes avec Sphinx, Gitbook et d'autres encore."
+                }
+
+            ],
+            "tags": [
+                "Cartographie",
+                "SIG",
+                "JavaScript",
+                "Git",
+                "Python",
+                "OpenStreetMap",
+                "OSM",
+                "OpenData",
+                "Documentation"
+            ],
+            "cities": [
+                "Nantes"
+            ]
+        },
+        {
 		"name": "Sébastien Brochet",
 		"bio": "Mi-Dev, mi-Ops, Consulting CTO & Founder @ Cloudenza, j'aide les entreprises à améliorer leurs processus",
 		"picture": "https://s.gravatar.com/avatar/9080bb346b547fd66c136e4f11d9cfaf?s=200",
