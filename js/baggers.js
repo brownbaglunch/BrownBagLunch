@@ -2829,7 +2829,7 @@ var data = {
             "websites": [
                 {
                     "title": "Rencontres agiles",
-                    "href": "jfallet.wordpress.com/"
+                    "href": "https://jfallet.wordpress.com/"
                 },
                 {
                     "title": "Blog Technique SII Ouest",
@@ -5934,7 +5934,7 @@ var data = {
             "websites": [
                 {
                     "title": "Linkedin",
-                    "href": "fr.linkedin.com/in/thomaszilliox/"
+                    "href": "https://fr.linkedin.com/in/thomaszilliox"
 		},
                 {
                     "title": "Blog",
