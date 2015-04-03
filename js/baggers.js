@@ -5721,12 +5721,12 @@ var data = {
             "mail": "noleto.leonardo [at] gmail [dot] com",
             "location": "Toulouse et Agglomération. Ailleurs selon déplacements",
             "sessions": [{
-                    "title": "Transfomez vos logs en insights avec ELK",
+                    "title": "Transformez vos logs en insights avec ELK",
                     "summary": "Les logs sont une mine d’informations. Cependant, les transformer en métriques faciles à comprendre peut s'avérer une tâche ardue : chaque application a une structure de log différente, elles sont souvent décentralisées, les formats de timestamp sont divers et variés et les analyser nécessite souvent une expertise technique.  Avec la stack ELK -  ElasticSearch, Logstash et Kibana,  je vous montrerai que faire parler vos logs n'est plus qu'un jeu d'enfant !"
                 },
                 {
                     "title" : "Anomaly Detection (a.k.a outlier detection)",
-                    "summary" : "Vous aimez jouer au détective ? Résoudre des mystérieuses affaires ? Cette présentation est faite pour vous : repérez les données inhabituelles, attrapez les fraudes, découvrez les intrus ! Je vous ferai un tour d’horizon des concepts et techniques pour détecter des anomalies dans un jeux de données. Des méthodes statistiques au machine learning nous allons voir quelques algorithmes et uses cases. Alors, élémentaire, mon cher Watson ?"
+                    "summary" : "Vous aimez jouer au détective ? Résoudre des affaires mystérieuses ? Cette présentation est faite pour vous : repérez les données inhabituelles, attrapez les fraudes, découvrez les intrus ! Je vous ferai un tour d’horizon des concepts et techniques pour détecter des anomalies dans un jeux de données. Des méthodes statistiques au machine learning nous allons voir quelques algorithmes et use cases. Alors, élémentaire, mon cher Watson ?"
                 }
             ],
             "tags": ["Machine learning", "Data Mining", "Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
