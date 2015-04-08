@@ -12,7 +12,7 @@ var data = {
                 {
 	        	"title": "Blog",
 	        	"href" : "http://cedricbodin.net/"
-                }				
+                }
             ],
             "twitter": "cedricbodin",
             "contact": "contact@cedricbodin.net",
@@ -6068,6 +6068,62 @@ var data = {
 			"CTO",
 			"Python",
 			"Django"
+		],
+		"cities": [
+			"Paris"
+		]
+      },
+        {
+		"name": "Cédric Lombardot",
+		"bio": "Développeur Web Full Stack - AngularJS - Mobile IonicFramework - Symfony - Lean Startup & Entrepreneur",
+		"picture": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_bigprofile/h0w8ma1bqz9eqotrbcoi.jpg",
+		"websites": [
+			{
+				"title": "DonkeyCode",
+				"href": "http://donkeycode.com"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/cedriclombardot/"
+			},
+			{
+		         "title": "LinkedIn",
+		         "href": "https://fr.linkedin.com/pub/cédric-lombardot/23/110/217"
+		    }
+		],
+		"twitter": "cedriclombardot",
+		"contact": "cedric [at] donkeycode.com",
+		"mail": "cedric@donkeycode.com",
+		"location": "Paris et RP",
+		"sessions": [
+			{
+				"title": "Introduction au LeanStartup",
+				"summary": "Comprenez que signifie démarrez une entreprise en applicant à la lettre le modèle lean. Et comment peut on appliquer certains de ces principes en entreprise"
+			},
+			{
+				"title": "Ionicframework : Ma première application",
+				"summary": "Affranchissons nous des problèmes du développement hybride sur mobile"
+			},
+			{
+				"title": "Symfony2 : Admingenerator",
+				"summary": "Présentation du bundle symfony2admingenerator/GeneratorBundle - ou comment créer une admin en 20 minutes"
+			}
+		],
+		"tags": [
+			"Symfony",
+			"AngularJS",
+			"PHP",
+			"Agile",
+			"SASS",
+			"JQuery",
+			"Git",
+			"Apache",
+			"Cucumber",
+			"Cordova",
+			"Capistrano",
+			"Symfony2",
+			"Ionic",
+			"Lean Startup"
 		],
 		"cities": [
 			"Paris"
