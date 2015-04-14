@@ -6128,6 +6128,61 @@ var data = {
 		"cities": [
 			"Paris"
 		]
+      },
+      {
+		"name": "Gilles Debunne",
+		"bio": "Freelance Full Stack spécialisé UX - Desktop, Web, Mobile - Lean Startup & Entrepreneur",
+		"picture": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_bigprofile/etn9it6jsyy2cqaiwbll.jpg",
+		"websites": [
+			{
+				"title": "Blog",
+				"href": "http://gillesdebunne.github.io/"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/GillesDebunne"
+			},
+			{
+		         "title": "HopWork",
+		         "href": "https://www.hopwork.com/profile/gillesdebunne"
+		    }
+		],
+		"twitter": "gdebunne",
+		"contact": "gilles . debunne [at] gmail",
+		"mail": "gilles.debunne@gmail.com",
+		"location": "Toulouse et télé-travail",
+		"sessions": [
+			{
+				"title": "Introduction à l'interface sur mobile",
+				"summary": "Les spécificités de l'interface et de l'interaction sur mobile"
+			},
+			{
+				"title": "8 millions de téléchargements sur l'app store",
+				"summary": "L'aventure de ma première et unique application iOS. Qui a bêtement cartonné"
+			},
+			{
+				"title": "Angular : Tour d'horizon ou discussion approfondie",
+				"summary": "Choississez votre sujet, du plus général à la discussion sur un point de détail"
+			},
+			{
+				"title": "Ionic : du mobile en HTML ?",
+				"summary": "Le développement hybride sur mobile est-il viable ?"
+			}
+		],
+		"tags": [
+			"UX",
+			"UI",
+			"Mobile",
+			"Cocos2D",
+			"AngularJS",
+			"Ionic",
+			"Git",
+			"Agile",
+			"Lean Startup"
+		],
+		"cities": [
+			"Toulouse"
+		]
       }
     ],
     "cities": [
