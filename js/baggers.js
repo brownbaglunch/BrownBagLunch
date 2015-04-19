@@ -188,7 +188,7 @@ var data = {
             "tags": [
                 "Docker",
                 "Fig",
-                "Devops"
+                "DevOps"
             ],
             "cities": [
                 "Paris"
@@ -449,7 +449,7 @@ var data = {
             "tags": [
                 "Java",
                 "Agile",
-                "iOs",
+                "iOS",
                 "Spring",
                 "Cloud",
                 "Adobe AIR"
@@ -568,7 +568,7 @@ var data = {
             ],
             "tags": [
                 "Design",
-                "User Experience",
+                "Expérience utilisateur",
                 "Ergonomie",
                 "Psychologie",
                 "Persuasive Design",
@@ -702,7 +702,7 @@ var data = {
                 "CQRS",
                 "Event Sourcing",
                 "ES",
-                "Architectures",
+                "Architecture",
                 ".NET"
             ],
             "cities": [
@@ -822,9 +822,8 @@ var data = {
                 "Agile",
                 "Product Owner",
                 "Scrum",
-                "Coach",
+                "Coaching",
                 "Formation",
-                "Formateur",
                 "Lean Startup",
                 "Kanban"
             ],
@@ -1433,7 +1432,7 @@ var data = {
             ],
             "tags": [
                 "Design",
-                "User Experience",
+                "Expérience utilisateur",
                 "Ergonomie",
                 "Lean Startup",
                 "AngularJS",
@@ -1966,7 +1965,7 @@ var data = {
             ],
             "tags": [
                 "Lean Startup",
-                "Entrepreneur",
+                "Entrepreneuriat",
                 "Customer Development",
                 "Validation Board",
                 "Lean Canvas",
@@ -2226,8 +2225,8 @@ var data = {
             ],
             "tags": [
                 "Scala",
-                "Angular",
-                "Ionic Framework",
+                "AngularJS",
+                "Ionic",
                 "Cordova",
                 "Mobile",
                 "Web",
@@ -2286,7 +2285,7 @@ var data = {
                 "AppEngine",
                 "Architecture",
                 "Java",
-                "Performances",
+                "Performance",
                 "Client"
             ],
             "cities": [
@@ -2455,7 +2454,7 @@ var data = {
             "tags": [
                 "Agile",
                 "Code",
-                "Legacy",
+                "Legacy Code",
                 "TDD",
                 "Test",
                 "Clean Code",
@@ -2597,7 +2596,7 @@ var data = {
                 }
             ],
             "tags": [
-                "Java EE",
+                "JavaEE",
                 "Android",
                 "Dojo",
                 "Dart"
@@ -2636,7 +2635,7 @@ var data = {
             "tags": [
                 "Java",
                 "Scrum",
-                "XP",
+                "Extreme Programming",
                 "TDD",
                 "Chroot",
                 "Ansible",
@@ -2681,7 +2680,7 @@ var data = {
             "tags": [
                 "JavaFX",
                 "JRebirth",
-                "Usine Logicielle",
+                "Usine logicielle",
                 "Eclipse"
             ],
             "cities": [
@@ -3036,7 +3035,7 @@ var data = {
             "tags": [
                 "Scala",
                 "Haskell",
-                "Functional programming"
+                "Programmation fonctionnelle"
             ],
             "cities": [
                 "Nantes"
@@ -3500,7 +3499,7 @@ var data = {
                 "Lambda",
                 "AngularJS",
                 "JavaScript",
-                "Play framework",
+                "Play",
                 "Git"
             ],
             "cities": [
@@ -3553,12 +3552,11 @@ var data = {
             ],
             "tags": [
                 "Agile",
-                "UX",
-                "Expérience Utilisateur",
+                "Expérience utilisateur",
                 "Extreme Programming",
                 "Scrum",
                 "Kanban",
-                "Serious Games",
+                "Serious Game",
                 "Jeux agiles",
                 "Lean Startup",
                 "Visual Management",
@@ -3975,11 +3973,11 @@ var data = {
                 }
             ],
             "tags": [
-                "Javascript",
+                "JavaScript",
                 "PHP",
                 "HTTP",
                 "REST",
-                "Tests",
+                "Test",
                 "Git"
             ],
             "cities": [
@@ -4035,7 +4033,7 @@ var data = {
                 "Symfony",
                 "HTTP",
                 "REST",
-                "Testing",
+                "Test",
                 "Git",
                 "Puppet",
                 "Docker",
@@ -4078,8 +4076,7 @@ var data = {
                 }
             ],
             "tags": [
-                "UX",
-                "Expérience Utilisateur",
+                "Expérience utilisateur",
                 "Expérience Client",
                 "Design",
                 "Conception",
@@ -4152,7 +4149,7 @@ var data = {
             ],
             "tags": [
                 "TDD",
-                "eXtreme Programming",
+                "Extreme Programming",
                 "Agilité",
                 "Agile",
                 "Code"
@@ -4214,7 +4211,7 @@ var data = {
                 }
             ],
             "tags": [
-                "Agilite",
+                "Agilité",
                 "Java",
                 "Test",
                 "Architecture",
@@ -4270,7 +4267,7 @@ var data = {
                 }
             ],
             "tags": [
-                "Agilite",
+                "Agilité",
                 "Android",
                 "Java",
                 "Test",
@@ -4306,7 +4303,7 @@ var data = {
                     "summary": "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
                 }
             ],
-            "tags": ["Clojure", "FP-Style", "Functional programming", "Software design", "Hypermedia", "REST", "API"],
+            "tags": ["Clojure", "FP-Style", "Programmation fonctionnelle", "Software design", "Hypermedia", "REST", "API"],
             "cities": [
                 "Saint Etienne"
             ]
@@ -4360,7 +4357,7 @@ var data = {
                 "Microsoft",
                 "WPF",
                 "SPA",
-                "WEB"
+                "Web"
             ],
             "cities": [
                 "Lyon"
@@ -4500,7 +4497,7 @@ var data = {
                 "Gestion de projet",
                 "Service Design",
                 "JavaScript",
-                "E-Commerce",
+                "e-commerce",
                 "Performance Web"
             ],
             "cities": [
@@ -4619,7 +4616,7 @@ var data = {
                 "Client riche",
                 "Desktop",
                 "JavaFX",
-                "Reactive Programming",
+                "Reactive",
                 "RxJava",
                 "Java 8",
                 "Asynchrone"
@@ -4692,7 +4689,7 @@ var data = {
                 "Gradle",
                 "Groovy",
                 "Build",
-                "Automation"
+                "Automatisation"
             ],
             "cities": [
                 "Sophia-Antipolis"
@@ -5195,7 +5192,7 @@ var data = {
                 "Réseaux sociaux",
                 "Entrepreneuriat",
                 "iOS",
-                "Crypto",
+                "Cryptographie",
                 "Reverse engineering"
             ],
             "cities": [
@@ -5389,7 +5386,7 @@ var data = {
             "tags": [
                 "PHP",
                 "Symfony2",
-                "ecommerce",
+                "e-commerce",
                 "Git"
             ],
             "cities": [
@@ -5446,7 +5443,7 @@ var data = {
                 "Management",
                 "Leadership",
                 "RH",
-                "Product Ownership",
+                "Product Owner",
                 "Craftsmanship",
                 "Entreprise agile",
                 "Sociocratie"
@@ -5572,7 +5569,7 @@ var data = {
                 "HTTP",
                 "Java",
                 "Orange",
-                "Raspberry",
+                "Raspberry Pi",
                 "Java",
                 "PHP",
                 "Test",
@@ -5661,7 +5658,7 @@ var data = {
                 "title": "#ReSTFul, really ?",
                 "summary": "Tout le monde dit faire ou vouloir faire une architecture de type Rest, mais que cela implique-t-il vraiment ? Où vous situez-vous sur le “Richardson Maturity Model” ? Votre API est à la fois Hypermedia et JSON, really ? Si ce sont des questions qui vous taraudent l’esprit et même vous empêchent de dormir, alors venez écouter ce talk pour avoir des pistes de réflexions, des échanges et peut-être des réponses, qui sait ?"
             }],
-            "tags": ["ReSTFul", "API", "HTTP"],
+            "tags": ["REST", "API", "HTTP"],
             "cities": ["Strasbourg", "Paris"]
         },
         {
@@ -5704,7 +5701,7 @@ var data = {
                     "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
                 }
             ],
-            "tags": ["Legacy", "Test", "TDD", "XP", "ApprovalTests", "Refactoring", "Live-coding", "Agile"],
+            "tags": ["Legacy", "Test", "TDD", "Extreme Programming", "ApprovalTests", "Refactoring", "Live Coding", "Agile"],
             "cities": ["Grenoble"]
         },
         {
@@ -5723,7 +5720,7 @@ var data = {
                     "summary": "Exemple d'utilisation de plusieurs Perfection Games ainsi que les bénéfices attendus via un retour d'expérience sur leur pratiques récurrentes et régulières lors de rétrospectives."
                 }
             ],
-            "tags": ["Agile", "Agilité", "Perfection Games", "Amélioration Continue", "Rétrospective"],
+            "tags": ["Agile", "Agilité", "Perfection Games", "Amélioration Continue", "Rétrospectives"],
             "cities": ["Tours"]
         },
         {
@@ -5812,7 +5809,7 @@ var data = {
 			        "Agile",
 			        "Scrum",
 			        "Auto-organisation",
-			        "Serious games",
+			        "Serious Game",
 			        "Rétrospectives",
 			        "Echanges"
 			    ],
@@ -5937,7 +5934,7 @@ var data = {
                 "ElasticSearch",
                 "MongoDB",
                 "Micro-Services",
-                "Tests"
+                "Test"
             ],
             "cities": [
                 "Paris"
@@ -6130,8 +6127,8 @@ var data = {
 			"AngularJS",
 			"PHP",
 			"Agile",
-			"SASS",
-			"JQuery",
+			"Sass",
+			"jQuery",
 			"Git",
 			"Apache",
 			"Cucumber",
@@ -6186,7 +6183,7 @@ var data = {
 			}
 		],
 		"tags": [
-			"UX",
+			"Expérience utilisateur",
 			"UI",
 			"Mobile",
 			"Cocos2D",
