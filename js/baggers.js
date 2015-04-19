@@ -1528,7 +1528,7 @@ var data = {
             "tags": [
                 "Ruby",
                 "Ruby on Rails",
-                "Architecture Logicielle"
+                "Architecture"
             ],
             "cities": [
                 "Paris"
@@ -2069,7 +2069,7 @@ var data = {
                 "Java",
                 "Spring",
                 "Batch",
-                "Integration",
+                "Intégration",
                 "Graphite",
                 "Monitoring",
                 "Métrique",
@@ -3919,6 +3919,7 @@ var data = {
                 "Scrum",
                 "Kanban",
                 "Ingénierie agile",
+		"Intégration continue",
                 "Test",
                 "Tests unitaires",
                 "Usine logicielle",
@@ -4077,7 +4078,7 @@ var data = {
             ],
             "tags": [
                 "Expérience utilisateur",
-                "Expérience Client",
+                "Expérience client",
                 "Design",
                 "Conception",
                 "Ergonomie"
@@ -4723,7 +4724,7 @@ var data = {
             ],
             "tags": [
                 "Agilité",
-                "Jeux sérieux",
+                "Serious Game",
                 "Developpement personnel",
                 "Coaching"
             ],
@@ -5045,7 +5046,7 @@ var data = {
                 "Recrutement",
                 "Réseaux sociaux",
                 "Entrepreneuriat",
-                "Mobilité"
+                "Mobile"
             ],
             "cities": [
                 "Tours",
@@ -5127,7 +5128,7 @@ var data = {
                 }
             ],
             "tags": [
-                "Integration continue",
+                "Intégration continue",
                 "Maven",
                 "Java",
                 "Git",
@@ -5339,9 +5340,9 @@ var data = {
             "tags": [
                 "Git",
                 "Deployment",
-                "Devops",
+                "DevOps",
                 "Fabric",
-                "CI"
+                "Intégration continue"
             ],
             "cities": [
                 "Paris"
@@ -5618,7 +5619,7 @@ var data = {
             "tags": [
                 "Symfony2",
                 "Performance",
-                "Devops",
+                "DevOps",
                 "Behat",
                 "Vagrant",
                 "Scrum",
@@ -5701,7 +5702,7 @@ var data = {
                     "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
                 }
             ],
-            "tags": ["Legacy", "Test", "TDD", "Extreme Programming", "ApprovalTests", "Refactoring", "Live Coding", "Agile"],
+            "tags": ["Legacy Code", "Test", "TDD", "Extreme Programming", "ApprovalTests", "Refactoring", "Live Coding", "Agile"],
             "cities": ["Grenoble"]
         },
         {
