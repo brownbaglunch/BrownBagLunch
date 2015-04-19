@@ -5000,7 +5000,7 @@ var data = {
                 "Lean Startup",
                 "Innovation",
                 "Product Strategy",
-                "Prodcut Management"
+                "Product Management"
             ],
             "cities": [
                 "Paris"
