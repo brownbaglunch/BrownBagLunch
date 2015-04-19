@@ -2183,12 +2183,20 @@ var data = {
         },
         {
             "name": "Loïc Knuchel",
-            "bio": "Développeur freelance passionné et organisateur des @HumanTalksParis. Je m'intéresse à l'accès, la compréhension et l'exploitation des données, au web moderne et à l'expérience utilisateur",
+            "bio": "Développeur web full-stack (Scala, Angular, Ionic), entrepreneur (Cookers / SalooN) et organisateur des @HumanTalksParis et de workshops sur Ionic",
             "picture": "https://gravatar.com/avatar/f755e6e8914df5cbaa74d30dd7de1ae2.png?size=256",
             "websites": [
                 {
-                    "title": "Blog perso",
+                    "title": "Page pro",
+                    "href": "http://loic.knuchel.org/"
+                },
+                {
+                    "title": "Blog",
                     "href": "http://loic.knuchel.org/blog/"
+                },
+                {
+                    "title": "Linkedin",
+                    "href": "https://www.linkedin.com/in/loicknuchel"
                 }
             ],
             "twitter": "loicknuchel",
@@ -2197,25 +2205,38 @@ var data = {
             "location": "Paris et à proximité",
             "sessions": [
                 {
-                    "title": "Des recommandations au service du business",
-                    "summary": "Découvrez en quoi les systèmes de recommandations peuvent être utile pour votre business. Dans cette présentation, non technique, je fais un tour rapide de ce que sont les systèmes de recommandations et de ce que l'on peut en attendre."
+                    "title": "Découvrir Ionic en codant une application de Chat",
+                    "summary": "Ionic Framework révolutionne le monde des applications mobile hybride. Je vous propose donc de vous faire découvrir ce framework et les outils qui vont avec via le live-code d'une application de chat."
                 },
                 {
-                    "title": "Refactoring, de l'impératif au fonctionnel",
-                    "summary": "Dans cette présentation je ferai un refactoring de code scala écrit en mode impératif ('Java style') pour le transformer en code fonctionnel. Cela permettra de passer en revue les principales fonctionnalités des langages fonctionnels et de scala en particulier"
+                    "title": "Introduction à Ionic Framework",
+                    "summary": "Cette session est une présentation classique de Ionic framework. Après un rapide panorama généraliste sur le développement mobile, je vous présenterais Ionic. L'objectif étant de bien comprendre l'environnement technologique et les possibilités du framework."
                 },
                 {
-                    "title": "Sujet sur commande",
-                    "summary": "Sujets autour de Java, Scala, MongoDB, Neo4j, les applications web, les systèmes de recommandation, le machine learning..."
+                    "title": "Ionic Framework, c'est aussi des outils !",
+                    "summary": "Lorsque l'on parle de Ionic, on évoque tout le temps les composants UI, le lien avec Angular voire avec Cordova. Mais Ionic c'est aussi un ensemble d'outils faits pour vous faciliter la vie ! Je vous propose donc un focus sur ces outils qui peuvent être utilisés pour n'importe quelle application cordova :)"
+                },
+                {
+                    "title": "Anatomie d'un plugin Cordova",
+                    "summary": "Les applications Cordova (et donc Ionic) accèdent sans problème aux fonctionnalités natives grâce à un système de plugin. Tout le monde en parle mais peu de personnes ont vraiment regardé leur fonctionnement. L'objectif de cette session est de décortiquer le fonctionnement des plugins pour mieux les comprendre et pourquoi pas développer vos propres plugins !"
+                },
+                {
+                    "title": "Attention aux pièges du mobile",
+                    "summary": "Une application Ionic est avant tout une application Angular ! Simple ! Seulement elle s'exécute sur un téléphone et les problématiques de performances arrivent alors très vite... Voici donc les problèmes les plus récurrents et comment les contourner; bref, un petit guide des bonnes pratiques Web et Angular sur mobile ;)"
+                },
+                {
+                    "title": "Ionic sur commande",
+                    "summary": "Discussions informelles autour de Ionic, sujet autre que ceux proposés... N'hésitez pas à demander !"
                 }
             ],
             "tags": [
-                "Java",
                 "Scala",
+                "Angular",
+                "Ionic Framework",
+                "Cordova",
+                "Mobile",
                 "Web",
-                "NoSQL",
-                "Recommender systems",
-                "Machine learning"
+                "NoSQL"
             ],
             "cities": [
                 "Paris"
