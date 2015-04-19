@@ -80,7 +80,7 @@ var data = {
             "tags": [
                 "Agilité",
                 "Diversité",
-                "Serious game"
+                "Serious Game"
             ],
             "cities": ["Nantes"]
         },
@@ -209,7 +209,7 @@ var data = {
             ],
             "tags": [
                 "Recrutement",
-                "Entretien",
+                "Entretiens",
                 "Evaluation",
                 "Image",
                 "Potentiel"
@@ -385,7 +385,7 @@ var data = {
                 }
             ],
             "tags": [
-                "risques psycho-sociaux"
+                "Risques psycho-sociaux"
             ],
             "cities": [
                 "Paris"
@@ -425,7 +425,7 @@ var data = {
             ],
             "tags": [
                 "Coaching",
-                "analyse comportemantale"
+                "Analyse comportementale"
             ],
             "cities": [
                 "Paris"
@@ -459,7 +459,7 @@ var data = {
                 "DRH",
                 "PME",
                 "TPE",
-                "création"
+                "Création"
             ],
             "cities": [
                 "Paris"
@@ -509,9 +509,9 @@ var data = {
                 "Agile",
                 "Recrutement",
                 "Scrum",
-                "Coach",
-                "équipe",
-                "kanban"
+                "Coaching",
+                "Équipe",
+                "Kanban"
             ],
             "cities": [
                 "Paris"
