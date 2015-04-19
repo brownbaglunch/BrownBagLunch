@@ -36,14 +36,14 @@ var data = {
                 }
             ],
             "tags": [
-                "agile",
-				"Scrum",
-				"Kanban",
-				"facilitation",
-				"Lean Startup",
-				"Serious Game",
-				"musique",
-                "marathon"
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Facilitation",
+                "Lean Startup",
+                "Serious Game",
+                "Musique",
+                "Marathon"
             ],
             "cities": [
                 "Nantes"
@@ -70,7 +70,7 @@ var data = {
                 }
             ],
             "tags": [
-                "docker"
+                "Docker"
             ],
             "cities": [
                 "Paris"
@@ -110,7 +110,7 @@ var data = {
             ],
             "tags": [
                 "Bitcoin",
-                "monnaie cryptographique",
+                "Monnaie cryptographique",
                 "HTTP",
                 "Web"
             ],
@@ -186,9 +186,9 @@ var data = {
                 }
             ],
             "tags": [
-                "docker",
-                "fig",
-                "devops"
+                "Docker",
+                "Fig",
+                "Devops"
             ],
             "cities": [
                 "Paris"
@@ -232,11 +232,11 @@ var data = {
                 }
             ],
             "tags": [
-                "php",
-                "postgresql",
-                "silex",
-                "pomm",
-                "sql"
+                "PHP",
+                "PostgreSQL",
+                "Silex",
+                "Pomm",
+                "SQL"
             ],
             "cities": [
                 "Paris", "Nantes"
@@ -402,8 +402,6 @@ var data = {
                 "Paris"
             ]
         },
-
-
         {
             "name": "Guillaume BITAUDEAU",
             "bio": "Consultant Java / iOs / Cloud",
@@ -499,7 +497,6 @@ var data = {
                 "Paris"
             ]
         },
-
         {
             "name": "Loic Dachary",
             "bio": "Artisan Logiciel Libre, contributeur Ceph",
@@ -529,8 +526,6 @@ var data = {
                 "Paris"
             ]
         },
-
-
         {
             "name": "Raphaël Yharrassarry",
             "bio": "Ergonome, UX Designer, Psychologue, en freelance depuis le dernier millénaire",
@@ -657,8 +652,8 @@ var data = {
                 }
                 ],
         "tags": [
-        		"EventStorming",
-        		"Ubiquitous Language",
+                "EventStorming",
+                "Ubiquitous Language",
                 "Workshop",
                 "Architecture",
                 "C4",
@@ -828,10 +823,10 @@ var data = {
                 "Product Owner",
                 "Scrum",
                 "Coach",
-                "formation",
-                "formateur",
-                "lean Startup",
-                "kanban"
+                "Formation",
+                "Formateur",
+                "Lean Startup",
+                "Kanban"
             ],
             "cities": [
                 "Paris"
@@ -2081,14 +2076,14 @@ var data = {
                 "Métrique",
                 "KPI",
                 "collectd",
-                "jmxtrans",
-                "statsd",
-                "devops",
-                "ops",
-                "sysadmin",
-                "tdd",
-                "chef",
-                "puppet"
+                "JMXTrans",
+                "StatsD",
+                "DevOps",
+                "Ops",
+                "Sysadmin",
+                "TDD",
+                "Chef",
+                "Puppet"
             ],
             "cities": [
                 "Paris"
@@ -3167,7 +3162,7 @@ var data = {
             ],
             "tags": [
                 "NodeJS",
-                "Javascript",
+                "JavaScript",
                 "Grunt",
                 "Bower",
                 "Arduino",
@@ -3396,7 +3391,7 @@ var data = {
             "tags": [
                 "Android",
                 "iOS",
-                "iot",
+                "IoT",
                 "Maker",
                 "Embarqué"
             ],
@@ -3631,12 +3626,12 @@ var data = {
 
             ],
             "tags": [
-                "coaching",
-                "agile",
-                "facilitation graphique",
+                "Coaching",
+                "Agile",
+                "Facilitation graphique",
                 "Scrum",
                 "Kanban",
-                "facilitation",
+                "Facilitation",
                 "Jeux agiles",
                 "Lean Startup"
             ],
@@ -3984,8 +3979,8 @@ var data = {
                 "PHP",
                 "HTTP",
                 "REST",
-                "tests",
-                "GIT"
+                "Tests",
+                "Git"
             ],
             "cities": [
                 "Clermont-Ferrand"
@@ -4123,9 +4118,9 @@ var data = {
                 }
             ],
             "tags": [
-                "performance",
+                "Performance",
                 "JEE",
-                "java"
+                "Java"
             ],
             "cities": [
                 "Bordeaux"
@@ -4219,12 +4214,12 @@ var data = {
                 }
             ],
             "tags": [
-                "agilite",
-                "java",
-                "test",
-                "architecture",
-                "bdd",
-                "software design"
+                "Agilite",
+                "Java",
+                "Test",
+                "Architecture",
+                "BDD",
+                "Software design"
             ],
             "cities": [
                 "Saint Etienne"
@@ -4275,12 +4270,12 @@ var data = {
                 }
             ],
             "tags": [
-                "agilite",
-                "android",
-                "java",
-                "test",
-                "maven",
-                "jenkins",
+                "Agilite",
+                "Android",
+                "Java",
+                "Test",
+                "Maven",
+                "Jenkins",
                 "AngularJS",
                 "Yeoman"
             ],
@@ -4311,7 +4306,7 @@ var data = {
                     "summary": "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
                 }
             ],
-            "tags": ["clojure", "FP-style", "Functional programming", "software design", "hypermedia", "REST", "API"],
+            "tags": ["Clojure", "FP-Style", "Functional programming", "Software design", "Hypermedia", "REST", "API"],
             "cities": [
                 "Saint Etienne"
             ]
@@ -4411,7 +4406,7 @@ var data = {
                     "summary": "Un condensé de particularités souvent méconnues et dangereuses du langage javascript : hoisting, scoping des variables, utilisation de this, égalité magique, etc."
                 }
             ],
-            "tags": ["Responsive", "HTML5","CSS3","Javascript"],
+            "tags": ["Responsive", "HTML5", "CSS3", "JavaScript"],
             "cities": [ "Paris" ]
         },
         {
@@ -4733,7 +4728,7 @@ var data = {
                 "Agilité",
                 "Jeux sérieux",
                 "Developpement personnel",
-                "coaching"
+                "Coaching"
             ],
             "cities": [
                 "Lyon"
@@ -5092,7 +5087,7 @@ var data = {
                 "AWS",
                 "Cloud",
                 "MongoDB",
-                "devops"
+                "DevOps"
             ],
             "cities": [
                 "Tours"
@@ -5135,10 +5130,10 @@ var data = {
                 }
             ],
             "tags": [
-                "integration continue",
-                "maven",
-                "java",
-                "git",
+                "Integration continue",
+                "Maven",
+                "Java",
+                "Git",
                 "MongoDB"
             ],
             "cities": [
@@ -5278,13 +5273,13 @@ var data = {
                 }
             ],
             "tags": [
-                "mechanical sympathy",
+                "Mechanical sympathy",
                 "CPU",
                 "JIT",
                 "JVM",
-                "low latency",
-                "lock-free",
-                "performance"
+                "Low latency",
+                "Lock-free",
+                "Performance"
             ],
             "cities": [
                 "Paris"
@@ -5393,9 +5388,9 @@ var data = {
             ],
             "tags": [
                 "PHP",
-                "symfony2",
+                "Symfony2",
                 "ecommerce",
-                "GIT"
+                "Git"
             ],
             "cities": [
                 "Clermont-Ferrand"
@@ -5553,7 +5548,7 @@ var data = {
             "tags": [
                 "Python",
                 "Performance",
-                "web"
+                "Web"
             ],
             "cities": [
                 "Toulon"
@@ -5636,7 +5631,7 @@ var data = {
                 "Proxmox"
             ],
             "cities": [
-                "le Mans",
+                "Le Mans",
                 "Paris"
             ]
         },
@@ -5709,7 +5704,7 @@ var data = {
                     "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
                 }
             ],
-            "tags": ["legacy", "test", "TDD", "XP", "ApprovalTests", "refactoring", "live-coding", "agile"],
+            "tags": ["Legacy", "Test", "TDD", "XP", "ApprovalTests", "Refactoring", "Live-coding", "Agile"],
             "cities": ["Grenoble"]
         },
         {
@@ -6085,7 +6080,7 @@ var data = {
 			}
 		],
 		"tags": [
-			"devops",
+			"DevOps",
 			"CTO",
 			"Python",
 			"Django"
