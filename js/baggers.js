@@ -1544,8 +1544,8 @@ var data = {
                     "href": "http://www.affini-tech.com"
                 },
                 {
-                    "title": "Site perso",
-                    "href": "http://www.vhe74.com"
+                    "title": "Blog",
+                    "href": "http://blog.affini-tech.com"
                 }
             ],
             "twitter": "vhe74",
@@ -1556,6 +1556,14 @@ var data = {
                 {
                     "title": "Hadoop et son écosystème",
                     "summary": "Comprendre le fonctionnement d'Hadoop et de son écosystème, exemple simple de job Map/Reduce à l'appui"
+                },
+                {
+                    "title": "Apache Spark",
+                    "summary": "Ce que Apache Spark change par rapport à Hadoop. Pourquoi l’utiliser ? Comment fonctionne-t-il ? le tout par des exemples de code simples et concrets. Au delà des modules ‘core’, explication et démonstrations des modules complémentaires : Spark MLLib pour faire du Machine Learning distribué, 'Spark Streaming' pour le traitement de flux sent temps réel, et ‘Spark GraphX’ pour traiter des données en Graphes." 
+                },
+                {
+                    "title": "Google Cloud Platform",
+                     "summary":"Description et démonstrations des différentes briques de la Google Cloud Platform, ses particularités par rapport aux autres Cloud du marché. Pourquoi cette plateforme est un super accélérateur des projets Bigdata avec ses solutions uniques que sont ‘Bigquery’, Bigtable’, ‘Cloud storage’, ‘app engine’, ‘dataflow’, ‘compute engine’ pour facilement monter des clusters Hadoop & Spark"	
                 },
                 {
                     "title": "Hadoop Pig",
