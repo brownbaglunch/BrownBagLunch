@@ -6239,7 +6239,6 @@ var data = {
                 "Trello"
             ],
             "cities": [
-                "Montreuil",
                 "Paris"
             ]
         }
