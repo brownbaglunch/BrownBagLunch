@@ -49,6 +49,44 @@ var data = {
                 "Nantes"
             ]
         },
+         {
+            "name": "Florence Chabanois",
+            "bio": "Agiliste : product owner et encore un peu développeur",
+            "picture": "",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://devsnotebook.fr"
+                }
+            ],
+            "twitter": "fchabanois",
+            "contact": "flocha2000-bbl [at] yahoo.fr",
+            "mail": "flocha2000-bbl@yahoo.fr",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Cheap user testing",
+                    "summary": "Avec le cheap user testing, armez-vous pour lancer des tests utilisateurs dans votre entreprise dès demain, même avec peu de moyens, même avec peu de temps, même sans développement. Bien que les premiers tests soient douloureux, ils ont permis de fluidifier le parcours des utilisateurs et d'augmenter nos rendements (jusque +35%)."
+                }
+                {
+                    "title": "REX Lean Startup sur un site pour jeunes mamans",
+                    "summary": "Retour d'expérience sur un projet inspiré du lean startup. Le projet a 2 ans tout rond, 45K visites par mois et génère ~200 € par mois. On est très loin de Apple, par contre vous verrez que ce type de projet est à la portée de tout le monde et que c'est une super expérience."
+                }
+                {
+                    "title": "Mais pourquoi y m'écoute pas ?",
+                    "summary": "Je vous propose de vous donner quelques pistes pour écouter efficacement et baillonner votre "Moi-je". Nous aborderons également certains aspects du modèle DISC pour comprendre pourquoi nous n'entendons pas tous de la même façon et verrons comment y remédier. http://2013.conference-agile.fr/sessions/mais-pourquoi-y-mecoute-pas.html"
+                }
+            ],
+            "tags": [
+                "Produit",
+                "Lean startup",
+                "Team",
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+
         {
             "name": "Clément Cunin",
             "bio": "Développeur Java depuis 10 ans, passionné depuis toujours.",
