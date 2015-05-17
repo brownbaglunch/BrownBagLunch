@@ -79,14 +79,13 @@ var data = {
             ],
             "tags": [
                 "Produit",
-                "Lean startup",
-                "Team",
+                "Lean Startup",
+                "Team"
             ],
             "cities": [
                 "Paris"
             ]
         },
-
         {
             "name": "Clément Cunin",
             "bio": "Développeur Java depuis 10 ans, passionné depuis toujours.",
