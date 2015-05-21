@@ -6313,15 +6313,15 @@ var data = {
                 },
                 {
                     "title": "Externalisation d'un projet agile : retour d'expérience et réflexions",
-                    "summary": "Présentation condensée d'une externalisation agile réussie avec ses diffcultés, ses trucs et asteuces, son cheminement, les différents points de vue client/agence/équipe de développement. "
+                    "summary": "Présentation condensée d'une externalisation agile réussie avec ses diffcultés, ses trucs et astuces, son cheminement, les différents points de vue client/agence/équipe de développement. "
                 },
                 {
                     "title": "Libérer mon entreprise : comment faire ?",
-                    "summary": "Retour d'expérience et poursuite des réflexions grâce à des techniques de coaching, de facilitation, et un canvas sur-mesure."
+                    "summary": "Retour d'expérience et poursuite des réflexions grâce à des techniques de coaching, de facilitation, et un canevas sur-mesure."
                 },
                 {
                     "title": "Libérer les collaborateurs avec le délégation poker",
-                    "summary": "Expérimentez 1 outil puissant du manager agile (issus de Management 3.0 de Jurgen Apello) sur des cas concrets. Nous travaillerons sur les différents niveaux de la délégation (Delegation Poker) et des ses impacts."
+                    "summary": "Expérimentez 1 outil puissant du manager agile (issus de Management 3.0 de Jurgen Apello) sur des cas concrets. Nous travaillerons sur les différents niveaux de la délégation (Delegation Poker) et de ses impacts."
                 },
                 {
                     "title": "Collaborer... et si on improvisait ",
@@ -6329,7 +6329,7 @@ var data = {
                 },
                 {
                     "title": "Concevoir un événement / séminaire pour petit comité ou large groupe ",
-                    "summary": "Réflexion à l'aide d'un canva éprouvé et de mes expériences d'organisation d'événements intra-entreprise ou publics."
+                    "summary": "Réflexion à l'aide d'un canevas éprouvé et de mes expériences d'organisations d'événements intra-entreprise ou publics."
                 }
             ],
             "tags": [
