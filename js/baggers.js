@@ -6349,7 +6349,43 @@ var data = {
             "cities": [
                 "Lyon"
             ]
-        }
+        },
+                {
+                     "name": "Eric Meallier",
+                     "bio": "Expert Java JEE. Agiliste et Devops jedi",
+                     "picture": "https://www.meallier.fr/PhotoIdentiteEric.2015.png",
+                     "websites": [
+                         {
+                             "title": "Linkedin",
+                             "href": "https://fr.linkedin.com/in/ericmeallier"
+                         },
+                         {
+                             "title": "Home page",
+                             "href" : "http://meallier.fr"
+                         }
+                     ],
+                     "twitter": "ericmeallier",
+                     "contact": "eric@meallier.fr",
+                     "mail": "eric@meallier.fr",
+                     "location": "Avignon, Aix-en-Provence, Montpellier, Orange",
+                     "sessions": [
+                         {
+                             "title": "Docker, encore un buzzword ou réel concept ?",
+                             "summary": "Vous vous demandez qui ce petit nouveau qui fait tant parler de lui ? alors n'attendez plus: demandez le guide ! Au cours de la session, j'expliquerai les nouveaux et anciens concepts mais surtout les nouveaux outils et ce qu'il peuvent apporter tant aux développeurs, qu'aux gestionnaires d'infra. Efficacité, simplicité, productivité."
+                         }
+                     ],
+                     "tags": [
+                         "Java",
+                         "JBoss",
+                         "Docker",
+                         "Devops",
+                         "J2EE",
+                         "Agilite"
+                     ],
+                     "cities": [
+                         "Avignon"
+                     ]
+                 }
     ],
     "cities": [
         {
@@ -6465,6 +6501,12 @@ var data = {
             "ville_img": "",
             "lat": 48.583148,
             "lng": 7.747882
+        },
+        {
+            "name": "Avignon",
+            "ville_img": "img/villes/BBL_Avignon.jpg",
+            "lat": 43.941557,
+            "lng": 4.8332525
         }
     ]
 };
