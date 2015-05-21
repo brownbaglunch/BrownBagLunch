@@ -6278,6 +6278,73 @@ var data = {
             "cities": [
                 "Paris"
             ]
+        },
+         {
+            "name": "Vincent Daviet",
+            "bio": "Coach et Formateur en Agilité",
+            "picture": "https://www.gravatar.com/userimage/47384013/2c0dbef602396d93de9ed73849805cc3?size=240",
+            "websites": [
+                {
+                    "title": "Blog professionnel",
+                    "href": "https://babagile.wordpress.com"
+                },
+                {
+                    "title": "Blog Zenika",
+                    "href": "https://blog.zenika.com"
+                }
+            ],
+            "twitter": "vincentdaviet",
+            "contact": "vincent.daviet.pro@gmail.com",
+            "mail": "vincent.daviet.pro@gmail.com",
+            "location": "Lyon",
+            "sessions": [
+                
+                {
+                    "title": "Découverte de l'agilité",
+                    "summary": "Découvrez comment vous pouvez devenir plus agile, à travers un atelier concret et non technique. Fondamentaux d'une transition agile : collaboration, découpage du besoin, valeur métier, définition des priorités, planification agile, approche itérative et incrémentale."
+                },
+                {
+                    "title": "Boostez vos réunions",
+                    "summary": "Découvrez et expérimentez de nouvelles techniques innovantes pour améliorer la productivité et le cadre de travail de vos réunions : devenez un facilitateur d'excellence !"
+                },
+                {
+                    "title": "Découverte de la facilitation graphique",
+                    "summary": "Initiez-vous à cette nouvelle technique de facilitation de réunion. Aucun pré-requis, ré-utilisable dans une multitude de contextes."
+                },
+                {
+                    "title": "Externalisation d'un projet agile : retour d'expérience et réflexions",
+                    "summary": "Présentation condensée d'une externalisation agile réussie avec ses diffcultés, ses trucs et asteuces, son cheminement, les différents points de vue client/agence/équipe de développement. "
+                },
+                {
+                    "title": "Libérer mon entreprise : comment faire ?",
+                    "summary": "Retour d'expérience et poursuite des réflexions grâce à des techniques de coaching, de facilitation, et un canvas sur-mesure."
+                },
+                {
+                    "title": "Libérer les collaborateurs avec le délégation poker",
+                    "summary": "Expérimentez 1 outil puissant du manager agile (issus de Management 3.0 de Jurgen Apello) sur des cas concrets. Nous travaillerons sur les différents niveaux de la délégation (Delegation Poker) et des ses impacts."
+                },
+                {
+                    "title": "Collaborer... et si on improvisait ",
+                    "summary": "Expérimentons des petits jeux simples issus du théâtre d’improvisation, et accessibles à tous. Nous redécouvrons ainsi les mécanismes d’une collaboration efficace : écoute, confiance, adaptation, esprit d’équipe, but commun."
+                }
+            ],
+            "tags": [
+                "Coaching",
+                "Facilitation",
+                "Facilitation graphique"
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Innovation Games",
+                "Jeux Agiles",
+                "Externalisation",
+                "Improvisation",
+                "Team Building",
+                "Entreprise libérée"
+            ],
+            "cities": [
+                "Lyon"
+            ]
         }
     ],
     "cities": [
