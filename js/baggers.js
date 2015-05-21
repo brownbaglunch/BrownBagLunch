@@ -6331,7 +6331,7 @@ var data = {
             "tags": [
                 "Coaching",
                 "Facilitation",
-                "Facilitation graphique"
+                "Facilitation graphique",
                 "Agile",
                 "Scrum",
                 "Kanban",
