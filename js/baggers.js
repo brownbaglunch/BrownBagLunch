@@ -6326,6 +6326,10 @@ var data = {
                 {
                     "title": "Collaborer... et si on improvisait ",
                     "summary": "Expérimentons des petits jeux simples issus du théâtre d’improvisation, et accessibles à tous. Nous redécouvrons ainsi les mécanismes d’une collaboration efficace : écoute, confiance, adaptation, esprit d’équipe, but commun."
+                },
+                {
+                    "title": "Concevoir un événement / séminaire pour petit comité ou large groupe ",
+                    "summary": "Réflexion à l'aide d'un canva éprouvé et de mes expériences d'organisation d'événements intra-entreprise ou publics."
                 }
             ],
             "tags": [
