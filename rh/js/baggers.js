@@ -1,5 +1,54 @@
 var data = {
     "baggers": [
+             {
+            "name": "Carole Blancot",
+            "bio": "Psychosociologue clinicienne & Directrice conseil de SpotPink, agence de communication digitale",
+            "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANKAAAAJDdhYWRkYjI3LTZkMDAtNDBkOS1iNzhjLWE0OWI2NjEzMDJlMg.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/caroleblancot"
+                },
+                {
+                    "title": "Site web",
+                    "href": "http://www.spotpink.com"
+                },
+                {
+                    "title": "Site web",
+                    "href": "http://gestionpaiegrhquichoisir.com/"
+                }
+            ],
+            "twitter": "caroleblancot",
+            "contact": "carole.blancot@spotpink.com",
+            "mail": "carole.blancot@spotpink.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Conseil en stratégie de web-marketing digitale ",
+                    "summary": "Comment élaborer et déployer une stratégie digitale pour améliorer la visibilité, notoriété, réputation d’une marque et/ou d’un individu."
+                },
+                {
+                    "title": "Production/diffusion de contenu",
+                    "summary": "Production de contenu en marque blanche, grise ou noire. Blogging sponsorisé et externalisé. Bookmarking ciblé."
+                },
+                {
+                    "title": "Community Management RH",
+                    "summary": "Animation éditoriale et développement des comptes digitaux, veille concurrentielle et sectorielle, optimisation des ratios, du référencement naturel, de la visibilité et de l’e-réputation."
+                },
+                {
+                    "title": "Prévention des RPS du numérique et détox digitale",
+                    "summary": "Identifier les zones de risques et les individus exposés, prévenir la survenue de dysfonctionnements liés à une sur-exposition, à une hyper-connectivité ou à un mauvais usage des outils collaboratifs."
+                }
+            ],
+            "tags": [
+                "Web-marketing",
+                "Community Management",
+                "Numérique"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
         {
             "name": "Pauline Tabet-Canova",
             "bio": "Consultante en recrutement, plus de 16 ans d’expériences en Suisse romande",
