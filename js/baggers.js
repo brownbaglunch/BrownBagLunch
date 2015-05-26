@@ -378,8 +378,32 @@ var data = {
                 "Paris", "Lille"
             ]
         },
-
-
+        {
+            "name": "Céline Louvet",
+            "bio": "TechLead Full-stack chez Sfeir",
+            "picture": "http://gravatar.com/avatar/4d4731ea4a648b94da87017fe2d1b728?s=256",
+            "websites": [
+            ],
+            "twitter": "celine_louvet",
+            "contact": "celine.louvet@gmail.com",
+            "mail": "celine.louvet@gmail.com",
+            "location": "Paris et la Défense.",
+            "sessions": [
+                {
+                    "title": "Retour d'expérience sur Polymer",
+                    "summary": "Présentation d'un retour d'expérience sur Polymer : l'utilisation, l'architecture mise en place, les pièges dans lesquels il ne faut pas tomber, etc."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Web",
+                "Web Components",
+                "Polymer"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
         {
             "name": "Philippe PRADOS",
             "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
