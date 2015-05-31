@@ -1,5 +1,160 @@
 var data = {
     "baggers": [
+       {
+            "name": "Cédric Bodin",
+            "bio": "Coach agile, formateur et facilitateur chez <a href='http://www.orange-business.com/fr/applications-for-business/' target='_blank'>Orange Applications for Business</a>, j’essaye d’aider les individus et les organisations à re-devenir agiles.<br/>Je suis donc tout naturellement membre de l'association <a href='http://www.agilenantes.org/' target='_blank'>Agile Nantes</a> et co-organisateur de la conférence Agile Tour à Nantes.<br/>Et question sandwich, mes 3 ingrédients “HUMmm” sont HUManisme, HUMilité et HUMour :)",
+            "picture": "http://cedricbodin.files.wordpress.com/2013/03/cedric-bodin.jpg",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "https://www.linkedin.com/in/cedricbodin/"
+                },
+                {
+	        	"title": "Blog",
+	        	"href" : "http://cedricbodin.net/"
+                }
+            ],
+            "twitter": "cedricbodin",
+            "contact": "contact@cedricbodin.net",
+            "mail": "contact@cedricbodin.net",
+            "location": "Nantes (et à distance)",
+            "sessions": [
+                {
+                    "title": "Le pourquoi du pourquoi de l'agilité",
+                    "summary": "POURQUOI se lancer dans l'agilité?<br/>Réponse-type: des projets qui échouent, des individus désengagés, des organisations dysfonctionnelles, etc.<br/>Mais alors POURQUOI ces symptômes émergent-ils? (d'où ce titre: “Le POURQUOI du POURQUOI de l'agilité”)<br/>Et bien, à travers plusieurs grilles de lecture (historique, culturelle, anthropologique, psychologique...) <a href='https://prezi.com/41eol2a8bops/le-pourquoi-du-pourquoi-de-lagilite/' target='_blank'>nous irons à la racine</a> pour voir en quoi l'agilité avait/a/aura du sens."
+                },
+                {
+                    "title": "Au secours, ma bibliothèque iTu*** me parle d’agilité",
+                    "summary": "Je souffre depuis peu d’un étrange syndrome: celui du “mélomanagiliste”.<br/>Est-ce grave docteur? Non, ça signifie juste qu’en réécoutant la musique de ma bibliothèque iTu*** je découvre que c’est dingue: Daft Punk, Stupeflip, The Strokes, John Williams, etc. <a href='http://cedricbodin.net/tag/melomanagiliste/' target='_blank'>Ils parlent tous d’agilité!</a><br/>Alors pour vous prouver que mon esprit n’est pas si malade, toutes les minutes nous écouterons un extrait d’un artiste différent, puis je vous montrerai en quoi il parle manifestement d’agilité.<br/>Et si par malheur vous n’appreniez rien, vous aurez au moins passé un moment “Simple & Funky” comme l’agilité :)"
+                },
+                {
+                    "title": "Petits Pecha Kucha entre amis",
+                    "summary": "L'idée est simple : vous me préparez plusieurs <a href='http://fr.wikipedia.org/wiki/Pecha_Kucha' target='_blank'>Pecha Kuchas</a> autour de l'agilité, que je ne découvrirai que le jour J. Et après chaque Pecha Kucha, nous échangerons ensemble sur ce qui viendra d'être présenté. De grands moments d'improvisation en perspective !"
+                },{
+                    "title": "Bref, je suis coach agile :)",
+                    "summary": "N'hésitez pas à me contacter pour que nous discutions ensemble de tout sujet autour de l'agilité (la facilitation des temps collectifs, le coaching d'équipe, les transformations d'organisation, Scrum, Kanban, Lean Startup, Serious Games, la musique, les marathons, etc.)"
+                }
+            ],
+            "tags": [
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Facilitation",
+                "Lean Startup",
+                "Serious Game",
+                "Musique",
+                "Marathon"
+            ],
+            "cities": [
+                "Nantes"
+            ]
+        },
+         {
+            "name": "Florence Chabanois",
+            "bio": "Agiliste : product owner et encore un peu développeur",
+            "picture": "",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://devsnotebook.fr"
+                }
+            ],
+            "twitter": "fchabanois",
+            "contact": "flocha2000-bbl [at] yahoo.fr",
+            "mail": "flocha2000-bbl@yahoo.fr",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Cheap user testing",
+                    "summary": "Avec le cheap user testing, armez-vous pour lancer des tests utilisateurs dans votre entreprise dès demain, même avec peu de moyens, même avec peu de temps, même sans développement. Bien que les premiers tests soient douloureux, ils ont permis de fluidifier le parcours des utilisateurs et d'augmenter nos rendements (jusque +35%)."
+                },
+                {
+                    "title": "REX Lean Startup sur un site pour jeunes mamans",
+                    "summary": "Retour d'expérience sur un projet inspiré du lean startup. Le projet a 2 ans tout rond, 45K visites par mois et génère ~200 € par mois. On est très loin de Apple, par contre vous verrez que ce type de projet est à la portée de tout le monde et que c'est une super expérience."
+                },
+                {
+                    "title": "Mais pourquoi y m'écoute pas ?",
+                    "summary": "Je vous propose de vous donner quelques pistes pour écouter efficacement et baillonner votre 'Moi-je'. Nous aborderons également certains aspects du modèle DISC pour comprendre pourquoi nous n'entendons pas tous de la même façon et verrons comment y remédier. http://2013.conference-agile.fr/sessions/mais-pourquoi-y-mecoute-pas.html"
+                }
+            ],
+            "tags": [
+                "Produit",
+                "Lean Startup",
+                "Team"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Clément Cunin",
+            "bio": "Développeur Java depuis 10 ans, passionné depuis toujours.",
+            "picture": "https://fr.gravatar.com/userimage/60625857/3853617c858dd6d6650209b6675648f1.jpg?size=200",
+            "websites": [
+                {
+                    "title": "D2SI",
+                    "href": "http://www.d2-si.fr/"
+                }
+            ],
+            "twitter": "clcunin",
+            "contact": "clement.cunin [at] d2-si.eu",
+            "mail": "clement.cunin@d2-si.eu",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Comprendre la révolution Docker",
+                    "summary": "Qu'est-ce que Docker et pourquoi tout le monde en parle ? Est-ce si révolutionnaire que çà ? Qu'est-ce que cela peut apporter à mon projet/mon entreprise ?"
+                }
+            ],
+            "tags": [
+                "Docker"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Grégory Paul",
+            "bio": "Développeur (JS, Node, Java, ...) passionné par les technos web, l’Open Source et la sécurité informatique",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/011/1d9/1ec0ed4.jpg",
+            "websites": [
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/paulgreg/"
+                },
+                {
+                    "title": "Portfolio",
+                    "href": "http://paulgreg.me/"
+                }
+            ],
+            "twitter": "paulgreg",
+            "contact": "me [at] paulgreg.me",
+            "mail": "me@paulgreg.me",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Bitcoin et monnaie cryptographique",
+                    "summary": "Session présentant les principes techniques derrière Bitcoin et les autres monnaies cryptographiques."
+                },
+                {
+                    "title": "Web Components",
+                    "summary": "Les Web Components permettent de définir vos propres balises HTML. Cette présentation illustre les principes sous-jacents (custom elements, templates, HTML imports, shadow DOM), les librairies (polymer, X-Tags, Bosonic) et la façon d’en construire."
+                },
+                {
+                    "title": "HTTP",
+                    "summary": "Présentation du protocole HTTP, les cookies, la négociation de contenu, le cache, les requêtes conditionnelles, SSL/TLS, etc"
+                }
+            ],
+            "tags": [
+                "Bitcoin",
+                "Monnaie cryptographique",
+                "HTTP",
+                "Web"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
         {
             "name": "Cyrille Dupuydauby",
             "bio": "Je vis l'informatique avec passion depuis plus de 30 ans; très expérimenté dans de nombreux domaines, j'ai concentré mes efforts récents sur les enjeux d'architectures parallèles/concurrentes, fort débit, faible latence et haute disponibilité qui jalonnent les SIs de la finance. Agiliste convaincu, la compréhension des enjeux métiers me sont au moins aussi important que la maîtrise technique. J'adore le partage des compétences, et je suis un ardent supporter du 'Pit Of Success'!",
@@ -31,12 +186,46 @@ var data = {
             "tags": [
                 "Reactive",
                 "Finance",
-                "Sequencer"
+                "Sequencer",
                 "DDD",
                 "TDD",
                 "Fluent",
                 ".NET",
                 "Test"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Pierre CHAUSSALET",
+            "bio": "Admin système, développeur (Java, JS, Python, Node, Go...), site reliability engineer...",
+            "picture": "http://www.gravatar.com/avatar/1f2e936f67858671246fd07f4068640e.png?s=200",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://fr.linkedin.com/in/pchaussalet"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/pchaussalet"
+                }
+
+            ],
+            "twitter": "pchaussalet",
+            "contact": "pchaussalet@gmail.com",
+            "mail": "pchaussalet@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Au secours, mon portable part en prod ! (ou presque)",
+                    "summary": "Voyons comment Docker peut être utilisé non seulement sur vos projets de développement pour de l'intégration continue, mais aussi sur votre propre poste de développement pour recréer un environnement identique à la production à tout moment."
+                }
+            ],
+            "tags": [
+                "Docker",
+                "Fig",
+                "DevOps"
             ],
             "cities": [
                 "Paris"
@@ -80,52 +269,70 @@ var data = {
                 }
             ],
             "tags": [
-                "php",
-                "postgresql",
-                "silex",
-                "pomm",
-                "sql"
+                "PHP",
+                "PostgreSQL",
+                "Silex",
+                "Pomm",
+                "SQL"
             ],
             "cities": [
                 "Paris", "Nantes"
             ]
         },
         {
-            "name": "Julien Danjou",
-            "bio": "Free Software Hacker, développeur OpenStack, auteur de The Hacker's Guide to Python. Également développeur Debian, GNU Emacs, Freedesktop et créateur du window manager awesome.",
-            "picture": "img/baggers/photo_jdanjou.jpg",
+            "name": "Dimitri Fontaine",
+            "bio": "Free Software Hacker, PostgreSQL Major Contributor, auteur de El-Get (Emacs) et pgloader.",
+            "picture": "img/baggers/photo_dim.jpg",
             "websites": [
                 {
                     "title": "Homepage",
-                    "href": "http://julien.danjou.info"
+                    "href": "http://tapoueh.org"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/dimitri"
                 },
                 {
                     "title": "LinkedIn",
-                    "href": "http://fr.linkedin.com/in/juliendanjou/"
+                    "href": "http://fr.linkedin.com/in/dimitrifontaine"
                 }
             ],
-            "twitter": "juldanjou",
-            "contact": "julien@danjou.info",
-            "mail": "julien@danjou.info",
+            "twitter": "tapoueh",
+            "contact": "dim@tapoueh.org",
+            "mail": "dim@tapoueh.org",
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Modèle de développement d'OpenStack",
-                    "summary": "Tout ce que vous voulez savoir sur comment est développé OpenStack."
+                    "title": "SQL avancé avec PostgreSQL",
+                    "summary": "Changer de point de vue sur le SQL quand on est développeur."
                 },
                 {
-                    "title": "Python à grande échelle",
-                    "summary": "Comment Python est utilisé au sein d'OpenStack, un de plus gros projets Python."
+                    "title": "Architectures PostgreSQL",
+                    "summary": "Quelles sont les solutions classiques en terme de déploiement PostgreSQL à hautes disponibilité."
                 },
                 {
-                    "title": "Hy, faire du Lisp en Python",
-                    "summary": "Une présentation de Hy, un Lisp implémenté en et intéropérable avec Python."
+                    "title": "Quelques extensions PostgreSQL",
+                    "summary": "Présentation détaillée de cas d'usages avancés resolus avec des extensions PostgreSQL."
+                },
+                {
+                    "title": "Le chargement de données avec PostgreSQL et pgloader",
+                    "summary": "Une présentation détaillée des capacités de l'outil pgloader en terme de chargement de données."
+                },
+                {
+                    "title": "Emacs",
+                    "summary": "Découvrir et appronfindir un environnement de travail complet, y compris la programmation Emacs Lisp."
+                },
+                {
+                    "title": "Common Lisp",
+                    "summary": "Présentation d'un language de programmation résolument moderne, impératif, objet et fonctionnel."
                 }
             ],
             "tags": [
-                "Python",
-                "OpenStack",
-                "Open Source"
+                "PostgreSQL",
+                "pgloader",
+                "Emacs",
+                "Emacs Lisp",
+                "Common Lisp"
             ],
             "cities": [
                 "Paris"
@@ -171,9 +378,32 @@ var data = {
                 "Paris", "Lille"
             ]
         },
-
-
-
+        {
+            "name": "Céline Louvet",
+            "bio": "TechLead Full-stack chez Sfeir",
+            "picture": "http://gravatar.com/avatar/4d4731ea4a648b94da87017fe2d1b728?s=256",
+            "websites": [
+            ],
+            "twitter": "celine_louvet",
+            "contact": "celine.louvet@gmail.com",
+            "mail": "celine.louvet@gmail.com",
+            "location": "Paris et la Défense.",
+            "sessions": [
+                {
+                    "title": "Retour d'expérience sur Polymer",
+                    "summary": "Présentation d'un retour d'expérience sur Polymer : l'utilisation, l'architecture mise en place, les pièges dans lesquels il ne faut pas tomber, etc."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Web",
+                "Web Components",
+                "Polymer"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
         {
             "name": "Philippe PRADOS",
             "bio": "Architecte Senior, auteur de plus de 100 articles publiés dans GNU Linux Mag, conférencier à Devoxx, Paris JUG, PAUG, SSTIC, Solution Linux, GDG, DroidCon, etc.",
@@ -233,8 +463,6 @@ var data = {
                 "Paris"
             ]
         },
-
-
         {
             "name": "Guillaume BITAUDEAU",
             "bio": "Consultant Java / iOs / Cloud",
@@ -282,13 +510,81 @@ var data = {
             "tags": [
                 "Java",
                 "Agile",
-                "iOs",
+                "iOS",
                 "Spring",
                 "Cloud",
                 "Adobe AIR"
             ],
             "cities": [
                 "Versailles"
+            ]
+        },
+
+        {
+            "name": "Pierre Marquis",
+            "bio": "Scrum Master chez Mappy, Développeur C++, Python",
+            "picture": "https://media.licdn.com/media/p/8/000/1e1/205/29f40de.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/pub/pierre-marquis/27/573/752"
+                }
+            ],
+            "twitter": "PierMarquis",
+            "contact": "pier.marquis@gmail.com",
+            "mail": "pier.marquis@gmail.com",
+            "location": "Paris, Banlieue",
+            "sessions": [
+                {
+                    "title": "Retour d'expérience Agile chez Mappy",
+                    "summary": "L'histoire d'une équipe serveur (back), pluritechno et hétérogène: le passage à la méthode agile (scrum), amener l'agile dans son équipe ou plus globalement dans son entreprise, avantages de l'agile dans une équipe back, contraintes de l'agile et problèmes rencontrés."
+                },
+                {
+                    "title": "Optimisation de code (C++ ou autre)",
+                    "summary": "Quelle démarche? Quels leviers? Ce qui s'optimise vs ce qui ne s'optimise pas. Une boîte à outil de l'optmisation de code."
+                },
+                {
+                    "title": "Couplage C++/Python",
+                    "summary": "Retour d'expérience Mappy, sur un excellent couplage. Quel intérêt? Comment fait-on? Quelles sont les limites?"
+                }
+            ],
+            "tags": [
+                "Agile",
+                "Scrum",
+                "C++",
+				"Optimisation"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Loic Dachary",
+            "bio": "Artisan Logiciel Libre, contributeur Ceph",
+            "picture": "http://www.gravatar.com/avatar/131beae824c4866ed6ae995c7fc9bd58.png",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://dachary.org"
+                }
+            ],
+            "contact": "loic@dachary.org",
+            "mail": "loic@dachary.org",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Ceph : le futur du stockage est libre",
+                    "summary": "Ceph est une plateforme libre de stockage distribué. Les objectifs principaux de Ceph sont d'être complètement distribué sans point unique de défaillance, extensible jusqu'à l'exabyte et librement disponible. Les données sont répliquées permettant au système d'être tolérant aux pannes."
+                }
+            ],
+            "tags": [
+                "Ceph",
+                "Stockage",
+                "Cloud",
+                "OpenStack"
+            ],
+            "cities": [
+                "Paris"
             ]
         },
         {
@@ -328,12 +624,12 @@ var data = {
                 },
                 {
                     "title": "Méthodologies de l'UX et autres digressions ?",
-                    "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
+                    "summary": "Je vous propose de découvrir les diverses méthodologies liées à l'ergonomie et l'UX design afin de comprendre leurs apports, quand et comment les utiliser. Cette approche peut aussi permettre d'aborder d'autres sujets en lien suivant vos questions : Comment faire travailler UX et Agile ? Mettre en place un processus UX dans une organisation ? Le ROI de l'UX et de l'ergonomie ?"
                 }
             ],
             "tags": [
                 "Design",
-                "User Experience",
+                "Expérience utilisateur",
                 "Ergonomie",
                 "Psychologie",
                 "Persuasive Design",
@@ -385,13 +681,107 @@ var data = {
             ]
         },
         {
+            "name": "Maxime Sanglan",
+            "bio": "Plus de 15 ans dans l'informatique et pas une ride (ou presque). Curieux de nature, je suis toujours à la recherche de tout ce qui peut nous rendre plus efficients en tant qu'individu, en équipe ou au sein d'une organisation.",
+            "picture": "img/baggers/photo_maxime_s.jpg",
+            "websites": [
+                {
+                    "title": "one.hundred.acorns",
+                    "href": "https://onehundredacorns.wordpress.com/"
+                },
+                {
+                    "title": "Betclic Blog",
+                    "href": "https://techblog.betclicgroup.com/author/m-sanglan/"
+                }
+            ],
+            "twitter": "__MaxS__",
+            "contact": "maxime.sanglan [at] gmail.com",
+            "mail": "maxime.sanglan@gmail.com",
+            "location": "Paris et la Défense",
+            "sessions": [
+                {
+                    "title": "Does your code speak business?",
+                    "summary": "Dans cette présentation, j'entreprends de définir de manière concrète ce qu'est la valeur. Je livre une technique simple et efficace à mettre en place ainsi que celles à éviter, afin de se focaliser sur l'essentiel et d'apporter un maximum de valeur au sein du code et même de vos tests."
+                },
+                {
+                    "title": "Event Storming Workshop",
+                    "summary": "Un atelier pour découvrir cette technique collaborative qui vise à modéliser votre métier tout en réunissant ceux qui savent ce qu'il faut réaliser et ceux qui savent comment le faire. Mise en application en live sur votre propre métier."
+                },
+                {
+                    "title": "Architecture: C4 Model",
+                    "summary": "Un atelier de sketching de vos systèmes d'après le modèle C4 de Simon Brown. En mode collaboratif, avec un max d'efficacité, venez vous réapproprier votre architecture et découvrir comment partager une même vision au sein de son équipe de développement."
+                }
+                ],
+        "tags": [
+                "EventStorming",
+                "Ubiquitous Language",
+                "Workshop",
+                "Architecture",
+                "C4",
+                "DDD"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Tomasz Jaskula",
+            "bio": "L'artisan du beau code, fondateur et organisateur de DDD Paris et F# Paris, je m'intéresse à la mise en place des solutions qui permettent de donner un avantage compétitif à l'entreprise. Cela passe par Domain Driven Design, la programmation fonctionnelle avec F#, CQRS et Event Sourcing...J'aime surtout partager mon expérience de 15 ans avec les teams d'entreprise qui veulent progresser et avec divers communautés de développement.",
+            "picture": "http://1.gravatar.com/userimage/12224826/df20a86f93b56052b5a8cfb469ada07b?size=333",
+            "websites": [
+                {
+                    "title": "Code distillers",
+                    "href": "http://www.codedistillers.com/tja/"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/pub/thomas-jaskula/3/282/16b"
+                }
+            ],
+            "twitter": "tjaskula",
+            "contact": "tjaskula [at] composeitsoft.com",
+            "mail": "tjaskula@composeitsoft.com",
+            "location": "Paris, La Défense et à proximité",
+            "sessions": [
+                {
+                    "title": "Renforcez votre code métier en adaptant F#",
+                    "summary": "Live coding F# d'un cas métier simple qui est destiné aux développeurs débutants en programmation fonctionnelle et F#. Le but est de montrer une approche de développement incrémentale et de donner les bases de la syntaxe et du paradigme fonctionnel. Il s'agit de démontrer que F# est un langage adapté au développement de tout type d'applications et le fait d'adopter le paradigme fonctionnel fait que le code est plus lisible, moins apte aux bugs et surtout plus robuste."
+                },
+                {
+                    "title": "Recettes CQRS, pour bien cuisiner son architecture",
+                    "summary": "Le pattern architectural CQRS est très simple à comprendre mais peut devenir très vite compliqué à mettre en œuvre. Si on y ajoute un zeste de Domain Driven Design, une pincée d’Event Sourcing et qu’on agrémente le tout avec différents bus de messaging, des queues et de l’infrastructure, notre plat gastronomique peut vite devenir une bouillie indigeste. Comme bien souvent, tout est question de mesure et de bonnes proportions (définies en fonction de vos contraintes fonctionnelles et techniques). Si vous ne savez pas si CQRS est fait pour votre besoin, ou tout simplement si vous ne savez pas par où commencer, je vous propose de découvrir quelques recettes de grand-mère tels que:  ingrédients d’un bon domaine CQRS, Domain Driven Design or not, concurrency, event sourcing, read models, master-details views, task based UIs, event sourcing, integration, event versionning."
+                },
+                {
+                    "title": "Sujet F# sur mesure",
+                    "summary": "Demandez-moi ce que vous voulez à ce sujet."
+                }
+            ],
+            "tags": [
+                "F#",
+                "DDD",
+                "Programmation fonctionnelle",
+                "CQRS",
+                "Event Sourcing",
+                "ES",
+                "Architecture",
+                ".NET"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
             "name": "Camille Roux",
-            "bio": "Passionné d'entrepreneuriat et de Lean Startup • Coach en Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
+            "bio": "Coach en Lean Startup et Business Model • Directeur associé de Human Coders, centre de formation pour développeur",
             "picture": "http://www.gravatar.com/avatar/29668d9eaaf486727a446f7d03c59f07.jpg?s=250",
             "websites": [
                 {
                     "title": "Conseil en Business Model",
-                    "href": "http://www.camilleroux.com/formation-lean-startup-accompagnement-conseil-business/"
+                    "href": "http://conseil.camilleroux.com/"
+                },
+                {
+                    "title": "Pragmatic Entrepreneurs",
+                    "href": "https://forum.pragmaticentrepreneurs.com/"
                 },
                 {
                     "title": "Human Coders",
@@ -401,7 +791,7 @@ var data = {
             "twitter": "CamilleRoux",
             "contact": "contact@camilleroux.com",
             "mail": "contact@camilleroux.com",
-            "location": "Paris",
+            "location": "Montpellier",
             "sessions": [
                 {
                     "title": "Lean Startup",
@@ -411,11 +801,12 @@ var data = {
             "tags": [
                 "Entrepreneuriat",
                 "Lean Startup",
-                "Business Model Canvas"
+                "Business Model"
             ],
             "cities": [
-                "Paris",
-                "Montpellier"
+                "Montpellier",
+                "Paris"
+
             ]
         },
         {
@@ -450,7 +841,7 @@ var data = {
         },
         {
             "name": "Ameur Yannick",
-            "bio": "Coach, Formateur Agile, Facilitateur",
+            "bio": "Product Owner, Facilitateur, Coach, Formateur Agile & Lean Startup ",
             "picture": "http://m.c.lnkd.licdn.com/media/p/1/005/012/1d8/0d5df68.jpg",
             "websites": [
                 {
@@ -472,12 +863,16 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
+                    "title": "Lean Startup",
+                    "summary": "Je vous propose d'animer et de faciliter une séance Lean Business Model Canvas pour définir votre propjet."
+                },
+                {
                     "title": "Rétrospective",
                     "summary": "Je vous propose d'animer et faciliter votre rétrospective sur un format d'une heure."
                 },
                 {
                     "title": "Serious Games",
-                    "summary": "Disccuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
+                    "summary": "Discuter d'un thème de votre choix sur l'agilité méthodologie ou technique. Attention brainstorming collectif animer par l'utilisation d'un sérious Game."
                 },
                 {
                     "title": "Coaching Personnel",
@@ -486,15 +881,12 @@ var data = {
             ],
             "tags": [
                 "Agile",
+                "Product Owner",
                 "Scrum",
-                "Scrumban",
-                "Coach",
-                "formation",
-                "formateur",
-                "lean",
-                "kanban",
-                "TDD",
-                "Test"
+                "Coaching",
+                "Formation",
+                "Lean Startup",
+                "Kanban"
             ],
             "cities": [
                 "Paris"
@@ -913,8 +1305,8 @@ var data = {
             "location": "La Défense et alentours",
             "sessions": [
                 {
-                    "title": "Industrialiser ses tests JavaScripts pour un développeur Java",
-                    "summary": "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
+                    "title": "Web components et Google Polymer",
+                    "summary": "Au cours de cette session, je vais vous présenter ce qu'est le futur standard W3C des Web Components, et vous pourrez également voir la facilité de création d'un nouveau composant grâce à la librairie Google Polymer."
                 },
                 {
                     "title": "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
@@ -1044,50 +1436,14 @@ var data = {
             ]
         },
         {
-            "name": "Frédéric Menou",
-            "bio": "Développeur chez CapitaineTrain",
-            "picture": "https://secure.gravatar.com/avatar/252ef00042fda3ab4cf67a36b956fa33?s=210",
-            "websites": [
-                {
-                    "title": "Capitaine Train",
-                    "href": "http://www.capitainetrain.com/"
-                },
-                {
-                    "title": "about.me",
-                    "href": "http://about.me/ptitfred"
-                }
-            ],
-            "twitter": "ptit_fred",
-            "contact": "frederic.menou@gmail.com",
-            "mail": "frederic.menou@gmail.com",
-            "location": "Paris, proche banlieue et La Défense",
-            "sessions": [
-                {
-                    "title": "Code review avec Git",
-                    "summary": "Vous utilisez Github et les PullRequests vous donnent envie ? Mais ça peut devenir compliqué quand il s'agit d'appliquer les commentaires dans le code.<br/> Je vous propose d'exploiter git à ce sujet. L'agilité ça passe aussi par la maîtrise de ses outils."
-                },
-                {
-                    "title": "Be a git Jedi Master",
-                    "summary": "Vous connaissez add -p et rebase -i ? Pas mal, mais il y a plus fort encore !<br/> Je vous propose de plonger dans les arcanes de git, les options cachées dans les manpages et tout ce que vous pourriez en faire au quotidien. Pas de magie noire, mais attention, vous ne serez plus tout à fait le même développeur !"
-                },
-                {
-                    "title": "Livraison Continue chez CapitaineTrain",
-                    "summary": "Retour d'expérience sur les mises en production chez CapitaineTrain.<br/> On parlera d'intégration continue, de code review, de release management et de mises en production transparentes.<br /> Livrer tous les jours c'est possible et c'est même assez banal !"
-                }
-            ],
-            "tags": [
-                "Git",
-                "Usine logicielle"
-            ],
-            "cities": [
-                "Paris"
-            ]
-        },
-        {
             "name": "Yannick Grenzinger",
-            "bio": "Software Craftsman, Design Thinker, Lean Startup Advisor & Continuous Lifelong learner",
+            "bio": "Technical Officer @ CarbonIT, Software Craftsman, Lean Startup Advisor & Continuous Lifelong learner",
             "picture": "https://fr.gravatar.com/userimage/45029487/b60c363784b0fd99398c74086b10d8b7.png?size=200",
             "websites": [
+                {
+                    "title": "Carbon IT",
+                    "href": "http://www.carbon-it.fr/"
+                },
                 {
                     "title": "ux-fr",
                     "href": "http://ux-fr.com/"
@@ -1115,29 +1471,29 @@ var data = {
             "location": "Paris et La Défense",
             "sessions": [
                 {
-                    "title": "Tester et apprendre rapidement pour avoir le bon produit",
-                    "summary": "Avec les méthodes « Agiles », nous avons appris comment bien faire un produit. Mais à une époque où tout business peut être rapidement concurrencé par une startup, il faut savoir créer le bon produit. C’est la où les principes et les outils de Lean Startup, Design Thinking ou encore Pretotyping viennent nous aider."
+                    "title": "Développer le bon produit",
+                    "summary": "A une époque où tout business peut être rapidement concurrencé par une startup, il faut savoir créer le bon produit. C’est la où les principes et les outils de Lean Startup (mais aussi Design Thinking ou encore de l'effectuation) viennent nous aider. Je propose une intro rapide et un atelier purement pratique autour de Lean Canvas que j'ai eu l'occasion de pratiquer de nombreuses fois en tant qu'Advisor Lean Startup"
                 },
                 {
                     "title": "Apprendre à apprendre pour survivre au 21ème siècle.",
-                    "summary": "Apprendre est la compétence essentielle à connaître au 21ème siècle. Accro au MOOC et développant un PersonalMBA, je vous propose de découvrir et discuter les moyens d’apprendre rapidement aussi bien au niveau personnel, de votre produit/startup et même de votre organisation."
+                    "summary": "Apprendre est la compétence essentielle à connaître au 21ème siècle. Accro au MOOC (une trentaine de certifications en 2 ans) et développant un PersonalMBA, je vous propose de découvrir et discuter les moyens d’apprendre rapidement aussi bien au niveau personnel, de votre produit/startup et même de votre organisation."
                 },
                 {
-                    "title": "Mettez du Design dans vos applications.",
-                    "summary": "Le but est de présenter ce qu’est-ce que le design, quels en sont les grands principes mais aussi des  méthodes pour améliorer l’UX de votre application dés lundi. "
+                    "title": "Inspirez vous de la psychologie et du design pour améliorer votre code.",
+                    "summary": "Le but est de présenter les grands principes du design (eux-même basés sur notre psychologie) pour améliorer votre code. Au passage, vous pouvez même apprendre à améliorer votre UI car ce sont les mêmes principes ;)"
                 },
                 {
                     "title": "Faites (re)vivre vos spécifications.",
-                    "summary": "Vous avez écrit des centaines de pages de spécification mais personne ne les a lu et elles sont déjà désuètes ? La solution se trouve dans la spécification par l'exemple qui permet de mettre en pratique l'ATDD, le BDD et surtout la co-création en créant le dialogue et un langage commun avec le métier."
+                    "summary": "Vous avez écrit des centaines de pages de spécifications mais personne ne les a lues et elles sont déjà désuètes ? La solution se trouve dans la spécification par l'exemple qui permet de mettre en pratique l'ATDD, le BDD et surtout la co-création en créant le dialogue et un langage commun avec le métier. Nous baserons sur l'outil Serenity-BDD pour la mise en pratique"
                 },
                 {
                     "title": "Comment développer rapidement une webapp ?",
-                    "summary": "Dans ce BBL, j’aimerais vous montrer comment MongoDB, NodeJS et AngularJS vous permettent de construire très rapidement une webapp. Idéal pour prototyper et lancer rapidement de nouveaux produits."
+                    "summary": "Dans ce BBL, j’aimerais vous montrer comment MongoDB, NodeJS et une pointe d'AngularJS (mais pas obligatoirement) vous permettent de construire très rapidement une webapp. Idéal pour prototyper et lancer rapidement de nouveaux produits."
                 }
             ],
             "tags": [
                 "Design",
-                "User Experience",
+                "Expérience utilisateur",
                 "Ergonomie",
                 "Lean Startup",
                 "AngularJS",
@@ -1233,7 +1589,7 @@ var data = {
             "tags": [
                 "Ruby",
                 "Ruby on Rails",
-                "Architecture Logicielle"
+                "Architecture"
             ],
             "cities": [
                 "Paris"
@@ -1249,8 +1605,8 @@ var data = {
                     "href": "http://www.affini-tech.com"
                 },
                 {
-                    "title": "Site perso",
-                    "href": "http://www.vhe74.com"
+                    "title": "Blog",
+                    "href": "http://blog.affini-tech.com"
                 }
             ],
             "twitter": "vhe74",
@@ -1261,6 +1617,14 @@ var data = {
                 {
                     "title": "Hadoop et son écosystème",
                     "summary": "Comprendre le fonctionnement d'Hadoop et de son écosystème, exemple simple de job Map/Reduce à l'appui"
+                },
+                {
+                    "title": "Apache Spark",
+                    "summary": "Ce que Apache Spark change par rapport à Hadoop. Pourquoi l’utiliser ? Comment fonctionne-t-il ? le tout par des exemples de code simples et concrets. Au delà des modules ‘core’, explication et démonstrations des modules complémentaires : Spark MLLib pour faire du Machine Learning distribué, 'Spark Streaming' pour le traitement de flux sent temps réel, et ‘Spark GraphX’ pour traiter des données en Graphes." 
+                },
+                {
+                    "title": "Google Cloud Platform",
+                     "summary":"Description et démonstrations des différentes briques de la Google Cloud Platform, ses particularités par rapport aux autres Cloud du marché. Pourquoi cette plateforme est un super accélérateur des projets Bigdata avec ses solutions uniques que sont ‘Bigquery’, Bigtable’, ‘Cloud storage’, ‘app engine’, ‘dataflow’, ‘compute engine’ pour facilement monter des clusters Hadoop & Spark"	
                 },
                 {
                     "title": "Hadoop Pig",
@@ -1333,6 +1697,10 @@ var data = {
                 {
                     "title": "Blog personnel",
                     "href": "http://ericlefevre.net/"
+                },
+                {
+                    "title": "Podcast",
+                    "href": "http://unetassedethepodcast.com/"
                 }
             ],
             "twitter": "elefevre",
@@ -1341,8 +1709,12 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Boucles Etranges : Etranges Boucles",
+                    "title": "Boucles Etranges : Etranges Boucles - avec Guillaume Tardif",
                     "summary": "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
+                },
+                {
+                    "title": "Extremist Programming - avec Cyrille Martraire",
+                    "summary": "Bien sûr, notre métier est sérieux ; le Software Craftmanship n'est-il pas avant tout le professionnalisme ? Bien sûr, le progrès vient d'articles scientifiques ardus et de nouveaux logiciels complexes. Mais vous ne rêvez pas parfois de repousser le cadre professionnel habituel ? D'aller plus loin et d'explorer ? De vous amuser avec du code jusqu'à ce que ça devienne n'importe quoi ? Dans cette session nous vous présenterons des expériences ésotériques, des jeux bizarres et des joyeux délires qui font réfléchir. Réfléchir ? D'habitude on n'a jamais le temps !"
                 }
             ],
             "tags": [
@@ -1369,7 +1741,7 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Boucles Etranges : Etranges Boucles",
+                    "title": "Boucles Etranges : Etranges Boucles - avec Eric Lefevre-Ardant",
                     "summary": "Une promenade décousue dans les limites du code source Java, à la manière de Douglas Hofstadter. Nous parlons de code, d'apparences trompeuses, d'art et de la vie."
                 }
             ],
@@ -1418,6 +1790,10 @@ var data = {
                 {
                     "title": "Votre sujet sur-mesure",
                     "summary": "Atelier sur papier, en code autour d'un kata original, présentation ou retour d'expérience sur l'un des thèmes qui me passionnent: TDD, BDD, DDD, Legacy Code, Style FP"
+                },
+                {
+                    "title": "Extremist Programming - avec Eric Lefevre-Ardant",
+                    "summary": "Bien sûr, notre métier est sérieux ; le Software Craftmanship n'est-il pas avant tout le professionnalisme ? Bien sûr, le progrès vient d'articles scientifiques ardus et de nouveaux logiciels complexes. Mais vous ne rêvez pas parfois de repousser le cadre professionnel habituel ? D'aller plus loin et d'explorer ? De vous amuser avec du code jusqu'à ce que ça devienne n'importe quoi ? Dans cette session nous vous présenterons des expériences ésotériques, des jeux bizarres et des joyeux délires qui font réfléchir. Réfléchir ? D'habitude on n'a jamais le temps !"
                 }
             ],
             "tags": [
@@ -1597,6 +1973,10 @@ var data = {
                 {
                     "title": "Les Tests en Trois Temps (3T)",
                     "summary": "Les Test Driven Development (TDD) vous inspirent mais chacune de vos tentatives s'est soldée par un échec, pas tant sur des problématiques techniques que sur des questions d’organisation ? Découvrez les Tests en Trois Temps (3T), une méthodologie inspirée des TDD/BDD qui devrait vous réconcilier avec les tests. Durée : 30 min."
+                },
+				{
+                    "title": "Découvrez les profils DISC",
+                    "summary": "Il est parfois difficile de discuter avec ses collègues. On parle le même langage mais on a l’impression de ne pas se comprendre. C’est normal car on ne fonctionne pas tous pareil. Le DISC (Dominant, Influent, Stable et Consciencieux) est un outil de management qui permet d’établir le profil de ses interlocuteurs pour travailler et communiquer avec eux de manière plus efficace. Durée : 45 min."
                 }
             ],
             "tags": [
@@ -1654,7 +2034,7 @@ var data = {
             ],
             "tags": [
                 "Lean Startup",
-                "Entrepreneur",
+                "Entrepreneuriat",
                 "Customer Development",
                 "Validation Board",
                 "Lean Canvas",
@@ -1758,20 +2138,20 @@ var data = {
                 "Java",
                 "Spring",
                 "Batch",
-                "Integration",
+                "Intégration",
                 "Graphite",
                 "Monitoring",
                 "Métrique",
                 "KPI",
                 "collectd",
-                "jmxtrans",
-                "statsd",
-                "devops",
-                "ops",
-                "sysadmin",
-                "tdd",
-                "chef",
-                "puppet"
+                "JMXTrans",
+                "StatsD",
+                "DevOps",
+                "Ops",
+                "Sysadmin",
+                "TDD",
+                "Chef",
+                "Puppet"
             ],
             "cities": [
                 "Paris"
@@ -1866,12 +2246,20 @@ var data = {
         },
         {
             "name": "Loïc Knuchel",
-            "bio": "Développeur freelance passionné et organisateur des @HumanTalksParis. Je m'intéresse à l'accès, la compréhension et l'exploitation des données, au web moderne et à l'expérience utilisateur",
+            "bio": "Développeur web full-stack (Scala, Angular, Ionic), entrepreneur (Cookers / SalooN) et organisateur des @HumanTalksParis et de workshops sur Ionic",
             "picture": "https://gravatar.com/avatar/f755e6e8914df5cbaa74d30dd7de1ae2.png?size=256",
             "websites": [
                 {
-                    "title": "Blog perso",
+                    "title": "Page pro",
+                    "href": "http://loic.knuchel.org/"
+                },
+                {
+                    "title": "Blog",
                     "href": "http://loic.knuchel.org/blog/"
+                },
+                {
+                    "title": "Linkedin",
+                    "href": "https://www.linkedin.com/in/loicknuchel"
                 }
             ],
             "twitter": "loicknuchel",
@@ -1880,25 +2268,38 @@ var data = {
             "location": "Paris et à proximité",
             "sessions": [
                 {
-                    "title": "Des recommandations au service du business",
-                    "summary": "Découvrez en quoi les systèmes de recommandations peuvent être utile pour votre business. Dans cette présentation, non technique, je fais un tour rapide de ce que sont les systèmes de recommandations et de ce que l'on peut en attendre."
+                    "title": "Découvrir Ionic en codant une application de Chat",
+                    "summary": "Ionic Framework révolutionne le monde des applications mobile hybride. Je vous propose donc de vous faire découvrir ce framework et les outils qui vont avec via le live-code d'une application de chat."
                 },
                 {
-                    "title": "Refactoring, de l'impératif au fonctionnel",
-                    "summary": "Dans cette présentation je ferai un refactoring de code scala écrit en mode impératif ('Java style') pour le transformer en code fonctionnel. Cela permettra de passer en revue les principales fonctionnalités des langages fonctionnels et de scala en particulier"
+                    "title": "Introduction à Ionic Framework",
+                    "summary": "Cette session est une présentation classique de Ionic framework. Après un rapide panorama généraliste sur le développement mobile, je vous présenterais Ionic. L'objectif étant de bien comprendre l'environnement technologique et les possibilités du framework."
                 },
                 {
-                    "title": "Sujet sur commande",
-                    "summary": "Sujets autour de Java, Scala, MongoDB, Neo4j, les applications web, les systèmes de recommandation, le machine learning..."
+                    "title": "Ionic Framework, c'est aussi des outils !",
+                    "summary": "Lorsque l'on parle de Ionic, on évoque tout le temps les composants UI, le lien avec Angular voire avec Cordova. Mais Ionic c'est aussi un ensemble d'outils faits pour vous faciliter la vie ! Je vous propose donc un focus sur ces outils qui peuvent être utilisés pour n'importe quelle application cordova :)"
+                },
+                {
+                    "title": "Anatomie d'un plugin Cordova",
+                    "summary": "Les applications Cordova (et donc Ionic) accèdent sans problème aux fonctionnalités natives grâce à un système de plugin. Tout le monde en parle mais peu de personnes ont vraiment regardé leur fonctionnement. L'objectif de cette session est de décortiquer le fonctionnement des plugins pour mieux les comprendre et pourquoi pas développer vos propres plugins !"
+                },
+                {
+                    "title": "Attention aux pièges du mobile",
+                    "summary": "Une application Ionic est avant tout une application Angular ! Simple ! Seulement elle s'exécute sur un téléphone et les problématiques de performances arrivent alors très vite... Voici donc les problèmes les plus récurrents et comment les contourner; bref, un petit guide des bonnes pratiques Web et Angular sur mobile ;)"
+                },
+                {
+                    "title": "Ionic sur commande",
+                    "summary": "Discussions informelles autour de Ionic, sujet autre que ceux proposés... N'hésitez pas à demander !"
                 }
             ],
             "tags": [
-                "Java",
                 "Scala",
+                "AngularJS",
+                "Ionic",
+                "Cordova",
+                "Mobile",
                 "Web",
-                "NoSQL",
-                "Recommender systems",
-                "Machine learning"
+                "NoSQL"
             ],
             "cities": [
                 "Paris"
@@ -1953,7 +2354,7 @@ var data = {
                 "AppEngine",
                 "Architecture",
                 "Java",
-                "Performances",
+                "Performance",
                 "Client"
             ],
             "cities": [
@@ -1963,7 +2364,7 @@ var data = {
         {
             "name": "Nicolas Deverge",
             "bio": "Facilitateur agile et développeur - ekito",
-            "picture": "https://pbs.twimg.com/profile_images/2050038189/picto.jpg",
+            "picture": "https://pbs.twimg.com/profile_images/480325709483634688/V_x_kwbK.png",
             "websites": [
                 {
                     "title": "Blog ekito",
@@ -1980,8 +2381,8 @@ var data = {
                     "summary": "Le pourquoi et le comment de l'agilité en quelques slides et petits ateliers."
                 },
                 {
-                    "title": "Introduction au LeanStartup",
-                    "summary": "Ou comment éviter de partir dans de gros dev la tête dans le guidon pour réaliser un nouveau produit dont personne n'a besoin."
+                    "title": "Retour d'expérience et introduction au LeanStartup",
+                    "summary": "Retour d'expérience sur un projet personnel avec mise en oeuvre de l'approche LeanStartup."
                 },
                 {
                     "title": "Et pourquoi pas un coding dojo ?",
@@ -2122,7 +2523,7 @@ var data = {
             "tags": [
                 "Agile",
                 "Code",
-                "Legacy",
+                "Legacy Code",
                 "TDD",
                 "Test",
                 "Clean Code",
@@ -2177,7 +2578,7 @@ var data = {
         },
         {
             "name": "Baptiste Mathus",
-            "bio": "Développeur passionné, Committer OSS Mojo@Codehaus, Leader @ToulouseJUG",
+            "bio": "Développeur passionné, Committer OSS Mojo@Codehaus, Leader @ToulouseJUG, ptit rigolo",
             "picture": "img/baggers/bm-cul-de-poule.jpg",
             "websites": [
                 {
@@ -2199,24 +2600,33 @@ var data = {
             "location": "Toulouse et dans le coin",
             "sessions": [
                 {
+                    "anchor":"git-basics",
+                    "title": "Git, pourquoi c'est cool ?",
+                    "summary": "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
+                },
+                {
+                    "anchor":"git-advanced",
+                    "title": "Git avancé",
+                    "summary": "Vous utilisez déjà Git, mais les commandes git rebase -i, git bisect ou ce qu'est un cherry-pick, ou triturer l'historique de vos commits vous inquiètent encore ? Vous aimeriez maîtriser bien plus que commit et push et arrêter le svn-like ? Cette session est pour vous. "
+                },
+                {
+                    "anchor":"gerrit",
+                    "title": "Gerrit : la revue de code pour Git.",
+                    "summary": "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
+                },
+                {
+                    "anchor":"maven-bien-utiliser",
                     "title": "Maven - comment bien l'utiliser ?",
                     "summary": "Maven est un outil de build puissant qui a révolutionné le monde du build Java. Il pose quelques principes fondateurs volontairement difficiles à contourner. Connaître ces quelques règles et principes permet de mieux l'utiliser sans subir le retour de flamme imminent lorsqu'on l'utilise hors des clous :-)."
-                },
-                {
-                    "title": "Git, pourquoi c'est cool ?",
-                    "summary": "C'est quoi ce truc dont tout le monde parle ? Pourquoi on me dit que c'est mieux que Svn ? En quoi c'est mieux ? C'est quoi les défauts ou les trucs dont il faut se méfier ?"
-                },
-                {
-                    "title": "Gerrit : la revue de code pour Git.",
-                    "summary": "Pourquoi on reverrait le code des autres ? C'est chiant à mettre en place ? et à utiliser ? Quel retour d'expérience ?"
                 }
             ],
             "tags": [
                 "Jenkins",
-                "Maven",
                 "Gerrit",
                 "Git",
-                "Java"
+                "Maven",
+                "Java",
+                "Java 8"
             ],
             "cities": [
                 "Toulouse"
@@ -2255,7 +2665,7 @@ var data = {
                 }
             ],
             "tags": [
-                "Java EE",
+                "JavaEE",
                 "Android",
                 "Dojo",
                 "Dart"
@@ -2279,6 +2689,9 @@ var data = {
             "mail": "bitard.michael@gmail.com",
             "location": "Toulouse et agglomération",
             "sessions": [
+                {   "title": "Docker FTW",
+                    "summary": "Je vous propose de découvrir Docker, cet outil qui peut révolutionner vos mises en production autant que vos développements."
+                },
                 {
                     "title": "Coding Dojo Java",
                     "summary": "Je souhaite que l'on échange sur nos pratiques de développement et de tests lors d'un randori.<br />Nous définirons ensemble l'objectif du coding dojo, en fonction de vos attentes."
@@ -2291,7 +2704,7 @@ var data = {
             "tags": [
                 "Java",
                 "Scrum",
-                "XP",
+                "Extreme Programming",
                 "TDD",
                 "Chroot",
                 "Ansible",
@@ -2336,8 +2749,29 @@ var data = {
             "tags": [
                 "JavaFX",
                 "JRebirth",
-                "Usine Logicielle",
+                "Usine logicielle",
                 "Eclipse"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Hadrien Collongues",
+            "bio": "Développeur, option web",
+            "picture": "https://en.gravatar.com/userimage/15042699/8ff3f5d999096f04a7e7352ce4a8b930.jpeg?size=200",
+            "twitter": "chadrien",
+            "contact": "chadrien [at] chadrien [dot] fr",
+            "mail": "chadrien@chadrien.fr",
+            "location": "Toulouse et agglomération",
+            "sessions": [
+                {
+                    "title": "Docker par l'exemple",
+                    "summary": "Dans la théorie, Docker c'est vachement bien. Dans la pratique aussi ! Je vais donc vous montrer de A à Z comment mettre en place une architecture Docker simple, composée de 2 conteneurs communiquant entre eux pour faire un \"Hello World\". Effet Popopo©® garanti."
+                }
+            ],
+            "tags": [
+                "Docker"
             ],
             "cities": [
                 "Toulouse"
@@ -2363,21 +2797,75 @@ var data = {
             "location": "Rennes et alentours, possibilités sur Paris",
             "sessions": [
                 {
+                    "title": "Docker Revolution",
+                    "summary": "Comprendre Docker, ce que c'est, ses impacts sur les outils, usages Dev/Ops et patterns d'architecture."
+                },
+                {
                     "title": "Cloud Patterns",
                     "summary": "Comprendre les avantages et contraintes du cloud et les patterns d'architecture associés."
                 },
                 {
                     "title": "Intégration continue avec Jenkins",
                     "summary": "Présentation du concept d'intégration continue, mise en oeuvre avec Jenkins et utilisations avancées."
-                },
-                {
-                    "title": "Games of Codes",
-                    "summary": "Atelier pratique : développer avec la plateforme CloudBees"
                 }
             ],
             "tags": [
                 "Cloud",
                 "Usine logicielle"
+            ],
+            "cities": [
+                "Rennes"
+            ]
+        },
+        {
+            "name": "Nicolas Ledez",
+            "bio": "Sysadmin depuis quelques années. Fainéant donc développeur (Ruby, Python, 'bash', etc.). Donc forcement 'DevOps",
+            "picture": "http://www.gravatar.com/avatar/8bd808086fe0e2a647c96a96fd0b995e.png?s=512",
+            "websites": [
+                {
+                    "title": "Mon blog",
+                    "href": "http://blog.ledez.net"
+                }
+            ],
+            "twitter": "nledez",
+            "contact": "brownbaglunch@ledez.net",
+            "mail": "brownbaglunch@ledez.net",
+            "location": "Rennes et alentours. Mais aussi ailleurs si tu payes le déplacement :)",
+            "sessions": [
+                {
+                    "title": "\"Infrastructure as code\" avec Chef"
+                },
+                {
+                    "title": "Dev(\\)Ops ? l'after Agile ?"
+                },
+                {
+                    "title": "Y sont pas cher mes tests !"
+                },
+                {
+                    "title": "Introduction à Ruby"
+                },
+                {
+                    "title": "Introduction à Vagrant"
+                },
+                {
+                    "title": "Introduction au Cloud"
+                },
+                {
+                    "title": "Jouez avec des feux tricolores en Ruby"
+                },
+                {
+                    "title": "Tu veux scripter ?"
+                },
+                {
+                    "title": "Git for dumbass + Git trick or treats"
+                }
+            ],
+            "tags": [
+                "Cloud",
+                "DevOps",
+                "Ruby",
+                "Chef",
+                "TDD"
             ],
             "cities": [
                 "Rennes"
@@ -2425,7 +2913,7 @@ var data = {
             "websites": [
                 {
                     "title": "Rencontres agiles",
-                    "href": "jfallet.wordpress.com/"
+                    "href": "https://jfallet.wordpress.com/"
                 },
                 {
                     "title": "Blog Technique SII Ouest",
@@ -2502,12 +2990,16 @@ var data = {
         },
         {
             "name": "Cécilia Bossard",
-            "bio": "Développeuse Java/J2EE, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais.",
-            "picture": "http://timwi.com/img/team/cecilia.jpg",
+            "bio": "Développeuse, agiliste convaincue et joueuse invétérée. Membre d'Agile Nantes et de l'équipe organisatrice de l'Agile Tour nantais. Membre fondatrice des Women In Technology et organisatrice des coding goûters sur Nantes",
+            "picture": "https://www.dropbox.com/sc/49fry4gnzw21hbd/AADvAfjSQC85XcjToo2tbumKa",
             "websites": [
                 {
                     "title": "Timwi",
                     "href": "http://timwi.com/"
+                },
+                {
+	        	"title": "Blog",
+	        	"href" : "http://javagile.wordpress.com/"
                 }
             ],
             "twitter": "ceciliaBossard",
@@ -2522,11 +3014,16 @@ var data = {
                 {
                     "title": "Jouons !",
                     "summary": "Possibilité de réaliser plusieurs jeux agiles afin de découvrir l'agilité ou d'approfondir certains concepts."
+                },
+                {
+                    "title": "Et la diversité dans tout ça ?",
+                    "summary": "On entend beaucoup parler en ce moment du besoin d’avoir plus de femmes dans les métiers du numérique. Mais la diversité ne s’arrête pas là. Qu'est ce qu’on entend par diversité ? Qu'est ce que ça peut apporter à mon équipe ? Quelles sont les bonnes pratiques ? Nous tenterons de répondre à ces questions lors de cette présentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de réflexions sur ce débat."
                 }
             ],
             "tags": [
                 "Agile",
-                "Serious Game"
+                "Serious Game",
+                "Diversité"
             ],
             "cities": [
                 "Nantes"
@@ -2607,7 +3104,7 @@ var data = {
             "tags": [
                 "Scala",
                 "Haskell",
-                "Functional programming"
+                "Programmation fonctionnelle"
             ],
             "cities": [
                 "Nantes"
@@ -2733,7 +3230,7 @@ var data = {
             ],
             "tags": [
                 "NodeJS",
-                "Javascript",
+                "JavaScript",
                 "Grunt",
                 "Bower",
                 "Arduino",
@@ -2770,7 +3267,11 @@ var data = {
             "sessions": [
                 {
                     "title": "Silex, micro-framewok PHP",
-                    "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept. De manière optionnelle et modulaire, Silex fournit de quoi faire un petit moteur MVC, et permet d'utilise rapidement un moteur de template (Twig) et/ou un ORM (Doctrine2)."
+                    "summary": "Découvrir Silex, un micro-framework PHP utilisant des composants de Symfony2. Idéal pour créer une API ou prototyper un proof-of-concept en MVC"
+                },
+                {
+                    "title": "The fine art of deploying web apps online",
+                    "summary": "Dire adieu au FTP et automatiser simplement le déploiement, cela n'est pas réservée à de grosses entreprises : nous l'appliquerons ici à des projets web à petits budgets et courts délais, typiques d'une agence web. Nos objectifs : Mettre en prod' beaucoup plus souvent, rattraper rapidement une mise en ligne qui a planté, et mieux partager les connaissances et les responsabilités entre collègues."
                 },
                 {
                     "title": "Vos premières aventures avec Raspberry Pi",
@@ -2925,17 +3426,56 @@ var data = {
             ]
         },
         {
+            "name": "Damien Cavaillès",
+            "bio": "Développeur Mobile, passionné par les nouveaux usages de la mobilité et des objets connectés ainsi que par la créativité des Makers. J'organise le Startup Weekend Lille Maker Edition. Je suis également Facilitateur de Startup Weekend !",
+            "picture": "https://pbs.twimg.com/profile_images/1520756694/263927_2114421789970_1528442537_3828466_2806724_n__1_.jpg",
+            "websites": [
+                {
+                    "title": "Mes articles sur Medium",
+                    "href": "https://medium.com/@thedamfr"
+                },
+                {
+                    "title": "Le site Up de la communauté Lilloise",
+                    "href": "http://lille.up.co"
+                }
+            ],
+            "twitter": "thedamfr",
+            "contact": "@thedamfr",
+            "location": "Lille, Paris",
+            "sessions": [
+                {
+                    "title": "BLE : De la mobilité aux objets connectés",
+                    "summary": "Le Bluetooth Low Energy est le protocole qui relie le mobile et les objets connectés. Basé sur le Bluetooth, il est supporté par la majorité des mobiles récents (même le 4S !), c'est l'interface favorite des objets connectés. iBeacon et Android Wear sont deux exemples de solutions basées sur le BLE. Une sessions courte pour bien cerner comment fonctionne le BLE, comment le prendre en main (parce que c'est facile), et en comprendre les enjeux"
+                },
+                {
+                    "title": "Android Wear : Ceci n'est pas une montre !",
+                    "summary": "Android Wear, c'est l'extension d'Android qui va changer notre style de vie. Un retour d'experience et un petit tour des bonnes pratiques en terme d'UX pour bien cerner le produit. Les concepts généraux de l'API et une mise en pratique simple en utilisant Teleport. Petite démo à la clef !"
+                },
+                {
+                    "title": "Dev to Maker",
+                    "summary": "\"Si tu as déjà scotché un stylo cassé pour continuer à écrire, tu es un Maker !\". Présentation du courant des makers et de l'open-source hardware. Petite démo Arduino, parce que c'est vraiment tout simple à faire marcher ! Les Devs sont tous des makers, à vous de vous lancer !"
+                }
+            ],
+            "tags": [
+                "Android",
+                "iOS",
+                "IoT",
+                "Maker",
+                "Embarqué"
+            ],
+            "cities": [
+                "Lille",
+                "Paris"
+            ]
+        },
+        {
             "name": "Hugo Lassiège",
-            "bio": "Geek et entrepreneur. Un bon cocktail pour parler technologie et production de valeur.",
-            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/go08sv2fmb7zxdotfqyq.png",
+            "bio": "Geek et entrepreneur. Un bon cocktail pour un BBL.",
+            "picture": "http://res.cloudinary.com/hopwork/image/upload/t_bigprofile/rjgllgjiskn01r8b2pbc.jpg",
             "websites": [
                 {
                     "title": "Blog perso",
-                    "href": "http://hakanai.free.fr/"
-                },
-                {
-                    "title": "Localizeyourapps (fondateur)",
-                    "href": "http://www.localizeyourapps.com/"
+                    "href": "http://www.eventuallycoding.com/"
                 },
                 {
                     "title": "Hopwork (co-fondateur)",
@@ -2944,10 +3484,6 @@ var data = {
                 {
                     "title": "Lateral-Thoughts (co-fondateur)",
                     "href": "http://www.lateral-thoughts.com/"
-                },
-                {
-                    "title": "Blog sur developpez.com",
-                    "href": "http://hugo.developpez.com"
                 }
             ],
             "twitter": "hugolassiege",
@@ -2956,28 +3492,20 @@ var data = {
             "location": "Lyon",
             "sessions": [
                 {
-                    "title": "Le web en Java, c'est possible ?",
-                    "summary": "Java commence à trainer derrière lui quelques casserolles et une réputation mérité d'écosystème complexe. Pourtant sa force c'est bien le web mais avec plus de 100 frameworks web comment choisir ? Ce sera l'occasion de faire un tour d'horizon des frameworks, des approches et de comprendre pragmatiquement ce qui vous convient le mieux."
-                },
-                {
-                    "title": "Développer à l'âge adulte.",
-                    "summary": "On aborde les années 2010 et il reste encore beaucoup à faire pour que les pratiques de développement arrivent à maturité dans les entreprises. Etes-vous adulte ? Et si non quelles sont les étapes à franchir ? Quels sont les anniversaires à célébrer ? Ce sera l'occasion d'aborder non seulement les pratiques de test mais aussi la qualimétrie, le déploiement, les frontières entre développeurs et opérationnels, tout cet écosystème qui permet de délivrer de la valeur."
-                },
-                {
-                    "title": "Big Data, pourquoi, comment ?",
-                    "summary": "Au delà des buzz word, qu'entends-on par Nosql, bigdata, cloud, machine learning etc... ? Vous vous sentez dépassés ou curieux ? Vous n'êtes pas sûr d'en avoir besoin mais vous avez un doute ? Faisons déjà le point sur la réalité que recouvre ces technologies, essayons de comprendre sur vos données si vous avez de la richesse non exploitée qui pourrait en profiter."
-                },
-                {
                     "title": "Organisez vos documents avec Mongo",
-                    "summary": "Derrière le terme Nosql se cache une multitude de base de données avec des objectifs bien distincts. Mongodb est l'une d'entre elles. Orienté document, cette base propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées (recherche full text, géocalisation, mapreduce). Mongo peut-il répondre à vos cas d'usage ? Pouvez-vous vivre sans transactions et sans contraintes relationnelles. Comment conçoit-on un schéma de données orienté document ? Comment manipule-t'on ces données ? Comment tirer parti de ces spécificités ?"
+                    "summary": "Mongodb est une base de données nosql orientée document. Elle propose un modèle de requêtage riche, des bonnes performances, une très bonne scalabilité et d'autres fonctionnalités avancées. Mongo peut-il répondre à vos cas d'usage ? "
                 },
                 {
                     "title": "Elastic Search, parce qu'on a toujours besoin de rechercher quelque chose",
-                    "summary": "Rechercher des données est sans doute ce qui se fait le plus couramment dans toutes les applications. Mais le faites-vous bien ? Etes vous capable de guider votre utilisateur pour qu'il trouve ses résultats ? Lui suggérez-vous d'autres pistes ? Ou tout simplement, pensez-vous que WHERE mon champ like '%s%' commence à être vraiment trop limité pour vos besoins ?"
+                    "summary": "Rechercher des données est sans doute ce qui se fait le plus couramment dans toutes les applications. Mais le faites-vous bien ? Je vous propose un petit tour d'horizon d'un moteur dédié à la recherche et qui le fait bien."
                 },
                 {
-                    "title": "Architecture distribuées",
-                    "summary": "Le temps des applications monolithiques multi fonctions s'éloigne. Désormais on recherche à composer par services, on recherche la haute disponibilité, la résistance aux erreurs, le déploiement ciblé. Comment peut-on y arriver sans construire un monstre inmaintenable ? Comment faire simple tout en répondant à des problématiques complexes ? On pourra discuter d'architecture orientée message, de bonnes pratiques de déploiement, de monitoring, d'interropérabilité. Il faudra choisir car le sujet est vaste ;)"
+                    "title": "Spring Boot et RabbitMq",
+                    "summary": "Je vous propose de voir comment nous utilisons Spring boot et RabbitMq chez Hopwork pour  découper nos services en petites applications "
+                },
+                {
+                    "title": "Ansible",
+                    "summary": "Je vous propose de voir comment nous utilisons Ansible chez Hopwork pour le déploiement de notre infrastructure mais aussi du code applicatif"
                 }
             ],
             "tags": [
@@ -3040,7 +3568,7 @@ var data = {
                 "Lambda",
                 "AngularJS",
                 "JavaScript",
-                "Play framework",
+                "Play",
                 "Git"
             ],
             "cities": [
@@ -3093,16 +3621,86 @@ var data = {
             ],
             "tags": [
                 "Agile",
-                "UX",
-                "Expérience Utilisateur",
+                "Expérience utilisateur",
                 "Extreme Programming",
                 "Scrum",
                 "Kanban",
-                "Serious Games",
+                "Serious Game",
                 "Jeux agiles",
                 "Lean Startup",
                 "Visual Management",
                 "Management 3.0"
+            ],
+            "cities": [
+                "Lyon"
+            ]
+        },
+        {
+            "name": "Romain Couturier",
+            "bio": "Coach agile et facilitateur graphique",
+            "picture": "http://www.gravatar.com/avatar/918e67363e4361447d7a01c11da8a767.png",
+            "websites": [
+                {
+                    "title": "Site professionnel",
+                    "href": "http://www.terredagile.com"
+                },
+                {
+                    "title": "Blog perso",
+                    "href": "http://talondagile.fr"
+                }
+            ],
+            "twitter": "romaincouturier",
+            "contact": "romain.couturier@terredagile.com",
+            "mail": "romain.couturier@terredagile.com",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Libérez vos idées et partez à la découverte de la facilitation graphique",
+                    "summary": "S'initier aux techniques de base de la facilitation graphique des interactions de groupe et découvrir comment la pensée visuelle une dynamique interactive et innovante dans les réunions."
+                },
+                {
+                    "title": "Kanban pour tous",
+                    "summary": "Pour toutes celles et ceux qui entendent parler de Kanban ou qui découvrent, je vous propose une compilation de retours d’expériences de mise en place de Kanban dans plusieurs environnements dont certains n’ont rien à voir avec l’agilité."
+                },
+                {
+                    "title": "Introduction à l'Agilité",
+                    "summary": "Découverte de l'Agilité à travers le Manifeste Agile et les principales méthodes Agiles existantes pour faire le bon choix pour son équipe"
+                },
+                {
+                    "title": "Créer  le bon produit avec le lean Caneva",
+                    "summary": "Pour ceux qui ne veulent plus faire à l'instinct le tri dans les idées pour leur produit, cette conférence vous présente le Lean Canvas et la démarche pour construire le bon produit, quel que soit votre domaine d'activité.."
+                },
+                {
+                    "title": "Enseignement et Agilité",
+                    "summary": "Retour d'expériences sur l'enseignement de l'Agilité dans les universités ... en mode Agile bien sûr."
+                },
+                {
+                    "title": "Valeur ajoutée, c'est quoi au fait ?",
+                    "summary": "Cette session vous propose simplement d’explorer ce concept de valeur, les techniques possibles pour vous aider à valoriser vos exigences métier dans un contexte agile ... ou non ?"
+                },
+                {
+                    "title": "Il était une fois la vie d'un Product Owner",
+                    "summary": "C'est l'histoire d'un Product Owner qui découvre et apprend son rôle dans une startup pendant 9 mois. Entre joies et peines, les surprises seront nombreuses sur le chemin de la gestion de produit."
+                },
+                {
+                    "title": "Scrum, comment tomber dans le panneau",
+                    "summary": "Tour d'horizon des mythes et légendes communément admis autour de la méthode Scrum et qui peuvent mettre à mal votre Agilité."
+                },
+                                {
+                    "title": "Transition agile et accompagnement au changement",
+                    "summary": "Je vous propose un premier cadre de réflexion sur la transition organisationnelle nécessaire au déploiement de l'agilité."
+                }
+
+            ],
+            "tags": [
+                "Coaching",
+                "Agile",
+                "Facilitation graphique",
+                "Scrum",
+                "Kanban",
+                "Facilitation",
+                "Jeux agiles",
+                "Lean Startup"
             ],
             "cities": [
                 "Lyon"
@@ -3390,6 +3988,7 @@ var data = {
                 "Scrum",
                 "Kanban",
                 "Ingénierie agile",
+		"Intégration continue",
                 "Test",
                 "Tests unitaires",
                 "Usine logicielle",
@@ -3444,12 +4043,12 @@ var data = {
                 }
             ],
             "tags": [
-                "Javascript",
+                "JavaScript",
                 "PHP",
                 "HTTP",
                 "REST",
-                "tests",
-                "GIT"
+                "Test",
+                "Git"
             ],
             "cities": [
                 "Clermont-Ferrand"
@@ -3457,11 +4056,11 @@ var data = {
         },
         {
             "name": "William Durand",
-            "bio": "Software developer, Open Source evangelist.",
+            "bio": "Lifelong learner. Open Source evangelist. Traveler. Triathlete.",
             "picture": "http://fr.gravatar.com/userimage/8198086/417f6125a7549374926e4935f9272ad6.jpg?size=500",
             "websites": [
                 {
-                    "title": "Blog",
+                    "title": "Websbite",
                     "href": "http://williamdurand.fr"
                 },
                 {
@@ -3474,21 +4073,25 @@ var data = {
                 }
             ],
             "twitter": "couac",
-            "contact": "william.durand1+bbl@gmail.com",
-            "mail": "william.durand1+bbl@gmail.com",
+            "contact": "will+bbl@drnd.me",
+            "mail": "will+bbl@drnd.me",
             "location": "Clermont-Fd Area",
             "sessions": [
+            	{
+            	    "title": "Introduction à Docker",
+            	    "summary": "Docker, qu'est-ce que c'est ? Pourquoi est-ce utile et terriblement intéressant ?"
+            	},
                 {
-                    "title": "REST APIs With Symfony2: The Right Way",
-                    "summary": "Comment construire une API REST avec le framework PHP Symfony2."
+                    "title": "REST APIs With Symfony: The Right Way",
+                    "summary": "Comment construire une API REST avec le framework PHP Symfony ?"
                 },
                 {
-                    "title": "Git & GitHub",
-                    "summary": "Présentation de Git et GitHub."
+                    "title": "Git & GitHub & Open Source",
+                    "summary": "Présentation de Git et GitHub, plus une ouverture sur le monde Open Source."
                 },
                 {
                     "title": "Open Source For Dummies",
-                    "summary": "Qu'est-ce que l'Open Source ? Comment fait-on pour y participer ? Mais surtout, pourquoi c'est bien pour votre entreprise ?"
+                    "summary": "Qu'est-ce que l'Open Source ? Comment fait-on pour y participer ? Mais surtout, pourquoi c'est bien pour votre entreprise."
                 },
                 {
                     "title": "Oriented Object Programming",
@@ -3497,12 +4100,14 @@ var data = {
             ],
             "tags": [
                 "PHP",
-                "Symfony2",
+                "Symfony",
                 "HTTP",
                 "REST",
-                "Testing",
+                "Test",
                 "Git",
-                "Puppet"
+                "Puppet",
+                "Docker",
+                "Open Source"
             ],
             "cities": [
                 "Clermont-Ferrand"
@@ -3541,9 +4146,8 @@ var data = {
                 }
             ],
             "tags": [
-                "UX",
-                "Expérience Utilisateur",
-                "Expérience Client", 
+                "Expérience utilisateur",
+                "Expérience client",
                 "Design",
                 "Conception",
                 "Ergonomie"
@@ -3581,9 +4185,44 @@ var data = {
                 }
             ],
             "tags": [
-                "performance",
+                "Performance",
                 "JEE",
-                "java"
+                "Java"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
+        },
+        {
+            "name": "Jean-Baptiste Dusseaut",
+            "bio": "eXtreme Programmer, co-fondateur d'Arpinum",
+            "picture": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c0.0.320.320/p320x320/10614305_10152626338152508_5099752402465620281_n.jpg?oh=b9cfd579186930d98fec6ad42dfa9348&oe=54E99E54&__gda__=1425364962_ff9796691bbf73f194716cf5924b2d57",
+            "websites": [
+                {
+                    "title": "Arpinum.fr",
+                    "href": "http://arpinum.fr"
+                }
+            ],
+            "twitter": "bodysplash",
+            "contact": "contact@arpinum.fr",
+            "mail": "jbdusseaut@arpinum.fr",
+            "location": "Bordeaux, centre ville ou proximité Tramway",
+            "sessions": [
+                {
+                    "title": "Coding Dojo",
+                    "summary": "Comment apprendre à devenir de meilleurs développeurs ou développeuses si nous ne prenons jamais le temps d'apprendre ? Le but d'un coding dojo est de créer en environnement d'apprentissage ou nous pouvons sans vergogne nous entrainer au TDD et autres pratiques cabalistiques sans peur de l'échec."
+                },
+                {
+                    "title": "Introduction au Test Driven Development",
+                    "summary": "Vous avez peut être entendu dire que le TDD est une pratique magique qui va résoudre tous vos problèmes. Oui mais en attentant, le concept vous parrez un peu fumeux et vous ne voyez pas très bien comment ça marche. Le but ici est de faire une session de live coding démontrant le béaba de l'approche."
+                }
+            ],
+            "tags": [
+                "TDD",
+                "Extreme Programming",
+                "Agilité",
+                "Agile",
+                "Code"
             ],
             "cities": [
                 "Bordeaux"
@@ -3642,12 +4281,12 @@ var data = {
                 }
             ],
             "tags": [
-                "agilite",
-                "java",
-                "test",
-                "architecture",
-                "bdd",
-                "software design"
+                "Agilité",
+                "Java",
+                "Test",
+                "Architecture",
+                "BDD",
+                "Software design"
             ],
             "cities": [
                 "Saint Etienne"
@@ -3698,40 +4337,43 @@ var data = {
                 }
             ],
             "tags": [
-                "agilite",
-                "android",
-                "java",
-                "test",
-                "maven",
-                "jenkins","AngularJS","Yeoman"
+                "Agilité",
+                "Android",
+                "Java",
+                "Test",
+                "Maven",
+                "Jenkins",
+                "AngularJS",
+                "Yeoman"
             ],
             "cities": [
-                "Saint Etienne","Lyon"
+                "Saint Etienne",
+                "Lyon"
             ]
         },
         {
-            name: "Christophe Grand",
-            bio: "Clojuriste de la première heure (début 2008) et co-auteur de Clojure Programming (O'Reilly). Passionné par les API REST hypermedia. Dev indépendant et formateur au sein de LambdaNext.",
-            picture: "http://lambdanext.eu/img/cgrand.png",
-            websites: [
-                {title: "Clojure and me", href: "http://clj-me.cgrand.net/"},
-                {title: "LambdaNext", href: "http://lambdanext.eu/"}
+            "name": "Christophe Grand",
+            "bio": "Clojuriste de la première heure (début 2008) et co-auteur de Clojure Programming (O'Reilly). Passionné par les API REST hypermedia. Dev indépendant et formateur au sein de LambdaNext.",
+            "picture": "http://lambdanext.eu/img/cgrand.png",
+            "websites": [
+                {"title": "Clojure and me", "href": "http://clj-me.cgrand.net/"},
+                {"title": "LambdaNext", "href": "http://lambdanext.eu/"}
             ],
-            twitter: "cgrand",
-            contact: "christophe@cgrand.net",
-            mail: "christophe@cgrand.net",
-            location: "Saint Etienne, Lyon",
-            sessions: [
+            "twitter": "cgrand",
+            "contact": "christophe@cgrand.net",
+            "mail": "christophe@cgrand.net",
+            "location": "Saint Etienne, Lyon",
+            "sessions": [
                 {
-                    title: "Introduction à la programmation orientée données.",
-                    summary: "Le style de programmation proposé par Clojure est orienté données avant d'être fonctionnel, et ça simplifie tout en autorisant des architectures \"low ceremony\". Débarassez-vous de vos idées reçues !"
+                    "title": "Introduction à la programmation orientée données.",
+                    "summary": "Le style de programmation proposé par Clojure est orienté données avant d'être fonctionnel, et ça simplifie tout en autorisant des architectures \"low ceremony\". Débarassez-vous de vos idées reçues !"
                 },
                 {
-                    title: "REST : l'incompris",
-                    summary: "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
+                    "title": "REST : l'incompris",
+                    "summary": "REST n'a jamais été à propos de la méthode HTTP à utiliser ou de l'art de définir une hiérarchies d'URLs. REST est une puissante technique d'intégration distribuée. Apprenez à refactorer votre SI avec une vraie API REST, c'est à dire une API hypermedia !"
                 }
             ],
-            tags: ["clojure", "FP-style", "Functional programming", "software design", "hypermedia", "REST", "API"],
+            "tags": ["Clojure", "FP-Style", "Programmation fonctionnelle", "Software design", "Hypermedia", "REST", "API"],
             "cities": [
                 "Saint Etienne"
             ]
@@ -3785,7 +4427,7 @@ var data = {
                 "Microsoft",
                 "WPF",
                 "SPA",
-                "WEB"
+                "Web"
             ],
             "cities": [
                 "Lyon"
@@ -3798,11 +4440,11 @@ var data = {
             "websites": [
                 {
                     "title": "Blog",
-                    "href": "http://blog.soat.fr/author/mathieu-parisot/"
+                    "href": "http://matparisot.fr/author/mathieu/"
                 },
                 {
                     "title": "Profil",
-                    "href": "http://www.soat.fr/mathieu-parisot-expert-java-web"
+                    "href": "http://matparisot.fr"
                 }
             ],
             "twitter": "matparisot",
@@ -3811,22 +4453,27 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "A la découverte du Responsive web design",
-                    "summary": "Faire en sorte que votre s'adapte à tous les périphériques est possible, mais pas forcément trivial. Une présentation théorique de ce qui se cache derrière le RWD."
+                    "title": "Responsive Web Design",
+                    "summary": "3 présentations possibles : introduction au RWD, l'impact du RWD sur vos équipes projet et un tour d'horizon des techniques nécessaires à la réalisation d'un site."
                 },
                 {
-                    "title": "Du Responsive Web Design à la Responsive Company",
-                    "summary": "En dehors des problèmes techniques inhérents à toute nouvelle technique de développement, le Responsive Web Design remet également en cause de nombreux acquis dans les entreprises que ce soit en phase de conception, de design ou lors des tests."
+                    "title": "Quoi de neuf dans le web ?",
+                    "summary": "Un tour d'horizon de toutes les nouveautés HTML5 et CSS3 pour découvrir des normes souvent méconnues (flexbox, webrtc, web components, css shapes, etc.)"
                 },
                 {
-                    "title": "Faire un site en Responsive Web Design",
-                    "summary": "Un tour d'horizon des techniques nécessaires pour faire un site web responsive."
+                    "title": "Révolutionnez vos Layout avec CSS3",
+                    "summary": "Un focus sur les normes CSS3 permettant de faire des mises en page avancées : FlexBoxx, CSSGrid, CSSShape, CSS regions, columns, etc."
                 },
                 {
-                    "title": "Introduction a html5",
-                    "summary": "Un tour d'horizon de toutes les nouveautés HTML5 en 1h pour savoir ce qui change (ou pas...)."
-                }],
-            "tags": ["Responsive", "HTML5"],
+                    "title": "Démystifions la magie du CSS",
+                    "summary": "Le CSS parrait souvent simple mais magique pour les développeurs. Dans cette présentation je présente et explique différents concepts qui sont souvent mal compris : spécificité, types de display, positionnement, etc."
+                },
+                {
+                    "title": "Crash course Javascript pour les développeurs",
+                    "summary": "Un condensé de particularités souvent méconnues et dangereuses du langage javascript : hoisting, scoping des variables, utilisation de this, égalité magique, etc."
+                }
+            ],
+            "tags": ["Responsive", "HTML5", "CSS3", "JavaScript"],
             "cities": [ "Paris" ]
         },
         {
@@ -3863,14 +4510,15 @@ var data = {
                 {
                     "title": "Premiers pas avec AngularJS",
                     "summary": "Vous voulez démarrer avec AngularJS, besoin d'un guide, je peux vous aider. Fini les 'hello world' des tutos, passons à un vrai travail pratique."
-                }],
+                }
+            ],
             "tags": ["JavaScript", "AngularJS", "jQuery"],
             "cities": [ "Paris" ]
         },
         {
             "name": "Boris Schapira",
             "bio": "Consultant - Clever Age",
-            "picture": "http://borisschapira.com/avatars/SudWeb12_300.jpg",
+            "picture": "http://avatars.borisschapira.com/SudWeb12_300.jpg",
             "websites": [
                 {
                     "title": "Blog",
@@ -3890,6 +4538,10 @@ var data = {
             "mail": "borisschapira@gmail.com",
             "location": "Bordeaux",
             "sessions": [
+            	{
+                    "title": "Sensibilisation au dangers et opportunités d'Internet (au sens large)",
+                    "summary": "Le Web a pris en quelques années une importance capitale dans nos vies. Mais les jeunes (et les moins jeunes) ne sont pas toujours au courant des problématiques que cela soulève et des changements de société qu'il nous faut comprendre. Au travers d'une quinzaine de problématiques dans lesquelles piocher, je vous propose de monter des ateliers d'échanges et d'information pour mieux sensibiliser aux usages d'Internet. Cible : 14 ans et +"
+                },
                 {
                     "title": "De l'idée au projet",
                     "summary": "Nous avons tous des idées. Petites, grandes, incongrues, logiques. Comment les capturer, les formaliser, les confronter pour transformer ces idées en projet ? Introduction à Lean Canvas et aux outils du Service Design."
@@ -3915,7 +4567,7 @@ var data = {
                 "Gestion de projet",
                 "Service Design",
                 "JavaScript",
-                "E-Commerce",
+                "e-commerce",
                 "Performance Web"
             ],
             "cities": [
@@ -3968,7 +4620,7 @@ var data = {
         },
         {
             "name": "DuyHai DOAN",
-            "bio": "Développeur Java depuis toujours, je me suis passionné pour le domaine du Big Data et plus particulièrement pour Cassandra depuis plusieurs années. Je fais régulièrement des présentations pour vulgariser l'utilisation de Cassandra au plus grand nombre.La journée, je participe au projet Libon, le Viber/WhatsApp du groupe Orange en utilisant Cassandra comme solution NoSQL.",
+            "bio": "Duy Hai est évangéliste technique pour Datastax, l’entreprise commerciale derrière Apache Cassandra. Il partage son temps entre donner des présentations/meetups/talks sur Cassandra, développer sur des projets open-source pour la communauté et aider les projets utilisant Cassandra. Avant Datastax, Duy Hai a été développeur freelance Java/Cassandra",
             "picture": "http://www.gravatar.com/avatar/ffa96040bb4211cad1c66f385d8cb77b.png",
             "websites": [
                 {
@@ -4034,7 +4686,7 @@ var data = {
                 "Client riche",
                 "Desktop",
                 "JavaFX",
-                "Reactive Programming",
+                "Reactive",
                 "RxJava",
                 "Java 8",
                 "Asynchrone"
@@ -4069,7 +4721,7 @@ var data = {
                 {
                     "title": "Le tour de Varnish en 80 jours",
                     "summary": "Dans cette présentation, nous allons littéralement faire le tour du monde pour découvrir Varnish. Architecture moderne et réactive, ce cache HTTP offre un DSL élégant pour la politique de cache, et un ensemble d'outils simples pour l'administrer."
-                },
+                }
             ],
             "tags": [
                 "Varnish",
@@ -4107,7 +4759,7 @@ var data = {
                 "Gradle",
                 "Groovy",
                 "Build",
-                "Automation"
+                "Automatisation"
             ],
             "cities": [
                 "Sophia-Antipolis"
@@ -4116,6 +4768,7 @@ var data = {
         {
             "name": "Maxime Bonnet",
             "bio": "Scrum master, formateur certifié Innovation Games, Coach Agile",
+            "picture": "http://www.gravatar.com/avatar/03314fcc147b87324941c0c6329d444b.png",
             "twitter": "maximebonnet",
             "contact": "maxime@bonnet.tel",
             "mail": "maxime@bonnet.tel",
@@ -4128,14 +4781,21 @@ var data = {
                 {
                     "title": "Comprendre et Utiliser le MBTI",
                     "summary": "Le Myers Briggs Type Indicator (MBTI) est un outils dans la palette des coachs, managers ou toutes personnes souhaitant comprendre ses relations aux autres. Simple et facilement utiliseable au quotidien, le MBTI permet de mieux comprendre et dialoguer avec ses interlocuteurs"
-                }
-                
+                },
+                {
+					"title": "Utiliser Lego Serious Play pour animer votre Brainstorming",
+					"summary": "Quand l'un des plus grands fabriquants de jouets décide d'utiliser sa production pour faciliter ses réunions, cela donne Lego Serious Play (http://www.seriousplay.com). Le jeu pour stimuler la créativité, ce n'est pas une idée nouvelle, mais LSP propose une dynamique très particulière basé sur le toucher et la manipulation. Les résultats sont étonnant et l'outil très puissant. Pour cette session je vous propose une mise en pratique rapide d'un atelier type de Lego Serious Play. (cette session est limité à 6 personnes)"
+				},
+		{
+			"title": "J'upgrade mon style de management",
+			"summary": "Au sein de nos organisations, la conception traditionnelle du management a montré ses limites. L'agilité pousse les managers vers de nouvelles fonctions de support plus que des fonctions de directions. De la délégation, aux remerciements, de l'organisation du travail au feedback, tour d'horizon de ces nouvelles pratiques."
+		}
             ],
             "tags": [
                 "Agilité",
-                "Jeux sérieux",
+                "Serious Game",
                 "Developpement personnel",
-                "coaching"
+                "Coaching"
             ],
             "cities": [
                 "Lyon"
@@ -4178,7 +4838,7 @@ var data = {
                 }
             ],
             "tags": [
-            	"Mobile",
+                "Mobile",
                 "iOS",
                 "Android",
                 "Google Glass"
@@ -4186,9 +4846,1578 @@ var data = {
             "cities": [
                 "Paris"
             ]
-        }
+        },
+        {
+            "name": "Emmanuel Bonnet",
+            "bio": "Consultant Decision Management @Genigraph, Chargé d'enseignement @UPS",
+            "picture": "http://www.gravatar.com/avatar/a89e9302b1b93ce1220079ed86ba0447.png?size=256",
+            "websites": [
+                {
+                    "title": "Linked In",
+                    "href": "https://www.linkedin.com/in/bonnetemmanuel"
+                },
+                {
+                    "title": "Genigraph",
+                    "href": "http://www.genigraph.fr"
+                }
+            ],
+            "twitter": "ebonnet31",
+            "contact": "emmanuel.bonnet [at] gmail.com",
+            "mail": "emmanuel.bonnet@gmail.com",
+            "location": "Toulouse et environs, et Paris occasionnellement",
+            "sessions": [
+                {
+                    "title": "La Gestion de la Décision, les BRMS, moteurs de règles, régles métiers et autres Business Rules, késako ?",
+                    "summary": "L'IA existe-t-elle vraiment ailleurs que dans les films de Spielberg ou Kubrick ? Des utilisateurs finaux qui codent des règles en langage naturel : mytho ou banco ?"
+                },
+                {
+                    "title": "BRMS, Moteurs de règles : entrons dans les détails sordides ...",
+                    "summary": "RETE, Salience, Refraction, pattern matching, les boucles folles, la langage naturel, les IF-THEN et WHAT ELSE ?"
+                },
+                {
+                    "title": "Jouons ensemble avec JBoss Drools (ou un autre, comme IBM ODM par exemple)",
+                    "summary": "Comprendre les principaux composants d'un BRMS : édition, execution, intégration et architecture sur un cas concret (avec du vrai Live coding inside)"
+                }
+            ],
+            "tags": [
+                "Decision Management",
+                "Moteurs de règles",
+                "Business Rules",
+                "Règles Métiers",
+                "BRMS",
+                "ILOG",
+                "DROOLS",
+                "ODM",
+                "JBOSS",
+                "IBM",
+                "JRULES"
+            ],
+            "cities": [
+                "Toulouse", "Paris"
+            ]
+        },
+        {
+            "name": "Jean-François Garreau",
+            "bio": "Consultant IT chez @SQLI et Leader du @GDGNantes. Je suis développeur depuis maintenant 10 ans. J'ai toujours évolué dans un monde java et j'ai découvert Android en 2009 avec la version 1.1. Depuis, je continue de suivre les évolutions de la plateforme. Depuis maintenant an et demi j'ai commencé à m'interesser plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets.",
+            "picture": "http://www.gravatar.com/avatar/5713f6958d5be53307b0a5ae717ba767.png?size=256",
+            "websites": [
+                {
+                    "title": "Linked In",
+                    "href": "http://lnkd.in/dSN8h9U"
+                },
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/profile/002t8yktfxywhqn/fr/?readOnly=true"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/jefBinomed"
+                },
+                {
+                    "title": "Google+",
+                    "href": "https://www.google.com/+JeanFrancoisGarreau"
+                },
+                {
+                    "title": "Mes présentations",
+                    "href": "http://blog.binomed.fr/binomed_docs"
+                }
+            ],
+            "twitter": "jefBinomed",
+            "contact": "jean.francois.garreau [at] gmail.com",
+            "mail": "jean.francois.garreau@gmail.com",
+            "location": "Nantes et environs",
+            "sessions": [
+                {
+                    "title": "Android pour les débutants",
+                    "summary": "Cette session vise à poser les base du développement sous Android en présentant les concepts liés à ce système."
+                },
+                {
+                    "title": "NFC for Android",
+                    "summary": "Cette session vous permet de comprendre ce qui se cache derrière ces 3 lettres et de savoir comment implémenter du NFC dans vos applications Android."
+                },
+                {
+                    "title": "Les Sensors & le HTML5",
+                    "summary": "Html5 nous donne accès à un certain nombre de capteurs/périphériques qu’auparavant on pouvait seulement utiliser par le biais de plugins. Nous allons jouer avec nos téléphones / nos ordinateurs pour découvrir comment interpréter des éléments tels que l'orientation du téléphone, la captation de la voix, la création de sons, la caméra, ... Cet atelier montrera comment implémenter chacune de ces fonctionnalités. Au programme : giroscope / microphone / usermedia / vibration / ... Smartphone requis"
+                },
+                {
+                    "title": "WebRTC : de la visio dans mon navigateur sans plugin ! ",
+                    "summary": "Avez déjà rêvé de faire une visio avec votre grand mère, elle sur son smartphone et vous installés dans votre canapé avec votre ordinateur portable. Le problème : elle n'a pas Skype, pas de compte Google et elle ne connait pas Facetime ? Et si votre navigateur était la solution  ! Vous pourrez même lui partager les photos de votre petite dernière.Vous l'aurez compris, l'objectif de cette session est de présenter ce qu'est le WebRTC et de comprendre ce qui ce cache derrière."
+                }
+            ],
+            "tags": [
+                "Mobile",
+                "Android",
+                "NFC",
+                "HTML5",
+                "WebRTC",
+                "Sensors"
+            ],
+            "cities": [
+                "Nantes"
+            ]
+        },
+        {
+            "name": "Paul Chavard",
+            "bio": "Développeur Frontend / API chez CapitaineTrain. Contributeur sur le projet EmberJS",
+            "picture": "https://secure.gravatar.com/avatar/fb11d632ffe3f707da14aea540e4bd4f?s=250",
+            "websites": [
+                {
+                    "title": "Capitaine Train",
+                    "href": "http://www.capitainetrain.com/"
+                },
+                {
+                    "title": "EmberJS",
+                    "href": "http://emberjs.com"
+                }
+            ],
+            "twitter": "tchak13",
+            "contact": "paul@chavard.net",
+            "mail": "paul@chavard.net",
+            "location": "Paris, proche banlieue et La Défense",
+            "sessions": [
+                {
+                    "title": "Introduction à EmberJS",
+                    "summary": "Présentation du framework EmberJS et des enjeux d'une application riche en JavaScript. Nous allons essayer de répondre à des questions courantes : \"J'ai vraiment besoin d'une app ? Un site web ne suffit pas ?\", \"J'ai vraiment besoin d'un framework ?\", \"Comment tester mon app ?\"."
+                }
+            ],
+            "tags": [
+                "EmberJS",
+                "JavaScript"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Xavier Mouton-Dubosc",
+            "bio": "Développeur web, tripatouilleur de standards, autodidacte et engagé",
+            "picture": "http://dascritch.com/images/NightShot.jpg",
+            "websites": [
+                {
+                    "title": "Site professionnel",
+                    "href": "http://dascritch.com/"
+                },
+                {
+                    "title": "Profil linkedin",
+                    "href": "https://linkedin.com/in/dascritch"
+                }
+            ],
+            "twitter": "dascritch",
+            "contact": "xaviermd@gmail.com",
+            "mail": "xaviermd@gmail.com",
+            "location": "Toulouse et sa banlieue",
+            "sessions": [
+                {
+                    "title": "Chiffrer ses communications et ses ordinateurs",
+                    "summary": "Quelles sont les missions du chiffrement, et ses utilités quotidiennes. Démonstration avec les e-mails signés et signatures de clés"
+                },
+                {
+                    "title": "Surveillance globale et espionnage économique",
+                    "summary": "Mythes et réalités sur les programmes étatiques de surveillance globale et compétition économique"
+                },
+                {
+                    "title": "L'histoire de la cryptographie",
+                    "summary": "Comment les outils de cryptographie furent forgés et comment sont-ils passés d'un usage militaire à un usage civil."
+                },
+                {
+                    "title": "Politique de sécurité et de respect de vie privée",
+                    "summary": "Comment gérer les données personnelles stockées par votre application et les bonnes pratiques pour éviter les catastrophes techniques et juridiques"
+                }
+            ],
+            "tags": [
+                "Vie privée",
+                "Sécurité",
+                "Chiffrement",
+                "Ethique"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Franck Debane",
+            "bio": "Consultant CTO et coach lean startup. Intervenant/Formateur sur l'innovation, le lean startup et le marketing digital. Papa x2",
+            "picture": "http://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/02a/0ce/0dac097.jpg",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://debane.org/franck"
+                },
+                {
+                    "title": "Netelio",
+                    "href": "http://netelio.com"
+                }
+            ],
+            "twitter": "fdebane",
+            "contact": "fdebane [at] gmail.com",
+            "mail": "fdebane@gmail.com",
+            "location": "Paris et environs",
+            "sessions": [
+                {
+                    "title": "Decouverte du Lean Startup",
+                    "summary": "Comprendre les principes de bases du lean startup et leur importance. Quels sont les implications pour les entreprises déjà établie. Comprendre les étapes pour appliquer le lean startup dans votre entreprise."
+                }
+            ],
+            "tags": [
+                "Lean Startup",
+                "Innovation",
+                "Product Strategy",
+                "Product Management"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Julien Dargaisse",
+            "bio": "Tech Entrepreneur & UI/UX Designer. A l'initiative de PALO ALTOURS, La Cantine Numérique Tours, Startup Weekend Tours, Apéro Entrepreneurs Tours. #FBSAlumni",
+            "picture": "https://pbs.twimg.com/profile_images/2284064030/r1fue8rqkl904pvija46.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/in/juliendargaisse"
+                },
+                {
+                    "title": "BuzzleMe (fondateur)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (co-fondateur)",
+                    "href": "http://www.nowly.co"
+                },
+                {
+                    "title": "PALO ALTOURS (Startup associative)",
+                    "href": "http://www.paloaltours.org"
+                }
+            ],
+            "twitter": "juliendargaisse",
+            "contact": "julien [at] nowly.co",
+            "mail": "julien@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Gestion de projet innovant",
+                    "summary": "Partage d'expérience: de l'idée à la commercialisation en passant par le financement."
+                },
+                {
+                    "title": "Travailler en mobilité",
+                    "summary": "Les apps/saas pour pouvoir travailler en mobilité."
+                },
+                {
+                    "title": "Le recrutement 2.0",
+                    "summary": "Les outils et bonnes pratiques pour recruter avec le web."
+                }
+            ],
+            "tags": [
+                "Innovation",
+                "Lean Startup",
+                "UI/UX Design",
+                "Recrutement",
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Mobile"
+            ],
+            "cities": [
+                "Tours",
+                "Paris"
+            ]
+        },
+        {
+            "name": "Jérôme Heissler",
+            "bio": "Startup lovers • Tech Entrepreneur • Architect AWS • Developer Web & Scala/Java • Passionate about Continuous Delivery, Infrastructure Automation, and all things Devops.",
+            "picture": "https://pbs.twimg.com/profile_images/378800000207562580/068af47146178ce025736989f37fd862.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/in/jeromeheissler"
+                },
+                {
+                    "title": "BuzzleMe (Co-Founder)",
+                    "href": "http://www.buzzle.me/fr"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "jeromeheissler",
+            "contact": "jerome [at] nowly.co",
+            "mail": "jerome@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "Architecture",
+                "Scala",
+                "Java",
+                "AWS",
+                "Cloud",
+                "MongoDB",
+                "DevOps"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Cedric Gatay",
+            "bio": "Code-Trooper, code quality obsessed. Startup adventurer",
+            "picture": "http://www.gravatar.com/avatar/9600dc1bda25e979e656559914e00021.png?s=240",
+            "websites": [
+                {"title": "Blog", "href": "http://bloggure.info"},
+                {"title": "Code-Troopers", "href": "http://code-troopers.com"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/in/cedricgatay"},
+                {"title": "Github", "href": "https://github.com/CedricGatay"}
+            ],
+            "twitter": "Cedric_Gatay",
+            "contact": "cedric@gatay.fr",
+            "mail": "cedric@gatay.fr",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Astuces d'utilisation de Maven",
+                    "summary": "Apache Maven est un outil omniprésent, apprenez quelques astuces pour vous permettre de moins le détester (voir même l'apprécier)"
+                },
+                {
+                    "title": "Exporter une API depuis un site web",
+                    "summary": "Nous vivons dans le monde des API, malheureusement, tous les sites webs ne l'ont pas compris et n'exposent pas des points d'accès pour permettre aux développeurs de construire des services riches au dessus de leur source de données. Nous verrons comment nous pouvons assez simplement procéder pour extraire une API depuis un site web."
+                },
+                {
+                    "title": "Construction d'un système de statistiques avec MongoDB",
+                    "summary": "Retour d'expérience sur la construction d'un système de restitutions statistiques à l'aide de MongoDB."
+                },
+                {
+                    "title": "Retour d'expérience sur la plateforme de test mise en place pour SRMvision",
+                    "summary": "Pour permettre de tester facilement différentes versions de l'application, SRMvision utilise Vagrant + Puppet pour générer à la volée des machines de test, apprenez comment faire de même..."
+                },
+                {
+                    "title": "Git, moi aussi !",
+                    "summary": "Présentation sur ce qu'est Git et comment en bénéficier au quotidien sur votre poste de développeur en attendant qu'il soit autorisé par votre hierarchie."
+                }
+            ],
+            "tags": [
+                "Intégration continue",
+                "Maven",
+                "Java",
+                "Git",
+                "MongoDB"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Manyssin Thin",
+            "bio": "Entrepreneur et jeune papa passionné par le design et le numérique. CEO de www.nowly.co et lui même depuis 1985.",
+            "picture": "https://pbs.twimg.com/profile_images/3538863249/7c6adb61a6b0554c019b2a26711c7afd_400x400.jpeg",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "https://www.linkedin.com/pub/manyssin-thin/70/706/62"
+                },
+                {
+                    "title": "Nowly (Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "huvw",
+            "contact": "many [at] nowly.co",
+            "mail": "many@nowly.co",
+            "location": "Tours",
+            "sessions": [
+                {
+                    "title": "Storytelling",
+                    "summary": "Raconter votre histoire, un véritable vecteur de communication. Les succès et les difficultés, ce qui fait de vous ce que vous êtes et qui vous permet de creer un véritable lien."
+                }
+            ],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Mathieu Bolard",
+            "bio": "Consultant en solutions mobiles, co-fondateur de Nowly",
+            "picture": "https://pbs.twimg.com/profile_images/1749868293/id-1_small.png",
+            "websites": [
+                {
+                    "title": "linkedin",
+                    "href": "http://lnkd.in/dm_XUv4"
+                },
+                {
+                    "title": "Nowly (Co-Founder)",
+                    "href": "http://www.nowly.co"
+                }
+            ],
+            "twitter": "mattlawer",
+            "contact": "mathieu [at] nowly.co",
+            "mail": "mathieu@nowly.co",
+            "location": "Tours",
+            "sessions": [],
+            "tags": [
+                "Réseaux sociaux",
+                "Entrepreneuriat",
+                "iOS",
+                "Cryptographie",
+                "Reverse engineering"
+            ],
+            "cities": [
+                "Tours"
+            ]
+        },
+        {
+            "name": "Frédéric Cabestre",
+            "bio": "Architecte logiciel, peut-être. Développeur, assurément. Inclassable curieux à large spectre, sans aucun doute. Mais surtout passeur qui aime faire partager ses rares «Eurêka !».",
+            "picture": "img/baggers/fcabestre.png",
+            "twitter": "fcabestre",
+            "contact": "frederic.cabestre@free.fr",
+            "mail": "frederic.cabestre@free.fr",
+            "location": "Ô, Toulouse !",
+            "sessions": [
+                {
+                    "title": "SSL du sol au plafond",
+                    "summary": "Pour beaucoup SSL est un petit cadenas dans un navigateur. Que se cache-t-il derrière ? De l'assemblage cryptographique à la gestion des certificats."
+                },
+                {
+                    "title": "Des acteurs en concurrence",
+                    "summary": "Pourquoi un concept vieux de 40 ans refait-il surface aujourd'hui ? Qu'est-ce qui en fait la force ? Où sont ses faiblesses ? Avec de vraies rasades de «Akka» pour accompagner le plat."
+                },
+                {
+                    "title": "Comment la JVM ramasse-t-elle ses miettes ?",
+                    "summary": "La JVM propose à ses invités la récupération automatique de la mémoire. Quelles sont ses stratégies ? Comment les contrôler et les observer en action ?"
+                }
+            ],
+            "tags": [
+                "SSL",
+                "Akka",
+                "Acteurs",
+                "JVM",
+                "Scala",
+                "Java"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Jean-Philippe Bempel",
+            "bio": "Architecte performance, Je travaille depuis plus de 5 ans sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
+            "picture": "https://lh5.googleusercontent.com/-LTVFWnsuGlY/ThnyQs5VZjI/AAAAAAAABUY/7gQusBbS-1I/s207-p-no/Fifounet1.JPG",
+            "websites": [
+                {
+                    "title": "blog",
+                    "href": "http://jpbempel.blogspot.com"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/jeanphilippebempel"
+                }
+            ],
+            "twitter": "jpbempel",
+            "contact": "jpbempel@ullink.com",
+            "mail": "jpbempel@ullink.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Mesurer directement depuis le CPU: les compteurs de performance",
+                    "summary": "Les CPUs intègrent une unité de mesure de performance (PMU) que l'on peut utiliser pour collecter des données sur l'utilisation des caches (hit/miss) des prédictions de branches, du nombre d'instructions, des cycles, etc. Ces compteurs de performance (HPC) peuvent être accédés en Java grâce à la librairie overseer. Cette présentation montrera comment les mettre en oeuvre avec des exemples de situation où ils sont pertinents pour la compréhension des performances."
+                },
+                {
+                    "title": "Low Latency & Mechanical Sympathy : écueils et solutions",
+                    "summary": "Une application de connexion aux marchés financiers requiert une performance accrue. Le traitement des ordres se mesure en centaines de microsecondes, parfois moins. A partir du moment où l'on descend sous la barre de la milliseconde, on entre dans un domaine où la connaissance du matériel (CPU) et des sous-systèmes mémoire devient prépondérante : Il est nécessaire d'être en harmonie avec le matériel (Mechanical Sympathy). Quels sont les plus gros problèmes pour optimiser un traitement inférieur à la milliseconde ? Cette présentation donnera les clés pour répondre à cette question et un retour d'expérience sur l'application de ces optimisations."
+                },
+                {
+                    "title": "OutOfMemoryException : Quel est le coût des objets en Java",
+                    "summary": "A Ullink, nos Heaps sont habituellement plutôt large (jusqu'à 32 Go) et nous gérons un large volume de données. Mais nous avons observé que la majorité de l'espace occupé dans la Heap ne l'est pas par les données business mais par les structures ! Dans cette présentation il sera montré quel est le coût des objets, quels sont les suspects idéals dans nos structures de données habituelles (Lists, Maps, Strings) et ce que nous pouvons faire pour réduire l'empreinte mémoire."
+                },
+                {
+                    "title": "Programmation Lock-Free : les techniques des pros",
+                    "summary": "La scalabilité des applications est une préoccupation importante. Beaucoup de pertes en scalabilité proviennent de code contenant des locks qui produisent une importante contention en cas de forte charge. Dans cette présentation nous allons aborder différentes techniques (striping, copy-on-write, ring buffer, spinning, ...) qui vont nous permettre de réduire cette contention ou d'obtenir un code sans lock. Nous expliquerons aussi les concepts de Compare-And-Swap et de barrières mémoires."
+                }
+            ],
+            "tags": [
+                "Mechanical sympathy",
+                "CPU",
+                "JIT",
+                "JVM",
+                "Low latency",
+                "Lock-free",
+                "Performance"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Alexis Seigneurin",
+            "bio": "Developer & Tech manager chez Ippon Technologies",
+            "picture": "https://pbs.twimg.com/profile_images/3666338425/cade89a11a849fb81641a12152c52110_400x400.jpeg",
+            "websites": [
+                {"title": "Blog", "href": "http://aseigneurin.github.io"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/pub/alexis-seigneurin/11/8b4/18a"},
+                {"title": "Github", "href": "https://github.com/aseigneurin"}
+            ],
+            "twitter": "aseigneurin",
+            "contact": "alexis [at] seigneurin.com",
+            "mail": "alexis@seigneurin.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Spark, ou comment traiter des données à la vitesse de l’éclair",
+                    "summary": "Spark fait partie de la nouvelle génération de frameworks de manipulation de données basés sur Hadoop. L’outil utilise agressivement la mémoire pour offrir des temps de traitement jusqu’à 100 fois plus rapides qu'Hadoop. Dans cette session, nous découvrirons les principes de traitement de données (notamment MapReduce) et les options mises à disposition pour monter un cluster (Zookeper, Mesos…). Nous ferons un point sur les différents modules proposés par le framework, et notamment sur Spark Streaming pour le traitement de données en flux continu."
+                }, {
+                    "title": "Vagrant pour les développeurs",
+                    "summary": "En tant que développeurs, nous travaillons souvent sur des environnements de développement dont les caractéristiques diffèrent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.<br/>Nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de développement. Nous étudierons tous les mécanismes de base de l'outil : le provisioning, le mode multi-machines, la configuration réseau, les répertoires partagés. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !"
+                }
+            ],
+            "tags": [
+                "Spark", "Vagrant"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Pierre Baillet",
+            "bio": "Devops & Full stack developer at Fotopedia • Mauvais plaisantin mais bon vivant • ",
+            "picture": "https://www.gravatar.com/userimage/7364231/abcb8f5931db676141afd368fb844cc2.jpg?size=250",
+            "websites": [
+                {"title": "Blog", "href": "http://oct.zoy.org"},
+                {"title": "LinkedIn", "href": "https://fr.linkedin.com/in/octplane/"},
+                {"title": "Github", "href": "https://github.com/octplane"}
+            ],
+            "twitter": "octplane",
+            "contact": "pierre [at] baillet.name",
+            "mail": "pierre@baillet.name",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Git pour les nuls",
+                    "summary": "Débutant en SCM ou vétérans de SVN, le contrôle de source est quelque chose qui est cher à votre coeur. Passez à la vitesse supérieure avec Git, le système de contrôle de source décentralisé très déroutant au premier abord. Initiez-vous avec moi, en jouant avec git, son workflow et ses autres joyeusetés. Ne perdez plus de source, jamais !"
+                },
+                {   "title" : "Déploiement rapide, tips and tricks",
+                    "summary" : "Passer sa durée de déploiement de plus de 10 minutes à moins de 80 secondes en rusant. Discutons déploiement ensemble !"
+                },
+                {   "title" : "Des fossés et des trolls",
+                    "summary" : "What is ze devops ? Concept nébuleux ou révolution industrielle ? Comment combler le fossé entre les développeurs et les opérationnels (avec autre choses que des trolls)."
+                }
+            ],
+            "tags": [
+                "Git",
+                "Deployment",
+                "DevOps",
+                "Fabric",
+                "Intégration continue"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Manuel Raynaud",
+            "bio": "@theliaecommerce developer and PHP addict",
+            "picture": "http://www.manuel-raynaud.com/wp-content/uploads/2013/12/manuel.jpg",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/lunika"
+                },
+                {
+                    "title": "Clermont'ech",
+                    "href": "http://clermontech.org"
+                },
+                {
+                    "title": "Site perso",
+                    "href": "http://www.manuel-raynaud.com"
+                }
+            ],
+            "twitter": "manuraynaud",
+            "contact": "raynaud.manu@gmail.com",
+            "mail": "raynaud.manu@gmail.com",
+            "location": "Clermont Ferrand et environs",
+            "sessions": [
+                {
+                    "title": "Thelia, la solution ecommerce libre",
+                    "summary": "Présentation de la solution ecommerce Thelia"
+                },
+                {
+                    "title": "Composants symfony",
+                    "summary": "introduction aux composants HttpKernel, HttpFoundation ou encore EventDispatcher et DependencyInjection"
+                },
+                {
+                    "title": "industrialisation de php",
+                    "summary": "Abandonnez le PHP à papa et modernisez vos méthodes de travail autour de php"
+                }
+            ],
+            "tags": [
+                "PHP",
+                "Symfony2",
+                "e-commerce",
+                "Git"
+            ],
+            "cities": [
+                "Clermont-Ferrand"
+            ]
+        },
+        {
+            "name": "Damien Thouvenin",
+            "bio": "Vieux développeur passé du coté entrepreneur de la force, j'ai créé ma boite en 2004, interviens comme coach agile et continue de coder le week-end tout en explorant les formes alternatives au management hiérarchique",
+            "picture": "https://pbs.twimg.com/profile_images/378800000400466333/f815139c75e19c3d0737b3d922756160_400x400.jpeg",
+            "websites": [
+                {"title": "Mon blog", "href": "http://www.blogdepatron.fr"},
+                { "title": "Ma boite", "href": "http://www.clt-services.com" },
+                { "title": "Agile France (orga)", "href": "http://www.conference-agile.fr" },
+                { "title": "LinkedIn", "href": "http://fr.linkedin.com/in/dthouvenin/fr" },
+                {"title": "Github", "href": "https://github.com/dthouvenin"}
+            ],
+            "twitter": "cltservices",
+            "contact": "d [point] thouvenin [at] clt-services.com ou 06-71-96-27-quatorze",
+            "mail": "d.thouvenin@clt-services.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Il est frais, il est beau mon backlog",
+                    "summary": "Présentation des idées, concepts, outils et pratiques que je trouve les plus utiles pour construire et rafiner son backlog."
+                },
+                {
+                    "title": "Entre le marteau et l'enclume de l'agilité, le manager",
+                    "summary": "L'équipe agile ne vit pas sur une île déserte et celui (celle) qui subit les plus fortes contraintes c'est le manager, à la frontière avec le reste de l'organisation. Discussion autour du rôle et des outils du manager d'équipes agiles."
+                },
+                {
+                    "title": "Jamais en retard, jamais stressé : gérer son temps efficacement",
+                    "summary": "Une bonne gestion du temps c'est 2 jours de formation et deux ans d'exercices mais en 1 heure on peut déjà faire un tour rapide de 10 astuces pour ne plus subir son emploi du temps et regagner en qualité de vie."
+                },
+                {
+                    "title": "Le lean-startup, un modèle pour réduire les risques des projets entrepreneuriaux",
+                    "summary": "L'entrepreneur c'est celui qui croit assez fort à son projet pour se lancer contre les pronostics et les opinions courantes. Cette présentation du Lean Startup s'adresse d'abord aux dirigeants, aux financiers, aux managers... à tous ceux qui lancent, financent, sponsorisent, décident de nouveaux projets."
+                },
+                {
+                    "title": "Faire monter le niveau",
+                    "summary": "*Raising the bar* c'est l'ambition du mouvement 'Software Craftsmanship'. Dans la pratique, comment faire ? Si je suis manager ou Team leader, comment faire monter le niveau technique de mon équipe, comment enclencher une dynamique d'apprentissage, que mettre en place pour faciliter l'amélioration ?"
+                },
+                {
+                    "title": "Découvir la sociocratie",
+                    "summary": "La sociocratie est un mode de distribution du pouvoir dans les organisations humaines qui vise à empêcher que le pouvoir ne devienne une force d'oppression. En une heure on voit ce qu'est la sociocratie et on l'expérimente à petite échelle en prenant une décision sociocratiquement."
+                },
+                {
+                    "title": "Pourquoi la hiérarchie est en échec et quelles sont les alternatives",
+                    "summary": "De plus en plus d'entreprises mettent en doute l'efficacité du management hiérarchique traditionnel (la pyramide). Je vous propose d'explorer pourquoi ça coince et quelles sont les autres options."
+                }
+            ],
+            "tags": [
+                "Agilité",
+                "Management",
+                "Leadership",
+                "RH",
+                "Product Owner",
+                "Craftsmanship",
+                "Entreprise agile",
+                "Sociocratie"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Thomas Arnaud",
+            "bio": "Développeur Java, expert performance applicative.",
+            "picture": "http://www.gravatar.com/avatar/36656f02d742ed98c85c8c80a83fbb41.png?s=200",
+            "websites": [
+                {
+                    "title": "Level5",
+                    "href": "http://www.level5.fr/"
+                },
+                {
+                    "title": "Nudge APM",
+                    "href": "https://www.nudge-apm.com/"
+                }
+            ],
+            "twitter": "level5_c",
+            "contact": "thomas.arnaud@level5.fr",
+            "mail": "thomas.arnaud@level5.fr",
+            "location": "Clermont Ferrand et environs",
+            "sessions": [
+                {
+                    "title": "Cassandra",
+                    "summary": "Découvrez l'une des principales bases NoSQL du marché. Nous évoquerons les spécificités, le fonctionnement et le requêtage avec CQL3."
+                },
+                {
+                    "title": "Storm",
+                    "summary": "Faire du calcul distribué de manière robuste, scalable et tout ça en temps réel c'est maintenant possible. Architecture, design de topologies, implémentation ... découvrez Storm."
+                },
+                {
+                    "title": "Hadoop : Introduction",
+                    "summary": "Hadoop permet de travailler sur des petaoctets de données en des temps records grâce à son architecture distribuée. Découvrez comment cela fonctionne. Au programme : Architecture, HDFS, Map/Reduce ..."
+                },
+                {
+                    "title": "Hadoop: Programmation de jobs",
+                    "summary": "Un aperçu des principales techniques de programmation de jobs Hadoop : Java Map/Reduce, Hive, Pig."
+                },
+                {
+                    "title": "Tests de charge",
+                    "summary": "Métrologie, scénarisation, plan de charge, nous aborderons tous les aspects de l'élaboration d'un test de charge à l'aide de Jmeter."
+                }
+            ],
+            "tags": [
+                "Java",
+                "Performance",
+                "Calcul distrubué",
+                "Hadoop",
+                "Storm",
+                "Cassandra",
+                "NoSQL"
+            ],
+            "cities": [
+                "Clermont-Ferrand"
+            ]
+        } ,
+        {
+            "name": "Laurent Paoletti",
+            "bio": "Développeur indépendant Python/Django, artisan du web depuis maintenant quelques années. Comme tout passioné, j'aime apprendre, discuter de mon métier et partager mon expérience, en organisant ou en participant à différents évènements.",
+            "picture": "img/baggers/laurent_paoletti.jpg",
+            "websites": [
+                {
+                    "title": "Providenz",
+                    "href": "http://www.providenz.fr/"
+                },
+                {
+                    "title": "Profil",
+                    "href": "http://fr.linkedin.com/in/laurentpaoletti"
+                }
+            ],
+            "twitter": "providenz",
+            "contact": "lp at providenz.fr",
+            "mail": "lp@providenz.fr",
+            "location": "Toulon et environs",
+            "sessions": [
+                {
+                    "title": "Performance web",
+                    "summary": "Améliorer les performances de vos applicatifs web en front et backend. Outils d'évaluation et de tests de montée en charge"
+                },
+                {
+                    "title": "Et si votre prochain développement était plus propre et robuste ? Une introduction à Django",
+                    "summary": "Marre des développements lourds, du code spaghetti et inmaintenable ? Laissez-moi vous parler de Django, le framework web utilisé par Instagram, Pinterest, Libération, Autolib, Mozilla et bien d'autres."
+                },
+                {
+                    "title": "Pourquoi passent-ils à python ?",
+                    "summary": "Web, informatique scientifique, traitement de données, administration de serveur, l'adoption de python s'est considérablement accélérée dans de nombreux secteurs, des startups aux banques d'affaires en passant par les centres de recherche scientifique. Une visite rapide de l'écosystème python pour évaluer son intérêt et ses défauts."
+                },
+                {
+                    "title": "La trousse à outil du développement web moderne",
+                    "summary": "En 10 ans le paysage du développement web a été complètement chamboulé. Arrivée du mobile, adoption massive de git, recours aux méthodes agiles, essor de javascript, intégration continue, cloud... On fait le point, un buzzword à la fois, et on cause bonnes pratiques. "
+                }
+
+            ],
+            "tags": [
+                "Python",
+                "Performance",
+                "Web"
+            ],
+            "cities": [
+                "Toulon"
+            ]
+        },
+        {
+            "name": "Olivier ETIENNE",
+            "bio": "Architecte logiciel, mais Développeur avant tout ;). Javaiste de coeur mais ouvert à tout ou presque",
+            "picture": "img/baggers/oetienne.png",
+            "twitter": "olivier_etienne",
+            "contact": "olivier.etienne@gmail.com",
+            "mail": "olivier.etienne@gmail.com",
+            "location": "Toulouse",
+            "sessions": [
+                {
+                    "title": "Des framboises et des tests",
+                    "summary": "Comment utiliser un raspberry pi pour faire des tests automatiques sur la TV d'un grand opérateur téléphonique. Ou comment utiliser un raspberry pi pour faire un bridge IP-InfraRouge et ainsi passer d'une télécommande à Selenium."
+                }
+            ],
+            "tags": [
+                "HTTP",
+                "Java",
+                "Orange",
+                "Raspberry Pi",
+                "Java",
+                "PHP",
+                "Test",
+                "Automatisation"
+            ],
+            "cities": [
+                "Toulouse"
+            ]
+        },
+        {
+            "name": "Augustin de LAVEAUCOUPET",
+            "bio": "Lead Développeur Symfony2, Statupeur et amateur de Raspberry.",
+            "picture": "http://www.gravatar.com/avatar/1374695123503482a838cf9fc9701b21.png?s=200",
+            "websites": [
+                {
+                    "title": "ATC IT",
+                    "href": "http://www.atc.agency/"
+                },
+                {
+                    "title": "Github",
+                    "href": "https://github.com/augustinmerle"
+                }
+            ],
+            "twitter": "augustinmerle",
+            "contact": "augustin@atc-it.fr",
+            "mail": "augustin@laveaucoupet.fr",
+            "location": "Le Mans / Paris",
+            "sessions": [
+                {
+                    "title": "Vagrant sur votre poste de dev comme en Prod",
+                    "summary": "Decouverte de Vagrant et l'utilité d'avoir la meme archi entre  les devs et la prod."
+                },
+                {
+                    "title": "Behat",
+                    "summary": "Devenez un testeur Behat et coller au plus près des specs de votre clients. Simple mais powerfull."
+                },
+                {
+                    "title": "Outils et methodo pour des mises en prod sans sueur",
+                    "summary": "Si vous faite moins de une MEP par semaine, ou que elle prend plus de deux heures alors vous risquer d'aprendre des choses... "
+                },
+                {
+                    "title": "Discussions libre sur la qualité Logiciel",
+                    "summary": "Un truc qui me passionne en se moment on parlera Jenkins, insight et autres."
+                }
+            ],
+            "tags": [
+                "Symfony2",
+                "Performance",
+                "DevOps",
+                "Behat",
+                "Vagrant",
+                "Scrum",
+                "Chef",
+                "Apple",
+                "Debian",
+                "Proxmox"
+            ],
+            "cities": [
+                "Le Mans",
+                "Paris"
+            ]
+        },
+        {
+            "name": "Xavier Carpentier",
+            "bio": "Full stack web & mobile apps developer. Xavier est développeur depuis 7 ans et il est maintenant indépendant dans les domaines du web et du mobile. C’est un adepte des frameworks conventionnés (Play Scala et Ruby On Rails) ainsi que des innovations côté client comme les nouveaux frameworks MVC JavaScript du type AngularJS. Bref, il se passionne pour tout ce qui gravite autour du vaste monde de la toile et par conséquent pour le style d’architecture Rest.",
+            "picture": "https://fr.gravatar.com/userimage/14646520/4f4940b2bdbc85918a045429e92fc118.jpg?size=250",
+            "websites": [
+                {
+                    "title": "Site",
+                    "href": "http://xaviercarpentier.com/"
+                },
+                {
+                    "title": "Blog personnel",
+                    "href": "http://blog.xavier-carpentier.com/"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/xcarpentier"
+                }
+            ],
+            "twitter": "xcapetir",
+            "contact": "contact [at] xavier-carpentier.com",
+            "mail": "contact@xavier-carpentier.com",
+            "location": "Strasbourg",
+            "sessions": [{
+                "title": "#ReSTFul, really ?",
+                "summary": "Tout le monde dit faire ou vouloir faire une architecture de type Rest, mais que cela implique-t-il vraiment ? Où vous situez-vous sur le “Richardson Maturity Model” ? Votre API est à la fois Hypermedia et JSON, really ? Si ce sont des questions qui vous taraudent l’esprit et même vous empêchent de dormir, alors venez écouter ce talk pour avoir des pistes de réflexions, des échanges et peut-être des réponses, qui sait ?"
+            }],
+            "tags": ["REST", "API", "HTTP"],
+            "cities": ["Strasbourg", "Paris"]
+        },
+        {
+            "name": "Johan Martinsson",
+            "bio": "Passionné par le code et le travail bien fait, Johan en tant que développeur montre par l'exemple comment produire du bon code et livrer de manière fiable, dans une harmonie totale avec le métier. Il a une attirance non négligeable pour les problèmes concrets du quotidien, c'est sans doute pourquoi il s'intéresse tant au legacy.",
+            "picture": "http://www.gravatar.com/avatar/3771a70b46d12cb049e7be561ae69116.png",
+            "websites": [
+                {
+                    "title": "Blog personnel",
+                    "href": "http://martinsson-johan.blogspot.fr/"
+                },
+                {
+                    "title": "Ma Boite",
+                    "href": "http://www.changit.fr/"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/martinsson/"
+                }
+            ],
+            "twitter": "johan_alps",
+            "contact": "06630866-cinquante-trois",
+            "mail": "martinsson.johan@gmail.com",
+            "location": "Grenoble",
+            "sessions": [{
+                    "title": "La valeur du bon code pour les non-devs",
+                    "summary": "La valeur métier du bon code est difficile à appréhender, même parfois pour les développeurs. Comment pouvons-nous espérer qu'on nous demande d'en faire? Dans ce démo je rend compréhensible aux non techniques la valeur que leur apporte un code en bon état. Dans ce démo il parait aussi comme une évidence que pour passer d'un mauvaise état à un bon état il n'est pas tellement une question d'allouer du temps sur le moment, mais d'avoir de l'entrainement."
+                },
+                {
+                    "title": "Refactorer legacy - même pas peur",
+                    "summary": "Pour refactorer du legacy on aimerait avoir des tests, mais ils sont tellement difficiles/longs à écrire. De plus on a choix cornélien entre tests haut niveau avec un feedback lent et les tests unitaires qui vont trop adhérer au code et ne pas permettre certains refactorings. Une alternative est d'écrire des tets temporaires taillés pour le refactoring. Le fait qu'ils soient temporaires rend l'écriture extremement rapide.... Pas de Hello World, la démo se fera sur un exemple avec plusieurs dépendances non testables. Du vrai quoi!"
+                },
+                {
+                    "title": "Développeurs anonymes",
+                    "summary": "Démo de refactoring. Introduire de l'objet efficacement dans un legacy infame."
+                },
+
+                {
+                    "title": "La pyramide des tests - d'oú sort il?",
+                    "summary": "Mike Cohn a dit qu'il fallait beacoup de tests bas niveau et peu de tests haut niveau. Quand est-ce que c'est vrai? Quand dois-je penser à apprendre à faire des tests 'unitaires' pour ne pas écrouler ma productivité avec une maintenance lourde des tests haut niveau? Une analyse basé sur deux expéreinces diamétralement opposées."
+                }
+            ],
+            "tags": ["Legacy Code", "Test", "TDD", "Extreme Programming", "ApprovalTests", "Refactoring", "Live Coding", "Agile"],
+            "cities": ["Grenoble"]
+        },
+        {
+            "name": "Florian Chauveau",
+            "bio": "Code-Troopers, développeur JAVA/Android (entre autres), très attaché aux pratiques agiles, Florian n'hésite pas à remettre en cause les processus pour trouver les meilleurs moyens de fonctionner en équipe.",
+            "picture": "http://www.gravatar.com/avatar/962a60aa8554d933233ae2de56224d06.png?s=240",
+            "websites": [
+                {"title": "Code-Troopers", "href": "http://code-troopers.com"},
+                {"title": "LinkedIn", "href": "https://www.linkedin.com/pub/florian-chauveau/96/1a5/528"}
+            ],
+            "twitter": "FlorianChauveau",
+            "mail": "f.chauveau+bbl [at] code-troopers [dot] com",
+            "location": "Tours",
+            "sessions": [{
+					"title": "Perfection Games - Comment résoudre ses problèmes avec des post-its",
+                    "summary": "Exemple d'utilisation de plusieurs Perfection Games ainsi que les bénéfices attendus via un retour d'expérience sur leur pratiques récurrentes et régulières lors de rétrospectives."
+                }
+            ],
+            "tags": ["Agile", "Agilité", "Perfection Games", "Amélioration Continue", "Rétrospectives"],
+            "cities": ["Tours"]
+        },
+        {
+            "name": "Leonardo Noleto",
+            "bio": "Data Scientist Freelance et business geek. J'utilise l'informatique et les données pour rendre la vie des utilisateurs plus facile et confortable (et la mienne d'abord, il faut bien tester avant non ?). Mes passions: Machine Learning, Java/Python/R, Vélo en libre service, les TEDx et les startups.",
+            "picture": "img/baggers/leonardo-noleto-avatar.jpg",
+            "websites": [
+                {"title": "LinkedIn", "href": "http://fr.linkedin.com/pub/leonardo-noleto/63/70b/820"}
+            ],
+            "twitter": "leonardo_noleto",
+            "mail": "noleto.leonardo [at] gmail [dot] com",
+            "location": "Toulouse et Agglomération. Ailleurs selon déplacements",
+            "sessions": [{
+                    "title": "Transformez vos logs en insights avec ELK",
+                    "summary": "Les logs sont une mine d’informations. Cependant, les transformer en métriques faciles à comprendre peut s'avérer une tâche ardue : chaque application a une structure de log différente, elles sont souvent décentralisées, les formats de timestamp sont divers et variés et les analyser nécessite souvent une expertise technique.  Avec la stack ELK -  ElasticSearch, Logstash et Kibana,  je vous montrerai que faire parler vos logs n'est plus qu'un jeu d'enfant !"
+                },
+                {
+                    "title" : "Anomaly Detection (a.k.a outlier detection)",
+                    "summary" : "Vous aimez jouer au détective ? Résoudre des affaires mystérieuses ? Cette présentation est faite pour vous : repérez les données inhabituelles, attrapez les fraudes, découvrez les intrus ! Je vous ferai un tour d’horizon des concepts et techniques pour détecter des anomalies dans un jeux de données. Des méthodes statistiques au machine learning nous allons voir quelques algorithmes et use cases. Alors, élémentaire, mon cher Watson ?"
+                }
+            ],
+            "tags": ["Machine learning", "Data Mining", "Kibana", "Big Data", "Valorisation données", "Métriques Business", "NoSQL"],
+            "cities": ["Toulouse"]
+        },
+        {
+            "name": "Julien Dubois",
+            "bio": "Directeur de l'innovation chez Ippon Technologies, expert Spring et Java",
+            "picture": "http://gravatar.com/avatar/e7689b738601c9b2f1d66cd2622f517e?s=256",
+            "websites": [
+                {
+                    "title": "Site personnel",
+                    "href": "http://www.julien-dubois.com/"
+                },
+                {
+                    "title": "JHipster",
+                    "href": "http://jhipster.github.io/"
+                }
+            ],
+            "twitter": "juliendubois",
+            "contact": "julien.dubois@gmail.com",
+            "mail": "julien.dubois@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "JHipster, comment générer rapidement une application Web moderne avec Spring Boot + AngularJS",
+                    "summary": "JHipster est un générateur d'applications Spring Boot + AngularJS très populaire. Cette session consiste en une présentation rapide de l'outil, puis en un live coding d'environ 45 minutes permettant de voir la génération d'une application, sa modification, l'utilisation de l'outillage fourni, les bonnes pratiques proposées, pour terminer par un déployement dans le cloud."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Java",
+                "JavaScript",
+                "Spring",
+                "AngularJS",
+                "Yeoman"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+			    "name": "Timothée Chevrier",
+			    "bio": "Agiliste passionné avant tout. Scrum master, chef de projet, un peu développeur... Je suis un optimiste passioné par l'apprentissage collectif. Je m'intéresse aux sujets tournant autour de l'agilité bien sûr mais plus largement des mouvements proches : l'entreprise libérée, le leadership, le coaching, l'intelligence collective, le bien être au travail, le management 3.0, etc... ",
+			    "picture": "https://fr.gravatar.com/userimage/41876697/9b8e38d7e6ae9ff3bdce48c510ad822c.jpg?size=200",
+			    "websites": [
+			    ],
+			    "twitter": "msieur_tim",
+			    "contact": "tchevrier@gmail.com",
+			    "mail": "tchevrier@gmail.com",
+			    "location": "Rennes et grand ouest pourquoi pas",
+			    "sessions": [
+			        {
+			            "title": "Après les user stories, les team stories",
+			            "summary": "Session d'1H réalisée à l'agile tour Brest. Il s'agit d'un retour d'expérience sur un passage de 3 ans en tant que Scrum master dans une équipe. J'y parle estimations, rétrospectives, management visuel, auto organisation. Et j'ai quelques bonus en tête (spécifications par les tests d'acceptances, etc...)"
+			        },
+			        {
+			            "title": "Animation d'ateliers et/ou de jeux",
+			            "summary": "A travers l'exercice de rétrospective proposer par la méthode Scrum, j'ai eu l'occasion d'animer un grand nombre d'ateliers dans des buts variés. Je me propose donc comme facilitateur de vos ateliers pour découvrir comment se réunir différement."
+			        },
+			        {
+			            "title": "L'agilité c'est quoi ?",
+			            "summary": "Vous avez entendu parlé d'agilité et le sujet vous intéresse. Je vous propose de partager ma vision de ce qu'elle est, et de construire ensemble ce qu'elle pourrait être pour vous."
+			        }
+			    ],
+			    "tags": [
+			        "Agile",
+			        "Scrum",
+			        "Auto-organisation",
+			        "Serious Game",
+			        "Rétrospectives",
+			        "Echanges"
+			    ],
+			    "cities": [
+			        "Rennes"
+			    ]
+        },
+        {
+            "name": "Christophe Labouisse",
+            "bio": "Développeur Java Freelance qui aime mettre les mains dans le moteur. ",
+            "picture": "http://www.gravatar.com/avatar/5a9a33e6c0397ed112a7c955728f3a1f.png?s=240",
+            "websites": [
+                {
+                    "title": "Blog",
+                    "href": "http://www.labouisse.com"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/clabouisse/"
+                },
+                {
+                    "title": "Viadeo",
+                    "href": "http://www.viadeo.com/profile/00224q6ti6d57zay/"
+                },
+                {
+                    "title": "Hopwork",
+                    "href": "https://www.hopwork.com/profile/51d057032a07e9483ddedfc7"
+                }
+            ],
+            "twitter": "XtlCnslt",
+            "mail": "consulting@labouisse.com",
+            "location": "Bordeaux",
+            "sessions": [
+                {
+                    "title": "Introduction à Docker",
+                    "summary": "Qu'est-ce que Docker ? Qu'est-ce que l'utilisation de Docker peut m'apporter concrètement ? Pour répondre à ces questions et à d'autres, une présentation de Docker avec des morceaux de livecoding dedans."
+                },
+                {
+                    "title": "Git pour les nuls et les autres",
+                    "summary": "Présentation de Git, des différences par rapport à d'autres systèmes tels que Subversion, de son écosystème."
+                }
+            ],
+            "tags": [
+                "Git",
+                "Docker"
+            ],
+            "cities": [
+                "Bordeaux"
+            ]
+        },
+        {
+            "name": "Julien Roy",
+            "bio": "Architecte Java chez Ekino",
+            "picture": "http://www.gravatar.com/avatar/858275282cf240a0dd280a13fbd0f942?s=256",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/vanroy?tab=repositories"
+                },
+                {
+                    "title": "Ekino",
+                    "href": "http://www.ekino.com/"
+                }
+            ],
+            "twitter": "vanr0y",
+            "contact": "roy@ekino.com",
+            "mail": "roy@ekino.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Spring Boot, améliorer votre productivité en 1 heure",
+                    "summary": "Découvrez les arcanes interne de Spring Boot et comment utiliser le framework pour augmenter votre productivité. Cette session débutera par 15 minutes de présentation suivi de 45 minutes de live coding. Je développerai une application Web constituée d'une WebService, d'une UI, d'un stockage MongoDB et d'outillages de production. Je terminerai par le déploiement de l'application dans le cloud."
+                }
+            ],
+            "tags": [
+                "Code",
+                "Java",
+                "Spring",
+                "Spring Boot",
+                "Productivité"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Boris Feld",
+            "bio": "Développeur backend (Python, ZeroMQ, MongoDB) passionné par les architectures web, la culture DevOps et la qualité",
+            "picture": "http://www.gravatar.com/avatar/410e3353165c33043ab69be7fc366428.jpg?s=256",
+            "websites": [
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/lothiraldan/"
+                }
+            ],
+            "twitter": "lothiraldan",
+            "contact": "lothiraldan [at] gmail.com",
+            "mail": "lothiraldan@gmail.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Architecture micro-services",
+                    "summary": "Qu'est-ce qu'une architecture micro-service, ses avantages, ses inconvénients, comment la mettre en place."
+                },
+                {
+                    "title": "Modèle de donnée NoSQL",
+                    "summary": "Quand le modèle relationnel ne suffit plus, le NoSQL peut vous aider. Exemples de modélisations avec MongoDB."
+                },
+                {
+                    "title": "Elastic Search côté admin",
+                    "summary": "ElasticSearch est presque magique mais il est utile de savoir comment ça marche, comment ça scale, que faut-il surveiller?"
+                },
+                {
+                    "title": "Ils sont beaux mes tests",
+                    "summary": "Faire des tests c'est bien, faire de bons/beaux tests automatisés c'est mieux, des conseils tout droit venus des tranchées"
+                }
+            ],
+            "tags": [
+                "Python",
+                "ZeroMQ",
+                "NoSQL",
+                "ElasticSearch",
+                "MongoDB",
+                "Micro-Services",
+                "Test"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Thomas Zilliox",
+            "bio": "Développeur web indépendant, spécialisé dans la mise en place de bonnes pratiques CSS & JavaScript.",
+            "picture": "http://www.gravatar.com/avatar/ce82bc828376d978362c1e905b8ea32c?s=256",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "https://fr.linkedin.com/in/thomaszilliox"
+		},
+                {
+                    "title": "Blog",
+                    "href": "http://tzi.fr"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/tzi/"
+                }
+            ],
+            "twitter": "iamtzi",
+            "contact": "hello [at] tzi.fr",
+            "mail": "hello@tzi.fr",
+            "location": "Lyon",
+            "sessions": [
+                {
+                    "title": "Organiser son code JavaScript",
+                    "summary": "Des modèles clé-en-main pour écrire du JavaScript modulaire, avec et sans jQuery."
+                },
+                {
+                    "title": "Des CSS explicites grâce à BEM",
+                    "summary": "Des astuces pour mettre en place BEM et profiter de tous ses avantages."
+                },
+                {
+                    "title": "Combien vous coûte vraiment le support IE7",
+                    "summary": "Une méthode pour évaluer le coût de support d'un ancien navigateur, et partager cette vision avec un décideur non-technique."
+                }
+            ],
+            "tags": [
+                "CSS",
+                "BEM",
+                "Sass",
+                "Less",
+                "JavaScript",
+                "PHP"
+            ],
+            "cities": [
+                "Lyon"
+            ]
+        },
+        {
+            "name": "Thomas Gratier",
+            "bio": "Passionné de cartographie, d'OpenData et de Web. Consultant SIG/cartographie/géomatique indépendant spécialisé dans les outils OpenSource géospatiaux.",
+            "picture": "http://webgeodatavore.net/theme/images/logos/logo_webgeodatavore.png",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "http://fr.linkedin.com/in/thomasgratier/"
+        },
+                {
+                    "title": "Blog",
+                    "href": "http://webgeodatavore.net/articles.html"
+                },
+                {
+                    "title": "GitHub",
+                    "href": "https://github.com/thomasg77/"
+                }
+            ],
+            "twitter": "thomasg77",
+            "contact": "contact [at] webgeodatavore.com",
+            "mail": "contact@webgeodatavore.com",
+            "location": "Nantes et alentours",
+            "sessions": [
+                {
+                    "title": "Faire des cartes en ligne: quelles solutions pour quel(s) besoin(s)?",
+                    "summary": "Une revue d'une infrastructure classqieu pour créer des cartes en ligne puis un aperçu des outils clients et serveurs pour ce besoin."
+                },
+                {
+                    "title": "OpenData et OpenStreetMap: comment les exploiter, comment contribuer?",
+                    "summary": "Historique de l'OpenData, revue des opportunités et limites du phénomène, usages potentiels."
+                },
+                {
+                    "title": "Utiliser l'écosystème Github",
+                    "summary": "Github, c'est une infrastructure basée sur Git facilitant la collaboration par le code mais quels sont les autres usages possible? Une petite revue des usages potentiels."
+                },
+                {
+                    "title": "Les outils pour créer de la documentation utilisateur",
+                    "summary": "Il existe de nombreux outils pour documenter du code mais par où commencer pour produire sa documentation? Nous nous proposons de vous donner quelques pistes avec Sphinx, Gitbook et d'autres encore."
+                }
+
+            ],
+            "tags": [
+                "Cartographie",
+                "SIG",
+                "JavaScript",
+                "Git",
+                "Python",
+                "OpenStreetMap",
+                "OSM",
+                "OpenData",
+                "Documentation"
+            ],
+            "cities": [
+                "Nantes"
+            ]
+        },
+        {
+		"name": "Sébastien Brochet",
+		"bio": "Mi-Dev, mi-Ops, Consulting CTO & Founder @ Cloudenza, j'aide les entreprises à améliorer leurs processus",
+		"picture": "https://s.gravatar.com/avatar/9080bb346b547fd66c136e4f11d9cfaf?s=200",
+		"websites": [
+			{
+				"title": "Cloudenza",
+				"href": "http://cloudenza.com/"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/sebbrochet/"
+			},
+			{
+				 "title": "BLOG",
+				 "href": "http://blog.sebbrochet.com"
+			},
+			{
+		             "title": "LinkedIn",
+		             "href": "https://www.linkedin.com/in/sebastienbrochet"
+		        }
+		],
+		"twitter": "sebbrochet",
+		"contact": "sebastien [at] cloudenza.com",
+		"mail": "sebastien@cloudenza.com",
+		"location": "Paris et RP",
+		"sessions": [
+			{
+				"title": "Introduction aux pratiques DevOps",
+				"summary": "Ou comment mieux aligner les Dev et les Ops pour répondre aux besoins Métiers. Le DevOps, c'est le prolongement de l'Agilité aux Ops, je vous propose un panorama des pratiques pour y arriver dans de bonnes conditions !"
+			}
+		],
+		"tags": [
+			"DevOps",
+			"CTO",
+			"Python",
+			"Django"
+		],
+		"cities": [
+			"Paris"
+		]
+      },
+        {
+		"name": "Cédric Lombardot",
+		"bio": "Développeur Web Full Stack - AngularJS - Mobile IonicFramework - Symfony - Lean Startup & Entrepreneur",
+		"picture": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_bigprofile/h0w8ma1bqz9eqotrbcoi.jpg",
+		"websites": [
+			{
+				"title": "DonkeyCode",
+				"href": "http://donkeycode.com"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/cedriclombardot/"
+			},
+			{
+		         "title": "LinkedIn",
+		         "href": "https://fr.linkedin.com/pub/cédric-lombardot/23/110/217"
+		    }
+		],
+		"twitter": "cedriclombardot",
+		"contact": "cedric [at] donkeycode.com",
+		"mail": "cedric@donkeycode.com",
+		"location": "Paris et RP",
+		"sessions": [
+			{
+				"title": "Introduction au LeanStartup",
+				"summary": "Comprenez que signifie démarrez une entreprise en applicant à la lettre le modèle lean. Et comment peut on appliquer certains de ces principes en entreprise"
+			},
+			{
+				"title": "Ionicframework : Ma première application",
+				"summary": "Affranchissons nous des problèmes du développement hybride sur mobile"
+			},
+			{
+				"title": "Symfony2 : Admingenerator",
+				"summary": "Présentation du bundle symfony2admingenerator/GeneratorBundle - ou comment créer une admin en 20 minutes"
+			}
+		],
+		"tags": [
+			"Symfony",
+			"AngularJS",
+			"PHP",
+			"Agile",
+			"Sass",
+			"jQuery",
+			"Git",
+			"Apache",
+			"Cucumber",
+			"Cordova",
+			"Capistrano",
+			"Symfony2",
+			"Ionic",
+			"Lean Startup"
+		],
+		"cities": [
+			"Paris"
+		]
+      },
+      {
+		"name": "Gilles Debunne",
+		"bio": "Freelance Full Stack spécialisé UX - Desktop, Web, Mobile - Lean Startup & Entrepreneur",
+		"picture": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_bigprofile/etn9it6jsyy2cqaiwbll.jpg",
+		"websites": [
+			{
+				"title": "Blog",
+				"href": "http://gillesdebunne.github.io/"
+			},
+			{
+				 "title": "GitHub",
+				 "href": "https://github.com/GillesDebunne"
+			},
+			{
+		         "title": "HopWork",
+		         "href": "https://www.hopwork.com/profile/gillesdebunne"
+		    }
+		],
+		"twitter": "gdebunne",
+		"contact": "gilles . debunne [at] gmail",
+		"mail": "gilles.debunne@gmail.com",
+		"location": "Toulouse et télé-travail",
+		"sessions": [
+			{
+				"title": "Introduction à l'interface sur mobile",
+				"summary": "Les spécificités de l'interface et de l'interaction sur mobile"
+			},
+			{
+				"title": "8 millions de téléchargements sur l'app store",
+				"summary": "L'aventure de ma première et unique application iOS. Qui a bêtement cartonné"
+			},
+			{
+				"title": "Angular : Tour d'horizon ou discussion approfondie",
+				"summary": "Choississez votre sujet, du plus général à la discussion sur un point de détail"
+			},
+			{
+				"title": "Ionic : du mobile en HTML ?",
+				"summary": "Le développement hybride sur mobile est-il viable ?"
+			}
+		],
+		"tags": [
+			"Expérience utilisateur",
+			"UI",
+			"Mobile",
+			"Cocos2D",
+			"AngularJS",
+			"Ionic",
+			"Git",
+			"Agile",
+			"Lean Startup"
+		],
+		"cities": [
+			"Toulouse"
+		]
+      },
+       {
+            "name": "Adrien Joly",
+            "bio": "Développeur indépendant d'applications web. Expert Javascript et Node.js. Mentor de développeurs junior à fort potentiel. 4 ans d'expérience comme lead dev de <a href='http://whyd.com/' target='_blank'>Whyd</a> (startup parisienne). Fan de Trello. Passions du moment: aider les futurs CEOs à rencontrer leur associé et de bootstrapper efficacement, et aider les futurs CTOs à tester les atouts des CEOs qui viennent les draguer.",
+            "picture": "http://adrienjoly.com/img/adrienjoly2014_2.jpg",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "https://www.linkedin.com/in/adrienjoly/"
+                },
+                {
+                    "title": "Home page",
+                    "href" : "http://adrienjoly.com/"
+                }
+            ],
+            "twitter": "adrienjoly",
+            "contact": "contact@adrienjoly.com",
+            "mail": "contact@adrienjoly.com",
+            "location": "Montreuil / Paris",
+            "sessions": [
+                {
+                    "title": "Comment devenir CTO, en évitant les erreurs de débutant",
+                    "summary": "Après 4 ans comme lead developer dans une startup web parisienne, je propose de venir partager un retour d'expérience sur cette aventure, et des conseils pratiques sur: comment reconnaitre un bon associé d'un incompétent, comment éviter de développer un service voué à l'échec, comment obtenir la confiance de son associé pour les choix technologiques et les délais de développement."
+                }
+            ],
+            "tags": [
+                "Javascript",
+                "Lean Startup",
+                "Bootstrapping",
+                "CEO",
+                "CTO",
+                "Trello"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+         {
+            "name": "Vincent Daviet",
+            "bio": "Coach et Formateur en Agilité",
+            "picture": "https://www.gravatar.com/userimage/47384013/2c0dbef602396d93de9ed73849805cc3?size=240",
+            "websites": [
+                {
+                    "title": "Blog professionnel",
+                    "href": "https://babagile.wordpress.com"
+                },
+                {
+                    "title": "Blog Zenika",
+                    "href": "https://blog.zenika.com"
+                }
+            ],
+            "twitter": "vincentdaviet",
+            "contact": "vincent.daviet.pro@gmail.com",
+            "mail": "vincent.daviet.pro@gmail.com",
+            "location": "Lyon",
+            "sessions": [
+                
+                {
+                    "title": "Découverte de l'agilité",
+                    "summary": "Découvrez comment vous pouvez devenir plus agile, à travers un atelier concret et non technique. Fondamentaux d'une transition agile : collaboration, découpage du besoin, valeur métier, définition des priorités, planification agile, approche itérative et incrémentale."
+                },
+                {
+                    "title": "Boostez vos réunions",
+                    "summary": "Découvrez et expérimentez de nouvelles techniques innovantes pour améliorer la productivité et le cadre de travail de vos réunions : devenez un facilitateur d'excellence !"
+                },
+                {
+                    "title": "Découverte de la facilitation graphique",
+                    "summary": "Initiez-vous à cette nouvelle technique de facilitation de réunion. Aucun pré-requis, ré-utilisable dans une multitude de contextes."
+                },
+                {
+                    "title": "Externalisation d'un projet agile : retour d'expérience et réflexions",
+                    "summary": "Présentation condensée d'une externalisation agile réussie avec ses diffcultés, ses trucs et astuces, son cheminement, les différents points de vue client/agence/équipe de développement. "
+                },
+                {
+                    "title": "Libérer mon entreprise : comment faire ?",
+                    "summary": "Retour d'expérience et poursuite des réflexions grâce à des techniques de coaching, de facilitation, et un canevas sur-mesure."
+                },
+                {
+                    "title": "Libérer les collaborateurs avec le délégation poker",
+                    "summary": "Expérimentez 1 outil puissant du manager agile (issus de Management 3.0 de Jurgen Apello) sur des cas concrets. Nous travaillerons sur les différents niveaux de la délégation (Delegation Poker) et de ses impacts."
+                },
+                {
+                    "title": "Collaborer... et si on improvisait ",
+                    "summary": "Expérimentons des petits jeux simples issus du théâtre d’improvisation, et accessibles à tous. Nous redécouvrons ainsi les mécanismes d’une collaboration efficace : écoute, confiance, adaptation, esprit d’équipe, but commun."
+                },
+                {
+                    "title": "Concevoir un événement / séminaire pour petit comité ou large groupe ",
+                    "summary": "Réflexion à l'aide d'un canevas éprouvé et de mes expériences d'organisations d'événements intra-entreprise ou publics."
+                }
+            ],
+            "tags": [
+                "Coaching",
+                "Facilitation",
+                "Facilitation graphique",
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Innovation Games",
+                "Jeux Agiles",
+                "Externalisation",
+                "Improvisation",
+                "Team Building",
+                "Entreprise libérée"
+            ],
+            "cities": [
+                "Lyon"
+            ]
+        },
+                {
+                     "name": "Eric Meallier",
+                     "bio": "Expert Java JEE. Agiliste et Devops jedi",
+                     "picture": "https://www.meallier.fr/PhotoIdentiteEric.2015.png",
+                     "websites": [
+                         {
+                             "title": "Linkedin",
+                             "href": "https://fr.linkedin.com/in/ericmeallier"
+                         },
+                         {
+                             "title": "Home page",
+                             "href" : "http://meallier.fr"
+                         }
+                     ],
+                     "twitter": "ericmeallier",
+                     "contact": "eric@meallier.fr",
+                     "mail": "eric@meallier.fr",
+                     "location": "Avignon, Aix-en-Provence, Montpellier, Orange",
+                     "sessions": [
+                         {
+                             "title": "Docker, encore un buzzword ou réel concept ?",
+                             "summary": "Vous vous demandez qui ce petit nouveau qui fait tant parler de lui ? alors n'attendez plus: demandez le guide ! Au cours de la session, j'expliquerai les nouveaux et anciens concepts mais surtout les nouveaux outils et ce qu'il peuvent apporter tant aux développeurs, qu'aux gestionnaires d'infra. Efficacité, simplicité, productivité."
+                         }
+                     ],
+                     "tags": [
+                         "Java",
+                         "JBoss",
+                         "Docker",
+                         "Devops",
+                         "J2EE",
+                         "Agilite"
+                     ],
+                     "cities": [
+                         "Avignon"
+                     ]
+                 }
     ],
     "cities": [
+        {
+            "name": "Tours",
+            "ville_img": "img/villes/BBL_Tours.jpg",
+            "lat": 47.396651,
+            "lng": 0.694286
+        },
         {
             "name": "Paris",
             "ville_img": "img/villes/BBL.jpg",
@@ -4280,10 +6509,28 @@ var data = {
             "lng": 7.055222
         },
         {
-            "name": "Nancy",
+            "name": "Toulon",
+            "ville_img": "img/villes/BBL_Toulon.jpg",
+            "lat": 43.117,
+            "lng": 5.9333
+        },
+        {
+            "name": "Le Mans",
+            "ville_img": "img/villes/BBL_leMans.jpg",
+            "lat": 47.995084,
+            "lng": 0.188359
+        },
+        {
+            "name": "Strasbourg",
             "ville_img": "",
-            "lat": 48.692054,
-            "lng": 6.184417
+            "lat": 48.583148,
+            "lng": 7.747882
+        },
+        {
+            "name": "Avignon",
+            "ville_img": "img/villes/BBL_Avignon.jpg",
+            "lat": 43.941557,
+            "lng": 4.8332525
         }
     ]
 };

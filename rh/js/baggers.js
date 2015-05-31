@@ -1,9 +1,178 @@
 var data = {
     "baggers": [
+             {
+            "name": "Carole Blancot",
+            "bio": "Psychosociologue clinicienne & Directrice conseil de SpotPink, agence de communication digitale",
+            "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANKAAAAJDdhYWRkYjI3LTZkMDAtNDBkOS1iNzhjLWE0OWI2NjEzMDJlMg.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/caroleblancot"
+                },
+                {
+                    "title": "Site web",
+                    "href": "http://www.spotpink.com"
+                },
+                {
+                    "title": "Site web",
+                    "href": "http://gestionpaiegrhquichoisir.com/"
+                }
+            ],
+            "twitter": "caroleblancot",
+            "contact": "carole.blancot@spotpink.com",
+            "mail": "carole.blancot@spotpink.com",
+            "location": "Paris",
+            "sessions": [
+                {
+                    "title": "Conseil en stratégie de web-marketing digitale ",
+                    "summary": "Comment élaborer et déployer une stratégie digitale pour améliorer la visibilité, notoriété, réputation d’une marque et/ou d’un individu."
+                },
+                {
+                    "title": "Production/diffusion de contenu",
+                    "summary": "Production de contenu en marque blanche, grise ou noire. Blogging sponsorisé et externalisé. Bookmarking ciblé."
+                },
+                {
+                    "title": "Community Management RH",
+                    "summary": "Animation éditoriale et développement des comptes digitaux, veille concurrentielle et sectorielle, optimisation des ratios, du référencement naturel, de la visibilité et de l’e-réputation."
+                },
+                {
+                    "title": "Prévention des RPS du numérique et détox digitale",
+                    "summary": "Identifier les zones de risques et les individus exposés, prévenir la survenue de dysfonctionnements liés à une sur-exposition, à une hyper-connectivité ou à un mauvais usage des outils collaboratifs."
+                }
+            ],
+            "tags": [
+                "Web-marketing",
+                "Community Management",
+                "Numérique"
+            ],
+            "cities": [
+                "Paris"
+            ]
+        },
+        {
+            "name": "Pauline Tabet-Canova",
+            "bio": "Consultante en recrutement, plus de 16 ans d’expériences en Suisse romande",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/005/091/3ae/1b2a077.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://www.linkedin.com/pub/pauline-tabet-canova/7/169/5a9"
+                },
+                {
+                    "title": "Site web",
+                    "href": "www.pme-emploi.ch"
+                },
+                {
+                    "title": "Blog",
+                    "href": "http://www.pme-emploi.ch/fr/blog.php"
+                }
+            ],
+            "twitter": "PMEemploi",
+            "contact": "tabet@ptc-rh.ch",
+            "mail": "tabet@ptc-rh.ch",
+            "location": "Genève, Nyon, Lausanne",
+            "sessions": [
+                {
+                    "title": "Préparer et conduire un entretien de recrutement",
+                    "summary": "Conduire un entretien de recrutement ne s’improvise pas ! Il doit être préparé et structuré pour laisser place à l’écoute et à l’échange."
+                },
+                {
+                    "title": "Optimiser son processus de recrutement",
+                    "summary": "Survol des outils, solutions, techniques et coûts pour un recrutement professionnel et efficace"
+                },
+                {
+                    "title": "Rédiger une offre d’emploi efficace",
+                    "summary": "Rédaction et diffusion d’une offre d’emploi"
+                },
+                {
+                    "title": "La recherche de candidats",
+                    "summary": "Survol des techniques et outils"
+                }
+            ],
+            "tags": [
+                "Recrutement",
+                "Entretiens",
+                "Sourcing"
+            ],
+            "cities": [
+                "Genève","Nyon","Lausanne"
+            ]
+        },
+        {
+            "name": "Cécilia Bossard",
+            "bio": "Développeuse, Scrum Master, Coach et formatrice agile. Membre de l'association Agile Nantes et du groupe Women In Technology sur Nantes",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/091/25a/1329194.jpg",
+            "websites": [
+                {
+                    "title": "Site web",
+                    "href": "http://javagile.wordpress.com"
+                }
+            ],
+            "twitter": "ceciliaBossard",
+            "contact": "cecilia.bossard@gmail.com",
+            "mail": "cecilia.bossard@gmail.com",
+            "location": "Nantes",
+            "sessions": [
+                {
+                    "title": "Et la diversité dans tout ça ?",
+                    "summary": "On entend beaucoup parler en ce moment du besoin d’avoir plus de femmes dans les métiers du numérique. Mais la diversité ne s’arrête pas là. Qu'est ce qu’on entend par diversité ? Qu'est ce que ça peut apporter à mon équipe, mon entreprise ? Quelles sont les bonnes pratiques ? Je tenterai de répondre à ces questions lors de cette présentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de réflexions sur ce débat."
+                },
+                {
+                    "title": "Introduction à l'agilité",
+                    "summary": "L'agilité est un mot très à la mode en ce moment. Mais qu'est ce qu'on entend exactement par là ?"
+                },
+                {
+                    "title": "Serious game agile",
+                    "summary": "De petits ateliers de 'team-building' ou de différents concepts agiles. "
+                }
+            ],
+            "tags": [
+                "Agilité",
+                "Diversité",
+                "Serious Game"
+            ],
+            "cities": ["Nantes"]
+        },
+        {
+            "name": "Eric Olivier Castro",
+            "bio": "Consultant au sein d’un cabinet de courtage d’Assurances spécialisé dans l’Entreprise, je mise sur une approche constructive des risques et menaces qui existent pour assurer le capital humain.",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/092/3c0/38a469f.jpg",
+            "websites": [
+                {
+                    "title": "LinkedIn",
+                    "href": "https://fr.linkedin.com/pub/eric-olivier/a5/2b0/661/"
+                }
+            ],
+            "contact": "e.castro@gsam34.fr",
+            "mail": "e.castro@gsam34.fr",
+            "location": "Montpellier, Toulouse, Bordeaux",
+            "sessions": [
+                {
+                    "title": "Assurances: Qui est concerné dans l’Entreprise et comment protéger ses ressources ?",
+                    "summary": "Les RH doivent définir les spécificités de leurs ressources. Les salariés ; les Hommes clés ; les Dirigeants (surtout dans le cadre d’une TPE) …Et leur famille par extension. Suivant les cas, les besoins sont identiques aux autres ou alors très spécifiques. Quelles solutions s’offrent aux RH ? Lesquelles sont prioritaires ? …"
+                },
+                {
+                    "title": "Comment renforcer l’intuitu personae de manière collective ?",
+                    "summary": "La fonction des RH va au-delà du recrutement et de la gestion « pure ». Les RH peuvent facilement proposer de la valeur ajouter afin d’accompagner TOUT le monde tout en conservant une écoute personnalisée. S’informer sur les différents systèmes qui existent, comprendre l’intérêt de proposer ou non ces opportunités et penser à travailler dans la durée."
+                },
+                {
+                    "title": "Comment assurer la sécurité juridique de tous ou quelles sont les conditions pour rendre valables ces contrats ?",
+                    "summary": "Signer un contrat est simple. Seulement qui dit avantages dit contreparties. Les avantages fiscaux et sociaux à destination de l’Entreprise et des Ressources Humaines imposent le respect d’un formalisme juridique et de règles précises. Où et comment rechercher l’information ? …"
+                }
+            ],
+            "tags": [
+                "Assurances",
+                "Droit",
+                "RH"
+            ],
+            "cities": [
+                "Montpellier","Bordeaux","Toulouse"
+            ]
+        },
         {
             "name": "Arlette Gelabert",
             "bio": "Formatrice à Form’En Scène, je mise sur le capital humain pour optimiser le potentiel professionnel de chacun, parce que l’humain est le premier vecteur de l’image de marque de votre entreprise et le moteur indispensable à son bon fonctionnement. Je fonde ma pédagogie sur 30 ans de pratique théâtrale comme comédienne et animatrice (en compagnies privées et ateliers théâtre) et 20 ans d’expérience en entreprise au sein de services administratifs et commerciaux.",
-            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/030/2ca/04f6953.jpg",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/005/06f/03c/2b94d4f.jpg",
             "websites": [
                 {
                     "title": "Viadeo",
@@ -89,7 +258,7 @@ var data = {
             ],
             "tags": [
                 "Recrutement",
-                "Entretien",
+                "Entretiens",
                 "Evaluation",
                 "Image",
                 "Potentiel"
@@ -190,8 +359,8 @@ var data = {
         },
         {
             "name": "Jean-Marie Caillaud",
-            "bio": "Psychologue du travail et Consultant en recrutement international",
-            "picture": "http://m.c.lnkd.licdn.com/media/p/2/000/048/365/3b78995.jpg",
+            "bio": "Psychologue du travail et Responsable Recrutement international",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_400_400/p/3/005/085/295/0faace6.jpg",
             "websites": [
                 {
                     "title": "LinkedIn",
@@ -265,7 +434,7 @@ var data = {
                 }
             ],
             "tags": [
-                "risques psycho-sociaux"
+                "Risques psycho-sociaux"
             ],
             "cities": [
                 "Paris"
@@ -291,21 +460,21 @@ var data = {
             "location": "Paris",
             "sessions": [
                 {
-                    "title": "Sensibilisation au coaching individuel",
-                    "summary": "Un accompagnement centré sur l’individu en situation professionnelle (Objectifs définis, approfondissement des connaissances, amélioration des performances, évaluation des changements)"
+                    "title": "Le coaching individuel",
+                    "summary": "A qui s’adresse-t-il ? Comment définir des objectifs de travail avec un coach ? Quels leviers le coaching permet-il d’actionner ? Quelle est sa place dans l’Accompagnement aux Changements ? Quel est l’intérêt du coaching systémique ?"
                 },
                 {
-                    "title": "Préparation aux entretiens d'embauche",
-                    "summary": "Conseil en image, prise de parole"
+                    "title": "L’expression des émotions en entreprises",
+                    "summary": "'Gérer ses émotions' revient-il à les laisser se vivre ? Et de quelle manière ?"
                 },
                 {
-                    "title": "Sensibilisation à l'analyse comportementale",
-                    "summary": "En gestion de conflits, préparation de conférences, en assessment center"
+                    "title": "Les relations interpersonnelles en ESN (SSII)",
+                    "summary": "Quelles sont-elles ? Quelles sont les attentes ? Vers quoi et comment peuvent-elles évoluer ?"
                 }
             ],
             "tags": [
                 "Coaching",
-                "analyse comportemantale"
+                "Analyse comportementale"
             ],
             "cities": [
                 "Paris"
@@ -314,7 +483,7 @@ var data = {
         {
             "name": "Aude Amarrurtu",
             "bio": "Dans les Ressources Humaines depuis 8 ans, j'ai mis en place la Direction Ressources Humaines d'Arolla en 2011.",
-            "picture": "http://m.c.lnkd.licdn.com/media/p/2/000/124/0dc/12a063e.jpg",
+            "picture": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/005/05b/37b/234370e.jpg",
             "websites": [
                 {
                     "title": "LinkedIn",
@@ -329,13 +498,17 @@ var data = {
                 {
                     "title": "Mettre en place une Direction des Ressources Humaines dans une TPE/PME/start up",
                     "summary": "Vous envisagez de mettre en place une direction RH dans votre TPE/PME/start up, ou vos salariés en réclament une à cor et à cris. A quoi sert donc cette fameuse Direction des Ressources Humaines que vous souhaiteriez mettre en place? Quels sont ses enjeux? Comment s'y prendre concrètement? Quelques clés pour partir du bon pied!"
+                },
+                {
+                    "title": "Les RH en SSII (ESN): comment sortir du lot?",
+                    "summary": "Comment un service RH peut-il apporter de la valeur à une SSII? Et surtout, comment les RH peuvent-ils accompagner les salariés de ce type de société comme il se doit? Je vous propose de faire le point sur les attentes des salariés, leurs appréhensions et réticences, mais également sur le véritable apport que peut représenter un bon service RH en SSII."
                 }
             ],
             "tags": [
                 "DRH",
                 "PME",
                 "TPE",
-                "création"
+                "Création"
             ],
             "cities": [
                 "Paris"
@@ -385,9 +558,9 @@ var data = {
                 "Agile",
                 "Recrutement",
                 "Scrum",
-                "Coach",
-                "équipe",
-                "kanban"
+                "Coaching",
+                "Équipe",
+                "Kanban"
             ],
             "cities": [
                 "Paris"
@@ -402,10 +575,46 @@ var data = {
             "lng": 2.352222
         },
         {
-            "name": "Lyon",
-            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lyon.jpg",
-            "lat": 45.764043,
-            "lng": 4.835659
+            "name": "Genève",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Geneve.jpg",
+            "lat": 46.198392,
+            "lng": 6.142296
+        },
+        {
+            "name": "Nyon",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Nyon.jpg",
+            "lat": 46.383192,
+            "lng": 6.234856
+        },
+        {
+            "name": "Lausanne",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Lausanne.jpg",
+            "lat": 46.519962,
+            "lng": 6.633597
+        },
+        {
+            "name": "Nantes",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Nantes.jpg",
+            "lat": 47.219102,
+            "lng": -1.551132
+        },
+        {
+            "name": "Montpellier",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Montpellier.jpg",
+            "lat": 43.610769,
+            "lng": 3.876716
+        },
+        {
+            "name": "Bordeaux",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Bordeaux.jpg",
+            "lat": 44.837789,
+            "lng": -0.57918
+        },
+        {
+            "name": "Toulouse",
+            "ville_img": "http://www.brownbaglunch.fr/img/villes/BBL_Toulouse.jpg",
+            "lat": 43.604652,
+            "lng": 1.444209
         }
     ]
 }

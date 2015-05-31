@@ -15,6 +15,8 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
+        <link rel="stylesheet" media="screen" href="css/baggers.css"/>
+
         <!--[if IE 8]>
         <link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
         <![endif]-->
@@ -112,7 +114,7 @@
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="https://rawgithub.com/HPNeo/gmaps/master/gmaps.js"></script>
 
-        <script type="text/javascript" src="js/baggers.js"></script>
+        <script type="text/javascript" src="http://data.brownbaglunch.fr/baggers.js"></script>
         <script type="text/javascript" src="js/baggersUtils.js"></script>
 
         <script type="text/javascript">
@@ -165,7 +167,7 @@
 
                     <div class="baggers">
                     {{#baggers}}
-                        <div id="{{baggerId}}" class="row">
+                        <div id="{{baggerId}}" class="row bagger">
                             {{^paire}}
                                 <div class="small-2 large-4 columns">
                                     <img src="{{picture}}">
@@ -196,7 +198,7 @@
                                             <span class="{{#paire}}secondary{{/paire}} round label">Propose</span>
                                             <ul class="icons">
                                                 {{#sessions}}
-                                                    <li>
+                                                    <li{{#anchor}} id="{{baggerId}}-{{anchor}}"{{/anchor}} class="session">
                                                         <p><i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
                                                         {{{summary}}}</p>
                                                     </li>
