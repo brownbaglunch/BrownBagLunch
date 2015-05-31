@@ -181,6 +181,10 @@ var data = {
                 {
                     "title": "Haut débit et faible latence",
                     "summary": "Programmation réactive: cas concret de conception via un système de trading électronique."
+                },
+                {
+                    "title": "Les clefs de la conduite du changement",
+                    "summary": "Présentation des fondamentaux de la conduite du changement pour maximiser les chances de réussites de tout changement."
                 }
             ],
             "tags": [
