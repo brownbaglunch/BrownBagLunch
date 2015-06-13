@@ -6409,7 +6409,54 @@ var data = {
                      "cities": [
                          "Avignon"
                      ]
-                 }
+                 },
+                         {       
+            "name": "Jean-François Le Foll",
+            "bio": "Développeur passionné et Scrum master",
+            "picture": "https://jefflefoll.github.io/images/small_jeff_lefoll.jpg",
+            "websites": [
+                {
+                    "title": "Github",
+                    "href": "https://github.com/jefflefoll"
+                },
+                {
+                    "title": "Site perso",
+                    "href": "https://jefflefoll.github.io"
+                },
+                {
+                    "title": "LinkedIn",
+                    "href": "http://fr.linkedin.com/in/jefflefoll"
+                }
+            ],
+            "twitter": "jefflefoll",
+            "contact": "jeff.lefoll@outlook.fr",
+            "mail": "jeff.lefoll@outlook.fr",
+            "location": "Brest",
+            "sessions": [
+                
+                {
+                    "title": "Introduction au TDD",
+                    "summary": "Présentation de 45min-1hr permettant de découvrir le Test Driven Development. Présentation rapide suivie d'une démonstration de live coding car le TDD est avant tout une pratique de développement qui s’apprend par la pratique."
+                },
+                {
+                    "title": "Jouons avec votre organisation",
+                    "summary": "Grâce au Meddlers de Jurgen Appelo (Management 3.0). Ce serious game va vous permettre de modéliser votre structure organisationnelle et de vous servir de cette modélisation comme base pour réfléchir à des améliorations. Présentation faite la 1ère fois au ScrumWine 13.5."
+                }
+            ],
+            "tags": [
+                "Développement",
+                "Java",
+                "TDD",
+                "Agile",
+                "Scrum",
+                "Serious Games",
+                "Meddlers",
+                "XP"
+            ],
+            "cities": [
+                "Brest"
+            ]
+        }
     ],
     "cities": [
         {
