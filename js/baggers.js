@@ -1110,57 +1110,6 @@ var data = {
             ]
         },
         {
-            "name": "David Gageot",
-            "bio": "Professional Geek - Freelance",
-            "picture": "http://gravatar.com/avatar/f0887bf6175ba40dca795eb37883a8cf?s=256",
-            "websites": [
-                {
-                    "title": "Blog personnel",
-                    "href": "http://blog.javabien.net/"
-                }
-            ],
-            "twitter": "dgageot",
-            "contact": "david@gageot.net",
-            "mail": "david@gageot.net",
-            "location": "Paris, La Défense, (France/Etranger selon mes déplacements)",
-            "sessions": [
-                {
-                    "title": "Du Legacy au Cloud en moins d’une heure",
-                    "summary": "Live coding sur les techniques de refactoring par les tests et démontrant comment déployer rapidement sur le Cloud."
-                },
-                {
-                    "title": "Kitten FaceMash – Marre des frameworks, oui aux bons outils",
-                    "summary": "Live coding sur le développement d'un site web en TDD, sans framework mais une combinaison de bonnes bibliothèques."
-                },
-                {
-                    "title": "Mockito – Ecrire des tests simples et peu sensibles au refactoring",
-                    "summary": "Slides démontrant l’utilisation de la bibliothèque Mockito. L’accent est mis sur la forte tolérance au refactoring par rapport aux mocks codés à la main."
-                },
-                {
-                    "title": "Introduction à Git",
-                    "summary": "Slides présentant les avantages de Git. En particulier la grande liberté laissée aux équipes, la tolérance au refactoring, l’utilisation dans l'analyse de régressions."
-                },
-                {
-                    "title": "Let’s make these tests run faster",
-                    "summary": "Slides présentant des techniques pour accélérer les tests unitaires/fonctionnels. Le but étant de passer tout un build en quelques minutes afin d’avoir le feedback le plus court possible."
-                },
-                {
-                    "title": "Outils de test avancés",
-                    "summary": "Slides présentant des outils pour écrire des tests plus simples, plus clairs, plus rapides. (JUnit4 Rules, Infinitest, FestAssert...)"
-                }
-            ],
-            "tags": [
-                "Code",
-                "Test",
-                "Git",
-                "Outils",
-                "Refactoring"
-            ],
-            "cities": [
-                "Paris"
-            ]
-        },
-        {
             "name": "Tugdual Grall",
             "bio": "Technical Evangelist at MongoDB",
             "picture": "https://en.gravatar.com/userimage/8542283/391edf1f953af25695d4088c627cc539.jpg",
