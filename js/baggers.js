@@ -1,5 +1,51 @@
 var data = {
     "baggers": [
+        {
+            "name": "Nicolas Muller",
+            "bio": "Développeur Java / Go / Docker depuis bientôt 15 ans dans le monde du BTP JEE/Spring. JugLeader du @MarsJUG, Membre du @LabAixbidouille, passionné par la bidouille et surtout travaillant chez @TreeptikTeam en tant qu'associé / CTO sur www.cloudUnit.fr, le PaaS Java.",
+            "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0fe/013/03d214d.jpg",
+            "websites": [
+                {
+                    "title": "Linkedin",
+                    "href": "https://fr.linkedin.com/in/mullernicolas"
+                },
+                {
+                "title": "Blog",
+                "href" : "http://treeptik.fr/language/fr/blog/"
+                }
+            ],
+            "twitter": "zepouet",
+            "contact": "n.muller@treeptik.fr",
+            "mail": "n.muller@treeptik.fr",
+            "location": "Aix-Marseille (et à distance)",
+            "sessions": [
+                {
+                    "title": "Docker : des containers de la cale au pont !",
+                    "summary": "Je vous propose de vous faire voyager et découvrir le monde merveilleux de la logistique et du transport du XXI siècle : les containers sous Docker et son écosystème (machine, swarm, compose). Speaker à Devoxx 2014 sur ce thème et dans des JUG, je serai à nouveau heureux de vous présenter ce nouveau mode de virtualisation légère tout en vous faisant un retour d'expérience sur différents projets. Nous l'utilisons depuis la version 0.3 alors qu'on atteint la 1.7. Docker est le buzzword de 2014 et le sera encore en 2016 !"
+                },
+                {
+                    "title": "InfluxDB, la base de données chronologique, opensource autonome",
+                    "summary": "Après l'émergence des bases NOSQL de ces dernières années, voici une nouvelle espèce : la base de données chronologiques, parfaite pour accueillir les données de métrologie. Dans cette session, vous découvrirez cet outil autonome écrit en GO et doté d'un SQL-Like avec un support HTTP natif. Une live-session vous présentera comment l'interfacer avec votre langage préféré Java dans une application JEE ou Spring. Que ce soient pour vos logs ou des évènements métiers, InfluxDB pourrait bien devenir votre backend préféré pour vos métriques. Session présentée à Devoxx2015 et au RivieraDev2015 à Nice."
+                }                
+            ],
+            "tags": [
+                "docker",
+                "docker-compose",
+                "docker-machine",
+                "docker-swarm"
+                "consul.io"
+                "golang"
+                "cloud",
+                "PaaS",
+                "InfluxDB",
+                "Influx",
+                "Time-series"
+                "analytics"
+            ],
+            "cities": [
+                "Aix-en-Provence"
+            ]
+        },
        {
             "name": "Cédric Bodin",
             "bio": "Coach agile, formateur et facilitateur chez <a href='http://www.orange-business.com/fr/applications-for-business/' target='_blank'>Orange Applications for Business</a>, j’essaye d’aider les individus et les organisations à re-devenir agiles.<br/>Je suis donc tout naturellement membre de l'association <a href='http://www.agilenantes.org/' target='_blank'>Agile Nantes</a> et co-organisateur de la conférence Agile Tour à Nantes.<br/>Et question sandwich, mes 3 ingrédients “HUMmm” sont HUManisme, HUMilité et HUMour :)",
