@@ -8,7 +8,7 @@ Le site Brown Bag Lunch est ouvert à toute personne souhaitant partager son sav
 
 Si vous souhaitez être ajouté à la liste, rien de plus simple ! 
 
-Il vous suffit de modifier la page [baggers.js](https://github.com/brownbaglunch/bblfr_data/blob/gh-pages/baggers.js) soit en forkant le projet et en soumettant un pull request, soit directement depuis Github via le bouton "edit". En cas de problème ou si vous avez besoin d'aide n'hésitez pas à [ouvrir une issue sur Github](https://github.com/brownbaglunch/bblfr_data/issues/new) ou à nous envoyer un mail à <info@brownbaglunch.fr>.
+Il vous suffit de modifier le fichier [baggers.js](https://github.com/brownbaglunch/bblfr_data/blob/gh-pages/baggers.js) dans le projet [bblfr_data](https://github.com/brownbaglunch/bblfr_data/) soit en forkant le projet et en soumettant un pull request, soit directement depuis Github via le bouton "edit". En cas de problème ou si vous avez besoin d'aide n'hésitez pas à [ouvrir une issue sur Github](https://github.com/brownbaglunch/bblfr_data/issues/new) ou à nous envoyer un mail à <info@brownbaglunch.fr>.
 
 Ajouter une ville :
 -------------------
