@@ -96,8 +96,10 @@ function getVillesAndBaggers(data) {
     });
     _.each(data.baggers, function(bagger) {
         _.each(bagger.cities, function(cityname) {
-            var city = cityrefs[cityname];
-            city.baggers.push(_.clone(bagger));
+            if (cityname in cityrefs) { // todo: log errors at else-level?
+                var city = cityrefs[cityname];
+                city.baggers.push(_.clone(bagger));
+            }
         });
         _.each(bagger.sessions, function(session) {
             if( !session.hasOwnProperty('anchor') ) {
