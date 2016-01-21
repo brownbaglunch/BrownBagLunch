@@ -4,7 +4,7 @@ Ce document contient des questions provenant des baggers et aussi de personnes q
 
 ## Comment faire pour devenir bagger ?
 
-Pull Request sur https://github.com/nrichand/BrownBagLunch
+Pull Request sur https://github.com/brownbaglunch/bblfr_data
 
 ## Un bagger peut-il faire une présentation commerciale ?
 

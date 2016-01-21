@@ -11,4 +11,4 @@ This work is licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/b
 * Share Alike — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
 
 #### Contributors
-https://github.com/nrichand/BrownBagLunch/graphs/contributors
+https://github.com/BrownBagLunch/BrownBagLunch/graphs/contributors
