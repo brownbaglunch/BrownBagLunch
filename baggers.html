@@ -115,7 +115,14 @@
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="js/gmaps.js"></script>
 
+        <!-- remote -->
+        <!-- -->
         <script type="text/javascript" src="http://data.brownbaglunch.fr/baggers.js"></script>
+        <!-- -->
+        <!-- local -->
+        <!--
+        <script type="text/javascript" src="../bblfr_data/rewrite/baggers-new.js"></script>
+        -->
         <script type="text/javascript" src="js/baggersUtils.js"></script>
 
         <script type="text/javascript">
@@ -184,12 +191,12 @@
                                             <p>{{{bio}}}</p>
 
                                             {{#websites}}
-                                                <p><i class="icon-book"></i> <a href="{{href}}">{{title}}</a></p>
+                                                <p><i class="icon-book"></i> <a href="{{url}}">{{name}}</a></p>
                                             {{/websites}}
 
-                                            {{#twitter}}
-                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></p>
-                                            {{/twitter}}
+                                            {{#contact.twitter}}
+                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{contact.twitter}}">@{{contact.twitter}}</a></p>
+                                            {{/contact.twitter}}
 
                                             <p class="contact-me" style="display: none">{{name}}</p>
                                             <p class="invite-me"><a href="#" class="button success round"><i class="icon-food"></i> Invitez moi chez vous!</a></p>
@@ -201,7 +208,7 @@
                                                 {{#sessions}}
                                                     <li{{#anchor}} id="{{baggerId}}-{{anchor}}"{{/anchor}} class="session">
                                                         <p><i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
-                                                        {{{summary}}}</p>
+                                                        {{{abstract}}}</p>
                                                     </li>
                                                 {{/sessions}}
                                             </ul>

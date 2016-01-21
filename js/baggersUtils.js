@@ -94,14 +94,17 @@ function getVillesAndBaggers(data) {
         villesAndBaggers.villes.push(city);
         cityrefs[city.name] = city;
     });
-    _.each(data.baggers, function(bagger) {
-        _.each(bagger.cities, function(cityname) {
+
+    _.each(data.speakers, function(speaker) {
+        _.each(speaker.cities, function(cityname) {
             if (cityname in cityrefs) { // todo: log errors at else-level?
                 var city = cityrefs[cityname];
-                city.baggers.push(_.clone(bagger));
+                city.baggers.push(_.clone(speaker));
+            } else {
+                console.log("city not found", cityname);
             }
         });
-        _.each(bagger.sessions, function(session) {
+        _.each(speaker.sessions, function(session) {
             if( !session.hasOwnProperty('anchor') ) {
                 session.anchor = transformTitleToPermalink(session.title);
             }
