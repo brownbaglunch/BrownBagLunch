@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Brown Bag Lunch RH France</title>
+
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/foundation.css" media="screen">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/normalize.css" media="screen">
+
+        <link rel="stylesheet" media="screen" href="http://www.brownbaglunch.fr/css/font-awesome.min.css"/>
+
+        <!--[if IE 8]>
+        <link rel="stylesheet" href="css/foundation-IE8Support.css" media="screen">
+        <![endif]-->
+        
+        <style type="text/css"> 
+            /* Seems a bug in foundation 4 : */
+            .panel.callout a{
+                color:#fff;
+            }                       
+        </style>
+
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js"></script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46478568-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+
+    <body>
+
+        <nav class="top-bar">
+            <ul class="title-area">
+                <li class="name"><h1><a href="http://rh.brownbaglunch.fr/">Brown Bag Lunch RH France</a></h1></li>
+            </ul>
+
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li class="divider"></li>
+                    <li class="active"><a href="index.html"><i class="icon-lightbulb"></i> <em>Comment ça fonctionne?</em></a></li>
+                </ul>
+
+                <ul class="right">
+                    <li class="divider"></li>
+
+                    <li class="has-dropdown not-click">
+                        <a href="#">Baggers</a>
+                        <ul class="dropdown" id="bagger-menuitem"></ul>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- CARTE GOOGLE MAP -->
+
+        
+        <div class="row">
+            <h1>Liste des villes et des baggers RH</h1>
+
+            <div class="small-2 large-2 columns"></div>
+            <div class="small-12 large-12 columns">
+                <div class="panel radius">
+                    <div id="map" style="height: 400px"></div>
+                </div>
+            </div>
+            <div class="small-2 large-2 columns"></div>
+        </div>
+        <hr>
+        <blockquote class="middle">
+                 <p><i><center>Le sujet RH qui vous intéresse n'est proposé par aucun bagger? Contactez nous, nous essaierons de vous proposer une solution adaptée: <a href="mailto:rh@brownbaglunch.fr"><i class="icon-envelope"></i> rh@brownbaglunch.fr</a></center></i></p>
+        </blockquote>
+        <!-- BAGGERS! -->
+        <div id="bagger-details" style="margin-top: 25px;"></div>
+
+        <footer style="width:100%;background:#3f3f3f; color:white; padding: 15px 0">
+            <div class="row">
+                <strong>
+                    Vous voulez proposer vous aussi des sujets ? Rejoignez la communauté des baggers : <a href="mailto:rh@brownbaglunch.fr"><i class="icon-envelope"></i> rh@brownbaglunch.fr</a>
+                    <a style="color: yellow;"<a href="https://twitter.com/bblRH_fr" target="_blank"> <i class="icon-twitter"></i> @bblRH_fr</a>
+                </strong>
+            </div>
+        </footer>
+
+        <!-- Included JS Files -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/js/foundation.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.compat.min.js"></script>
+        
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/js/foundation/foundation.reveal.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="https://rawgithub.com/HPNeo/gmaps/master/gmaps.js"></script>
+
+        <script type="text/javascript" src="http://data.brownbaglunch.fr/baggers-rh.js"></script>
+        <script type="text/javascript" src="js/baggersUtils.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                $(window).on('load', fixDropdown);
+                $(window).on('resize', fixDropdown);
+
+                var villesAndBaggers = getVillesAndBaggers(data);
+
+                createMapWithVilles(villesAndBaggers);
+
+                // decorate data to alternate images
+                shuffleAndAlternateBaggers(villesAndBaggers);
+
+                //put the render result on the screen
+                $('#bagger-menuitem').html(Mustache.to_html($('#template-bagger-menuitem').html(), villesAndBaggers));
+                $('#bagger-details').html(Mustache.to_html($('#template-bagger-details').html(), villesAndBaggers));
+
+                displayContactModalWindowMail();
+
+                hideOrDisplayBaggers();
+            });
+        </script>
+
+        <script id="template-bagger-menuitem" type="text/template">
+            {{#villes}}
+                <li class="has-dropdown">
+                    <a href="#">{{name}}</a>
+                    <ul class="dropdown">
+                        {{#baggers}}
+                            <li><a href="#{{baggerId}}">{{name}}</a></li>
+                        {{/baggers}}
+                    </ul>
+                </li>
+            {{/villes}}
+        </script>
+
+        <script id="template-bagger-details" type="text/template">
+            {{#villes}}
+                <div class="ville">
+
+                    <div class="row" id="{{name}}">
+                        <div class="small-12 large-12 columns">
+                            <a href="#" class="ville-img"><img width="700" height="280" src="{{ville_img}}"></a>
+                            <a href="#map"><i class="icon-globe"></i> Revenir à la carte</a>
+                            <hr>
+                            {{message}}
+                        </div>
+                    </div>
+
+                    <div class="baggers">
+                    {{#baggers}}
+                        <div id="{{baggerId}}" class="row">
+                            {{^paire}}
+                                <div class="small-2 large-4 columns">
+                                    <img src="{{picture}}">
+                                </div>
+                            {{/paire}}
+                            <div class="small-10 large-8 columns">
+                                <div class="panel {{#paire}}callout{{/paire}} radius">
+                                    <h4>{{name}}</h4>
+
+                                    <div class="row">
+
+                                        <div id="bagger-detail" class="small-6 large-6 columns">
+                                            <p>{{{bio}}}</p>
+
+                                            {{#websites}}
+                                                <p><i class="icon-book"></i> <a href="{{href}}" target="_blank">{{title}}</a></p>
+                                            {{/websites}}
+
+                                            {{#twitter}}
+                                                <p><i class="icon-twitter"></i> <a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a></p>
+                                            {{/twitter}}
+
+                                            <p class="contact-me" style="display: none">{{name}}</p>
+                                            <p class="invite-me"><a href="#" class="button success round"><i class="icon-food"></i> Invitez moi chez vous!</a></p>
+                                        </div>
+
+                                        <div class="small-6 large-6 columns">
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Propose :</span>
+                                            <ul class="icons">
+                                                {{#sessions}}
+                                                    <li>
+                                                        <p><i class="icon-caret-right"></i> <strong>{{title}}</strong><br/>
+                                                        {{{summary}}}</p>
+                                                    </li>
+                                                {{/sessions}}
+                                            </ul>
+                                            <span class="{{#paire}}secondary{{/paire}} round label">Lieux :</span>
+                                            <p><i class="icon-globe"></i> {{location}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{#paire}}
+                                <div class="small-2 large-4 columns">
+                                    <img src="{{picture}}">
+                                </div>
+                            {{/paire}}
+                        </div>
+                    {{/baggers}}
+                    <hr>
+                    </div>
+                </div>
+            {{/villes}}
+        </script>
+
+        <div id="contactModal" class="reveal-modal">
+            <h2>Contactez moi :</h2>
+            <p class="lead">Vous voulez plus d'information sur une session ou vous voulez que l'on définisse une date?</p>
+
+            <div class="row" id="mail-result" style="display: none">
+                <div data-alert class="alert-box" id="mail-status">
+                </div>
+            </div>
+
+            <form>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <label>Adresse de notre bagger :</label>
+                        <input id="contact-to" type="text" >
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-8 columns">
+                        <label>Votre adresse email</label>
+                        <input type="text" id="contact-from" placeholder="une copie du mail vous sera envoyé">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <label>Titre du mail</label>
+                        <input type="text" id="contact-subject" value="Contact pour un BBL RH">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p>
+                            <label>Message</label>
+                            <textarea id="contact-message"></textarea>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-12 large-offset-10 columns">
+                        <p><a href="#" id="contact-send" class="button success round"><i class="icon-envelope-alt"></i> Envoyer</a></p>
+                    </div>
+                </div>
+            </form>
+
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+    </body>
+</html>

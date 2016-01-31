@@ -2,32 +2,59 @@
 <html>
         <HEAD>
 			<meta charset="UTF-8" />
-            <link rel="icon" type="image/png" href="images/favicon.png"/>
             <title>Brown bag lunch France</title>
 
-            <link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
+            <meta name="description" content="Vous souhaitez amener de la discussion dans votre entreprise, découvrir de nouveaux sujets? Faites venir les meilleurs experts de votre ville dans vos locaux le temps d'un repas." />
 
-			<script type="text/javascript">
-			  var _gaq = _gaq || [];
-			  _gaq.push(['_setAccount', 'UA-38399904-1']);
-			  _gaq.push(['_trackPageview']);
+            <link rel="icon" href="favicon.ico"/>
 
-			  (function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			  })();
-			</script>
-
+            <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Arapey:400italic,400'>
             <link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
             <link rel="stylesheet" media="screen" href="css/font-awesome.min.css"/>
             <link rel="stylesheet" media="screen" href="css/style.css"/>
-            <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+            <link rel="stylesheet" media="screen" href="css/rslides.css"/>
+
+            <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-38399904-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
             <script src="js/bootstrap-dropdown.js" type="text/javascript"></script>
-			
+
+            <script src="js/responsiveslides.min.js" type="text/javascript"></script>
+
             <script type="text/javascript">
                 $(document).ready(function() {
                     $('.dropdown-toggle').dropdown();
+
+                    //Launch the carousel :
+                    $(".rslides").responsiveSlides({
+                        auto: true,             // Boolean: Animate automatically, true or false
+                        speed: 500,            // Integer: Speed of the transition, in milliseconds
+                        timeout: 3000,          // Integer: Time between slide transitions, in milliseconds
+                        pager: false,           // Boolean: Show pager, true or false
+                        nav: true,             // Boolean: Show navigation, true or false
+                        random: false,          // Boolean: Randomize the order of the slides, true or false
+                        pause: false,           // Boolean: Pause on hover, true or false
+                        pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                        prevText: "<i class=\"icon-chevron-left\"></i>",   // String: Text for the "previous" button
+                        nextText: "<i class=\"icon-chevron-right\"></i>",       // String: Text for the "next" button
+                        maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                        navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                        manualControls: "",     // Selector: Declare custom pager navigation
+                        namespace: "rslides",   // String: Change the default namespace used
+                        before: function(){},   // Function: Before callback
+                        after: function(){}     // Function: After callback
+                    });
                 });
             </script>
         </head>
@@ -56,8 +83,14 @@
                                 <a href="baggers.html" style="margin-bottom: 20px;" class="btn btn-warning btn-xlarge"><i class="icon-search"></i> Trouver un expert à inviter</a>&nbsp;
                             </div> 		
 
-                            <div class="span5">	
-                                <img src="images/BBL/DavidGageotBBL.jpg" class="screengrab"  height="300px" alt="Screenshot">
+                            <div class="span5">
+                                <ul class="rslides">
+                                    <li><img src="images/past-bbls/2013-03-15%2012.17.58.jpg" alt=""></li>
+                                    <li><img src="images/past-bbls/2013-03-24%2000.14.32.jpg" alt=""></li>
+                                    <li><img src="images/past-bbls/2013-03-24%2000.14.47.jpg" alt=""></li>
+                                </ul>
+
+                                <!-- <img src="images/BBL/DavidGageotBBL.jpg" class="screengrab"  height="300px" alt="Screenshot"> -->
                             </div>
                         </div>
                     </div>
@@ -137,7 +170,7 @@
                                 <a class="addthis_counter addthis_pill_style"></a>
                             </div>
                             <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5123678f201d160e"></script>
+                            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5123678f201d160e#async=1"></script>
                             <!-- AddThis Button END -->
                         </div>
                     </div>

@@ -1,0 +1,13 @@
+{
+    "name": "bbl",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "test": "grunt --verbose"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "matchdep": "~0.1.2",
+        "grunt-contrib-jshint": "~0.6.3"
+    }
+}
