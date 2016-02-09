@@ -1,6 +1,22 @@
 var bblLocationsData = {
     "locations": [
         {
+            "pseudo": "orleanstech",
+            "name": "Association Orléans Tech Talks",
+            "address": "1 Avenue Champ De Mars, 45100 Orléans",
+            "gps": "47.893870, 1.894200",
+            "website": "http://orleans-tech.com/",
+            "contact": "contact [at] orleans-tech.org",
+            "picture": "img/entreprises/orleanstech.png",
+            "interests": [
+                "PHP", "MongoDB", "Web", "Mobile", "Cloud", "Agilité", "OpenSource", "IoT"
+            ],
+            "audience": {
+                "profiles": "Développeurs(euses), Ingénieurs, Etudiant(e)s",
+                "number": "de 10 à 50 personnes (ouvert à tous)"
+            }
+        },
+        {
             "pseudo": "cantinetours",
             "name": "La Cantine Numérique Tours",
             "address": "30, rue André Theuriet, 37000 Tours",
