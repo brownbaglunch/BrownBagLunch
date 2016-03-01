@@ -131,8 +131,8 @@ var bblLocationsData = {
         {
             "pseudo": "novencia",
             "name": "Novencia Groupe",
-            "address": "25 rue de Maubeuge, 75009 Paris",
-            "gps": "48.8780246,2.3440257",
+            "address": "21 rue de la Banque, 75002 Paris",
+            "gps": "48.868397,2.3404785",
             "website": "http://www.novencia.com/",
             "contact": "Marlène Chevreux (marlene.chevreux [at] novencia.com)",
             "picture": "img/entreprises/novencia.jpg",
