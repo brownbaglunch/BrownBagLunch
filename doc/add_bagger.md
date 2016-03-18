@@ -2,7 +2,7 @@
 
 ## GitHub
 
-https://github.com/nrichand/BrownBagLunch
+https://github.com/brownbaglunch/bblfr_data
 
 1. Accepter le _pull request_ du nouveau bagger et lui souhaiter la bienvenue :)
 2. Rechercher l'adresse e-mail du nouveau bagger (généralement, dans le pull request)
