@@ -5,7 +5,7 @@ function createMapWithVilles(data) {
         div: '#map',
         lat: 47.081012,
         lng: 2.352222,
-        zoom: 5,
+        zoom: 3,
         disableDefaultUI: true
     });
 
