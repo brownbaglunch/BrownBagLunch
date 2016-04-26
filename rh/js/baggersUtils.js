@@ -62,7 +62,7 @@ function displayContactModalWindowMail() {
         $('#contact-send').click(function(e) {
             e.preventDefault();
 
-            $.ajax({ url: "http://bbl-backend.eu01.aws.af.cm/mail",
+            $.ajax({ url: "http://nodemailsender.herokuapp.com/mail",
                 data:{ from: $('#contact-from').val(), to: $('#contact-to').val(), subject: $('#contact-subject').val(), message: $('#contact-message').val()},
                 type: 'POST',
                 contentType: "application/x-www-form-urlencoded; charset=utf-8",
