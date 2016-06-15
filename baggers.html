@@ -118,10 +118,9 @@
         <!-- remote -->
         <!-- -->
         <script type="text/javascript" src="http://data.brownbaglunch.fr/baggers.js"></script>
-        <!-- -->
         <!-- local -->
         <!--
-        <script type="text/javascript" src="../bblfr_data/rewrite/baggers-new.js"></script>
+        <script type="text/javascript" src="../bblfr_data/baggers.js"></script>
         -->
         <script type="text/javascript" src="js/baggersUtils.js"></script>
 
@@ -163,10 +162,9 @@
         <script id="template-bagger-details" type="text/template">
             {{#villes}}
                 <div class="ville">
-
                     <div class="row" id="{{name}}">
                         <div class="small-12 large-12 columns">
-                            <a href="#" class="ville-img"><img width="700" height="280" src="{{ville_img}}"></a>
+                            <a href="#" class="ville-img"><img width="700" height="280" src="{{ville_img}}" title="{{name}}"></a>
                             <a href="#map"><i class="icon-globe"></i> Revenir à la carte</a>
                             <hr>
                             {{message}}

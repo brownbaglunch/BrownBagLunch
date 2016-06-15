@@ -93,6 +93,7 @@ function getVillesAndBaggers(data) {
         city.baggers = [];
         villesAndBaggers.villes.push(city);
         cityrefs[city.name] = city;
+        console.debug("city added", city.name);
     });
 
     _.each(data.speakers, function(speaker) {
@@ -100,6 +101,8 @@ function getVillesAndBaggers(data) {
             if (cityname in cityrefs) { // todo: log errors at else-level?
                 var city = cityrefs[cityname];
                 city.baggers.push(_.clone(speaker));
+                console.debug("city updated", cityname);
+                console.debug("city is now", city);
             } else {
                 console.log("city not found", cityname);
             }
@@ -110,6 +113,7 @@ function getVillesAndBaggers(data) {
             }
         });
     });
+
     return villesAndBaggers;
 }
 
