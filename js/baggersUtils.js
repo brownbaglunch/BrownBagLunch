@@ -57,7 +57,7 @@ function displayContactModalWindowMail() {
         var baggerName = $(this).parent().find('.contact-me').text();
         var bagger = _.find(data.speakers, {'name': baggerName});
 
-        $('#contactModal').find('#contact-to').val(bagger.contact.mail);
+        $('#contactModal').find('#contact-to').val(bagger.contacts.mail);
 
         $('#contact-send').click(function(e) {
             e.preventDefault();
