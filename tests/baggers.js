@@ -1,21 +1,21 @@
 test('there are cities', function() {
-    ok(data.cities.length);
+    ok(data.cities);
 });
 
 test('there are baggers', function() {
-    ok(data.baggers.length);
+    ok(data.speakers.length);
 });
 
 test('baggers have at least one city', function() {
-    _.each(data.baggers, function(bagger) {
-        ok(bagger.cities.length);
+    _.each(data.speakers, function(speaker) {
+        ok(speaker.cities.length);
     });
 });
 
 test('city references exist', function() {
     var citynames = _.map(data.cities, 'name');
-    _.each(data.baggers, function(bagger) {
-        _.each(bagger.cities, function(cityname) {
+    _.each(data.speakers, function(speaker) {
+        _.each(speaker.cities, function(cityname) {
             ok(_.contains(citynames, cityname));
         });
     });
