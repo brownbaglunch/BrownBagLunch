@@ -117,8 +117,8 @@ var bblLocationsData = {
             "name": "Viseo Technologies",
             "address": "94-96 rue de Paris, 92100 Boulogne Billancourt",
             "gps": "48.838679,2.236555",
-            "website": "http://www.viseo-bt.com/",
-            "contact": "Eric Siber (e.siber [at] novediagroup.com)",
+            "website": "http://www.viseo.com/fr/offre/viseo-et-business-technologies",
+            "contact": "Wafa Salandre (wafa.salandre [at] viseo.com)",
             "picture": "img/viseo.png",
             "interests": [
                     "Java", "DotNet", "PHP", "JavaScript", "Web", "Mobile", "Front", "NoSQL", "Big Data", "Cloud", "Agilité", "DevOps", "E-commerce"
