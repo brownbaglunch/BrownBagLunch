@@ -97,22 +97,6 @@ var bblLocationsData = {
             }
         },
         {
-            "pseudo": "mappy",
-            "name": "Mappy",
-            "address": "9 rue Maurice Mallet, Issy-les-Moulineaux",
-            "gps": "48.829703,2.266330",
-            "website": "http://mappy.fr",
-            "contact": "Eric Lefevre-Ardant (contact [at] ericlefevre.net)",
-            "picture": "img/entreprises/mappy.png",
-            "interests": [
-                    "Java", "JavaScript", "Web", "Big Data", "DevOps", "Cloud", "Mobile", "Agilité", "Livraison Continue"
-            ],
-            "audience": {
-                "profiles": "Développeur, DevOps, Architectes",
-                "number": "10 à 20 personnes"
-            }
-        },
-        {
             "pseudo": "viseo-techno",
             "name": "Viseo Technologies",
             "address": "94-96 rue de Paris, 92100 Boulogne Billancourt",
