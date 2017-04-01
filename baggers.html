@@ -46,7 +46,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-building"></i> Où proposer un BBL ?</a>
+            <a class="nav-link" href="locations.html"><i class="fa fa-building"></i> Où proposer un BBL ?</a>
           </li>
         </ul>
         <form class="form-inline">
@@ -134,6 +134,11 @@
           <ul class="list-group cities-list">
             <li class="list-group-item list-group-item-inverse cities-title">Choisissez la ville</li>
             <li class="list-group-item justify-content-between list-group-item-action city-menu"
+                :class="{ active: selectedCity === null }"
+                @click="selectedCity = null">
+              Toutes les villes <span class="badge badge-primary badge-pill">{{ baggers.length }}</span>
+            </li>
+            <li class="list-group-item justify-content-between list-group-item-action city-menu"
                 :class="{ active: selectedCity === city.name }"
                 v-for="city in cities"
                 @click="selectedCity = city.name">
@@ -196,8 +201,8 @@
     </div>
   </div>
 
-  <!-- <script src="full-data.js"></script> -->
-  <script src="fake-data.js"></script>
+  <script src="full-data.js"></script>
+  <!-- <script src="fake-data.js"></script> -->
   <script src="js/vue-app.js"></script>
   <script>
     $(document).ready(function() {
