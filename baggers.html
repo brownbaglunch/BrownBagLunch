@@ -16,6 +16,8 @@
 
   <link rel="stylesheet" media="screen" href="css/baggers.css"/>
 
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -75,10 +77,12 @@
             </div>
           </div>
 
+          <!-- Liste (filtrée) des baggers... -->
           <div class="row justify-content-center">
             <div v-for="bagger in filtered(baggers)" class="col-6">
               <div class="bagger">
                 <div :class="'bagger-header ' + bagger.cities[0].toLowerCase()">
+                  {{ bagger.cities[0] }}
                   <div class="bagger-picture">
                     <img :src="bagger.picture" :alt="bagger.name">
                   </div>

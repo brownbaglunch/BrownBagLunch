@@ -25,6 +25,9 @@
 	border-top-right-radius: 5px;
 	background-size: cover;
 	height: 150px;
+	padding: 10px;
+  font-family: 'Lobster', cursive;
+	font-size: 40px;
 }
 .bagger-header.paris {
 	background: url(../images/villes/paris.jpg) no-repeat center center;
@@ -32,7 +35,7 @@
 
 .bagger-picture {
 	display: inline-block;
-	top: 30px;
+	top: -35px;
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
