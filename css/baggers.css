@@ -1,9 +1,71 @@
-.bagger,
-.session {
-	/*
-	Workaround for the navbar hiding the titles when navigating to an anchor.
-	Cf. https://github.com/twbs/bootstrap/issues/1768
-	*/
-    margin-top: -60px;
-    padding-top: 60px;
+.city-menu {
+	font-size: 80%;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.bagger {
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.bagger-header {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-size: cover;
+	height: 150px;
+}
+.bagger-header.paris {
+	background: url(../images/villes/paris.jpg) no-repeat center center;
+}
+
+.bagger-picture {
+	display: inline-block;
+	top: 30px;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	z-index: 128;
+}
+.bagger-picture img {
+  height: 150px;
+	width: 150px;
+  border-radius: 75px;
+  border: solid 8px #f7f7f9;
+}
+
+.bagger-bio {
+	padding: 30px 1em 1em 1em;
+}
+
+.bagger-presentations {
+	border-top: solid 1px #ccc;
+}
+.bagger-presentations span.badge {
+	margin-left: 5px;
+}
+.bagger-session-title {
+	cursor: pointer;
+}
+.bagger-session-abstract {
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.bagger-session-abstract blockquote.blockquote {
+	font-size: inherit;
+}
+
+
+.bagger-links {
+	border-top: solid 1px #ccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #f7f7f9;
+	padding: 1em;
+}
+.bagger-links > span {
+	margin-right: 10px;
 }
