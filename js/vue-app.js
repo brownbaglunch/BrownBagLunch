@@ -41,6 +41,7 @@ new Vue({
     // Filter baggers list
     filtered: function(baggers) {
       if (this.filtering === '' && !this.selectedCity) {
+        this.baggersFilteredCount = baggers.length;
         return baggers;
       }
       var filter = this.filtering.toLowerCase();
@@ -52,11 +53,6 @@ new Vue({
       }.bind(this));
       this.baggersFilteredCount = filteredList.length;
       return filteredList;
-    },
-    // Toggle the abstract for a presentation
-    toggleAbstract: function(session) {
-      session.opened = !session.opened;
-      session.name = session.name + ' fbkj'
     },
     // Open contact modal
     openContactModal: function(bagger) {
