@@ -1,3 +1,13 @@
+.main-container {
+	padding-right: 0;
+}
+
+.cities-title.list-group-item:first-child {
+	border-radius: 0;
+	background-color: #292B2C;
+	color: white;
+}
+
 .city-menu {
 	font-size: 80%;
 	padding: 3px;

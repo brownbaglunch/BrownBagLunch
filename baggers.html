@@ -59,12 +59,15 @@
         </form>
       </div>
     </nav>
-<br>
-    <div class="container-fluid">
+
+    <div class="container-fluid main-container">
       <div class="row">
         <div class="col-12 col-sm-10">
+          <div class="alert alert-success" v-if="contact.success" role="alert">
+            <i class="fa fa-envelope-o"></i> Votre email a bien été envoyé à <strong>{{ contact.bagger }}</strong>. Bon BBL !
+          </div>
 
-          <h1>Liste des baggers ({{ baggersFilteredCount }})</h1>
+          <h1>{{ baggersFilteredCount }} baggers</h1>
 
           <div class="row" v-if="baggersFilteredCount === 0">
             <div class="col-12">
@@ -88,7 +91,7 @@
                       <p class="card-text" v-html="bagger.bio"></p>
                     </div>
                     <div class="col-3 text-right">
-                      <a href="#" class="btn btn-primary"><i class="fa fa-cutlery"></i> Inviter</a>
+                      <a href="#" class="btn btn-primary" @click="openContactModal(bagger)"><i class="fa fa-cutlery"></i> Inviter</a>
                     </div>
                   </div>
                   <span class="text-muted"><i class="fa fa-map-marker"></i> {{ bagger.location }}</span>
@@ -122,9 +125,10 @@
           </div>
         </div>
 
+        <!-- Liste des villes -->
         <div class="col-sm-2">
-          <ul class="list-group">
-            <li class="list-group-item list-group-item-info">Choisissez la ville</li>
+          <ul class="list-group cities-list">
+            <li class="list-group-item list-group-item-inverse cities-title">Choisissez la ville</li>
             <li class="list-group-item justify-content-between list-group-item-action city-menu"
                 :class="{ active: selectedCity === city.name }"
                 v-for="city in cities"
@@ -134,13 +138,62 @@
             </li>
           </ul>
         </div>
+      </div>
+    </div>
 
+    <!-- Contact modal -->
+    <div class="modal bd-example-modal-lg fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-calendar"></i> Prendre rendez-vous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-danger" v-if="contact.error" role="alert">
+              <i class="fa fa-warning"></i> Une erreur est survenue lors de l'envoi de l'email à <strong>{{ contact.bagger }}</strong>.
+              <br>
+              <code>{{ contact.error }}</code>
+            </div>
+            <form>
+              <div class="container">
+                <p>Vous voulez plus d'information sur une session ou vous souhaitez définir une date pour une session ?</p>
+                <!-- Email du bagger -->
+                <div class="form-group">
+                  <label for="example-text-input">Email du bagger</label>
+                  <input class="form-control" type="text" v-model="contact.bagger" id="bagger-email" readonly>
+                </div>
+                <!-- Email de l'hôte -->
+                <div class="form-group">
+                  <label for="example-text-input">Votre email</label>
+                  <input class="form-control" type="text" v-model="contact.email" id="host-email">
+                </div>
+                <!-- Titre de l'email -->
+                <div class="form-group">
+                  <label for="example-text-input">Titre de l'email</label>
+                  <input class="form-control" type="text" v-model="contact.title" id="email-title">
+                </div>
+                <!-- Texte de l'email -->
+                <div class="form-group">
+                  <label for="example-text-input">Texte de l'email</label>
+                  <textarea class="form-control" v-model="contact.body" id="email-content"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-primary" @click="sendEmail()">Envoyer</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <script src="full-data.js"></script>
-  <!-- <script src="fake-data.js"></script> -->
+  <!-- <script src="full-data.js"></script> -->
+  <script src="fake-data.js"></script>
   <script src="js/vue-app.js"></script>
   <script>
     $(document).ready(function() {

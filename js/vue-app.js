@@ -27,10 +27,18 @@ new Vue({
     selectedCity: null,
     cities: baggerData.cities,
     baggers: baggerData.speakers,
-    baggersFilteredCount: baggerData.speakers.length
+    baggersFilteredCount: baggerData.speakers.length,
+    contact: {
+      success: false,
+      error: null,
+      bagger: null,
+      email: null,
+      title: null,
+      body: null
+    }
   },
   methods: {
-    // TODO Better way to do it?
+    // Filter baggers list
     filtered: function(baggers) {
       if (this.filtering === '' && !this.selectedCity) {
         return baggers;
@@ -45,10 +53,43 @@ new Vue({
       this.baggersFilteredCount = filteredList.length;
       return filteredList;
     },
+    // Toggle the abstract for a presentation
     toggleAbstract: function(session) {
-      console.log('open abstract', session);
       session.opened = !session.opened;
       session.name = session.name + ' fbkj'
+    },
+    // Open contact modal
+    openContactModal: function(bagger) {
+      this.contact = {
+        success: false,
+        error: null,
+        bagger: bagger.contacts.mail,
+        email: null,
+        title: 'Contact pour un BBL',
+        body: null
+      }
+      $('#contact-modal').modal('show');
+    },
+    // Envoi de l'email
+    sendEmail: function() {
+      $.ajax({
+        url: "http://nodemailsender.herokuapp.com/mail",
+        data: {
+          from: this.contact.email,
+          to: this.contact.bagger,
+          subject: this.contact.title,
+          message: this.contact.body
+        },
+        type: 'POST',
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        success: function(data) {
+          this.contact.success = true;
+          $('#contact-modal').modal('hide');
+        }.bind(this),
+        error: function(xhr, status, errorThrown) {
+          this.contact.error = xhr.responseText;
+        }.bind(this)
+      });
     }
   }
 });
