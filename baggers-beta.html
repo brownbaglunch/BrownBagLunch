@@ -79,7 +79,7 @@
 
           <!-- Liste (filtrée) des baggers... -->
           <div class="row justify-content-center">
-            <div v-for="bagger in filtered(baggers)" class="col-6">
+            <div v-for="bagger in filtered(baggers)" class="col-sm-6 col-xs-12">
               <div class="bagger">
                 <a :id="bagger.id"></a>
                 <div :class="'bagger-header ' + bagger.mainCity">
@@ -91,11 +91,11 @@
 
                 <div class="bagger-bio">
                   <div class="row">
-                    <div class="col-9">
+                    <div class="col-xs-8 col-sm-9">
                       <h4 class="bagger-name"><a :href="'#' + bagger.id">{{ bagger.name }}</a></h4>
                       <p v-html="bagger.bio"></p>
                     </div>
-                    <div class="col-3 text-right">
+                    <div class="col-xs-4 col-sm-3 text-right">
                       <a href="#" class="btn btn-primary" @click="openContactModal(bagger)"><i class="fa fa-cutlery"></i> Inviter</a>
                     </div>
                   </div>
@@ -204,14 +204,26 @@
     </div>
   </div>
 
-  <script src="full-data.js"></script>
-  <!-- <script src="fake-data.js"></script> -->
+  <!-- Footer -->
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <a class="navbar-brand" href="#">BrownBagLunch</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/brownbaglunch/bblfr_data" target="_blank"><i class="fa fa-github-alt"></i> Rejoignez la communauté des baggers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/bbl_fr" target="_blank"><i class="fa fa-twitter"></i> @bbl_fr</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Retrieve bagger list... -->
+  <script src="http://data.brownbaglunch.fr/baggers.js"></script>
+  <!-- Clean that data... -->
   <script src="js/clean-bagger-data.js"></script>
+  <!-- ... then start the VueJS application. -->
   <script src="js/vue-app.js"></script>
-  <script>
-    $(document).ready(function() {
-      //$('[data-toggle="popover"]').popover();
-    });
-  </script>
 </body>
 </html>
