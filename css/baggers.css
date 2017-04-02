@@ -33,32 +33,31 @@
   font-family: 'Lobster', cursive;
 	font-size: 40px;
 }
+/* Image for the header of the bagger card */
 .bagger-header.aix-en-provence { background: url(../images/villes/aix-en-provence.jpg) no-repeat center center; }
 .bagger-header.avignon { background: url(../images/villes/avignon.jpg) no-repeat center center; color: white; }
 .bagger-header.bayonne { background: url(../images/villes/bayonne.jpg) no-repeat center center; }
 .bagger-header.bordeaux { background: url(../images/villes/bordeaux.jpg) no-repeat center center; color: white; }
-.bagger-header.paris { background: url(../images/villes/paris.jpg) no-repeat center center; }
-
-/* A FAIRE */
 .bagger-header.brest { background: url(../images/villes/brest.jpg) no-repeat center center; }
 .bagger-header.clermont-ferrand { background: url(../images/villes/clermont-ferrand.jpg) no-repeat center center; }
 .bagger-header.grenoble { background: url(../images/villes/grenoble.jpg) no-repeat center center; }
-.bagger-header.le-mans { background: url(../images/villes/le-mans.jpg) no-repeat center center; }
-.bagger-header.lille { background: url(../images/villes/lille.jpg) no-repeat center center; }
-.bagger-header.lyon { background: url(../images/villes/lyon.jpg) no-repeat center center; }
-.bagger-header.montpellier { background: url(../images/villes/montpellier.jpg) no-repeat center center; }
-.bagger-header.montreal { background: url(../images/villes/montreal.jpg) no-repeat center center; }
-.bagger-header.nantes { background: url(../images/villes/nantes.jpg) no-repeat center center; }
+.bagger-header.le-mans { background: url(../images/villes/le-mans.jpg) no-repeat center center; color: white; }
+.bagger-header.lille { background: url(../images/villes/lille.jpg) no-repeat center center; color: white; }
+.bagger-header.lyon { background: url(../images/villes/lyon.jpg) no-repeat center center; color: white; }
+.bagger-header.montpellier { background: url(../images/villes/montpellier.jpg) no-repeat center center; color: white; }
+.bagger-header.montreal { background: url(../images/villes/montreal.jpg) no-repeat center center; color: white; }
+.bagger-header.nantes { background: url(../images/villes/nantes.jpg) no-repeat center center; color: white; }
+.bagger-header.paris { background: url(../images/villes/paris.jpg) no-repeat center center; }
 .bagger-header.rennes { background: url(../images/villes/rennes.jpg) no-repeat center center; }
-.bagger-header.rouen { background: url(../images/villes/rouen.jpg) no-repeat center center; }
-.bagger-header.saint-etienne { background: url(../images/villes/saint-etienne.jpg) no-repeat center center; }
+.bagger-header.rouen { background: url(../images/villes/rouen.jpg) no-repeat center center; color: white; }
+.bagger-header.saint-etienne { background: url(../images/villes/saint-etienne.jpg) no-repeat center center; color: white; }
 .bagger-header.sophia-antipolis { background: url(../images/villes/sophia-antipolis.jpg) no-repeat center center; }
-.bagger-header.strasbourg { background: url(../images/villes/strasbourg.jpg) no-repeat center center; }
+.bagger-header.strasbourg { background: url(../images/villes/strasbourg.jpg) no-repeat center center; color: white; }
 .bagger-header.toulon { background: url(../images/villes/toulon.jpg) no-repeat center center; }
-.bagger-header.toulouse { background: url(../images/villes/toulouse.jpg) no-repeat center center; }
-.bagger-header.tours { background: url(../images/villes/tours.jpg) no-repeat center center; }
-.bagger-header.vannes { background: url(../images/villes/vannes.jpg) no-repeat center center; }
-.bagger-header.versailles { background: url(../images/villes/versailles.jpg) no-repeat center center; }
+.bagger-header.toulouse { background: url(../images/villes/toulouse.jpg) no-repeat center center; color: white; }
+.bagger-header.tours { background: url(../images/villes/tours.jpg) no-repeat center center; color: white; }
+.bagger-header.vannes { background: url(../images/villes/vannes.jpg) no-repeat center center; color: white; }
+.bagger-header.versailles { background: url(../images/villes/versailles.jpg) no-repeat center center; color: white; }
 /* A FAIRE PLUS TARD (ville en seconde position au moins) */
 /*
 .bagger-header.belfort { background: url(../images/villes/belfort.jpg) no-repeat center center; }

@@ -81,7 +81,7 @@
           <div class="row justify-content-center">
             <div v-for="bagger in filtered(baggers)" class="col-6">
               <div class="bagger">
-                <div :class="'bagger-header ' + bagger.cities[0].toLowerCase()">
+                <div :class="'bagger-header ' + bagger.mainCity">
                   {{ bagger.cities[0] }}
                   <div class="bagger-picture">
                     <img :src="bagger.picture" :alt="bagger.name">
@@ -203,6 +203,7 @@
 
   <script src="full-data.js"></script>
   <!-- <script src="fake-data.js"></script> -->
+  <script src="js/clean-bagger-data.js"></script>
   <script src="js/vue-app.js"></script>
   <script>
     $(document).ready(function() {
