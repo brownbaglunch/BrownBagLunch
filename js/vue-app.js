@@ -1,25 +1,5 @@
 'use strict';
 
-var baggerData = window.FAKE_DATA;
-
-for (var speak in baggerData.speakers) {
-  var speaker = baggerData.speakers[speak];
-  for (var session in speaker.sessions) {
-    speaker.sessions[session].opened = false;
-  }
-  for (var i = 0; i < speaker.cities.length; i++) {
-    var city = speaker.cities[i];
-    var c = baggerData.cities[city];
-    if (c) {
-      if (c.baggers) {
-        c.baggers++;
-      } else {
-        c.baggers = 1;
-      }
-    }
-  }
-}
-
 new Vue({
   el: '#app-vue',
   data: {
