@@ -108,7 +108,7 @@ function removeDiacritics (str) {
   });
 }
 
-var baggerData = window.FAKE_DATA;
+var baggerData = window.data;
 
 for (var speak in baggerData.speakers) {
   var speaker = baggerData.speakers[speak];

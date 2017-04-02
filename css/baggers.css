@@ -1,5 +1,6 @@
 .main-container {
 	padding-right: 0;
+	overflow-x: hidden;
 }
 
 .cities-title.list-group-item:first-child {
