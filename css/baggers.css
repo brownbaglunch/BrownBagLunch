@@ -89,6 +89,22 @@
   border: solid 8px #f7f7f9;
 }
 
+.bagger-name a {
+	color: black;
+	font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+.bagger-name a:hover {
+	text-decoration: none;
+}
+.bagger-name a:hover:before {
+	content: '\f0c1';
+	font-size: 80%;
+	color: #ccc;
+	margin-right: 5px;
+	font-family: FontAwesome;
+}
+
 .bagger-bio {
 	padding: 30px 1em 1em 1em;
 }

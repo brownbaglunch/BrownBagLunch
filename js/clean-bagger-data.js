@@ -112,6 +112,7 @@ var baggerData = window.FAKE_DATA;
 
 for (var speak in baggerData.speakers) {
   var speaker = baggerData.speakers[speak];
+  speaker.id = removeDiacritics(speaker.name.toLowerCase().replace(/ /g, '-'));
   for (var session in speaker.sessions) {
     speaker.sessions[session].opened = false;
   }

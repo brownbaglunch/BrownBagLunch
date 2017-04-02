@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brown Bag Lunch France - Baggers</title>
+
+  <meta name="description" content="Vous souhaitez amener de la discussion dans votre entreprise, découvrir de nouveaux sujets? Faites venir les meilleurs experts de votre ville dans vos locaux le temps d'un repas." />
+
+  <link rel="icon" href="favicon.ico"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" media="screen" href="css/baggers.css"/>
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <script type="text/javascript">
+/*
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38399904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    */
+    </script>
+</head>
+
+<body>
+  <div id="app-vue">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse sticky-top">
+      <a class="navbar-brand" href="#">BrownBagLunch</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html"><i class="fa fa-building"></i> Où proposer un BBL ?</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <div class="input-group">
+            <input type="text"
+                   class="form-control"
+                   style="width: 350px"
+                   placeholder="Chercher un(e) bagger, une technologie..."
+                   v-model="filtering">
+            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container-fluid main-container">
+      <div class="row">
+        <div class="col-12 col-sm-10">
+          <div class="alert alert-success" v-if="contact.success" role="alert">
+            <i class="fa fa-envelope-o"></i> Votre email a bien été envoyé à <strong>{{ contact.bagger }}</strong>. Bon BBL !
+          </div>
+
+          <h1>{{ baggersFilteredCount }} baggers</h1>
+
+          <div class="row" v-if="baggersFilteredCount === 0">
+            <div class="col-12">
+              <h4><i class="fa fa-search text-danger"></i> Aucune personne correspondante à vos critères n'a été trouvée...</h4>
+            </div>
+          </div>
+
+          <!-- Liste (filtrée) des baggers... -->
+          <div class="row justify-content-center">
+            <div v-for="bagger in filtered(baggers)" class="col-6">
+              <div class="bagger">
+                <a :id="bagger.id"></a>
+                <div :class="'bagger-header ' + bagger.mainCity">
+                  {{ bagger.cities[0] }}
+                  <div class="bagger-picture">
+                    <img :src="bagger.picture" :alt="bagger.name">
+                  </div>
+                </div>
+
+                <div class="bagger-bio">
+                  <div class="row">
+                    <div class="col-9">
+                      <h4 class="bagger-name"><a :href="'#' + bagger.id">{{ bagger.name }}</a></h4>
+                      <p v-html="bagger.bio"></p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <a href="#" class="btn btn-primary" @click="openContactModal(bagger)"><i class="fa fa-cutlery"></i> Inviter</a>
+                    </div>
+                  </div>
+                  <span class="text-muted"><i class="fa fa-map-marker"></i> {{ bagger.location }}</span>
+                </div>
+
+                <div class="bagger-presentations">
+                  <ul class="list-group list-group-flush bagger-sessions">
+                    <li class="list-group-item bagger-session" v-for="session in bagger.sessions">
+                      <span class="bagger-session-title" @click="session.opened = !session.opened">
+                        <i v-if="!session.opened" class="fa fa-caret-right"></i>
+                        <i v-if="session.opened" class="fa fa-caret-down"></i>
+                        {{ session.title }}
+                      </span>
+                      <div>
+                        <span v-for="tag in session.tags" class="badge badge-pill badge-info">{{ tag }}</span>
+                      </div>
+                      <div v-if="session.opened" class="bagger-session-abstract">
+                        <blockquote class="blockquote" v-html="session.abstract"></blockquote>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bagger-links">
+                  <span v-if="bagger.contacts.twitter">
+                    <a :href="'https://twitter.com/' + bagger.contacts.twitter" target="_blank"><i class="fa fa-twitter"></i> @{{ bagger.contacts.twitter }}</a>
+                  </span>
+                  <span v-for="site in bagger.websites">
+                    <a :href="site.url" target="_blank"><i class="fa fa-globe"></i> {{ site.name }}</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liste des villes -->
+        <div class="col-sm-2">
+          <ul class="list-group cities-list">
+            <li class="list-group-item list-group-item-inverse cities-title">Choisissez la ville</li>
+            <li class="list-group-item justify-content-between list-group-item-action city-menu"
+                :class="{ active: selectedCity === null }"
+                @click="selectedCity = null">
+              Toutes les villes <span class="badge badge-primary badge-pill">{{ baggers.length }}</span>
+            </li>
+            <li class="list-group-item justify-content-between list-group-item-action city-menu"
+                :class="{ active: selectedCity === city.name }"
+                v-for="city in cities"
+                @click="selectedCity = city.name">
+              {{ city.name }}
+              <span class="badge badge-primary badge-pill">{{ city.baggers }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact modal -->
+    <div class="modal bd-example-modal-lg fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-calendar"></i> Prendre rendez-vous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-danger" v-if="contact.error" role="alert">
+              <i class="fa fa-warning"></i> Une erreur est survenue lors de l'envoi de l'email à <strong>{{ contact.bagger }}</strong>.
+              <br>
+              <code>{{ contact.error }}</code>
+            </div>
+            <form>
+              <div class="container">
+                <p>Vous voulez plus d'information sur une session ou vous souhaitez définir une date pour une session ?</p>
+                <!-- Email du bagger -->
+                <div class="form-group">
+                  <label for="example-text-input">Email du bagger</label>
+                  <input class="form-control" type="text" v-model="contact.bagger" id="bagger-email" readonly>
+                </div>
+                <!-- Email de l'hôte -->
+                <div class="form-group">
+                  <label for="example-text-input">Votre email</label>
+                  <input class="form-control" type="text" v-model="contact.email" id="host-email">
+                </div>
+                <!-- Titre de l'email -->
+                <div class="form-group">
+                  <label for="example-text-input">Titre de l'email</label>
+                  <input class="form-control" type="text" v-model="contact.title" id="email-title">
+                </div>
+                <!-- Texte de l'email -->
+                <div class="form-group">
+                  <label for="example-text-input">Texte de l'email</label>
+                  <textarea class="form-control" v-model="contact.body" id="email-content"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-primary" @click="sendEmail()">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="full-data.js"></script>
+  <!-- <script src="fake-data.js"></script> -->
+  <script src="js/clean-bagger-data.js"></script>
+  <script src="js/vue-app.js"></script>
+  <script>
+    $(document).ready(function() {
+      //$('[data-toggle="popover"]').popover();
+    });
+  </script>
+</body>
+</html>
