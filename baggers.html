@@ -42,6 +42,7 @@
 <body>
   <div id="app-vue">
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse sticky-top">
+      <span class="logo">BBL</span>
       <a class="navbar-brand" href="#">BrownBagLunch</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -63,7 +64,26 @@
     </nav>
 
     <div class="container-fluid main-container">
-      <div class="row">
+
+      <div class="row" v-if="!appliInitialized">
+        <!--<div class="col-12" >
+          <h1>Nous retrouvons la liste des baggers... Une petite minute !</h1>
+
+          <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+          </div>
+        </div>-->
+      </div>
+
+      <div class="row" v-cloak>
         <div class="col-12 col-sm-10">
           <div class="alert alert-success" v-if="contact.success" role="alert">
             <i class="fa fa-envelope-o"></i> Votre email a bien été envoyé à <strong>{{ contact.bagger }}</strong>. Bon BBL !

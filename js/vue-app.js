@@ -3,6 +3,7 @@
 new Vue({
   el: '#app-vue',
   data: {
+    appliInitialized: false,
     filtering: '',
     selectedCity: null,
     cities: baggerData.cities,
@@ -16,6 +17,13 @@ new Vue({
       title: null,
       body: null
     }
+  },
+  created: function() {
+    console.log('created');
+  },
+  mounted: function() {
+    console.log('mounted');
+    this.appliInitialized = true;
   },
   methods: {
     // Filter baggers list
