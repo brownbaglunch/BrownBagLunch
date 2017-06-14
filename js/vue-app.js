@@ -18,11 +18,7 @@ new Vue({
       body: null
     }
   },
-  created: function() {
-    console.log('created');
-  },
   mounted: function() {
-    console.log('mounted');
     this.appliInitialized = true;
   },
   methods: {
