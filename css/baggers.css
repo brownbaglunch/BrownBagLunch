@@ -282,4 +282,16 @@
   }
 }
 
+.loading-message {
+  transition: display 1s;
+}
 
+[v-cloak] {
+  display: none;
+}
+.inverse-cloak[v-cloak] {
+  display: block;
+}
+.inverse-cloak:not([v-cloak]) {
+  display: none;
+}
