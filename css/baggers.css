@@ -1,9 +1,297 @@
-.bagger,
-.session {
-	/*
-	Workaround for the navbar hiding the titles when navigating to an anchor.
-	Cf. https://github.com/twbs/bootstrap/issues/1768
-	*/
-    margin-top: -60px;
-    padding-top: 60px;
+.main-container {
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+.cities-title.list-group-item:first-child {
+  border-radius: 0;
+  background-color: #292B2C;
+  color: white;
+}
+
+.city-menu {
+  font-size: 80%;
+  padding: 3px;
+  cursor: pointer;
+}
+.city-menu.active .badge {
+  background-color: white;
+  color: #0275D8;
+}
+
+.bagger {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bagger-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-size: cover;
+  height: 150px;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+/* Image for the header of the bagger card */
+.bagger-header.aix-en-provence { background: url(../images/villes/aix-en-provence.jpg) no-repeat center center; }
+.bagger-header.avignon { background: url(../images/villes/avignon.jpg) no-repeat center center; color: white; }
+.bagger-header.bayonne { background: url(../images/villes/bayonne.jpg) no-repeat center center; }
+.bagger-header.bordeaux { background: url(../images/villes/bordeaux.jpg) no-repeat center center; color: white; }
+.bagger-header.brest { background: url(../images/villes/brest.jpg) no-repeat center center; }
+.bagger-header.clermont-ferrand { background: url(../images/villes/clermont-ferrand.jpg) no-repeat center center; }
+.bagger-header.grenoble { background: url(../images/villes/grenoble.jpg) no-repeat center center; }
+.bagger-header.le-mans { background: url(../images/villes/le-mans.jpg) no-repeat center center; color: white; }
+.bagger-header.lille { background: url(../images/villes/lille.jpg) no-repeat center center; color: white; }
+.bagger-header.lyon { background: url(../images/villes/lyon.jpg) no-repeat center center; color: white; }
+.bagger-header.montpellier { background: url(../images/villes/montpellier.jpg) no-repeat center center; color: white; }
+.bagger-header.montreal { background: url(../images/villes/montreal.jpg) no-repeat center center; color: white; }
+.bagger-header.nantes { background: url(../images/villes/nantes.jpg) no-repeat center center; color: white; }
+.bagger-header.paris { background: url(../images/villes/paris.jpg) no-repeat center center; }
+.bagger-header.rennes { background: url(../images/villes/rennes.jpg) no-repeat center center; }
+.bagger-header.rouen { background: url(../images/villes/rouen.jpg) no-repeat center center; color: white; }
+.bagger-header.saint-etienne { background: url(../images/villes/saint-etienne.jpg) no-repeat center center; color: white; }
+.bagger-header.sophia-antipolis { background: url(../images/villes/sophia-antipolis.jpg) no-repeat center center; }
+.bagger-header.strasbourg { background: url(../images/villes/strasbourg.jpg) no-repeat center center; color: white; }
+.bagger-header.toulon { background: url(../images/villes/toulon.jpg) no-repeat center center; }
+.bagger-header.toulouse { background: url(../images/villes/toulouse.jpg) no-repeat center center; color: white; }
+.bagger-header.tours { background: url(../images/villes/tours.jpg) no-repeat center center; color: white; }
+.bagger-header.vannes { background: url(../images/villes/vannes.jpg) no-repeat center center; color: white; }
+.bagger-header.versailles { background: url(../images/villes/versailles.jpg) no-repeat center center; color: white; }
+/* A FAIRE PLUS TARD (ville en seconde position au moins) */
+/*
+.bagger-header.belfort { background: url(../images/villes/belfort.jpg) no-repeat center center; }
+.bagger-header.besancon { background: url(../images/villes/besancon.jpg) no-repeat center center; }
+.bagger-header.biarritz { background: url(../images/villes/biarritz.jpg) no-repeat center center; }
+.bagger-header.chartres { background: url(../images/villes/chartres.jpg) no-repeat center center; }
+.bagger-header.mulhouse { background: url(../images/villes/mulhouse.jpg) no-repeat center center; }
+.bagger-header.nancy { background: url(../images/villes/nancy.jpg) no-repeat center center; }
+.bagger-header.orleans { background: url(../images/villes/orleans.jpg) no-repeat center center; }
+.bagger-header.saint-jean-de-luz { background: url(../images/villes/saint-jean-de-luz.jpg) no-repeat center center; }
+.bagger-header.san-sebastien { background: url(../images/villes/san-sebastien.jpg) no-repeat center center; }
+.bagger-header.saint-quentin-en-yvelines { background: url(../images/villes/saint-quentin-en-yvelines.jpg) no-repeat center center; }
+.bagger-header.vesoul { background: url(../images/villes/vesoul.jpg) no-repeat center center; }
+*/
+
+.bagger-picture {
+  display: inline-block;
+  top: -35px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  z-index: 128;
+}
+.bagger-picture img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: solid 8px #f7f7f9;
+  background: url(../images/profile.png) no-repeat center center white;
+  background-size: contain;
+}
+
+.bagger-name a {
+  color: black;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+.bagger-name a:hover {
+  text-decoration: none;
+}
+.bagger-name a:hover:before {
+  content: '\f0c1';
+  font-size: 80%;
+  color: #ccc;
+  margin-right: 5px;
+  font-family: FontAwesome;
+}
+
+.bagger-bio {
+  padding: 30px 1em 1em 1em;
+}
+
+.bagger-presentations {
+  border-top: solid 1px #ccc;
+}
+.bagger-presentations span.badge {
+  margin-left: 5px;
+}
+.bagger-session-title {
+  cursor: pointer;
+}
+.bagger-session-abstract {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.bagger-session-abstract blockquote.blockquote {
+  font-size: inherit;
+}
+
+
+.bagger-links {
+  border-top: solid 1px #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #f7f7f9;
+  padding: 1em;
+}
+.bagger-links > span {
+  margin-right: 10px;
+}
+
+.copyrights {
+	color: #ccc;
+	font-size: 12px;
+}
+
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #333;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+
+
+/* Spinning logo, from https://codepen.io/arthurcamara1/pen/QgKjov */
+
+:root {
+  --color-bg: #292B2C;
+  --color-primary: #EF5B7E;
+  --color-secondary: #59C2AA;
+  --size-logo: 3rem;
+  --font-family: 'Fredoka One', sans-serif;
+  --animation-speed: 10s;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: var(--size-logo);
+  height: var(--size-logo);
+  color: var(--color-bg);
+  font-size: calc(var(--size-logo) * .35);
+  font-weight: bold;
+  font-family: var(--font-family);
+  user-select: none;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo::after,
+.logo::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: calc(var(--size-logo) * .3);
+  mix-blend-mode: color-dodge;
+}
+
+.logo::before {
+  background-color: var(--color-primary);
+  transform: rotate(-30deg);
+  z-index: -2;
+  animation: rotate1 var(--animation-speed) linear infinite;
+}
+
+.logo::after {
+  background-color: var(--color-secondary);
+  transform: rotate(20deg);
+  z-index: -1;
+  animation: rotate2 calc(var(--animation-speed) * .9) linear infinite;
+}
+
+@keyframes rotate1 {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(330deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(380deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+
+.loading-message {
+  transition: display 1s;
+}
+
+[v-cloak] {
+  display: none;
+}
+.inverse-cloak[v-cloak] {
+  display: block;
+}
+.inverse-cloak:not([v-cloak]) {
+  display: none;
 }
