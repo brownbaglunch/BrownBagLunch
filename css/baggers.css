@@ -28,7 +28,7 @@
 .bagger-header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-size: cover;
+  background-size: cover !important;
   height: 150px;
   padding: 10px;
   font-family: 'Lobster', cursive;
