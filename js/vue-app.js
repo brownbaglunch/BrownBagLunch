@@ -17,6 +17,16 @@ new Vue({
       body: null
     }
   },
+  computed: {
+    displayedBaggers: function(){
+      var filtered = this.filtered(this.baggers);
+      return filtered.sort(function(bagger1, bagger2){
+        if (bagger1.name < bagger2.name) return -1;
+        if (bagger1.name > bagger2.name) return 1;
+        return 0;
+      })
+    }
+  },
   methods: {
     // Filter baggers list
     filtered: function(baggers) {
