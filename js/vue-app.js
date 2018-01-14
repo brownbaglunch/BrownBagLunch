@@ -17,6 +17,14 @@ new Vue({
       body: null
     }
   },
+  computed: {
+    displayedBaggers: function(){
+      var filtered = this.filtered(this.baggers);
+      return filtered.sort(function(bagger1, bagger2){
+        return bagger1.name.localeCompare(bagger2.name);
+      })
+    }
+  },
   methods: {
     // Filter baggers list
     filtered: function(baggers) {
