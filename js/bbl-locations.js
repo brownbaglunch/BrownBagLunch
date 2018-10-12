@@ -175,6 +175,22 @@ var bblLocationsData = {
                 "profiles": "Développeur(euse), Chef de projet, Webdesigner, Ergonome, Ingénieur, Start-uper, Recruteur, Freelance, Formateur, consultant, étudiants",
                 "number": "de 1 à 50 personnes (ouvert à tous)"
             }
+        },
+        {
+            "pseudo": "CDiscount",
+            "name": "Cdiscount",
+            "address": "120-126 Quai de Bacalan, 33300 Bordeaux, 33000 Bordeaux",
+            "gps": "44.8607345,-0.5528003",
+            "website": "https://www.cdiscount.com/",
+            "contact": "laurent.romain@cdbdx.com",
+            "picture": "https://upload.wikimedia.org/wikipedia/fr/archive/7/74/20180105200058%21Logo-Cdiscount-baseline.png",
+            "interests": [
+                "Javascript", "Datascience", "OpenSource", "Java", "React", "Ecommerce", "Git", "Cloud", "Kubernetes", "Recrutement 2.0", "DevOps", "DotNet", "Python", "et tout ce qui touche au numérique."
+            ],
+            "audience": {
+                "profiles": "Développeur(euse), Chef de projet, Webdesigner, Ergonome, Ingénieur, Recruteur, Freelance, Data Scientistes",
+                "number": "de 1 à 100 personnes (ouvert à tous, et toutes les tailles de salle de réunion)"
+            }
         }
     ]
 };
