@@ -167,7 +167,7 @@ var bblLocationsData = {
             "gps": "47.995084, 0.188359",
             "website": "http://www.laruchenumerique.com",
             "contact": "contact@laruchenumerique.fr",
-            "picture": "http://laruchenumerique.olm.fr/wp-content/uploads/2013/11/logoruche.png",
+            "picture": "http://www.laruchenumerique.com/wp-content/uploads/2015/07/CCI-Ruche-Numerique-CMJN-01.png",
             "interests": [
                     "Webdesign", "Mobile", "Opendata", "Hacking", "Community management", "Java", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Symfony2", "Mooc", "Arduino", "et tout ce qui touche au numérique."
             ],
@@ -182,7 +182,7 @@ var bblLocationsData = {
             "address": "120-126 Quai de Bacalan, 33300 Bordeaux, 33000 Bordeaux",
             "gps": "44.8607345,-0.5528003",
             "website": "https://www.cdiscount.com/",
-            "contact": "laurent.romain@cdbdx.com",
+            "contact": "romain.laurent@cdiscount.com",
             "picture": "https://upload.wikimedia.org/wikipedia/fr/archive/7/74/20180105200058%21Logo-Cdiscount-baseline.png",
             "interests": [
                 "Javascript", "Datascience", "OpenSource", "Java", "React", "Ecommerce", "Git", "Cloud", "Kubernetes", "Recrutement 2.0", "DevOps", "DotNet", "Python", "et tout ce qui touche au numérique."
