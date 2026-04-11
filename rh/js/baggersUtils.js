@@ -62,7 +62,7 @@ function displayContactModalWindowMail() {
         $('#contact-send').click(function(e) {
             e.preventDefault();
 
-            $.ajax({ url: "http://nodemailsender.herokuapp.com/mail",
+            $.ajax({ url: "https://nodemailsender.herokuapp.com/mail",
                 data:{ from: $('#contact-from').val(), to: $('#contact-to').val(), subject: $('#contact-subject').val(), message: $('#contact-message').val()},
                 type: 'POST',
                 contentType: "application/x-www-form-urlencoded; charset=utf-8",
@@ -119,7 +119,7 @@ function getVillesAndBaggers(data) {
 
 ////// Oui, ce qui suit est un peu long
 //// On pourrait le faire avec une regexp, mais ce serait beaucoup plus long.
-//// cf. http://stackoverflow.com/a/18391901/345845
+//// cf. https://stackoverflow.com/a/18391901/345845
 //// Vu combien on affiche de sessions dans la page, vaut mieux que ça dépote
 var defaultDiacriticsRemovalap = [
     {'base':'A', 'letters':'\u0041\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F'},
@@ -218,7 +218,7 @@ for (var i=0; i < defaultDiacriticsRemovalap.length; i++){
     }
 }
 
-// "what?" version ... http://jsperf.com/diacritics/12
+// "what?" version ... https://jsperf.com/diacritics/12
 function removeDiacritics (str) {
     return str.replace(/[^\u0000-\u007E]/g, function(a){
        return diacriticsMap[a] || a;

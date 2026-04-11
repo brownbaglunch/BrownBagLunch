@@ -1,4 +1,4 @@
-// from: http://bgrins.github.io/devtools-snippets/#console-save
+// from: https://bgrins.github.io/devtools-snippets/#console-save
 (function(console){
 
     console.save = function(data, filename){

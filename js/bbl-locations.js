@@ -5,7 +5,7 @@ var bblLocationsData = {
             "name": "Association Orléans Tech Talks",
             "address": "1 Avenue Champ De Mars, 45100 Orléans",
             "gps": "47.893870, 1.894200",
-            "website": "http://orleans-tech.com/",
+            "website": "https://orleans-tech.com/",
             "contact": "contact [at] orleans-tech.org",
             "picture": "img/entreprises/orleanstech.png",
             "interests": [
@@ -21,7 +21,7 @@ var bblLocationsData = {
             "name": "La Cantine Numérique Tours",
             "address": "30, rue André Theuriet, 37000 Tours",
             "gps": "47.383442, 0.698555",
-            "website": "http://www.paloaltours.org/",
+            "website": "https://www.paloaltours.org/",
             "contact": "contact [at] paloaltours.org",
             "picture": "img/entreprises/paloaltours.png",
             "interests": [
@@ -37,9 +37,9 @@ var bblLocationsData = {
             "name": "Société Générale - SGCIB",
             "address": "Tours SG, La Défense (92)",
             "gps": "48.891601,2.229495",
-            "website": "http://www.societegenerale.fr",
+            "website": "https://www.societegenerale.fr",
             "contact": "Romain Linsolas (linsolas [at] gmail.com)",
-            "picture": "http://www.societegenerale.fr/images/eimm_logo.png",
+            "picture": "https://www.societegenerale.fr/images/eimm_logo.png",
             "interests": [
                     "Java", "Développement", "Développement Web", "Agilité"
             ],
@@ -53,7 +53,7 @@ var bblLocationsData = {
             "name": "Xebia IT Architects",
             "address": "156 boulevard Haussmann, 75009 Paris",
             "gps": "48.875329,2.311335",
-            "website": "http://www.xebia.fr/",
+            "website": "https://www.xebia.fr/",
             "contact": "Anne Beauchart (abeauchart [at] xebia.fr)",
             "picture": "img/entreprises/xebia.png",
             "interests": [
@@ -69,7 +69,7 @@ var bblLocationsData = {
             "name": "Kyriba",
             "address": "Bureaux de la Colline - Ascenseur F2, 3e étage - 1, rue Royale, 92210 St Cloud",
             "gps": "48.841805,2.220778",
-            "website": "http://www.kyriba.com/",
+            "website": "https://www.kyriba.com/",
             "contact": "François Sarradin (fsarradin [at] kyriba.fr)",
             "picture": "img/entreprises/kyriba.jpg",
             "interests": [
@@ -85,7 +85,7 @@ var bblLocationsData = {
             "name": "VIDAL",
             "address": "21 Rue Camille Desmoulins, Issy-les-Moulineaux",
             "gps": "48.830176,2.265197",
-            "website": "http://vidal.fr",
+            "website": "https://vidal.fr",
             "contact": "Tony Sokhon (tony.sokhon [at] vidal.fr)",
             "picture": "img/entreprises/vidal.jpg",
             "interests": [
@@ -101,7 +101,7 @@ var bblLocationsData = {
             "name": "Viseo Technologies",
             "address": "94-96 rue de Paris, 92100 Boulogne Billancourt",
             "gps": "48.838679,2.236555",
-            "website": "http://www.viseo.com/fr/offre/viseo-et-business-technologies",
+            "website": "https://www.viseo.com/fr/offre/viseo-et-business-technologies",
             "contact": "Wafa Salandre (wafa.salandre [at] viseo.com)",
             "picture": "img/viseo.png",
             "interests": [
@@ -117,7 +117,7 @@ var bblLocationsData = {
             "name": "Novencia Groupe",
             "address": "21 rue de la Banque, 75002 Paris",
             "gps": "48.868397,2.3404785",
-            "website": "http://www.novencia.com/",
+            "website": "https://www.novencia.com/",
             "contact": "Marlène Chevreux (marlene.chevreux [at] novencia.com)",
             "picture": "img/entreprises/novencia.jpg",
             "interests": [
@@ -133,7 +133,7 @@ var bblLocationsData = {
             "name": "GROUPE ADEO",
             "address": "rue Sadi Carnot, Ronchin",
             "gps": "50.605324,3.104282",
-            "website": "http://www.groupe-adeo.com/",
+            "website": "https://www.groupe-adeo.com/",
             "contact": "Cyril Lakech (@cyril_lakech)",
             "picture": "img/entreprises/adeo.png",
             "interests": [
@@ -149,9 +149,9 @@ var bblLocationsData = {
             "name": "CEFIM",
             "address": "32 avenue Marcel Dassault - 37200 Tours",
             "gps": "47.363285, 0.681463",
-            "website": "http://www.cefim.eu",
+            "website": "https://www.cefim.eu",
             "contact": "info[at]cefim.eu",
-            "picture": "http://www.cefim.eu/assets/logoCouleur.png",
+            "picture": "https://www.cefim.eu/assets/logoCouleur.png",
             "interests": [
                     "Webdesign", "Ios-Android", "Opendata", "Nosql", "Community management", "Ipv6", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Hacking", "Mooc"
             ],
@@ -165,9 +165,9 @@ var bblLocationsData = {
             "name": "Ruche Numérique",
             "address": "19 boulevard Marie et Alexandre Oyon - 72000 Le Mans",
             "gps": "47.995084, 0.188359",
-            "website": "http://www.laruchenumerique.com",
+            "website": "https://www.laruchenumerique.com",
             "contact": "contact@laruchenumerique.fr",
-            "picture": "http://www.laruchenumerique.com/wp-content/uploads/2015/07/CCI-Ruche-Numerique-CMJN-01.png",
+            "picture": "https://www.laruchenumerique.com/wp-content/uploads/2015/07/CCI-Ruche-Numerique-CMJN-01.png",
             "interests": [
                     "Webdesign", "Mobile", "Opendata", "Hacking", "Community management", "Java", "Git", "Cloud", "Virtualisation", "Recrutement 2.0", "Symfony2", "Mooc", "Arduino", "et tout ce qui touche au numérique."
             ],

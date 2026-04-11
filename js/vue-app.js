@@ -57,7 +57,7 @@ new Vue({
     // Envoi de l'email
     sendEmail: function() {
       $.ajax({
-        url: "http://nodemailsender.herokuapp.com/mail",
+        url: "https://nodemailsender.herokuapp.com/mail",
         data: {
           from: this.contact.email,
           to: this.contact.bagger,

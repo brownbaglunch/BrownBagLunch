@@ -15,7 +15,7 @@ Ajouter une ville :
 
 Si votre ville n'existe pas encore vous pouvez faire vous même le logo en vous basant sur les logos existants ([répertoire psd/](https://github.com/brownbaglunch/BrownBagLunch/tree/gh-pages/psd)).
 
-Pour trouver les coordonnées géographiques de votre ville, vous pouvez utiliser ce site : <http://www.latlong.net/>.
+Pour trouver les coordonnées géographiques de votre ville, vous pouvez utiliser ce site : <https://www.latlong.net/>.
 
 License :
 ---------
@@ -25,8 +25,8 @@ Vos contributions doivent être partagées avec la [License CC-BY-SA](https://gi
 Liens :
 -------
 
-* **Page d'accueil du BrownBagLunch FR** : <http://www.brownbaglunch.org/>
-* **La liste des baggers** : <http://www.brownbaglunch.org/baggers>
+* **Page d'accueil du BrownBagLunch FR** : <https://www.brownbaglunch.org/>
+* **La liste des baggers** : <https://www.brownbaglunch.org/baggers>
 
 Projet lié :
 ------------

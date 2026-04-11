@@ -1,5 +1,5 @@
 # CC-BY-SA
-This work is licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed), a Creative Commons License.
+This work is licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed), a Creative Commons License.
 
 #### You are free:
 * to Share — to copy, distribute and transmit the work

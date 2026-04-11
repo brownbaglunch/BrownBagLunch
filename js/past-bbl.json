@@ -11,7 +11,7 @@
                 "headline": "Elastic Search, par David Pilato",
                 "text": "<p>Présentation d'Elastic Search par David Pilato à la SGCIB</p>",
                 "asset": {
-                    "media": "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
+                    "media": "https://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079.png",
                     "credit": "",
                     "caption": "David Pilato"
                 }
@@ -33,7 +33,7 @@
                 "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
                 "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin à la SGCIB</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
@@ -44,7 +44,7 @@
                 "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
                 "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Xebia</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
@@ -55,7 +55,7 @@
                 "headline": "Principes avancés du cache, par Mathilde Lemée",
                 "text": "<p>Présentation des principes avancés du cache par Mathilde Lemée à la SGCIB</p>",
                 "asset": {
-                    "media": "http://www.brownbaglunch.org/img/photo_mathilde.jpeg",
+                    "media": "https://www.brownbaglunch.org/img/photo_mathilde.jpeg",
                     "credit": "",
                     "caption": "Mathilde Lemée"
                 }
@@ -77,7 +77,7 @@
                 "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
                 "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez BNP</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
@@ -99,7 +99,7 @@
                 "headline": "Du JavaScript propre ? Challenge Accepted!, par Julien Jakubowski et Romain Linsolas",
                 "text": "<p>Comment coder proprement en JavaScript, à la SGCIB</p>",
                 "asset": {
-                    "media": "http://s3.amazonaws.com/askbob/users/photos/70/preview/carree.jpg",
+                    "media": "https://s3.amazonaws.com/askbob/users/photos/70/preview/carree.jpg",
                     "credit": "",
                     "caption": "Julien Jakubowski"
                 }
@@ -110,7 +110,7 @@
                 "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
                 "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Vidal</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/060/077/1aa37ac.jpg/",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
@@ -130,9 +130,9 @@
                 "startDate": "2013,4,24",
                 "endDate": "2013,4,24",
                 "headline": "Boucles étranges, par Eric Lefevre-Ardant et Guillaume Tardif",
-                "text": "<p>Balade dans du <a href='http://www.devoxx.com/display/FR13/Boucles+etranges+++etranges+boucles+%28puzzlers+et+curiosites%29'>code étrange</a>, à la SGCIB</p>",
+                "text": "<p>Balade dans du <a href='https://www.devoxx.com/display/FR13/Boucles+etranges+++etranges+boucles+%28puzzlers+et+curiosites%29'>code étrange</a>, à la SGCIB</p>",
                 "asset": {
-                    "media": "http://www.devoxx.com/download/attachments/6817032/thumbnail.gif?version=1&modificationDate=1361019326000",
+                    "media": "https://www.devoxx.com/download/attachments/6817032/thumbnail.gif?version=1&modificationDate=1361019326000",
                     "credit": "",
                     "caption": "Eric Lefevre-Ardant"
                 }
@@ -143,7 +143,7 @@
                 "headline": "Neo4J et Liquibase, par Florent Biville",
                 "text": "<p>Présentation de la base de données Neo4J et du gestionnaire Liquibase, chez Kyriba</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
                     "credit": "",
                     "caption": "Florent Biville"
                 }
@@ -154,7 +154,7 @@
                 "headline": "Développer un framework web en Scala qui poutre, par François Sarradin",
                 "text": "<p>Développement d'un framework web en Scala qui poutre, par François Sarradin chez Orsyp</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
+                    "media": "https://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
@@ -165,7 +165,7 @@
                 "headline": "Neo4J et Liquibase, par Florent Biville",
                 "text": "<p>Présentation de la base de données Neo4J et du gestionnaire Liquibase, à la SGCIB</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
+                    "media": "https://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/231/02a/0abe3b2.jpg",
                     "credit": "",
                     "caption": "Florent Biville"
                 }
@@ -176,7 +176,7 @@
                 "headline": "Domain-Driven Design dans un contexte legacy",
                 "text": "<p>Domain-Driven Design dans un contexte legacy, par Cyrille Martraire, chez Kyriba</p>",
                 "asset": {
-                    "media": "http://gravatar.com/avatar/51dec3feb906404b8564a3c31d1050f3.png",
+                    "media": "https://gravatar.com/avatar/51dec3feb906404b8564a3c31d1050f3.png",
                     "credit": "",
                     "caption": "Cyrille Martraire"
                 }
@@ -209,7 +209,7 @@
                 "headline": "Une Alternative à AOP",
                 "text": "<p>Une Alternative à AOP, par François Sarradin, chez Mappy</p>",
                 "asset": {
-                    "media": "http://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
+                    "media": "https://m.c.lnkd.licdn.com/media/p/7/000/240/3bd/3dea7b4.jpg",
                     "credit": "",
                     "caption": "François Sarradin"
                 }
