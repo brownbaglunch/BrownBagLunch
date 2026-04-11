@@ -28,4 +28,4 @@ Ajouter le nouveau bagger dans Google Groups (https://groups.google.com/forum/?f
 http://twitter.com/bbl_fr
 
 1. Faire en sorte que le compte Twitter `@bbl_fr` Suivre le compte Twitter du nouveau bagger, s'il en possède un.
-2. Annoncer sur Twitter l'arriver du nouveau bagger depuis le compte `@bbl_fr` (vérifier la présence dans le tweet du compte Twitter du bagger et le lien vers l'encart du bagger sur la page http://www.brownbaglunch.fr/baggers).
+2. Annoncer sur Twitter l'arriver du nouveau bagger depuis le compte `@bbl_fr` (vérifier la présence dans le tweet du compte Twitter du bagger et le lien vers l'encart du bagger sur la page http://www.brownbaglunch.org/baggers).
